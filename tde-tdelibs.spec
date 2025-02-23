@@ -485,9 +485,9 @@ cd %name
   -DWITH_TDEICONLOADER_DEBUG=OFF \
   -DUTEMPTER_HELPER=/usr/lib/utempter/utempter \
   -DLIBLTDL_LIBRARY="/usr/lib64/libltdl.so" \
+ ..
 #добавляем поддержку libltdl
-#  -DLIBLTDL_INCLUDE_DIR="/usr/include/libltdl" \
-  ..
+#  -DLIBLTDL_INCLUDE_DIR="/usr/include/libltdl" \ 
 
 %make_build || make
 
