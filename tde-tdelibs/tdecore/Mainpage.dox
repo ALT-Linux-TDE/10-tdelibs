@@ -1,0 +1,41 @@
+/** \mainpage The Trinity Core Library
+
+All Trinity programs use this library to provide basic functionality such
+as the configuration system, IPC, internationalization and locale
+support, site-independent access to the filesystem and a large number
+of other (but no less important) things.
+<p>
+All Trinity applications should link to the tdecore library. Also, using a
+TDEApplication derived class instead of TQApplication is almost
+mandatory if you expect your application to behave nicely within the
+Trinity environment.
+
+If you are unsure where to start, have a look at the
+<a href="http://www.trinitydesktop.org">tutorials on
+the Trinity project site</a> to get you going.
+
+If you know what you are looking for, you should be able to find it in
+the <a href="annotated.html">class list</a> or the
+<a href="modules.html">modules list</a>.
+
+@authors
+Various: see copyrights on individual files for more information
+
+@maintainers
+See the MAINTAINERS file.
+
+@licenses
+Library: @lgpl<br>
+Some helper utilities: @gpl
+
+*/
+
+/**
+
+\defgroup TrinityMacros Trinity Macros
+
+*/
+
+// DOXYGEN_EXCLUDE = malloc kde_file.h
+// DOXYGEN_SET_INPUT += @topdir@/tdemacros.h.cmake
+// DOXYGEN_SET_PROJECT_NAME = TrinityCore

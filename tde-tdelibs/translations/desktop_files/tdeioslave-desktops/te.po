@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 21:43+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Name
+#: bzip2/kbzip2filter.desktop:3
+msgid "BZip2 Filter"
+msgstr "బిజిప్2 గలని"
+
+#. Name
+#: gzip/kgzipfilter.desktop:3
+msgid "GZip Filter"
+msgstr "జిజిప్ గలని"
+
+#. Name
+#: http/http_cache_cleaner.desktop:3
+msgid "HTTP Cache Cleaner"
+msgstr "హెచ్ టిటిపి కోశం శుభ్రంచేసేది"
+
+#. Comment
+#: http/http_cache_cleaner.desktop:4
+msgid "Cleans up old entries from the HTTP cache"
+msgstr "హెచ్ టిటిపి కోశం నుంచి పాత ఆరొపములను శుభ్రం చేసేది"
+
+#. Name
+#: http/kcookiejar/kcookiejar.desktop:3
+msgid "KDED Cookie Jar Module"
+msgstr "కెడిఈడి కుకీ జాడి మాడ్యూల్"
+
+#. Comment
+#: http/kcookiejar/kcookiejar.desktop:4
+msgid "Keeps track of all cookies in the system"
+msgstr "వ్యవస్థలోని అన్ని కుకీల జాడని వుంచుకుంటుంది"
+
+#. Name
+#. Comment
+#: iso/isoservice.desktop:7 iso/isoservice.desktop:8
+msgid "ISO9660 View"
+msgstr ""
+
+#. Name
+#: iso/tdeio_iso.desktop:3
+msgid "ISO9660 Image Viewer"
+msgstr ""
+
+#. Name
+#: xz/kxzfilter.desktop:3
+msgid "XZ Filter"
+msgstr "జిజిప్ గలని"
+
+#. Description
+#: iso/iso.protocol:10
+msgid "A tdeioslave for ISO9660 filesystems"
+msgstr ""

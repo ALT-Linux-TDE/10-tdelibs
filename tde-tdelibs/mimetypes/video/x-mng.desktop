@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=video/x-mng
+Icon=image-x-generic
+Patterns=*.mng;*.MNG;
+Comment=MNG Image

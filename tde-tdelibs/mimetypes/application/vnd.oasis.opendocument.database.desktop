@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/vnd.oasis.opendocument.database
+Patterns=*.odb;*.ODB
+Icon=application-vnd.oasis.opendocument.database
+Comment=OASIS OpenDocument Database
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.odb

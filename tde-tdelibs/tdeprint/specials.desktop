@@ -1,0 +1,54 @@
+[General]
+Number=5
+
+[Printer 0]
+Name=Print to File (PostScript)
+Description=Write PostScript file
+Comment=Local file
+Icon=document-save
+Command=
+File=1
+Extension=ps
+Mimetype=application/postscript
+
+[Printer 1]
+Name=Print to File (PDF)
+Description=Write PDF/Acrobat file
+Comment=Local file
+Icon=acroread
+Command=ps2pdf
+File=1
+Extension=pdf
+Mimetype=application/pdf
+Require=exec:/ps2pdf
+
+[Printer 2]
+Name=Send to Fax
+Description=Send to external fax system
+Comment=External
+Icon=tdeprintfax
+Command=tdeprintfax %in
+File=0
+Extension=
+Require=exec:/tdeprintfax
+
+[Printer 3]
+Command=ps2pdf -sPAPERSIZE=%psl %in %out && tdemailservice 'mailto:?attachment=file:%out' && sleep 15 && rm -f %out
+Comment=Attachment for KMail Composer
+Description=Creates PDF/Acrobat file as attachment for KMail
+Extension=pdf
+Mimetype=application/pdf
+File=1
+Icon=kmail
+Name=Mail PDF File
+Require=exec:/ps2pdf,exec:/kmail
+
+[Printer 4]
+Command=ksendfax %in
+Comment=KSendFax
+Description=Use ksendfax to fax the current document
+Extension=
+File=0
+Icon=tdeprintfax
+Name=Advanced Faxing Tool (ksendfax)
+Require=exec:/ksendfax

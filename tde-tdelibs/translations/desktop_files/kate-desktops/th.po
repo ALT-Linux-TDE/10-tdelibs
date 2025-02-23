@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-02 14:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Name
+#: data/katepart.desktop:2
+msgid "Embedded Advanced Text Editor"
+msgstr "โปรแกรมแก้ไขข้อความขั้นสูงแบบฝังตัว"
+
+#. Name
+#: plugins/autobookmarker/tdetexteditor_autobookmarker.desktop:2
+msgid "KTextEditor Autobookmarker"
+msgstr "ตั้งที่คั่นหน้าอัตโนมัติ ของ KTextEditor"
+
+#. Comment
+#: plugins/autobookmarker/tdetexteditor_autobookmarker.desktop:3
+msgid "Set bookmarks on lines matching a pattern when documents are loaded"
+msgstr "ตั้งที่คั่นหน้าที่การจับคู่บรรทัดและรูปแบบ เมื่อมีการโหลดเอกสาร"
+
+#. Name
+#: plugins/insertfile/tdetexteditor_insertfile.desktop:2
+msgid "KTextEditor Insert File Plugin"
+msgstr "ปลักอินการแทรกแฟ้มของ KTextEditor"
+
+#. Comment
+#: plugins/insertfile/tdetexteditor_insertfile.desktop:3
+msgid "Insert any readable file at cursor position"
+msgstr "ทำการแทรกแฟ้มที่สามารถอ่านได้ที่ตำแหน่งของเคอร์เซอร์"
+
+#. Name
+#: plugins/isearch/tdetexteditor_isearch.desktop:2
+msgid "KTextEditor Incremental Search Plugin"
+msgstr "ปลักอินการค้นหาแบบทบเพิ่มของ KTextEditor"
+
+#. Comment
+#: plugins/isearch/tdetexteditor_isearch.desktop:3
+msgid "Also known as \"As you type search\""
+msgstr "หรือรู้จักกันอีกอย่างว่า \"ค้นหาขณะพิมพ์\""
+
+#. Name
+#: plugins/kdatatool/tdetexteditor_kdatatool.desktop:2
+msgid "KTextEditor KDataTool Plugin"
+msgstr "ปลักอินเครื่องมือ KData ของ KTextEditor"
+
+#. Comment
+#: plugins/kdatatool/tdetexteditor_kdatatool.desktop:3
+msgid "Enable data tools like thesaurus and spell check (if installed)"
+msgstr ""
+"เปิดใช้งานเครื่องมือจัดการข้อมูลอย่างเช่น พจนานุกรมคำคล้าย หรือ ตรวจคำสะกด (ถ้าได้ติดตั้งไว้)"
+
+#. Name
+#: plugins/wordcompletion/tdetexteditor_docwordcompletion.desktop:2
+msgid "KTextEditor Word Completion Plugin"
+msgstr "ปลักอินการเติมคำให้สมบูรณ์ของ KTextEditor"
+
+#. Comment
+#: plugins/wordcompletion/tdetexteditor_docwordcompletion.desktop:3
+msgid "Directional or popup-based completion from words in the document"
+msgstr "การเติมคำให้สมบูรณ์โดยการชี้นำหรือ popup ขึ้นมา จากคำต่างๆ ในเอกสาร"
+
+#. Name
+#: scripts/jstest.desktop:2
+msgid "Kate Part JavaScript Test"
+msgstr "ทดสอบจาวาสคริปต์ของ Kate"
+
+#. Comment
+#: scripts/jstest.desktop:3
+msgid "Script for testing kate part's scripting"
+msgstr "สคริปต์สำหรับทดสอบการเขียนสคริปต์ในส่วนของ Kate"

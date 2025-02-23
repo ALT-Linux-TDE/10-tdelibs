@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 21:00+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Name
+#: application.desktop:4
+msgid "Application"
+msgstr "应用程序"
+
+#. Name
+#: kcomprfilter.desktop:4
+msgid "TDE Compression Filter"
+msgstr "TDE 压缩过滤程序"
+
+#. Comment
+#: kdatatool.desktop:4
+msgid "TDE Data Tool"
+msgstr "TDE 数据工具"
+
+#. Name
+#: kpasswdserver.desktop:3
+msgid "KDED Password Module"
+msgstr "KDED 密码模块"
+
+#. Comment
+#: kpasswdserver.desktop:4
+msgid "Password caching support"
+msgstr "密码缓存支持"
+
+#. Name
+#: kscan.desktop:4
+msgid "KScan"
+msgstr ""
+
+#. Name
+#: kurifilterplugin.desktop:4
+msgid "Enhanced Browsing Plugin"
+msgstr "增强的浏览插件"
+
+#. Name
+#: misc/kpac/proxyscout.desktop:3
+msgid "Proxy Scout"
+msgstr "代理搜索"
+
+#. Comment
+#: misc/kpac/proxyscout.desktop:4
+msgid "Automatic proxy configuration"
+msgstr "自动代理配置"
+
+#. Name
+#: misc/kssld/kssld.desktop:9
+msgid "KSSL Daemon Module"
+msgstr "KSSL 守护进程模块"
+
+#. Comment
+#: misc/kssld/kssld.desktop:10
+msgid "KSSL daemon module for KDED"
+msgstr "KDED 的 KSSL 守护进程模块"
+
+#. Name
+#: misc/tdeio_uiserver.desktop:4
+msgid "tdeio_uiserver"
+msgstr ""
+
+#. Comment
+#: misc/tdeio_uiserver.desktop:5
+msgid "TDE's Progress Info UI server"
+msgstr "TDE 的进度信息用户界面服务器"
+
+#. Name
+#: misc/tdewalletd/tdewalletd.desktop:9
+msgid "TDEWallet Daemon Module"
+msgstr "TDEWallet 守护进程模块"
+
+#. Comment
+#: misc/tdewalletd/tdewalletd.desktop:10
+msgid "TDEWallet daemon module for KDED"
+msgstr "KDED 的 TDEWallet 守护进程模块"
+
+#. Comment
+#: renamedlgplugin.desktop:4
+msgid "Plugin for the Rename Dialog"
+msgstr "重命名对话的插件"
+
+#. Name
+#: tdecmodule.desktop:4
+msgid "TDE Control Module"
+msgstr "TDE 控制模块"
+
+#. Comment
+#: tdefile/kpropsdlgplugin.desktop:4
+msgid "Plugin for the Properties Dialog"
+msgstr "属性对话的插件"
+
+#. Name
+#: tdefileplugin.desktop:4
+msgid "KFile Meta Data Plugin"
+msgstr "KFile 元数据插件"
+
+#. Description
+#: data.protocol:8
+msgid "A tdeioslave for data URIs (rfc2397)"
+msgstr "data URI(rfc2397) 的 tdeioslave"
+
+#. Description
+#: misc/mms.protocol:11
+msgid "Microsoft Media Server Protocol"
+msgstr "Microsoft 媒体服务器协议"

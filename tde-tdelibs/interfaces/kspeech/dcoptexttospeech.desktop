@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=ServiceType
+X-TDE-ServiceType=DCOP/Text-to-Speech
+
+Comment=Text-to-Speech Service with a DCOP interface

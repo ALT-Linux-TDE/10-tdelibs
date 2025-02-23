@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Service
+Name=KMCOP
+Comment=TDE MCOP-DCOP Bridge
+Exec=kmcop
+Icon=kmcop
+X-TDE-ServiceTypes=KMCOP
+X-DCOP-ServiceType=Unique
+X-TDE-StartupNotify=false

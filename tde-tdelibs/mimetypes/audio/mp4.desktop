@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=audio/mp4
+Icon=audio-x-generic
+Patterns=*.m4a;*.M4A;
+Comment=MPEG-4 Audio
+X-TDE-IsAlso=video/quicktime

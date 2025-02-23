@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=audio/x-matroska
+Icon=audio-x-generic
+Patterns=*.mka;*.MKA;
+Comment=Matroska Audio

@@ -1,0 +1,8 @@
+[Misc]
+Name=Asteroid style
+Name[en]=Asteroid style
+Comment=Windows 2000 (codename: Asteroid) appearance
+Comment[en]=Windows 2000 (codename: Asteroid) appearance
+
+[KDE]
+WidgetStyle=Asteroid

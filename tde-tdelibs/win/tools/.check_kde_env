@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# checks current environment
+
+if [ -z "$KDEWIN" ] ; then 
+	echo `basename $0`": \$KDEWIN environment variable is not set. Set it to absolute path of tdelibs/win32 source code, e.g. C:\\tdelibs"
+	exit 1
+fi
+
+if [ -z "$TDEDIR" ] ; then 
+	echo `basename $0`": \$TDEDIR environment variable is not set. Set it to absolute path of tdelibs/win32 binaries, e.g. C:\\kde"
+	exit 1
+fi
+
+if [ -z "$KDELIBS" -o "$KDEWIN\\tdelibs" != "$KDELIBS" ] ; then 
+	echo `basename $0`": \$KDELIBS = \"$KDELIBS\" but \$KDEWIN = \"$KDEWIN\""
+	echo "\$KDELIBS environment variable is not properly set. Set it to absolute path of tdelibs/win32 source code. It needs to be equal to \"\$KDEWIN\\tdelibs\", e.g. C:\\kdewin32\\tdelibs".
+	echo "You may need to run:"
+	echo " source kde_env"
+	exit 1
+fi
+

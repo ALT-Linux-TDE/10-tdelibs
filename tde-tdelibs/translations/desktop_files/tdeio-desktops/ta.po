@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 21:00+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Name
+#: application.desktop:4
+msgid "Application"
+msgstr "பயன்பாடு"
+
+#. Name
+#: kcomprfilter.desktop:4
+msgid "TDE Compression Filter"
+msgstr "கேடிஇ அழுத்த வடிகட்டி"
+
+#. Comment
+#: kdatatool.desktop:4
+msgid "TDE Data Tool"
+msgstr "கேடிஇ தகவல் கருவி"
+
+#. Name
+#: kpasswdserver.desktop:3
+msgid "KDED Password Module"
+msgstr "KDED கடவுச்சொல் பகுதி"
+
+#. Comment
+#: kpasswdserver.desktop:4
+msgid "Password caching support"
+msgstr "கடவுச்சொல் சேமிக்க ஆதரவு"
+
+#. Name
+#: kscan.desktop:4
+msgid "KScan"
+msgstr "Kவருடல்"
+
+#. Name
+#: kurifilterplugin.desktop:4
+msgid "Enhanced Browsing Plugin"
+msgstr "மேம்படுத்திய உலாவும் சொருகுப்பொருள்"
+
+#. Name
+#: misc/kpac/proxyscout.desktop:3
+msgid "Proxy Scout"
+msgstr "பதிலாள் தேடு"
+
+#. Comment
+#: misc/kpac/proxyscout.desktop:4
+msgid "Automatic proxy configuration"
+msgstr "தானியக்க பதிலாள் வடிவமைப்பு"
+
+#. Name
+#: misc/kssld/kssld.desktop:9
+msgid "KSSL Daemon Module"
+msgstr "KSSL டெமான் பகுதி"
+
+#. Comment
+#: misc/kssld/kssld.desktop:10
+msgid "KSSL daemon module for KDED"
+msgstr "KDEDக்கான KSSL டெமான் பகுதி"
+
+#. Name
+#: misc/tdeio_uiserver.desktop:4
+msgid "tdeio_uiserver"
+msgstr "tdeio_uiசேவையகம்"
+
+#. Comment
+#: misc/tdeio_uiserver.desktop:5
+msgid "TDE's Progress Info UI server"
+msgstr "கேடிஇயின் முன்னேற்ற தகவல் முகப்புப் சேவையகம்"
+
+#. Name
+#: misc/tdewalletd/tdewalletd.desktop:9
+msgid "TDEWallet Daemon Module"
+msgstr "TDEWallet டெமான் பகுதி"
+
+#. Comment
+#: misc/tdewalletd/tdewalletd.desktop:10
+msgid "TDEWallet daemon module for KDED"
+msgstr "KDEDக்கான TDEWallet Daemon  தொகுதி"
+
+#. Comment
+#: renamedlgplugin.desktop:4
+msgid "Plugin for the Rename Dialog"
+msgstr "மறுபெயரிடல் உரையாடலுக்கான சொருகுப்பொருள்"
+
+#. Name
+#: tdecmodule.desktop:4
+msgid "TDE Control Module"
+msgstr "கேடிஇ கட்டுப்பாட்டு கூறு"
+
+#. Comment
+#: tdefile/kpropsdlgplugin.desktop:4
+msgid "Plugin for the Properties Dialog"
+msgstr "பண்புகள் உரையாடலுக்கான சொருகுப்பொருள்"
+
+#. Name
+#: tdefileplugin.desktop:4
+msgid "KFile Meta Data Plugin"
+msgstr "கேகோப்பு மெட்டா தகவல் சொருகுப்பொருள்"
+
+#. Description
+#: data.protocol:8
+msgid "A tdeioslave for data URIs (rfc2397)"
+msgstr "தரவு வலைமனைகளுக்கான ஒரு tdeioslave (rfc2397)"
+
+#. Description
+#: misc/mms.protocol:11
+msgid "Microsoft Media Server Protocol"
+msgstr "மைக்ரோசாப்ட் ஊடக சேவக நெறிமுறை"

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=KTextEditor Insert File Plugin
+Comment=Insert any readable file at cursor position
+X-TDE-Library=tdetexteditor_insertfile
+X-TDE-ServiceTypes=KTextEditor/Plugin
+Type=Service
+X-TDE-InitialPreference=8
+MimeType=text/plain

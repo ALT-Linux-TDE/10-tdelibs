@@ -1,0 +1,69 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# Slávek Banko <slavek.banko@axis.cz>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 21:43+0200\n"
+"PO-Revision-Date: 2020-08-16 19:10+0000\n"
+"Last-Translator: Slávek Banko <slavek.banko@axis.cz>\n"
+"Language-Team: Czech <https://mirror.git.trinitydesktop.org/weblate/projects/"
+"tdelibs/tdeioslave-desktop-files/cs/>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.1.1\n"
+
+#. Name
+#: bzip2/kbzip2filter.desktop:3
+msgid "BZip2 Filter"
+msgstr "Filtr BZip2"
+
+#. Name
+#: gzip/kgzipfilter.desktop:3
+msgid "GZip Filter"
+msgstr "Filtr GZip"
+
+#. Name
+#: http/http_cache_cleaner.desktop:3
+msgid "HTTP Cache Cleaner"
+msgstr "Nástroj pro vyprázdnění cache protokolu HTTP"
+
+#. Comment
+#: http/http_cache_cleaner.desktop:4
+msgid "Cleans up old entries from the HTTP cache"
+msgstr "Odstraňuje staré položky z HTTP cache"
+
+#. Name
+#: http/kcookiejar/kcookiejar.desktop:3
+msgid "KDED Cookie Jar Module"
+msgstr "KDED modul pro cookies"
+
+#. Comment
+#: http/kcookiejar/kcookiejar.desktop:4
+msgid "Keeps track of all cookies in the system"
+msgstr "Spravuje a sleduje cookies v systému"
+
+#. Name
+#. Comment
+#: iso/isoservice.desktop:7 iso/isoservice.desktop:8
+msgid "ISO9660 View"
+msgstr "Prohlížeč ISO9660"
+
+#. Name
+#: iso/tdeio_iso.desktop:3
+msgid "ISO9660 Image Viewer"
+msgstr "Prohlížeč obrazů ISO9660"
+
+#. Name
+#: xz/kxzfilter.desktop:3
+msgid "XZ Filter"
+msgstr "Filtr XZ"
+
+#. Description
+#: iso/iso.protocol:10
+msgid "A tdeioslave for ISO9660 filesystems"
+msgstr "TDEioslave pro souborový systém ISO9660"

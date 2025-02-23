@@ -1,0 +1,31 @@
+[Desktop Entry]
+Type=ServiceType
+X-TDE-ServiceType=KPluginInfo
+Name=TDE Plugin Information
+
+[PropertyDef::X-TDE-PluginInfo-Author]
+Type=TQString
+
+[PropertyDef::X-TDE-PluginInfo-Email]
+Type=TQString
+
+[PropertyDef::X-TDE-PluginInfo-Name]
+Type=TQString
+
+[PropertyDef::X-TDE-PluginInfo-Version]
+Type=TQString
+
+[PropertyDef::X-TDE-PluginInfo-Website]
+Type=TQString
+
+[PropertyDef::X-TDE-PluginInfo-Category]
+Type=TQString
+
+[PropertyDef::X-TDE-PluginInfo-Depends]
+Type=TQStringList
+
+[PropertyDef::X-TDE-PluginInfo-License]
+Type=TQString
+
+[PropertyDef::X-TDE-PluginInfo-EnabledByDefault]
+Type=bool

@@ -1,0 +1,192 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 20:06+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: eventsrc:3
+msgid "System Notifications"
+msgstr "Sistemska obvestila"
+
+#. Name
+#: eventsrc:6
+msgid "Trash: emptied"
+msgstr "Smeti: izpraznjeno"
+
+#. Comment
+#: eventsrc:7
+msgid "The trash has been emptied"
+msgstr "Smeti so spraznjene"
+
+#. Name
+#: eventsrc:11
+msgid "Textcompletion: rotation"
+msgstr "Dopolnjevanje: vrtenje"
+
+#. Comment
+#: eventsrc:12
+msgid "The end of the list of matches has been reached"
+msgstr "To je konec seznama zadetkov"
+
+#. Name
+#: eventsrc:16
+msgid "Textcompletion: no match"
+msgstr "Dopolnjevanje: ni ujemanja"
+
+#. Comment
+#: eventsrc:17
+msgid "No matching completion was found"
+msgstr "Ni najti ujemajočih se zadetkov"
+
+#. Name
+#: eventsrc:21
+msgid "Textcompletion: partial match"
+msgstr "Dopolnjevanje: delno ujemanje"
+
+#. Comment
+#: eventsrc:22
+msgid "There is more than one possible match"
+msgstr "Mogoč je več kakor en zadetek"
+
+#. Name
+#: eventsrc:26
+msgid "Cannot Open File"
+msgstr "Ni moč odpreti datoteke"
+
+#. Comment
+#: eventsrc:27
+msgid "The selected file cannot be opened for reading or writing"
+msgstr "Izbrane datoteke ni bilo moč odpreti za branje ali pisanje."
+
+#. Name
+#: eventsrc:31
+msgid "Fatal Error"
+msgstr "Usodna napaka"
+
+#. Comment
+#: eventsrc:32
+msgid "There was a serious error causing the program to exit"
+msgstr "Program se je končal zaradi resne napake"
+
+#. Name
+#: eventsrc:37
+msgid "Notification"
+msgstr "Obvestilo"
+
+#. Comment
+#: eventsrc:38
+msgid "Something special happened in the program"
+msgstr "V programu se je zgodilo nekaj izrednega"
+
+#. Name
+#: eventsrc:44
+msgid "Warning"
+msgstr "Opozorilo"
+
+#. Comment
+#: eventsrc:45
+msgid "There was an error in the program which may cause problems"
+msgstr "V programu je nastala napaka, ki lahko povzroči težave"
+
+#. Name
+#: eventsrc:50
+msgid "Catastrophe"
+msgstr "Katastrofa"
+
+#. Comment
+#: eventsrc:51
+msgid "A very serious error occurred, at least causing the program to exit"
+msgstr "Nastala je tako resna napaka, da se bo končal program."
+
+#. Name
+#: eventsrc:55
+msgid "Login"
+msgstr "Prijava"
+
+#. Comment
+#: eventsrc:56
+msgid "TDE is starting up"
+msgstr "TDE se zaganja"
+
+#. Name
+#: eventsrc:61
+msgid "Logout"
+msgstr "Odjava"
+
+#. Comment
+#: eventsrc:62
+msgid "TDE is exiting"
+msgstr "TDE se končuje"
+
+#. Name
+#: eventsrc:67
+msgid "Logout canceled"
+msgstr "Odjava preklicana"
+
+#. Comment
+#: eventsrc:68
+msgid "TDE logout was canceled"
+msgstr "Odjava iz TDE je bila preklicana"
+
+#. Name
+#: eventsrc:73
+msgid "Print error"
+msgstr "Napaka pri tiskanju"
+
+#. Comment
+#: eventsrc:74
+msgid "A print error has occurred"
+msgstr "Nastala je napaka pri tiskanju"
+
+#. Name
+#: eventsrc:79
+msgid "Information message"
+msgstr "Informativno sporočilo"
+
+#. Comment
+#: eventsrc:80
+msgid "An information message is being shown"
+msgstr "Prikazano je informativno sporočilo"
+
+#. Name
+#: eventsrc:86
+msgid "Warning message"
+msgstr "Opozorilno sporočilo"
+
+#. Comment
+#: eventsrc:87
+msgid "A warning message is being shown"
+msgstr "Prikazano je opozorilno sporočilo"
+
+#. Name
+#: eventsrc:94
+msgid "Critical message"
+msgstr "Kritično sporočilo"
+
+#. Comment
+#: eventsrc:95
+msgid "A critical message is being shown"
+msgstr "Prikazano je kritično sporočilo"
+
+#. Name
+#: eventsrc:102
+msgid "Question"
+msgstr "Vprašanje"
+
+#. Comment
+#: eventsrc:103
+msgid "A question is being asked"
+msgstr "Postavljeno je vprašanje"

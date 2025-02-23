@@ -1,0 +1,25 @@
+/** @mainpage The Trinity Daemon (KDED)
+
+KDED runs in the background and performs a number of small tasks.  Some
+of these tasks are built in, others are started on demand.
+<p>
+The chances are you are looking here because you want to write a
+KDED module.  For that, see KDEDModule in tdecore and the
+<a href="https://mirror.git.trinitydesktop.org/gitea/TDE/tdelibs/src/branch/master/kded">KDED
+README</a>.
+
+
+@authors
+David Faure \<dfaure@kde.org\><br>
+Waldo Bastian \<bastian@kde.org\>
+
+@maintainers
+[Unknown/None]
+
+@licenses
+@lgpl
+
+*/
+
+// DOXYGEN_REFERENCES = tdecore tdeui tdeio
+// DOXYGEN_SET_PROJECT_NAME = KDED

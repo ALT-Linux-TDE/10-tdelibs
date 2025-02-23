@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-gnumeric
+Icon=application-vnd.oasis.opendocument.spreadsheet
+Patterns=*.gnumeric;*.GNUMERIC;
+Comment=GNUmeric Spreadsheet

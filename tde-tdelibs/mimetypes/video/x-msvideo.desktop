@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=video/x-msvideo
+Icon=video-x-generic
+Patterns=*.avi;*.AVI;
+Comment=Microsoft AVI Video

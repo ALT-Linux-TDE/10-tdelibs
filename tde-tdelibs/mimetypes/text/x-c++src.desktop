@@ -1,0 +1,11 @@
+[Desktop Entry]
+Comment=C++ Source File
+Icon=text-x-c++src
+Type=MimeType
+MimeType=text/x-c++src
+Patterns=*.cpp;*.cxx;*.cc;*.C;*.CPP;
+X-TDE-IsAlso=text/plain
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

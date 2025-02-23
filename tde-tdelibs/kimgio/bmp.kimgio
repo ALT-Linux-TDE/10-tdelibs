@@ -1,0 +1,9 @@
+[Image Format]
+Type=BMP
+Header=
+Name=BMP Image
+Read=true
+Write=true
+Suffices=bmp,BMP
+Mimetype=image/x-bmp
+Library=

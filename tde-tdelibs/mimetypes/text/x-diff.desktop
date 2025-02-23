@@ -1,0 +1,11 @@
+[Desktop Entry]
+MimeType=text/x-diff
+Comment=Differences Between Files
+Icon=text-plain
+Type=MimeType
+Patterns=*.dif;*.diff;*.patch
+X-TDE-IsAlso=text/plain
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

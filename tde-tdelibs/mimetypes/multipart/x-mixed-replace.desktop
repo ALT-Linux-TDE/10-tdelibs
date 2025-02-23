@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=multipart/x-mixed-replace
+Patterns=
+Comment=Stream of Data (Server Push)
+X-TDE-AutoEmbed=true

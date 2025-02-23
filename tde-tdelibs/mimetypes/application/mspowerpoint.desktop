@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/mspowerpoint
+Icon=application-vnd.oasis.opendocument.presentation
+X-TDE-IsAlso=application/vnd.ms-powerpoint
+Patterns=*.ppz;*.PPZ;*.ppt;*.PPT;*.pps;*.PPS;
+Comment=Microsoft PowerPoint Presentation

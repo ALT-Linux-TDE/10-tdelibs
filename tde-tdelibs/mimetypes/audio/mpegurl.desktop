@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=audio/mpegurl
+Icon=audio-x-generic
+Patterns=*.m3u;*.M3U;
+X-TDE-IsAlso=audio/x-mpegurl
+Comment=Streaming MPEG Layer 3 Audio

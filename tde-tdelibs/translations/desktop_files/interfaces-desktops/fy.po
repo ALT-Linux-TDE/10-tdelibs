@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-02 14:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: kspeech/dcoptexttospeech.desktop:5
+msgid "Text-to-Speech Service with a DCOP interface"
+msgstr "tekst-ta-prate mei in DCOP-ynterface"
+
+#. Comment
+#: tdeimproxy/interface/dcopinstantmessenger.desktop:5
+msgid "Instant Messenger with a DCOP interface"
+msgstr "Instant Messenger mei in DCOP-interface "
+
+#. Name
+#: tdeimproxy/interface/kcm_instantmessenger.desktop:9
+#, fuzzy
+msgid "Instant Messenger"
+msgstr "Instant Messenger mei in DCOP-interface "
+
+#. Comment
+#: tdeimproxy/interface/kcm_instantmessenger.desktop:11
+msgid ""
+"The instant messenger allows two-way chat between individuals and groups."
+msgstr ""
+"Mei de instant messenger kinne jo twaspraak hâlde mei in yndividu en groepen."
+
+#. Name
+#: tdescript/sample/shellscript.desktop:7
+msgid "Bash Shell Script Runner"
+msgstr "Bash Flues Skript Rinner"
+
+#. Comment
+#: tdescript/sample/shellscript.desktop:8
+msgid "Runs bash shell scripts from inside the application."
+msgstr "Bash flues skript rint yn de applikaasje."
+
+#. Comment
+#: tdescript/scriptinterface.desktop:5
+msgid "This is a generic test script engine for testing the script interface."
+msgstr ""
+"Dit is in algemiene samling testroutines foar it testen fan de skript-"
+"interface."
+
+#. Name
+#: tdetexteditor/kcm_tdetexteditor.desktop:9
+msgid "Embedded Text Editor"
+msgstr "Ynsletten tekstbewurker"
+
+#. Comment
+#: tdetexteditor/kcm_tdetexteditor.desktop:10
+msgid ""
+"The text editor service provides applications with a text viewer and editor. "
+"TDE applications that provide text editing facilities should use this "
+"service."
+msgstr ""
+"De tekstbewurkings-fasiliteit foarsjocht programma's fan een tekstwerjouwer "
+"en -ferwurker. TDE-applikaasjes mei tekstferwurkingsmooglikheden kinne hjir "
+"gebrûk fan meitsje."
+
+#. Comment
+#: tdetexteditor/tdetexteditor.desktop:6
+msgid "Embeddable Text Editor Component (with Doc/View Separation)"
+msgstr "Yn te sluten tekstbewurkerkomponint (mei skieding fan tekst/werjefte)"
+
+#. Comment
+#: tdetexteditor/tdetexteditoreditor.desktop:6
+msgid "Embeddable Text Editor Component (without Doc/View Separation)"
+msgstr ""
+"Yn te sluten tekstbewurkerkomponint (sûnder skieding fan tekst/werjefte)"
+
+#. Comment
+#: tdetexteditor/tdetexteditorplugin.desktop:6
+msgid "KTextEditor Plugin"
+msgstr "KTextFerwurker-plugin"

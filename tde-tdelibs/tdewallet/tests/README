@@ -1,0 +1,5 @@
+Tests for opening the wallet synchronously and asynchronously
+
+tdewalletsync - open synchronously
+tdewalletasync - open asynchronously
+tdewalletboth - start opening asynchronously, then, during the async call, open synchronously

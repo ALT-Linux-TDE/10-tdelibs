@@ -1,0 +1,10 @@
+[Desktop Entry]
+Comment=OpenOffice.org Text Document
+MimeType=application/vnd.sun.xml.writer
+Type=MimeType
+Icon=application-vnd.oasis.opendocument.text
+Patterns=*.sxw;*.SXW;
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.sxw

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Comment=Troff Document with Manpage Macros
+Icon=application-x-troff-man
+Type=MimeType
+MimeType=application/x-troff-man
+Patterns=*.man
+X-TDE-AutoEmbed=true
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

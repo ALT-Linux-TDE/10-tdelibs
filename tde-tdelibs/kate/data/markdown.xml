@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Kate syntax highlight filter for Markdown/MultiMarkdown documents.
+
+	Copyright 2008 Darrin Yeager. http://www.dyeager.org/
+	Dual-Licensed under both GPL and BSD licenses.
+
+	Extended 2009 Claes Holmerson. http://github.com/claes/kate-markdown/
+-->
+
+
+<!-- the [^\s]{1} is in the regex to avoid interfering with bullet list which
+	  starts "* item". Thus emphasis/strong MUST be formed like *words here*
+	  with the asterisks next to the beginning of the first word.
+
+	  Match space or newline, followed by "*", followed by one non-space,
+	  followed by anything non-asterisk, followed by "*", followed by
+	  space, end-of-sentence punctuation, or the end of the line.
+-->
+<!DOCTYPE language SYSTEM "language.dtd"
+			 [
+			 <!ENTITY strongemphasisregex "(\s|^)[\*_]{3}[^\*_]+[\*_]{3}(\s|\.|,|;|:|\-|\?|$)">
+			 <!ENTITY strongregex "(\s|^)[\*_]{2}[^\s]{1}[^\*_]+[\*_]{2}(\s|\.|,|;|:|\-|\?|$)">
+			 <!ENTITY emphasisregex "(\s|^)[\*_]{1}[^\s]{1}[^\*_]+[\*_]{1}(\s|\.|,|;|:|\-|\?|$)">
+			 <!ENTITY reflinkregex '\[[^\]\^]+\]\s*\[[^\]]*\]\s*(\s+\"[^\"]*\"){0,1}'>
+			 <!ENTITY reflinktargetregex '\[[^\]\^]+\]\:\s+[^\s]+(\s+\"[^\"]*\"){0,1}'>
+			 <!ENTITY footnoteregex "\[\^[^\]]+\]">
+			 <!ENTITY preregex "^\s*```\s*">
+			 <!ENTITY pretilderegex "^\s*~~~\s*">
+			 <!ENTITY preendregex "^\s*```\s*$">
+			 <!ENTITY pretildeendregex "^\s*~~~\s*$">
+			 <!ENTITY presingleline '```[^`]+```'>
+			 <!ENTITY idlinkregex '\[[^\]\^]+\]\s*\(#[^\(]*\)'>
+			 <!ENTITY inlinelinkregex '\[[^\]\^]+\]\s*\([^\(]*\)'>
+			 <!ENTITY inlineimageregex '\!\[[^\]\^]+\]\([^\(]*\)'>
+			 <!ENTITY refimageregex '\!\[[^\]\^]+\]\[[^\[]*\]'>
+			 <!ENTITY autolinkregex '&lt;(https?|ftp):[^\"&gt;\s]+&gt;'>
+			 <!ENTITY mailtolinkregex '&lt;(?:mailto:)?([-.\w]+\@[-a-z0-9]+(\.[-a-z0-9]+)*\.[a-z]+)&gt;'>
+			 <!ENTITY rulerregex '^ {,3}([\*\-_]\s*){3,}\s*$'>
+			 <!-- two spaces at end of line generates linebreak -->
+			 <!ENTITY linebreakregex "(  |\\)$">
+			 <!ENTITY strikeoutregex "~~[^~\s].*[^~\s]~~">
+			 <!ENTITY prediffregex "^(```|~~~)\s{0,}diff">
+			 <!ENTITY difflineremoveregex "^-[^-].*$">
+			 <!ENTITY difflineaddregex "^\+[^\+].*$">
+			 <!ENTITY diffheader1regex "^-{3} .*$">
+			 <!ENTITY diffheader2regex "^(\+{3} .*|^@@.*)$">
+			 <!ENTITY diffheaderdiffregex "^diff .*$">
+]>
+
+<language name="Markdown" version="1.4" section="Markup"
+		extensions="*.md;*.mmd;*.mdwn"
+		author="Darrin Yeager, Claes Holmerson"
+		license="GPL,BSD" >
+	<highlighting>
+		<contexts>
+
+			<context attribute="Normal Text" lineEndContext="#stay" name="Normal Text" >
+				<DetectChar context="blockquote" char="&gt;" column="0"/>
+				<RegExpr attribute="h1" String="^#\s.*[#]?$" />
+				<RegExpr attribute="h2" String="^##\s.*[#]?$" />
+				<RegExpr attribute="h3" String="^###\s.*[#]?$" />
+				<RegExpr attribute="h4" String="^####\s.*[#]?$" />
+				<RegExpr attribute="h5" String="^#####\s.*[#]?$" />
+				<RegExpr attribute="h6" String="^######\s.*[#]?$" />
+				<RegExpr attribute="strongemphasis" String="&strongemphasisregex;" />
+				<RegExpr attribute="strong" String="&strongregex;" />
+				<RegExpr attribute="emphasis" String="&emphasisregex;" />
+				<RegExpr attribute="ruler" String="&rulerregex;" />
+				<RegExpr context="bullet"  String="^ {,3}[\*\+\-]\s" />
+				<RegExpr context="numlist" String="^ {,3}[\d]+\.\s" />
+				<RegExpr attribute="code" String="^([\s]{4,}|\t+).*$" />
+				<RegExpr attribute="meta" String="^(Title|Author|Date|Copyright|Revision|CSS|LaTeX\ XSLT|Categories|Tags|BaseName|Excerpt):(.*)+$" />
+				<IncludeRules context="inc" />
+			</context>
+
+			<context attribute="blockquote" lineEndContext="#pop" name="blockquote">
+				<RegExpr attribute="bq-strong" String="&strongregex;" />
+				<RegExpr attribute="bq-emphasis" String="&emphasisregex;" />
+				<RegExpr attribute="bq-strongemphasis" String="&strongemphasisregex;" />
+				<IncludeRules context="inc" />
+			</context>
+
+			<context attribute="bullet" lineEndContext="#pop" name="bullet" >
+				<RegExpr attribute="bl-strong" String="&strongregex;" />
+				<RegExpr attribute="bl-emphasis" String="&emphasisregex;" />
+				<RegExpr attribute="bl-strongemphasis" String="&strongemphasisregex;" />
+				<IncludeRules context="inc" />
+			</context>
+
+			<context attribute="numlist" lineEndContext="#pop" name="numlist" >
+				<RegExpr attribute="nl-strong" String="&strongregex;" />
+				<RegExpr attribute="nl-emphasis" String="&emphasisregex;" />
+				<RegExpr attribute="nl-strongemphasis" String="&strongemphasisregex;" />
+				<IncludeRules context="inc" />
+			</context>
+
+			<context attribute="comment" lineEndContext="#stay" name="comment" >
+				<RegExpr String="--&gt;" attribute="comment" context="#pop" endRegion="comment"/>
+			</context>
+
+			<context attribute="prediff" lineEndContext="#stay" name="prediff" >
+				<RegExpr String="&preendregex;" attribute="prediff" context="#pop" endRegion="prediff"/>
+				<RegExpr attribute="difflineremove" String="&difflineremoveregex;" />
+				<RegExpr attribute="difflineadd" String="&difflineaddregex;" />
+				<RegExpr attribute="diffheader1" String="&diffheader1regex;" />
+				<RegExpr attribute="diffheader2" String="&diffheader2regex;" />
+				<RegExpr attribute="diffheaderdiff" String="&diffheaderdiffregex;" />
+			</context>
+
+			<context attribute="code" lineEndContext="#stay" name="pre" >
+				<RegExpr String="&preendregex;" attribute="code" context="#pop" endRegion="pre"/>
+			</context>
+
+			<context attribute="code" lineEndContext="#stay" name="pretilde" >
+				<RegExpr String="&pretildeendregex;" attribute="code" context="#pop" endRegion="pretilde"/>
+			</context>
+
+			<context attribute="common" name="inc" lineEndContext="#stay" >
+				<RegExpr context="comment" String="&lt;!--" beginRegion="comment" />
+				<RegExpr context="prediff" String="&prediffregex;" beginRegion="prediff" />
+				<RegExpr attribute="code" minimal="true" String="&presingleline;"/>
+				<RegExpr attribute="code" context="pre" String="&preregex;" beginRegion="pre" />
+				<RegExpr attribute="code" context="pretilde" String="&pretilderegex;" beginRegion="pretilde" />
+				<RegExpr attribute="code" String="``.*``" />
+				<RegExpr attribute="code" String="`[^`]*`" />
+				<RegExpr attribute="reflink" String="&reflinkregex;" />
+				<RegExpr attribute="footnote" String="&footnoteregex;" />
+				<RegExpr attribute="idlink" String="&idlinkregex;"/>
+				<RegExpr attribute="inlinelink" String="&inlinelinkregex;"/>
+				<RegExpr attribute="reflinktarget" String="&reflinktargetregex;"/>
+				<RegExpr attribute="inlineimage" String="&inlineimageregex;"/>
+				<RegExpr attribute="refimage" String="&refimageregex;"/>
+				<RegExpr attribute="autolink" String="&autolinkregex;"/>
+				<RegExpr attribute="mailtolink" String="&mailtolinkregex;"/>
+				<RegExpr attribute="strikeout" minimal="true" String="&strikeoutregex;"/>
+				<RegExpr attribute="linebreak" minimal="true" String="&linebreakregex;"/>
+			</context>
+		</contexts>
+
+		<itemDatas>
+			<itemData name="Normal Text" defStyleNum="dsNormal" />
+			<itemData name="common" defStyleNum="dsNormal" />
+			<itemData name="emphasis" defStyleNum="dsNormal" italic="true" />
+			<itemData name="strong" defStyleNum="dsNormal" bold="true" />
+			<itemData name="diffheader1" defStyleNum="dsNormal" backgroundColor="#eeeeee" color="#800000" bold="true" />
+			<itemData name="diffheader2" defStyleNum="dsNormal" backgroundColor="#eeeeee" color="#800000" />
+			<itemData name="diffheaderdiff" defStyleNum="dsNormal" backgroundColor="#eeeeee" color="#000000" bold="true" />
+			<itemData name="difflineremove" defStyleNum="dsString" backgroundColor="#ffeef0" />
+			<itemData name="difflineadd" defStyleNum="dsOthers" backgroundColor="#e6ffed" />
+			<itemData name="strongemphasis" defStyleNum="dsNormal" italic="true" bold="true"/>
+			<itemData name="ruler" defStyleNum="dsNormal" color="#e200e2" bold="true" />
+			<itemData name="strikeout" defStyleNum="dsNormal" strikeOut="true" backgroundColor="#fafaaf" />
+			<itemData name="linebreak" defStyleNum="dsNormal" backgroundColor="#F8E0FF" />
+			<itemData name="h1" defStyleNum="dsFunction" bold="true" />
+			<itemData name="h2" defStyleNum="dsFunction" bold="true" />
+			<itemData name="h3" defStyleNum="dsFunction" bold="true" />
+			<itemData name="h4" defStyleNum="dsFunction" bold="true" />
+			<itemData name="h5" defStyleNum="dsFunction" bold="true" />
+			<itemData name="h6" defStyleNum="dsFunction" bold="true" />
+			<itemData name="blockquote" defStyleNum="dsNormal" color="black" />
+			<itemData name="bq-emphasis" defStyleNum="dsNormal" color="black" italic="true" />
+			<itemData name="bq-strong" defStyleNum="dsNormal" color="black" bold="true" />
+			<itemData name="bq-strongemphasis" defStyleNum="dsNormal" color="black" italic="true" bold="true" />
+			<itemData name="bullet" defStyleNum="dsNormal" color="#b700b7" />
+			<itemData name="bl-emphasis" defStyleNum="dsNormal" color="#b700b7" italic="true" />
+			<itemData name="bl-strong" defStyleNum="dsNormal" color="#b700b7" bold="true" />
+			<itemData name="bl-strongemphasis" defStyleNum="dsNormal" color="#b700b7" bold="true" italic="true" />
+			<itemData name="numlist" defStyleNum="dsNormal" color="#b700b7" />
+			<itemData name="nl-emphasis" defStyleNum="dsNormal" color="#b700b7" italic="true" />
+			<itemData name="nl-strong" defStyleNum="dsNormal" color="#b700b7" bold="true" />
+			<itemData name="nl-strongemphasis" defStyleNum="dsNormal" color="#b700b7" bold="true" italic="true" />
+			<itemData name="comment" defStyleNum="dsComment" />
+			<itemData name="pre" defStyleNum="dsNormal" backgroundColor="#eeeeee" />
+			<itemData name="prediff" defStyleNum="dsNormal" backgroundColor="#eeeeee" />
+			<itemData name="code" defStyleNum="dsNormal" color="darkcyan" backgroundColor="#eeeeee" />
+			<itemData name="reflink" defStyleNum="dsOthers" color="blue"  />
+			<itemData name="idlink" defStyleNum="dsOthers" color="blue" italic="true" />
+			<itemData name="inlinelink" defStyleNum="dsOthers" color="blue" />
+			<itemData name="autolink" defStyleNum="dsOthers" underline="true" />
+			<itemData name="mailtolink" defStyleNum="dsOthers" underline="true" />
+			<itemData name="footnote" defStyleNum="dsOthers" italic="true" />
+			<itemData name="meta" defStyleNum="dsComment" />
+			<itemData name="reflinktarget" defStyleNum="dsOthers" />
+			<itemData name="inlineimage" defStyleNum="dsNormal" backgroundColor="#fff8f8" color="blue" />
+			<itemData name="refimage" defStyleNum="dsNormal" backgroundColor="#fff8f8" color="blue" />
+		</itemDatas>
+	</highlighting>
+
+	<general>
+		<comments>
+			<comment name="multiLine" start="&lt;!--" end="--&gt;" region="comment" />
+		</comments>
+	</general>
+
+</language>

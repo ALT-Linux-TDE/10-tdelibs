@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Comment=NewzBin Usenet Index
+Hidden=false
+MimeType=application/x-nzb
+Icon=application-x-bittorrent
+Type=MimeType
+Patterns=*.nzb
+X-TDE-AutoEmbed=false
+X-TDE-isAlso=text/xml

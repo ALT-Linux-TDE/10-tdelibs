@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-msaccess
+Icon=application-vnd.oasis.opendocument.database
+Patterns=*.mdb;*.MDB;*.mda;*.MDA;*.mde;*.MDE;
+Comment=Microsoft Access Database

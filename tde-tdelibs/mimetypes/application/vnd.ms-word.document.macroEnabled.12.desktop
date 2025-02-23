@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/vnd.ms-word.document.macroEnabled.12
+Patterns=*.docm;*.DOCM
+Icon=application-vnd.oasis.opendocument.text
+Comment=Microsoft Word Document Macro Enabled
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.doc

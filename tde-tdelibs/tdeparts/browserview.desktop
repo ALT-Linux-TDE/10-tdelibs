@@ -1,0 +1,77 @@
+[Desktop Entry]
+Type=ServiceType
+X-TDE-ServiceType=Browser/View
+X-TDE-Derived=KParts/ReadOnlyPart
+Name=Browser View
+
+# Arguments passed to the factory (e.g. view sub-type)
+[PropertyDef::X-TDE-BrowserView-Args]
+Type=TQString
+
+# If false, this component won't be used when clicking on a file,
+# the user will have to use "Embed in..." to use it (or the application
+# will have to explicitely embed this particular service, like for the sidebar)
+[PropertyDef::X-TDE-BrowserView-AllowAsDefault]
+Type=bool
+
+# If true, this component won't appear in the "Embed in..." popupmenu
+[PropertyDef::X-TDE-BrowserView-HideFromMenus]
+Type=bool
+
+# If true, the view will have its "linked" checkbox checked in Konqueror
+# (Was initially for the sidebar, but it's a FollowActive nowadays)
+[PropertyDef::X-TDE-BrowserView-LinkedView]
+Type=bool
+
+# If true, this view shows a hierarchical view, i.e. more than one dir at a time
+# This is used by KonqPopupMenu to know whether to offer "Create Directory"
+# in the RMB menu on a directory (since it depends on whether the user would
+# see that new dir).
+[PropertyDef::X-TDE-BrowserView-HierarchicalView]
+Type=bool
+
+# If true, the view is passive (can't be made the current active view)
+[PropertyDef::X-TDE-BrowserView-PassiveMode]
+Type=bool
+
+# If true, the view can only be there 0 or 1 time in a given window,
+# and a toggle action for it will be created (examples: sidebar, konsolepart)
+[PropertyDef::X-TDE-BrowserView-Toggable]
+Type=bool
+
+# If the view is toggable, this defines its orientation (Horizontal or Vertical)
+[PropertyDef::X-TDE-BrowserView-ToggableView-Orientation]
+Type=TQString
+
+# The name of the property in the view, which the application should set
+# in order to quickly switch the view mode (only meaningful in views that
+# support multiple modes in the same widget, like the iconview)
+[PropertyDef::X-TDE-BrowserView-ModeProperty]
+Type=TQString
+
+# The value to set for the above property
+[PropertyDef::X-TDE-BrowserView-ModePropertyValue]
+Type=TQString
+
+# If true, this view will always "follow the active view" (and vice versa:
+# when the active view goes to another url, this view will follow).
+# Mostly used by the sidebar.
+[PropertyDef::X-TDE-BrowserView-FollowActive]
+Type=bool
+
+# If this property is set, this view is "builtin" to the application using it
+# The value of the property is the application in question (e.g. "konqueror").
+# This is used 1) to set the active instance to the app's (so the bugs
+# go to "konqueror" and not to "konqiconview") and 2) to let konq remember
+# that this view was used last. We don't want special-purpose views
+# (like Cervisia) to be reactivated (possibly on another directory) next time
+# (famous bug).
+[PropertyDef::X-TDE-BrowserView-Built-Into]
+Type=TQString
+
+# If the part has a plugin for TDEHTML Javascript's window.navigator.plugins
+# array, it should create a plugin info file and set this property to the
+# file path here. The path should be relative to TDE's data dir
+# ($TDEDIR/share/apps)
+[PropertyDef::X-TDE-BrowserView-PluginsInfo]
+Type=TQString

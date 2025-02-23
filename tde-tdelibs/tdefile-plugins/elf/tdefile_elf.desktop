@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Service
+Name=ELF Info
+X-TDE-ServiceTypes=KFilePlugin
+X-TDE-Library=tdefile_elf
+MimeType=application/x-executable;application/x-sharedlib
+PreferredItems=Name,Description,License,Copyright,Authors,Product,Organization,Version,DateTime,Notes"
+SupportsThumbnail=false

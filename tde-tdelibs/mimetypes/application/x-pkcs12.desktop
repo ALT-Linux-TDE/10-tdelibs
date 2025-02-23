@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-pkcs12
+Icon=encrypted
+Patterns=*.p12;*.P12;*.pfx
+Comment=PKCS#12 Certificate Bundle
+X-TDE-AutoEmbed=true

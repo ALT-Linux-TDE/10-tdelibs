@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 21:00+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Name
+#: application.desktop:4
+msgid "Application"
+msgstr "ਕਾਰਜ"
+
+#. Name
+#: kcomprfilter.desktop:4
+msgid "TDE Compression Filter"
+msgstr "TDE ਨਪੀੜਨ ਫਿਲਟਰ"
+
+#. Comment
+#: kdatatool.desktop:4
+msgid "TDE Data Tool"
+msgstr "TDE ਡਾਟਾ ਸੰਦ"
+
+#. Name
+#: kpasswdserver.desktop:3
+msgid "KDED Password Module"
+msgstr "KDED ਗੁਪਤ-ਕੋਡ ਮੈਡੀਊਲ"
+
+#. Comment
+#: kpasswdserver.desktop:4
+msgid "Password caching support"
+msgstr "ਗੁਪਤ-ਕੋਡ ਕੈਚੇਇੰਗ ਸਹਾਇਤਾ"
+
+#. Name
+#: kscan.desktop:4
+msgid "KScan"
+msgstr ""
+
+#. Name
+#: kurifilterplugin.desktop:4
+msgid "Enhanced Browsing Plugin"
+msgstr "ਵਾਧੂ ਝਲਕਾਰਾ ਪਲੱਗਿੰਨ"
+
+#. Name
+#: misc/kpac/proxyscout.desktop:3
+msgid "Proxy Scout"
+msgstr "ਪਰਾਕਸੀ ਸਕਾਊਟ"
+
+#. Comment
+#: misc/kpac/proxyscout.desktop:4
+msgid "Automatic proxy configuration"
+msgstr "ਸਵੈ-ਚਾਲਿਤ ਪਰਾਕਸੀ ਸੰਰਚਨਾ"
+
+#. Name
+#: misc/kssld/kssld.desktop:9
+msgid "KSSL Daemon Module"
+msgstr "KSSL ਡਾਇਮੋਨ ਮੈਡੀਊਲ"
+
+#. Comment
+#: misc/kssld/kssld.desktop:10
+msgid "KSSL daemon module for KDED"
+msgstr "KDED ਲਈ KSSL ਪੇਸ਼ਕਾਰੀ"
+
+#. Name
+#: misc/tdeio_uiserver.desktop:4
+msgid "tdeio_uiserver"
+msgstr ""
+
+#. Comment
+#: misc/tdeio_uiserver.desktop:5
+msgid "TDE's Progress Info UI server"
+msgstr "TDE ਦੀ ਤਰੱਕੀ ਜਾਣਕਾਰੀ UI ਸਰਵਰ"
+
+#. Name
+#: misc/tdewalletd/tdewalletd.desktop:9
+msgid "TDEWallet Daemon Module"
+msgstr "TDEWallet ਪੇਸ਼ਕਾਰੀ ਮੈਡੀਊਲ"
+
+#. Comment
+#: misc/tdewalletd/tdewalletd.desktop:10
+msgid "TDEWallet daemon module for KDED"
+msgstr "KDED ਲਈ TDEWallet ਪੇਸ਼ਕਾਰੀ ਮੈਡੀਊਲ"
+
+#. Comment
+#: renamedlgplugin.desktop:4
+msgid "Plugin for the Rename Dialog"
+msgstr "ਨਾਂ-ਤਬਦੀਲੀ ਪੁੱਛਗਿੱਛ ਤਾਕੀ ਲਈ ਪਲੱਗਿੰਨ"
+
+#. Name
+#: tdecmodule.desktop:4
+msgid "TDE Control Module"
+msgstr "TDE ਕੰਟਰੋਲ ਮੈਡੀਊਲ"
+
+#. Comment
+#: tdefile/kpropsdlgplugin.desktop:4
+msgid "Plugin for the Properties Dialog"
+msgstr "ਵਿਸ਼ੇਸਤਾ ਵਾਰਤਾਲਾਪ ਲਈ ਪਲੱਗਿੰਨ"
+
+#. Name
+#: tdefileplugin.desktop:4
+msgid "KFile Meta Data Plugin"
+msgstr "KFile ਮੈਟਾ ਡਾਟਾ ਪਲੱਗਿੰਨ"
+
+#. Description
+#: data.protocol:8
+msgid "A tdeioslave for data URIs (rfc2397)"
+msgstr "ਡਾਟਾ URI ਲਈ tdeioslave(rfc2397)"
+
+#. Description
+#: misc/mms.protocol:11
+msgid "Microsoft Media Server Protocol"
+msgstr "Microsoft Media ਸਰਵਰ ਪ੍ਰੋਟੋਕਾਲ"

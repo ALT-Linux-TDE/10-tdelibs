@@ -1,0 +1,197 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 20:06+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: br\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: eventsrc:3
+msgid "System Notifications"
+msgstr "Kemennoù ar reizhiad"
+
+#. Name
+#: eventsrc:6
+msgid "Trash: emptied"
+msgstr "Pod-lastez : goullonderet"
+
+#. Comment
+#: eventsrc:7
+msgid "The trash has been emptied"
+msgstr "Goullonderet e oa ar pod-lastez"
+
+#. Name
+#: eventsrc:11
+msgid "Textcompletion: rotation"
+msgstr "KlokadurSrid : troerezh"
+
+#. Comment
+#: eventsrc:12
+msgid "The end of the list of matches has been reached"
+msgstr "Tizhet eo diwezh roll ar gendoareoù"
+
+#. Name
+#: eventsrc:16
+msgid "Textcompletion: no match"
+msgstr "KlokadurSrid : kendoare ebet"
+
+#. Comment
+#: eventsrc:17
+msgid "No matching completion was found"
+msgstr "Kendoare ebet na voe kavet"
+
+#. Name
+#: eventsrc:21
+msgid "Textcompletion: partial match"
+msgstr "KlokadurSrid : kendoare darnek"
+
+#. Comment
+#: eventsrc:22
+msgid "There is more than one possible match"
+msgstr "Tremen ur c'hendoare a zo"
+
+#. Name
+#: eventsrc:26
+msgid "Cannot Open File"
+msgstr "N'hall ket digeriñ restr"
+
+#. Comment
+#: eventsrc:27
+msgid "The selected file cannot be opened for reading or writing"
+msgstr "N'heller ket digeriñ ar restr diuzet evit lenn pe skrivañ"
+
+#. Name
+#: eventsrc:31
+msgid "Fatal Error"
+msgstr "Fazi sac'hus"
+
+#. Comment
+#: eventsrc:32
+msgid "There was a serious error causing the program to exit"
+msgstr "Ur fazi grevus a voe pennabeg mont er-maez ar goulev."
+
+#. Name
+#: eventsrc:37
+msgid "Notification"
+msgstr "Kemennadenn"
+
+#. Comment
+#: eventsrc:38
+msgid "Something special happened in the program"
+msgstr "Un dra bennak dibar a c'hoarvezas gant ar goulev"
+
+#. Name
+#: eventsrc:44
+msgid "Warning"
+msgstr "Kemenn"
+
+#. Comment
+#: eventsrc:45
+msgid "There was an error in the program which may cause problems"
+msgstr "Ur fazi a voe er goulev a c'hellfe bezañ pennabeg kudennoù."
+
+#. Name
+#: eventsrc:50
+msgid "Catastrophe"
+msgstr "Gwalldaol"
+
+#. Comment
+#: eventsrc:51
+msgid "A very serious error occurred, at least causing the program to exit"
+msgstr ""
+"Ur fazi grevus-tre a c'hoarvezas, a lakas d'an nebeutañ ar goulev da vont er-"
+"maez"
+
+#. Name
+#: eventsrc:55
+msgid "Login"
+msgstr "Anv ereañ"
+
+#. Comment
+#: eventsrc:56
+msgid "TDE is starting up"
+msgstr "Emañ o loc'hañ TDE"
+
+#. Name
+#: eventsrc:61
+msgid "Logout"
+msgstr "Kuitaat"
+
+#. Comment
+#: eventsrc:62
+msgid "TDE is exiting"
+msgstr "Emañ o kuitaat TDE"
+
+#. Name
+#: eventsrc:67
+msgid "Logout canceled"
+msgstr ""
+
+#. Comment
+#: eventsrc:68
+msgid "TDE logout was canceled"
+msgstr ""
+
+#. Name
+#: eventsrc:73
+msgid "Print error"
+msgstr "Fazi en ur moulañ"
+
+#. Comment
+#: eventsrc:74
+msgid "A print error has occurred"
+msgstr "Degouezhet ez eus ar fazi gant ar voullerez"
+
+#. Name
+#: eventsrc:79
+msgid "Information message"
+msgstr "Kemennad a titouroù"
+
+#. Comment
+#: eventsrc:80
+#, fuzzy
+msgid "An information message is being shown"
+msgstr "Kemennad a titouroù"
+
+#. Name
+#: eventsrc:86
+#, fuzzy
+msgid "Warning message"
+msgstr "Kemennad a titouroù"
+
+#. Comment
+#: eventsrc:87
+msgid "A warning message is being shown"
+msgstr ""
+
+#. Name
+#: eventsrc:94
+#, fuzzy
+msgid "Critical message"
+msgstr "Kemennad a titouroù"
+
+#. Comment
+#: eventsrc:95
+msgid "A critical message is being shown"
+msgstr ""
+
+#. Name
+#: eventsrc:102
+msgid "Question"
+msgstr "Goulenn"
+
+#. Comment
+#: eventsrc:103
+msgid "A question is being asked"
+msgstr "Emañ o c'houlleniñ ur goulenn"

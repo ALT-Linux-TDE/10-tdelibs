@@ -1,0 +1,192 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 20:06+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: eventsrc:3
+msgid "System Notifications"
+msgstr "प्रणाली सूचना"
+
+#. Name
+#: eventsrc:6
+msgid "Trash: emptied"
+msgstr "रद्दीटोकरी: रित्तियो"
+
+#. Comment
+#: eventsrc:7
+msgid "The trash has been emptied"
+msgstr "रद्दीटोकरी रित्तिएको छ"
+
+#. Name
+#: eventsrc:11
+msgid "Textcompletion: rotation"
+msgstr "पाठ समाप्ति: परिक्रमण"
+
+#. Comment
+#: eventsrc:12
+msgid "The end of the list of matches has been reached"
+msgstr "मिल्दो सूचीको अन्त्यमा पुगिएको छ"
+
+#. Name
+#: eventsrc:16
+msgid "Textcompletion: no match"
+msgstr "पाठ समाप्ति: बेमेल"
+
+#. Comment
+#: eventsrc:17
+msgid "No matching completion was found"
+msgstr "बेमेल समाप्ति फेला पारेको थियो"
+
+#. Name
+#: eventsrc:21
+msgid "Textcompletion: partial match"
+msgstr "पाठ समाप्ति: आंशिक मिल्यो"
+
+#. Comment
+#: eventsrc:22
+msgid "There is more than one possible match"
+msgstr "त्यहाँ एक भन्दा बढी सम्भव जोडा छन्"
+
+#. Name
+#: eventsrc:26
+msgid "Cannot Open File"
+msgstr "फाइल खोल्न सक्दैन"
+
+#. Comment
+#: eventsrc:27
+msgid "The selected file cannot be opened for reading or writing"
+msgstr "पढ्न वा लेख्नका लागि चयन गरिएका फाइल खोल्न सकेन"
+
+#. Name
+#: eventsrc:31
+msgid "Fatal Error"
+msgstr "घातक त्रुटि"
+
+#. Comment
+#: eventsrc:32
+msgid "There was a serious error causing the program to exit"
+msgstr "कार्यक्रमबाट निस्कनाले त्यहाँ गम्भिर त्रुटि भयो"
+
+#. Name
+#: eventsrc:37
+msgid "Notification"
+msgstr "सूचना"
+
+#. Comment
+#: eventsrc:38
+msgid "Something special happened in the program"
+msgstr "कार्यक्रममा केही विशेष आइपर्यो"
+
+#. Name
+#: eventsrc:44
+msgid "Warning"
+msgstr "चेतावनी"
+
+#. Comment
+#: eventsrc:45
+msgid "There was an error in the program which may cause problems"
+msgstr "समस्या आउनुमा कार्यक्रममा त्रुटि कारण थियो"
+
+#. Name
+#: eventsrc:50
+msgid "Catastrophe"
+msgstr "विपत्ती"
+
+#. Comment
+#: eventsrc:51
+msgid "A very serious error occurred, at least causing the program to exit"
+msgstr "कम्तिमा कार्यक्रम अन्त्य गर्दा, एउटा धेरै गम्भिर त्रुटि देखा पर्यो"
+
+#. Name
+#: eventsrc:55
+msgid "Login"
+msgstr "लगइन"
+
+#. Comment
+#: eventsrc:56
+msgid "TDE is starting up"
+msgstr "TDE सुरुआत हुदैछ"
+
+#. Name
+#: eventsrc:61
+msgid "Logout"
+msgstr "लगआउट"
+
+#. Comment
+#: eventsrc:62
+msgid "TDE is exiting"
+msgstr "TDE अन्त्य हुँदैछ"
+
+#. Name
+#: eventsrc:67
+msgid "Logout canceled"
+msgstr ""
+
+#. Comment
+#: eventsrc:68
+msgid "TDE logout was canceled"
+msgstr ""
+
+#. Name
+#: eventsrc:73
+msgid "Print error"
+msgstr "मुद्रण त्रुटि"
+
+#. Comment
+#: eventsrc:74
+msgid "A print error has occurred"
+msgstr "मुद्रण त्रुटि देखापर्यो"
+
+#. Name
+#: eventsrc:79
+msgid "Information message"
+msgstr "सूचना सन्देश"
+
+#. Comment
+#: eventsrc:80
+msgid "An information message is being shown"
+msgstr "सूचना सन्देश देखिरहेको छ"
+
+#. Name
+#: eventsrc:86
+msgid "Warning message"
+msgstr "चेतावनी सन्देश"
+
+#. Comment
+#: eventsrc:87
+msgid "A warning message is being shown"
+msgstr "चेतावनी सन्देश देखिरहेको छ"
+
+#. Name
+#: eventsrc:94
+msgid "Critical message"
+msgstr "आलोचनात्मक सन्देश"
+
+#. Comment
+#: eventsrc:95
+msgid "A critical message is being shown"
+msgstr "आलोचनात्मक सन्देश देखिरहेको छ"
+
+#. Name
+#: eventsrc:102
+msgid "Question"
+msgstr "प्रश्न"
+
+#. Comment
+#: eventsrc:103
+msgid "A question is being asked"
+msgstr "प्रश्न सोधिराखेको छ"

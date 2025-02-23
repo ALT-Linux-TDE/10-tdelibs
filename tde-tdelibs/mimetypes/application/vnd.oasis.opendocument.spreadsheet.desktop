@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/vnd.oasis.opendocument.spreadsheet
+Patterns=*.ods;*.ODS
+Icon=application-vnd.oasis.opendocument.spreadsheet
+Comment=OASIS OpenDocument SpreadSheet
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.ods

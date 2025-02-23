@@ -1,0 +1,269 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-04 16:37+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Name
+#: filters/enscript.desktop:2
+msgid "enscript"
+msgstr ""
+
+#. Comment
+#: filters/enscript.desktop:4
+msgid "Enscript Text Filter"
+msgstr ""
+
+#. Name
+#: filters/imagetops.desktop:2
+msgid "imagetops"
+msgstr ""
+
+#. Comment
+#: filters/imagetops.desktop:4
+msgid "Generic Image to PS Filter"
+msgstr "일반 그림을 PS로 바꿔주는 거르개"
+
+#. Name
+#: filters/pdf2ps.desktop:2
+msgid "pdf2ps"
+msgstr ""
+
+#. Comment
+#: filters/pdf2ps.desktop:4
+#, fuzzy
+msgid "PDF to PostScript Converter"
+msgstr "포스트스크립트를 PDF 문서로 바꿔줍니다"
+
+#. Name
+#: filters/pdfwrite.desktop:2
+msgid "pdfwrite"
+msgstr ""
+
+#. Comment
+#: filters/pdfwrite.desktop:4
+msgid "PDF Writer (needs Ghostscript)"
+msgstr "PDF 쓰기 (고스트스크립트가 필요함)"
+
+#. Comment
+#: filters/poster.desktop:3
+msgid "Poster Printing"
+msgstr "포스터 인쇄"
+
+#. Description
+#: filters/poster.desktop:4
+msgid ""
+"Utility to print large posters on multiple small paper sheets. To use this "
+"command, the <b>poster</b> executable must be accessible in your <tt>PATH</"
+"tt>.<p><b><u>WARNING:</u></b> The package found on the TDEPrint web site is "
+"a modified version of the original one that can be found on any CTAN archive "
+"mirror, but the original package will <b>not</b> work with TDE."
+msgstr ""
+"큰 포스터를 작은 종이 여러장에 나눠 찍는데 쓰이는 도구입니다. 이 명령을 쓰려"
+"면 <tt>PATH</tt>에 <b>poster</b>를 실행할 수 있는 경로가 들어 있어야 합니다."
+"<p><b><u>경고:</u></b> TDE 인쇄 웹 사이트에 있는 꾸러미는 CTAN 저장고 미러에"
+"서 내려받은 본디 꾸러미를 고친 것입니다. 본디 꾸러미는 TDE에서 돌아가지 <b>않"
+"습니다</b>."
+
+#. Name
+#: filters/ps2pdf.desktop:2
+msgid "ps2pdf"
+msgstr ""
+
+#. Comment
+#: filters/ps2pdf.desktop:4
+msgid "PostScript to PDF Converter"
+msgstr "포스트스크립트를 PDF 문서로 바꿔줍니다"
+
+#. Name
+#: filters/psbook.desktop:2
+msgid "psbook"
+msgstr ""
+
+#. Comment
+#: filters/psbook.desktop:4
+msgid "Pamphlet Printing (use with small side duplex printing)"
+msgstr ""
+
+#. Name
+#: filters/psbook1.desktop:2
+msgid "psbook1"
+msgstr ""
+
+#. Comment
+#: filters/psbook1.desktop:4
+msgid "Pamphlet Printing - Even Pages (step 1)"
+msgstr ""
+
+#. Name
+#: filters/psbook2.desktop:2
+msgid "psbook2"
+msgstr ""
+
+#. Comment
+#: filters/psbook2.desktop:4
+msgid "Pamphlet Printing - Odd Pages (step 2)"
+msgstr ""
+
+#. Name
+#: filters/psnup.desktop:2
+msgid "psnup"
+msgstr ""
+
+#. Comment
+#: filters/psnup.desktop:4
+msgid "Multiple Pages per Sheet Filter"
+msgstr "여러 쪽으로 나눠주는 거르개"
+
+#. Name
+#: filters/psresize.desktop:2
+msgid "psresize"
+msgstr ""
+
+#. Comment
+#: filters/psresize.desktop:4
+msgid "Scale Print Content to Fit on Another Paper Size"
+msgstr "찍을 알맹이를 다른 쪽 크기에 맞춰줍니다"
+
+#. Name
+#: filters/psselect.desktop:2
+msgid "psselect"
+msgstr ""
+
+#. Comment
+#: filters/psselect.desktop:4
+msgid "Page Selection/Ordering Filter"
+msgstr "쪽을 고르거나 정렬하는 거르개"
+
+#. Name
+#: specials.desktop:5
+msgid "Print to File (PostScript)"
+msgstr "(포스트스크립트) 파일로 찍기"
+
+#. Description
+#: specials.desktop:6
+msgid "Write PostScript file"
+msgstr "포스트스크립트 파일로 씁니다"
+
+#. Comment
+#: specials.desktop:7 specials.desktop:17
+msgid "Local file"
+msgstr "울 안 파일"
+
+#. Name
+#: specials.desktop:15
+msgid "Print to File (PDF)"
+msgstr "(PDF) 파일로 찍기"
+
+#. Description
+#: specials.desktop:16
+msgid "Write PDF/Acrobat file"
+msgstr "PDF/아크로뱃 파일로 씁니다"
+
+#. Name
+#: specials.desktop:26
+msgid "Send to Fax"
+msgstr "팩스로 보내기"
+
+#. Description
+#: specials.desktop:27
+msgid "Send to external fax system"
+msgstr "바깥에 있는 팩스 시스템으로 보냅니다"
+
+#. Comment
+#: specials.desktop:28
+msgid "External"
+msgstr "바깥"
+
+#. Comment
+#: specials.desktop:37
+msgid "Attachment for KMail Composer"
+msgstr "TDE 편지용 편집기로 덧붙여 보냅니다"
+
+#. Description
+#: specials.desktop:38
+msgid "Creates PDF/Acrobat file as attachment for KMail"
+msgstr "TDE 편지에 덧붙일 PDF/어크로뱃 파일로 만듭니다"
+
+#. Name
+#: specials.desktop:43
+msgid "Mail PDF File"
+msgstr ""
+
+#. Comment
+#: specials.desktop:48
+msgid "KSendFax"
+msgstr "K팩스보내기"
+
+#. Description
+#: specials.desktop:49
+msgid "Use ksendfax to fax the current document"
+msgstr "현재 문서를 팩스로 보내기 위해 ksendfax를 씁니다"
+
+#. Name
+#: specials.desktop:53
+msgid "Advanced Faxing Tool (ksendfax)"
+msgstr "고급 팩스 도구 (ksendfax)"
+
+#. Name
+#: tdeprintd.desktop:11
+msgid "TDE Print Daemon"
+msgstr "TDE 인쇄 데몬"
+
+#. Comment
+#: tdeprintd.desktop:12
+#, fuzzy
+msgid "Print daemon for TDE"
+msgstr "TDE 인쇄 데몬"
+
+#. Name
+#: tools/escputil/escputil.desktop:2
+msgid "EPSON InkJet"
+msgstr "엡손 잉크젯"
+
+#. Comment
+#: cups/cups.print:3
+msgid "CUPS (Common UNIX Print System)"
+msgstr "CUPS (공통 유닉스 인쇄 시스템)"
+
+#. Comment
+#: ext/ext.print:3
+msgid "Print Through an External Program (generic)"
+msgstr "바깥 프로그램을 통해 인쇄 (일반)"
+
+#. Comment
+#: foomatic/foomatic.print:3
+msgid "Foomatic (CUPS, LPRng, PDQ)"
+msgstr ""
+
+#. Comment
+#: lpd/lpd.print:3
+msgid "LPR (Standard BSD print system)"
+msgstr "LPR (표준 BSD 인쇄 시스템)"
+
+#. Comment
+#: lpdunix/lpdunix.print:3
+msgid "Generic UNIX LPD Print System (default)"
+msgstr "보통 유닉스 LPD 인쇄 시스템 (기본)"
+
+#. Comment
+#: lpr/lpr.print:3
+msgid "LPR/LPRng Print System"
+msgstr "LPR/LPRng 인쇄 시스템"
+
+#. Comment
+#: rlpr/rlpr.print:3
+msgid "RLPR Environment (Remote LPD servers)"
+msgstr "RLPR 환경 (원격지 LPD 서버)"

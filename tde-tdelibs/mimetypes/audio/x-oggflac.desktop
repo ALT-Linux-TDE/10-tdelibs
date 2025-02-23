@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=audio/x-oggflac
+Icon=audio-x-generic
+X-TDE-IsAlso=application/ogg
+Comment=Ogg FLAC Audio

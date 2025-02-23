@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=tdeab2tdeabc
+Comment=libkab to libtdeabc conversion tool.
+Exec=tdeab2tdeabc --disable-autostart --quiet
+Icon=application-vnd.tde.misc
+Type=Application
+Terminal=false
+NoDisplay=true
+X-TDE-autostart-condition=tdeab2tdeabcrc:Startup:EnableAutostart:true
+OnlyShowIn=TDE;

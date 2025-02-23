@@ -1,0 +1,10 @@
+[Desktop Entry]
+Comment=File List (for the Kate File List Loader Plugin)
+Icon=text-x-katefilelist
+Type=MimeType
+MimeType=text/x-katefilelist
+Patterns=*.katefl;
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

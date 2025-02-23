@@ -1,0 +1,21 @@
+##### create translation templates ##############
+
+tde_l10n_create_template(
+  CATALOG "tdeio"
+  SOURCES "." "../tdeioslave"
+)
+
+tde_l10n_auto_add_subdirectories( )
+
+tde_l10n_create_template(
+    CATALOG "desktop_files/tdeio-desktops/"
+    SOURCES *.desktop *.protocol
+    EXCLUDES tests/
+    DESTINATION "${CMAKE_SOURCE_DIR}/translations"
+)
+
+tde_l10n_create_template(
+    CATALOG "desktop_files/tdeio-kpac-eventsrc/"
+    SOURCES_DESKTOP misc/kpac/eventsrc
+    DESTINATION "${CMAKE_SOURCE_DIR}/translations"
+)

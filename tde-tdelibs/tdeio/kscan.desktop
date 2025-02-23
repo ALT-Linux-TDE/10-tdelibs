@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=ServiceType
+X-TDE-ServiceType=KScan/KScanDialog
+Name=KScan

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=image/x-portable-pixmap
+Icon=image-x-generic
+Patterns=*.ppm;*.PPM;*.pnm;*.PNM;*.ppmraw;*.PPMRAW
+Comment=Portable Pixmap Image

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=video/quicktime
+Icon=video-x-generic
+Patterns=*.qt;*.mov;*.moov;*.qtvr;*.QT;*.MOV;*.MOOV;*.MooV;*.QTVR;
+Comment=Quicktime Video

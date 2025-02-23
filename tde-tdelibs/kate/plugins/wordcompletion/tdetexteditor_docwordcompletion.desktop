@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=KTextEditor Word Completion Plugin
+Comment=Directional or popup-based completion from words in the document
+X-TDE-Library=tdetexteditor_docwordcompletion
+X-TDE-ServiceTypes=KTextEditor/Plugin
+Type=Service
+X-TDE-InitialPreference=8
+MimeType=text/plain

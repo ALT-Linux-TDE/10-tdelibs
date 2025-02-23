@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=video/x-matroska
+Icon=video-x-generic
+Patterns=*.mkv;*.MKV;
+Comment=Matroska Video

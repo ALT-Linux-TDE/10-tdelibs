@@ -1,0 +1,6 @@
+[TDE Print Filter Entry]
+Require=exec:/poster
+Comment=Poster Printing
+Description=Utility to print large posters on multiple small paper sheets. To use this command, the <b>poster</b> executable must be accessible in your <tt>PATH</tt>.<p><b><u>WARNING:</u></b> The package found on the TDEPrint web site is a modified version of the original one that can be found on any CTAN archive mirror, but the original package will <b>not</b> work with TDE.
+MimeTypeIn=application/postscript
+MimeTypeOut=application/postscript

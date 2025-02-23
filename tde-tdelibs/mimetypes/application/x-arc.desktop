@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-arc
+Icon=application-x-tarz
+Patterns=*.arc;*.ARC;
+Comment=ARC Archive

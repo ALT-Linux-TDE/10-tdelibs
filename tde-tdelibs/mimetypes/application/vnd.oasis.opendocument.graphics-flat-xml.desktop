@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/vnd.oasis.opendocument.graphics-flat-xml
+Patterns=*.fodg;*.FODG
+Icon=application-vnd.oasis.opendocument.graphics
+Comment=OASIS OpenDocument Graphics (Flat XML)
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.fodg

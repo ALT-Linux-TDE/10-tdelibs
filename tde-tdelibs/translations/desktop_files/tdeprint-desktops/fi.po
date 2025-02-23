@@ -1,0 +1,268 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-04 16:37+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Name
+#: filters/enscript.desktop:2
+msgid "enscript"
+msgstr ""
+
+#. Comment
+#: filters/enscript.desktop:4
+msgid "Enscript Text Filter"
+msgstr "Enscript-tekstisuodin"
+
+#. Name
+#: filters/imagetops.desktop:2
+msgid "imagetops"
+msgstr ""
+
+#. Comment
+#: filters/imagetops.desktop:4
+msgid "Generic Image to PS Filter"
+msgstr "Muunnin yleisestä kuvasta PS-muotoon"
+
+#. Name
+#: filters/pdf2ps.desktop:2
+msgid "pdf2ps"
+msgstr ""
+
+#. Comment
+#: filters/pdf2ps.desktop:4
+#, fuzzy
+msgid "PDF to PostScript Converter"
+msgstr "Muunnin PostScriptistä PDF-muotoon"
+
+#. Name
+#: filters/pdfwrite.desktop:2
+msgid "pdfwrite"
+msgstr ""
+
+#. Comment
+#: filters/pdfwrite.desktop:4
+msgid "PDF Writer (needs Ghostscript)"
+msgstr "PDF-tulostussuodin (tarvitsee Ghostscriptin)"
+
+#. Comment
+#: filters/poster.desktop:3
+msgid "Poster Printing"
+msgstr "Julistetulostus"
+
+#. Description
+#: filters/poster.desktop:4
+msgid ""
+"Utility to print large posters on multiple small paper sheets. To use this "
+"command, the <b>poster</b> executable must be accessible in your <tt>PATH</"
+"tt>.<p><b><u>WARNING:</u></b> The package found on the TDEPrint web site is "
+"a modified version of the original one that can be found on any CTAN archive "
+"mirror, but the original package will <b>not</b> work with TDE."
+msgstr ""
+"Työkalu isojen julisteiden tulostamiseen pienille paperiarkeille. "
+"Käyttääksesi komentoa <b>poster</b> ohjelman tulee olla polussasi."
+"<p><b><u>VAROITUS:</u></b>TDEPrintin sivuilla oleva paketti on muokattu "
+"versio alkuperäisestä CTAN-arkistossa olevasta paketista."
+
+#. Name
+#: filters/ps2pdf.desktop:2
+msgid "ps2pdf"
+msgstr ""
+
+#. Comment
+#: filters/ps2pdf.desktop:4
+msgid "PostScript to PDF Converter"
+msgstr "Muunnin PostScriptistä PDF-muotoon"
+
+#. Name
+#: filters/psbook.desktop:2
+msgid "psbook"
+msgstr ""
+
+#. Comment
+#: filters/psbook.desktop:4
+msgid "Pamphlet Printing (use with small side duplex printing)"
+msgstr "Lentolehtistulostus (käytä lyhyen sivun kaksipuoleistulostusta)"
+
+#. Name
+#: filters/psbook1.desktop:2
+msgid "psbook1"
+msgstr ""
+
+#. Comment
+#: filters/psbook1.desktop:4
+msgid "Pamphlet Printing - Even Pages (step 1)"
+msgstr "Lentolehtistulostus - parilliset sivut (vaihe 1)"
+
+#. Name
+#: filters/psbook2.desktop:2
+msgid "psbook2"
+msgstr ""
+
+#. Comment
+#: filters/psbook2.desktop:4
+msgid "Pamphlet Printing - Odd Pages (step 2)"
+msgstr "Lentolehtistulostus - parittomat sivut (vaihe 2)"
+
+#. Name
+#: filters/psnup.desktop:2
+msgid "psnup"
+msgstr ""
+
+#. Comment
+#: filters/psnup.desktop:4
+msgid "Multiple Pages per Sheet Filter"
+msgstr "Useita sivuja samalle arkille"
+
+#. Name
+#: filters/psresize.desktop:2
+msgid "psresize"
+msgstr ""
+
+#. Comment
+#: filters/psresize.desktop:4
+msgid "Scale Print Content to Fit on Another Paper Size"
+msgstr "Skaalaa tulostettava sisältö mahtumaan erikokoiselle paperille"
+
+#. Name
+#: filters/psselect.desktop:2
+msgid "psselect"
+msgstr ""
+
+#. Comment
+#: filters/psselect.desktop:4
+msgid "Page Selection/Ordering Filter"
+msgstr "Sivun valinta/järjestys-suodin"
+
+#. Name
+#: specials.desktop:5
+msgid "Print to File (PostScript)"
+msgstr "Tulosta PostScript-tiedostoon"
+
+#. Description
+#: specials.desktop:6
+msgid "Write PostScript file"
+msgstr "Kirjoita PostScript-tiedosto"
+
+#. Comment
+#: specials.desktop:7 specials.desktop:17
+msgid "Local file"
+msgstr "Paikallinen tiedosto"
+
+#. Name
+#: specials.desktop:15
+msgid "Print to File (PDF)"
+msgstr "Tulosta PDF-tiedostoon"
+
+#. Description
+#: specials.desktop:16
+msgid "Write PDF/Acrobat file"
+msgstr "Kirjoita PDF/Acrobat-tiedosto"
+
+#. Name
+#: specials.desktop:26
+msgid "Send to Fax"
+msgstr "Lähetä faksille"
+
+#. Description
+#: specials.desktop:27
+msgid "Send to external fax system"
+msgstr "Lähetä faksille"
+
+#. Comment
+#: specials.desktop:28
+msgid "External"
+msgstr "Ulkoinen"
+
+#. Comment
+#: specials.desktop:37
+msgid "Attachment for KMail Composer"
+msgstr "Sähköpostiliite KMailille"
+
+#. Description
+#: specials.desktop:38
+msgid "Creates PDF/Acrobat file as attachment for KMail"
+msgstr "Luo PDF/Acrobat-tiedoston sähköpostiliitteenä KMailille"
+
+#. Name
+#: specials.desktop:43
+msgid "Mail PDF File"
+msgstr "Lähetä PDF-tiedosto sähköpostilla"
+
+#. Comment
+#: specials.desktop:48
+#, fuzzy
+msgid "KSendFax"
+msgstr "Lähetä faksille"
+
+#. Description
+#: specials.desktop:49
+msgid "Use ksendfax to fax the current document"
+msgstr "Käytä kdendfax-ohjelmaa faksataksesi asiakirja"
+
+#. Name
+#: specials.desktop:53
+msgid "Advanced Faxing Tool (ksendfax)"
+msgstr "Edistynyt faksaustyökalu (ksendfax)"
+
+#. Name
+#: tdeprintd.desktop:11
+msgid "TDE Print Daemon"
+msgstr "TDE:n tulostuspalvelin"
+
+#. Comment
+#: tdeprintd.desktop:12
+msgid "Print daemon for TDE"
+msgstr "TDE:n tulostuspalvelin"
+
+#. Name
+#: tools/escputil/escputil.desktop:2
+msgid "EPSON InkJet"
+msgstr ""
+
+#. Comment
+#: cups/cups.print:3
+msgid "CUPS (Common UNIX Print System)"
+msgstr ""
+
+#. Comment
+#: ext/ext.print:3
+msgid "Print Through an External Program (generic)"
+msgstr "Tulosta ulkoisen sovelluksen kautta (yleinen)"
+
+#. Comment
+#: foomatic/foomatic.print:3
+msgid "Foomatic (CUPS, LPRng, PDQ)"
+msgstr ""
+
+#. Comment
+#: lpd/lpd.print:3
+msgid "LPR (Standard BSD print system)"
+msgstr "LPR (standardi BSD-tulostusjärjestelmä)"
+
+#. Comment
+#: lpdunix/lpdunix.print:3
+msgid "Generic UNIX LPD Print System (default)"
+msgstr "Yleinen UNIX LPD-tulostusjärjestelmä (oletus)"
+
+#. Comment
+#: lpr/lpr.print:3
+msgid "LPR/LPRng Print System"
+msgstr "LPR/LPRng-tulostusjärjestelmä"
+
+#. Comment
+#: rlpr/rlpr.print:3
+msgid "RLPR Environment (Remote LPD servers)"
+msgstr "RLPR-tulostus (LPD-palvelin)"

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Comment=Locked Folder
+Icon=folder_locked
+Type=MimeType
+MimeType=inode/directory-locked
+X-TDE-isAlso=inode/directory
+Patterns=

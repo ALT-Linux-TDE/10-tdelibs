@@ -1,0 +1,28 @@
+/** @mainpage Trinity Initialization Routines
+
+tdeinit is a process launcher somewhat similar to the
+famous init used for booting UNIX.
+<p>
+It launches processes by forking and then loading a
+dynamic library which should contain a 'main(...)'
+function.  This both increases the startup speed and
+reduces the memory consumption of Trinity applications.
+
+tdeinit_wrapper, kshell and kwrapper provide methods
+of starting programs via tdeinit.
+
+@authors
+Waldo Bastian \<bastian@kde.org\><br>
+Process title changing code taken from the ProFTPD Project, adapted by Alex Merry
+
+@maintainers
+[Unknown/None]
+
+@licenses
+@gpl<br>
+Most code is @lgpl
+
+*/
+
+// DOXYGEN_REFERENCES = tdecore
+// DOXYGEN_SET_PROJECT_NAME = KInit

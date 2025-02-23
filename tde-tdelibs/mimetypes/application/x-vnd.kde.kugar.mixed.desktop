@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-vnd.kde.kugar.mixed
+Icon=application-x-kugar
+Patterns=*.kug
+Comment=Kugar Archive File
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.kug

@@ -1,0 +1,269 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# Slávek Banko <slavek.banko@axis.cz>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-04 16:37+0200\n"
+"PO-Revision-Date: 2020-08-22 23:31+0000\n"
+"Last-Translator: Slávek Banko <slavek.banko@axis.cz>\n"
+"Language-Team: Czech <https://mirror.git.trinitydesktop.org/weblate/projects/"
+"tdelibs/tdeprint-desktop-files/cs/>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.1.1\n"
+
+#. Name
+#: filters/enscript.desktop:2
+msgid "enscript"
+msgstr "enscript"
+
+#. Comment
+#: filters/enscript.desktop:4
+msgid "Enscript Text Filter"
+msgstr "Textový filtr Enscript"
+
+#. Name
+#: filters/imagetops.desktop:2
+msgid "imagetops"
+msgstr "imagetops"
+
+#. Comment
+#: filters/imagetops.desktop:4
+msgid "Generic Image to PS Filter"
+msgstr "Obecný filtr pro převod obrázku do PS souboru"
+
+#. Name
+#: filters/pdf2ps.desktop:2
+msgid "pdf2ps"
+msgstr "pdf2ps"
+
+#. Comment
+#: filters/pdf2ps.desktop:4
+msgid "PDF to PostScript Converter"
+msgstr "Konvertor Postscriptu do PDF"
+
+#. Name
+#: filters/pdfwrite.desktop:2
+msgid "pdfwrite"
+msgstr "pdfwrite"
+
+#. Comment
+#: filters/pdfwrite.desktop:4
+msgid "PDF Writer (needs Ghostscript)"
+msgstr "PDF writer (vyžaduje GhostScript)"
+
+#. Comment
+#: filters/poster.desktop:3
+msgid "Poster Printing"
+msgstr "Tisk plakátu"
+
+#. Description
+#: filters/poster.desktop:4
+msgid ""
+"Utility to print large posters on multiple small paper sheets. To use this "
+"command, the <b>poster</b> executable must be accessible in your <tt>PATH</"
+"tt>.<p><b><u>WARNING:</u></b> The package found on the TDEPrint web site is "
+"a modified version of the original one that can be found on any CTAN archive "
+"mirror, but the original package will <b>not</b> work with TDE."
+msgstr ""
+"Nástroj pro tisk velkých plakátů na více menších listů. Aby bylo možné "
+"použít tento nástroj, je nutné aby byl dostupný program <b>poster</b>, tj. "
+"aby byl k nalezení v cestě udané proměnnou <tt>PATH</tt>.<p><b><u>VAROVÁNÍ:</"
+"u></b> Balík, který je možné nalézt na webové stránce TDEPrintu je upravená "
+"verze originálu, který je k nalezení na každém archívu CTANu. Originální "
+"balík <b>nebude</b> s TDE fungovat."
+
+#. Name
+#: filters/ps2pdf.desktop:2
+msgid "ps2pdf"
+msgstr "ps2pdf"
+
+#. Comment
+#: filters/ps2pdf.desktop:4
+msgid "PostScript to PDF Converter"
+msgstr "Konvertor Postscriptu do PDF"
+
+#. Name
+#: filters/psbook.desktop:2
+msgid "psbook"
+msgstr "psbook"
+
+#. Comment
+#: filters/psbook.desktop:4
+msgid "Pamphlet Printing (use with small side duplex printing)"
+msgstr "Tisk letáku (použití pro oboustranný tisk s úzkými okraji)"
+
+#. Name
+#: filters/psbook1.desktop:2
+msgid "psbook1"
+msgstr "psbook1"
+
+#. Comment
+#: filters/psbook1.desktop:4
+msgid "Pamphlet Printing - Even Pages (step 1)"
+msgstr "Tisk letáku – sudé stránky (krok 1)"
+
+#. Name
+#: filters/psbook2.desktop:2
+msgid "psbook2"
+msgstr "psbook2"
+
+#. Comment
+#: filters/psbook2.desktop:4
+msgid "Pamphlet Printing - Odd Pages (step 2)"
+msgstr "Tisk letáku – sudé stránky (krok 2)"
+
+#. Name
+#: filters/psnup.desktop:2
+msgid "psnup"
+msgstr "psnup"
+
+#. Comment
+#: filters/psnup.desktop:4
+msgid "Multiple Pages per Sheet Filter"
+msgstr "Filtr pro tisk více stran na jeden list papíru"
+
+#. Name
+#: filters/psresize.desktop:2
+msgid "psresize"
+msgstr "psresize"
+
+#. Comment
+#: filters/psresize.desktop:4
+msgid "Scale Print Content to Fit on Another Paper Size"
+msgstr "Roztáhne tištěný obsah na jiný rozměr papíru"
+
+#. Name
+#: filters/psselect.desktop:2
+msgid "psselect"
+msgstr "psselect"
+
+#. Comment
+#: filters/psselect.desktop:4
+msgid "Page Selection/Ordering Filter"
+msgstr "Filtr pro výběr a uspořádání stran"
+
+#. Name
+#: specials.desktop:5
+msgid "Print to File (PostScript)"
+msgstr "Tisk do souboru (PostScript)"
+
+#. Description
+#: specials.desktop:6
+msgid "Write PostScript file"
+msgstr "Zapisuje do PostScriptového souboru"
+
+#. Comment
+#: specials.desktop:7 specials.desktop:17
+msgid "Local file"
+msgstr "Lokální soubor"
+
+#. Name
+#: specials.desktop:15
+msgid "Print to File (PDF)"
+msgstr "Tisk do souboru (PDF)"
+
+#. Description
+#: specials.desktop:16
+msgid "Write PDF/Acrobat file"
+msgstr "Zapisuje do PDF souboru"
+
+#. Name
+#: specials.desktop:26
+msgid "Send to Fax"
+msgstr "Poslat na fax"
+
+#. Description
+#: specials.desktop:27
+msgid "Send to external fax system"
+msgstr "Odesílá do externího faxového systému"
+
+#. Comment
+#: specials.desktop:28
+msgid "External"
+msgstr "Externí"
+
+#. Comment
+#: specials.desktop:37
+msgid "Attachment for KMail Composer"
+msgstr "Příloha pro editor KMailu"
+
+#. Description
+#: specials.desktop:38
+msgid "Creates PDF/Acrobat file as attachment for KMail"
+msgstr "Vytvoří PDF/Acrobat soubor jako přílohu pro KMail"
+
+#. Name
+#: specials.desktop:43
+msgid "Mail PDF File"
+msgstr "Odeslat PDF soubor emailem"
+
+#. Comment
+#: specials.desktop:48
+msgid "KSendFax"
+msgstr "Poslat na fax"
+
+#. Description
+#: specials.desktop:49
+msgid "Use ksendfax to fax the current document"
+msgstr "Použít ksendfax k odfaxování současného dokumentu"
+
+#. Name
+#: specials.desktop:53
+msgid "Advanced Faxing Tool (ksendfax)"
+msgstr "Pokročilý faxovací nástroj (ksendfax)"
+
+#. Name
+#: tdeprintd.desktop:11
+msgid "TDE Print Daemon"
+msgstr "Tiskový démon TDE"
+
+#. Comment
+#: tdeprintd.desktop:12
+msgid "Print daemon for TDE"
+msgstr "Tiskový démon TDE"
+
+#. Name
+#: tools/escputil/escputil.desktop:2
+msgid "EPSON InkJet"
+msgstr "EPSON InkJet"
+
+#. Comment
+#: cups/cups.print:3
+msgid "CUPS (Common UNIX Print System)"
+msgstr "CUPS (Common Unix Print System)"
+
+#. Comment
+#: ext/ext.print:3
+msgid "Print Through an External Program (generic)"
+msgstr "Tisk pomocí externího programu (obecné)"
+
+#. Comment
+#: foomatic/foomatic.print:3
+msgid "Foomatic (CUPS, LPRng, PDQ)"
+msgstr "Foomatic (CUPS, LPRng, PDQ)"
+
+#. Comment
+#: lpd/lpd.print:3
+msgid "LPR (Standard BSD print system)"
+msgstr "LPR (Standardní tiskový systém na BSD)"
+
+#. Comment
+#: lpdunix/lpdunix.print:3
+msgid "Generic UNIX LPD Print System (default)"
+msgstr "Obecný UNIXový tiskový systém LPD (výchozí)"
+
+#. Comment
+#: lpr/lpr.print:3
+msgid "LPR/LPRng Print System"
+msgstr "Tiskový systém LPR/LPRng"
+
+#. Comment
+#: rlpr/rlpr.print:3
+msgid "RLPR Environment (Remote LPD servers)"
+msgstr "Prostředí RLPR (Vzdálené LPD servery)"

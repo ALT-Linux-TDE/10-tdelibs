@@ -1,0 +1,1713 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# Slávek Banko <slavek.banko@axis.cz>, 2024.
+# Alejo Fernández <alejofernandez@hotmail.com.ar>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-26 20:48+0200\n"
+"PO-Revision-Date: 2024-06-26 15:10+0000\n"
+"Last-Translator: Alejo Fernández <alejofernandez@hotmail.com.ar>\n"
+"Language-Team: Spanish (Argentina) <https://mirror.git.trinitydesktop.org/"
+"weblate/projects/tdelibs/mimetypes/es_AR/>\n"
+"Language: es_AR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17\n"
+
+#. Comment
+#: all.desktop:4
+msgid "All Files and Folders"
+msgstr "Todos los archivos y directorios"
+
+#. Comment
+#: allfiles.desktop:4
+msgid "All Files"
+msgstr "Todos los archivos"
+
+#. Comment
+#: application/chm.desktop:2
+msgid "HTML Help Document"
+msgstr "Documento de ayuda HTML"
+
+#. Comment
+#: application/fits.desktop:4
+msgid "FITS Data"
+msgstr "Datos FITS"
+
+#. Comment
+#: application/illustrator.desktop:6
+msgid "Adobe Illustrator Document"
+msgstr "Documento de Adobe Illustrator"
+
+#. Comment
+#: application/java.desktop:5 application/x-java.desktop:6
+msgid "Java Class"
+msgstr "Clase Java"
+
+#. Comment
+#: application/mathml+xml.desktop:8
+msgid "MathML Document"
+msgstr "Documento de MathML"
+
+#. Comment
+#: application/mbox.desktop:5
+msgid "MBOX Mail Folder"
+msgstr "Carpeta de correo MBOX"
+
+#. Comment
+#: application/msexcel.desktop:7 application/vnd.ms-excel.desktop:6
+#: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.desktop:6
+msgid "Microsoft Excel Spreadsheet"
+msgstr "Hoja de cálculo de Microsoft Excel"
+
+#. Comment
+#: application/mspowerpoint.desktop:7 application/vnd.ms-powerpoint.desktop:6
+#: application/vnd.openxmlformats-officedocument.presentationml.presentation.desktop:6
+msgid "Microsoft PowerPoint Presentation"
+msgstr "Presentación de Microsoft PowerPoint"
+
+#. Comment
+#: application/msword.desktop:8 application/vnd.ms-word.desktop:6
+#: application/vnd.openxmlformats-officedocument.wordprocessingml.document.desktop:6
+msgid "Microsoft Word Document"
+msgstr "Documento de Microsoft Word"
+
+#. Comment
+#: application/octet-stream.desktop:5
+msgid "Unknown"
+msgstr "Desconocido"
+
+#. Comment
+#: application/ogg.desktop:9 application/x-ogg.desktop:8
+msgid "Ogg Multimedia"
+msgstr "Multimedia Ogg"
+
+#. Comment
+#: application/pdf.desktop:7
+msgid "PDF Document"
+msgstr "Documento PDF"
+
+#. Comment
+#: application/pgp-encrypted.desktop:6
+msgid "PGP/MIME Encrypted Message Header"
+msgstr "Cabecera de mensaje cifrado PGP/MIME"
+
+#. Comment
+#: application/pgp-keys.desktop:6
+msgid "OpenPGP Key Bundle"
+msgstr "Paquete de certificado OpenPGP"
+
+#. Comment
+#: application/pgp-signature.desktop:5
+msgid "Detached OpenPGP Signature"
+msgstr "Firma suelta OpenPGP"
+
+#. Comment
+#: application/pgp.desktop:5
+msgid "PGP Encrypted or Signed Message"
+msgstr "Mensaje cifrado o firmado PGP/MIME"
+
+#. Comment
+#: application/pkcs10.desktop:6
+msgid "S/MIME Certification Request"
+msgstr "Solicitud de certificación S/MIME"
+
+#. Comment
+#: application/pkcs7-mime.desktop:6
+msgid "PKCS#7 (S/MIME) Formatted Data"
+msgstr "Datos formateados PKCS#7 (S/MIME)"
+
+#. Comment
+#: application/pkcs7-signature.desktop:6
+msgid "Detached S/MIME Signature"
+msgstr "Firma suelta S/MIME"
+
+#. Comment
+#: application/postscript.desktop:7
+msgid "PostScript Document"
+msgstr "Documento PostScript"
+
+#. Comment
+#: application/relaxng.desktop:2
+msgid "RELAX NG"
+msgstr "RELAX NG"
+
+#. Comment
+#: application/sieve.desktop:5
+msgid "SIEVE Mail Filter Script"
+msgstr "Script de filtro de correo SIEVE"
+
+#. Comment
+#: application/smil.desktop:6
+msgid "Synchronized Multimedia Integration Language"
+msgstr "Lenguaje de integración multimedia sincronizada"
+
+#. Comment
+#: application/vnd.gentoo.ebuild.desktop:3
+msgid "Gentoo ebuild file"
+msgstr "Archivo ebuild de Gentoo"
+
+#. Comment
+#: application/vnd.mozilla.xul+xml.desktop:7
+msgid "Mozilla XUL File"
+msgstr "Archivo XUL de Mozilla"
+
+#. Comment
+#: application/vnd.ms-access.desktop:5 application/x-msaccess.desktop:6
+msgid "Microsoft Access Database"
+msgstr "Base de datos de Microsoft Access"
+
+#. Comment
+#: application/vnd.ms-asf.desktop:5 video/x-ms-asf.desktop:7
+msgid "ASF Media"
+msgstr "Medios ASF"
+
+#. Comment
+#: application/vnd.ms-excel.addin.macroEnabled.12.desktop:6
+msgid "Microsoft Excel Spreadsheet Add-In Macro Enabled"
+msgstr "Macro complementaria de hoja de cálculo de Microsoft Excel habilitado"
+
+#. Comment
+#: application/vnd.ms-excel.sheet.binary.macroEnabled.12.desktop:6
+#: application/vnd.ms-excel.sheet.macroEnabled.12.desktop:6
+msgid "Microsoft Excel Spreadsheet Macro Enabled"
+msgstr "Hoja de cálculo de Microsoft Excel"
+
+#. Comment
+#: application/vnd.ms-excel.template.macroEnabled.12.desktop:6
+msgid "Microsoft Excel Spreadsheet Template Macro Enabled"
+msgstr "Macro de plantilla de hoja de cálculo de Microsoft Excel habilitado"
+
+#. Comment
+#: application/vnd.ms-powerpoint.addin.macroEnabled.12.desktop:6
+msgid "Microsoft PowerPoint Presentation Add-In Macro Enabled"
+msgstr ""
+"Macro del complemento de presentación de Microsoft PowerPoint habilitado"
+
+#. Comment
+#: application/vnd.ms-powerpoint.presentation.macroEnabled.12.desktop:6
+msgid "Microsoft PowerPoint Presentation Macro Enabled"
+msgstr "Macro de presentación de Microsoft PowerPoint habilitado"
+
+#. Comment
+#: application/vnd.ms-powerpoint.slideshow.macroEnabled.12.desktop:6
+msgid "Microsoft PowerPoint Presentation SlideShow Macro Enabled"
+msgstr ""
+"Macro de presentación de diapositivas de presentación de Microsoft "
+"PowerPoint habilitado"
+
+#. Comment
+#: application/vnd.ms-powerpoint.template.macroEnabled.12.desktop:6
+msgid "Microsoft PowerPoint Presentation Template Macro Enabled"
+msgstr "Macro de plantilla de presentación de Microsoft PowerPoint habilitado"
+
+#. Comment
+#: application/vnd.ms-word.document.macroEnabled.12.desktop:6
+msgid "Microsoft Word Document Macro Enabled"
+msgstr "Macro de documento de Microsoft Word habilitado"
+
+#. Comment
+#: application/vnd.ms-word.template.macroEnabled.12.desktop:6
+msgid "Microsoft Word Document Template Macro Enabled"
+msgstr "Macro de plantilla de documento de Microsoft Word habilitado"
+
+#. Comment
+#: application/vnd.oasis.opendocument.chart.desktop:6
+msgid "OASIS OpenDocument Chart"
+msgstr "Carta de OpenDocument OASIS"
+
+#. Comment
+#: application/vnd.oasis.opendocument.database.desktop:6
+msgid "OASIS OpenDocument Database"
+msgstr "Base de datos OpenDocument de OASIS"
+
+#. Comment
+#: application/vnd.oasis.opendocument.formula.desktop:6
+msgid "OASIS OpenDocument Formula"
+msgstr "Fórmula de OpenDocument OASIS"
+
+#. Comment
+#: application/vnd.oasis.opendocument.graphics-flat-xml.desktop:6
+msgid "OASIS OpenDocument Graphics (Flat XML)"
+msgstr "Gráfico de OpenDocument OASIS (Flat XML)"
+
+#. Comment
+#: application/vnd.oasis.opendocument.graphics-template.desktop:6
+msgid "OASIS OpenDocument Graphics Template"
+msgstr "Plantilla de documento gráfico de OpenDocument OASIS"
+
+#. Comment
+#: application/vnd.oasis.opendocument.graphics.desktop:6
+msgid "OASIS OpenDocument Graphics"
+msgstr "Gráfico de OpenDocument OASIS"
+
+#. Comment
+#: application/vnd.oasis.opendocument.image.desktop:6
+msgid "OASIS OpenDocument Image"
+msgstr "Imagen de OpenDocument OASIS"
+
+#. Comment
+#: application/vnd.oasis.opendocument.presentation-flat-xml.desktop:6
+msgid "OASIS OpenDocument Presentation (Flat XML)"
+msgstr "Presentación de OpenDocument OASIS (Flat XML)"
+
+#. Comment
+#: application/vnd.oasis.opendocument.presentation-template.desktop:6
+msgid "OASIS OpenDocument Presentation Template"
+msgstr "Plantilla de presentación de OpenDocument OASIS"
+
+#. Comment
+#: application/vnd.oasis.opendocument.presentation.desktop:6
+msgid "OASIS OpenDocument Presentation"
+msgstr "Presentación de OpenDocument OASIS"
+
+#. Comment
+#: application/vnd.oasis.opendocument.spreadsheet-flat-xml.desktop:6
+msgid "OASIS OpenDocument SpreadSheet (Flat XML)"
+msgstr "Hoja de cálculo de OpenDocument OASIS (Flat XML)"
+
+#. Comment
+#: application/vnd.oasis.opendocument.spreadsheet-template.desktop:6
+msgid "OASIS OpenDocument SpreadSheet Template"
+msgstr "Plantilla de hoja de cálculo de OpenDocument OASIS"
+
+#. Comment
+#: application/vnd.oasis.opendocument.spreadsheet.desktop:6
+msgid "OASIS OpenDocument SpreadSheet"
+msgstr "Hoja de cálculo de OpenDocument OASIS"
+
+#. Comment
+#: application/vnd.oasis.opendocument.text-flat-xml.desktop:6
+msgid "OASIS OpenDocument Text (Flat XML)"
+msgstr "texto de OpenDocument OASIS (Flat XML)"
+
+#. Comment
+#: application/vnd.oasis.opendocument.text-template.desktop:6
+msgid "OASIS OpenDocument Text Template"
+msgstr "Plantilla de documento de texto de OpenDocument OASIS"
+
+#. Comment
+#: application/vnd.oasis.opendocument.text.desktop:6
+msgid "OASIS OpenDocument Text"
+msgstr "texto de OpenDocument OASIS"
+
+#. Comment
+#: application/vnd.openxmlformats-officedocument.presentationml.slideshow.desktop:6
+msgid "Microsoft PowerPoint Presentation SlideShow"
+msgstr "Presentación de Microsoft PowerPoint"
+
+#. Comment
+#: application/vnd.openxmlformats-officedocument.presentationml.template.desktop:6
+msgid "Microsoft PowerPoint Presentation Template"
+msgstr "Plantilla de presentación de Microsoft PowerPoint"
+
+#. Comment
+#: application/vnd.openxmlformats-officedocument.spreadsheetml.template.desktop:6
+msgid "Microsoft Excel Spreadsheet Template"
+msgstr "Plantilla de hoja de cálculo de Microsoft Excel"
+
+#. Comment
+#: application/vnd.openxmlformats-officedocument.wordprocessingml.template.desktop:6
+msgid "Microsoft Word Document Template"
+msgstr "Documento de Microsoft Word"
+
+#. Comment
+#: application/vnd.palm.desktop:6
+msgid "Palm Document"
+msgstr "Documento Palm"
+
+#. Comment
+#: application/vnd.rn-realmedia.desktop:6
+msgid "RealMedia File"
+msgstr "Archivo de RealMedia"
+
+#. Comment
+#: application/vnd.stardivision.calc.desktop:6
+msgid "StarOffice Calc Spreadsheet"
+msgstr "Hoja de cálculo de StarOffice"
+
+#. Comment
+#: application/vnd.stardivision.chart.desktop:6
+msgid "StarOffice Chart"
+msgstr "Gráfico de StarOffice"
+
+#. Comment
+#: application/vnd.stardivision.draw.desktop:6
+msgid "StarOffice Drawing"
+msgstr "Dibujo de StarOffice"
+
+#. Comment
+#: application/vnd.stardivision.impress.desktop:6
+msgid "StarOffice Impress Presentation"
+msgstr "Presentación Impress de StarOffice"
+
+#. Comment
+#: application/vnd.stardivision.math.desktop:6
+msgid "StarOffice Math Document"
+msgstr "Documento matemático de StarOffice"
+
+#. Comment
+#: application/vnd.stardivision.writer-global.desktop:6
+msgid "StarOffice Writer Master Document"
+msgstr "Documento maestro de StarOffice Writer"
+
+#. Comment
+#: application/vnd.stardivision.writer.desktop:6
+msgid "StarOffice Writer Document"
+msgstr "Documento de StarOffice Writer"
+
+#. Comment
+#: application/vnd.sun.xml.base.desktop:2
+msgid "OpenOffice.org Database"
+msgstr "Base de datos de OpenOffice.org"
+
+#. Comment
+#: application/vnd.sun.xml.calc.desktop:2
+msgid "OpenOffice.org Spreadsheet"
+msgstr "Hoja de cálculo de OpenOffice.org"
+
+#. Comment
+#: application/vnd.sun.xml.calc.template.desktop:2
+msgid "OpenOffice.org Spreadsheet Template"
+msgstr "Plantilla de hoja de cálculo de OpenOffice.org"
+
+#. Comment
+#: application/vnd.sun.xml.draw.desktop:2
+msgid "OpenOffice.org Drawing"
+msgstr "Dibujo de OpenOffice.org"
+
+#. Comment
+#: application/vnd.sun.xml.draw.template.desktop:2
+msgid "OpenOffice.org Drawing Template"
+msgstr "Plantilla de dibujo de OpenOffice.org"
+
+#. Comment
+#: application/vnd.sun.xml.impress.desktop:2
+msgid "OpenOffice.org Presentation"
+msgstr "Presentación de OpenOffice.org"
+
+#. Comment
+#: application/vnd.sun.xml.impress.template.desktop:2
+msgid "OpenOffice.org Presentation Template"
+msgstr "Plantilla de presentación de OpenOffice.org"
+
+#. Comment
+#: application/vnd.sun.xml.writer.desktop:2
+msgid "OpenOffice.org Text Document"
+msgstr "Documento de texto de OpenOffice.org"
+
+#. Comment
+#: application/vnd.sun.xml.writer.master.desktop:2
+msgid "OpenOffice.org Master Text Document"
+msgstr "Documento de texto maestro de OpenOffice.org"
+
+#. Comment
+#: application/vnd.sun.xml.writer.template.desktop:2
+msgid "OpenOffice.org Text Document Template"
+msgstr "Plantilla de documento de texto de OpenOffice.org"
+
+#. Comment
+#: application/wordperfect.desktop:6
+msgid "WordPerfect Document"
+msgstr "Documento de WordPerfect"
+
+#. Comment
+#: application/x-7z.desktop:6
+msgid "7-Zip Archive"
+msgstr "Archivo 7-Zip"
+
+#. Comment
+#: application/x-abiword.desktop:4
+msgid "AbiWord Document"
+msgstr "Documento de AbiWord"
+
+#. Comment
+#: application/x-ace.desktop:6
+msgid "ACE Archive"
+msgstr "Archivo ACE"
+
+#. Comment
+#: application/x-afm.desktop:2
+msgid "PostScript Font Metrics"
+msgstr "Métricas de fuentes PostScript"
+
+#. Comment
+#: application/x-amipro.desktop:6
+msgid "Lotus AmiPro Document"
+msgstr "Documento AmiPro de Lotus"
+
+#. Comment
+#: application/x-applixgraphics.desktop:6
+msgid "Applix Graphics Document"
+msgstr "Documento gráfico de Applix"
+
+#. Comment
+#: application/x-applixspread.desktop:6
+msgid "Applix Spreadsheets Document"
+msgstr "Documento hoja de cálculo de Applix"
+
+#. Comment
+#: application/x-applixword.desktop:6
+msgid "Applix Words Document"
+msgstr "Documento de texto de Applix"
+
+#. Comment
+#: application/x-arc.desktop:6
+msgid "ARC Archive"
+msgstr "Archivo ARC"
+
+#. Comment
+#: application/x-archive.desktop:3
+msgid "Ar Archive"
+msgstr "Archivo Ar"
+
+#. Comment
+#: application/x-arj.desktop:6
+msgid "ARJ Archive"
+msgstr "Archivo comprimido ARJ"
+
+#. Comment
+#: application/x-awk.desktop:2
+msgid "AWK Script"
+msgstr "Script de AWK"
+
+#. Comment
+#: application/x-bittorrent.desktop:3
+msgid "BitTorrent Download"
+msgstr "Descarga BitTorrent"
+
+#. Comment
+#: application/x-bz2dvi.desktop:2
+msgid "Bzip2 Compressed DVI File"
+msgstr "Archivo DVI comprimido con Bzip2"
+
+#. Comment
+#: application/x-bzip.desktop:3
+msgid "Bzip File"
+msgstr "Archivo comprimido Bzip"
+
+#. Comment
+#: application/x-bzip2.desktop:3
+msgid "Bzip2 File"
+msgstr "Archivo comprimido Bzip2"
+
+#. Comment
+#: application/x-cda.desktop:3
+msgid "CD Audio"
+msgstr "CD de audio"
+
+#. Comment
+#: application/x-compress.desktop:6
+msgid "UNIX Compressed File"
+msgstr "Archivo comprimido de UNIX"
+
+#. Comment
+#: application/x-core.desktop:6
+msgid "Program Crash Data"
+msgstr "Datos sobre el fallo de un programa"
+
+#. Comment
+#: application/x-cpio.desktop:6
+msgid "CPIO Archive"
+msgstr "Archivo CPIO"
+
+#. Comment
+#: application/x-cue.desktop:6
+msgid "CDRWIN Cue-Sheet"
+msgstr "Hoja cue de CDRWIN"
+
+#. Comment
+#: application/x-dbase.desktop:6
+msgid "dBASE Document"
+msgstr "Documento dBase"
+
+#. Comment
+#: application/x-deb.desktop:6 application/x-debian-package.desktop:7
+msgid "Debian Package"
+msgstr "Paquete Debian"
+
+#. Comment
+#: application/x-designer.desktop:2
+msgid "TQt/Qt Designer File"
+msgstr "Archivo de TQt/Qt Designer"
+
+#. Comment
+#: application/x-desktop.desktop:2
+msgid "Desktop Config File"
+msgstr "Archivo de configuración del escritorio"
+
+#. Comment
+#: application/x-dvi.desktop:2
+msgid "TeX Device Independent File"
+msgstr "Archivo TeX independiente del dispositivo"
+
+#. Comment
+#: application/x-egon.desktop:6
+msgid "Egon Animator"
+msgstr "Archivo de Egon Animator"
+
+#. Comment
+#: application/x-executable-script.desktop:2
+msgid "Script (possibly executable)"
+msgstr "Script (Posiblemente ejecutable)"
+
+#. Comment
+#: application/x-executable.desktop:2 application/x-pie-executable.desktop:2
+msgid "Executable File"
+msgstr "Archivo ejecutable"
+
+#. Comment
+#: application/x-font-bdf.desktop:6
+msgid "BDF Bitmap Font"
+msgstr "Tipo de letra bitmap BDF"
+
+#. Comment
+#: application/x-font-ghostscript.desktop:6
+msgid "Ghostscript Font"
+msgstr "Tipo de letra Ghostscript"
+
+#. Comment
+#: application/x-font-otf.desktop:2
+msgid "OpenType Font"
+msgstr "Tipo de letra OpenType"
+
+#. Comment
+#: application/x-font-pcf.desktop:6
+msgid "PCF Bitmap Font"
+msgstr "Tipo de letra bitmap PCF"
+
+#. Comment
+#: application/x-font-snf.desktop:6
+msgid "SNF Bitmap Font"
+msgstr "Tipo de letra bitmap SNF"
+
+#. Comment
+#: application/x-font-speedo.desktop:6
+msgid "Speedo Font"
+msgstr "Tipo de letra Speedo"
+
+#. Comment
+#: application/x-font-ttc.desktop:2
+msgid "TrueType Font Collection"
+msgstr "Colección de tipos de letra TrueType"
+
+#. Comment
+#: application/x-font-ttf.desktop:2
+msgid "TrueType Font"
+msgstr "Tipo de letra TrueType"
+
+#. Comment
+#: application/x-font-type1.desktop:6
+msgid "PostScript Type1 Font"
+msgstr "Tipo de letra Postscript tipo 1"
+
+#. Comment
+#: application/x-gettext.desktop:2
+msgid "GNU Gettext Message Catalog"
+msgstr "Catálogo de mensajes de GNU Gettext"
+
+#. Comment
+#: application/x-gnumeric.desktop:6
+msgid "GNUmeric Spreadsheet"
+msgstr "Hoja de cálculo de GNUmeric"
+
+#. Comment
+#: application/x-graphite.desktop:7
+msgid "Graphite Scientific Graph"
+msgstr "Gráfica científica Graphite"
+
+#. Comment
+#: application/x-gzdvi.desktop:2
+msgid "Gzip Compressed DVI File"
+msgstr "Archivo DVI comprimido con Gzip"
+
+#. Comment
+#: application/x-gzip.desktop:3
+msgid "Gzip File"
+msgstr "Archivo comprimido Gzip"
+
+#. Comment
+#: application/x-gzpostscript.desktop:2
+msgid "Gzipped PostScript File"
+msgstr "Archivo PostScript comprimido con Gzip"
+
+#. Comment
+#: application/x-hancomword.desktop:6
+msgid "HancomWord Document"
+msgstr "Documento de HancomWord"
+
+#. Comment
+#: application/x-ica.desktop:3
+msgid "Citrix ICA Client Configuration"
+msgstr "Cliente de configuración Citrix ICA"
+
+#. Comment
+#: application/x-iso.desktop:6
+msgid "ISO9660 Image File"
+msgstr "Archivo de imagen ISO9660"
+
+#. Comment
+#: application/x-jar.desktop:6
+msgid "Java Archive"
+msgstr "Archivo Java"
+
+#. Comment
+#: application/x-java-applet.desktop:3
+msgid "Java Applet"
+msgstr "Applet de Java"
+
+#. Comment
+#: application/x-java-jnlp-file.desktop:4
+msgid "Java Web Start application"
+msgstr "Aplicación de Java Web Start"
+
+#. Comment
+#: application/x-javascript.desktop:6 text/javascript.desktop:5
+msgid "JavaScript File"
+msgstr "Archivo JavaScript"
+
+#. Comment
+#: application/x-karbon.desktop:7
+msgid "Karbon14 Document"
+msgstr "Documento de Karbon14"
+
+#. Comment
+#: application/x-kchart.desktop:6
+msgid "KChart Document"
+msgstr "Documento de KChart"
+
+#. Comment
+#: application/x-kcsrc.desktop:6
+msgid "TDE Color Theme"
+msgstr "Tema de color de TDE"
+
+#. Comment
+#: application/x-kformula.desktop:6
+msgid "KFormula Document"
+msgstr "Documento de KFormula"
+
+#. Comment
+#: application/x-kivio.desktop:7
+msgid "Kivio Document"
+msgstr "Documento de Kivio"
+
+#. Comment
+#: application/x-kontour.desktop:3
+msgid "Kontour Document"
+msgstr "Documento de Kontour"
+
+#. Comment
+#: application/x-kpovmodeler.desktop:2
+msgid "KPovModeler File"
+msgstr "Archivo de KPovModeler"
+
+#. Comment
+#: application/x-kpresenter.desktop:7
+msgid "KPresenter Document"
+msgstr "Documento de KPresenter"
+
+#. Comment
+#: application/x-krita.desktop:7
+msgid "Krita Document"
+msgstr "Documento de Krita"
+
+#. Comment
+#: application/x-kspread.desktop:7
+msgid "KSpread Document"
+msgstr "Documento de KSpread"
+
+#. Comment
+#: application/x-kudesigner.desktop:3
+msgid "Kugar Report Template"
+msgstr "Plantilla de informe de Kugar"
+
+#. Comment
+#: application/x-kugar.desktop:6
+msgid "Kugar Data File"
+msgstr "Archivo de datos de Kugar"
+
+#. Comment
+#: application/x-kword.desktop:7
+msgid "KWord Document"
+msgstr "Documento de KWord"
+
+#. Comment
+#: application/x-lha.desktop:3
+msgid "Lha Archive"
+msgstr "Archivo LHA"
+
+#. Comment
+#: application/x-linguist.desktop:6
+msgid "Qt Translation Source File"
+msgstr "Archivo fuente de traducción de Qt"
+
+#. Comment
+#: application/x-lyx.desktop:2
+msgid "LyX Document"
+msgstr "Documento de LyX"
+
+#. Comment
+#: application/x-lzip.desktop:7
+msgid "LZIP File"
+msgstr "Archivo comprimido LZIP"
+
+#. Comment
+#: application/x-lzma.desktop:7
+msgid "LZMA File"
+msgstr "Archivo comprimido LZMA"
+
+#. Comment
+#: application/x-lzop.desktop:6
+msgid "Lzopped File"
+msgstr "Archivo comprimido Lzop"
+
+#. Comment
+#: application/x-magicpoint.desktop:6
+msgid "MagicPoint Presentation"
+msgstr "Presentación de MagicPoint"
+
+#. Comment
+#: application/x-mimearchive.desktop:6
+msgid "Mime Encapsulated Web Archive"
+msgstr "Archivo web MIME encapsulado"
+
+#. Comment
+#: application/x-mplayer2.desktop:8
+msgid "Microsoft Media Format"
+msgstr "Formator de medios de Microsoft"
+
+#. Comment
+#: application/x-msdos-program.desktop:2
+msgid "Windows Executable"
+msgstr "Ejecutable de Windows"
+
+#. Comment
+#: application/x-mswrite.desktop:6
+msgid "Microsoft Write Document"
+msgstr "Documento de Microsoft Write"
+
+#. Comment
+#: application/x-nzb.desktop:3
+msgid "NewzBin Usenet Index"
+msgstr "Índice Usenet de NewzBin"
+
+#. Comment
+#: application/x-object.desktop:6
+msgid "Object Code"
+msgstr "Código objeto"
+
+#. Comment
+#: application/x-pak.desktop:6
+msgid "PAK File Archive"
+msgstr "Archivo PAK"
+
+#. Comment
+#: application/x-perl-module.desktop:2
+msgid "Perl Module"
+msgstr "Módulo Perl"
+
+#. Comment
+#: application/x-perl.desktop:2 text/x-perl.desktop:2
+msgid "Perl Program"
+msgstr "Programa en Perl"
+
+#. Comment
+#: application/x-php.desktop:2
+msgid "PHP Script"
+msgstr "Script de PHP"
+
+#. Comment
+#: application/x-pkcs12.desktop:6
+msgid "PKCS#12 Certificate Bundle"
+msgstr "Paquete de certificado PKCS#12"
+
+#. Comment
+#: application/x-pw.desktop:3
+msgid "Pathetic Writer Document"
+msgstr "Documento de Pathetic Writer"
+
+#. Comment
+#: application/x-python-bytecode.desktop:6
+msgid "Python Bytecode"
+msgstr "Código byte de Python"
+
+#. Comment
+#: application/x-python.desktop:2 text/x-python.desktop:2
+msgid "Python Program"
+msgstr "Programa en Python"
+
+#. Comment
+#: application/x-quattropro.desktop:6
+msgid "Quattro Pro Document"
+msgstr "Documento de Quattro Pro"
+
+#. Comment
+#: application/x-rar.desktop:6
+msgid "Rar Archive"
+msgstr "Archivo RAR"
+
+#. Comment
+#: application/x-rpm.desktop:7
+msgid "RPM Package File"
+msgstr "Archivo de paquete RPM"
+
+#. Comment
+#: application/x-ruby.desktop:2
+msgid "Ruby Program"
+msgstr "Programa en Ruby"
+
+#. Comment
+#: application/x-sharedlib.desktop:2
+msgid "Shared Library"
+msgstr "Biblioteca compartida"
+
+#. Comment
+#: application/x-shellscript.desktop:2 text/x-shellscript.desktop:2
+msgid "Shell Script"
+msgstr "Script para intérprete de órdenes"
+
+#. Comment
+#: application/x-shockwave-flash.desktop:6
+msgid "Shockwave Flash Media"
+msgstr "Archivo Shockwave Flash"
+
+#. Comment
+#: application/x-siag.desktop:3
+msgid "Siag Spreadsheet"
+msgstr "Hoja de cálculo de Siag"
+
+#. Comment
+#: application/x-sqlite2.desktop:6
+msgid "SQLite2 Database File"
+msgstr "Archivo de la base de datos SQLite2"
+
+#. Comment
+#: application/x-sqlite3.desktop:6
+msgid "SQLite3 Database File"
+msgstr "Archivo de la base de datos SQLite3"
+
+#. Comment
+#: application/x-tar.desktop:6
+msgid "Tar Archive"
+msgstr "Archivo Tar"
+
+#. Comment
+#: application/x-tarz.desktop:3
+msgid "Compressed Tar Archive"
+msgstr "Archivo Tar comprimido"
+
+#. Comment
+#: application/x-tbz.desktop:2
+msgid "Bzip2-ed Tar Archive"
+msgstr "Archivo Tar comprimido con Bzip2"
+
+#. Comment
+#: application/x-tde-wallet.desktop:4
+msgid "TDE Wallet File"
+msgstr "Archivo de cartera de TDE"
+
+#. Comment
+#: application/x-tex-gf.desktop:2
+msgid "Generic Font"
+msgstr "Tipo de letra genérico"
+
+#. Comment
+#: application/x-tex-pk.desktop:2
+msgid "Packed Font"
+msgstr "Tipo de letra empaquetado"
+
+#. Comment
+#: application/x-tgif.desktop:2
+msgid "TGIF Document"
+msgstr "Documento TGIF"
+
+#. Comment
+#: application/x-tgz.desktop:6
+msgid "Gzipped Tar Archive"
+msgstr "Archivo Tar comprimido en Gzip"
+
+#. Comment
+#: application/x-tlz.desktop:7
+msgid "LZIP Tar Archive"
+msgstr "Archivo Tar comprimido en LZIP"
+
+#. Comment
+#: application/x-tlzma.desktop:7
+msgid "LZMA Tar Archive"
+msgstr "Archivo Tar comprimido en LZMA"
+
+#. Comment
+#: application/x-trash.desktop:6
+msgid "Backup File"
+msgstr "Archivo de copia de Backup"
+
+#. Comment
+#: application/x-troff-man.desktop:2
+msgid "Troff Document with Manpage Macros"
+msgstr "Documento Troff con macros de páginas de Man"
+
+#. Comment
+#: application/x-troff.desktop:2
+msgid "Troff Document"
+msgstr "Documento Troff"
+
+#. Comment
+#: application/x-txz.desktop:6
+msgid "Xzipped Tar Archive"
+msgstr "Archivo Tar comprimido en Xzip"
+
+#. Comment
+#: application/x-tzo.desktop:3
+msgid "Lzopped Tar Archive"
+msgstr "Archivo Tar comprimido en Lzop"
+
+#. Comment
+#: application/x-vnd.kde.kexi.desktop:7
+msgid "Kexi Project File"
+msgstr "Archivo de proyecto Kexi"
+
+#. Comment
+#: application/x-vnd.kde.kplato.desktop:3
+msgid "KPlato Project Management Document"
+msgstr "Documento de gestión de proyectos KPlato"
+
+#. Comment
+#: application/x-vnd.kde.kugar.mixed.desktop:6
+msgid "Kugar Archive File"
+msgstr "Archivo de archivos Kugar"
+
+#. Comment
+#: application/x-webarchive.desktop:2
+msgid "Web Archive"
+msgstr "Archivo web"
+
+#. Comment
+#: application/x-x509-ca-cert.desktop:6
+msgid "DER, PEM, or Netscape Encoded X.509 Certificate"
+msgstr "Certificado X.509 codificado DER, PEM o Netscape"
+
+#. Comment
+#: application/x-xliff.desktop:6
+msgid "XLIFF Translation File"
+msgstr "Archivo de traducción XLIFF"
+
+#. Comment
+#: application/x-xz.desktop:3
+msgid "Xzip File"
+msgstr "Archivo comprimido Xzip"
+
+#. Comment
+#: application/x-zerosize.desktop:2
+msgid "Empty Document"
+msgstr "Documento vacío"
+
+#. Comment
+#: application/x-zip.desktop:6
+msgid "Zip Archive"
+msgstr "Archivo Zip"
+
+#. Comment
+#: application/x-zoo.desktop:6
+msgid "Zoo Archive"
+msgstr "Archivo Zoo"
+
+#. Comment
+#: application/xhtml+xml.desktop:2
+msgid "XHTML Family Document"
+msgstr "Documento familiar de XHTML"
+
+#. Comment
+#: application/xml-dtd.desktop:2
+msgid "XML DTD Document"
+msgstr "Documento DTD XML"
+
+#. Comment
+#: application/xml.desktop:2 text/xml.desktop:2
+msgid "XML Document"
+msgstr "Documento XML"
+
+#. Comment
+#: application/xsd.desktop:2
+msgid "W3C XML Schema"
+msgstr "Schema XML de W3C"
+
+#. Comment
+#: audio/aac.desktop:6
+msgid "AAC Sound"
+msgstr "Sonido AAC"
+
+#. Comment
+#: audio/ac3.desktop:6
+msgid "Dolby AC3 Sound"
+msgstr "Sonido Dolby AC3"
+
+#. Comment
+#: audio/basic.desktop:3
+msgid "ULAW (Sun) Audio"
+msgstr "Sonido ULAW (Sun)"
+
+#. Comment
+#: audio/mp4.desktop:6
+msgid "MPEG-4 Audio"
+msgstr "Audio de MPEG-4"
+
+#. Comment
+#: audio/mpeg.desktop:8
+msgid "MPEG Audio"
+msgstr "Audio de MPEG"
+
+#. Comment
+#: audio/mpegurl.desktop:7 audio/x-mpegurl.desktop:5
+msgid "Streaming MPEG Layer 3 Audio"
+msgstr "Sonido MPEG esquema 3 por transmisión"
+
+#. Comment
+#: audio/prs.sid.desktop:6
+msgid "C64 SID Music"
+msgstr "Música C64 SID"
+
+#. Comment
+#: audio/vnd.rn-realaudio.desktop:7 audio/x-pn-realaudio.desktop:5
+msgid "RealAudio File"
+msgstr "Archivo de RealAudio"
+
+#. Comment
+#: audio/vorbis.desktop:6 audio/x-vorbis.desktop:6
+msgid "Ogg Vorbis Audio"
+msgstr "Sonido Ogg Vorbis"
+
+#. Comment
+#: audio/x-adpcm.desktop:3
+msgid "PCM Audio"
+msgstr "Sonido PCM"
+
+#. Comment
+#: audio/x-aiff.desktop:3
+msgid "AIFF/Amiga Audio"
+msgstr "Sonido AIFF/Amiga"
+
+#. Comment
+#: audio/x-flac.desktop:3
+msgid "FLAC Audio"
+msgstr "Audio FLAC"
+
+#. Comment
+#: audio/x-matroska.desktop:6
+msgid "Matroska Audio"
+msgstr "Audio de Matroska"
+
+#. Comment
+#: audio/x-midi.desktop:6
+msgid "MIDI Audio"
+msgstr "Sonido de MIDI"
+
+#. Comment
+#: audio/x-mod.desktop:6
+msgid "Amiga Soundtracker Audio"
+msgstr "Sonido SoundTracker de Amiga"
+
+#. Comment
+#: audio/x-mp2.desktop:7
+msgid "MPEG Layer 2 Audio"
+msgstr "Audio MPEG capa 2"
+
+#. Comment
+#: audio/x-mp3.desktop:7
+msgid "MPEG Layer 3 Audio"
+msgstr "Sonido MPEG capa 3"
+
+#. Comment
+#: audio/x-ms-wma.desktop:6
+msgid "Windows Media Audio"
+msgstr "Audio de Windows Media"
+
+#. Comment
+#: audio/x-musepack.desktop:6
+msgid "Musepack Audio"
+msgstr "Musepack Audio"
+
+#. Comment
+#: audio/x-oggflac.desktop:6
+msgid "Ogg FLAC Audio"
+msgstr "Audio FLAC de Ogg"
+
+#. Comment
+#: audio/x-pn-realaudio-plugin.desktop:5
+msgid "RealAudio Plugin File"
+msgstr "Archivo de extensión para RealAudio"
+
+#. Comment
+#: audio/x-scpls.desktop:4
+msgid "MP3 ShoutCast Playlist"
+msgstr "Lista de reproducción MP3 de ShoutCast"
+
+#. Comment
+#: audio/x-speex.desktop:6
+msgid "Speex Audio"
+msgstr "Audio de Speex"
+
+#. Comment
+#: audio/x-wav.desktop:6
+msgid "WAV Audio"
+msgstr "Sonido WAV"
+
+#. Comment
+#: image/cgm.desktop:6
+msgid "Computer Graphics Metafile"
+msgstr "Metaarchivo de gráficos por computadora"
+
+#. Comment
+#. Name
+#: image/fax-g3.desktop:6 ../kimgio/g3.kimgio:4
+msgid "CCITT G3 Fax"
+msgstr "Fax G3 CCITT"
+
+#. Comment
+#: image/fits.desktop:6
+msgid "FITS Image"
+msgstr "Imagen FITS"
+
+#. Comment
+#. Name
+#: image/gif.desktop:6 ../kimgio/gif.kimgio:4
+msgid "GIF Image"
+msgstr "Imagen GIF"
+
+#. Comment
+#. Name
+#: image/jp2.desktop:6 ../kimgio/jp2.kimgio:4
+msgid "JPEG 2000 Image"
+msgstr "Imagen JPEG 2000"
+
+#. Comment
+#. Name
+#: image/jpeg.desktop:6 image/pjpeg.desktop:7 ../kimgio/jpeg.kimgio:4
+msgid "JPEG Image"
+msgstr "Imagen JPEG"
+
+#. Comment
+#. Name
+#: image/png.desktop:6 ../kimgio/png.kimgio:4
+msgid "PNG Image"
+msgstr "Imagen PNG"
+
+#. Comment
+#: image/svg+xml.desktop:7
+msgid "Scalable Vector Graphics"
+msgstr "Gráficos vectoriales escalables"
+
+#. Comment
+#. Name
+#: image/tiff.desktop:6 ../kimgio/tiff.kimgio:4
+msgid "TIFF Image"
+msgstr "Imagen TIFF"
+
+#. Comment
+#. Name
+#: image/webp.desktop:6 ../kimgio/webp.kimgio:4
+msgid "WebP Image"
+msgstr "Imagen WebP"
+
+#. Comment
+#. Name
+#: image/x-bmp.desktop:6 ../kimgio/bmp.kimgio:4
+msgid "BMP Image"
+msgstr "Imagen BMP"
+
+#. Comment
+#: image/x-dds.desktop:6
+msgid "DirectDraw Surface"
+msgstr "DirectDraw Surface"
+
+#. Comment
+#: image/x-djvu-2.desktop:6 image/x-djvu.desktop:6
+msgid "DjVu Document"
+msgstr "Documento DjVu"
+
+#. Comment
+#. Name
+#: image/x-eps.desktop:6 ../kimgio/eps.kimgio:4
+msgid "Encapsulated PostScript Image"
+msgstr "Imagen PostScript encapsulado"
+
+#. Comment
+#: image/x-exr.desktop:6
+msgid "ILM EXR Image"
+msgstr "Imagen ILM EXR"
+
+#. Comment
+#. Name
+#: image/x-hdr.desktop:6 ../kimgio/hdr.kimgio:4
+msgid "High Dynamic Range Image"
+msgstr "Imagen de gran rango dinámico"
+
+#. Comment
+#. Name
+#: image/x-ico.desktop:6 ../kimgio/ico.kimgio:4
+msgid "Windows Icon"
+msgstr "Iconos de Windows"
+
+#. Comment
+#: image/x-jng.desktop:6
+msgid "JNG Image"
+msgstr "Imagen JNG"
+
+#. Comment
+#: image/x-msod.desktop:6
+msgid "Microsoft Office Drawing"
+msgstr "Dibujo de Microsoft Office"
+
+#. Comment
+#. Name
+#: image/x-pcx.desktop:6 ../kimgio/pcx.kimgio:4
+msgid "PCX Image"
+msgstr "Imagen PCX"
+
+#. Comment
+#: image/x-photo-cd.desktop:6
+msgid "PhotoCD Image"
+msgstr "Imagen PhotoCD"
+
+#. Comment
+#. Name
+#: image/x-portable-bitmap.desktop:6 ../kimgio/pbm.kimgio:4
+msgid "Portable Bitmap Image"
+msgstr "Imagen Bitmap portable"
+
+#. Comment
+#. Name
+#: image/x-portable-greymap.desktop:6 ../kimgio/pgm.kimgio:4
+msgid "Portable Graymap Image"
+msgstr "Imagen portable Graymap"
+
+#. Comment
+#. Name
+#: image/x-portable-pixmap.desktop:6 ../kimgio/ppm.kimgio:4
+msgid "Portable Pixmap Image"
+msgstr "Imagen portable Pixmap"
+
+#. Comment
+#: image/x-raw.desktop:6
+msgid "RAW Camera Image"
+msgstr "Imagen RAW de cámara"
+
+#. Comment
+#. Name
+#: image/x-rgb.desktop:6 ../kimgio/rgb.kimgio:4
+msgid "SGI Image (RGB)"
+msgstr "Imagen SGI (RGB)"
+
+#. Comment
+#. Name
+#: image/x-targa.desktop:6 ../kimgio/tga.kimgio:4
+msgid "Truevision Targa Image"
+msgstr "Imagen Truevision Targa"
+
+#. Comment
+#. Name
+#: image/x-vnd.adobe.photoshop.desktop:6 ../kimgio/psd.kimgio:4
+msgid "Adobe Photoshop Image"
+msgstr "Imagen Photoshop de Adobe"
+
+#. Comment
+#: image/x-vnd.trolltech.qpicture.desktop:6
+msgid "QPicture Metafile"
+msgstr "Metaarchivo QPicture"
+
+#. Comment
+#: image/x-wmf.desktop:6
+msgid "Windows MetaFile"
+msgstr "Metaarchivo de Windows"
+
+#. Comment
+#. Name
+#: image/x-xbm.desktop:6 ../kimgio/xbm.kimgio:4
+msgid "X BitMap Image"
+msgstr "Imagen mapa de bits de X"
+
+#. Comment
+#: image/x-xcf-gimp.desktop:2
+msgid "GIMP Native Image Format"
+msgstr "Formato de imagen nativo de GIMP"
+
+#. Comment
+#: image/x-xcursor.desktop:5
+msgid "X11 Mouse Cursor"
+msgstr "Cursor de mouse X11"
+
+#. Comment
+#: image/x-xfig.desktop:6
+msgid "XFig File"
+msgstr "Archivo de XFig"
+
+#. Comment
+#. Name
+#: image/x-xpm.desktop:6 ../kimgio/xpm.kimgio:4
+msgid "X PixMap Image"
+msgstr "Imagen mapa de pixels de X"
+
+#. Comment
+#: inode/block.desktop:2
+msgid "Block Device"
+msgstr "Dispositivo de bloques"
+
+#. Comment
+#: inode/chardevice.desktop:2
+msgid "Character Device"
+msgstr "Dispositivo de caracteres"
+
+#. Comment
+#: inode/directory-locked.desktop:2
+msgid "Locked Folder"
+msgstr "Archivo bloqueado"
+
+#. Comment
+#: inode/directory.desktop:2
+msgid "Folder"
+msgstr "Carpeta"
+
+#. Comment
+#: inode/fifo.desktop:2
+msgid "Pipe"
+msgstr "Tubería"
+
+#. Comment
+#: inode/socket.desktop:2
+msgid "Socket"
+msgstr "Socket"
+
+#. Comment
+#: message/news.desktop:6
+msgid "Usenet News Message"
+msgstr "Mensaje de noticias de Usenet"
+
+#. Comment
+#: message/rfc822.desktop:6
+msgid "Email Message"
+msgstr "Mensaje de correo electrónico"
+
+#. Comment
+#: model/vrml.desktop:5
+msgid "VRML Model"
+msgstr "Modelo VRML"
+
+#. Comment
+#: multipart/mixed.desktop:5
+msgid "Compound Document"
+msgstr "Documento compuesto"
+
+#. Comment
+#: multipart/x-mixed-replace.desktop:5
+msgid "Stream of Data (Server Push)"
+msgstr "Flujo de datos (envío del servidor)"
+
+#. Comment
+#: text/calendar.desktop:2
+msgid "iCalendar File"
+msgstr "Archivo de iCalendar"
+
+#. Comment
+#: text/css.desktop:3
+msgid "Cascading Style Sheet"
+msgstr "Hoja de estilo en cascada"
+
+#. Comment
+#: text/docbook.desktop:2
+msgid "DocBook Document"
+msgstr "Documento DocBook"
+
+#. Comment
+#: text/enriched.desktop:3
+msgid "Lightly Enriched Text Document"
+msgstr "Documento de texto ligeramente enriquecido"
+
+#. Comment
+#: text/html.desktop:2
+msgid "HTML Document"
+msgstr "Documento HTML"
+
+#. Comment
+#: text/markdown.desktop:2
+msgid "Markdown document"
+msgstr "Documento Markdown"
+
+#. Comment
+#: text/plain.desktop:3
+msgid "Plain Text Document"
+msgstr "Documento simple de texto"
+
+#. Comment
+#: text/rdf.desktop:3
+msgid "Resource Description Framework File"
+msgstr "Archivo de entorno descripción de recursos (RDF)"
+
+#. Comment
+#: text/rss.desktop:3
+msgid "RDF Site Summary"
+msgstr "Resumen RDF del sitio"
+
+#. Comment
+#: text/rtf.desktop:3
+msgid "RTF Document"
+msgstr "Documento RTF"
+
+#. Comment
+#: text/sgml.desktop:3
+msgid "SGML Document"
+msgstr "Documento de SGML"
+
+#. Comment
+#: text/vnd.abc.desktop:2
+msgid "ABC Music File"
+msgstr "Archivo de música ABC"
+
+#. Comment
+#: text/vnd.wap.wml.desktop:6
+msgid "WML Document"
+msgstr "Documento de WML"
+
+#. Comment
+#: text/x-adasrc.desktop:2
+msgid "Ada Source File"
+msgstr "Archivo de fuentes Ada"
+
+#. Comment
+#: text/x-bibtex.desktop:2
+msgid "Bibliographic Data (Bibtex)"
+msgstr "Datos bibliográficos (Bibtex)"
+
+#. Comment
+#: text/x-c++hdr.desktop:2
+msgid "C++ Header File"
+msgstr "Archivo de cabecera C++"
+
+#. Comment
+#: text/x-c++src.desktop:2
+msgid "C++ Source File"
+msgstr "Archivo de código C++"
+
+#. Comment
+#: text/x-chdr.desktop:2
+msgid "C Header File"
+msgstr "Archivo de cabecera C"
+
+#. Comment
+#: text/x-csrc.desktop:2
+msgid "C Source File"
+msgstr "Archivo de código C"
+
+#. Comment
+#: text/x-csv.desktop:7
+msgid "Text File with Comma Separated Values"
+msgstr "Archivo de texto con valores separados por comas"
+
+#. Comment
+#: text/x-diff.desktop:3
+msgid "Differences Between Files"
+msgstr "Diferencias entre archivos"
+
+#. Comment
+#: text/x-hex.desktop:7
+msgid "Intel® Hexadecimal Object File Format"
+msgstr "Formato de archivo Intel® Hexadecimal Object"
+
+#. Comment
+#: text/x-java.desktop:2
+msgid "Java Source File"
+msgstr "Archivo Código Java"
+
+#. Comment
+#: text/x-katefilelist.desktop:2
+msgid "File List (for the Kate File List Loader Plugin)"
+msgstr ""
+"Lista de archivos (para el módulo cargador de lista de arhivos de Kate)"
+
+#. Comment
+#: text/x-latex.desktop:2
+msgid "LaTeX Document"
+msgstr "Documento de LaTeX"
+
+#. Comment
+#: text/x-ldif.desktop:2
+msgid "LDAP Addressbook"
+msgstr "Libreta de direcciones LDAP"
+
+#. Comment
+#: text/x-log.desktop:3
+msgid "Application Log File"
+msgstr "Archivo de registro de programa"
+
+#. Comment
+#: text/x-makefile.desktop:3
+msgid "Makefile"
+msgstr "Makefile"
+
+#. Comment
+#: text/x-moc.desktop:3
+msgid "Qt Meta Object File"
+msgstr "Archivo metaobjeto de Qt"
+
+#. Comment
+#: text/x-mswinurl.desktop:6
+msgid "Internet Shortcut"
+msgstr "Acceso rápido de Internet"
+
+#. Comment
+#: text/x-objchdr.desktop:2
+msgid "Objective-C Header File"
+msgstr "Archivo de cabecera de Objective-C"
+
+#. Comment
+#: text/x-objcsrc.desktop:2
+msgid "Objective-C Source File"
+msgstr "Archivo con código Objective-C"
+
+#. Comment
+#: text/x-pascal.desktop:2
+msgid "Pascal Source File"
+msgstr "Archivo con código Pascal"
+
+#. Comment
+#: text/x-tcl.desktop:2
+msgid "Tcl File"
+msgstr "Archivo TCL"
+
+#. Comment
+#: text/x-tex.desktop:2
+msgid "TeX File"
+msgstr "Archivo TeX"
+
+#. Comment
+#: text/x-vcalendar.desktop:2
+msgid "vCalendar Interchange File"
+msgstr "Archivo de intercambio de vCalendar"
+
+#. Comment
+#: text/x-vcard.desktop:2
+msgid "Electronic Business Card"
+msgstr "Tarjeta de comercio electrónico"
+
+#. Comment
+#: text/x-xslfo.desktop:2
+msgid "XSL Formating Object File"
+msgstr "Archivo de objeto de formato XSL"
+
+#. Comment
+#: text/x-xslt.desktop:2
+msgid "XSLT Stylesheet File"
+msgstr "Archivo de hoja de estilo XSLT"
+
+#. Comment
+#: uri/mms.desktop:5
+msgid "mms: URIs"
+msgstr "mms: URIs"
+
+#. Comment
+#: uri/mmst.desktop:5
+msgid "mmst: URIs"
+msgstr "mmst: URIs"
+
+#. Comment
+#: uri/mmsu.desktop:5
+msgid "mmsu: URIs"
+msgstr "mmsu: URIs"
+
+#. Comment
+#: uri/pnm.desktop:5
+msgid "pnm: URIs"
+msgstr "pnm: URIs"
+
+#. Comment
+#: uri/rtspt.desktop:5
+msgid "rtspt: URIs"
+msgstr "rtspt: URIs"
+
+#. Comment
+#: uri/rtspu.desktop:5
+msgid "rtspu: URIs"
+msgstr "rtspu: URIs"
+
+#. Comment
+#: video/avi.desktop:7 video/x-msvideo.desktop:6
+msgid "Microsoft AVI Video"
+msgstr "Video AVI de Microsoft"
+
+#. Comment
+#: video/mp4.desktop:6
+msgid "MPEG-4 Video"
+msgstr "Video de MPEG-4"
+
+#. Comment
+#: video/mpeg.desktop:6
+msgid "MPEG Video"
+msgstr "Video MPEG"
+
+#. Comment
+#: video/quicktime.desktop:6
+msgid "Quicktime Video"
+msgstr "Video QuickTime"
+
+#. Comment
+#: video/vnd.rn-realvideo.desktop:6
+msgid "RealVideo File"
+msgstr "Archivo de RealVideo"
+
+#. Comment
+#: video/x-flic.desktop:6
+msgid "Autodesk's FLIC File"
+msgstr "Archivo FLIC de Autodesk"
+
+#. Comment
+#: video/x-flv.desktop:5
+msgid "Flash Video"
+msgstr "Video de Flash"
+
+#. Comment
+#: video/x-matroska.desktop:6
+msgid "Matroska Video"
+msgstr "Video de Matroska"
+
+#. Comment
+#. Name
+#: video/x-mng.desktop:6 ../kimgio/mng.kimgio:4
+msgid "MNG Image"
+msgstr "Imagen MNG"
+
+#. Comment
+#: video/x-ms-wmv.desktop:2
+msgid "Windows Media Video"
+msgstr "Video de media de Windows"
+
+#. Comment
+#: video/x-ogm.desktop:7
+msgid "Ogg/Ogm Video"
+msgstr "Video de Ogg/Ogm"
+
+#. Comment
+#: video/x-theora.desktop:6
+msgid "Theora Video"
+msgstr "Video de Theora"
+
+#. Name
+#: ../kimgio/dds.kimgio:4
+msgid "Direct Draw Surface"
+msgstr "Direct Draw Surface"
+
+#. Name
+#: ../kimgio/exr.kimgio:4
+msgid "ILM EXR Image Kimgio"
+msgstr "Imagen Kimgio ILM EXR"
+
+#. Name
+#: ../kimgio/xcf.kimgio:4
+msgid "GIMP Image"
+msgstr "Imagen GIMP"
+
+#. Name
+#: ../kimgio/xv.kimgio:5
+msgid "XView Image"
+msgstr "Imagen XView"

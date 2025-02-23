@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=image/png
+Icon=image-x-generic
+Patterns=*.png;*.PNG;
+Comment=PNG Image

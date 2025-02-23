@@ -1,0 +1,6 @@
+[TDE Print Filter Entry]
+Name=psnup
+Require=exec:/psnup
+Comment=Multiple Pages per Sheet Filter
+MimeTypeIn=application/postscript
+MimeTypeOut=application/postscript

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-kspread
+Icon=application-x-kspread
+Patterns=*.ksp;
+X-TDE-AutoEmbed=false
+Comment=KSpread Document
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.ksp

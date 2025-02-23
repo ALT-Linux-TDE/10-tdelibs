@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/pdf
+Icon=application-pdf
+Patterns=*.pdf;*.PDF;
+X-TDE-PatternsAccuracy=90
+Comment=PDF Document
+X-TDE-AutoEmbed=true
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.pdf

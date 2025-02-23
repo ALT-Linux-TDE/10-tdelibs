@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-02 14:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: kspeech/dcoptexttospeech.desktop:5
+msgid "Text-to-Speech Service with a DCOP interface"
+msgstr "Service de synthèse vocale munie d'une interface DCOP"
+
+#. Comment
+#: tdeimproxy/interface/dcopinstantmessenger.desktop:5
+msgid "Instant Messenger with a DCOP interface"
+msgstr "Messagerie instantanée munie d'une interface DCOP"
+
+#. Name
+#: tdeimproxy/interface/kcm_instantmessenger.desktop:9
+msgid "Instant Messenger"
+msgstr "Messagerie instantanée"
+
+#. Comment
+#: tdeimproxy/interface/kcm_instantmessenger.desktop:11
+msgid ""
+"The instant messenger allows two-way chat between individuals and groups."
+msgstr ""
+"La messagerie instantanée permet un dialogue bidirectionnel entre individus "
+"et groupes."
+
+#. Name
+#: tdescript/sample/shellscript.desktop:7
+msgid "Bash Shell Script Runner"
+msgstr "Lanceur de scripts shell Bash"
+
+#. Comment
+#: tdescript/sample/shellscript.desktop:8
+msgid "Runs bash shell scripts from inside the application."
+msgstr "Exécute des scripts shell Bash depuis l'intérieur de l'application."
+
+#. Comment
+#: tdescript/scriptinterface.desktop:5
+msgid "This is a generic test script engine for testing the script interface."
+msgstr ""
+"Ceci est un moteur de script de test générique pour expérimenter l'interface "
+"de script."
+
+#. Name
+#: tdetexteditor/kcm_tdetexteditor.desktop:9
+msgid "Embedded Text Editor"
+msgstr "Éditeur de texte intégré"
+
+#. Comment
+#: tdetexteditor/kcm_tdetexteditor.desktop:10
+msgid ""
+"The text editor service provides applications with a text viewer and editor. "
+"TDE applications that provide text editing facilities should use this "
+"service."
+msgstr ""
+"Le service d'édition de texte fournit des applications comportant un "
+"afficheur de texte et un éditeur. Les applications TDE qui fournissent des "
+"fonctions d'édition de texte devraient utiliser ce service."
+
+#. Comment
+#: tdetexteditor/tdetexteditor.desktop:6
+msgid "Embeddable Text Editor Component (with Doc/View Separation)"
+msgstr "Composant d'édition de texte intégrable (avec séparation doc / vue)"
+
+#. Comment
+#: tdetexteditor/tdetexteditoreditor.desktop:6
+msgid "Embeddable Text Editor Component (without Doc/View Separation)"
+msgstr "Composant d'édition de texte intégrable (sans séparation doc / vue)"
+
+#. Comment
+#: tdetexteditor/tdetexteditorplugin.desktop:6
+msgid "KTextEditor Plugin"
+msgstr "Module externe KTextEditor"

@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# Slávek Banko <slavek.banko@axis.cz>, 2024.
+# Alejo Fernández <alejofernandez@hotmail.com.ar>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 21:43+0200\n"
+"PO-Revision-Date: 2024-06-25 08:10+0000\n"
+"Last-Translator: Alejo Fernández <alejofernandez@hotmail.com.ar>\n"
+"Language-Team: Spanish (Argentina) <https://mirror.git.trinitydesktop.org/"
+"weblate/projects/tdelibs/tdeioslave-desktop-files/es_AR/>\n"
+"Language: es_AR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17\n"
+
+#. Name
+#: bzip2/kbzip2filter.desktop:3
+#, fuzzy
+msgid "BZip2 Filter"
+msgstr "Filtro BZip2"
+
+#. Name
+#: gzip/kgzipfilter.desktop:3
+#, fuzzy
+msgid "GZip Filter"
+msgstr "Filtro GZip"
+
+#. Name
+#: http/http_cache_cleaner.desktop:3
+#, fuzzy
+msgid "HTTP Cache Cleaner"
+msgstr "Limpiador del caché de HTTP"
+
+#. Comment
+#: http/http_cache_cleaner.desktop:4
+#, fuzzy
+msgid "Cleans up old entries from the HTTP cache"
+msgstr "Elimina entradas antiguas del caché de HTTP"
+
+#. Name
+#: http/kcookiejar/kcookiejar.desktop:3
+#, fuzzy
+msgid "KDED Cookie Jar Module"
+msgstr "Módulo Jar de cookies de KDED"
+
+#. Comment
+#: http/kcookiejar/kcookiejar.desktop:4
+#, fuzzy
+msgid "Keeps track of all cookies in the system"
+msgstr "Mantiene registro todas las cookies en el sistema"
+
+#. Name
+#. Comment
+#: iso/isoservice.desktop:7 iso/isoservice.desktop:8
+msgid "ISO9660 View"
+msgstr "Vista ISO9660"
+
+#. Name
+#: iso/tdeio_iso.desktop:3
+msgid "ISO9660 Image Viewer"
+msgstr "Visor de imágenes ISO9660"
+
+#. Name
+#: xz/kxzfilter.desktop:3
+#, fuzzy
+msgid "XZ Filter"
+msgstr "Filtro XZ"
+
+#. Description
+#: iso/iso.protocol:10
+#, fuzzy
+msgid "A tdeioslave for ISO9660 filesystems"
+msgstr "A tdeioslave for ISO9660 filesystems"

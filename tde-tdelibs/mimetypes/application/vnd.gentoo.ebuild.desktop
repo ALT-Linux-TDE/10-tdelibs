@@ -1,0 +1,11 @@
+[Desktop Entry]
+MimeType=application/vnd.gentoo.ebuild
+Comment=Gentoo ebuild file
+Type=MimeType
+Patterns=*.ebuild
+Icon=text-x-makefile
+X-TDE-IsAlso=text/plain
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

@@ -1,0 +1,275 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-04 16:37+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Name
+#: filters/enscript.desktop:2
+msgid "enscript"
+msgstr ""
+
+#. Comment
+#: filters/enscript.desktop:4
+msgid "Enscript Text Filter"
+msgstr "Qopha Ihluzo Lombhalo"
+
+#. Name
+#: filters/imagetops.desktop:2
+msgid "imagetops"
+msgstr "uphahla lwesithombe"
+
+#. Comment
+#: filters/imagetops.desktop:4
+msgid "Generic Image to PS Filter"
+msgstr "Isithombe Sawowonke Sehluzo le-PS"
+
+#. Name
+#: filters/pdf2ps.desktop:2
+msgid "pdf2ps"
+msgstr ""
+
+#. Comment
+#: filters/pdf2ps.desktop:4
+#, fuzzy
+msgid "PDF to PostScript Converter"
+msgstr "Umguquli we-PostScript se-DPF"
+
+#. Name
+#: filters/pdfwrite.desktop:2
+msgid "pdfwrite"
+msgstr "bhala kwe-pdf"
+
+#. Comment
+#: filters/pdfwrite.desktop:4
+msgid "PDF Writer (needs Ghostscript)"
+msgstr "Umbhali we-PDF (idinga i-Ghostscript)"
+
+#. Comment
+#: filters/poster.desktop:3
+msgid "Poster Printing"
+msgstr "Ukushicilela Kwebhodi lezithombe"
+
+#. Description
+#: filters/poster.desktop:4
+msgid ""
+"Utility to print large posters on multiple small paper sheets. To use this "
+"command, the <b>poster</b> executable must be accessible in your <tt>PATH</"
+"tt>.<p><b><u>WARNING:</u></b> The package found on the TDEPrint web site is "
+"a modified version of the original one that can be found on any CTAN archive "
+"mirror, but the original package will <b>not</b> work with TDE."
+msgstr ""
+"Insebenziso yokushicicela amabhodi emiyalezo emikhulu kumapheshana ekhasi "
+"eliningana elincane. Ukusebenzisa lomyalelo, ibhodi <b> lomyalezo</b> "
+"eliphumelelisekayo kumele lingeniswe ngokunemvume kweyakho <tt>Indlela</tt>."
+"<p><b><u>Isexwayiso:</u></b> Iphakethe elitholakala twindawo yeweb ye-"
+"TDEPrint inguguqulelo olushintshiweyo lwasekuqaleni lolo olungatholakala "
+"kunoma yisiphi isibuko somqulu we CTAN, kodwa iphakethe lasekuqaleni "
+"<b>angeke </b> lisebenze nge-TDE."
+
+#. Name
+#: filters/ps2pdf.desktop:2
+msgid "ps2pdf"
+msgstr ""
+
+#. Comment
+#: filters/ps2pdf.desktop:4
+msgid "PostScript to PDF Converter"
+msgstr "Umguquli we-PostScript se-DPF"
+
+#. Name
+#: filters/psbook.desktop:2
+msgid "psbook"
+msgstr "incwadi ye-ps"
+
+#. Comment
+#: filters/psbook.desktop:4
+msgid "Pamphlet Printing (use with small side duplex printing)"
+msgstr ""
+"Ibhukwana Lokushicilela (sebenzisa ngecala elincane lukushicilela okuphindwe "
+"kabili)"
+
+#. Name
+#: filters/psbook1.desktop:2
+msgid "psbook1"
+msgstr "incwadi ye ps yokuqala"
+
+#. Comment
+#: filters/psbook1.desktop:4
+msgid "Pamphlet Printing - Even Pages (step 1)"
+msgstr "Ukushicilela Ibhukwana - Amaphepha Alinganayo (isiqendu 1)"
+
+#. Name
+#: filters/psbook2.desktop:2
+msgid "psbook2"
+msgstr "incwadi ye ps yesibili"
+
+#. Comment
+#: filters/psbook2.desktop:4
+msgid "Pamphlet Printing - Odd Pages (step 2)"
+msgstr "Ukushicilela Kwebhukwana - Amaphepha Angalingani (isiqendu 2)"
+
+#. Name
+#: filters/psnup.desktop:2
+msgid "psnup"
+msgstr ""
+
+#. Comment
+#: filters/psnup.desktop:4
+msgid "Multiple Pages per Sheet Filter"
+msgstr "Amakhasi Amaningana Kumhlaziyi Wepheshana ngamunye"
+
+#. Name
+#: filters/psresize.desktop:2
+msgid "psresize"
+msgstr "psphinda ushintshe usayizi"
+
+#. Comment
+#: filters/psresize.desktop:4
+msgid "Scale Print Content to Fit on Another Paper Size"
+msgstr "Kala Okuphakathi Kokushicilela Ukugcwalisa Omunye Usayizi Wephepha"
+
+#. Name
+#: filters/psselect.desktop:2
+msgid "psselect"
+msgstr "pskhetha"
+
+#. Comment
+#: filters/psselect.desktop:4
+msgid "Page Selection/Ordering Filter"
+msgstr "Ukhetho Lwephepha/Ukuthumela Isihlaziya samafayela"
+
+#. Name
+#: specials.desktop:5
+msgid "Print to File (PostScript)"
+msgstr "Shicilela Efayeleni (PostScript)"
+
+#. Description
+#: specials.desktop:6
+msgid "Write PostScript file"
+msgstr "Bhala ifayile le-PosrtScript"
+
+#. Comment
+#: specials.desktop:7 specials.desktop:17
+msgid "Local file"
+msgstr "Ifayela laseduze"
+
+#. Name
+#: specials.desktop:15
+msgid "Print to File (PDF)"
+msgstr "Shicilela Efayeleni (PDF)"
+
+#. Description
+#: specials.desktop:16
+msgid "Write PDF/Acrobat file"
+msgstr "Bhala  ifayela le-IPDF/Acrobat"
+
+#. Name
+#: specials.desktop:26
+msgid "Send to Fax"
+msgstr "Thumela kwi-fax"
+
+#. Description
+#: specials.desktop:27
+msgid "Send to external fax system"
+msgstr "Thumela kwisistimu yangaphandle ye-fax"
+
+#. Comment
+#: specials.desktop:28
+msgid "External"
+msgstr "Ngaphandle"
+
+#. Comment
+#: specials.desktop:37
+msgid "Attachment for KMail Composer"
+msgstr "Ukunamathisela Komsunguli we-KMail"
+
+#. Description
+#: specials.desktop:38
+msgid "Creates PDF/Acrobat file as attachment for KMail"
+msgstr "Idala ifayela le-PDF/Acrobat libe njengokunamathisela kwe-KMail"
+
+#. Name
+#: specials.desktop:43
+msgid "Mail PDF File"
+msgstr ""
+
+#. Comment
+#: specials.desktop:48
+#, fuzzy
+msgid "KSendFax"
+msgstr "Thumela kwi-fax"
+
+#. Description
+#: specials.desktop:49
+msgid "Use ksendfax to fax the current document"
+msgstr "Sebenzisa i-ksendfax ukuthumela i-fax yohlu lwamafayela amanje"
+
+#. Name
+#: specials.desktop:53
+msgid "Advanced Faxing Tool (ksendfax)"
+msgstr "Ithuluz Lezinga eliphezulu lokuthumela i-fax (ksendfax)"
+
+#. Name
+#: tdeprintd.desktop:11
+msgid "TDE Print Daemon"
+msgstr "I-Daemon Yokushicilela kwe-TDE"
+
+#. Comment
+#: tdeprintd.desktop:12
+#, fuzzy
+msgid "Print daemon for TDE"
+msgstr "I-Daemon Yokushicilela kwe-TDE"
+
+#. Name
+#: tools/escputil/escputil.desktop:2
+msgid "EPSON InkJet"
+msgstr ""
+
+#. Comment
+#: cups/cups.print:3
+msgid "CUPS (Common UNIX Print System)"
+msgstr "CUPS (Isistimu Yokushicilela ye-Unix Eyejwayelekile)"
+
+#. Comment
+#: ext/ext.print:3
+msgid "Print Through an External Program (generic)"
+msgstr ""
+"Shicilela Ngokwedlulela Kuhlelo lwemisebenzi Langaphandle (okukawonke wonke)"
+
+#. Comment
+#: foomatic/foomatic.print:3
+msgid "Foomatic (CUPS, LPRng, PDQ)"
+msgstr ""
+
+#. Comment
+#: lpd/lpd.print:3
+msgid "LPR (Standard BSD print system)"
+msgstr "LPR (Isistimu yokushicelela evamile ye-BSD)"
+
+#. Comment
+#: lpdunix/lpdunix.print:3
+msgid "Generic UNIX LPD Print System (default)"
+msgstr "Isistimu Yokushicilela ye-UNIX LPD Kawonke wonke (yokwendalo)"
+
+#. Comment
+#: lpr/lpr.print:3
+msgid "LPR/LPRng Print System"
+msgstr "Isistimu Yokushicilela ye-LPR/LRng"
+
+#. Comment
+#: rlpr/rlpr.print:3
+msgid "RLPR Environment (Remote LPD servers)"
+msgstr "Ezendalo ze-RLPR (abalekeleli abakude  be-LPD)"

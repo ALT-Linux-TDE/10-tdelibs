@@ -1,0 +1,16 @@
+[Desktop Entry]
+Exec=tdecmshell tderesources
+Icon=identity
+Type=Application
+Terminal=false
+X-DocPath=kcontrol/tderesources/index.html
+X-TDE-ModuleType=Library
+X-TDE-Library=tderesources
+X-TDE-FactoryName=tderesources
+X-TDE-HasReadOnlyMode=false
+Categories=Qt;TDE;X-TDE-settings-components;
+OnlyShowIn=TDE;
+
+Name=Resources
+Comment=Configure TDE Resources
+Keywords=resources;konnector resource;contact resource;calendar resource;notes resource;imap;

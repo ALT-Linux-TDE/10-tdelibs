@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# blu.256 <mavridisf@gmail.com>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 19:54+0200\n"
+"PO-Revision-Date: 2021-01-09 14:00+0000\n"
+"Last-Translator: blu.256 <mavridisf@gmail.com>\n"
+"Language-Team: Greek <https://mirror.git.trinitydesktop.org/weblate/projects/"
+"tdelibs/tdeabc-desktop-files/el/>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4\n"
+
+#. Name
+#: formats/binary.desktop:2
+msgid "Binary"
+msgstr "Δυαδικό"
+
+#. Name
+#: plugins/dir/dir.desktop:2
+msgid "Directory"
+msgstr "Κατάλογος"
+
+#. Name
+#: plugins/evolution/evolution.desktop:2
+msgid "Evolution"
+msgstr "Evolution"
+
+#. Name
+#: plugins/file/file.desktop:2
+msgid "File"
+msgstr "Αρχείο"
+
+#. Name
+#: plugins/ldaptdeio/ldaptdeio.desktop:2
+msgid "LDAP"
+msgstr "LDAP"
+
+#. Name
+#: plugins/net/net.desktop:2
+msgid "Network"
+msgstr "Δίκτυο"
+
+#. Name
+#: plugins/sql/sql.desktop:2
+msgid "SQL"
+msgstr "SQL"
+
+#. Name
+#: tdeab2tdeabc.desktop:2
+msgid "tdeab2tdeabc"
+msgstr "tdeab2tdeabc"
+
+#. Comment
+#: tdeab2tdeabc.desktop:3
+msgid "libkab to libtdeabc conversion tool."
+msgstr "Εργαλείο μετατροπής από το libkab στο libtdeabc."
+
+#. Name
+#: tdeabc_manager.desktop:2
+msgid "Contacts"
+msgstr "Επαφές"

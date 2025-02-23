@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=audio/x-speex
+Icon=audio-x-generic
+Patterns=*.spx;*.SPX;
+Comment=Speex Audio

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+Icon=application-x-core
+Patterns=core;
+MimeType=application/x-core
+Comment=Program Crash Data

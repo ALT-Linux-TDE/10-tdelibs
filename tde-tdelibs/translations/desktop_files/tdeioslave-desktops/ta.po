@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 21:43+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Name
+#: bzip2/kbzip2filter.desktop:3
+msgid "BZip2 Filter"
+msgstr "BZip2 வடிகட்டி"
+
+#. Name
+#: gzip/kgzipfilter.desktop:3
+msgid "GZip Filter"
+msgstr "GZip வடிகட்டி"
+
+#. Name
+#: http/http_cache_cleaner.desktop:3
+msgid "HTTP Cache Cleaner"
+msgstr "HTTP தற்காலிக நினைவகத்தை சுத்தம் செய்தல்"
+
+#. Comment
+#: http/http_cache_cleaner.desktop:4
+msgid "Cleans up old entries from the HTTP cache"
+msgstr "HTTP நினைவத்திலிருந்து பழைய உள்ளீடுகளை சுத்தம் செய்கிறது"
+
+#. Name
+#: http/kcookiejar/kcookiejar.desktop:3
+msgid "KDED Cookie Jar Module"
+msgstr "KDED தற்காலிக நினைவக சாடி பகுதி"
+
+#. Comment
+#: http/kcookiejar/kcookiejar.desktop:4
+msgid "Keeps track of all cookies in the system"
+msgstr "கணினியின் எல்லா தற்காலிக நினைவகங்களையும் கண்காணிக்கிறது"
+
+#. Name
+#. Comment
+#: iso/isoservice.desktop:7 iso/isoservice.desktop:8
+msgid "ISO9660 View"
+msgstr ""
+
+#. Name
+#: iso/tdeio_iso.desktop:3
+msgid "ISO9660 Image Viewer"
+msgstr ""
+
+#. Name
+#: xz/kxzfilter.desktop:3
+msgid "XZ Filter"
+msgstr "XZ வடிகட்டி"
+
+#. Description
+#: iso/iso.protocol:10
+msgid "A tdeioslave for ISO9660 filesystems"
+msgstr ""

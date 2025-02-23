@@ -1,0 +1,6 @@
+[TDE Print Filter Entry]
+Name=psselect
+Require=exec:/psselect
+Comment=Page Selection/Ordering Filter
+MimeTypeIn=application/postscript
+MimeTypeOut=application/postscript

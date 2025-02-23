@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=ServiceType
+X-TDE-ServiceType=KTextEditor/Plugin
+X-TDE-Derived=
+
+Comment=KTextEditor Plugin

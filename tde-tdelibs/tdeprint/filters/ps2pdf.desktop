@@ -1,0 +1,6 @@
+[TDE Print Filter Entry]
+Name=ps2pdf
+Require=exec:/gs
+Comment=PostScript to PDF Converter
+MimeTypeIn=application/postscript
+MimeTypeOut=application/pdf

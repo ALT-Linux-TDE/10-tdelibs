@@ -1,0 +1,6 @@
+[Desktop Entry]
+Comment=Block Device
+Icon=blockdevice
+Type=MimeType
+MimeType=inode/blockdevice
+Patterns=

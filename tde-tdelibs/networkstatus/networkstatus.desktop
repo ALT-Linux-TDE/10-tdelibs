@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Network Status Daemon
+Comment=Tracks status of network interfaces and provides notification to applications using the network.
+Type=Service
+X-TDE-ServiceTypes=KDEDModule
+X-TDE-ModuleType=Library
+X-TDE-Library=networkstatus
+X-TDE-FactoryName=networkstatus
+X-TDE-Kded-autoload=true
+X-TDE-Kded-load-on-demand=true

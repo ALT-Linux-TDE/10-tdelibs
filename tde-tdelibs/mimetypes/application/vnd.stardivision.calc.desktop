@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/vnd.stardivision.calc
+Patterns=*.sdc;*.SDC;
+Icon=application-vnd.oasis.opendocument.spreadsheet
+Comment=StarOffice Calc Spreadsheet
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.sdc

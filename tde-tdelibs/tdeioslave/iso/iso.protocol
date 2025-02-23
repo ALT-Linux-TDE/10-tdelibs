@@ -1,0 +1,12 @@
+[Protocol]
+exec=tdeio_iso
+protocol=iso
+listing=Name,Type,Size,Date,AccessDate,CreationDate,Access,Owner,Group,Link
+input=filesystem
+output=filesystem
+reading=true
+source=true
+Icon=cd
+Description=A tdeioslave for ISO9660 filesystems
+MimeType=application/x-iso
+X-DocPath=tdeioslave/iso/index.html

@@ -1,0 +1,1720 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-26 20:48+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: all.desktop:4
+msgid "All Files and Folders"
+msgstr "எல்லாக் கோப்புகளும் அடைவுகளும்"
+
+#. Comment
+#: allfiles.desktop:4
+msgid "All Files"
+msgstr "எல்லாக் கோப்புகள்"
+
+#. Comment
+#: application/chm.desktop:2
+#, fuzzy
+msgid "HTML Help Document"
+msgstr "HTML ஆவணம்"
+
+#. Comment
+#: application/fits.desktop:4
+msgid "FITS Data"
+msgstr ""
+
+#. Comment
+#: application/illustrator.desktop:6
+msgid "Adobe Illustrator Document"
+msgstr "Adobe Illustrator ஆவணம்"
+
+#. Comment
+#: application/java.desktop:5 application/x-java.desktop:6
+msgid "Java Class"
+msgstr "ஜாவா வகுப்பு"
+
+#. Comment
+#: application/mathml+xml.desktop:8
+msgid "MathML Document"
+msgstr "MathML ஆவணம்"
+
+#. Comment
+#: application/mbox.desktop:5
+msgid "MBOX Mail Folder"
+msgstr ""
+
+#. Comment
+#: application/msexcel.desktop:7 application/vnd.ms-excel.desktop:6
+#: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.desktop:6
+msgid "Microsoft Excel Spreadsheet"
+msgstr "மைக்ரோசாப்ட் எக்செல் விரிதாள்"
+
+#. Comment
+#: application/mspowerpoint.desktop:7 application/vnd.ms-powerpoint.desktop:6
+#: application/vnd.openxmlformats-officedocument.presentationml.presentation.desktop:6
+msgid "Microsoft PowerPoint Presentation"
+msgstr "மைக்ரோசாப்ட் பவர்பாயின்ட் வழங்கல்"
+
+#. Comment
+#: application/msword.desktop:8 application/vnd.ms-word.desktop:6
+#: application/vnd.openxmlformats-officedocument.wordprocessingml.document.desktop:6
+msgid "Microsoft Word Document"
+msgstr "மைக்ரோசாப்ட் வேர்டு ஆவணம்"
+
+#. Comment
+#: application/octet-stream.desktop:5
+msgid "Unknown"
+msgstr "தெரியாத"
+
+#. Comment
+#: application/ogg.desktop:9 application/x-ogg.desktop:8
+msgid "Ogg Multimedia"
+msgstr "ஆக் பல்லூடகம்"
+
+#. Comment
+#: application/pdf.desktop:7
+msgid "PDF Document"
+msgstr "Pdf ஆவணம்"
+
+#. Comment
+#: application/pgp-encrypted.desktop:6
+msgid "PGP/MIME Encrypted Message Header"
+msgstr "PGP/MIME குறிமுறை செய்தித் தலைப்பு"
+
+#. Comment
+#: application/pgp-keys.desktop:6
+msgid "OpenPGP Key Bundle"
+msgstr "OpenPGP சாவிக்கொத்து"
+
+#. Comment
+#: application/pgp-signature.desktop:5
+msgid "Detached OpenPGP Signature"
+msgstr "தனியான ஓபன்PGP கையொப்பம்"
+
+#. Comment
+#: application/pgp.desktop:5
+msgid "PGP Encrypted or Signed Message"
+msgstr "PGP குறிமுறை அல்லது கையெழுத்திடப்பட்ட செய்தி"
+
+#. Comment
+#: application/pkcs10.desktop:6
+msgid "S/MIME Certification Request"
+msgstr "S/MIME சான்றிதழ் கோரிக்கை"
+
+#. Comment
+#: application/pkcs7-mime.desktop:6
+msgid "PKCS#7 (S/MIME) Formatted Data"
+msgstr "PKCS#7 (S/MIME) வடிவமைக்கப்பட்ட தரவு"
+
+#. Comment
+#: application/pkcs7-signature.desktop:6
+msgid "Detached S/MIME Signature"
+msgstr "தனியான S/MIME கையொப்பம்"
+
+#. Comment
+#: application/postscript.desktop:7
+msgid "PostScript Document"
+msgstr "போஸ்ட்ஸ்கிரிப்ட் ஆவணம்"
+
+#. Comment
+#: application/relaxng.desktop:2
+msgid "RELAX NG"
+msgstr ""
+
+#. Comment
+#: application/sieve.desktop:5
+msgid "SIEVE Mail Filter Script"
+msgstr "SIEVE அஞ்சல் வடிகட்டிக் கிறுவல்"
+
+#. Comment
+#: application/smil.desktop:6
+msgid "Synchronized Multimedia Integration Language"
+msgstr ""
+
+#. Comment
+#: application/vnd.gentoo.ebuild.desktop:3
+msgid "Gentoo ebuild file"
+msgstr ""
+
+#. Comment
+#: application/vnd.mozilla.xul+xml.desktop:7
+msgid "Mozilla XUL File"
+msgstr "மோசில்லா XUL ஆவணம்"
+
+#. Comment
+#: application/vnd.ms-access.desktop:5 application/x-msaccess.desktop:6
+msgid "Microsoft Access Database"
+msgstr "மைக்ரோசாப்ட் அக்ஸெஸ் தகவல்தளம்"
+
+#. Comment
+#: application/vnd.ms-asf.desktop:5 video/x-ms-asf.desktop:7
+msgid "ASF Media"
+msgstr "ASF ஊடகம்"
+
+#. Comment
+#: application/vnd.ms-excel.addin.macroEnabled.12.desktop:6
+msgid "Microsoft Excel Spreadsheet Add-In Macro Enabled"
+msgstr "மைக்ரோசாப்ட் எக்செல் விரிதாள்"
+
+#. Comment
+#: application/vnd.ms-excel.sheet.binary.macroEnabled.12.desktop:6
+#: application/vnd.ms-excel.sheet.macroEnabled.12.desktop:6
+msgid "Microsoft Excel Spreadsheet Macro Enabled"
+msgstr "மைக்ரோசாப்ட் எக்செல் விரிதாள்"
+
+#. Comment
+#: application/vnd.ms-excel.template.macroEnabled.12.desktop:6
+msgid "Microsoft Excel Spreadsheet Template Macro Enabled"
+msgstr "மைக்ரோசாப்ட் எக்செல் விரிதாள்"
+
+#. Comment
+#: application/vnd.ms-powerpoint.addin.macroEnabled.12.desktop:6
+msgid "Microsoft PowerPoint Presentation Add-In Macro Enabled"
+msgstr "மைக்ரோசாப்ட் பவர்பாயின்ட் வழங்கல்"
+
+#. Comment
+#: application/vnd.ms-powerpoint.presentation.macroEnabled.12.desktop:6
+msgid "Microsoft PowerPoint Presentation Macro Enabled"
+msgstr "மைக்ரோசாப்ட் பவர்பாயின்ட் வழங்கல்"
+
+#. Comment
+#: application/vnd.ms-powerpoint.slideshow.macroEnabled.12.desktop:6
+msgid "Microsoft PowerPoint Presentation SlideShow Macro Enabled"
+msgstr "மைக்ரோசாப்ட் பவர்பாயின்ட் வழங்கல்"
+
+#. Comment
+#: application/vnd.ms-powerpoint.template.macroEnabled.12.desktop:6
+msgid "Microsoft PowerPoint Presentation Template Macro Enabled"
+msgstr "மைக்ரோசாப்ட் பவர்பாயின்ட் வழங்கல்"
+
+#. Comment
+#: application/vnd.ms-word.document.macroEnabled.12.desktop:6
+msgid "Microsoft Word Document Macro Enabled"
+msgstr "மைக்ரோசாப்ட் வேர்டு ஆவணம்"
+
+#. Comment
+#: application/vnd.ms-word.template.macroEnabled.12.desktop:6
+msgid "Microsoft Word Document Template Macro Enabled"
+msgstr "மைக்ரோசாப்ட் வேர்டு ஆவணம்"
+
+#. Comment
+#: application/vnd.oasis.opendocument.chart.desktop:6
+msgid "OASIS OpenDocument Chart"
+msgstr "OASIS திறந்த ஆவண வரைபடம்"
+
+#. Comment
+#: application/vnd.oasis.opendocument.database.desktop:6
+#, fuzzy
+msgid "OASIS OpenDocument Database"
+msgstr "OASIS திறந்த ஆவண வரைபடம்"
+
+#. Comment
+#: application/vnd.oasis.opendocument.formula.desktop:6
+msgid "OASIS OpenDocument Formula"
+msgstr "OASIS திறந்த ஆவண சமன்பாடு"
+
+#. Comment
+#: application/vnd.oasis.opendocument.graphics-flat-xml.desktop:6
+msgid "OASIS OpenDocument Graphics (Flat XML)"
+msgstr "OASIS திறந்த ஆவண சித்திரங்கள் (Flat XML)"
+
+#. Comment
+#: application/vnd.oasis.opendocument.graphics-template.desktop:6
+msgid "OASIS OpenDocument Graphics Template"
+msgstr "OASIS திறந்த ஆவண சித்திரங்கள் வார்ப்புரு"
+
+#. Comment
+#: application/vnd.oasis.opendocument.graphics.desktop:6
+msgid "OASIS OpenDocument Graphics"
+msgstr "OASIS திறந்த ஆவண சித்திரங்கள்"
+
+#. Comment
+#: application/vnd.oasis.opendocument.image.desktop:6
+msgid "OASIS OpenDocument Image"
+msgstr "OASIS திறந்த ஆவண பிம்பம்"
+
+#. Comment
+#: application/vnd.oasis.opendocument.presentation-flat-xml.desktop:6
+msgid "OASIS OpenDocument Presentation (Flat XML)"
+msgstr "OASIS திறந்த ஆவண முன்வைப்பு (Flat XML)"
+
+#. Comment
+#: application/vnd.oasis.opendocument.presentation-template.desktop:6
+msgid "OASIS OpenDocument Presentation Template"
+msgstr "OASIS திறந்த ஆவண முன்வைப்பு வார்ப்புரு"
+
+#. Comment
+#: application/vnd.oasis.opendocument.presentation.desktop:6
+msgid "OASIS OpenDocument Presentation"
+msgstr "OASIS திறந்த ஆவண முன்வைப்பு"
+
+#. Comment
+#: application/vnd.oasis.opendocument.spreadsheet-flat-xml.desktop:6
+msgid "OASIS OpenDocument SpreadSheet (Flat XML)"
+msgstr "OASIS திறந்த ஆவண விரிதாள் (Flat XML)"
+
+#. Comment
+#: application/vnd.oasis.opendocument.spreadsheet-template.desktop:6
+msgid "OASIS OpenDocument SpreadSheet Template"
+msgstr "OASIS திறந்த ஆவண விரிதாள் வார்ப்புரு"
+
+#. Comment
+#: application/vnd.oasis.opendocument.spreadsheet.desktop:6
+msgid "OASIS OpenDocument SpreadSheet"
+msgstr "OASIS திறந்த ஆவண விரிதாள்"
+
+#. Comment
+#: application/vnd.oasis.opendocument.text-flat-xml.desktop:6
+msgid "OASIS OpenDocument Text (Flat XML)"
+msgstr "OASIS திறந்த ஆவண உரை (Flat XML)"
+
+#. Comment
+#: application/vnd.oasis.opendocument.text-template.desktop:6
+msgid "OASIS OpenDocument Text Template"
+msgstr "OASIS திறந்த ஆவண உரை வார்ப்புரு"
+
+#. Comment
+#: application/vnd.oasis.opendocument.text.desktop:6
+msgid "OASIS OpenDocument Text"
+msgstr "OASIS திறந்த ஆவண உரை"
+
+#. Comment
+#: application/vnd.openxmlformats-officedocument.presentationml.slideshow.desktop:6
+msgid "Microsoft PowerPoint Presentation SlideShow"
+msgstr "மைக்ரோசாப்ட் பவர்பாயின்ட் வழங்கல்"
+
+#. Comment
+#: application/vnd.openxmlformats-officedocument.presentationml.template.desktop:6
+msgid "Microsoft PowerPoint Presentation Template"
+msgstr "மைக்ரோசாப்ட் பவர்பாயின்ட் வழங்கல்"
+
+#. Comment
+#: application/vnd.openxmlformats-officedocument.spreadsheetml.template.desktop:6
+msgid "Microsoft Excel Spreadsheet Template"
+msgstr "மைக்ரோசாப்ட் எக்செல் விரிதாள்"
+
+#. Comment
+#: application/vnd.openxmlformats-officedocument.wordprocessingml.template.desktop:6
+msgid "Microsoft Word Document Template"
+msgstr "மைக்ரோசாப்ட் வேர்டு ஆவணம்"
+
+#. Comment
+#: application/vnd.palm.desktop:6
+msgid "Palm Document"
+msgstr "Palm ஆவணம்"
+
+#. Comment
+#: application/vnd.rn-realmedia.desktop:6
+msgid "RealMedia File"
+msgstr "RealMedia கோப்பு"
+
+#. Comment
+#: application/vnd.stardivision.calc.desktop:6
+msgid "StarOffice Calc Spreadsheet"
+msgstr "ஸ்டார்ஆபீஸ் கல்க் விரிதாள்"
+
+#. Comment
+#: application/vnd.stardivision.chart.desktop:6
+msgid "StarOffice Chart"
+msgstr "ஸ்டார்ஆபீஸ் வரைபடம்"
+
+#. Comment
+#: application/vnd.stardivision.draw.desktop:6
+msgid "StarOffice Drawing"
+msgstr "மைக்ரோசாப்ட் ஆபிஸ் சித்திரம்"
+
+#. Comment
+#: application/vnd.stardivision.impress.desktop:6
+msgid "StarOffice Impress Presentation"
+msgstr "ஸ்டார்ஆபீஸ் இம்ப்ரெஸ் அளிக்கை"
+
+#. Comment
+#: application/vnd.stardivision.math.desktop:6
+msgid "StarOffice Math Document"
+msgstr "ஸ்டார்ஆபீஸ் ரைட்டர் ஆவணம்"
+
+#. Comment
+#: application/vnd.stardivision.writer-global.desktop:6
+msgid "StarOffice Writer Master Document"
+msgstr "ஸ்டார்ஆபீஸ் ரைட்டர் மூல ஆவணம்"
+
+#. Comment
+#: application/vnd.stardivision.writer.desktop:6
+msgid "StarOffice Writer Document"
+msgstr "ஸ்டார்ஆபீஸ் ரைட்டர் ஆவணம்"
+
+#. Comment
+#: application/vnd.sun.xml.base.desktop:2
+msgid "OpenOffice.org Database"
+msgstr "ழ-ஓப்பன்ஆபீஸ் தரவுதளம்"
+
+#. Comment
+#: application/vnd.sun.xml.calc.desktop:2
+msgid "OpenOffice.org Spreadsheet"
+msgstr "ழ-ஓப்பன்ஆபீஸ் விரிதாள்"
+
+#. Comment
+#: application/vnd.sun.xml.calc.template.desktop:2
+msgid "OpenOffice.org Spreadsheet Template"
+msgstr "ழ-ஓப்பன்ஆபீஸ் விரிதாள்"
+
+#. Comment
+#: application/vnd.sun.xml.draw.desktop:2
+msgid "OpenOffice.org Drawing"
+msgstr "ழ-ஓப்பன்ஆபீஸ் வரைபடம்"
+
+#. Comment
+#: application/vnd.sun.xml.draw.template.desktop:2
+msgid "OpenOffice.org Drawing Template"
+msgstr "ழ-ஓப்பன்ஆபீஸ் வரைபடம்"
+
+#. Comment
+#: application/vnd.sun.xml.impress.desktop:2
+msgid "OpenOffice.org Presentation"
+msgstr "ழ-ஓப்பன்ஆபீஸ் அளிக்கை"
+
+#. Comment
+#: application/vnd.sun.xml.impress.template.desktop:2
+msgid "OpenOffice.org Presentation Template"
+msgstr "ழ-ஓப்பன்ஆபீஸ் அளிக்கை"
+
+#. Comment
+#: application/vnd.sun.xml.writer.desktop:2
+msgid "OpenOffice.org Text Document"
+msgstr "ழ-ஓப்பன்ஆபீஸ் உரை ஆவணம்"
+
+#. Comment
+#: application/vnd.sun.xml.writer.master.desktop:2
+msgid "OpenOffice.org Master Text Document"
+msgstr "OpenOffice.org ஆசிரியர் உரை ஆவணம்"
+
+#. Comment
+#: application/vnd.sun.xml.writer.template.desktop:2
+msgid "OpenOffice.org Text Document Template"
+msgstr "ழ-ஓப்பன்ஆபீஸ் உரை ஆவணம்"
+
+#. Comment
+#: application/wordperfect.desktop:6
+msgid "WordPerfect Document"
+msgstr "வேர்டுபர்ஃபக்ட் ஆவணம்"
+
+#. Comment
+#: application/x-7z.desktop:6
+msgid "7-Zip Archive"
+msgstr "7-Zip பின்காப்பு"
+
+#. Comment
+#: application/x-abiword.desktop:4
+msgid "AbiWord Document"
+msgstr "AbiWord ஆவணம்"
+
+#. Comment
+#: application/x-ace.desktop:6
+msgid "ACE Archive"
+msgstr "Ace காப்பகங்கள்"
+
+#. Comment
+#: application/x-afm.desktop:2
+msgid "PostScript Font Metrics"
+msgstr "PostScript எழுத்துரு அளவுமுறைகள்"
+
+#. Comment
+#: application/x-amipro.desktop:6
+msgid "Lotus AmiPro Document"
+msgstr "லோட்டஸ் அமிப்ரோ ஆவணம்"
+
+#. Comment
+#: application/x-applixgraphics.desktop:6
+msgid "Applix Graphics Document"
+msgstr "அப்ளிக்ஸ் வரைபட ஆவணம்"
+
+#. Comment
+#: application/x-applixspread.desktop:6
+msgid "Applix Spreadsheets Document"
+msgstr "அப்ளிக்ஸ் விரிதாள் ஆவணம்"
+
+#. Comment
+#: application/x-applixword.desktop:6
+msgid "Applix Words Document"
+msgstr "அப்ளிக்ஸ் வேர்ட்ஸ் ஆவணம்"
+
+#. Comment
+#: application/x-arc.desktop:6
+msgid "ARC Archive"
+msgstr "ARC காப்பகம்"
+
+#. Comment
+#: application/x-archive.desktop:3
+msgid "Ar Archive"
+msgstr "Ar காப்பகங்கள்"
+
+#. Comment
+#: application/x-arj.desktop:6
+msgid "ARJ Archive"
+msgstr "ARJ காப்பகம்"
+
+#. Comment
+#: application/x-awk.desktop:2
+msgid "AWK Script"
+msgstr "AWK கிறுவல்"
+
+#. Comment
+#: application/x-bittorrent.desktop:3
+msgid "BitTorrent Download"
+msgstr "BitTorrent கீழிறக்கம்"
+
+#. Comment
+#: application/x-bz2dvi.desktop:2
+msgid "Bzip2 Compressed DVI File"
+msgstr "Bzip2 அழுத்திய DVI கோப்பு"
+
+#. Comment
+#: application/x-bzip.desktop:3
+msgid "Bzip File"
+msgstr "Bzip கோப்பு"
+
+#. Comment
+#: application/x-bzip2.desktop:3
+msgid "Bzip2 File"
+msgstr "Bzip2 கோப்பு"
+
+#. Comment
+#: application/x-cda.desktop:3
+msgid "CD Audio"
+msgstr "குறுந்தட்டு ஒலி"
+
+#. Comment
+#: application/x-compress.desktop:6
+msgid "UNIX Compressed File"
+msgstr "யுனிக்ஸ் அழுத்திய கோப்பு"
+
+#. Comment
+#: application/x-core.desktop:6
+msgid "Program Crash Data"
+msgstr "நிரல் முறிவுத் தரவு "
+
+#. Comment
+#: application/x-cpio.desktop:6
+msgid "CPIO Archive"
+msgstr "CPIO காப்பகம்"
+
+#. Comment
+#: application/x-cue.desktop:6
+msgid "CDRWIN Cue-Sheet"
+msgstr "CRDWIN முன்னோடித்தாள்"
+
+#. Comment
+#: application/x-dbase.desktop:6
+msgid "dBASE Document"
+msgstr "dBASE ஆவணம்"
+
+#. Comment
+#: application/x-deb.desktop:6 application/x-debian-package.desktop:7
+msgid "Debian Package"
+msgstr "Debian பொதி"
+
+#. Comment
+#: application/x-designer.desktop:2
+msgid "TQt/Qt Designer File"
+msgstr "TQt/Qt Designer கோப்பு"
+
+#. Comment
+#: application/x-desktop.desktop:2
+msgid "Desktop Config File"
+msgstr "மேசை வடிவமைப்புக் கோப்பு"
+
+#. Comment
+#: application/x-dvi.desktop:2
+msgid "TeX Device Independent File"
+msgstr "TeX சாதனஞ்சாராக் கோப்பு"
+
+#. Comment
+#: application/x-egon.desktop:6
+msgid "Egon Animator"
+msgstr "Egon அசைவூட்டி"
+
+#. Comment
+#: application/x-executable-script.desktop:2
+msgid "Script (possibly executable)"
+msgstr "சிறுநிரல் (இயக்க முடிந்த)"
+
+#. Comment
+#: application/x-executable.desktop:2 application/x-pie-executable.desktop:2
+msgid "Executable File"
+msgstr "செயலிக் கோப்பு"
+
+#. Comment
+#: application/x-font-bdf.desktop:6
+msgid "BDF Bitmap Font"
+msgstr "BDF படத்துணுக்கு எழுத்துரு"
+
+#. Comment
+#: application/x-font-ghostscript.desktop:6
+msgid "Ghostscript Font"
+msgstr "Ghostscript எழுத்துரு"
+
+#. Comment
+#: application/x-font-otf.desktop:2
+msgid "OpenType Font"
+msgstr "OpenType எழுத்துரு"
+
+#. Comment
+#: application/x-font-pcf.desktop:6
+msgid "PCF Bitmap Font"
+msgstr "PCF படத்துணுக்கு எழுத்துரு"
+
+#. Comment
+#: application/x-font-snf.desktop:6
+msgid "SNF Bitmap Font"
+msgstr "SNF படத்துணுக்கு எழுத்துரு"
+
+#. Comment
+#: application/x-font-speedo.desktop:6
+msgid "Speedo Font"
+msgstr "ஸ்பீடோ எழுத்துருக்கள்"
+
+#. Comment
+#: application/x-font-ttc.desktop:2
+msgid "TrueType Font Collection"
+msgstr "Truetype எழுத்துருக் குழு"
+
+#. Comment
+#: application/x-font-ttf.desktop:2
+msgid "TrueType Font"
+msgstr "TrueType எழுத்துரு"
+
+#. Comment
+#: application/x-font-type1.desktop:6
+msgid "PostScript Type1 Font"
+msgstr "PostScript Type1 எழுத்துரு"
+
+#. Comment
+#: application/x-gettext.desktop:2
+msgid "GNU Gettext Message Catalog"
+msgstr "GNU Gettext செய்தி அட்டவணை"
+
+#. Comment
+#: application/x-gnumeric.desktop:6
+msgid "GNUmeric Spreadsheet"
+msgstr "GNUmeric விரிதாள்"
+
+#. Comment
+#: application/x-graphite.desktop:7
+msgid "Graphite Scientific Graph"
+msgstr "காரீய அறிவியல் வரைபு"
+
+#. Comment
+#: application/x-gzdvi.desktop:2
+msgid "Gzip Compressed DVI File"
+msgstr "Gzip அழுத்திய கோப்பு"
+
+#. Comment
+#: application/x-gzip.desktop:3
+msgid "Gzip File"
+msgstr "Gzip கோப்பு"
+
+#. Comment
+#: application/x-gzpostscript.desktop:2
+msgid "Gzipped PostScript File"
+msgstr "Gzip செய்த Postscript கோப்பு"
+
+#. Comment
+#: application/x-hancomword.desktop:6
+msgid "HancomWord Document"
+msgstr "ஹான்கொம்வேர்டு ஆவணம்"
+
+#. Comment
+#: application/x-ica.desktop:3
+msgid "Citrix ICA Client Configuration"
+msgstr "Citrix ICA உறுப்பினம் வடிவமைப்பு"
+
+#. Comment
+#: application/x-iso.desktop:6
+msgid "ISO9660 Image File"
+msgstr "ISO9660 பிம்பக் கோப்பு"
+
+#. Comment
+#: application/x-jar.desktop:6
+msgid "Java Archive"
+msgstr "ஜாவா காப்பகம்"
+
+#. Comment
+#: application/x-java-applet.desktop:3
+msgid "Java Applet"
+msgstr "ஜாவா சிறுநிரல்"
+
+#. Comment
+#: application/x-java-jnlp-file.desktop:4
+msgid "Java Web Start application"
+msgstr "ஜாவா வலை துவக்க பயன்பாடு"
+
+#. Comment
+#: application/x-javascript.desktop:6 text/javascript.desktop:5
+msgid "JavaScript File"
+msgstr "ஜாவா மூலக் கோப்பு"
+
+#. Comment
+#: application/x-karbon.desktop:7
+msgid "Karbon14 Document"
+msgstr "Karbon14 ஆவணம்"
+
+#. Comment
+#: application/x-kchart.desktop:6
+msgid "KChart Document"
+msgstr "KChart ஆவணம்"
+
+#. Comment
+#: application/x-kcsrc.desktop:6
+msgid "TDE Color Theme"
+msgstr "TDE வண்ணத்தலைப்பு"
+
+#. Comment
+#: application/x-kformula.desktop:6
+msgid "KFormula Document"
+msgstr "KFormula ஆவணம்"
+
+#. Comment
+#: application/x-kivio.desktop:7
+msgid "Kivio Document"
+msgstr "Kivio ஆவணம்"
+
+#. Comment
+#: application/x-kontour.desktop:3
+msgid "Kontour Document"
+msgstr "Kontour ஆவணம்"
+
+#. Comment
+#: application/x-kpovmodeler.desktop:2
+msgid "KPovModeler File"
+msgstr "KPovModeler கோப்பு"
+
+#. Comment
+#: application/x-kpresenter.desktop:7
+msgid "KPresenter Document"
+msgstr "KPresenter ஆவணம்"
+
+#. Comment
+#: application/x-krita.desktop:7
+msgid "Krita Document"
+msgstr "Krita ஆவணம்"
+
+#. Comment
+#: application/x-kspread.desktop:7
+msgid "KSpread Document"
+msgstr "KSpread ஆவணம்"
+
+#. Comment
+#: application/x-kudesigner.desktop:3
+msgid "Kugar Report Template"
+msgstr "Kugar அறிக்கை வார்ப்பு"
+
+#. Comment
+#: application/x-kugar.desktop:6
+#, fuzzy
+msgid "Kugar Data File"
+msgstr "Kugar காப்பக கோப்பு"
+
+#. Comment
+#: application/x-kword.desktop:7
+msgid "KWord Document"
+msgstr "KWord ஆவணம்"
+
+#. Comment
+#: application/x-lha.desktop:3
+msgid "Lha Archive"
+msgstr "Lha காப்பகம்"
+
+#. Comment
+#: application/x-linguist.desktop:6
+msgid "Qt Translation Source File"
+msgstr "Qt மொழிபெயர்ப்பு மூல ஆவணம்"
+
+#. Comment
+#: application/x-lyx.desktop:2
+msgid "LyX Document"
+msgstr "LyX ஆவணம்"
+
+#. Comment
+#: application/x-lzip.desktop:7
+msgid "LZIP File"
+msgstr "LZIP கோப்பு"
+
+#. Comment
+#: application/x-lzma.desktop:7
+msgid "LZMA File"
+msgstr "LZMA கோப்பு"
+
+#. Comment
+#: application/x-lzop.desktop:6
+msgid "Lzopped File"
+msgstr "Lzopped கோப்பு"
+
+#. Comment
+#: application/x-magicpoint.desktop:6
+msgid "MagicPoint Presentation"
+msgstr "மேஜிக்பாயின்ட் முன்வைப்பு"
+
+#. Comment
+#: application/x-mimearchive.desktop:6
+msgid "Mime Encapsulated Web Archive"
+msgstr "மைம் என்காப்சுலேட்டட் வலை காப்பகம்"
+
+#. Comment
+#: application/x-mplayer2.desktop:8
+#, fuzzy
+msgid "Microsoft Media Format"
+msgstr "மைக்ரோசாப்ட் வேர்டு ஆவணம்"
+
+#. Comment
+#: application/x-msdos-program.desktop:2
+msgid "Windows Executable"
+msgstr "வின்டோஸ் செயலி"
+
+#. Comment
+#: application/x-mswrite.desktop:6
+msgid "Microsoft Write Document"
+msgstr "மைக்ரோசாப்ட் ரைட் ஆவணம்"
+
+#. Comment
+#: application/x-nzb.desktop:3
+msgid "NewzBin Usenet Index"
+msgstr ""
+
+#. Comment
+#: application/x-object.desktop:6
+msgid "Object Code"
+msgstr "பொருட் குறிமுறை"
+
+#. Comment
+#: application/x-pak.desktop:6
+msgid "PAK File Archive"
+msgstr "PAK கோப்பு காப்பகம்"
+
+#. Comment
+#: application/x-perl-module.desktop:2
+msgid "Perl Module"
+msgstr "Perl கூறு"
+
+#. Comment
+#: application/x-perl.desktop:2 text/x-perl.desktop:2
+msgid "Perl Program"
+msgstr "Perl நிரல்"
+
+#. Comment
+#: application/x-php.desktop:2
+msgid "PHP Script"
+msgstr "PHP எழுத்தாக்கம்"
+
+#. Comment
+#: application/x-pkcs12.desktop:6
+msgid "PKCS#12 Certificate Bundle"
+msgstr "PKCS#12 சான்றிதழ் கட்டு"
+
+#. Comment
+#: application/x-pw.desktop:3
+msgid "Pathetic Writer Document"
+msgstr "பாதெடிரைட்டர் ஆவணம்"
+
+#. Comment
+#: application/x-python-bytecode.desktop:6
+msgid "Python Bytecode"
+msgstr "பைதான் பைட் குறிமுறை"
+
+#. Comment
+#: application/x-python.desktop:2 text/x-python.desktop:2
+msgid "Python Program"
+msgstr "பைதான் நிரல்"
+
+#. Comment
+#: application/x-quattropro.desktop:6
+msgid "Quattro Pro Document"
+msgstr "குவார்ட்ரோ புரோ ஆவணம்"
+
+#. Comment
+#: application/x-rar.desktop:6
+msgid "Rar Archive"
+msgstr "Rar காப்பகம்"
+
+#. Comment
+#: application/x-rpm.desktop:7
+msgid "RPM Package File"
+msgstr "RPM தொகுப்பு கோப்பு"
+
+#. Comment
+#: application/x-ruby.desktop:2
+msgid "Ruby Program"
+msgstr "Ruby நிரல்"
+
+#. Comment
+#: application/x-sharedlib.desktop:2
+msgid "Shared Library"
+msgstr "பகிர்ந்த நூலகம்"
+
+#. Comment
+#: application/x-shellscript.desktop:2 text/x-shellscript.desktop:2
+msgid "Shell Script"
+msgstr "ஓட்டு எழுத்தாக்கம்"
+
+#. Comment
+#: application/x-shockwave-flash.desktop:6
+msgid "Shockwave Flash Media"
+msgstr "ஷாக்வேவ் ஃப்ளாஷ் ஊடகம்"
+
+#. Comment
+#: application/x-siag.desktop:3
+msgid "Siag Spreadsheet"
+msgstr "Siag விரிதாள்"
+
+#. Comment
+#: application/x-sqlite2.desktop:6
+#, fuzzy
+msgid "SQLite2 Database File"
+msgstr "Qt மெட்டா பொருள் கோப்பு"
+
+#. Comment
+#: application/x-sqlite3.desktop:6
+#, fuzzy
+msgid "SQLite3 Database File"
+msgstr "Qt மெட்டா பொருள் கோப்பு"
+
+#. Comment
+#: application/x-tar.desktop:6
+msgid "Tar Archive"
+msgstr "Tar காப்பகம்"
+
+#. Comment
+#: application/x-tarz.desktop:3
+msgid "Compressed Tar Archive"
+msgstr "அழுத்திய Tar காப்பகம்"
+
+#. Comment
+#: application/x-tbz.desktop:2
+#, fuzzy
+msgid "Bzip2-ed Tar Archive"
+msgstr "Gzip செய்த Tar காப்பகம்"
+
+#. Comment
+#: application/x-tde-wallet.desktop:4
+msgid "TDE Wallet File"
+msgstr "TDE Wallet கோப்பு"
+
+#. Comment
+#: application/x-tex-gf.desktop:2
+msgid "Generic Font"
+msgstr "பொது எழுத்துரு"
+
+#. Comment
+#: application/x-tex-pk.desktop:2
+msgid "Packed Font"
+msgstr "பொதிந்த எழுத்துரு"
+
+#. Comment
+#: application/x-tgif.desktop:2
+msgid "TGIF Document"
+msgstr "TGIF ஆவணம்"
+
+#. Comment
+#: application/x-tgz.desktop:6
+msgid "Gzipped Tar Archive"
+msgstr "Gzip செய்த Tar காப்பகம்"
+
+#. Comment
+#: application/x-tlz.desktop:7
+msgid "LZIP Tar Archive"
+msgstr "LZIP செய்த Tar காப்பகம்"
+
+#. Comment
+#: application/x-tlzma.desktop:7
+msgid "LZMA Tar Archive"
+msgstr "LZMA செய்த Tar காப்பகம்"
+
+#. Comment
+#: application/x-trash.desktop:6
+msgid "Backup File"
+msgstr "காப்புக் கோப்பு"
+
+#. Comment
+#: application/x-troff-man.desktop:2
+msgid "Troff Document with Manpage Macros"
+msgstr "கைநூற் பக்க மாக்ரோக்கள் உள்ள ட்ரோஃப் ஆவணம்"
+
+#. Comment
+#: application/x-troff.desktop:2
+msgid "Troff Document"
+msgstr "ட்ரோஃப் ஆவணம்"
+
+#. Comment
+#: application/x-txz.desktop:6
+msgid "Xzipped Tar Archive"
+msgstr "Xzip செய்த Tar காப்பகம்"
+
+#. Comment
+#: application/x-tzo.desktop:3
+msgid "Lzopped Tar Archive"
+msgstr "Lzopped Tar காப்பகம்"
+
+#. Comment
+#: application/x-vnd.kde.kexi.desktop:7
+msgid "Kexi Project File"
+msgstr "Kexi திட்டக்கோப்பு"
+
+#. Comment
+#: application/x-vnd.kde.kplato.desktop:3
+msgid "KPlato Project Management Document"
+msgstr "கேப்ளாட்டோ திட்ட மேலாண்மை ஆவணம்"
+
+#. Comment
+#: application/x-vnd.kde.kugar.mixed.desktop:6
+msgid "Kugar Archive File"
+msgstr "Kugar காப்பக கோப்பு"
+
+#. Comment
+#: application/x-webarchive.desktop:2
+msgid "Web Archive"
+msgstr "வலைக் காப்பகம்"
+
+#. Comment
+#: application/x-x509-ca-cert.desktop:6
+msgid "DER, PEM, or Netscape Encoded X.509 Certificate"
+msgstr "DER, PEM, அல்லது நெட்ஸ்கேப் குறியிடப்பட்ட X.509 சான்றிதழ்"
+
+#. Comment
+#: application/x-xliff.desktop:6
+msgid "XLIFF Translation File"
+msgstr "XLIFF மொழிப்பெயர்ப்பு கோப்பு"
+
+#. Comment
+#: application/x-xz.desktop:3
+msgid "Xzip File"
+msgstr "Xzip கோப்பு"
+
+#. Comment
+#: application/x-zerosize.desktop:2
+msgid "Empty Document"
+msgstr "வெற்று ஆவணம்"
+
+#. Comment
+#: application/x-zip.desktop:6
+msgid "Zip Archive"
+msgstr "Zip காப்பகம்"
+
+#. Comment
+#: application/x-zoo.desktop:6
+msgid "Zoo Archive"
+msgstr "Zoo காப்பகம்"
+
+#. Comment
+#: application/xhtml+xml.desktop:2
+msgid "XHTML Family Document"
+msgstr "XTML குடும்ப ஆவணம்"
+
+#. Comment
+#: application/xml-dtd.desktop:2
+#, fuzzy
+msgid "XML DTD Document"
+msgstr "XML ஆவணம்"
+
+#. Comment
+#: application/xml.desktop:2 text/xml.desktop:2
+msgid "XML Document"
+msgstr "XML ஆவணம்"
+
+#. Comment
+#: application/xsd.desktop:2
+msgid "W3C XML Schema"
+msgstr "W3C XML திட்டம்"
+
+#. Comment
+#: audio/aac.desktop:6
+msgid "AAC Sound"
+msgstr "AAC ஒலி"
+
+#. Comment
+#: audio/ac3.desktop:6
+msgid "Dolby AC3 Sound"
+msgstr "Dolby AC3 ஒலி"
+
+#. Comment
+#: audio/basic.desktop:3
+msgid "ULAW (Sun) Audio"
+msgstr "ULAW (Sun) கேட்பொலி"
+
+#. Comment
+#: audio/mp4.desktop:6
+msgid "MPEG-4 Audio"
+msgstr "MPEG-4  கேட்பொலி"
+
+#. Comment
+#: audio/mpeg.desktop:8
+msgid "MPEG Audio"
+msgstr "MPEG கேட்பொலி"
+
+#. Comment
+#: audio/mpegurl.desktop:7 audio/x-mpegurl.desktop:5
+msgid "Streaming MPEG Layer 3 Audio"
+msgstr "பாயும் MPEG அடுக்கு 3  கேட்பொலி"
+
+#. Comment
+#: audio/prs.sid.desktop:6
+msgid "C64 SID Music"
+msgstr "குறுந்தட்டு ஒலி"
+
+#. Comment
+#: audio/vnd.rn-realaudio.desktop:7 audio/x-pn-realaudio.desktop:5
+msgid "RealAudio File"
+msgstr "ரியல் ஆடியோ கோப்பு"
+
+#. Comment
+#: audio/vorbis.desktop:6 audio/x-vorbis.desktop:6
+msgid "Ogg Vorbis Audio"
+msgstr "Ogg Vorbis  கேட்பொலி"
+
+#. Comment
+#: audio/x-adpcm.desktop:3
+msgid "PCM Audio"
+msgstr "PCM  கேட்பொலி"
+
+#. Comment
+#: audio/x-aiff.desktop:3
+msgid "AIFF/Amiga Audio"
+msgstr "AIFF/Amiga  கேட்பொலி"
+
+#. Comment
+#: audio/x-flac.desktop:3
+msgid "FLAC Audio"
+msgstr "FLAC  கேட்பொலி"
+
+#. Comment
+#: audio/x-matroska.desktop:6
+msgid "Matroska Audio"
+msgstr "Matroska  கேட்பொலி"
+
+#. Comment
+#: audio/x-midi.desktop:6
+msgid "MIDI Audio"
+msgstr "MIDI  கேட்பொலி"
+
+#. Comment
+#: audio/x-mod.desktop:6
+msgid "Amiga Soundtracker Audio"
+msgstr "அமிகா கேட்பொலி"
+
+#. Comment
+#: audio/x-mp2.desktop:7
+msgid "MPEG Layer 2 Audio"
+msgstr "MPEG அடுக்கு 3  கேட்பொலி"
+
+#. Comment
+#: audio/x-mp3.desktop:7
+msgid "MPEG Layer 3 Audio"
+msgstr "MPEG அடுக்கு 3  கேட்பொலி"
+
+#. Comment
+#: audio/x-ms-wma.desktop:6
+msgid "Windows Media Audio"
+msgstr "சாளரங்களின் ஊடக கேட்பொலி"
+
+#. Comment
+#: audio/x-musepack.desktop:6
+msgid "Musepack Audio"
+msgstr "மியுஸ்பேக் ஒலி"
+
+#. Comment
+#: audio/x-oggflac.desktop:6
+msgid "Ogg FLAC Audio"
+msgstr "Ogg FLAC  கேட்பொலி"
+
+#. Comment
+#: audio/x-pn-realaudio-plugin.desktop:5
+#, fuzzy
+msgid "RealAudio Plugin File"
+msgstr "ரியல் ஆடியோ கோப்பு"
+
+#. Comment
+#: audio/x-scpls.desktop:4
+msgid "MP3 ShoutCast Playlist"
+msgstr "MP3 ShoutCast பாடற்பட்டியல்"
+
+#. Comment
+#: audio/x-speex.desktop:6
+msgid "Speex Audio"
+msgstr "Speex கேட்பொலி"
+
+#. Comment
+#: audio/x-wav.desktop:6
+msgid "WAV Audio"
+msgstr "WAV கேட்பொலி"
+
+#. Comment
+#: image/cgm.desktop:6
+msgid "Computer Graphics Metafile"
+msgstr "கணினி சித்திரங்கள் மீக்கோப்பு"
+
+#. Comment
+#. Name
+#: image/fax-g3.desktop:6 ../kimgio/g3.kimgio:4
+msgid "CCITT G3 Fax"
+msgstr "CCITT G3 பாக்ஸ்"
+
+#. Comment
+#: image/fits.desktop:6
+#, fuzzy
+msgid "FITS Image"
+msgstr "GIF பிம்பம்"
+
+#. Comment
+#. Name
+#: image/gif.desktop:6 ../kimgio/gif.kimgio:4
+msgid "GIF Image"
+msgstr "GIF பிம்பம்"
+
+#. Comment
+#. Name
+#: image/jp2.desktop:6 ../kimgio/jp2.kimgio:4
+msgid "JPEG 2000 Image"
+msgstr "JPEG 2000 பிம்பம்"
+
+#. Comment
+#. Name
+#: image/jpeg.desktop:6 image/pjpeg.desktop:7 ../kimgio/jpeg.kimgio:4
+msgid "JPEG Image"
+msgstr "JPEG பிம்பம்"
+
+#. Comment
+#. Name
+#: image/png.desktop:6 ../kimgio/png.kimgio:4
+msgid "PNG Image"
+msgstr "PNG பிம்பம்"
+
+#. Comment
+#: image/svg+xml.desktop:7
+msgid "Scalable Vector Graphics"
+msgstr "அளவிடக்கூடிய வெக்டார் சித்திரங்கள்"
+
+#. Comment
+#. Name
+#: image/tiff.desktop:6 ../kimgio/tiff.kimgio:4
+msgid "TIFF Image"
+msgstr "TIFF பிம்பம்"
+
+#. Comment
+#. Name
+#: image/webp.desktop:6 ../kimgio/webp.kimgio:4
+msgid "WebP Image"
+msgstr "WebP பிம்பம்"
+
+#. Comment
+#. Name
+#: image/x-bmp.desktop:6 ../kimgio/bmp.kimgio:4
+msgid "BMP Image"
+msgstr "BMP பிம்பம்"
+
+#. Comment
+#: image/x-dds.desktop:6
+msgid "DirectDraw Surface"
+msgstr "நேரடி வரையும் சூழல்"
+
+#. Comment
+#: image/x-djvu-2.desktop:6 image/x-djvu.desktop:6
+#, fuzzy
+msgid "DjVu Document"
+msgstr "Pdf ஆவணம்"
+
+#. Comment
+#. Name
+#: image/x-eps.desktop:6 ../kimgio/eps.kimgio:4
+msgid "Encapsulated PostScript Image"
+msgstr "உள்ளடக்கிய போஸ்ட்ஸ்கிரிப்ட் பிம்பம்"
+
+#. Comment
+#: image/x-exr.desktop:6
+msgid "ILM EXR Image"
+msgstr "ILM EXR பிம்பம்"
+
+#. Comment
+#. Name
+#: image/x-hdr.desktop:6 ../kimgio/hdr.kimgio:4
+msgid "High Dynamic Range Image"
+msgstr ""
+
+#. Comment
+#. Name
+#: image/x-ico.desktop:6 ../kimgio/ico.kimgio:4
+msgid "Windows Icon"
+msgstr "சாளரங்களின் சின்னம்"
+
+#. Comment
+#: image/x-jng.desktop:6
+msgid "JNG Image"
+msgstr "JNG பிம்பம்"
+
+#. Comment
+#: image/x-msod.desktop:6
+msgid "Microsoft Office Drawing"
+msgstr "மைக்ரோசாப்ட்ஆபிஸ் சித்திரம்"
+
+#. Comment
+#. Name
+#: image/x-pcx.desktop:6 ../kimgio/pcx.kimgio:4
+msgid "PCX Image"
+msgstr "PCX பிம்பம்"
+
+#. Comment
+#: image/x-photo-cd.desktop:6
+msgid "PhotoCD Image"
+msgstr "ஃபோட்டோ குறுந்தகட்டு பிம்பம்"
+
+#. Comment
+#. Name
+#: image/x-portable-bitmap.desktop:6 ../kimgio/pbm.kimgio:4
+msgid "Portable Bitmap Image"
+msgstr "எடுத்து செல்லத்தக்க பிட் வரைப்பட பிம்பம்"
+
+#. Comment
+#. Name
+#: image/x-portable-greymap.desktop:6 ../kimgio/pgm.kimgio:4
+msgid "Portable Graymap Image"
+msgstr "எடுத்து செல்லத்தக்க கருப்புவெள்ளை வரைப்பட பிம்பம்"
+
+#. Comment
+#. Name
+#: image/x-portable-pixmap.desktop:6 ../kimgio/ppm.kimgio:4
+msgid "Portable Pixmap Image"
+msgstr "GIMP பிக்ஸ்வரைபட பிம்பம்"
+
+#. Comment
+#: image/x-raw.desktop:6
+msgid "RAW Camera Image"
+msgstr ""
+
+#. Comment
+#. Name
+#: image/x-rgb.desktop:6 ../kimgio/rgb.kimgio:4
+msgid "SGI Image (RGB)"
+msgstr "GIF பிம்பம்"
+
+#. Comment
+#. Name
+#: image/x-targa.desktop:6 ../kimgio/tga.kimgio:4
+msgid "Truevision Targa Image"
+msgstr "சரியான பார்வை டார்கா பிம்பம்"
+
+#. Comment
+#. Name
+#: image/x-vnd.adobe.photoshop.desktop:6 ../kimgio/psd.kimgio:4
+msgid "Adobe Photoshop Image"
+msgstr "அடோப் ஃபோட்டோஷாப் பிம்பம்"
+
+#. Comment
+#: image/x-vnd.trolltech.qpicture.desktop:6
+msgid "QPicture Metafile"
+msgstr "Qபடம் மீக்கோப்பு"
+
+#. Comment
+#: image/x-wmf.desktop:6
+msgid "Windows MetaFile"
+msgstr "சாளரங்கள் மெடாகோப்பு"
+
+#. Comment
+#. Name
+#: image/x-xbm.desktop:6 ../kimgio/xbm.kimgio:4
+msgid "X BitMap Image"
+msgstr "X பிட்வரைப்பட பிம்பம்"
+
+#. Comment
+#: image/x-xcf-gimp.desktop:2
+msgid "GIMP Native Image Format"
+msgstr "GIMP நிலையான பிம்ப  வடிவம்"
+
+#. Comment
+#: image/x-xcursor.desktop:5
+msgid "X11 Mouse Cursor"
+msgstr "X11 சுட்டிக்காட்டி"
+
+#. Comment
+#: image/x-xfig.desktop:6
+msgid "XFig File"
+msgstr "XFig கோப்பு"
+
+#. Comment
+#. Name
+#: image/x-xpm.desktop:6 ../kimgio/xpm.kimgio:4
+msgid "X PixMap Image"
+msgstr "X படத்துணுக்கு வரைப்பட பிம்பம்"
+
+#. Comment
+#: inode/block.desktop:2
+msgid "Block Device"
+msgstr "தடுப்புச் சாதனம்"
+
+#. Comment
+#: inode/chardevice.desktop:2
+msgid "Character Device"
+msgstr "எழுத்துச் சாதனம்"
+
+#. Comment
+#: inode/directory-locked.desktop:2
+msgid "Locked Folder"
+msgstr "பூட்டப்பட்ட அடைவு"
+
+#. Comment
+#: inode/directory.desktop:2
+msgid "Folder"
+msgstr "அடைவு"
+
+#. Comment
+#: inode/fifo.desktop:2
+msgid "Pipe"
+msgstr "குழாய்"
+
+#. Comment
+#: inode/socket.desktop:2
+msgid "Socket"
+msgstr "துளை"
+
+#. Comment
+#: message/news.desktop:6
+msgid "Usenet News Message"
+msgstr "பயன்படுத்தும் வலை செய்தித் தகவல்"
+
+#. Comment
+#: message/rfc822.desktop:6
+msgid "Email Message"
+msgstr "மின்னஞ்சல் தகவல்"
+
+#. Comment
+#: model/vrml.desktop:5
+msgid "VRML Model"
+msgstr "VRML மாதிரி"
+
+#. Comment
+#: multipart/mixed.desktop:5
+msgid "Compound Document"
+msgstr "இணைந்த ஆவணம்"
+
+#. Comment
+#: multipart/x-mixed-replace.desktop:5
+msgid "Stream of Data (Server Push)"
+msgstr "தகவல் ஓட்டம் (சேவையக தள்ளல்)"
+
+#. Comment
+#: text/calendar.desktop:2
+msgid "iCalendar File"
+msgstr "iநாள்காட்டி கோப்பு"
+
+#. Comment
+#: text/css.desktop:3
+msgid "Cascading Style Sheet"
+msgstr "அடுக்குப் பாணித்தாள்"
+
+#. Comment
+#: text/docbook.desktop:2
+msgid "DocBook Document"
+msgstr "DocBook ஆவணம்"
+
+#. Comment
+#: text/enriched.desktop:3
+msgid "Lightly Enriched Text Document"
+msgstr "லேசாக செறிவூட்டப்பட்ட உரை ஆவணம்"
+
+#. Comment
+#: text/html.desktop:2
+msgid "HTML Document"
+msgstr "HTML ஆவணம்"
+
+#. Comment
+#: text/markdown.desktop:2
+#, fuzzy
+msgid "Markdown document"
+msgstr "Karbon14 ஆவணம்"
+
+#. Comment
+#: text/plain.desktop:3
+msgid "Plain Text Document"
+msgstr "இயல்பான உரை ஆவணம்"
+
+#. Comment
+#: text/rdf.desktop:3
+msgid "Resource Description Framework File"
+msgstr "மூல விவரக் கட்டமைப்புக் (RDF) கோப்பு"
+
+#. Comment
+#: text/rss.desktop:3
+msgid "RDF Site Summary"
+msgstr "RDF களச் சுருக்கம்"
+
+#. Comment
+#: text/rtf.desktop:3
+msgid "RTF Document"
+msgstr "RTF ஆவணம்"
+
+#. Comment
+#: text/sgml.desktop:3
+msgid "SGML Document"
+msgstr "SGML ஆவணம்"
+
+#. Comment
+#: text/vnd.abc.desktop:2
+msgid "ABC Music File"
+msgstr "ஏபிசி இசை கோப்பு"
+
+#. Comment
+#: text/vnd.wap.wml.desktop:6
+msgid "WML Document"
+msgstr "WML ஆவணம்"
+
+#. Comment
+#: text/x-adasrc.desktop:2
+msgid "Ada Source File"
+msgstr "Ada மூலக் கோப்பு"
+
+#. Comment
+#: text/x-bibtex.desktop:2
+msgid "Bibliographic Data (Bibtex)"
+msgstr "நூல் விவரத் தகவல் (Bibtex)"
+
+#. Comment
+#: text/x-c++hdr.desktop:2
+msgid "C++ Header File"
+msgstr "C++ தலைப்புக் கோப்பு"
+
+#. Comment
+#: text/x-c++src.desktop:2
+msgid "C++ Source File"
+msgstr "C++ மூலக் கோப்பு"
+
+#. Comment
+#: text/x-chdr.desktop:2
+msgid "C Header File"
+msgstr "C தலைப்புக் கோப்பு"
+
+#. Comment
+#: text/x-csrc.desktop:2
+msgid "C Source File"
+msgstr "C மூலக் கோப்பு"
+
+#. Comment
+#: text/x-csv.desktop:7
+msgid "Text File with Comma Separated Values"
+msgstr "காற்புள்ளியால் பிரித்த மதிப்புகளுடனான உரைக் கோப்பு"
+
+#. Comment
+#: text/x-diff.desktop:3
+msgid "Differences Between Files"
+msgstr "கோப்புகளுக்கிடையே உள்ள வேறுபாடுகள்"
+
+#. Comment
+#: text/x-hex.desktop:7
+msgid "Intel® Hexadecimal Object File Format"
+msgstr "Qt மெடா பொருள் கோப்பு"
+
+#. Comment
+#: text/x-java.desktop:2
+msgid "Java Source File"
+msgstr "ஜாவா மூலக் கோப்பு"
+
+#. Comment
+#: text/x-katefilelist.desktop:2
+msgid "File List (for the Kate File List Loader Plugin)"
+msgstr "கோப்புப் பட்டியல் (கேட் கோப்புப் பட்டியல் ஏற்றச் செருகுப்பொருளுக்கு)"
+
+#. Comment
+#: text/x-latex.desktop:2
+msgid "LaTeX Document"
+msgstr "LaTEX ஆவணம்"
+
+#. Comment
+#: text/x-ldif.desktop:2
+msgid "LDAP Addressbook"
+msgstr "LDAP முகவரிப்புத்தகம்"
+
+#. Comment
+#: text/x-log.desktop:3
+msgid "Application Log File"
+msgstr "பயன்பாட்டு பதிவுக் கோப்பு"
+
+#. Comment
+#: text/x-makefile.desktop:3
+msgid "Makefile"
+msgstr "தயாரிப்பு கோப்பு"
+
+#. Comment
+#: text/x-moc.desktop:3
+msgid "Qt Meta Object File"
+msgstr "Qt மெட்டா பொருள் கோப்பு"
+
+#. Comment
+#: text/x-mswinurl.desktop:6
+msgid "Internet Shortcut"
+msgstr "இணையக் குறுக்குவழி"
+
+#. Comment
+#: text/x-objchdr.desktop:2
+msgid "Objective-C Header File"
+msgstr "Objective-C தலைப்பு கோப்பு"
+
+#. Comment
+#: text/x-objcsrc.desktop:2
+msgid "Objective-C Source File"
+msgstr "Objective-C மூலக் கோப்பு"
+
+#. Comment
+#: text/x-pascal.desktop:2
+msgid "Pascal Source File"
+msgstr "பாஸ்கல் மூலக் கோப்பு"
+
+#. Comment
+#: text/x-tcl.desktop:2
+msgid "Tcl File"
+msgstr "Tcl கோப்பு"
+
+#. Comment
+#: text/x-tex.desktop:2
+msgid "TeX File"
+msgstr "TeX கோப்பு"
+
+#. Comment
+#: text/x-vcalendar.desktop:2
+msgid "vCalendar Interchange File"
+msgstr "vநாள்காட்டி பரிமாற்றக் கோப்பு"
+
+#. Comment
+#: text/x-vcard.desktop:2
+msgid "Electronic Business Card"
+msgstr "மின்னணுவியல் வணிக அட்டை"
+
+#. Comment
+#: text/x-xslfo.desktop:2
+msgid "XSL Formating Object File"
+msgstr "XSL வடிவமைப்புப் பொருள் கோப்பு"
+
+#. Comment
+#: text/x-xslt.desktop:2
+msgid "XSLT Stylesheet File"
+msgstr "XSLT பாணிப்பக்கம் கோப்பு"
+
+#. Comment
+#: uri/mms.desktop:5
+msgid "mms: URIs"
+msgstr ""
+
+#. Comment
+#: uri/mmst.desktop:5
+msgid "mmst: URIs"
+msgstr ""
+
+#. Comment
+#: uri/mmsu.desktop:5
+msgid "mmsu: URIs"
+msgstr ""
+
+#. Comment
+#: uri/pnm.desktop:5
+msgid "pnm: URIs"
+msgstr ""
+
+#. Comment
+#: uri/rtspt.desktop:5
+msgid "rtspt: URIs"
+msgstr ""
+
+#. Comment
+#: uri/rtspu.desktop:5
+msgid "rtspu: URIs"
+msgstr ""
+
+#. Comment
+#: video/avi.desktop:7 video/x-msvideo.desktop:6
+msgid "Microsoft AVI Video"
+msgstr "மைக்ரோசாஃப்ட் AVI வீடியோ"
+
+#. Comment
+#: video/mp4.desktop:6
+msgid "MPEG-4 Video"
+msgstr "MPEG-4 வீடியோ"
+
+#. Comment
+#: video/mpeg.desktop:6
+msgid "MPEG Video"
+msgstr "MPEG வீடியோ"
+
+#. Comment
+#: video/quicktime.desktop:6
+msgid "Quicktime Video"
+msgstr "க்விக்டைம் வீடியோ"
+
+#. Comment
+#: video/vnd.rn-realvideo.desktop:6
+msgid "RealVideo File"
+msgstr "ரியல்வீடியோ கோப்பு"
+
+#. Comment
+#: video/x-flic.desktop:6
+msgid "Autodesk's FLIC File"
+msgstr "தன்னியக்க மேல்மேசையின் FLIC கோப்பு"
+
+#. Comment
+#: video/x-flv.desktop:5
+#, fuzzy
+msgid "Flash Video"
+msgstr "Matroska வீடியோ"
+
+#. Comment
+#: video/x-matroska.desktop:6
+msgid "Matroska Video"
+msgstr "Matroska வீடியோ"
+
+#. Comment
+#. Name
+#: video/x-mng.desktop:6 ../kimgio/mng.kimgio:4
+msgid "MNG Image"
+msgstr "MNG பிம்பம்"
+
+#. Comment
+#: video/x-ms-wmv.desktop:2
+msgid "Windows Media Video"
+msgstr "விண்டோஸ் ஊடக வீடியோ"
+
+#. Comment
+#: video/x-ogm.desktop:7
+msgid "Ogg/Ogm Video"
+msgstr "Ogg/Ogm வீடியோ"
+
+#. Comment
+#: video/x-theora.desktop:6
+msgid "Theora Video"
+msgstr "தியோரா வீடியோ"
+
+#. Name
+#: ../kimgio/dds.kimgio:4
+msgid "Direct Draw Surface"
+msgstr "நேரடியாக வரையும் சூழல்"
+
+#. Name
+#: ../kimgio/exr.kimgio:4
+msgid "ILM EXR Image Kimgio"
+msgstr "ILM EXR பிம்ப கிம்ஜியோ"
+
+#. Name
+#: ../kimgio/xcf.kimgio:4
+msgid "GIMP Image"
+msgstr "GIMP பிம்பம்"
+
+#. Name
+#: ../kimgio/xv.kimgio:5
+msgid "XView Image"
+msgstr "XView பிம்பம்"

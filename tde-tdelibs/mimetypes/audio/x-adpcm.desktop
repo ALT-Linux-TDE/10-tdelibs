@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+Comment=PCM Audio
+MimeType=audio/x-adpcm
+Icon=audio-x-generic
+Patterns=;
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.wav

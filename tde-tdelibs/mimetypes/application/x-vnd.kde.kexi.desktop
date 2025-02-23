@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-vnd.kde.kexi
+Icon=application-x-kexi
+Patterns=*.kexi;
+X-TDE-AutoEmbed=false
+Comment=Kexi Project File
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.kexi

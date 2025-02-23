@@ -1,0 +1,11 @@
+[Desktop Entry]
+MimeType=application/x-kontour
+Comment=Kontour Document
+Icon=image-svg+xml
+Type=MimeType
+Patterns=*.kon;
+X-TDE-AutoEmbed=false
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.kon

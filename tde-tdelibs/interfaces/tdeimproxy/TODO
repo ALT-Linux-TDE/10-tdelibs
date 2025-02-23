@@ -1,0 +1,10 @@
+For the future, the following modifications need to be done:
+
+Currently there is a function :
+  virtual TQString presenceString( const TQString & uid ) = 0;
+This needs to be broken into:
+  virtual TQString presenceString( const TQString & uid ) = 0;
+  virtual TQString presenceLongString( const TQString & uid ) = 0;
+
+The former returning, say "Away", the latter returning the long away
+message.

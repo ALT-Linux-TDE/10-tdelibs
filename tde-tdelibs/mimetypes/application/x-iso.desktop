@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+Patterns=*.iso;*.ISO
+MimeType=application/x-iso
+Icon=application-x-cda
+Comment=ISO9660 Image File

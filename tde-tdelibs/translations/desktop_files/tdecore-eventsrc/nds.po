@@ -1,0 +1,194 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 20:06+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: nds\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: eventsrc:3
+msgid "System Notifications"
+msgstr "Systeemnarichten"
+
+#. Name
+#: eventsrc:6
+msgid "Trash: emptied"
+msgstr "Affalltünn: leddigmaakt"
+
+#. Comment
+#: eventsrc:7
+msgid "The trash has been emptied"
+msgstr "De Affalltünn wöör leddig maakt"
+
+#. Name
+#: eventsrc:11
+msgid "Textcompletion: rotation"
+msgstr "Textkompletteren: dreihen"
+
+#. Comment
+#: eventsrc:12
+msgid "The end of the list of matches has been reached"
+msgstr "Dat is dat Enn vun de List mit Övereenstimmen"
+
+#. Name
+#: eventsrc:16
+msgid "Textcompletion: no match"
+msgstr "Textkompletteren: nix passt"
+
+#. Comment
+#: eventsrc:17
+msgid "No matching completion was found"
+msgstr "Dor passt nix"
+
+#. Name
+#: eventsrc:21
+msgid "Textcompletion: partial match"
+msgstr "Textkompletteren: passt deelwies"
+
+#. Comment
+#: eventsrc:22
+msgid "There is more than one possible match"
+msgstr "Dor passt mehr as een"
+
+#. Name
+#: eventsrc:26
+msgid "Cannot Open File"
+msgstr "Datei lett sik nich opmaken"
+
+#. Comment
+#: eventsrc:27
+msgid "The selected file cannot be opened for reading or writing"
+msgstr "De utsöchte Datei lett sik nich lesen oder schrieven"
+
+#. Name
+#: eventsrc:31
+msgid "Fatal Error"
+msgstr "Groot Malöör"
+
+#. Comment
+#: eventsrc:32
+msgid "There was a serious error causing the program to exit"
+msgstr "Dor is en Malöör passeert, dat Programm warrt afbraken"
+
+#. Name
+#: eventsrc:37
+msgid "Notification"
+msgstr "Bescheed"
+
+#. Comment
+#: eventsrc:38
+msgid "Something special happened in the program"
+msgstr "In dat Programm is wat besünners passeert"
+
+#. Name
+#: eventsrc:44
+msgid "Warning"
+msgstr "Wohrschoen"
+
+#. Comment
+#: eventsrc:45
+msgid "There was an error in the program which may cause problems"
+msgstr ""
+"Dat geev en Fehler in dat Programm, villicht treckt he Problemen na sik"
+
+#. Name
+#: eventsrc:50
+msgid "Catastrophe"
+msgstr "Katastroof"
+
+#. Comment
+#: eventsrc:51
+msgid "A very serious error occurred, at least causing the program to exit"
+msgstr ""
+"Dor is en Malöör passeert, dat tominnst to't Enn vun't Programm föhrt hett"
+
+#. Name
+#: eventsrc:55
+msgid "Login"
+msgstr "Anmellen"
+
+#. Comment
+#: eventsrc:56
+msgid "TDE is starting up"
+msgstr "TDE warrt start"
+
+#. Name
+#: eventsrc:61
+msgid "Logout"
+msgstr "Afmellen"
+
+#. Comment
+#: eventsrc:62
+msgid "TDE is exiting"
+msgstr "TDE warrt utmaakt"
+
+#. Name
+#: eventsrc:67
+msgid "Logout canceled"
+msgstr "Afmellen afbraken"
+
+#. Comment
+#: eventsrc:68
+msgid "TDE logout was canceled"
+msgstr "Afmellen vun TDE wöör afbraken"
+
+#. Name
+#: eventsrc:73
+msgid "Print error"
+msgstr "Fehler bi't Drucken"
+
+#. Comment
+#: eventsrc:74
+msgid "A print error has occurred"
+msgstr "Bi't Drucken hett dat en Fehler geven"
+
+#. Name
+#: eventsrc:79
+msgid "Information message"
+msgstr "Informatschoon"
+
+#. Comment
+#: eventsrc:80
+msgid "An information message is being shown"
+msgstr "En Informatschoon warrt wiest"
+
+#. Name
+#: eventsrc:86
+msgid "Warning message"
+msgstr "Wohrschoen"
+
+#. Comment
+#: eventsrc:87
+msgid "A warning message is being shown"
+msgstr "En Wohrschoen warrt wiest"
+
+#. Name
+#: eventsrc:94
+msgid "Critical message"
+msgstr "Malöör"
+
+#. Comment
+#: eventsrc:95
+msgid "A critical message is being shown"
+msgstr "En kritische Naricht warrt wiest"
+
+#. Name
+#: eventsrc:102
+msgid "Question"
+msgstr "Fraag"
+
+#. Comment
+#: eventsrc:103
+msgid "A question is being asked"
+msgstr "En Fraag warrt stellt"

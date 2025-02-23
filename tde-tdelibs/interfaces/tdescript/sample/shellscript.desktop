@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Service
+X-TDE-Library=libshellscript
+X-TDE-Script-Runner=ShellScript/bash
+X-TDE-ServiceTypes=KScriptRunner/KScriptRunner
+
+Name=Bash Shell Script Runner
+Comment=Runs bash shell scripts from inside the application.

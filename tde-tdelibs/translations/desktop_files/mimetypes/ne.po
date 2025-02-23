@@ -1,0 +1,1710 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-26 20:48+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: all.desktop:4
+msgid "All Files and Folders"
+msgstr "सबै फाइल र फोल्डर"
+
+#. Comment
+#: allfiles.desktop:4
+msgid "All Files"
+msgstr "सबै फाइल"
+
+#. Comment
+#: application/chm.desktop:2
+msgid "HTML Help Document"
+msgstr "HTML मद्दत कागजात"
+
+#. Comment
+#: application/fits.desktop:4
+msgid "FITS Data"
+msgstr "FITS डेटा"
+
+#. Comment
+#: application/illustrator.desktop:6
+msgid "Adobe Illustrator Document"
+msgstr "एडोब उदाहरण दिने कागजात"
+
+#. Comment
+#: application/java.desktop:5 application/x-java.desktop:6
+msgid "Java Class"
+msgstr "जाभा वर्ग"
+
+#. Comment
+#: application/mathml+xml.desktop:8
+msgid "MathML Document"
+msgstr "MathML कागजात"
+
+#. Comment
+#: application/mbox.desktop:5
+msgid "MBOX Mail Folder"
+msgstr "MBOX पत्र फोल्डर"
+
+#. Comment
+#: application/msexcel.desktop:7 application/vnd.ms-excel.desktop:6
+#: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.desktop:6
+msgid "Microsoft Excel Spreadsheet"
+msgstr "माइक्रोसफ्ट एक्सेल स्प्रेडसिट"
+
+#. Comment
+#: application/mspowerpoint.desktop:7 application/vnd.ms-powerpoint.desktop:6
+#: application/vnd.openxmlformats-officedocument.presentationml.presentation.desktop:6
+msgid "Microsoft PowerPoint Presentation"
+msgstr "माइक्रोसफ्ट पावरप्वाइन्ट प्रस्तुतिकरण"
+
+#. Comment
+#: application/msword.desktop:8 application/vnd.ms-word.desktop:6
+#: application/vnd.openxmlformats-officedocument.wordprocessingml.document.desktop:6
+msgid "Microsoft Word Document"
+msgstr "माइक्रोसफ्ट वर्ड कागजात"
+
+#. Comment
+#: application/octet-stream.desktop:5
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#. Comment
+#: application/ogg.desktop:9 application/x-ogg.desktop:8
+msgid "Ogg Multimedia"
+msgstr "अग मल्टिमेडिया"
+
+#. Comment
+#: application/pdf.desktop:7
+msgid "PDF Document"
+msgstr "PDF कागजात"
+
+#. Comment
+#: application/pgp-encrypted.desktop:6
+msgid "PGP/MIME Encrypted Message Header"
+msgstr "PGP/MIME सङ्केत गरिएको सन्देश हेडर"
+
+#. Comment
+#: application/pgp-keys.desktop:6
+msgid "OpenPGP Key Bundle"
+msgstr "OpenPGP कुञ्जी बन्डल"
+
+#. Comment
+#: application/pgp-signature.desktop:5
+msgid "Detached OpenPGP Signature"
+msgstr "OpenPGP हस्ताक्षर पृथक गर्नुहोस्"
+
+#. Comment
+#: application/pgp.desktop:5
+msgid "PGP Encrypted or Signed Message"
+msgstr "PGP गुप्तिकरण गरिएको वा हस्ताक्षर गरिएको सन्देश"
+
+#. Comment
+#: application/pkcs10.desktop:6
+msgid "S/MIME Certification Request"
+msgstr "S/MIME प्रमाणीकरण अनुरोध"
+
+#. Comment
+#: application/pkcs7-mime.desktop:6
+msgid "PKCS#7 (S/MIME) Formatted Data"
+msgstr "PKCS#7 (S/MIME) ढाँचा गरिएको डेटा"
+
+#. Comment
+#: application/pkcs7-signature.desktop:6
+msgid "Detached S/MIME Signature"
+msgstr "पृथक S/MIME हस्तक्षर"
+
+#. Comment
+#: application/postscript.desktop:7
+msgid "PostScript Document"
+msgstr "पोष्टस्क्रिप्ट कागजात"
+
+#. Comment
+#: application/relaxng.desktop:2
+msgid "RELAX NG"
+msgstr ""
+
+#. Comment
+#: application/sieve.desktop:5
+msgid "SIEVE Mail Filter Script"
+msgstr "SIEVE पत्र फिल्टर स्क्रिप्ट"
+
+#. Comment
+#: application/smil.desktop:6
+msgid "Synchronized Multimedia Integration Language"
+msgstr "समक्रमण गरिएका मल्टिमेडिया अनुकूलन भाषा"
+
+#. Comment
+#: application/vnd.gentoo.ebuild.desktop:3
+msgid "Gentoo ebuild file"
+msgstr ""
+
+#. Comment
+#: application/vnd.mozilla.xul+xml.desktop:7
+msgid "Mozilla XUL File"
+msgstr "मोजिला XUL फाइल"
+
+#. Comment
+#: application/vnd.ms-access.desktop:5 application/x-msaccess.desktop:6
+msgid "Microsoft Access Database"
+msgstr "माइक्रोसफ्ट पहुँच डाटाबेस"
+
+#. Comment
+#: application/vnd.ms-asf.desktop:5 video/x-ms-asf.desktop:7
+msgid "ASF Media"
+msgstr "ASF मिडिया"
+
+#. Comment
+#: application/vnd.ms-excel.addin.macroEnabled.12.desktop:6
+msgid "Microsoft Excel Spreadsheet Add-In Macro Enabled"
+msgstr "माइक्रोसफ्ट एक्सेल स्प्रेडसिट"
+
+#. Comment
+#: application/vnd.ms-excel.sheet.binary.macroEnabled.12.desktop:6
+#: application/vnd.ms-excel.sheet.macroEnabled.12.desktop:6
+msgid "Microsoft Excel Spreadsheet Macro Enabled"
+msgstr "माइक्रोसफ्ट एक्सेल स्प्रेडसिट"
+
+#. Comment
+#: application/vnd.ms-excel.template.macroEnabled.12.desktop:6
+msgid "Microsoft Excel Spreadsheet Template Macro Enabled"
+msgstr "माइक्रोसफ्ट एक्सेल स्प्रेडसिट"
+
+#. Comment
+#: application/vnd.ms-powerpoint.addin.macroEnabled.12.desktop:6
+msgid "Microsoft PowerPoint Presentation Add-In Macro Enabled"
+msgstr "माइक्रोसफ्ट पावरप्वाइन्ट प्रस्तुतिकरण"
+
+#. Comment
+#: application/vnd.ms-powerpoint.presentation.macroEnabled.12.desktop:6
+msgid "Microsoft PowerPoint Presentation Macro Enabled"
+msgstr "माइक्रोसफ्ट पावरप्वाइन्ट प्रस्तुतिकरण"
+
+#. Comment
+#: application/vnd.ms-powerpoint.slideshow.macroEnabled.12.desktop:6
+msgid "Microsoft PowerPoint Presentation SlideShow Macro Enabled"
+msgstr "माइक्रोसफ्ट पावरप्वाइन्ट प्रस्तुतिकरण"
+
+#. Comment
+#: application/vnd.ms-powerpoint.template.macroEnabled.12.desktop:6
+msgid "Microsoft PowerPoint Presentation Template Macro Enabled"
+msgstr "माइक्रोसफ्ट पावरप्वाइन्ट प्रस्तुतिकरण"
+
+#. Comment
+#: application/vnd.ms-word.document.macroEnabled.12.desktop:6
+msgid "Microsoft Word Document Macro Enabled"
+msgstr "माइक्रोसफ्ट वर्ड कागजात"
+
+#. Comment
+#: application/vnd.ms-word.template.macroEnabled.12.desktop:6
+msgid "Microsoft Word Document Template Macro Enabled"
+msgstr "माइक्रोसफ्ट वर्ड कागजात"
+
+#. Comment
+#: application/vnd.oasis.opendocument.chart.desktop:6
+msgid "OASIS OpenDocument Chart"
+msgstr "OASIS खुला कागजात चित्रपट"
+
+#. Comment
+#: application/vnd.oasis.opendocument.database.desktop:6
+#, fuzzy
+msgid "OASIS OpenDocument Database"
+msgstr "OASIS खुला कागजात चित्रपट"
+
+#. Comment
+#: application/vnd.oasis.opendocument.formula.desktop:6
+msgid "OASIS OpenDocument Formula"
+msgstr "OASIS खुला कागजात सूत्र"
+
+#. Comment
+#: application/vnd.oasis.opendocument.graphics-flat-xml.desktop:6
+msgid "OASIS OpenDocument Graphics (Flat XML)"
+msgstr "OASIS खुला कागजात ग्राफिक्स (Flat XML)"
+
+#. Comment
+#: application/vnd.oasis.opendocument.graphics-template.desktop:6
+msgid "OASIS OpenDocument Graphics Template"
+msgstr "OASIS खुला कागजात ग्राफिक्स टेम्प्लेट"
+
+#. Comment
+#: application/vnd.oasis.opendocument.graphics.desktop:6
+msgid "OASIS OpenDocument Graphics"
+msgstr "OASIS खुला कागजात ग्राफिक्स"
+
+#. Comment
+#: application/vnd.oasis.opendocument.image.desktop:6
+msgid "OASIS OpenDocument Image"
+msgstr "OASIS खुला कागजात छवि"
+
+#. Comment
+#: application/vnd.oasis.opendocument.presentation-flat-xml.desktop:6
+msgid "OASIS OpenDocument Presentation (Flat XML)"
+msgstr "OASIS खुला कागजात प्रस्तुतिकरण (Flat XML)"
+
+#. Comment
+#: application/vnd.oasis.opendocument.presentation-template.desktop:6
+msgid "OASIS OpenDocument Presentation Template"
+msgstr "OASIS खुला कागजात प्रस्तुतिकरण टेम्प्लेट"
+
+#. Comment
+#: application/vnd.oasis.opendocument.presentation.desktop:6
+msgid "OASIS OpenDocument Presentation"
+msgstr "OASIS खुला कागजात प्रस्तुतिकरण"
+
+#. Comment
+#: application/vnd.oasis.opendocument.spreadsheet-flat-xml.desktop:6
+msgid "OASIS OpenDocument SpreadSheet (Flat XML)"
+msgstr "OASIS खुला कागजात स्प्रेडसिट (Flat XML)"
+
+#. Comment
+#: application/vnd.oasis.opendocument.spreadsheet-template.desktop:6
+msgid "OASIS OpenDocument SpreadSheet Template"
+msgstr "OASIS खुला कागजात स्प्रेडसिट टेम्प्लेट"
+
+#. Comment
+#: application/vnd.oasis.opendocument.spreadsheet.desktop:6
+msgid "OASIS OpenDocument SpreadSheet"
+msgstr "OASIS खुला कागजात स्प्रेडसिट"
+
+#. Comment
+#: application/vnd.oasis.opendocument.text-flat-xml.desktop:6
+msgid "OASIS OpenDocument Text (Flat XML)"
+msgstr "OASIS खुला कागजात पाठ (Flat XML)"
+
+#. Comment
+#: application/vnd.oasis.opendocument.text-template.desktop:6
+msgid "OASIS OpenDocument Text Template"
+msgstr "OASIS खुला कागजात पाठ टेम्प्लेट"
+
+#. Comment
+#: application/vnd.oasis.opendocument.text.desktop:6
+msgid "OASIS OpenDocument Text"
+msgstr "OASIS खुला कागजात पाठ"
+
+#. Comment
+#: application/vnd.openxmlformats-officedocument.presentationml.slideshow.desktop:6
+msgid "Microsoft PowerPoint Presentation SlideShow"
+msgstr "माइक्रोसफ्ट पावरप्वाइन्ट प्रस्तुतिकरण"
+
+#. Comment
+#: application/vnd.openxmlformats-officedocument.presentationml.template.desktop:6
+msgid "Microsoft PowerPoint Presentation Template"
+msgstr "माइक्रोसफ्ट पावरप्वाइन्ट प्रस्तुतिकरण"
+
+#. Comment
+#: application/vnd.openxmlformats-officedocument.spreadsheetml.template.desktop:6
+msgid "Microsoft Excel Spreadsheet Template"
+msgstr "माइक्रोसफ्ट एक्सेल स्प्रेडसिट"
+
+#. Comment
+#: application/vnd.openxmlformats-officedocument.wordprocessingml.template.desktop:6
+msgid "Microsoft Word Document Template"
+msgstr "माइक्रोसफ्ट वर्ड कागजात"
+
+#. Comment
+#: application/vnd.palm.desktop:6
+msgid "Palm Document"
+msgstr "हाते कागजात"
+
+#. Comment
+#: application/vnd.rn-realmedia.desktop:6
+msgid "RealMedia File"
+msgstr "वास्तविक मिडिया फाइल"
+
+#. Comment
+#: application/vnd.stardivision.calc.desktop:6
+msgid "StarOffice Calc Spreadsheet"
+msgstr "स्टारअफिस क्याल्क स्प्रेडसिट"
+
+#. Comment
+#: application/vnd.stardivision.chart.desktop:6
+msgid "StarOffice Chart"
+msgstr "स्टारअफिस चित्रपट"
+
+#. Comment
+#: application/vnd.stardivision.draw.desktop:6
+msgid "StarOffice Drawing"
+msgstr "स्टारअफिस रेखाचित्र"
+
+#. Comment
+#: application/vnd.stardivision.impress.desktop:6
+msgid "StarOffice Impress Presentation"
+msgstr "स्टारअफिस इम्प्रेस प्रस्तुतिकरण"
+
+#. Comment
+#: application/vnd.stardivision.math.desktop:6
+msgid "StarOffice Math Document"
+msgstr "स्टारअफिस म्याथ कागजात"
+
+#. Comment
+#: application/vnd.stardivision.writer-global.desktop:6
+msgid "StarOffice Writer Master Document"
+msgstr "स्टारअफिस राइटर मास्टर कागजात"
+
+#. Comment
+#: application/vnd.stardivision.writer.desktop:6
+msgid "StarOffice Writer Document"
+msgstr "स्टारअफिस राइटर कागजात"
+
+#. Comment
+#: application/vnd.sun.xml.base.desktop:2
+msgid "OpenOffice.org Database"
+msgstr "ओपनअफिस डट अर्ग डाटाबेस"
+
+#. Comment
+#: application/vnd.sun.xml.calc.desktop:2
+msgid "OpenOffice.org Spreadsheet"
+msgstr "ओपनफिस.अर्ग स्प्रेडसिट"
+
+#. Comment
+#: application/vnd.sun.xml.calc.template.desktop:2
+msgid "OpenOffice.org Spreadsheet Template"
+msgstr "ओपनअफिस डट अर्ग स्प्रेडसिट टेम्प्लेट"
+
+#. Comment
+#: application/vnd.sun.xml.draw.desktop:2
+msgid "OpenOffice.org Drawing"
+msgstr "ओपनअफिस डट अर्ग रेखाचित्र"
+
+#. Comment
+#: application/vnd.sun.xml.draw.template.desktop:2
+msgid "OpenOffice.org Drawing Template"
+msgstr "ओपनअफिस डट अर्ग रेखाचित्र टेम्प्लेट"
+
+#. Comment
+#: application/vnd.sun.xml.impress.desktop:2
+msgid "OpenOffice.org Presentation"
+msgstr "ओपनअफिस डट अर्ग प्रस्तुतिकरण"
+
+#. Comment
+#: application/vnd.sun.xml.impress.template.desktop:2
+msgid "OpenOffice.org Presentation Template"
+msgstr "ओपनअफिस डट अर्ग प्रस्तुतिकरण टेम्प्लेट"
+
+#. Comment
+#: application/vnd.sun.xml.writer.desktop:2
+msgid "OpenOffice.org Text Document"
+msgstr "ओपनअफिस डट अर्ग पाठ कागजात"
+
+#. Comment
+#: application/vnd.sun.xml.writer.master.desktop:2
+msgid "OpenOffice.org Master Text Document"
+msgstr "ओपनअफिस डट अर्ग मास्टर पाठ कागजात"
+
+#. Comment
+#: application/vnd.sun.xml.writer.template.desktop:2
+msgid "OpenOffice.org Text Document Template"
+msgstr "ओपनअफिस डट अर्ग पाठ कागजात टेम्प्लेट"
+
+#. Comment
+#: application/wordperfect.desktop:6
+msgid "WordPerfect Document"
+msgstr "वर्डपर्फेक्ट कागजात"
+
+#. Comment
+#: application/x-7z.desktop:6
+msgid "7-Zip Archive"
+msgstr "७-जिप सङ्ग्रह"
+
+#. Comment
+#: application/x-abiword.desktop:4
+msgid "AbiWord Document"
+msgstr "ए बी आई वर्ड कागजात"
+
+#. Comment
+#: application/x-ace.desktop:6
+msgid "ACE Archive"
+msgstr "ACE सङ्ग्रह"
+
+#. Comment
+#: application/x-afm.desktop:2
+msgid "PostScript Font Metrics"
+msgstr "पोष्टस्क्रिप्ट फन्ट मेट्रिक्स"
+
+#. Comment
+#: application/x-amipro.desktop:6
+msgid "Lotus AmiPro Document"
+msgstr "लोटस AmiPro कागजात"
+
+#. Comment
+#: application/x-applixgraphics.desktop:6
+msgid "Applix Graphics Document"
+msgstr "एप्लिक्स ग्राफिक्स कागजात"
+
+#. Comment
+#: application/x-applixspread.desktop:6
+msgid "Applix Spreadsheets Document"
+msgstr "एप्लिक्स स्प्रेडसिट कागजात"
+
+#. Comment
+#: application/x-applixword.desktop:6
+msgid "Applix Words Document"
+msgstr "एप्लिक्स वर्ड कागजात"
+
+#. Comment
+#: application/x-arc.desktop:6
+msgid "ARC Archive"
+msgstr "ARC सङ्ग्रह"
+
+#. Comment
+#: application/x-archive.desktop:3
+msgid "Ar Archive"
+msgstr "Ar सङ्ग्रह"
+
+#. Comment
+#: application/x-arj.desktop:6
+msgid "ARJ Archive"
+msgstr "ARJ सङ्ग्रह"
+
+#. Comment
+#: application/x-awk.desktop:2
+msgid "AWK Script"
+msgstr "AWK स्क्रिप्ट"
+
+#. Comment
+#: application/x-bittorrent.desktop:3
+msgid "BitTorrent Download"
+msgstr "बिटटोरेन्ट डाउनलोड"
+
+#. Comment
+#: application/x-bz2dvi.desktop:2
+msgid "Bzip2 Compressed DVI File"
+msgstr "Bzip2 सङ्कुचित DVI फाइल"
+
+#. Comment
+#: application/x-bzip.desktop:3
+msgid "Bzip File"
+msgstr "Bzip फाइल"
+
+#. Comment
+#: application/x-bzip2.desktop:3
+msgid "Bzip2 File"
+msgstr "Bzip2 फाइल"
+
+#. Comment
+#: application/x-cda.desktop:3
+msgid "CD Audio"
+msgstr "CD अडियो"
+
+#. Comment
+#: application/x-compress.desktop:6
+msgid "UNIX Compressed File"
+msgstr "UNIX सङ्कुचित फाइल"
+
+#. Comment
+#: application/x-core.desktop:6
+msgid "Program Crash Data"
+msgstr "कार्यक्रम क्र्यास डेटा"
+
+#. Comment
+#: application/x-cpio.desktop:6
+msgid "CPIO Archive"
+msgstr "CPIO सङ्ग्रह"
+
+#. Comment
+#: application/x-cue.desktop:6
+msgid "CDRWIN Cue-Sheet"
+msgstr "CDRWIN क्यू-सिट"
+
+#. Comment
+#: application/x-dbase.desktop:6
+msgid "dBASE Document"
+msgstr "dBASE कागजात"
+
+#. Comment
+#: application/x-deb.desktop:6 application/x-debian-package.desktop:7
+msgid "Debian Package"
+msgstr "डेवियन प्याकेज"
+
+#. Comment
+#: application/x-designer.desktop:2
+msgid "TQt/Qt Designer File"
+msgstr "TQt/Qt डिजाइनर फाइल"
+
+#. Comment
+#: application/x-desktop.desktop:2
+msgid "Desktop Config File"
+msgstr "डेस्कटप कन्फिग फाइल"
+
+#. Comment
+#: application/x-dvi.desktop:2
+msgid "TeX Device Independent File"
+msgstr "TeX यन्त्र स्वतन्त्र फाइल"
+
+#. Comment
+#: application/x-egon.desktop:6
+msgid "Egon Animator"
+msgstr "इगन एनिमेटर"
+
+#. Comment
+#: application/x-executable-script.desktop:2
+msgid "Script (possibly executable)"
+msgstr "स्क्रिप्ट (सम्भावित कार्यान्वयनयोग्य)"
+
+#. Comment
+#: application/x-executable.desktop:2 application/x-pie-executable.desktop:2
+msgid "Executable File"
+msgstr "कार्यान्वयनयोग्य फाइल"
+
+#. Comment
+#: application/x-font-bdf.desktop:6
+msgid "BDF Bitmap Font"
+msgstr "BDF बिटम्याप फन्ट"
+
+#. Comment
+#: application/x-font-ghostscript.desktop:6
+msgid "Ghostscript Font"
+msgstr "घोस्टस्क्रिप्ट फन्ट"
+
+#. Comment
+#: application/x-font-otf.desktop:2
+msgid "OpenType Font"
+msgstr "खुला प्रकार फन्ट"
+
+#. Comment
+#: application/x-font-pcf.desktop:6
+msgid "PCF Bitmap Font"
+msgstr "PCF बिटम्याप फन्ट"
+
+#. Comment
+#: application/x-font-snf.desktop:6
+msgid "SNF Bitmap Font"
+msgstr "SNF बिटम्याप फन्ट"
+
+#. Comment
+#: application/x-font-speedo.desktop:6
+msgid "Speedo Font"
+msgstr "स्पेडो फन्ट"
+
+#. Comment
+#: application/x-font-ttc.desktop:2
+msgid "TrueType Font Collection"
+msgstr "यथार्थ प्रकार फन्ट सङ्कलन"
+
+#. Comment
+#: application/x-font-ttf.desktop:2
+msgid "TrueType Font"
+msgstr "यथार्थ प्रकार फन्ट"
+
+#. Comment
+#: application/x-font-type1.desktop:6
+msgid "PostScript Type1 Font"
+msgstr "पोस्टस्क्रिप्ट प्रकार १ फन्ट"
+
+#. Comment
+#: application/x-gettext.desktop:2
+msgid "GNU Gettext Message Catalog"
+msgstr "GNU गेटटेक्स्ट सन्देश विवरणिका"
+
+#. Comment
+#: application/x-gnumeric.desktop:6
+msgid "GNUmeric Spreadsheet"
+msgstr "GNUmeric स्प्रेडसिट"
+
+#. Comment
+#: application/x-graphite.desktop:7
+msgid "Graphite Scientific Graph"
+msgstr "ग्राफाइट वैज्ञानिक ग्राफ"
+
+#. Comment
+#: application/x-gzdvi.desktop:2
+msgid "Gzip Compressed DVI File"
+msgstr "Gzip सङ्कुचित DVI फाइल"
+
+#. Comment
+#: application/x-gzip.desktop:3
+msgid "Gzip File"
+msgstr "Gzip फाइल"
+
+#. Comment
+#: application/x-gzpostscript.desktop:2
+msgid "Gzipped PostScript File"
+msgstr "Gzipped पोष्टस्क्रिप्ट फाइल"
+
+#. Comment
+#: application/x-hancomword.desktop:6
+msgid "HancomWord Document"
+msgstr "ह्यानकमवर्ड कागजात"
+
+#. Comment
+#: application/x-ica.desktop:3
+msgid "Citrix ICA Client Configuration"
+msgstr "Citrix ICA क्लाइन्ट कन्फिगरेसन"
+
+#. Comment
+#: application/x-iso.desktop:6
+msgid "ISO9660 Image File"
+msgstr "ISO9660 छवि फाइल"
+
+#. Comment
+#: application/x-jar.desktop:6
+msgid "Java Archive"
+msgstr "जाभा सङ्ग्रह"
+
+#. Comment
+#: application/x-java-applet.desktop:3
+msgid "Java Applet"
+msgstr "जाभा एप्लेट"
+
+#. Comment
+#: application/x-java-jnlp-file.desktop:4
+msgid "Java Web Start application"
+msgstr "जाभा वेब सुरु अनुप्रयोग"
+
+#. Comment
+#: application/x-javascript.desktop:6 text/javascript.desktop:5
+msgid "JavaScript File"
+msgstr "जाभास्क्रिप्ट फाइल"
+
+#. Comment
+#: application/x-karbon.desktop:7
+msgid "Karbon14 Document"
+msgstr "कार्बन १४ कागजात"
+
+#. Comment
+#: application/x-kchart.desktop:6
+msgid "KChart Document"
+msgstr "केचार्ट कागजात"
+
+#. Comment
+#: application/x-kcsrc.desktop:6
+msgid "TDE Color Theme"
+msgstr "TDE रङ विषयवस्तु"
+
+#. Comment
+#: application/x-kformula.desktop:6
+msgid "KFormula Document"
+msgstr "केफर्मुला कागजात"
+
+#. Comment
+#: application/x-kivio.desktop:7
+msgid "Kivio Document"
+msgstr "किभियो कागजात"
+
+#. Comment
+#: application/x-kontour.desktop:3
+msgid "Kontour Document"
+msgstr "कन्टाउर कागजात"
+
+#. Comment
+#: application/x-kpovmodeler.desktop:2
+msgid "KPovModeler File"
+msgstr "KPovModeler फाइल"
+
+#. Comment
+#: application/x-kpresenter.desktop:7
+msgid "KPresenter Document"
+msgstr "के प्रिजेन्टर कागजात"
+
+#. Comment
+#: application/x-krita.desktop:7
+msgid "Krita Document"
+msgstr "के रिता कागजात"
+
+#. Comment
+#: application/x-kspread.desktop:7
+msgid "KSpread Document"
+msgstr "के स्प्रेड कागजात"
+
+#. Comment
+#: application/x-kudesigner.desktop:3
+msgid "Kugar Report Template"
+msgstr "कुगर प्रतिवेदन टेम्प्लेट"
+
+#. Comment
+#: application/x-kugar.desktop:6
+msgid "Kugar Data File"
+msgstr "कुगर डेटा फाइल"
+
+#. Comment
+#: application/x-kword.desktop:7
+msgid "KWord Document"
+msgstr "केवर्ड कागजात"
+
+#. Comment
+#: application/x-lha.desktop:3
+msgid "Lha Archive"
+msgstr "Lha सङ्ग्रह"
+
+#. Comment
+#: application/x-linguist.desktop:6
+msgid "Qt Translation Source File"
+msgstr "Qt अनुवाद स्रोत फाइल"
+
+#. Comment
+#: application/x-lyx.desktop:2
+msgid "LyX Document"
+msgstr "LyX कागजात"
+
+#. Comment
+#: application/x-lzip.desktop:7
+msgid "LZIP File"
+msgstr "LZIP फाइल"
+
+#. Comment
+#: application/x-lzma.desktop:7
+msgid "LZMA File"
+msgstr "LZMA फाइल"
+
+#. Comment
+#: application/x-lzop.desktop:6
+msgid "Lzopped File"
+msgstr "Lzopped फाइल"
+
+#. Comment
+#: application/x-magicpoint.desktop:6
+msgid "MagicPoint Presentation"
+msgstr "म्याजिकप्वाइन्ट प्रस्तुतिकरण"
+
+#. Comment
+#: application/x-mimearchive.desktop:6
+msgid "Mime Encapsulated Web Archive"
+msgstr "माइम इनक्याप्सुलेट गरिएको वेब सङ्ग्रह"
+
+#. Comment
+#: application/x-mplayer2.desktop:8
+msgid "Microsoft Media Format"
+msgstr "माइक्रोसफ्ट मिडिया ढाँचा"
+
+#. Comment
+#: application/x-msdos-program.desktop:2
+msgid "Windows Executable"
+msgstr "सञ्झ्याल कार्यान्वयनयोग्य"
+
+#. Comment
+#: application/x-mswrite.desktop:6
+msgid "Microsoft Write Document"
+msgstr "माइक्रोसफ्ट राइट कागजात"
+
+#. Comment
+#: application/x-nzb.desktop:3
+msgid "NewzBin Usenet Index"
+msgstr ""
+
+#. Comment
+#: application/x-object.desktop:6
+msgid "Object Code"
+msgstr "वस्तु सङ्केत"
+
+#. Comment
+#: application/x-pak.desktop:6
+msgid "PAK File Archive"
+msgstr "PAK फाइल सङ्ग्रह"
+
+#. Comment
+#: application/x-perl-module.desktop:2
+msgid "Perl Module"
+msgstr "पर्ल मोड्युल"
+
+#. Comment
+#: application/x-perl.desktop:2 text/x-perl.desktop:2
+msgid "Perl Program"
+msgstr "पर्ल कार्यक्रम"
+
+#. Comment
+#: application/x-php.desktop:2
+msgid "PHP Script"
+msgstr "PHP स्क्रिप्ट"
+
+#. Comment
+#: application/x-pkcs12.desktop:6
+msgid "PKCS#12 Certificate Bundle"
+msgstr "PKCS#१२ प्रमाणपत्र बण्डल"
+
+#. Comment
+#: application/x-pw.desktop:3
+msgid "Pathetic Writer Document"
+msgstr "प्याथेटिक राइटर कागजात"
+
+#. Comment
+#: application/x-python-bytecode.desktop:6
+msgid "Python Bytecode"
+msgstr "पाइथोन बाइट सङ्केत"
+
+#. Comment
+#: application/x-python.desktop:2 text/x-python.desktop:2
+msgid "Python Program"
+msgstr "पाइथोन कार्यक्रम"
+
+#. Comment
+#: application/x-quattropro.desktop:6
+msgid "Quattro Pro Document"
+msgstr "क्वाट्रो प्रो कागजात"
+
+#. Comment
+#: application/x-rar.desktop:6
+msgid "Rar Archive"
+msgstr "Rar सङ्ग्रह"
+
+#. Comment
+#: application/x-rpm.desktop:7
+msgid "RPM Package File"
+msgstr "RPM प्याकेज फाइल"
+
+#. Comment
+#: application/x-ruby.desktop:2
+msgid "Ruby Program"
+msgstr "रुवी कार्यक्रम"
+
+#. Comment
+#: application/x-sharedlib.desktop:2
+msgid "Shared Library"
+msgstr "बाँडिएको लाइब्रेरी"
+
+#. Comment
+#: application/x-shellscript.desktop:2 text/x-shellscript.desktop:2
+msgid "Shell Script"
+msgstr "शेल स्क्रिप्ट"
+
+#. Comment
+#: application/x-shockwave-flash.desktop:6
+msgid "Shockwave Flash Media"
+msgstr "सकवेभ फ्ल्यास मिडिया"
+
+#. Comment
+#: application/x-siag.desktop:3
+msgid "Siag Spreadsheet"
+msgstr "सिआग स्प्रेडसिट"
+
+#. Comment
+#: application/x-sqlite2.desktop:6
+msgid "SQLite2 Database File"
+msgstr "SQLite2 डाटाबेस फाइल"
+
+#. Comment
+#: application/x-sqlite3.desktop:6
+msgid "SQLite3 Database File"
+msgstr "SQLite3 डाटाबेस फाइल"
+
+#. Comment
+#: application/x-tar.desktop:6
+msgid "Tar Archive"
+msgstr "टार सङ्ग्रह"
+
+#. Comment
+#: application/x-tarz.desktop:3
+msgid "Compressed Tar Archive"
+msgstr "सङ्कुचित टार सङ्ग्रह"
+
+#. Comment
+#: application/x-tbz.desktop:2
+msgid "Bzip2-ed Tar Archive"
+msgstr "Bzip2-ed टार सङ्ग्रह"
+
+#. Comment
+#: application/x-tde-wallet.desktop:4
+msgid "TDE Wallet File"
+msgstr "TDE वालेट फाइल"
+
+#. Comment
+#: application/x-tex-gf.desktop:2
+msgid "Generic Font"
+msgstr "जेनेरिक फन्ट"
+
+#. Comment
+#: application/x-tex-pk.desktop:2
+msgid "Packed Font"
+msgstr "प्याक गरिएको फन्ट"
+
+#. Comment
+#: application/x-tgif.desktop:2
+msgid "TGIF Document"
+msgstr "TGIF कागजात"
+
+#. Comment
+#: application/x-tgz.desktop:6
+msgid "Gzipped Tar Archive"
+msgstr "जीजिप गरिएको टार सङ्ग्रह"
+
+#. Comment
+#: application/x-tlz.desktop:7
+msgid "LZIP Tar Archive"
+msgstr "जीजिप गरिएको टार सङ्ग्रह"
+
+#. Comment
+#: application/x-tlzma.desktop:7
+msgid "LZMA Tar Archive"
+msgstr "जीजिप गरिएको टार सङ्ग्रह"
+
+#. Comment
+#: application/x-trash.desktop:6
+msgid "Backup File"
+msgstr "जगेडा फाइल"
+
+#. Comment
+#: application/x-troff-man.desktop:2
+msgid "Troff Document with Manpage Macros"
+msgstr "म्यानपेज म्याक्रोसँग ट्रफ कागजात"
+
+#. Comment
+#: application/x-troff.desktop:2
+msgid "Troff Document"
+msgstr "ट्रफ कागजात"
+
+#. Comment
+#: application/x-txz.desktop:6
+msgid "Xzipped Tar Archive"
+msgstr "जीजिप गरिएको टार सङ्ग्रह"
+
+#. Comment
+#: application/x-tzo.desktop:3
+msgid "Lzopped Tar Archive"
+msgstr "Lzopped टार सङ्ग्रह"
+
+#. Comment
+#: application/x-vnd.kde.kexi.desktop:7
+msgid "Kexi Project File"
+msgstr "केक्सी परियोजना फाइल"
+
+#. Comment
+#: application/x-vnd.kde.kplato.desktop:3
+msgid "KPlato Project Management Document"
+msgstr "केप्लाटो परियोजना व्यवस्थापन कागजात"
+
+#. Comment
+#: application/x-vnd.kde.kugar.mixed.desktop:6
+msgid "Kugar Archive File"
+msgstr "कुगार सङ्ग्रह फाइल"
+
+#. Comment
+#: application/x-webarchive.desktop:2
+msgid "Web Archive"
+msgstr "वेब सङ्ग्रह"
+
+#. Comment
+#: application/x-x509-ca-cert.desktop:6
+msgid "DER, PEM, or Netscape Encoded X.509 Certificate"
+msgstr "DER, PEM, वा नेटस्केप सङ्केतन गरिएको X.५०९ प्रमाणपत्र"
+
+#. Comment
+#: application/x-xliff.desktop:6
+msgid "XLIFF Translation File"
+msgstr "XLIFF अनुवाद फाइल"
+
+#. Comment
+#: application/x-xz.desktop:3
+msgid "Xzip File"
+msgstr "Xzip फाइल"
+
+#. Comment
+#: application/x-zerosize.desktop:2
+msgid "Empty Document"
+msgstr "खाली कागजात"
+
+#. Comment
+#: application/x-zip.desktop:6
+msgid "Zip Archive"
+msgstr "जिप सङ्ग्रह"
+
+#. Comment
+#: application/x-zoo.desktop:6
+msgid "Zoo Archive"
+msgstr "जू सङ्ग्रह"
+
+#. Comment
+#: application/xhtml+xml.desktop:2
+msgid "XHTML Family Document"
+msgstr "XHTML परिवार कागजात"
+
+#. Comment
+#: application/xml-dtd.desktop:2
+msgid "XML DTD Document"
+msgstr "XML DTD कागजात"
+
+#. Comment
+#: application/xml.desktop:2 text/xml.desktop:2
+msgid "XML Document"
+msgstr "XML कागजात"
+
+#. Comment
+#: application/xsd.desktop:2
+msgid "W3C XML Schema"
+msgstr "W3C XML स्कीमा"
+
+#. Comment
+#: audio/aac.desktop:6
+msgid "AAC Sound"
+msgstr "AAC ध्वनि"
+
+#. Comment
+#: audio/ac3.desktop:6
+msgid "Dolby AC3 Sound"
+msgstr "डल्वी AC3 ध्वनि"
+
+#. Comment
+#: audio/basic.desktop:3
+msgid "ULAW (Sun) Audio"
+msgstr "ULAW (सन) अडियो"
+
+#. Comment
+#: audio/mp4.desktop:6
+msgid "MPEG-4 Audio"
+msgstr "MPEG-4 अडियो"
+
+#. Comment
+#: audio/mpeg.desktop:8
+msgid "MPEG Audio"
+msgstr "MPEG अडियो"
+
+#. Comment
+#: audio/mpegurl.desktop:7 audio/x-mpegurl.desktop:5
+msgid "Streaming MPEG Layer 3 Audio"
+msgstr "प्रवाहित MPEG तह ३ अडियो"
+
+#. Comment
+#: audio/prs.sid.desktop:6
+msgid "C64 SID Music"
+msgstr "C64 SID सङ्गीत"
+
+#. Comment
+#: audio/vnd.rn-realaudio.desktop:7 audio/x-pn-realaudio.desktop:5
+msgid "RealAudio File"
+msgstr "वास्तविक अडियो फाइल"
+
+#. Comment
+#: audio/vorbis.desktop:6 audio/x-vorbis.desktop:6
+msgid "Ogg Vorbis Audio"
+msgstr "अग भर्विस अडियो"
+
+#. Comment
+#: audio/x-adpcm.desktop:3
+msgid "PCM Audio"
+msgstr "PCM अडियो"
+
+#. Comment
+#: audio/x-aiff.desktop:3
+msgid "AIFF/Amiga Audio"
+msgstr "AIFF/अमिगा अडियो"
+
+#. Comment
+#: audio/x-flac.desktop:3
+msgid "FLAC Audio"
+msgstr "FLAC अडियो"
+
+#. Comment
+#: audio/x-matroska.desktop:6
+msgid "Matroska Audio"
+msgstr "माट्रोस्का अडियो"
+
+#. Comment
+#: audio/x-midi.desktop:6
+msgid "MIDI Audio"
+msgstr "MIDI अडियो"
+
+#. Comment
+#: audio/x-mod.desktop:6
+msgid "Amiga Soundtracker Audio"
+msgstr "अमिगा साउण्डट्र्याकर अडियो"
+
+#. Comment
+#: audio/x-mp2.desktop:7
+msgid "MPEG Layer 2 Audio"
+msgstr "MPEG तह २ अडियो"
+
+#. Comment
+#: audio/x-mp3.desktop:7
+msgid "MPEG Layer 3 Audio"
+msgstr "MPEG तह ३ अडियो"
+
+#. Comment
+#: audio/x-ms-wma.desktop:6
+msgid "Windows Media Audio"
+msgstr "विन्डोज मिडिया अडियो"
+
+#. Comment
+#: audio/x-musepack.desktop:6
+msgid "Musepack Audio"
+msgstr "मुसिप्याक अडियो"
+
+#. Comment
+#: audio/x-oggflac.desktop:6
+msgid "Ogg FLAC Audio"
+msgstr "अग FLAC अडियो"
+
+#. Comment
+#: audio/x-pn-realaudio-plugin.desktop:5
+msgid "RealAudio Plugin File"
+msgstr "रियलअडियो प्लगइन फाइल"
+
+#. Comment
+#: audio/x-scpls.desktop:4
+msgid "MP3 ShoutCast Playlist"
+msgstr "MP3 साउटकास्ट प्लेलिस्ट"
+
+#. Comment
+#: audio/x-speex.desktop:6
+msgid "Speex Audio"
+msgstr "स्पेक्स अडियो"
+
+#. Comment
+#: audio/x-wav.desktop:6
+msgid "WAV Audio"
+msgstr "WAV अडियो"
+
+#. Comment
+#: image/cgm.desktop:6
+msgid "Computer Graphics Metafile"
+msgstr "कम्प्युटर ग्राफिक्स मेटाफाइल"
+
+#. Comment
+#. Name
+#: image/fax-g3.desktop:6 ../kimgio/g3.kimgio:4
+msgid "CCITT G3 Fax"
+msgstr "CCITT G3 फ्याक्स"
+
+#. Comment
+#: image/fits.desktop:6
+msgid "FITS Image"
+msgstr "FITS छवि"
+
+#. Comment
+#. Name
+#: image/gif.desktop:6 ../kimgio/gif.kimgio:4
+msgid "GIF Image"
+msgstr "GIF छवि"
+
+#. Comment
+#. Name
+#: image/jp2.desktop:6 ../kimgio/jp2.kimgio:4
+msgid "JPEG 2000 Image"
+msgstr "JPEG २००० छवि"
+
+#. Comment
+#. Name
+#: image/jpeg.desktop:6 image/pjpeg.desktop:7 ../kimgio/jpeg.kimgio:4
+msgid "JPEG Image"
+msgstr "JPEG छवि"
+
+#. Comment
+#. Name
+#: image/png.desktop:6 ../kimgio/png.kimgio:4
+msgid "PNG Image"
+msgstr "PNG छवि"
+
+#. Comment
+#: image/svg+xml.desktop:7
+msgid "Scalable Vector Graphics"
+msgstr "मापनयोग्य भेक्टर ग्राफिक्स"
+
+#. Comment
+#. Name
+#: image/tiff.desktop:6 ../kimgio/tiff.kimgio:4
+msgid "TIFF Image"
+msgstr "TIFF छवि"
+
+#. Comment
+#. Name
+#: image/webp.desktop:6 ../kimgio/webp.kimgio:4
+msgid "WebP Image"
+msgstr "WebP छवि"
+
+#. Comment
+#. Name
+#: image/x-bmp.desktop:6 ../kimgio/bmp.kimgio:4
+msgid "BMP Image"
+msgstr "BMP छवि"
+
+#. Comment
+#: image/x-dds.desktop:6
+msgid "DirectDraw Surface"
+msgstr "प्रत्यक्ष कोर्ने सतह"
+
+#. Comment
+#: image/x-djvu-2.desktop:6 image/x-djvu.desktop:6
+msgid "DjVu Document"
+msgstr "DjVu कागजात"
+
+#. Comment
+#. Name
+#: image/x-eps.desktop:6 ../kimgio/eps.kimgio:4
+msgid "Encapsulated PostScript Image"
+msgstr "इनक्याप्सुलेट गरिएको पोस्टस्क्रिप्ट छवि"
+
+#. Comment
+#: image/x-exr.desktop:6
+msgid "ILM EXR Image"
+msgstr "ILM EXR छवि"
+
+#. Comment
+#. Name
+#: image/x-hdr.desktop:6 ../kimgio/hdr.kimgio:4
+msgid "High Dynamic Range Image"
+msgstr "उच्च गतिशील दायरा छवि"
+
+#. Comment
+#. Name
+#: image/x-ico.desktop:6 ../kimgio/ico.kimgio:4
+msgid "Windows Icon"
+msgstr "सञ्झ्याल प्रतिमा"
+
+#. Comment
+#: image/x-jng.desktop:6
+msgid "JNG Image"
+msgstr "JNG छवि"
+
+#. Comment
+#: image/x-msod.desktop:6
+msgid "Microsoft Office Drawing"
+msgstr "माइक्रोसफ्ट अफिस रेखाचित्र"
+
+#. Comment
+#. Name
+#: image/x-pcx.desktop:6 ../kimgio/pcx.kimgio:4
+msgid "PCX Image"
+msgstr "PCX छवि"
+
+#. Comment
+#: image/x-photo-cd.desktop:6
+msgid "PhotoCD Image"
+msgstr "फोटो सीडी छवि"
+
+#. Comment
+#. Name
+#: image/x-portable-bitmap.desktop:6 ../kimgio/pbm.kimgio:4
+msgid "Portable Bitmap Image"
+msgstr "चलायमान बिटम्याप छवि"
+
+#. Comment
+#. Name
+#: image/x-portable-greymap.desktop:6 ../kimgio/pgm.kimgio:4
+msgid "Portable Graymap Image"
+msgstr "चलायमान ग्रेम्याप छवि"
+
+#. Comment
+#. Name
+#: image/x-portable-pixmap.desktop:6 ../kimgio/ppm.kimgio:4
+msgid "Portable Pixmap Image"
+msgstr "चलायमान पिक्सम्याप छवि"
+
+#. Comment
+#: image/x-raw.desktop:6
+msgid "RAW Camera Image"
+msgstr "RAW क्यामेरा छवि"
+
+#. Comment
+#. Name
+#: image/x-rgb.desktop:6 ../kimgio/rgb.kimgio:4
+msgid "SGI Image (RGB)"
+msgstr "SGI छवि (RGB)"
+
+#. Comment
+#. Name
+#: image/x-targa.desktop:6 ../kimgio/tga.kimgio:4
+msgid "Truevision Targa Image"
+msgstr "ट्रुभिजन टार्गा छवि"
+
+#. Comment
+#. Name
+#: image/x-vnd.adobe.photoshop.desktop:6 ../kimgio/psd.kimgio:4
+msgid "Adobe Photoshop Image"
+msgstr "एडब फोटोसप छवि"
+
+#. Comment
+#: image/x-vnd.trolltech.qpicture.desktop:6
+msgid "QPicture Metafile"
+msgstr "क्यू तस्वीर मेटाफाइल"
+
+#. Comment
+#: image/x-wmf.desktop:6
+msgid "Windows MetaFile"
+msgstr "विन्डोज मेटाफाइल"
+
+#. Comment
+#. Name
+#: image/x-xbm.desktop:6 ../kimgio/xbm.kimgio:4
+msgid "X BitMap Image"
+msgstr "X बिटम्याप छवि"
+
+#. Comment
+#: image/x-xcf-gimp.desktop:2
+msgid "GIMP Native Image Format"
+msgstr "गिम्प नेटिभ छवि ढाँचा"
+
+#. Comment
+#: image/x-xcursor.desktop:5
+msgid "X11 Mouse Cursor"
+msgstr "X11 माउस कर्सर"
+
+#. Comment
+#: image/x-xfig.desktop:6
+msgid "XFig File"
+msgstr "XFig फाइल"
+
+#. Comment
+#. Name
+#: image/x-xpm.desktop:6 ../kimgio/xpm.kimgio:4
+msgid "X PixMap Image"
+msgstr "X पिक्सम्याप छवि"
+
+#. Comment
+#: inode/block.desktop:2
+msgid "Block Device"
+msgstr "खण्ड यन्त्र"
+
+#. Comment
+#: inode/chardevice.desktop:2
+msgid "Character Device"
+msgstr "क्यारेक्टर यन्त्र"
+
+#. Comment
+#: inode/directory-locked.desktop:2
+msgid "Locked Folder"
+msgstr "ताल्चा लगाएको फोल्डर"
+
+#. Comment
+#: inode/directory.desktop:2
+msgid "Folder"
+msgstr "फोल्डर"
+
+#. Comment
+#: inode/fifo.desktop:2
+msgid "Pipe"
+msgstr "पाइप"
+
+#. Comment
+#: inode/socket.desktop:2
+msgid "Socket"
+msgstr "सकेट"
+
+#. Comment
+#: message/news.desktop:6
+msgid "Usenet News Message"
+msgstr "यूजनेट समाचार सन्देश"
+
+#. Comment
+#: message/rfc822.desktop:6
+msgid "Email Message"
+msgstr "इमेल सन्देश"
+
+#. Comment
+#: model/vrml.desktop:5
+msgid "VRML Model"
+msgstr "VRML नमूना"
+
+#. Comment
+#: multipart/mixed.desktop:5
+msgid "Compound Document"
+msgstr "मिश्रित कागजात"
+
+#. Comment
+#: multipart/x-mixed-replace.desktop:5
+msgid "Stream of Data (Server Push)"
+msgstr "डेटाको प्रवाह (सर्भर दबाउनुहोस्)"
+
+#. Comment
+#: text/calendar.desktop:2
+msgid "iCalendar File"
+msgstr "आइक्यालेन्डर फाइल"
+
+#. Comment
+#: text/css.desktop:3
+msgid "Cascading Style Sheet"
+msgstr "शैली पाना क्यासकेड गर्दै"
+
+#. Comment
+#: text/docbook.desktop:2
+msgid "DocBook Document"
+msgstr "डकपुस्तक कागजात"
+
+#. Comment
+#: text/enriched.desktop:3
+msgid "Lightly Enriched Text Document"
+msgstr "थोरै बढाएको पाठ कागजात"
+
+#. Comment
+#: text/html.desktop:2
+msgid "HTML Document"
+msgstr "HTML कागजात"
+
+#. Comment
+#: text/markdown.desktop:2
+#, fuzzy
+msgid "Markdown document"
+msgstr "कार्बन १४ कागजात"
+
+#. Comment
+#: text/plain.desktop:3
+msgid "Plain Text Document"
+msgstr "सादा पाठ कागजात"
+
+#. Comment
+#: text/rdf.desktop:3
+msgid "Resource Description Framework File"
+msgstr "स्रोत वर्णन कार्यढाँचा फाइल"
+
+#. Comment
+#: text/rss.desktop:3
+msgid "RDF Site Summary"
+msgstr "RDF साइट सारांश"
+
+#. Comment
+#: text/rtf.desktop:3
+msgid "RTF Document"
+msgstr "RTF कागजात"
+
+#. Comment
+#: text/sgml.desktop:3
+msgid "SGML Document"
+msgstr "SGML कागजात"
+
+#. Comment
+#: text/vnd.abc.desktop:2
+msgid "ABC Music File"
+msgstr "ABC सङ्गीत फाइल"
+
+#. Comment
+#: text/vnd.wap.wml.desktop:6
+msgid "WML Document"
+msgstr "WML कागजात"
+
+#. Comment
+#: text/x-adasrc.desktop:2
+msgid "Ada Source File"
+msgstr "एडा स्रोत फाइल"
+
+#. Comment
+#: text/x-bibtex.desktop:2
+msgid "Bibliographic Data (Bibtex)"
+msgstr "सन्दर्भ डेटा (बिबटेक्स)"
+
+#. Comment
+#: text/x-c++hdr.desktop:2
+msgid "C++ Header File"
+msgstr "C++ हेडर फाइल"
+
+#. Comment
+#: text/x-c++src.desktop:2
+msgid "C++ Source File"
+msgstr "C++ स्रोत फाइल"
+
+#. Comment
+#: text/x-chdr.desktop:2
+msgid "C Header File"
+msgstr "C हेडर फाइल"
+
+#. Comment
+#: text/x-csrc.desktop:2
+msgid "C Source File"
+msgstr "C स्रोत फाइल"
+
+#. Comment
+#: text/x-csv.desktop:7
+msgid "Text File with Comma Separated Values"
+msgstr "अल्पविराम मानसँग विभाजित पाठ फाइल"
+
+#. Comment
+#: text/x-diff.desktop:3
+msgid "Differences Between Files"
+msgstr "फाइलहरू बीचमा भिन्नता"
+
+#. Comment
+#: text/x-hex.desktop:7
+msgid "Intel® Hexadecimal Object File Format"
+msgstr "इन्टेल® हेक्साडेसिमल वस्तु फाइल ढाँचा"
+
+#. Comment
+#: text/x-java.desktop:2
+msgid "Java Source File"
+msgstr "जाभा स्रोत फाइल"
+
+#. Comment
+#: text/x-katefilelist.desktop:2
+msgid "File List (for the Kate File List Loader Plugin)"
+msgstr "फाइल सूची (क्येट फाइल सूची लोडर प्लगइनका लागि)"
+
+#. Comment
+#: text/x-latex.desktop:2
+msgid "LaTeX Document"
+msgstr "LaTeX कागजात"
+
+#. Comment
+#: text/x-ldif.desktop:2
+msgid "LDAP Addressbook"
+msgstr "LDAP ठेगाना पुस्तक"
+
+#. Comment
+#: text/x-log.desktop:3
+msgid "Application Log File"
+msgstr "अनुप्रयोग लग फाइल"
+
+#. Comment
+#: text/x-makefile.desktop:3
+msgid "Makefile"
+msgstr "फाइल बनाउनुहोस्"
+
+#. Comment
+#: text/x-moc.desktop:3
+msgid "Qt Meta Object File"
+msgstr "Qt मेटा वस्तु फाइल"
+
+#. Comment
+#: text/x-mswinurl.desktop:6
+msgid "Internet Shortcut"
+msgstr "इन्टरनेट सर्टकट"
+
+#. Comment
+#: text/x-objchdr.desktop:2
+msgid "Objective-C Header File"
+msgstr "वस्तु-सी हेडर फाइल"
+
+#. Comment
+#: text/x-objcsrc.desktop:2
+msgid "Objective-C Source File"
+msgstr "उद्देश्य-सी स्रोत फाइल"
+
+#. Comment
+#: text/x-pascal.desktop:2
+msgid "Pascal Source File"
+msgstr "पास्कल स्रोत फाइल"
+
+#. Comment
+#: text/x-tcl.desktop:2
+msgid "Tcl File"
+msgstr "Tcl फाइल"
+
+#. Comment
+#: text/x-tex.desktop:2
+msgid "TeX File"
+msgstr "TeX फाइल"
+
+#. Comment
+#: text/x-vcalendar.desktop:2
+msgid "vCalendar Interchange File"
+msgstr "भीक्यालेन्डर साटासाट फाइल"
+
+#. Comment
+#: text/x-vcard.desktop:2
+msgid "Electronic Business Card"
+msgstr "विद्युतीय व्यवसायिक कार्ड"
+
+#. Comment
+#: text/x-xslfo.desktop:2
+msgid "XSL Formating Object File"
+msgstr "XSL ढाँचाबद्ध वस्तु फाइल"
+
+#. Comment
+#: text/x-xslt.desktop:2
+msgid "XSLT Stylesheet File"
+msgstr "XSLT शैलीपाना फाइल"
+
+#. Comment
+#: uri/mms.desktop:5
+msgid "mms: URIs"
+msgstr ""
+
+#. Comment
+#: uri/mmst.desktop:5
+msgid "mmst: URIs"
+msgstr ""
+
+#. Comment
+#: uri/mmsu.desktop:5
+msgid "mmsu: URIs"
+msgstr ""
+
+#. Comment
+#: uri/pnm.desktop:5
+msgid "pnm: URIs"
+msgstr ""
+
+#. Comment
+#: uri/rtspt.desktop:5
+msgid "rtspt: URIs"
+msgstr ""
+
+#. Comment
+#: uri/rtspu.desktop:5
+msgid "rtspu: URIs"
+msgstr ""
+
+#. Comment
+#: video/avi.desktop:7 video/x-msvideo.desktop:6
+msgid "Microsoft AVI Video"
+msgstr "माइक्रोसफ्ट AVI भिडियो"
+
+#. Comment
+#: video/mp4.desktop:6
+msgid "MPEG-4 Video"
+msgstr "MPEG-4 भिडियो"
+
+#. Comment
+#: video/mpeg.desktop:6
+msgid "MPEG Video"
+msgstr "MPEG भिडियो"
+
+#. Comment
+#: video/quicktime.desktop:6
+msgid "Quicktime Video"
+msgstr "छिटोसमय भिडियो"
+
+#. Comment
+#: video/vnd.rn-realvideo.desktop:6
+msgid "RealVideo File"
+msgstr "वास्तविक भिडियो फाइल"
+
+#. Comment
+#: video/x-flic.desktop:6
+msgid "Autodesk's FLIC File"
+msgstr "अटोडेस्कको FLIC फाइल"
+
+#. Comment
+#: video/x-flv.desktop:5
+#, fuzzy
+msgid "Flash Video"
+msgstr "मात्रोस्का भिडियो"
+
+#. Comment
+#: video/x-matroska.desktop:6
+msgid "Matroska Video"
+msgstr "मात्रोस्का भिडियो"
+
+#. Comment
+#. Name
+#: video/x-mng.desktop:6 ../kimgio/mng.kimgio:4
+msgid "MNG Image"
+msgstr "MNG छवि"
+
+#. Comment
+#: video/x-ms-wmv.desktop:2
+msgid "Windows Media Video"
+msgstr "विन्डोज मिडिया भिडियो"
+
+#. Comment
+#: video/x-ogm.desktop:7
+msgid "Ogg/Ogm Video"
+msgstr "अग/ओजिम भिडियो"
+
+#. Comment
+#: video/x-theora.desktop:6
+msgid "Theora Video"
+msgstr "थेओरा भिडियो"
+
+#. Name
+#: ../kimgio/dds.kimgio:4
+msgid "Direct Draw Surface"
+msgstr "प्रत्यक्ष कोर्ने सतह"
+
+#. Name
+#: ../kimgio/exr.kimgio:4
+msgid "ILM EXR Image Kimgio"
+msgstr "ILM EXR छवि किमगिओ"
+
+#. Name
+#: ../kimgio/xcf.kimgio:4
+msgid "GIMP Image"
+msgstr "GIMP छवि"
+
+#. Name
+#: ../kimgio/xv.kimgio:5
+msgid "XView Image"
+msgstr "X दृश्य छवि"

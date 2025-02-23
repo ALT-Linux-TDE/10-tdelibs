@@ -1,0 +1,10 @@
+[Desktop Entry]
+Comment=OpenOffice.org Drawing
+MimeType=application/vnd.sun.xml.draw
+Type=MimeType
+Icon=image-x-generic
+Patterns=*.sxd;*.SXD;
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.sxd

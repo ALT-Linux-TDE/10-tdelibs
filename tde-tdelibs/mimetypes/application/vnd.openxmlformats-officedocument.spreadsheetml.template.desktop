@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/vnd.openxmlformats-officedocument.spreadsheetml.template
+Patterns=*.xltx;*.XLTX
+Icon=application-vnd.oasis.opendocument.spreadsheet
+Comment=Microsoft Excel Spreadsheet Template
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.xls

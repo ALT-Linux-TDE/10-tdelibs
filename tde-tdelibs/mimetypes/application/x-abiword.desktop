@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-abiword
+Comment=AbiWord Document
+Icon=application-vnd.oasis.opendocument.text
+Patterns=*.abw;*.ABW;*.abw.gz;*.zabw;*.abw.bz2;*.bzabw;*.awt

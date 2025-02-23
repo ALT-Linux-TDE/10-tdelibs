@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Service
+Name=BZip2 Filter
+X-TDE-Library=kbzip2filter
+X-TDE-ServiceTypes=TDECompressionFilter,application/x-bzip2,application/x-tbz

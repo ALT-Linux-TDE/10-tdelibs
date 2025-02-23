@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/mbox
+Patterns=
+Comment=MBOX Mail Folder
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

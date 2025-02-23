@@ -1,0 +1,9 @@
+[Desktop Entry]
+Comment=Gzip Compressed DVI File
+Hidden=false
+Icon=application-x-tarz
+MimeType=application/x-gzdvi
+Patterns=*.dvi.gz
+Type=MimeType
+X-TDE-AutoEmbed=true
+X-TDE-IsAlso=application/x-gzip

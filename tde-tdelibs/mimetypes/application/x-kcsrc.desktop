@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-kcsrc
+Icon=application-x-kcsrc
+Patterns=*.kcsrc;*.KCSRC
+Comment=TDE Color Theme

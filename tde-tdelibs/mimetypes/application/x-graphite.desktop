@@ -1,0 +1,11 @@
+[Desktop Entry]
+MimeType=application/x-graphite
+Type=MimeType
+icon=document
+Patterns=*.gra;*.GRA;
+X-TDE-AutoEmbed=false
+Comment=Graphite Scientific Graph
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.gra

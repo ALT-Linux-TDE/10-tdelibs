@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-javascript
+Icon=text-x-jsrc
+Patterns=*.js;
+Comment=JavaScript File
+X-TDE-IsAlso=application/x-executable-script
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

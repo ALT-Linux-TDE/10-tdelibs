@@ -1,0 +1,192 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 20:06+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: eventsrc:3
+msgid "System Notifications"
+msgstr "கேடிஇ கணினி அறிவிப்புகள்"
+
+#. Name
+#: eventsrc:6
+msgid "Trash: emptied"
+msgstr "தொட்டி: காலியாக்கப்பட்டது"
+
+#. Comment
+#: eventsrc:7
+msgid "The trash has been emptied"
+msgstr "தொட்டி காலியாக்கப்பட்டது"
+
+#. Name
+#: eventsrc:11
+msgid "Textcompletion: rotation"
+msgstr "உரைநிறைவு: சுழற்சி"
+
+#. Comment
+#: eventsrc:12
+msgid "The end of the list of matches has been reached"
+msgstr "பொருத்தப் பட்டியலின் முடிவை அடைந்தாயிற்று."
+
+#. Name
+#: eventsrc:16
+msgid "Textcompletion: no match"
+msgstr "உரைநிறைவு: பொருத்தமில்லை"
+
+#. Comment
+#: eventsrc:17
+msgid "No matching completion was found"
+msgstr "பொருத்தமான நிறைவு ஏதுமில்லை."
+
+#. Name
+#: eventsrc:21
+msgid "Textcompletion: partial match"
+msgstr "உரைநிறைவு: குறைப் பொருத்தம்"
+
+#. Comment
+#: eventsrc:22
+msgid "There is more than one possible match"
+msgstr "ஒன்றுக்கு மேற்பட்ட பொருத்தங்கள் உள்ளன."
+
+#. Name
+#: eventsrc:26
+msgid "Cannot Open File"
+msgstr "கோப்பைத் திறக்க முடியவில்லை"
+
+#. Comment
+#: eventsrc:27
+msgid "The selected file cannot be opened for reading or writing"
+msgstr "தேர்வு செய்த கோப்பை வாசிக்கவோ எழுதவோ திறக்க முடியாது"
+
+#. Name
+#: eventsrc:31
+msgid "Fatal Error"
+msgstr "மீளமுடியாத் தவறு"
+
+#. Comment
+#: eventsrc:32
+msgid "There was a serious error causing the program to exit"
+msgstr "நிரலை வெளியேறச் செய்கிற அளவில் ஒரு பெரிய தவறுண்டு."
+
+#. Name
+#: eventsrc:37
+msgid "Notification"
+msgstr "அறிவிப்பு"
+
+#. Comment
+#: eventsrc:38
+msgid "Something special happened in the program"
+msgstr "நிரலில் ஏதோ விசேடம் நிகழ்ந்துள்ளது"
+
+#. Name
+#: eventsrc:44
+msgid "Warning"
+msgstr "எச்சரிக்கை"
+
+#. Comment
+#: eventsrc:45
+msgid "There was an error in the program which may cause problems"
+msgstr "பிரச்னைகளை ஏற்படுத்தும் அளவிற்கு நிரலில் ஒரு தவறு இருந்தது."
+
+#. Name
+#: eventsrc:50
+msgid "Catastrophe"
+msgstr "பிரளயம்"
+
+#. Comment
+#: eventsrc:51
+msgid "A very serious error occurred, at least causing the program to exit"
+msgstr "நிரலை வெளியேறச் செய்யும் அளவில் ஒரு பெரிய தவறு ஏற்பட்டது"
+
+#. Name
+#: eventsrc:55
+msgid "Login"
+msgstr "நுழைவு"
+
+#. Comment
+#: eventsrc:56
+msgid "TDE is starting up"
+msgstr "கேடிஇ ஆரம்பிக்கிறது"
+
+#. Name
+#: eventsrc:61
+msgid "Logout"
+msgstr "முடித்தல்"
+
+#. Comment
+#: eventsrc:62
+msgid "TDE is exiting"
+msgstr "கேடிஇ வெளிச்செல்கிறது"
+
+#. Name
+#: eventsrc:67
+msgid "Logout canceled"
+msgstr ""
+
+#. Comment
+#: eventsrc:68
+msgid "TDE logout was canceled"
+msgstr ""
+
+#. Name
+#: eventsrc:73
+msgid "Print error"
+msgstr "அச்சுத் தவறு"
+
+#. Comment
+#: eventsrc:74
+msgid "A print error has occurred"
+msgstr "அச்சுத் தவறொன்று நேர்ந்திருக்கிறது"
+
+#. Name
+#: eventsrc:79
+msgid "Information message"
+msgstr "தகவல் செய்தி"
+
+#. Comment
+#: eventsrc:80
+msgid "An information message is being shown"
+msgstr "ஒரு தகவல் செய்தி காண்பிக்கப்படுகிறது"
+
+#. Name
+#: eventsrc:86
+msgid "Warning message"
+msgstr "எச்சரிக்கைச் செய்தி"
+
+#. Comment
+#: eventsrc:87
+msgid "A warning message is being shown"
+msgstr "ஒரு எச்சரிக்கை செய்தி காண்பிக்கப்படுகிறது"
+
+#. Name
+#: eventsrc:94
+msgid "Critical message"
+msgstr "இக்கட்டான செய்தி"
+
+#. Comment
+#: eventsrc:95
+msgid "A critical message is being shown"
+msgstr "ஒரு மாறுநிலையான செய்தி காண்பிக்கப்படுகிறது"
+
+#. Name
+#: eventsrc:102
+msgid "Question"
+msgstr "கேள்வி"
+
+#. Comment
+#: eventsrc:103
+msgid "A question is being asked"
+msgstr "ஒரு கேள்வி கேட்கப்படுகிறது"

@@ -1,0 +1,194 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 20:06+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: eventsrc:3
+msgid "System Notifications"
+msgstr "Системні повідомлення"
+
+#. Name
+#: eventsrc:6
+msgid "Trash: emptied"
+msgstr "Смітник: спорожнено"
+
+#. Comment
+#: eventsrc:7
+msgid "The trash has been emptied"
+msgstr "Смітник було спорожнено"
+
+#. Name
+#: eventsrc:11
+msgid "Textcompletion: rotation"
+msgstr "Доповнення тексту: обертання"
+
+#. Comment
+#: eventsrc:12
+msgid "The end of the list of matches has been reached"
+msgstr "Досягнуто кінець списку збігань"
+
+#. Name
+#: eventsrc:16
+msgid "Textcompletion: no match"
+msgstr "Доповнення тексту: немає відповідних значень"
+
+#. Comment
+#: eventsrc:17
+msgid "No matching completion was found"
+msgstr "Відповідного завершення не знайдено"
+
+#. Name
+#: eventsrc:21
+msgid "Textcompletion: partial match"
+msgstr "Доповнення тексту: часткове збігання"
+
+#. Comment
+#: eventsrc:22
+msgid "There is more than one possible match"
+msgstr "Більше одного відповідного значення"
+
+#. Name
+#: eventsrc:26
+msgid "Cannot Open File"
+msgstr "Неможливо відкрити файл"
+
+#. Comment
+#: eventsrc:27
+msgid "The selected file cannot be opened for reading or writing"
+msgstr "Вибраний файл не може бути відкритий для читання або запису"
+
+#. Name
+#: eventsrc:31
+msgid "Fatal Error"
+msgstr "Фатальна помилка"
+
+#. Comment
+#: eventsrc:32
+msgid "There was a serious error causing the program to exit"
+msgstr "Серйозна помилка стала причиною виходу програми"
+
+#. Name
+#: eventsrc:37
+msgid "Notification"
+msgstr "Повідомлення"
+
+#. Comment
+#: eventsrc:38
+msgid "Something special happened in the program"
+msgstr "Щось особливе сталось у програмі"
+
+#. Name
+#: eventsrc:44
+msgid "Warning"
+msgstr "Попередження"
+
+#. Comment
+#: eventsrc:45
+msgid "There was an error in the program which may cause problems"
+msgstr "Сталася серйозна помилка, яка може викликати проблеми"
+
+#. Name
+#: eventsrc:50
+msgid "Catastrophe"
+msgstr "Катастрофа"
+
+#. Comment
+#: eventsrc:51
+msgid "A very serious error occurred, at least causing the program to exit"
+msgstr ""
+"Сталася дуже серйозна помилка, яка, щонайменше, стала причиною виходу "
+"програми"
+
+#. Name
+#: eventsrc:55
+msgid "Login"
+msgstr "Реєстрація"
+
+#. Comment
+#: eventsrc:56
+msgid "TDE is starting up"
+msgstr "Триває запуск TDE"
+
+#. Name
+#: eventsrc:61
+msgid "Logout"
+msgstr "Кінець сеансу"
+
+#. Comment
+#: eventsrc:62
+msgid "TDE is exiting"
+msgstr "Триває завершення роботи TDE"
+
+#. Name
+#: eventsrc:67
+msgid "Logout canceled"
+msgstr "Вихід скасовано"
+
+#. Comment
+#: eventsrc:68
+msgid "TDE logout was canceled"
+msgstr "Вихід з TDE скасовано"
+
+#. Name
+#: eventsrc:73
+msgid "Print error"
+msgstr "Помилка друку"
+
+#. Comment
+#: eventsrc:74
+msgid "A print error has occurred"
+msgstr "Виникла помилка друку"
+
+#. Name
+#: eventsrc:79
+msgid "Information message"
+msgstr "Інформаційне повідомлення"
+
+#. Comment
+#: eventsrc:80
+msgid "An information message is being shown"
+msgstr "Показується інформативне повідомлення"
+
+#. Name
+#: eventsrc:86
+msgid "Warning message"
+msgstr "Попередження"
+
+#. Comment
+#: eventsrc:87
+msgid "A warning message is being shown"
+msgstr "Показується повідомлення з попередженням"
+
+#. Name
+#: eventsrc:94
+msgid "Critical message"
+msgstr "Критична помилка"
+
+#. Comment
+#: eventsrc:95
+msgid "A critical message is being shown"
+msgstr "Показується повідомлення про критичну помилку"
+
+#. Name
+#: eventsrc:102
+msgid "Question"
+msgstr "Запитання"
+
+#. Comment
+#: eventsrc:103
+msgid "A question is being asked"
+msgstr "Показується запитання"

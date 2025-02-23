@@ -1,0 +1,1709 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-26 20:48+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: sr@Latn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: all.desktop:4
+msgid "All Files and Folders"
+msgstr "Svi fajlovi i fascikle"
+
+#. Comment
+#: allfiles.desktop:4
+msgid "All Files"
+msgstr "Svi fajlovi"
+
+#. Comment
+#: application/chm.desktop:2
+msgid "HTML Help Document"
+msgstr "HTML dokument pomoći"
+
+#. Comment
+#: application/fits.desktop:4
+msgid "FITS Data"
+msgstr "FITS podaci"
+
+#. Comment
+#: application/illustrator.desktop:6
+msgid "Adobe Illustrator Document"
+msgstr "Dokument Adobe-ovog Illustrator-a"
+
+#. Comment
+#: application/java.desktop:5 application/x-java.desktop:6
+msgid "Java Class"
+msgstr "Java klasa"
+
+#. Comment
+#: application/mathml+xml.desktop:8
+msgid "MathML Document"
+msgstr "MathML dokument"
+
+#. Comment
+#: application/mbox.desktop:5
+msgid "MBOX Mail Folder"
+msgstr "MBOX fascikla pošte"
+
+#. Comment
+#: application/msexcel.desktop:7 application/vnd.ms-excel.desktop:6
+#: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.desktop:6
+msgid "Microsoft Excel Spreadsheet"
+msgstr "Unakrsna tabela Microsoft-ovog Excel-a"
+
+#. Comment
+#: application/mspowerpoint.desktop:7 application/vnd.ms-powerpoint.desktop:6
+#: application/vnd.openxmlformats-officedocument.presentationml.presentation.desktop:6
+msgid "Microsoft PowerPoint Presentation"
+msgstr "Microsoft PowerPoint-ova prezentacija"
+
+#. Comment
+#: application/msword.desktop:8 application/vnd.ms-word.desktop:6
+#: application/vnd.openxmlformats-officedocument.wordprocessingml.document.desktop:6
+msgid "Microsoft Word Document"
+msgstr "Microsoft Word-ov dokument"
+
+#. Comment
+#: application/octet-stream.desktop:5
+msgid "Unknown"
+msgstr "Nepoznat"
+
+#. Comment
+#: application/ogg.desktop:9 application/x-ogg.desktop:8
+msgid "Ogg Multimedia"
+msgstr "Ogg multimedija"
+
+#. Comment
+#: application/pdf.desktop:7
+msgid "PDF Document"
+msgstr "PDF dokument"
+
+#. Comment
+#: application/pgp-encrypted.desktop:6
+msgid "PGP/MIME Encrypted Message Header"
+msgstr "PGP/MIME šifrovano zaglavlje poruke"
+
+#. Comment
+#: application/pgp-keys.desktop:6
+msgid "OpenPGP Key Bundle"
+msgstr "OpenPGP paket ključeva"
+
+#. Comment
+#: application/pgp-signature.desktop:5
+msgid "Detached OpenPGP Signature"
+msgstr "Odvojeni OpenPGP potpis"
+
+#. Comment
+#: application/pgp.desktop:5
+msgid "PGP Encrypted or Signed Message"
+msgstr "PGP šifrovana ili potpisana poruka"
+
+#. Comment
+#: application/pkcs10.desktop:6
+msgid "S/MIME Certification Request"
+msgstr "S/MIME zahtev za sertifikaciju"
+
+#. Comment
+#: application/pkcs7-mime.desktop:6
+msgid "PKCS#7 (S/MIME) Formatted Data"
+msgstr "PKCS#7 (S/MIME) formatirani podaci"
+
+#. Comment
+#: application/pkcs7-signature.desktop:6
+msgid "Detached S/MIME Signature"
+msgstr "Odvojeni S/MIME potpis"
+
+#. Comment
+#: application/postscript.desktop:7
+msgid "PostScript Document"
+msgstr "PostScript dokument"
+
+#. Comment
+#: application/relaxng.desktop:2
+msgid "RELAX NG"
+msgstr ""
+
+#. Comment
+#: application/sieve.desktop:5
+msgid "SIEVE Mail Filter Script"
+msgstr "SIEVE skripta za filtriranje pošte"
+
+#. Comment
+#: application/smil.desktop:6
+msgid "Synchronized Multimedia Integration Language"
+msgstr "Sinhronizovani multimedijalni jezik za integraciju"
+
+#. Comment
+#: application/vnd.gentoo.ebuild.desktop:3
+msgid "Gentoo ebuild file"
+msgstr ""
+
+#. Comment
+#: application/vnd.mozilla.xul+xml.desktop:7
+msgid "Mozilla XUL File"
+msgstr "Mozilla XUL fajl"
+
+#. Comment
+#: application/vnd.ms-access.desktop:5 application/x-msaccess.desktop:6
+msgid "Microsoft Access Database"
+msgstr "Microsoft Access-ova baza podataka"
+
+#. Comment
+#: application/vnd.ms-asf.desktop:5 video/x-ms-asf.desktop:7
+msgid "ASF Media"
+msgstr "ASF medij"
+
+#. Comment
+#: application/vnd.ms-excel.addin.macroEnabled.12.desktop:6
+msgid "Microsoft Excel Spreadsheet Add-In Macro Enabled"
+msgstr "Unakrsna tabela Microsoft-ovog Excel-a"
+
+#. Comment
+#: application/vnd.ms-excel.sheet.binary.macroEnabled.12.desktop:6
+#: application/vnd.ms-excel.sheet.macroEnabled.12.desktop:6
+msgid "Microsoft Excel Spreadsheet Macro Enabled"
+msgstr "Unakrsna tabela Microsoft-ovog Excel-a"
+
+#. Comment
+#: application/vnd.ms-excel.template.macroEnabled.12.desktop:6
+msgid "Microsoft Excel Spreadsheet Template Macro Enabled"
+msgstr "Unakrsna tabela Microsoft-ovog Excel-a"
+
+#. Comment
+#: application/vnd.ms-powerpoint.addin.macroEnabled.12.desktop:6
+msgid "Microsoft PowerPoint Presentation Add-In Macro Enabled"
+msgstr "Microsoft PowerPoint-ova prezentacija"
+
+#. Comment
+#: application/vnd.ms-powerpoint.presentation.macroEnabled.12.desktop:6
+msgid "Microsoft PowerPoint Presentation Macro Enabled"
+msgstr "Microsoft PowerPoint-ova prezentacija"
+
+#. Comment
+#: application/vnd.ms-powerpoint.slideshow.macroEnabled.12.desktop:6
+msgid "Microsoft PowerPoint Presentation SlideShow Macro Enabled"
+msgstr "Microsoft PowerPoint-ova prezentacija"
+
+#. Comment
+#: application/vnd.ms-powerpoint.template.macroEnabled.12.desktop:6
+msgid "Microsoft PowerPoint Presentation Template Macro Enabled"
+msgstr "Microsoft PowerPoint-ova prezentacija"
+
+#. Comment
+#: application/vnd.ms-word.document.macroEnabled.12.desktop:6
+msgid "Microsoft Word Document Macro Enabled"
+msgstr "Microsoft Word-ov dokument"
+
+#. Comment
+#: application/vnd.ms-word.template.macroEnabled.12.desktop:6
+msgid "Microsoft Word Document Template Macro Enabled"
+msgstr "Microsoft Word-ov dokument"
+
+#. Comment
+#: application/vnd.oasis.opendocument.chart.desktop:6
+msgid "OASIS OpenDocument Chart"
+msgstr "OASIS OpenDocument karta"
+
+#. Comment
+#: application/vnd.oasis.opendocument.database.desktop:6
+#, fuzzy
+msgid "OASIS OpenDocument Database"
+msgstr "OASIS OpenDocument karta"
+
+#. Comment
+#: application/vnd.oasis.opendocument.formula.desktop:6
+msgid "OASIS OpenDocument Formula"
+msgstr "OASIS OpenDocument formula"
+
+#. Comment
+#: application/vnd.oasis.opendocument.graphics-flat-xml.desktop:6
+msgid "OASIS OpenDocument Graphics (Flat XML)"
+msgstr "OASIS OpenDocument grafika (Flat XML)"
+
+#. Comment
+#: application/vnd.oasis.opendocument.graphics-template.desktop:6
+msgid "OASIS OpenDocument Graphics Template"
+msgstr "OASIS OpenDocument grafički šablon"
+
+#. Comment
+#: application/vnd.oasis.opendocument.graphics.desktop:6
+msgid "OASIS OpenDocument Graphics"
+msgstr "OASIS OpenDocument grafika"
+
+#. Comment
+#: application/vnd.oasis.opendocument.image.desktop:6
+msgid "OASIS OpenDocument Image"
+msgstr "OASIS OpenDocument slika"
+
+#. Comment
+#: application/vnd.oasis.opendocument.presentation-flat-xml.desktop:6
+msgid "OASIS OpenDocument Presentation (Flat XML)"
+msgstr "OASIS OpenDocument prezentacija (Flat XML)"
+
+#. Comment
+#: application/vnd.oasis.opendocument.presentation-template.desktop:6
+msgid "OASIS OpenDocument Presentation Template"
+msgstr "OASIS OpenDocument šablon prezentacije"
+
+#. Comment
+#: application/vnd.oasis.opendocument.presentation.desktop:6
+msgid "OASIS OpenDocument Presentation"
+msgstr "OASIS OpenDocument prezentacija"
+
+#. Comment
+#: application/vnd.oasis.opendocument.spreadsheet-flat-xml.desktop:6
+msgid "OASIS OpenDocument SpreadSheet (Flat XML)"
+msgstr "OASIS OpenDocument unakrsna tabela (Flat XML)"
+
+#. Comment
+#: application/vnd.oasis.opendocument.spreadsheet-template.desktop:6
+msgid "OASIS OpenDocument SpreadSheet Template"
+msgstr "OASIS OpenDocument šablonske unakrsne tabele"
+
+#. Comment
+#: application/vnd.oasis.opendocument.spreadsheet.desktop:6
+msgid "OASIS OpenDocument SpreadSheet"
+msgstr "OASIS OpenDocument unakrsna tabela"
+
+#. Comment
+#: application/vnd.oasis.opendocument.text-flat-xml.desktop:6
+msgid "OASIS OpenDocument Text (Flat XML)"
+msgstr "OASIS OpenDocument tekst (Flat XML)"
+
+#. Comment
+#: application/vnd.oasis.opendocument.text-template.desktop:6
+msgid "OASIS OpenDocument Text Template"
+msgstr "OASIS OpenDocument šablon teksta"
+
+#. Comment
+#: application/vnd.oasis.opendocument.text.desktop:6
+msgid "OASIS OpenDocument Text"
+msgstr "OASIS OpenDocument tekst"
+
+#. Comment
+#: application/vnd.openxmlformats-officedocument.presentationml.slideshow.desktop:6
+msgid "Microsoft PowerPoint Presentation SlideShow"
+msgstr "Microsoft PowerPoint-ova prezentacija"
+
+#. Comment
+#: application/vnd.openxmlformats-officedocument.presentationml.template.desktop:6
+msgid "Microsoft PowerPoint Presentation Template"
+msgstr "Microsoft PowerPoint-ova prezentacija"
+
+#. Comment
+#: application/vnd.openxmlformats-officedocument.spreadsheetml.template.desktop:6
+msgid "Microsoft Excel Spreadsheet Template"
+msgstr "Unakrsna tabela Microsoft-ovog Excel-a"
+
+#. Comment
+#: application/vnd.openxmlformats-officedocument.wordprocessingml.template.desktop:6
+msgid "Microsoft Word Document Template"
+msgstr "Microsoft Word-ov dokument"
+
+#. Comment
+#: application/vnd.palm.desktop:6
+msgid "Palm Document"
+msgstr "Palm dokument"
+
+#. Comment
+#: application/vnd.rn-realmedia.desktop:6
+msgid "RealMedia File"
+msgstr "Fajl RealMedia-e"
+
+#. Comment
+#: application/vnd.stardivision.calc.desktop:6
+msgid "StarOffice Calc Spreadsheet"
+msgstr "Unakrsna tabela StarOffice-ovog Calc-a"
+
+#. Comment
+#: application/vnd.stardivision.chart.desktop:6
+msgid "StarOffice Chart"
+msgstr "StarOffice-ov grafikon"
+
+#. Comment
+#: application/vnd.stardivision.draw.desktop:6
+msgid "StarOffice Drawing"
+msgstr "StarOffice-ov crtež"
+
+#. Comment
+#: application/vnd.stardivision.impress.desktop:6
+msgid "StarOffice Impress Presentation"
+msgstr "StarOffice Impress-ova prezentacija"
+
+#. Comment
+#: application/vnd.stardivision.math.desktop:6
+msgid "StarOffice Math Document"
+msgstr "StarOffice-ov matematički dokument"
+
+#. Comment
+#: application/vnd.stardivision.writer-global.desktop:6
+msgid "StarOffice Writer Master Document"
+msgstr "StarOffice Writer-ov glavni dokument"
+
+#. Comment
+#: application/vnd.stardivision.writer.desktop:6
+msgid "StarOffice Writer Document"
+msgstr "StarOffice Writer-ov dokument"
+
+#. Comment
+#: application/vnd.sun.xml.base.desktop:2
+msgid "OpenOffice.org Database"
+msgstr "OpenOffice.org-ova baza podataka"
+
+#. Comment
+#: application/vnd.sun.xml.calc.desktop:2
+msgid "OpenOffice.org Spreadsheet"
+msgstr "OpenOffice.org-ova unakrsna tabela"
+
+#. Comment
+#: application/vnd.sun.xml.calc.template.desktop:2
+msgid "OpenOffice.org Spreadsheet Template"
+msgstr "OpenOffice.org-ov šablon unakrsne tabele"
+
+#. Comment
+#: application/vnd.sun.xml.draw.desktop:2
+msgid "OpenOffice.org Drawing"
+msgstr "OpenOffice.org-ov crtež"
+
+#. Comment
+#: application/vnd.sun.xml.draw.template.desktop:2
+msgid "OpenOffice.org Drawing Template"
+msgstr "OpenOffice.org-ov šablon crteža"
+
+#. Comment
+#: application/vnd.sun.xml.impress.desktop:2
+msgid "OpenOffice.org Presentation"
+msgstr "OpenOffice.org-ova prezentacija"
+
+#. Comment
+#: application/vnd.sun.xml.impress.template.desktop:2
+msgid "OpenOffice.org Presentation Template"
+msgstr "OpenOffice.org-ov šablon prezentacije"
+
+#. Comment
+#: application/vnd.sun.xml.writer.desktop:2
+msgid "OpenOffice.org Text Document"
+msgstr "OpenOffice.org-ov tekstualni dokument"
+
+#. Comment
+#: application/vnd.sun.xml.writer.master.desktop:2
+msgid "OpenOffice.org Master Text Document"
+msgstr "OpenOffice.org-ov glavni tekstualni dokument"
+
+#. Comment
+#: application/vnd.sun.xml.writer.template.desktop:2
+msgid "OpenOffice.org Text Document Template"
+msgstr "OpenOffice.org-ov šablon tekstualnog dokumenta"
+
+#. Comment
+#: application/wordperfect.desktop:6
+msgid "WordPerfect Document"
+msgstr "WordPerfect-ov dokument"
+
+#. Comment
+#: application/x-7z.desktop:6
+msgid "7-Zip Archive"
+msgstr "7-Zip arhiva"
+
+#. Comment
+#: application/x-abiword.desktop:4
+msgid "AbiWord Document"
+msgstr "AbiWord-ov dokument"
+
+#. Comment
+#: application/x-ace.desktop:6
+msgid "ACE Archive"
+msgstr "ACE arhiva"
+
+#. Comment
+#: application/x-afm.desktop:2
+msgid "PostScript Font Metrics"
+msgstr "PostScript mere fonta"
+
+#. Comment
+#: application/x-amipro.desktop:6
+msgid "Lotus AmiPro Document"
+msgstr "Lotus AmiPro-ov dokument"
+
+#. Comment
+#: application/x-applixgraphics.desktop:6
+msgid "Applix Graphics Document"
+msgstr "Dokument Applix Graphics-a"
+
+#. Comment
+#: application/x-applixspread.desktop:6
+msgid "Applix Spreadsheets Document"
+msgstr "Dokument Applix Spreadsheets-a"
+
+#. Comment
+#: application/x-applixword.desktop:6
+msgid "Applix Words Document"
+msgstr "Dokument Applix Words-a"
+
+#. Comment
+#: application/x-arc.desktop:6
+msgid "ARC Archive"
+msgstr "ARC arhiva"
+
+#. Comment
+#: application/x-archive.desktop:3
+msgid "Ar Archive"
+msgstr "Ar arhiva"
+
+#. Comment
+#: application/x-arj.desktop:6
+msgid "ARJ Archive"
+msgstr "ARJ arhiva"
+
+#. Comment
+#: application/x-awk.desktop:2
+msgid "AWK Script"
+msgstr "AWK skripta"
+
+#. Comment
+#: application/x-bittorrent.desktop:3
+msgid "BitTorrent Download"
+msgstr "BitTorrent preuzimanje"
+
+#. Comment
+#: application/x-bz2dvi.desktop:2
+msgid "Bzip2 Compressed DVI File"
+msgstr "Bzip2 kompresovani DVI fajl"
+
+#. Comment
+#: application/x-bzip.desktop:3
+msgid "Bzip File"
+msgstr "Bzip fajl"
+
+#. Comment
+#: application/x-bzip2.desktop:3
+msgid "Bzip2 File"
+msgstr "Bzip2 fajl"
+
+#. Comment
+#: application/x-cda.desktop:3
+msgid "CD Audio"
+msgstr "CD audio"
+
+#. Comment
+#: application/x-compress.desktop:6
+msgid "UNIX Compressed File"
+msgstr "Kompresovani UNIX fajl"
+
+#. Comment
+#: application/x-core.desktop:6
+msgid "Program Crash Data"
+msgstr "Podaci fatalnoj grešci u programu"
+
+#. Comment
+#: application/x-cpio.desktop:6
+msgid "CPIO Archive"
+msgstr "CPIO arhiva"
+
+#. Comment
+#: application/x-cue.desktop:6
+msgid "CDRWIN Cue-Sheet"
+msgstr "CDRWIN cue-sheet"
+
+#. Comment
+#: application/x-dbase.desktop:6
+msgid "dBASE Document"
+msgstr "dBASE dokument"
+
+#. Comment
+#: application/x-deb.desktop:6 application/x-debian-package.desktop:7
+msgid "Debian Package"
+msgstr "Debian paket"
+
+#. Comment
+#: application/x-designer.desktop:2
+msgid "TQt/Qt Designer File"
+msgstr "Fajl TQt/Qt Designer-a"
+
+#. Comment
+#: application/x-desktop.desktop:2
+msgid "Desktop Config File"
+msgstr "Fajl sa zapisom podešavanja radne površine"
+
+#. Comment
+#: application/x-dvi.desktop:2
+msgid "TeX Device Independent File"
+msgstr "TeX fajl, nezavistan od uređaja"
+
+#. Comment
+#: application/x-egon.desktop:6
+msgid "Egon Animator"
+msgstr ""
+
+#. Comment
+#: application/x-executable-script.desktop:2
+msgid "Script (possibly executable)"
+msgstr "Skripta (možda izvršna)"
+
+#. Comment
+#: application/x-executable.desktop:2 application/x-pie-executable.desktop:2
+msgid "Executable File"
+msgstr "Izvršni fajl"
+
+#. Comment
+#: application/x-font-bdf.desktop:6
+msgid "BDF Bitmap Font"
+msgstr "BDF bitmapirani font"
+
+#. Comment
+#: application/x-font-ghostscript.desktop:6
+msgid "Ghostscript Font"
+msgstr "Ghostscript-ov font"
+
+#. Comment
+#: application/x-font-otf.desktop:2
+msgid "OpenType Font"
+msgstr "Opentype font"
+
+#. Comment
+#: application/x-font-pcf.desktop:6
+msgid "PCF Bitmap Font"
+msgstr "PCF bitmapirani font"
+
+#. Comment
+#: application/x-font-snf.desktop:6
+msgid "SNF Bitmap Font"
+msgstr "SNF bitmapirani font"
+
+#. Comment
+#: application/x-font-speedo.desktop:6
+msgid "Speedo Font"
+msgstr "Speedo font"
+
+#. Comment
+#: application/x-font-ttc.desktop:2
+msgid "TrueType Font Collection"
+msgstr "Kolekcija TrueType fontova"
+
+#. Comment
+#: application/x-font-ttf.desktop:2
+msgid "TrueType Font"
+msgstr "TrueType font"
+
+#. Comment
+#: application/x-font-type1.desktop:6
+msgid "PostScript Type1 Font"
+msgstr "PostScript Type1 font"
+
+#. Comment
+#: application/x-gettext.desktop:2
+msgid "GNU Gettext Message Catalog"
+msgstr "GNU Gettext katalog poruka"
+
+#. Comment
+#: application/x-gnumeric.desktop:6
+msgid "GNUmeric Spreadsheet"
+msgstr "GNUmeric-ova unakrsna tabela"
+
+#. Comment
+#: application/x-graphite.desktop:7
+msgid "Graphite Scientific Graph"
+msgstr "Graphite-ovi naučni grafici"
+
+#. Comment
+#: application/x-gzdvi.desktop:2
+msgid "Gzip Compressed DVI File"
+msgstr "Gzip kompresovani DVI fajl"
+
+#. Comment
+#: application/x-gzip.desktop:3
+msgid "Gzip File"
+msgstr "Gzip fajl"
+
+#. Comment
+#: application/x-gzpostscript.desktop:2
+msgid "Gzipped PostScript File"
+msgstr "Gzipovani PostScript fajl"
+
+#. Comment
+#: application/x-hancomword.desktop:6
+msgid "HancomWord Document"
+msgstr "HancomWord-ov dokument"
+
+#. Comment
+#: application/x-ica.desktop:3
+msgid "Citrix ICA Client Configuration"
+msgstr "Podešavanje Citrix-ovog ICA klijenta"
+
+#. Comment
+#: application/x-iso.desktop:6
+msgid "ISO9660 Image File"
+msgstr "Fajl ISO9660 slike"
+
+#. Comment
+#: application/x-jar.desktop:6
+msgid "Java Archive"
+msgstr "Java arhiva"
+
+#. Comment
+#: application/x-java-applet.desktop:3
+msgid "Java Applet"
+msgstr "Java aplet"
+
+#. Comment
+#: application/x-java-jnlp-file.desktop:4
+msgid "Java Web Start application"
+msgstr "Java Web Start primena"
+
+#. Comment
+#: application/x-javascript.desktop:6 text/javascript.desktop:5
+msgid "JavaScript File"
+msgstr "JavaScript fajl"
+
+#. Comment
+#: application/x-karbon.desktop:7
+msgid "Karbon14 Document"
+msgstr "Karbon14 dokument"
+
+#. Comment
+#: application/x-kchart.desktop:6
+msgid "KChart Document"
+msgstr "KChart-ov dokument"
+
+#. Comment
+#: application/x-kcsrc.desktop:6
+msgid "TDE Color Theme"
+msgstr "TDE tema boja"
+
+#. Comment
+#: application/x-kformula.desktop:6
+msgid "KFormula Document"
+msgstr "KFormula-in dokument"
+
+#. Comment
+#: application/x-kivio.desktop:7
+msgid "Kivio Document"
+msgstr "Kivio-ov dokument"
+
+#. Comment
+#: application/x-kontour.desktop:3
+msgid "Kontour Document"
+msgstr "Kontour-ov dokument"
+
+#. Comment
+#: application/x-kpovmodeler.desktop:2
+msgid "KPovModeler File"
+msgstr "KPovModeler-ov fajl"
+
+#. Comment
+#: application/x-kpresenter.desktop:7
+msgid "KPresenter Document"
+msgstr "KPresenter-ov dokument"
+
+#. Comment
+#: application/x-krita.desktop:7
+msgid "Krita Document"
+msgstr "Krita-in dokument"
+
+#. Comment
+#: application/x-kspread.desktop:7
+msgid "KSpread Document"
+msgstr "KSpread-ov dokument"
+
+#. Comment
+#: application/x-kudesigner.desktop:3
+msgid "Kugar Report Template"
+msgstr "Kugar-ov šablon za izveštaj"
+
+#. Comment
+#: application/x-kugar.desktop:6
+msgid "Kugar Data File"
+msgstr "Kugar-ov fajl sa podacima"
+
+#. Comment
+#: application/x-kword.desktop:7
+msgid "KWord Document"
+msgstr "KWord-ov dokument"
+
+#. Comment
+#: application/x-lha.desktop:3
+msgid "Lha Archive"
+msgstr "LHA arhiva"
+
+#. Comment
+#: application/x-linguist.desktop:6
+msgid "Qt Translation Source File"
+msgstr "Qt Translation izvorni fajl"
+
+#. Comment
+#: application/x-lyx.desktop:2
+msgid "LyX Document"
+msgstr "LyX-ov dokument"
+
+#. Comment
+#: application/x-lzip.desktop:7
+msgid "LZIP File"
+msgstr "LZIP fajl"
+
+#. Comment
+#: application/x-lzma.desktop:7
+msgid "LZMA File"
+msgstr "LZMA fajl"
+
+#. Comment
+#: application/x-lzop.desktop:6
+msgid "Lzopped File"
+msgstr "LZopovani fajl"
+
+#. Comment
+#: application/x-magicpoint.desktop:6
+msgid "MagicPoint Presentation"
+msgstr "MagicPoint-ova prezentacija"
+
+#. Comment
+#: application/x-mimearchive.desktop:6
+msgid "Mime Encapsulated Web Archive"
+msgstr "MIME učaurena veb arhiva"
+
+#. Comment
+#: application/x-mplayer2.desktop:8
+msgid "Microsoft Media Format"
+msgstr "Microsoft-ov medijski format"
+
+#. Comment
+#: application/x-msdos-program.desktop:2
+msgid "Windows Executable"
+msgstr "Windows-ov izvršni fajl"
+
+#. Comment
+#: application/x-mswrite.desktop:6
+msgid "Microsoft Write Document"
+msgstr "Microsoft Write-ov dokument"
+
+#. Comment
+#: application/x-nzb.desktop:3
+msgid "NewzBin Usenet Index"
+msgstr ""
+
+#. Comment
+#: application/x-object.desktop:6
+msgid "Object Code"
+msgstr "Objektni kod"
+
+#. Comment
+#: application/x-pak.desktop:6
+msgid "PAK File Archive"
+msgstr "Fajl PAK arhive"
+
+#. Comment
+#: application/x-perl-module.desktop:2
+msgid "Perl Module"
+msgstr "Perl modul"
+
+#. Comment
+#: application/x-perl.desktop:2 text/x-perl.desktop:2
+msgid "Perl Program"
+msgstr "Perl program"
+
+#. Comment
+#: application/x-php.desktop:2
+msgid "PHP Script"
+msgstr "PHP skripta"
+
+#. Comment
+#: application/x-pkcs12.desktop:6
+msgid "PKCS#12 Certificate Bundle"
+msgstr "PKCS#12 Paket sertifikata"
+
+#. Comment
+#: application/x-pw.desktop:3
+msgid "Pathetic Writer Document"
+msgstr "Dokument Pathetic Writer-a"
+
+#. Comment
+#: application/x-python-bytecode.desktop:6
+msgid "Python Bytecode"
+msgstr "Python bajtkod"
+
+#. Comment
+#: application/x-python.desktop:2 text/x-python.desktop:2
+msgid "Python Program"
+msgstr "Python program"
+
+#. Comment
+#: application/x-quattropro.desktop:6
+msgid "Quattro Pro Document"
+msgstr "Quattro Pro-ov dokument"
+
+#. Comment
+#: application/x-rar.desktop:6
+msgid "Rar Archive"
+msgstr "RAR arhiva"
+
+#. Comment
+#: application/x-rpm.desktop:7
+msgid "RPM Package File"
+msgstr "RPM paket"
+
+#. Comment
+#: application/x-ruby.desktop:2
+msgid "Ruby Program"
+msgstr "Ruby program"
+
+#. Comment
+#: application/x-sharedlib.desktop:2
+msgid "Shared Library"
+msgstr "Deljena biblioteka"
+
+#. Comment
+#: application/x-shellscript.desktop:2 text/x-shellscript.desktop:2
+msgid "Shell Script"
+msgstr "Skripta školjke"
+
+#. Comment
+#: application/x-shockwave-flash.desktop:6
+msgid "Shockwave Flash Media"
+msgstr "Shockwave Flash medij"
+
+#. Comment
+#: application/x-siag.desktop:3
+msgid "Siag Spreadsheet"
+msgstr "Siag unakrsna tabela"
+
+#. Comment
+#: application/x-sqlite2.desktop:6
+msgid "SQLite2 Database File"
+msgstr "SQLite2 fajl baze podataka"
+
+#. Comment
+#: application/x-sqlite3.desktop:6
+msgid "SQLite3 Database File"
+msgstr "SQLite3 fajl baze podataka"
+
+#. Comment
+#: application/x-tar.desktop:6
+msgid "Tar Archive"
+msgstr "TAR arhiva"
+
+#. Comment
+#: application/x-tarz.desktop:3
+msgid "Compressed Tar Archive"
+msgstr "Kompresovana TAR arhiva"
+
+#. Comment
+#: application/x-tbz.desktop:2
+msgid "Bzip2-ed Tar Archive"
+msgstr "Bzip2-ovana TAR arhiva"
+
+#. Comment
+#: application/x-tde-wallet.desktop:4
+msgid "TDE Wallet File"
+msgstr "Fajlovi TDE-ovog novčanika"
+
+#. Comment
+#: application/x-tex-gf.desktop:2
+msgid "Generic Font"
+msgstr "Generički font"
+
+#. Comment
+#: application/x-tex-pk.desktop:2
+msgid "Packed Font"
+msgstr "Zapakovani font"
+
+#. Comment
+#: application/x-tgif.desktop:2
+msgid "TGIF Document"
+msgstr "TGIF dokument"
+
+#. Comment
+#: application/x-tgz.desktop:6
+msgid "Gzipped Tar Archive"
+msgstr "GZipovana TAR arhiva"
+
+#. Comment
+#: application/x-tlz.desktop:7
+msgid "LZIP Tar Archive"
+msgstr "GZipovana TAR arhiva"
+
+#. Comment
+#: application/x-tlzma.desktop:7
+msgid "LZMA Tar Archive"
+msgstr "GZipovana TAR arhiva"
+
+#. Comment
+#: application/x-trash.desktop:6
+msgid "Backup File"
+msgstr "Rezervni fajl"
+
+#. Comment
+#: application/x-troff-man.desktop:2
+msgid "Troff Document with Manpage Macros"
+msgstr "Troff dokument sa makroima man stranica"
+
+#. Comment
+#: application/x-troff.desktop:2
+msgid "Troff Document"
+msgstr "Troff dokument"
+
+#. Comment
+#: application/x-txz.desktop:6
+msgid "Xzipped Tar Archive"
+msgstr "GZipovana TAR arhiva"
+
+#. Comment
+#: application/x-tzo.desktop:3
+msgid "Lzopped Tar Archive"
+msgstr "LZopovana TAR arhiva"
+
+#. Comment
+#: application/x-vnd.kde.kexi.desktop:7
+msgid "Kexi Project File"
+msgstr "Kexi-jev projektni fajl"
+
+#. Comment
+#: application/x-vnd.kde.kplato.desktop:3
+msgid "KPlato Project Management Document"
+msgstr "KPlato-ov dokument projekta upravljanja"
+
+#. Comment
+#: application/x-vnd.kde.kugar.mixed.desktop:6
+msgid "Kugar Archive File"
+msgstr "Kugar-ova arhiva"
+
+#. Comment
+#: application/x-webarchive.desktop:2
+msgid "Web Archive"
+msgstr "Veb arhiva"
+
+#. Comment
+#: application/x-x509-ca-cert.desktop:6
+msgid "DER, PEM, or Netscape Encoded X.509 Certificate"
+msgstr "DER, PEM ili Netscape kodiran X.509 sertifikat"
+
+#. Comment
+#: application/x-xliff.desktop:6
+msgid "XLIFF Translation File"
+msgstr "XLIFF fajl sa prevodima"
+
+#. Comment
+#: application/x-xz.desktop:3
+msgid "Xzip File"
+msgstr "Xzip fajl"
+
+#. Comment
+#: application/x-zerosize.desktop:2
+msgid "Empty Document"
+msgstr "Prazan dokument"
+
+#. Comment
+#: application/x-zip.desktop:6
+msgid "Zip Archive"
+msgstr "ZIP arhiva"
+
+#. Comment
+#: application/x-zoo.desktop:6
+msgid "Zoo Archive"
+msgstr "ZOO arhiva"
+
+#. Comment
+#: application/xhtml+xml.desktop:2
+msgid "XHTML Family Document"
+msgstr "Dokument iz XHTML porodice"
+
+#. Comment
+#: application/xml-dtd.desktop:2
+msgid "XML DTD Document"
+msgstr "XML DTD dokument"
+
+#. Comment
+#: application/xml.desktop:2 text/xml.desktop:2
+msgid "XML Document"
+msgstr "XML dokument"
+
+#. Comment
+#: application/xsd.desktop:2
+msgid "W3C XML Schema"
+msgstr "W3C XML šema"
+
+#. Comment
+#: audio/aac.desktop:6
+msgid "AAC Sound"
+msgstr "AAC zvuk"
+
+#. Comment
+#: audio/ac3.desktop:6
+msgid "Dolby AC3 Sound"
+msgstr "Dolbi AC3 zvuk"
+
+#. Comment
+#: audio/basic.desktop:3
+msgid "ULAW (Sun) Audio"
+msgstr "ULAW (Sun) audio fajl"
+
+#. Comment
+#: audio/mp4.desktop:6
+msgid "MPEG-4 Audio"
+msgstr "MPEG-4 audio"
+
+#. Comment
+#: audio/mpeg.desktop:8
+msgid "MPEG Audio"
+msgstr "MPEG audio"
+
+#. Comment
+#: audio/mpegurl.desktop:7 audio/x-mpegurl.desktop:5
+msgid "Streaming MPEG Layer 3 Audio"
+msgstr "Tekući MPEG nivo 3"
+
+#. Comment
+#: audio/prs.sid.desktop:6
+msgid "C64 SID Music"
+msgstr "C64 SID muzika"
+
+#. Comment
+#: audio/vnd.rn-realaudio.desktop:7 audio/x-pn-realaudio.desktop:5
+msgid "RealAudio File"
+msgstr "RealAudio fajl"
+
+#. Comment
+#: audio/vorbis.desktop:6 audio/x-vorbis.desktop:6
+msgid "Ogg Vorbis Audio"
+msgstr "Ogg Vorbis audio"
+
+#. Comment
+#: audio/x-adpcm.desktop:3
+msgid "PCM Audio"
+msgstr "PCM audio"
+
+#. Comment
+#: audio/x-aiff.desktop:3
+msgid "AIFF/Amiga Audio"
+msgstr "AIFF/Amiga audio"
+
+#. Comment
+#: audio/x-flac.desktop:3
+msgid "FLAC Audio"
+msgstr "FLAC audio"
+
+#. Comment
+#: audio/x-matroska.desktop:6
+msgid "Matroska Audio"
+msgstr "Matroska audio"
+
+#. Comment
+#: audio/x-midi.desktop:6
+msgid "MIDI Audio"
+msgstr "MIDI audio"
+
+#. Comment
+#: audio/x-mod.desktop:6
+msgid "Amiga Soundtracker Audio"
+msgstr "Amiga Soundtracker audio"
+
+#. Comment
+#: audio/x-mp2.desktop:7
+msgid "MPEG Layer 2 Audio"
+msgstr "MPEG nivo 2 audio"
+
+#. Comment
+#: audio/x-mp3.desktop:7
+msgid "MPEG Layer 3 Audio"
+msgstr "MPEG nivo 3 audio"
+
+#. Comment
+#: audio/x-ms-wma.desktop:6
+msgid "Windows Media Audio"
+msgstr "Windows-ov medija audio"
+
+#. Comment
+#: audio/x-musepack.desktop:6
+msgid "Musepack Audio"
+msgstr "Musepack audio"
+
+#. Comment
+#: audio/x-oggflac.desktop:6
+msgid "Ogg FLAC Audio"
+msgstr "Ogg FLAC audio"
+
+#. Comment
+#: audio/x-pn-realaudio-plugin.desktop:5
+msgid "RealAudio Plugin File"
+msgstr "RealAudio priključak"
+
+#. Comment
+#: audio/x-scpls.desktop:4
+msgid "MP3 ShoutCast Playlist"
+msgstr "MP3 ShoutCast-ova lista numera"
+
+#. Comment
+#: audio/x-speex.desktop:6
+msgid "Speex Audio"
+msgstr "Speex audio"
+
+#. Comment
+#: audio/x-wav.desktop:6
+msgid "WAV Audio"
+msgstr "WAV audio"
+
+#. Comment
+#: image/cgm.desktop:6
+msgid "Computer Graphics Metafile"
+msgstr "Grafički metafajl"
+
+#. Comment
+#. Name
+#: image/fax-g3.desktop:6 ../kimgio/g3.kimgio:4
+msgid "CCITT G3 Fax"
+msgstr "CCITT G3 faks"
+
+#. Comment
+#: image/fits.desktop:6
+msgid "FITS Image"
+msgstr "FITS slika"
+
+#. Comment
+#. Name
+#: image/gif.desktop:6 ../kimgio/gif.kimgio:4
+msgid "GIF Image"
+msgstr "GIF slika"
+
+#. Comment
+#. Name
+#: image/jp2.desktop:6 ../kimgio/jp2.kimgio:4
+msgid "JPEG 2000 Image"
+msgstr "JPEG 2000 slika"
+
+#. Comment
+#. Name
+#: image/jpeg.desktop:6 image/pjpeg.desktop:7 ../kimgio/jpeg.kimgio:4
+msgid "JPEG Image"
+msgstr "JPEG slika"
+
+#. Comment
+#. Name
+#: image/png.desktop:6 ../kimgio/png.kimgio:4
+msgid "PNG Image"
+msgstr "PNG slika"
+
+#. Comment
+#: image/svg+xml.desktop:7
+msgid "Scalable Vector Graphics"
+msgstr "Skalabilna Vektorska Grafika"
+
+#. Comment
+#. Name
+#: image/tiff.desktop:6 ../kimgio/tiff.kimgio:4
+msgid "TIFF Image"
+msgstr "TIFF slika"
+
+#. Comment
+#. Name
+#: image/webp.desktop:6 ../kimgio/webp.kimgio:4
+msgid "WebP Image"
+msgstr "WebP slika"
+
+#. Comment
+#. Name
+#: image/x-bmp.desktop:6 ../kimgio/bmp.kimgio:4
+msgid "BMP Image"
+msgstr "BMP slika"
+
+#. Comment
+#: image/x-dds.desktop:6
+msgid "DirectDraw Surface"
+msgstr "Površina za direktno crtanje"
+
+#. Comment
+#: image/x-djvu-2.desktop:6 image/x-djvu.desktop:6
+msgid "DjVu Document"
+msgstr "DjVu dokument"
+
+#. Comment
+#. Name
+#: image/x-eps.desktop:6 ../kimgio/eps.kimgio:4
+msgid "Encapsulated PostScript Image"
+msgstr "Učaurena PostScript slika"
+
+#. Comment
+#: image/x-exr.desktop:6
+msgid "ILM EXR Image"
+msgstr "ILM EXR slika"
+
+#. Comment
+#. Name
+#: image/x-hdr.desktop:6 ../kimgio/hdr.kimgio:4
+msgid "High Dynamic Range Image"
+msgstr "Slika visokog dinamičkog opsega"
+
+#. Comment
+#. Name
+#: image/x-ico.desktop:6 ../kimgio/ico.kimgio:4
+msgid "Windows Icon"
+msgstr "Windows-ova ikona"
+
+#. Comment
+#: image/x-jng.desktop:6
+msgid "JNG Image"
+msgstr "JNG slika"
+
+#. Comment
+#: image/x-msod.desktop:6
+msgid "Microsoft Office Drawing"
+msgstr "Microsoft Office-ov crtež"
+
+#. Comment
+#. Name
+#: image/x-pcx.desktop:6 ../kimgio/pcx.kimgio:4
+msgid "PCX Image"
+msgstr "PCX slika"
+
+#. Comment
+#: image/x-photo-cd.desktop:6
+msgid "PhotoCD Image"
+msgstr "PhotoCD slika"
+
+#. Comment
+#. Name
+#: image/x-portable-bitmap.desktop:6 ../kimgio/pbm.kimgio:4
+msgid "Portable Bitmap Image"
+msgstr "Portabl bitmapirana slika"
+
+#. Comment
+#. Name
+#: image/x-portable-greymap.desktop:6 ../kimgio/pgm.kimgio:4
+msgid "Portable Graymap Image"
+msgstr "Portabl slika u nijansama sive"
+
+#. Comment
+#. Name
+#: image/x-portable-pixmap.desktop:6 ../kimgio/ppm.kimgio:4
+msgid "Portable Pixmap Image"
+msgstr "Portabl piksel mapirana slika"
+
+#. Comment
+#: image/x-raw.desktop:6
+msgid "RAW Camera Image"
+msgstr "Sirova slika sa kamere"
+
+#. Comment
+#. Name
+#: image/x-rgb.desktop:6 ../kimgio/rgb.kimgio:4
+msgid "SGI Image (RGB)"
+msgstr "SGI slika (RGB)"
+
+#. Comment
+#. Name
+#: image/x-targa.desktop:6 ../kimgio/tga.kimgio:4
+msgid "Truevision Targa Image"
+msgstr "Truevision Targa slika"
+
+#. Comment
+#. Name
+#: image/x-vnd.adobe.photoshop.desktop:6 ../kimgio/psd.kimgio:4
+msgid "Adobe Photoshop Image"
+msgstr "Slika Adobe Photoshop-a"
+
+#. Comment
+#: image/x-vnd.trolltech.qpicture.desktop:6
+msgid "QPicture Metafile"
+msgstr "QPicture meta fajl"
+
+#. Comment
+#: image/x-wmf.desktop:6
+msgid "Windows MetaFile"
+msgstr "Windows-ov meta fajl"
+
+#. Comment
+#. Name
+#: image/x-xbm.desktop:6 ../kimgio/xbm.kimgio:4
+msgid "X BitMap Image"
+msgstr "X BitMap slika"
+
+#. Comment
+#: image/x-xcf-gimp.desktop:2
+msgid "GIMP Native Image Format"
+msgstr "GIMP-ov osnovni format slike"
+
+#. Comment
+#: image/x-xcursor.desktop:5
+msgid "X11 Mouse Cursor"
+msgstr "X11 pokazivač miša"
+
+#. Comment
+#: image/x-xfig.desktop:6
+msgid "XFig File"
+msgstr "XFig fajl"
+
+#. Comment
+#. Name
+#: image/x-xpm.desktop:6 ../kimgio/xpm.kimgio:4
+msgid "X PixMap Image"
+msgstr "X PixMap slika"
+
+#. Comment
+#: inode/block.desktop:2
+msgid "Block Device"
+msgstr "Blok uređaj"
+
+#. Comment
+#: inode/chardevice.desktop:2
+msgid "Character Device"
+msgstr "Karakter uređaj"
+
+#. Comment
+#: inode/directory-locked.desktop:2
+msgid "Locked Folder"
+msgstr "Zaključana fascikla"
+
+#. Comment
+#: inode/directory.desktop:2
+msgid "Folder"
+msgstr "Fascikla"
+
+#. Comment
+#: inode/fifo.desktop:2
+msgid "Pipe"
+msgstr "Cev"
+
+#. Comment
+#: inode/socket.desktop:2
+msgid "Socket"
+msgstr "Soket"
+
+#. Comment
+#: message/news.desktop:6
+msgid "Usenet News Message"
+msgstr "Usenet News poruka"
+
+#. Comment
+#: message/rfc822.desktop:6
+msgid "Email Message"
+msgstr "Elektronska poruka"
+
+#. Comment
+#: model/vrml.desktop:5
+msgid "VRML Model"
+msgstr "VRML model"
+
+#. Comment
+#: multipart/mixed.desktop:5
+msgid "Compound Document"
+msgstr "Složeni dokument"
+
+#. Comment
+#: multipart/x-mixed-replace.desktop:5
+msgid "Stream of Data (Server Push)"
+msgstr "Tok podataka (guran od servera)"
+
+#. Comment
+#: text/calendar.desktop:2
+msgid "iCalendar File"
+msgstr "iCalendar-ov fajl"
+
+#. Comment
+#: text/css.desktop:3
+msgid "Cascading Style Sheet"
+msgstr "Kaskadni opis stila"
+
+#. Comment
+#: text/docbook.desktop:2
+msgid "DocBook Document"
+msgstr "DocBook-ov dokument"
+
+#. Comment
+#: text/enriched.desktop:3
+msgid "Lightly Enriched Text Document"
+msgstr "Malo obogaćeni tekstualni dokument"
+
+#. Comment
+#: text/html.desktop:2
+msgid "HTML Document"
+msgstr "HTML dokument"
+
+#. Comment
+#: text/markdown.desktop:2
+#, fuzzy
+msgid "Markdown document"
+msgstr "Karbon14 dokument"
+
+#. Comment
+#: text/plain.desktop:3
+msgid "Plain Text Document"
+msgstr "Obični tekstualni dokument"
+
+#. Comment
+#: text/rdf.desktop:3
+msgid "Resource Description Framework File"
+msgstr "Fajl sa opisom resursa Framework-a"
+
+#. Comment
+#: text/rss.desktop:3
+msgid "RDF Site Summary"
+msgstr "RDF sažetak sajta"
+
+#. Comment
+#: text/rtf.desktop:3
+msgid "RTF Document"
+msgstr "RTF Dokument"
+
+#. Comment
+#: text/sgml.desktop:3
+msgid "SGML Document"
+msgstr "SGML dokument"
+
+#. Comment
+#: text/vnd.abc.desktop:2
+msgid "ABC Music File"
+msgstr "ABC muzički fajl"
+
+#. Comment
+#: text/vnd.wap.wml.desktop:6
+msgid "WML Document"
+msgstr "WML dokument"
+
+#. Comment
+#: text/x-adasrc.desktop:2
+msgid "Ada Source File"
+msgstr "Ada izvorni kod"
+
+#. Comment
+#: text/x-bibtex.desktop:2
+msgid "Bibliographic Data (Bibtex)"
+msgstr "Bibliografski podaci (bibtex)"
+
+#. Comment
+#: text/x-c++hdr.desktop:2
+msgid "C++ Header File"
+msgstr "C++ zaglavlje"
+
+#. Comment
+#: text/x-c++src.desktop:2
+msgid "C++ Source File"
+msgstr "C++ izvorni kod"
+
+#. Comment
+#: text/x-chdr.desktop:2
+msgid "C Header File"
+msgstr "C zaglavlje"
+
+#. Comment
+#: text/x-csrc.desktop:2
+msgid "C Source File"
+msgstr "C izvorni kod"
+
+#. Comment
+#: text/x-csv.desktop:7
+msgid "Text File with Comma Separated Values"
+msgstr "Tekstualni fajl sa vrednostima odvojenim zarezima"
+
+#. Comment
+#: text/x-diff.desktop:3
+msgid "Differences Between Files"
+msgstr "Razlike između fajlova"
+
+#. Comment
+#: text/x-hex.desktop:7
+msgid "Intel® Hexadecimal Object File Format"
+msgstr "Intel® heksadecimalni format objektnog fajla"
+
+#. Comment
+#: text/x-java.desktop:2
+msgid "Java Source File"
+msgstr "Java izvorni kod"
+
+#. Comment
+#: text/x-katefilelist.desktop:2
+msgid "File List (for the Kate File List Loader Plugin)"
+msgstr "Lista fajlova (za Kate-ov priključak za učitavanje liste fajlova)"
+
+#. Comment
+#: text/x-latex.desktop:2
+msgid "LaTeX Document"
+msgstr "LaTeX-ov dokument"
+
+#. Comment
+#: text/x-ldif.desktop:2
+msgid "LDAP Addressbook"
+msgstr "LDAP Adresar"
+
+#. Comment
+#: text/x-log.desktop:3
+msgid "Application Log File"
+msgstr "Fajl sa zapisom dnevnika programa"
+
+#. Comment
+#: text/x-makefile.desktop:3
+msgid "Makefile"
+msgstr ""
+
+#. Comment
+#: text/x-moc.desktop:3
+msgid "Qt Meta Object File"
+msgstr "Qt Meta objektni fajl"
+
+#. Comment
+#: text/x-mswinurl.desktop:6
+msgid "Internet Shortcut"
+msgstr "Internet prečica"
+
+#. Comment
+#: text/x-objchdr.desktop:2
+msgid "Objective-C Header File"
+msgstr "Zaglavlje Objective-C-a"
+
+#. Comment
+#: text/x-objcsrc.desktop:2
+msgid "Objective-C Source File"
+msgstr "Objective-C izvorni kod"
+
+#. Comment
+#: text/x-pascal.desktop:2
+msgid "Pascal Source File"
+msgstr "Pascal izvorni kod"
+
+#. Comment
+#: text/x-tcl.desktop:2
+msgid "Tcl File"
+msgstr "Tcl fajl"
+
+#. Comment
+#: text/x-tex.desktop:2
+msgid "TeX File"
+msgstr "TeX fajl"
+
+#. Comment
+#: text/x-vcalendar.desktop:2
+msgid "vCalendar Interchange File"
+msgstr "vCalendar-ov fajl za razmenu"
+
+#. Comment
+#: text/x-vcard.desktop:2
+msgid "Electronic Business Card"
+msgstr "Elektronska vizit karta"
+
+#. Comment
+#: text/x-xslfo.desktop:2
+msgid "XSL Formating Object File"
+msgstr "XSL formatirajući objektni fajl"
+
+#. Comment
+#: text/x-xslt.desktop:2
+msgid "XSLT Stylesheet File"
+msgstr "XSLT fajl sa opisom stila"
+
+#. Comment
+#: uri/mms.desktop:5
+msgid "mms: URIs"
+msgstr "mms: URI-ji"
+
+#. Comment
+#: uri/mmst.desktop:5
+msgid "mmst: URIs"
+msgstr "mmst: URI-ji"
+
+#. Comment
+#: uri/mmsu.desktop:5
+msgid "mmsu: URIs"
+msgstr "mmsu: URI-ji"
+
+#. Comment
+#: uri/pnm.desktop:5
+msgid "pnm: URIs"
+msgstr "pnm: URI-iji"
+
+#. Comment
+#: uri/rtspt.desktop:5
+msgid "rtspt: URIs"
+msgstr "rtspt: URI-iji"
+
+#. Comment
+#: uri/rtspu.desktop:5
+msgid "rtspu: URIs"
+msgstr "rtspu: URI-iji"
+
+#. Comment
+#: video/avi.desktop:7 video/x-msvideo.desktop:6
+msgid "Microsoft AVI Video"
+msgstr "Microsoft AVI video fajl"
+
+#. Comment
+#: video/mp4.desktop:6
+msgid "MPEG-4 Video"
+msgstr "MPEG-4 video"
+
+#. Comment
+#: video/mpeg.desktop:6
+msgid "MPEG Video"
+msgstr "MPEG video fajl"
+
+#. Comment
+#: video/quicktime.desktop:6
+msgid "Quicktime Video"
+msgstr "QuickTime video fajl"
+
+#. Comment
+#: video/vnd.rn-realvideo.desktop:6
+msgid "RealVideo File"
+msgstr "RealVideo fajl"
+
+#. Comment
+#: video/x-flic.desktop:6
+msgid "Autodesk's FLIC File"
+msgstr "Autodesk-ovi FLIC fajlovi"
+
+#. Comment
+#: video/x-flv.desktop:5
+msgid "Flash Video"
+msgstr "Flash video"
+
+#. Comment
+#: video/x-matroska.desktop:6
+msgid "Matroska Video"
+msgstr "Matroska video"
+
+#. Comment
+#. Name
+#: video/x-mng.desktop:6 ../kimgio/mng.kimgio:4
+msgid "MNG Image"
+msgstr "MNG slika"
+
+#. Comment
+#: video/x-ms-wmv.desktop:2
+msgid "Windows Media Video"
+msgstr "Windows Media video"
+
+#. Comment
+#: video/x-ogm.desktop:7
+msgid "Ogg/Ogm Video"
+msgstr "Ogg/Ogm video"
+
+#. Comment
+#: video/x-theora.desktop:6
+msgid "Theora Video"
+msgstr "Theora video"
+
+#. Name
+#: ../kimgio/dds.kimgio:4
+msgid "Direct Draw Surface"
+msgstr "Površina za direktno crtanje"
+
+#. Name
+#: ../kimgio/exr.kimgio:4
+msgid "ILM EXR Image Kimgio"
+msgstr "ILM EXR Kimgio slika"
+
+#. Name
+#: ../kimgio/xcf.kimgio:4
+msgid "GIMP Image"
+msgstr "GIMP-ova slika"
+
+#. Name
+#: ../kimgio/xv.kimgio:5
+msgid "XView Image"
+msgstr "XView slika"

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=ServiceType
+X-TDE-ServiceType=TDEResources/Plugin
+Comment=KResource Framework Plugin
+
+[PropertyDef::X-TDE-ResourceFamily]
+Type=TQString
+
+[PropertyDef::X-TDE-ResourceType]
+Type=TQString

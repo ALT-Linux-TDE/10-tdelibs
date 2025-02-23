@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=audio/x-ms-wma
+Icon=audio-x-generic
+Patterns=*.wma;*.WMA
+Comment=Windows Media Audio

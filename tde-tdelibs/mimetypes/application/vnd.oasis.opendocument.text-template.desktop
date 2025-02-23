@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/vnd.oasis.opendocument.text-template
+Patterns=*.ott;*.OTT
+Icon=application-vnd.oasis.opendocument.text
+Comment=OASIS OpenDocument Text Template
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.ott

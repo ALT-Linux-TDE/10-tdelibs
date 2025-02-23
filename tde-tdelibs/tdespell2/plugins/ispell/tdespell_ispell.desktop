@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Service
+X-TDE-ServiceTypes=KSpell/Client
+X-TDE-Library=tdespell_ispell
+X-TDE-PluginInfo-Author=Zack Rusin
+X-TDE-PluginInfo-Email=zack@kde.org
+X-TDE-PluginInfo-Name=tdespell_ispell
+X-TDE-PluginInfo-Version=0.0.1
+X-TDE-PluginInfo-Website=http://www.kde.org
+X-TDE-PluginInfo-Category=Clients
+X-TDE-PluginInfo-Depends=
+X-TDE-PluginInfo-License=LGPL
+X-TDE-PluginInfo-EnabledByDefault=true
+Name=ISpell

@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=ServiceType
+X-TDE-ServiceType=KDataTool
+Comment=TDE Data Tool
+
+[PropertyDef::Commands]
+Type=TQStringList
+
+[PropertyDef::DataType]
+Type=TQString
+
+[PropertyDef::DataMimeTypes]
+Type=TQStringList
+
+[PropertyDef::ExcludeFrom]
+Type=TQStringList

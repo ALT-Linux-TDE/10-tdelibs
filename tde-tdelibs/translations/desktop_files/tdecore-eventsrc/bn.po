@@ -1,0 +1,192 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 20:06+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: bn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: eventsrc:3
+msgid "System Notifications"
+msgstr "কে.ডি.ই সিস্টেম বার্তাবলী"
+
+#. Name
+#: eventsrc:6
+msgid "Trash: emptied"
+msgstr "আবর্জনা: ফাঁকা"
+
+#. Comment
+#: eventsrc:7
+msgid "The trash has been emptied"
+msgstr "আবর্জনার বাক্স ফাঁকা করা হয়েছে"
+
+#. Name
+#: eventsrc:11
+msgid "Textcompletion: rotation"
+msgstr "Textcompletion: আবর্তন"
+
+#. Comment
+#: eventsrc:12
+msgid "The end of the list of matches has been reached"
+msgstr "মিলের তালিকার শেষে উপস্থিত"
+
+#. Name
+#: eventsrc:16
+msgid "Textcompletion: no match"
+msgstr "Textcompletion: কোনো মিল পাওয়া যায়নি"
+
+#. Comment
+#: eventsrc:17
+msgid "No matching completion was found"
+msgstr "কোনো যুতসই পরিপূরক পাওয়া যায় নি"
+
+#. Name
+#: eventsrc:21
+msgid "Textcompletion: partial match"
+msgstr "Textcompletion: আংশিক মিল"
+
+#. Comment
+#: eventsrc:22
+msgid "There is more than one possible match"
+msgstr "একাধিক সম্ভাব্য পরিপূরক বর্তমান"
+
+#. Name
+#: eventsrc:26
+msgid "Cannot Open File"
+msgstr "ফাইল খোলা যাচ্ছে না"
+
+#. Comment
+#: eventsrc:27
+msgid "The selected file cannot be opened for reading or writing"
+msgstr "নির্বাচিত ফাইলটি পড়া বা লেখার জন্য খোলা যাচ্ছে না"
+
+#. Name
+#: eventsrc:31
+msgid "Fatal Error"
+msgstr "মারাত্মক সমস্যা"
+
+#. Comment
+#: eventsrc:32
+msgid "There was a serious error causing the program to exit"
+msgstr "একটি গুরুতর ত্রুটির দরুণ প্রোগ্রামটি থেমে গেছে"
+
+#. Name
+#: eventsrc:37
+msgid "Notification"
+msgstr "সংবাদ"
+
+#. Comment
+#: eventsrc:38
+msgid "Something special happened in the program"
+msgstr "প্রোগ্রামে বিশেষ কিছু একটা ঘটেছে"
+
+#. Name
+#: eventsrc:44
+msgid "Warning"
+msgstr "সতর্কীকরণ"
+
+#. Comment
+#: eventsrc:45
+msgid "There was an error in the program which may cause problems"
+msgstr "প্রোগ্রামে একটি ত্রুটি ছিল যার ফলে সমস্যা হতে পারে"
+
+#. Name
+#: eventsrc:50
+msgid "Catastrophe"
+msgstr "বিপর্যয়"
+
+#. Comment
+#: eventsrc:51
+msgid "A very serious error occurred, at least causing the program to exit"
+msgstr "একটি গম্ভীর ত্রুটির ফলে প্রোগ্রামটি থেমে গেছে"
+
+#. Name
+#: eventsrc:55
+msgid "Login"
+msgstr "লগ-ইন"
+
+#. Comment
+#: eventsrc:56
+msgid "TDE is starting up"
+msgstr "কে.ডি.ই. চালু হচ্ছে"
+
+#. Name
+#: eventsrc:61
+msgid "Logout"
+msgstr "লগ-আউট"
+
+#. Comment
+#: eventsrc:62
+msgid "TDE is exiting"
+msgstr "কে.ডি.ই. বন্ধ করা হচ্ছে"
+
+#. Name
+#: eventsrc:67
+msgid "Logout canceled"
+msgstr ""
+
+#. Comment
+#: eventsrc:68
+msgid "TDE logout was canceled"
+msgstr ""
+
+#. Name
+#: eventsrc:73
+msgid "Print error"
+msgstr "মুদ্রণ ত্রুটি"
+
+#. Comment
+#: eventsrc:74
+msgid "A print error has occurred"
+msgstr "ছাপানোয় সমস্যা দেখা দিয়েছে"
+
+#. Name
+#: eventsrc:79
+msgid "Information message"
+msgstr "তথ্যবার্তা"
+
+#. Comment
+#: eventsrc:80
+msgid "An information message is being shown"
+msgstr "একটি তথ্যবার্তা প্রদর্শিত হচ্ছে"
+
+#. Name
+#: eventsrc:86
+msgid "Warning message"
+msgstr "সতর্কবার্তা"
+
+#. Comment
+#: eventsrc:87
+msgid "A warning message is being shown"
+msgstr "একটি সতর্কবার্তা প্রদর্শিত হচ্ছে"
+
+#. Name
+#: eventsrc:94
+msgid "Critical message"
+msgstr "গুরুত্বপূর্ণ বার্তা"
+
+#. Comment
+#: eventsrc:95
+msgid "A critical message is being shown"
+msgstr "একটি গুরুতর বার্তা প্রদর্শিত হচ্ছে"
+
+#. Name
+#: eventsrc:102
+msgid "Question"
+msgstr "প্রশ্ন"
+
+#. Comment
+#: eventsrc:103
+msgid "A question is being asked"
+msgstr "একটি প্রশ্ন করা হচ্ছে"

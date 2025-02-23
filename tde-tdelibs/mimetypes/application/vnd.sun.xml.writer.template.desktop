@@ -1,0 +1,10 @@
+[Desktop Entry]
+Comment=OpenOffice.org Text Document Template
+MimeType=application/vnd.sun.xml.writer.template
+Type=MimeType
+Icon=application-vnd.oasis.opendocument.text
+Patterns=*.stw;*.STW;
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.stw

@@ -1,0 +1,11 @@
+ServiceTypeToConfigure=DCOP/InstantMessenger
+MimeTypeOfInterest=DCOP/InstantMessenger
+defaultImplementation=kopete
+storeInFile=default_components
+valueSection=InstantMessenger
+valueName=imClient
+configurationType=component
+
+Name=Instant Messenger
+
+Comment=The instant messenger allows two-way chat between individuals and groups.

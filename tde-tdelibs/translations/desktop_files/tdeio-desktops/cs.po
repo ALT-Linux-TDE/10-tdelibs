@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# Slávek Banko <slavek.banko@axis.cz>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 21:00+0200\n"
+"PO-Revision-Date: 2020-08-16 19:10+0000\n"
+"Last-Translator: Slávek Banko <slavek.banko@axis.cz>\n"
+"Language-Team: Czech <https://mirror.git.trinitydesktop.org/weblate/projects/"
+"tdelibs/tdeio-desktop-files/cs/>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.1.1\n"
+
+#. Name
+#: application.desktop:4
+msgid "Application"
+msgstr "Aplikace"
+
+#. Name
+#: kcomprfilter.desktop:4
+msgid "TDE Compression Filter"
+msgstr "Kompresní filtr TDE"
+
+#. Comment
+#: kdatatool.desktop:4
+msgid "TDE Data Tool"
+msgstr "Datový nástroj TDE"
+
+#. Name
+#: kpasswdserver.desktop:3
+msgid "KDED Password Module"
+msgstr "KDED modul pro hesla"
+
+#. Comment
+#: kpasswdserver.desktop:4
+msgid "Password caching support"
+msgstr "Podpora pro kešování hesel"
+
+#. Name
+#: kscan.desktop:4
+msgid "KScan"
+msgstr "KScan"
+
+#. Name
+#: kurifilterplugin.desktop:4
+msgid "Enhanced Browsing Plugin"
+msgstr "Modul rozšířeného procházení"
+
+#. Name
+#: misc/kpac/proxyscout.desktop:3
+msgid "Proxy Scout"
+msgstr "Proxy vyhledávač"
+
+#. Comment
+#: misc/kpac/proxyscout.desktop:4
+msgid "Automatic proxy configuration"
+msgstr "Automatické nastavení proxy"
+
+#. Name
+#: misc/kssld/kssld.desktop:9
+msgid "KSSL Daemon Module"
+msgstr "Modul démona KSSL"
+
+#. Comment
+#: misc/kssld/kssld.desktop:10
+msgid "KSSL daemon module for KDED"
+msgstr "Modul démona KSSL pro KDED"
+
+#. Name
+#: misc/tdeio_uiserver.desktop:4
+msgid "tdeio_uiserver"
+msgstr "tdeio_uiserver"
+
+#. Comment
+#: misc/tdeio_uiserver.desktop:5
+msgid "TDE's Progress Info UI server"
+msgstr "UI server zobrazující informace o průběhu"
+
+#. Name
+#: misc/tdewalletd/tdewalletd.desktop:9
+msgid "TDEWallet Daemon Module"
+msgstr "Modul démona TDEWallet"
+
+#. Comment
+#: misc/tdewalletd/tdewalletd.desktop:10
+msgid "TDEWallet daemon module for KDED"
+msgstr "Modul démona TDEWallet pro KDED"
+
+#. Comment
+#: renamedlgplugin.desktop:4
+msgid "Plugin for the Rename Dialog"
+msgstr "Modul pro přejmenovávací dialog"
+
+#. Name
+#: tdecmodule.desktop:4
+msgid "TDE Control Module"
+msgstr "Ovládací modul TDE"
+
+#. Comment
+#: tdefile/kpropsdlgplugin.desktop:4
+msgid "Plugin for the Properties Dialog"
+msgstr "Modul pro dialog vlastností"
+
+#. Name
+#: tdefileplugin.desktop:4
+msgid "KFile Meta Data Plugin"
+msgstr "Modul KFile pro metadata"
+
+#. Description
+#: data.protocol:8
+msgid "A tdeioslave for data URIs (rfc2397)"
+msgstr "TDEioslave pro datová URI (rfc2397)"
+
+#. Description
+#: misc/mms.protocol:11
+msgid "Microsoft Media Server Protocol"
+msgstr "Microsoft Media Server protokol"

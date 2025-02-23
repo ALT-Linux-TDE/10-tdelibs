@@ -1,0 +1,10 @@
+[Desktop Entry]
+Comment=iCalendar File
+Icon=x-office-calendar
+Type=MimeType
+MimeType=text/calendar
+Patterns=*.ics
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

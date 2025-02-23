@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-02 14:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: tg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Name
+#: data/katepart.desktop:2
+msgid "Embedded Advanced Text Editor"
+msgstr "Таҳриргари матни дарунсохти беҳбудшуда"
+
+#. Name
+#: plugins/autobookmarker/tdetexteditor_autobookmarker.desktop:2
+msgid "KTextEditor Autobookmarker"
+msgstr "Хатчӯбмонии худкори KTextEditor"
+
+#. Comment
+#: plugins/autobookmarker/tdetexteditor_autobookmarker.desktop:3
+msgid "Set bookmarks on lines matching a pattern when documents are loaded"
+msgstr "Хатчӯбмонӣ дар старҳои мувофиқи қолиб ҳангоми боркунии ҳуҷҷати матнӣ"
+
+#. Name
+#: plugins/insertfile/tdetexteditor_insertfile.desktop:2
+msgid "KTextEditor Insert File Plugin"
+msgstr "Пуркунандаи KTextEditor барои дарҷи файлҳо"
+
+#. Comment
+#: plugins/insertfile/tdetexteditor_insertfile.desktop:3
+msgid "Insert any readable file at cursor position"
+msgstr "Файли хондашавандаи ҳеҷгуна дар мавқеъи курсор ҷойгир мекунад"
+
+#. Name
+#: plugins/isearch/tdetexteditor_isearch.desktop:2
+msgid "KTextEditor Incremental Search Plugin"
+msgstr "Пуркунандаи KTextEditor барои ҷустуҷӯи афзоиш"
+
+#. Comment
+#: plugins/isearch/tdetexteditor_isearch.desktop:3
+msgid "Also known as \"As you type search\""
+msgstr "Ҳамчун \"Ҷустуҷӯи ҳарфчинӣ\" машҳур аст"
+
+#. Name
+#: plugins/kdatatool/tdetexteditor_kdatatool.desktop:2
+msgid "KTextEditor KDataTool Plugin"
+msgstr "Пуркунандаи KTextEditor барои таҳрири додаҳо"
+
+#. Comment
+#: plugins/kdatatool/tdetexteditor_kdatatool.desktop:3
+msgid "Enable data tools like thesaurus and spell check (if installed)"
+msgstr ""
+"Иҷозаи истифодаи утилитаи луғат ва тафтиши имлоро (агар онҳо сабт карда шуда "
+"бошанд) медиҳад"
+
+#. Name
+#: plugins/wordcompletion/tdetexteditor_docwordcompletion.desktop:2
+msgid "KTextEditor Word Completion Plugin"
+msgstr "Модули худиловакунандаи калимаҳои KTextEditor"
+
+#. Comment
+#: plugins/wordcompletion/tdetexteditor_docwordcompletion.desktop:3
+msgid "Directional or popup-based completion from words in the document"
+msgstr "Худиловакунандаи калима дар ҳуҷҷат"
+
+#. Name
+#: scripts/jstest.desktop:2
+msgid "Kate Part JavaScript Test"
+msgstr "Санҷиши Қисми Kate-и JavaScript"
+
+#. Comment
+#: scripts/jstest.desktop:3
+msgid "Script for testing kate part's scripting"
+msgstr "Скрипт барои санҷидани скриптгузории қисми kate"

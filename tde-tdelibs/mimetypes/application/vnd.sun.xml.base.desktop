@@ -1,0 +1,10 @@
+[Desktop Entry]
+Comment=OpenOffice.org Database
+Icon=application-vnd.oasis.opendocument.database
+Type=MimeType
+Patterns=*.odb;*.ODB;
+MimeType=application/vnd.sun.xml.base
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.odb

@@ -1,0 +1,8 @@
+<!-- requires that packagename is defined in the documentation prologue -->
+<para>&kappname; ist Teil des &tde;-Projekts &tde-http;.</para>
+
+<para>&kappname; finden Sie im &package;-Paket auf &kde-ftp;,
+dem Haupt-&FTP;-Server des &tde;-Projekts.</para>
+
+
+

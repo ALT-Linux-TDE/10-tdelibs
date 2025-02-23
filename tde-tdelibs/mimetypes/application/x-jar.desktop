@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-jar
+Icon=text-x-java
+Patterns=*.jar;
+Comment=Java Archive
+X-TDE-AutoEmbed=true

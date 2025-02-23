@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "language.dtd"
+[
+  <!ENTITY space " ">
+  <!ENTITY separators ",&#59;">
+  <!ENTITY ns_punctuators "!&#37;&space;&amp;()+-/.*&lt;=&gt;?[]{|}~^&separators;">
+]>
+
+<language name="C++" section="Sources"
+  version="1.0" kateversion="2.4" indenter="cstyle" style="C++"
+  mimetype="text/x-c++src;text/x-c++hdr;text/x-chdr"
+  extensions="*.c++;*.cxx;*.cpp;*.cc;*.C;*.h;*.hh;*.H;*.h++;*.hxx;*.hpp;*.hcc"
+  license="LGPL" priority="1" >
+  
+<!--
+  This file is a wrapper from C++ to ISO C++. Its purpose is to provide C++ rules
+  inclusion to existing files that already include the text 
+  <IncludeRules context="##C++" />
+-->
+  
+<highlighting>
+  <contexts>
+    <context attribute="Normal Text" lineEndContext="#stay" name="Normal">
+      <IncludeRules context="##ISO C++" />
+    </context>
+  </contexts>
+</highlighting>
+
+</language>

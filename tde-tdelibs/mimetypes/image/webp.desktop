@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=image/webp
+Icon=image-x-generic
+Patterns=*.webp;*.WEBP;
+Comment=WebP Image

@@ -1,0 +1,271 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-04 16:37+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: af\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Name
+#: filters/enscript.desktop:2
+msgid "enscript"
+msgstr "gravering"
+
+#. Comment
+#: filters/enscript.desktop:4
+msgid "Enscript Text Filter"
+msgstr "Gravering Teks Filter"
+
+#. Name
+#: filters/imagetops.desktop:2
+msgid "imagetops"
+msgstr "beeldpieke"
+
+#. Comment
+#: filters/imagetops.desktop:4
+msgid "Generic Image to PS Filter"
+msgstr "Generies Beeld na Ps Filter"
+
+#. Name
+#: filters/pdf2ps.desktop:2
+msgid "pdf2ps"
+msgstr ""
+
+#. Comment
+#: filters/pdf2ps.desktop:4
+#, fuzzy
+msgid "PDF to PostScript Converter"
+msgstr "Postscript na Pdf Omskakelaar"
+
+#. Name
+#: filters/pdfwrite.desktop:2
+msgid "pdfwrite"
+msgstr ""
+
+#. Comment
+#: filters/pdfwrite.desktop:4
+msgid "PDF Writer (needs Ghostscript)"
+msgstr "Pdf Skrywer (verlang Ghostscript)"
+
+#. Comment
+#: filters/poster.desktop:3
+msgid "Poster Printing"
+msgstr "Stuurder Besig om te druk"
+
+#. Description
+#: filters/poster.desktop:4
+msgid ""
+"Utility to print large posters on multiple small paper sheets. To use this "
+"command, the <b>poster</b> executable must be accessible in your <tt>PATH</"
+"tt>.<p><b><u>WARNING:</u></b> The package found on the TDEPrint web site is "
+"a modified version of the original one that can be found on any CTAN archive "
+"mirror, but the original package will <b>not</b> work with TDE."
+msgstr ""
+"Program wat jou toelaat om groot plakate op veelvuldige kleiner blaaie te "
+"druk. Om hierdie opdrag te gebruik moet die <b>poster</b> program in jou "
+"<tt>soekpad</tt> beskikbaar wees.<p><b><u>WARNING:</u></b> Die pakket gevind "
+"op die TdePrint web bediener is ´n modifiseerde weergawe van die "
+"oorspronklike een wat gevind kan word op enige CTAN argiewe spieël, maar die "
+"oorspronklike pakket sal <b>nie</b> werk met TDE."
+
+#. Name
+#: filters/ps2pdf.desktop:2
+msgid "ps2pdf"
+msgstr "ps-na-pdf"
+
+#. Comment
+#: filters/ps2pdf.desktop:4
+msgid "PostScript to PDF Converter"
+msgstr "Postscript na Pdf Omskakelaar"
+
+#. Name
+#: filters/psbook.desktop:2
+msgid "psbook"
+msgstr "psboek"
+
+#. Comment
+#: filters/psbook.desktop:4
+msgid "Pamphlet Printing (use with small side duplex printing)"
+msgstr ""
+"Pamflet Besig om te druk (gebruik met klein kant dupleks Besig om te druk)"
+
+#. Name
+#: filters/psbook1.desktop:2
+msgid "psbook1"
+msgstr "psboek1"
+
+#. Comment
+#: filters/psbook1.desktop:4
+msgid "Pamphlet Printing - Even Pages (step 1)"
+msgstr "Pamflet Besig om te druk - Ewe Bladsye (step 1)"
+
+#. Name
+#: filters/psbook2.desktop:2
+msgid "psbook2"
+msgstr "psboek2"
+
+#. Comment
+#: filters/psbook2.desktop:4
+msgid "Pamphlet Printing - Odd Pages (step 2)"
+msgstr "Pamflet Besig om te druk - Onewe Bladsye (step 2)"
+
+#. Name
+#: filters/psnup.desktop:2
+msgid "psnup"
+msgstr ""
+
+#. Comment
+#: filters/psnup.desktop:4
+msgid "Multiple Pages per Sheet Filter"
+msgstr "Veelvuldige Bladsye per blaai Filter"
+
+#. Name
+#: filters/psresize.desktop:2
+msgid "psresize"
+msgstr "ps-weer grote bepaal"
+
+#. Comment
+#: filters/psresize.desktop:4
+msgid "Scale Print Content to Fit on Another Paper Size"
+msgstr "Skaal Druk Inhoud na Pas op Nog 'n Papier Grootte"
+
+#. Name
+#: filters/psselect.desktop:2
+msgid "psselect"
+msgstr "ps-kies"
+
+#. Comment
+#: filters/psselect.desktop:4
+msgid "Page Selection/Ordering Filter"
+msgstr "Bladsy Keuse/Rangskikking Filter"
+
+#. Name
+#: specials.desktop:5
+msgid "Print to File (PostScript)"
+msgstr "Druk na Lêer (Postscript)"
+
+#. Description
+#: specials.desktop:6
+msgid "Write PostScript file"
+msgstr "Skryf Postscript lêer"
+
+#. Comment
+#: specials.desktop:7 specials.desktop:17
+msgid "Local file"
+msgstr "Plaaslike lêer"
+
+#. Name
+#: specials.desktop:15
+msgid "Print to File (PDF)"
+msgstr "Druk na Lêer (Pdf)"
+
+#. Description
+#: specials.desktop:16
+msgid "Write PDF/Acrobat file"
+msgstr "Skryf Pdf/Acrobat lêer"
+
+#. Name
+#: specials.desktop:26
+msgid "Send to Fax"
+msgstr "Stuur na Faks"
+
+#. Description
+#: specials.desktop:27
+msgid "Send to external fax system"
+msgstr "Stuur na eksterne faks stelsel"
+
+#. Comment
+#: specials.desktop:28
+msgid "External"
+msgstr "Eksterne"
+
+#. Comment
+#: specials.desktop:37
+msgid "Attachment for KMail Composer"
+msgstr "Aanhegsel vir Kpos Saamsteller"
+
+#. Description
+#: specials.desktop:38
+msgid "Creates PDF/Acrobat file as attachment for KMail"
+msgstr "Skep Pdf/Acrobat lêer as aanhegsel vir Kpos"
+
+#. Name
+#: specials.desktop:43
+msgid "Mail PDF File"
+msgstr "Pos PDF Lêer"
+
+#. Comment
+#: specials.desktop:48
+#, fuzzy
+msgid "KSendFax"
+msgstr "Stuur na Faks"
+
+#. Description
+#: specials.desktop:49
+msgid "Use ksendfax to fax the current document"
+msgstr "Gebruik ksendfax om die huidige dokument te faks"
+
+#. Name
+#: specials.desktop:53
+msgid "Advanced Faxing Tool (ksendfax)"
+msgstr "Gevorderde Faks Program (ksendfax)"
+
+#. Name
+#: tdeprintd.desktop:11
+msgid "TDE Print Daemon"
+msgstr "TDE Druk Bediener"
+
+#. Comment
+#: tdeprintd.desktop:12
+msgid "Print daemon for TDE"
+msgstr "Druk Bediener vir TDE"
+
+#. Name
+#: tools/escputil/escputil.desktop:2
+msgid "EPSON InkJet"
+msgstr "Epson Inkstraal"
+
+#. Comment
+#: cups/cups.print:3
+msgid "CUPS (Common UNIX Print System)"
+msgstr "Cups (Gemeenskaplike Unix Druk Stelsel)"
+
+#. Comment
+#: ext/ext.print:3
+msgid "Print Through an External Program (generic)"
+msgstr "Druk Deur 'n Eksterne Program (generies)"
+
+#. Comment
+#: foomatic/foomatic.print:3
+msgid "Foomatic (CUPS, LPRng, PDQ)"
+msgstr "Foomaties (Cups, Lprng, Pdq)"
+
+#. Comment
+#: lpd/lpd.print:3
+msgid "LPR (Standard BSD print system)"
+msgstr "Lpr  (Standaard Bsd druk stelsel)"
+
+#. Comment
+#: lpdunix/lpdunix.print:3
+msgid "Generic UNIX LPD Print System (default)"
+msgstr "Generies Unix Lpd Druk Stelsel (verstek)"
+
+#. Comment
+#: lpr/lpr.print:3
+msgid "LPR/LPRng Print System"
+msgstr "lpr /Lprng Druk Stelsel"
+
+#. Comment
+#: rlpr/rlpr.print:3
+msgid "RLPR Environment (Remote LPD servers)"
+msgstr "Rlpr Omgewing (Afgeleë Lpd bedieners)"

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-kchart
+Icon=application-x-kchart
+Patterns=*.chrt;
+Comment=KChart Document
+X-TDE-AutoEmbed=false
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.chrt

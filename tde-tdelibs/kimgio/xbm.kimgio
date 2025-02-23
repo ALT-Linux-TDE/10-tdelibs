@@ -1,0 +1,9 @@
+[Image Format]
+Type=XBM
+Header=
+Name=X BitMap Image
+Read=true
+Write=true
+Suffices=xbm,XBM
+Mimetype=image/x-xbm
+Library=

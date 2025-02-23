@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Service
+Name=TDE Tray Proxy Module
+Comment=Proxy enabling TDE systray applications to work without TWin
+X-TDE-ServiceTypes=KDEDModule
+X-TDE-ModuleType=Library
+X-TDE-Library=kdetrayproxy
+X-TDE-FactoryName=kdetrayproxy
+X-TDE-Kded-autoload=false

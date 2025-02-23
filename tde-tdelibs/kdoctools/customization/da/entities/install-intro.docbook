@@ -1,0 +1,6 @@
+<!-- requires that packagename is defined in the documentation prologue
+ -->
+<para>&kappname; er en del af &tde;-projektet &tde-http;.</para>
+
+<para>&kappname; findes i &package;-pakken på &kde-ftp;, hoved &FTP;-stedet 
+for &tde;-projektet.</para>

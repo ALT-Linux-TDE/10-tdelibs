@@ -1,0 +1,270 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# Alexander Golubev <fatzer2@gmail.com>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-04 16:37+0200\n"
+"PO-Revision-Date: 2021-01-21 09:11+0000\n"
+"Last-Translator: Alexander Golubev <fatzer2@gmail.com>\n"
+"Language-Team: Russian <https://mirror.git.trinitydesktop.org/weblate/"
+"projects/tdelibs/tdeprint-desktop-files/ru/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.4.2\n"
+
+#. Name
+#: filters/enscript.desktop:2
+msgid "enscript"
+msgstr "enscript"
+
+#. Comment
+#: filters/enscript.desktop:4
+msgid "Enscript Text Filter"
+msgstr "Фильтр текста Enscript"
+
+#. Name
+#: filters/imagetops.desktop:2
+msgid "imagetops"
+msgstr "imagetops"
+
+#. Comment
+#: filters/imagetops.desktop:4
+msgid "Generic Image to PS Filter"
+msgstr "Преобразование изображений в PostScript"
+
+#. Name
+#: filters/pdf2ps.desktop:2
+msgid "pdf2ps"
+msgstr "pdf2ps"
+
+#. Comment
+#: filters/pdf2ps.desktop:4
+msgid "PDF to PostScript Converter"
+msgstr "Преобразование PDF в PostScript"
+
+#. Name
+#: filters/pdfwrite.desktop:2
+msgid "pdfwrite"
+msgstr "pdfwrite"
+
+#. Comment
+#: filters/pdfwrite.desktop:4
+msgid "PDF Writer (needs Ghostscript)"
+msgstr "Сохранение в PDF (должен быть установлен GhostScript)"
+
+#. Comment
+#: filters/poster.desktop:3
+msgid "Poster Printing"
+msgstr "Печать плаката"
+
+#. Description
+#: filters/poster.desktop:4
+msgid ""
+"Utility to print large posters on multiple small paper sheets. To use this "
+"command, the <b>poster</b> executable must be accessible in your <tt>PATH</"
+"tt>.<p><b><u>WARNING:</u></b> The package found on the TDEPrint web site is "
+"a modified version of the original one that can be found on any CTAN archive "
+"mirror, but the original package will <b>not</b> work with TDE."
+msgstr ""
+"Утилита печати больших плакатов на бумаге небольшого размера. Чтобы она "
+"работала, нужно чтобы программа <b>poster</b> была доступна в вашем "
+"<tt>PATH</tt>.<p><b><u>ВНИМАНИЕ:</u></b> Пакеты на сайте TDEPrint отличаются "
+"от тех, которые можно скачать с зеркала CTAN, но оригинальные пакеты <b>не "
+"будут</b> работать в TDE."
+
+#. Name
+#: filters/ps2pdf.desktop:2
+msgid "ps2pdf"
+msgstr "ps2pdf"
+
+#. Comment
+#: filters/ps2pdf.desktop:4
+msgid "PostScript to PDF Converter"
+msgstr "Преобразование PostScript в PDF"
+
+#. Name
+#: filters/psbook.desktop:2
+msgid "psbook"
+msgstr "psbook"
+
+#. Comment
+#: filters/psbook.desktop:4
+msgid "Pamphlet Printing (use with small side duplex printing)"
+msgstr ""
+"Памфлетная печать (с использованием дуплексной печати по короткой стороне)"
+
+#. Name
+#: filters/psbook1.desktop:2
+msgid "psbook1"
+msgstr "psbook1"
+
+#. Comment
+#: filters/psbook1.desktop:4
+msgid "Pamphlet Printing - Even Pages (step 1)"
+msgstr "Памфлетная печать - чётные страницы (шаг 1)"
+
+#. Name
+#: filters/psbook2.desktop:2
+msgid "psbook2"
+msgstr "psbook2"
+
+#. Comment
+#: filters/psbook2.desktop:4
+msgid "Pamphlet Printing - Odd Pages (step 2)"
+msgstr "Памфлетная печать - нечётные страницы (шаг 2)"
+
+#. Name
+#: filters/psnup.desktop:2
+msgid "psnup"
+msgstr "psnup"
+
+#. Comment
+#: filters/psnup.desktop:4
+msgid "Multiple Pages per Sheet Filter"
+msgstr "Печать нескольких страниц на листе"
+
+#. Name
+#: filters/psresize.desktop:2
+msgid "psresize"
+msgstr "psresize"
+
+#. Comment
+#: filters/psresize.desktop:4
+msgid "Scale Print Content to Fit on Another Paper Size"
+msgstr "Масштабирование печати для размещения на другом размере бумаги"
+
+#. Name
+#: filters/psselect.desktop:2
+msgid "psselect"
+msgstr "psselect"
+
+#. Comment
+#: filters/psselect.desktop:4
+msgid "Page Selection/Ordering Filter"
+msgstr "Фильтр печати выделения/упорядоченного набора"
+
+#. Name
+#: specials.desktop:5
+msgid "Print to File (PostScript)"
+msgstr "Печать в файл (PostScript)"
+
+#. Description
+#: specials.desktop:6
+msgid "Write PostScript file"
+msgstr "Запись файла PostScript"
+
+#. Comment
+#: specials.desktop:7 specials.desktop:17
+msgid "Local file"
+msgstr "Локальный файл"
+
+#. Name
+#: specials.desktop:15
+msgid "Print to File (PDF)"
+msgstr "Печать в файл (PDF)"
+
+#. Description
+#: specials.desktop:16
+msgid "Write PDF/Acrobat file"
+msgstr "Запись файла PDF/Acrobat"
+
+#. Name
+#: specials.desktop:26
+msgid "Send to Fax"
+msgstr "Отправить по факсу"
+
+#. Description
+#: specials.desktop:27
+msgid "Send to external fax system"
+msgstr "Отправка на внешний факс"
+
+#. Comment
+#: specials.desktop:28
+msgid "External"
+msgstr "Внешний"
+
+#. Comment
+#: specials.desktop:37
+msgid "Attachment for KMail Composer"
+msgstr "Вложение для KMail"
+
+#. Description
+#: specials.desktop:38
+msgid "Creates PDF/Acrobat file as attachment for KMail"
+msgstr "Запись файла PDF/Acrobat как вложения для KMail"
+
+#. Name
+#: specials.desktop:43
+msgid "Mail PDF File"
+msgstr "Отправить файл PDF"
+
+#. Comment
+#: specials.desktop:48
+msgid "KSendFax"
+msgstr "KSendFax"
+
+#. Description
+#: specials.desktop:49
+msgid "Use ksendfax to fax the current document"
+msgstr "Использование ksendfax для отправки документа по факсу"
+
+#. Name
+#: specials.desktop:53
+msgid "Advanced Faxing Tool (ksendfax)"
+msgstr "Утилита отправки факсов (ksendfax)"
+
+#. Name
+#: tdeprintd.desktop:11
+msgid "TDE Print Daemon"
+msgstr "Демон печати TDE"
+
+#. Comment
+#: tdeprintd.desktop:12
+msgid "Print daemon for TDE"
+msgstr "Демон печати TDE"
+
+#. Name
+#: tools/escputil/escputil.desktop:2
+msgid "EPSON InkJet"
+msgstr "EPSON InkJet"
+
+#. Comment
+#: cups/cups.print:3
+msgid "CUPS (Common UNIX Print System)"
+msgstr "Система печати CUPS (Common Unix Print System)"
+
+#. Comment
+#: ext/ext.print:3
+msgid "Print Through an External Program (generic)"
+msgstr "Печать посредством внешней программы (общая)"
+
+#. Comment
+#: foomatic/foomatic.print:3
+msgid "Foomatic (CUPS, LPRng, PDQ)"
+msgstr "Foomatic (CUPS, LPRng, PDQ)"
+
+#. Comment
+#: lpd/lpd.print:3
+msgid "LPR (Standard BSD print system)"
+msgstr "LPR (стандартная система печати BSD)"
+
+#. Comment
+#: lpdunix/lpdunix.print:3
+msgid "Generic UNIX LPD Print System (default)"
+msgstr "Система печати UNIX LPD (по умолчанию)"
+
+#. Comment
+#: lpr/lpr.print:3
+msgid "LPR/LPRng Print System"
+msgstr "Система печати LPR/LPRng"
+
+#. Comment
+#: rlpr/rlpr.print:3
+msgid "RLPR Environment (Remote LPD servers)"
+msgstr "Среда RLPR (сетевые принт-серверы LPD)"

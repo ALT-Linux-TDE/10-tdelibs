@@ -1,0 +1,922 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-25 17:36+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: nso\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Name
+#: all_languages.desktop:2
+msgid "Afar"
+msgstr "Kgolekgole"
+
+#. Name
+#: all_languages.desktop:4
+msgid "Abkhazian"
+msgstr "Se-Abkhazian"
+
+#. Name
+#: all_languages.desktop:6
+msgid "Avestan"
+msgstr "Se-Avestan"
+
+#. Name
+#: all_languages.desktop:8
+msgid "Afrikaans"
+msgstr "Seburu"
+
+#. Name
+#: all_languages.desktop:10
+msgid "Amharic"
+msgstr "Se-Amharic"
+
+#. Name
+#: all_languages.desktop:12
+msgid "Arabic"
+msgstr "Searapo"
+
+#. Name
+#: all_languages.desktop:14
+msgid "Assamese"
+msgstr "Se-Assamese"
+
+#. Name
+#: all_languages.desktop:16
+msgid "Aymara"
+msgstr "Se-Aymara"
+
+#. Name
+#: all_languages.desktop:18
+msgid "Azerbaijani"
+msgstr "Se-Azerbaijani"
+
+#. Name
+#: all_languages.desktop:20
+msgid "Bashkir"
+msgstr "Se-Bashkir"
+
+#. Name
+#: all_languages.desktop:22
+msgid "Belarusian"
+msgstr "Se-Belarusian"
+
+#. Name
+#: all_languages.desktop:24
+msgid "Bulgarian"
+msgstr "Se-Bulgarian"
+
+#. Name
+#: all_languages.desktop:26
+msgid "Bihari"
+msgstr "Se-Bihari"
+
+#. Name
+#: all_languages.desktop:28
+msgid "Bislama"
+msgstr "Se-Bislama"
+
+#. Name
+#: all_languages.desktop:30
+msgid "Bengali"
+msgstr "Se-Bengali"
+
+#. Name
+#: all_languages.desktop:32
+msgid "Tibetan"
+msgstr "Se-Tibetan"
+
+#. Name
+#: all_languages.desktop:34
+msgid "Breton"
+msgstr "Se-Breton"
+
+#. Name
+#: all_languages.desktop:36
+msgid "Bosnian"
+msgstr "Se-Bosnian"
+
+#. Name
+#: all_languages.desktop:38
+msgid "Catalan"
+msgstr "Se-Catalan"
+
+#. Name
+#: all_languages.desktop:40
+msgid "Chechen"
+msgstr "Se-Chechen"
+
+#. Name
+#: all_languages.desktop:42
+msgid "Chamorro"
+msgstr "Se-Chamorro"
+
+#. Name
+#: all_languages.desktop:44
+msgid "Corsican"
+msgstr "Se-Corsican"
+
+#. Name
+#: all_languages.desktop:46
+msgid "Czech"
+msgstr "Se-Czech"
+
+#. Name
+#: all_languages.desktop:48
+msgid "Kashubian"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:50
+msgid "Church Slavic"
+msgstr "Se-Church Slavic"
+
+#. Name
+#: all_languages.desktop:52
+msgid "Chuvash"
+msgstr "Se-Chuvash"
+
+#. Name
+#: all_languages.desktop:54
+msgid "Welsh"
+msgstr "Se-Welsh"
+
+#. Name
+#: all_languages.desktop:56
+msgid "Danish"
+msgstr "Se-Danish"
+
+#. Name
+#: all_languages.desktop:58
+msgid "German"
+msgstr "Se-German"
+
+#. Name
+#: all_languages.desktop:60
+msgid "Dzongkha"
+msgstr "Se-Dzongkha"
+
+#. Name
+#: all_languages.desktop:62
+msgid "Greek"
+msgstr "Se-Greek"
+
+#. Name
+#: all_languages.desktop:64
+msgid "English"
+msgstr "Sekgowa"
+
+#. Name
+#: all_languages.desktop:66
+#, fuzzy
+msgid "English (British)"
+msgstr "Sekgowa"
+
+#. Name
+#: all_languages.desktop:68
+#, fuzzy
+msgid "English (American)"
+msgstr "Sekgowa"
+
+#. Name
+#: all_languages.desktop:70
+msgid "Esperanto"
+msgstr "Se-Esperanto"
+
+#. Name
+#: all_languages.desktop:72
+msgid "Spanish"
+msgstr "Se-Spanish"
+
+#. Name
+#: all_languages.desktop:74
+msgid "Spanish (Argentina)"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:76
+msgid "Estonian"
+msgstr "Se-Estonian"
+
+#. Name
+#: all_languages.desktop:78
+msgid "Basque"
+msgstr "Se-Basque"
+
+#. Name
+#: all_languages.desktop:80
+#, fuzzy
+msgid "Persian"
+msgstr "Se-Frisian"
+
+#. Name
+#: all_languages.desktop:82
+msgid "Finnish"
+msgstr "Se-Finnish"
+
+#. Name
+#: all_languages.desktop:84
+msgid "Fijian"
+msgstr "Se-Fijian"
+
+#. Name
+#: all_languages.desktop:86
+msgid "Faroese"
+msgstr "Se-Faroese"
+
+#. Name
+#: all_languages.desktop:88
+msgid "French"
+msgstr "Sefora"
+
+#. Name
+#: all_languages.desktop:90
+msgid "Frisian"
+msgstr "Se-Frisian"
+
+#. Name
+#: all_languages.desktop:92
+#, fuzzy
+msgid "Irish"
+msgstr "Se-Gaelic"
+
+#. Name
+#: all_languages.desktop:94
+msgid "Gaelic"
+msgstr "Se-Gaelic"
+
+#. Name
+#: all_languages.desktop:96
+msgid "Galician"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:98
+msgid "Guarani"
+msgstr "Se-Guarani"
+
+#. Name
+#: all_languages.desktop:100
+msgid "Gujarati"
+msgstr "Se-Gujarati"
+
+#. Name
+#: all_languages.desktop:102
+msgid "Manx"
+msgstr "Se-Manx"
+
+#. Name
+#: all_languages.desktop:104
+msgid "Hausa"
+msgstr "Se-Hausa"
+
+#. Name
+#: all_languages.desktop:106
+msgid "Hebrew"
+msgstr "Se-Heberu"
+
+#. Name
+#: all_languages.desktop:108
+msgid "Hindi"
+msgstr "Se-Hindi"
+
+#. Name
+#: all_languages.desktop:110
+msgid "Hiri Motu"
+msgstr "Se-Hiri Motu"
+
+#. Name
+#: all_languages.desktop:112
+msgid "Croatian"
+msgstr "Se-Croatian"
+
+#. Name
+#: all_languages.desktop:114
+#, fuzzy
+msgid "Upper Sorbian"
+msgstr "Se-Serbian"
+
+#. Name
+#: all_languages.desktop:116
+msgid "Hungarian"
+msgstr "Se-Hungarian"
+
+#. Name
+#: all_languages.desktop:118
+msgid "Armenian"
+msgstr "Se-Armenian"
+
+#. Name
+#: all_languages.desktop:120
+msgid "Herero"
+msgstr "Se-Herero"
+
+#. Name
+#: all_languages.desktop:122
+msgid "Interlingua"
+msgstr "Se-Interlingua"
+
+#. Name
+#: all_languages.desktop:124
+msgid "Indonesian"
+msgstr "Se-Indonesian"
+
+#. Name
+#: all_languages.desktop:126
+msgid "Interlingue"
+msgstr "Se-Interlingue"
+
+#. Name
+#: all_languages.desktop:128
+msgid "Inupiaq"
+msgstr "Se-Inupiaq"
+
+#. Name
+#: all_languages.desktop:130
+msgid "Ido"
+msgstr "Se-Ido"
+
+#. Name
+#: all_languages.desktop:132
+msgid "Icelandic"
+msgstr "Se-Icelandic"
+
+#. Name
+#: all_languages.desktop:134
+msgid "Italian"
+msgstr "Se-Italian"
+
+#. Name
+#: all_languages.desktop:136
+msgid "Inuktitut"
+msgstr "Se-Inuktitut"
+
+#. Name
+#: all_languages.desktop:138
+msgid "Japanese"
+msgstr "Se-Japanese"
+
+#. Name
+#: all_languages.desktop:140
+msgid "Javanese"
+msgstr "Se-Javanese"
+
+#. Name
+#: all_languages.desktop:142
+msgid "Georgian"
+msgstr "Se-Georgian"
+
+#. Name
+#: all_languages.desktop:144
+msgid "Kikuyu"
+msgstr "Se-Kikuyu"
+
+#. Name
+#: all_languages.desktop:146
+msgid "Kazakh"
+msgstr "Se-Kazakh"
+
+#. Name
+#: all_languages.desktop:148
+msgid "Kalaallisut"
+msgstr "Se-Kalaallisut"
+
+#. Name
+#: all_languages.desktop:150
+msgid "Khmer"
+msgstr "Se-Khmer"
+
+#. Name
+#: all_languages.desktop:152
+msgid "Kannada"
+msgstr "Se-Kannada"
+
+#. Name
+#: all_languages.desktop:154
+msgid "Korean"
+msgstr "Se-Korean"
+
+#. Name
+#: all_languages.desktop:156
+msgid "Kashmiri"
+msgstr "Se-Kashmiri"
+
+#. Name
+#: all_languages.desktop:158
+msgid "Kurdish"
+msgstr "Se-Kurdish"
+
+#. Name
+#: all_languages.desktop:160
+msgid "Komi"
+msgstr "Se-Komi"
+
+#. Name
+#: all_languages.desktop:162
+msgid "Cornish"
+msgstr "Se-Cornish"
+
+#. Name
+#: all_languages.desktop:164
+msgid "Kirghiz"
+msgstr "Se-Kirghiz"
+
+#. Name
+#: all_languages.desktop:166
+msgid "Latin"
+msgstr "Se-Latin"
+
+#. Name
+#: all_languages.desktop:168
+msgid "Luxembourgish"
+msgstr "Se-Luxembourgish"
+
+#. Name
+#: all_languages.desktop:170
+msgid "Limburgan"
+msgstr "Se-Limburgan"
+
+#. Name
+#: all_languages.desktop:172
+msgid "Lingala"
+msgstr "Se-Lingala"
+
+#. Name
+#: all_languages.desktop:174
+msgid "Lao"
+msgstr "Se-Lao"
+
+#. Name
+#: all_languages.desktop:176
+msgid "Lithuanian"
+msgstr "Se-Lithuanian"
+
+#. Name
+#: all_languages.desktop:178
+msgid "Latvian"
+msgstr "Se-Latvian"
+
+#. Name
+#: all_languages.desktop:180
+msgid "Malagasy"
+msgstr "Se-Malagasy"
+
+#. Name
+#: all_languages.desktop:182
+msgid "Marshallese"
+msgstr "Se-Marshallese"
+
+#. Name
+#: all_languages.desktop:184
+msgid "Maori"
+msgstr "Se-Maori"
+
+#. Name
+#: all_languages.desktop:186
+msgid "Macedonian"
+msgstr "Se-Macedonian"
+
+#. Name
+#: all_languages.desktop:188
+msgid "Malayalam"
+msgstr "Se-Malayalam"
+
+#. Name
+#: all_languages.desktop:190
+msgid "Mongolian"
+msgstr "Se-Mongolian"
+
+#. Name
+#: all_languages.desktop:192
+msgid "Moldavian"
+msgstr "Se-Moldavian"
+
+#. Name
+#: all_languages.desktop:194
+msgid "Marathi"
+msgstr "Se-Marathi"
+
+#. Name
+#: all_languages.desktop:196
+msgid "Malay"
+msgstr "Se-Malay"
+
+#. Name
+#: all_languages.desktop:198
+msgid "Maltese"
+msgstr "Se-Maltese"
+
+#. Name
+#: all_languages.desktop:200
+msgid "Burmese"
+msgstr "Se-Burmese"
+
+#. Name
+#: all_languages.desktop:202
+msgid "Nauru"
+msgstr "Se-Nauru"
+
+#. Name
+#: all_languages.desktop:204
+msgid "Norwegian Bokmål"
+msgstr "Se-Norwegian Bokmål"
+
+#. Name
+#: all_languages.desktop:206
+msgid "Ndebele, North"
+msgstr "Se-Ndebele, sa Lebowa"
+
+#. Name
+#: all_languages.desktop:208
+msgid "Low Saxon"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:210
+msgid "Nepali"
+msgstr "Se-Nepali"
+
+#. Name
+#: all_languages.desktop:212
+msgid "Ndonga"
+msgstr "Se-Ndonga"
+
+#. Name
+#: all_languages.desktop:214
+msgid "Dutch"
+msgstr "Se-Dutch"
+
+#. Name
+#: all_languages.desktop:216
+msgid "Norwegian Nynorsk"
+msgstr "Se-Norwegian Nynorsk"
+
+#. Name
+#: all_languages.desktop:218
+msgid "Ndebele, South"
+msgstr "Se-Ndebele, sa Borwa"
+
+#. Name
+#: all_languages.desktop:220
+#, fuzzy
+msgid "Northern Sotho"
+msgstr "Se-Sami sa Lebowa"
+
+#. Name
+#: all_languages.desktop:222
+msgid "Navajo"
+msgstr "Se-Navajo"
+
+#. Name
+#: all_languages.desktop:224
+msgid "Chichewa"
+msgstr "Se-Chichewa"
+
+#. Name
+#: all_languages.desktop:226
+msgid "Occitan"
+msgstr "Se-Occitan"
+
+#. Name
+#: all_languages.desktop:228
+msgid "Oromo"
+msgstr "Se-Oromo"
+
+#. Name
+#: all_languages.desktop:230
+msgid "Oriya"
+msgstr "Se-Oriya"
+
+#. Name
+#: all_languages.desktop:232
+msgid "Ossetian"
+msgstr "Se-Ossetian"
+
+#. Name
+#: all_languages.desktop:234
+msgid "Punjabi"
+msgstr "Se-Punjabi"
+
+#. Name
+#: all_languages.desktop:236
+msgid "Pali"
+msgstr "Se-Pali"
+
+#. Name
+#: all_languages.desktop:238
+msgid "Polish"
+msgstr "Se-Polish"
+
+#. Name
+#: all_languages.desktop:240
+msgid "Pushto"
+msgstr "Se-Pushto"
+
+#. Name
+#: all_languages.desktop:242
+msgid "Portuguese"
+msgstr "Sepotokisi"
+
+#. Name
+#: all_languages.desktop:244
+#, fuzzy
+msgid "Portuguese (Brazil)"
+msgstr "Sepotokisi"
+
+#. Name
+#: all_languages.desktop:246
+msgid "Quechua"
+msgstr "Se-Quechua"
+
+#. Name
+#: all_languages.desktop:248
+msgid "Rundi"
+msgstr "Se-Rundi"
+
+#. Name
+#: all_languages.desktop:250
+msgid "Romanian"
+msgstr "Se-Romanian"
+
+#. Name
+#: all_languages.desktop:252
+#, fuzzy
+msgid "Romany"
+msgstr "Se-Romanian"
+
+#. Name
+#: all_languages.desktop:254
+msgid "Russian"
+msgstr "Se-Russian"
+
+#. Name
+#: all_languages.desktop:256
+msgid "Kinyarwanda"
+msgstr "Se-Kinyarwanda"
+
+#. Name
+#: all_languages.desktop:258
+msgid "Sanskrit"
+msgstr "Se-Sanskrit"
+
+#. Name
+#: all_languages.desktop:260
+msgid "Sardinian"
+msgstr "Se-Sardinian"
+
+#. Name
+#: all_languages.desktop:262
+msgid "Sindhi"
+msgstr "Se-Sindhi"
+
+#. Name
+#: all_languages.desktop:264
+msgid "Northern Sami"
+msgstr "Se-Sami sa Lebowa"
+
+#. Name
+#: all_languages.desktop:266
+msgid "Sango"
+msgstr "Se-Sango"
+
+#. Name
+#: all_languages.desktop:268
+msgid "Sinhalese"
+msgstr "Se-Sinhalese"
+
+#. Name
+#: all_languages.desktop:270
+#, fuzzy
+msgid "Slovak"
+msgstr "Se-Slovenian"
+
+#. Name
+#: all_languages.desktop:272
+msgid "Slovenian"
+msgstr "Se-Slovenian"
+
+#. Name
+#: all_languages.desktop:274
+msgid "Samoan"
+msgstr "Se-Samoan"
+
+#. Name
+#: all_languages.desktop:276
+msgid "Shona"
+msgstr "Se-Shona"
+
+#. Name
+#: all_languages.desktop:278
+msgid "Somali"
+msgstr "Se-Somali"
+
+#. Name
+#: all_languages.desktop:280
+msgid "Albanian"
+msgstr "Se-Albanian"
+
+#. Name
+#: all_languages.desktop:282
+msgid "Serbian"
+msgstr "Se-Serbian"
+
+#. Name
+#: all_languages.desktop:284
+#, fuzzy
+msgid "Serbian Latin"
+msgstr "Se-Serbian"
+
+#. Name
+#: all_languages.desktop:286
+msgid "Swati"
+msgstr "Se-Swati"
+
+#. Name
+#: all_languages.desktop:288
+msgid "Sotho, Southern"
+msgstr "Sesotho, sa Borwa"
+
+#. Name
+#: all_languages.desktop:290
+msgid "Sundanese"
+msgstr "Se-Sundan"
+
+#. Name
+#: all_languages.desktop:292
+msgid "Swedish"
+msgstr "Se-Swedish"
+
+#. Name
+#: all_languages.desktop:294
+msgid "Swahili"
+msgstr "Se-Swahili"
+
+#. Name
+#: all_languages.desktop:296
+msgid "Tamil"
+msgstr "Se-Tamil"
+
+#. Name
+#: all_languages.desktop:298
+msgid "Telugu"
+msgstr "Se-Telugu"
+
+#. Name
+#: all_languages.desktop:300
+msgid "Tajik"
+msgstr "Se-Tajik"
+
+#. Name
+#: all_languages.desktop:302
+msgid "Thai"
+msgstr "Se-Thai"
+
+#. Name
+#: all_languages.desktop:304
+msgid "Tigrinya"
+msgstr "Se-Tigrinya"
+
+#. Name
+#: all_languages.desktop:306
+msgid "Turkmen"
+msgstr "Se-Turkmen"
+
+#. Name
+#: all_languages.desktop:308
+msgid "Tswana"
+msgstr "Setswana"
+
+#. Name
+#: all_languages.desktop:310
+msgid "Tonga"
+msgstr "Se-Tonga"
+
+#. Name
+#: all_languages.desktop:312
+msgid "Turkish"
+msgstr "Se-Turkish"
+
+#. Name
+#: all_languages.desktop:314
+msgid "Tsonga"
+msgstr "Se-Tsonga"
+
+#. Name
+#: all_languages.desktop:316
+msgid "Tatar"
+msgstr "Se-Tatar"
+
+#. Name
+#: all_languages.desktop:318
+msgid "Twi"
+msgstr "Se-Twi"
+
+#. Name
+#: all_languages.desktop:320
+msgid "Tahitian"
+msgstr "Se-Tahitian"
+
+#. Name
+#: all_languages.desktop:322
+msgid "Uighur"
+msgstr "Se-Uighur"
+
+#. Name
+#: all_languages.desktop:324
+msgid "Ukrainian"
+msgstr "Se-Ukrainian"
+
+#. Name
+#: all_languages.desktop:326
+msgid "Urdu"
+msgstr "Se-Urdu"
+
+#. Name
+#: all_languages.desktop:328
+msgid "Uzbek"
+msgstr "Se-Uzbek"
+
+#. Name
+#: all_languages.desktop:330
+msgid "Uzbek (Cyrillic)"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:332
+msgid "Venda"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:334
+msgid "Vietnamese"
+msgstr "Se-Vietnamese"
+
+#. Name
+#: all_languages.desktop:336
+msgid "Volapük"
+msgstr "Se-Volapük"
+
+#. Name
+#: all_languages.desktop:338
+msgid "Walloon"
+msgstr "Se-Walloon"
+
+#. Name
+#: all_languages.desktop:340
+msgid "Wolof"
+msgstr "Se-Wolof"
+
+#. Name
+#: all_languages.desktop:342
+msgid "Xhosa"
+msgstr "Sethosa"
+
+#. Name
+#: all_languages.desktop:344
+msgid "Yiddish"
+msgstr "Se-Yiddish"
+
+#. Name
+#: all_languages.desktop:346
+msgid "Yoruba"
+msgstr "Se-Yoruba"
+
+#. Name
+#: all_languages.desktop:348
+msgid "Zhuang"
+msgstr "Se-Zhuang"
+
+#. Name
+#: all_languages.desktop:350
+msgid "Chinese"
+msgstr "Se-China"
+
+#. Name
+#: all_languages.desktop:352
+msgid "Chinese (Simplified)"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:354
+msgid "Chinese (Hong Kong)"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:356
+msgid "Chinese (Traditional)"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:358
+msgid "Zulu"
+msgstr "Se-Zulu"

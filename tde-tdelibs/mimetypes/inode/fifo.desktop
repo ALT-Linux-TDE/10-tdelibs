@@ -1,0 +1,6 @@
+[Desktop Entry]
+Comment=Pipe
+Icon=pipe
+Type=MimeType
+MimeType=inode/fifo
+Patterns=

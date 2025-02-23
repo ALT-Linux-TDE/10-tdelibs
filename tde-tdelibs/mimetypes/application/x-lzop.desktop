@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-lzop
+Icon=application-x-tarz
+Patterns=*.lzo
+Comment=Lzopped File

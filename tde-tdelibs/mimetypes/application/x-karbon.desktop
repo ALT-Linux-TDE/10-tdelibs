@@ -1,0 +1,7 @@
+[Desktop Entry]
+MimeType=application/x-karbon
+Type=MimeType
+Icon=application-x-karbon
+Patterns=*.karbon;
+X-TDE-AutoEmbed=false
+Comment=Karbon14 Document

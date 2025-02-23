@@ -1,0 +1,9 @@
+[Image Format]
+Type=PSD
+Header=^8BPS
+Name=Adobe Photoshop Image
+Read=true
+Write=false
+Suffices=psd,PSD
+Mimetype=image/x-vnd.adobe.photoshop
+Library=kimg_psd.la

@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-02 14:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: kspeech/dcoptexttospeech.desktop:5
+msgid "Text-to-Speech Service with a DCOP interface"
+msgstr "డికాప్ ఇంటర్ఫేస్ కల్గిన వాచకం నుంచి మాటలకు మార్చు సేవ"
+
+#. Comment
+#: tdeimproxy/interface/dcopinstantmessenger.desktop:5
+msgid "Instant Messenger with a DCOP interface"
+msgstr "డిసిఓపి ఇంటర్ఫెస్ కలిగివున్న ఇంస్టెంట్ మెస్సెన్జర్"
+
+#. Name
+#: tdeimproxy/interface/kcm_instantmessenger.desktop:9
+msgid "Instant Messenger"
+msgstr "ఇంస్టెంట్ మెస్సెన్జర్"
+
+#. Comment
+#: tdeimproxy/interface/kcm_instantmessenger.desktop:11
+msgid ""
+"The instant messenger allows two-way chat between individuals and groups."
+msgstr "ఇంస్టెంట్ మెస్సెన్జర్ వ్యక్తు లు మరయు గుంపుల తొ ఇరువయపుల నుంచి సంబాషించవచ్చు "
+
+#. Name
+#: tdescript/sample/shellscript.desktop:7
+msgid "Bash Shell Script Runner"
+msgstr "బేష్ షెల్ స్క్రిప్ట్లను నిర్వర్తించెది"
+
+#. Comment
+#: tdescript/sample/shellscript.desktop:8
+msgid "Runs bash shell scripts from inside the application."
+msgstr "బేష్ షెల్ స్క్రిప్ట్లను కార్యక్షేత్రం లొపల నుంచి నిర్వర్తించెది"
+
+#. Comment
+#: tdescript/scriptinterface.desktop:5
+msgid "This is a generic test script engine for testing the script interface."
+msgstr "ఇది స్క్రిప్ట్ ఇంటర్ఫెస్లను పరీక్షించెందుకు వాడె సాధరణ పరీక్షా స్క్రిప్ట్ ఇంజను"
+
+#. Name
+#: tdetexteditor/kcm_tdetexteditor.desktop:9
+msgid "Embedded Text Editor"
+msgstr "పొదగిన వాచకం సరిచేయునది"
+
+#. Comment
+#: tdetexteditor/kcm_tdetexteditor.desktop:10
+msgid ""
+"The text editor service provides applications with a text viewer and editor. "
+"TDE applications that provide text editing facilities should use this "
+"service."
+msgstr ""
+"కార్యక్రమాలకు వాచకం సరిచేయు సేవ ఒక వాచకం విక్షణ మరియు సరిచెయుటకు సహాయపడును. కెడిఈ కార్యక్రమాలు "
+"వాచకం సరిచెయు సౌకర్యాలు వున్నట్టైతె దిని సేవ ను ఉపయొగించొకొవలెను"
+
+#. Comment
+#: tdetexteditor/tdetexteditor.desktop:6
+msgid "Embeddable Text Editor Component (with Doc/View Separation)"
+msgstr "పొదగబడె వాచకం సరిచేయు అంశం (పత్ర/వీక్షణ విభజన వున్నది)"
+
+#. Comment
+#: tdetexteditor/tdetexteditoreditor.desktop:6
+msgid "Embeddable Text Editor Component (without Doc/View Separation)"
+msgstr "పొదగబడె వాచకం సరిచేయు అంశం (పత్ర/వీక్షణ విభజన లేకుండా)"
+
+#. Comment
+#: tdetexteditor/tdetexteditorplugin.desktop:6
+msgid "KTextEditor Plugin"
+msgstr "కెటెక్స్ట్ ఎడిటర్ ప్లగిన్"

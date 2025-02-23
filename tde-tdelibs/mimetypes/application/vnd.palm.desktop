@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/vnd.palm
+Icon=application-vnd.oasis.opendocument.text
+Patterns=*.pdb;*.PDB;*.prc;*.PRC;
+Comment=Palm Document

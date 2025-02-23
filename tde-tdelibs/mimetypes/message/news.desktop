@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+Icon=news
+MimeType=message/news
+Patterns=
+Comment=Usenet News Message
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

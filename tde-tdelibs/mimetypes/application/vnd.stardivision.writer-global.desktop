@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/vnd.stardivision.writer-global
+Patterns=*.sgl;*.SGL;
+Icon=application-vnd.oasis.opendocument.text
+Comment=StarOffice Writer Master Document
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.sgl

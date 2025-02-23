@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=image/jpeg
+Icon=image-x-generic
+Patterns=*.jpg;*.JPG;*.jpeg;*.JPEG;
+Comment=JPEG Image

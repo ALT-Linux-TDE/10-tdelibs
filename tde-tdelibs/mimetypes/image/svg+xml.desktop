@@ -1,0 +1,11 @@
+[Desktop Entry]
+Icon=image-svg+xml
+Type=MimeType
+MimeType=image/svg+xml
+X-TDE-IsAlso=text/xml
+Patterns=*.svg;*.SVG;*.svgz;*.SVGZ;
+Comment=Scalable Vector Graphics
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

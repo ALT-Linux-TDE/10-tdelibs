@@ -1,0 +1,7 @@
+[Desktop Entry]
+MimeType=application/x-ica
+Comment=Citrix ICA Client Configuration
+Icon=application-vnd.oasis.opendocument.text
+Type=MimeType
+Patterns=*.ica;*.ICA;
+X-TDE-AutoEmbed=false

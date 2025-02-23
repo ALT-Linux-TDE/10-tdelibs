@@ -1,0 +1,40 @@
+##### prepare cupsd.conf.template as C source ###
+
+set( _conf_context "Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, etc.)" )
+file( READ ${CMAKE_CURRENT_SOURCE_DIR}/cupsd.conf.template _conf_template )
+string( REGEX REPLACE "[^\n]" "" _conf_len "${_conf_template}" )
+string( LENGTH "+${_conf_len}" _conf_len )
+unset( _conf_comment )
+unset( _conf_l10n )
+set( _conf_pos 0 )
+while( _conf_pos LESS ${_conf_len} )
+  string( REGEX REPLACE "^([^\n]*)\n(.*)" "\\1" _conf_line "${_conf_template}" )
+  string( REGEX REPLACE "^([^\n]*)\n(.*)" "\\2" _conf_template "${_conf_template}" )
+  math( EXPR _conf_pos "${_conf_pos}+1" )
+  if( _conf_comment )
+    if( "${_conf_line}" MATCHES "^\\$\\$" OR "${_conf_line}" MATCHES "^@@" )
+      unset( _conf_comment )
+      set( _conf_line ");" )
+    else( )
+      string( REGEX REPLACE "\\\"" "\\\\\"" _conf_line "${_conf_line}" )
+      string( REGEX REPLACE "^# +(.*)$" "\"\\1\\\\n\"" _conf_line "${_conf_line}" )
+    endif( )
+  else( )
+    if( "${_conf_line}" MATCHES "^%%" AND NOT "${_conf_line}" STREQUAL "%%header" )
+      set( _conf_comment 1 )
+      set( _conf_line "i18n(\"${_conf_context}\"," )
+    else( )
+      set( _conf_line "" )
+    endif( )
+  endif( )
+  set( _conf_l10n "${_conf_l10n}${_conf_line}\n" )
+endwhile( )
+file( WRITE ${CMAKE_CURRENT_SOURCE_DIR}/cupsd.conf.template.tde_l10n "${_conf_l10n}" )
+
+
+##### create translation templates ##############
+
+tde_l10n_create_template(
+  CATALOG "cupsdconf"
+  SOURCES "." cupsd.conf.template.tde_l10n
+)

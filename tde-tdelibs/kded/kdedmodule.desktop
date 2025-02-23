@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=ServiceType
+X-TDE-ServiceType=KDEDModule
+Comment=KDED Module
+[PropertyDef::X-TDE-FactoryName]
+Type=TQString
+[PropertyDef::X-TDE-Kded-autoload]
+Type=bool
+[PropertyDef::X-TDE-Kded-load-on-demand]
+Type=bool

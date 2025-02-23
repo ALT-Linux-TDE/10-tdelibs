@@ -1,0 +1,12 @@
+[Protocol]
+protocol=data
+input=stream
+output=none
+reading=true
+Icon=www
+Class=:internet
+Description=A tdeioslave for data URIs (rfc2397)
+X-DocPath=tdeioslave/data/index.html
+URIMode=rawuri
+defaultMimetype=application/octet-stream
+determineMimetypeFromExtension=false

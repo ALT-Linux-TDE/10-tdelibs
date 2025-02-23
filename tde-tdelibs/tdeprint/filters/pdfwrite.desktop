@@ -1,0 +1,6 @@
+[TDE Print Filter Entry]
+Name=pdfwrite
+Require=exec:/gs
+Comment=PDF Writer (needs Ghostscript)
+MimeTypeIn=application/postscript
+MimeTypeOut=application/pdf

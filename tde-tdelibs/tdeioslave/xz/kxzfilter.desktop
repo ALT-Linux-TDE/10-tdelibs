@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Service
+Name=XZ Filter
+X-TDE-Library=kxzfilter
+X-TDE-ServiceTypes=TDECompressionFilter,application/x-xz,application/x-txz,application/x-lzma

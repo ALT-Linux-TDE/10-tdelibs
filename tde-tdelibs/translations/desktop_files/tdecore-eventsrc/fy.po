@@ -1,0 +1,192 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 20:06+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: eventsrc:3
+msgid "System Notifications"
+msgstr "Systeemberjochten"
+
+#. Name
+#: eventsrc:6
+msgid "Trash: emptied"
+msgstr "Jiskefet: leech makke"
+
+#. Comment
+#: eventsrc:7
+msgid "The trash has been emptied"
+msgstr "It jiskefet is leech makke"
+
+#. Name
+#: eventsrc:11
+msgid "Textcompletion: rotation"
+msgstr "Tekstkompletearing: rotaasje"
+
+#. Comment
+#: eventsrc:12
+msgid "The end of the list of matches has been reached"
+msgstr "It ein fan de oerienkomstenlist is berikt"
+
+#. Name
+#: eventsrc:16
+msgid "Textcompletion: no match"
+msgstr "Tekstkompletearing - gjin oerienkomst"
+
+#. Comment
+#: eventsrc:17
+msgid "No matching completion was found"
+msgstr "gjin oerienkomstige kompletearings binne fun"
+
+#. Name
+#: eventsrc:21
+msgid "Textcompletion: partial match"
+msgstr "Tekstkompletearing - foar in diel oerienkommend"
+
+#. Comment
+#: eventsrc:22
+msgid "There is more than one possible match"
+msgstr "Der is wierskynlik mear as ien oerienkomst"
+
+#. Name
+#: eventsrc:26
+msgid "Cannot Open File"
+msgstr "Kin de triem net iepenje"
+
+#. Comment
+#: eventsrc:27
+msgid "The selected file cannot be opened for reading or writing"
+msgstr "It selektearre triem kin net iepene wurde om te lêzen of skriuwen"
+
+#. Name
+#: eventsrc:31
+msgid "Fatal Error"
+msgstr "Fatale flater"
+
+#. Comment
+#: eventsrc:32
+msgid "There was a serious error causing the program to exit"
+msgstr "Der wie in serieuse flater wertroch it programma sluten is"
+
+#. Name
+#: eventsrc:37
+msgid "Notification"
+msgstr "Notifikaasje"
+
+#. Comment
+#: eventsrc:38
+msgid "Something special happened in the program"
+msgstr "Der barde wat spesjaals yn't programma"
+
+#. Name
+#: eventsrc:44
+msgid "Warning"
+msgstr "Warskôging"
+
+#. Comment
+#: eventsrc:45
+msgid "There was an error in the program which may cause problems"
+msgstr "Der wie in flater yn it programma wat swierrichheid feroorsaakje kin"
+
+#. Name
+#: eventsrc:50
+msgid "Catastrophe"
+msgstr "Katastrofe"
+
+#. Comment
+#: eventsrc:51
+msgid "A very serious error occurred, at least causing the program to exit"
+msgstr "In serieuse flater had him foardyn wertroch it programma sluten is"
+
+#. Name
+#: eventsrc:55
+msgid "Login"
+msgstr "Oanmelde"
+
+#. Comment
+#: eventsrc:56
+msgid "TDE is starting up"
+msgstr "TDE set útein"
+
+#. Name
+#: eventsrc:61
+msgid "Logout"
+msgstr "Ofmelde"
+
+#. Comment
+#: eventsrc:62
+msgid "TDE is exiting"
+msgstr "TDE giet nei de útgong"
+
+#. Name
+#: eventsrc:67
+msgid "Logout canceled"
+msgstr "Ofmelding ôfbrutsen"
+
+#. Comment
+#: eventsrc:68
+msgid "TDE logout was canceled"
+msgstr "TDE ôfmelding wie ôfbrutsen"
+
+#. Name
+#: eventsrc:73
+msgid "Print error"
+msgstr "Printflater"
+
+#. Comment
+#: eventsrc:74
+msgid "A print error has occurred"
+msgstr "In printflater had him foardyn"
+
+#. Name
+#: eventsrc:79
+msgid "Information message"
+msgstr "Ynformaasje berjocht"
+
+#. Comment
+#: eventsrc:80
+msgid "An information message is being shown"
+msgstr "In ynformaasje berjocht lit him sjen"
+
+#. Name
+#: eventsrc:86
+msgid "Warning message"
+msgstr "Warskôgings berjocht"
+
+#. Comment
+#: eventsrc:87
+msgid "A warning message is being shown"
+msgstr "In warskôgings berjocht lit him sjen"
+
+#. Name
+#: eventsrc:94
+msgid "Critical message"
+msgstr "krityk berjocht"
+
+#. Comment
+#: eventsrc:95
+msgid "A critical message is being shown"
+msgstr "In krityk berjocht let him sjen"
+
+#. Name
+#: eventsrc:102
+msgid "Question"
+msgstr "Fraach"
+
+#. Comment
+#: eventsrc:103
+msgid "A question is being asked"
+msgstr "In fraach is stelt"

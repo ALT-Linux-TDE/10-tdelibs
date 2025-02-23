@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/vnd.oasis.opendocument.spreadsheet-flat-xml
+Patterns=*.fods;*.fODS
+Icon=application-vnd.oasis.opendocument.spreadsheet
+Comment=OASIS OpenDocument SpreadSheet (Flat XML)
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.fods

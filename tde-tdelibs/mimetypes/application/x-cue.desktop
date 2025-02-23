@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+Patterns=*.cue;*.CUE
+MimeType=application/x-cue
+Icon=application-x-cd-image
+Comment=CDRWIN Cue-Sheet

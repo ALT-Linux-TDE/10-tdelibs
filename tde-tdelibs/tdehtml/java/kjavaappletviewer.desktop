@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Service
+Name=Embedded Java Applet Viewer
+Icon=java
+MimeType=application/x-java-applet;application/x-java;
+X-TDE-ServiceTypes=KParts/ReadOnlyPart,Browser/View
+X-TDE-Library=kjavaappletviewer
+X-TDE-InitialPreference=2
+X-TDE-BrowserView-PluginsInfo=kjava/pluginsinfo

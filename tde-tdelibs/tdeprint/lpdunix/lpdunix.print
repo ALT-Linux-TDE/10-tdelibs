@@ -1,0 +1,3 @@
+[TDE Print Entry]
+PrintSystem=lpdunix
+Comment=Generic UNIX LPD Print System (default)

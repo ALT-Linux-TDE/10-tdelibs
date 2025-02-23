@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Evolution
+X-TDE-Library=tdeabc_evo
+Type=Service
+X-TDE-ServiceTypes=TDEResources/Plugin
+X-TDE-ResourceFamily=contact
+X-TDE-ResourceType=evolution

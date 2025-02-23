@@ -1,0 +1,10 @@
+[Desktop Entry]
+MimeType=application/x-vnd.kde.kplato
+Comment=KPlato Project Management Document
+Type=MimeType
+Patterns=*.kplato;*.kplatot;
+X-TDE-AutoEmbed=false
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.kplato

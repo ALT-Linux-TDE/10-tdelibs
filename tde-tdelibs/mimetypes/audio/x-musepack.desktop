@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=audio/x-musepack
+Icon=audio-x-generic
+Patterns=*.mpc;*.MPC;*.mp+;*.MP+
+Comment=Musepack Audio

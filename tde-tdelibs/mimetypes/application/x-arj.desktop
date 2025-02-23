@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-arj
+Icon=application-x-tarz
+Patterns=*.arj;*.ARJ;
+Comment=ARJ Archive

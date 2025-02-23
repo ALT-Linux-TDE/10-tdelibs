@@ -1,0 +1,14 @@
+tdelibs/win32 .pro files
+
+(c) 2003-2005, Jaroslaw Staniek
+
+Add this directory to your PATH.
+Cygwin or (other bash replacement) required.
+
+Please copy .pro files to destination tdelibs/ 
+subdirectores using update_tdelibs_pro_files scipt.
+
+.pro files were copied here from tdelibs/ directory 
+using collect_tdelibs_pro_files scipt.
+
+Scripts are available in win/tools/.

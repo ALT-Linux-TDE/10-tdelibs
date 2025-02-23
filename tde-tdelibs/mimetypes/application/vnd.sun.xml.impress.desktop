@@ -1,0 +1,10 @@
+[Desktop Entry]
+Comment=OpenOffice.org Presentation
+MimeType=application/vnd.sun.xml.impress
+Type=MimeType
+Icon=application-vnd.oasis.opendocument.presentation
+Patterns=*.sxi;*.SXI;
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.sxi

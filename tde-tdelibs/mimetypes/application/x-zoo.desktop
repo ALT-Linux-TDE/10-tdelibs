@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-zoo
+Icon=application-x-tarz
+Patterns=*.zoo;*.ZOO;
+Comment=Zoo Archive

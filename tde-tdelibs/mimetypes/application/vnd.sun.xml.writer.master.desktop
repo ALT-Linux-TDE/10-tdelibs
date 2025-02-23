@@ -1,0 +1,10 @@
+[Desktop Entry]
+Comment=OpenOffice.org Master Text Document
+MimeType=application/vnd.sun.xml.writer.master
+Type=MimeType
+Icon=application-vnd.oasis.opendocument.text
+Patterns=*.sxg;*.SXG;
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.sxg

@@ -1,0 +1,14 @@
+[Desktop Entry]
+Comment=Bzip2-ed Tar Archive
+MimeType=application/x-tbz
+Icon=application-x-tarz
+Type=MimeType
+Patterns=*.tar.bz;*.tbz;*.tar.bz2;*.tbz2;
+
+[Property::X-TDE-LocalProtocol]
+Type=TQString
+Value=tar
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.tar.bz2

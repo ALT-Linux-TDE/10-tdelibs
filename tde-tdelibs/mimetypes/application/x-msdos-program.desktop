@@ -1,0 +1,10 @@
+[Desktop Entry]
+Comment=Windows Executable
+Icon=application-x-executable
+Type=MimeType
+MimeType=application/x-msdos-program
+X-TDE-IsAlso=application/x-executable
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.exe;.EXE;.ExE;.EXe;.eXE;.exE

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-kugar
+Icon=application-x-kugar
+Patterns=*.kud
+Comment=Kugar Data File
+Patterns=*.kdf;*.kud;
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.kdf

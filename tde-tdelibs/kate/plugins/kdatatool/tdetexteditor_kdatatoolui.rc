@@ -1,0 +1,8 @@
+<!DOCTYPE kpartgui>
+<kpartplugin name="tdetexteditor_kdatatoolui" library="tdetexteditor_kdatatool" version="2">
+
+<Menu name="tdetexteditor_popup" noMerge="1">
+  <Action name="popup_dataTool" group="popup_operations"/>
+</Menu>
+
+</kpartplugin>

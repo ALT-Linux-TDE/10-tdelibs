@@ -1,0 +1,84 @@
+# This file describes the fields of an address book entry.
+#
+# The following comma-separated fields are used:
+#
+#          Control: A generates accessor functions.
+#                   L generates a static function for returning a tranlsated label
+#                   F generates a Field id and object for generic field handling
+#                   E generate an equality test in Addressee::operator==().
+#      Field Name : A descriptive name which is shown to the user.
+#         Comment : A comment helping translators to understand the field name
+#            Type : C++ type of field.
+#      Identifier : A string used in code as variable name etc.
+#  Field Category : Categories the field belongs to (see Field::FieldCategory).
+#  Output function: Function used to convert type to string for debug output (optional)
+
+ALE,name,,TQString,name
+
+ALFE,formatted name,,TQString,formattedName,Frequent
+
+ALFE,family name,,TQString,familyName,Frequent
+ALFE,given name,,TQString,givenName,Frequent
+ALFE,additional names,,TQString,additionalName
+ALFE,honorific prefixes,,TQString,prefix
+ALFE,honorific suffixes,,TQString,suffix
+
+ALFE,nick name,,TQString,nickName,Personal
+
+ALFE,birthday,,TQDateTime,birthday,Personal,.toString()
+
+#Address address
+LF,home address street,,TQString,homeAddressStreet,Address|Personal
+LF,home address post office box,,TQString,homeAddressPostOfficeBox,Address|Personal
+LF,home address city,,TQString,homeAddressLocality,Address|Personal
+LF,home address state,,TQString,homeAddressRegion,Address|Personal
+LF,home address zip code,,TQString,homeAddressPostalCode,Address|Personal
+LF,home address country,,TQString,homeAddressCountry,Address|Personal
+LF,home address label,,TQString,homeAddressLabel,Address|Personal
+
+LF,business address street,,TQString,businessAddressStreet,Address|Organization
+LF,business address post office box,,TQString,businessAddressPostOfficeBox,Address|Organization
+LF,business address city,,TQString,businessAddressLocality,Address|Organization
+LF,business address state,,TQString,businessAddressRegion,Address|Organization
+LF,business address zip code,,TQString,businessAddressPostalCode,Address|Organization
+LF,business address country,,TQString,businessAddressCountry,Address|Organization
+LF,business address label,,TQString,businessAddressLabel,Address|Organization
+
+#phoneNumbers
+LF,home phone,,TQString,homePhone,Personal|Frequent
+LF,business phone,,TQString,businessPhone,Organization|Frequent
+LF,mobile phone,,TQString,mobilePhone,Frequent
+LF,home fax,,TQString,homeFax
+LF,business fax,,TQString,businessFax
+LF,car phone,,TQString,carPhone
+LF,ISDN,,TQString,isdn
+LF,pager,,TQString,pager
+
+#emails
+LF,email address,,TQString,email,Email|Frequent
+
+ALFE,mail client,,TQString,mailer,Email
+
+ALE,time zone,,TimeZone,timeZone,,.asString()
+ALE,geographic position,,Geo,geo,,.asString()
+
+ALFE,title,person,TQString,title,Organization
+ALFE,role,person in organization,TQString,role,Organization
+ALFE,organization,,TQString,organization,Organization
+ALFE,department,,TQString,department,Organization
+
+ALFE,note,,TQString,note
+
+ALE,product identifier,,TQString,productId
+ALE,revision date,,TQDateTime,revision,,.toString()
+
+ALE,sort string,,TQString,sortString
+
+ALF,homepage,,KURL,url,,.url()
+
+ALE,security class,,Secrecy,secrecy,,.asString()
+
+ALE,logo,,Picture,logo,,.asString()
+ALE,photo,,Picture,photo,,.asString()
+ALE,sound,,Sound,sound,,.asString()
+ALE,agent,,Agent,agent,,.asString()

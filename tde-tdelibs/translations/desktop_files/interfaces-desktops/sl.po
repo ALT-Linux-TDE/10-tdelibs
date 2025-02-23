@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-02 14:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: kspeech/dcoptexttospeech.desktop:5
+msgid "Text-to-Speech Service with a DCOP interface"
+msgstr "Servis, ki spremeni besedilo v govor, z vmesnikom DCOP"
+
+#. Comment
+#: tdeimproxy/interface/dcopinstantmessenger.desktop:5
+msgid "Instant Messenger with a DCOP interface"
+msgstr "Takojšni sporočilnik z vmesnikom DCOP"
+
+#. Name
+#: tdeimproxy/interface/kcm_instantmessenger.desktop:9
+msgid "Instant Messenger"
+msgstr "Takojšni sporočilnik"
+
+#. Comment
+#: tdeimproxy/interface/kcm_instantmessenger.desktop:11
+msgid ""
+"The instant messenger allows two-way chat between individuals and groups."
+msgstr ""
+"Takojšni sporočilnik omogoča dvosmeren klepet med posamezniki in skupinami."
+
+#. Name
+#: tdescript/sample/shellscript.desktop:7
+msgid "Bash Shell Script Runner"
+msgstr "Zaganjalnik lupinski skriptov"
+
+#. Comment
+#: tdescript/sample/shellscript.desktop:8
+msgid "Runs bash shell scripts from inside the application."
+msgstr "Požene lupinske skripte znotraj programa."
+
+#. Comment
+#: tdescript/scriptinterface.desktop:5
+msgid "This is a generic test script engine for testing the script interface."
+msgstr ""
+"To je generični poskusni skriptni pogon za preizkušanje skriptnega vmesnika."
+
+#. Name
+#: tdetexteditor/kcm_tdetexteditor.desktop:9
+msgid "Embedded Text Editor"
+msgstr "Vključeni urejevalnik besedil"
+
+#. Comment
+#: tdetexteditor/kcm_tdetexteditor.desktop:10
+msgid ""
+"The text editor service provides applications with a text viewer and editor. "
+"TDE applications that provide text editing facilities should use this "
+"service."
+msgstr ""
+"Storitev urejevalnika besedila omogoča programom dostop do pregledovalnika "
+"in urejevalnika besedil. Programi za TDE, ki omogočajo urejanje besedila, "
+"naj bi uporabljali to storitev."
+
+#. Comment
+#: tdetexteditor/tdetexteditor.desktop:6
+msgid "Embeddable Text Editor Component (with Doc/View Separation)"
+msgstr ""
+"Vgradljiva komponenta urejevalnika besedil (z ločevanjem pogleda in "
+"dokumenta)"
+
+#. Comment
+#: tdetexteditor/tdetexteditoreditor.desktop:6
+msgid "Embeddable Text Editor Component (without Doc/View Separation)"
+msgstr ""
+"Vgradljiva komponenta urejevalnika besedil (brez ločevanja pogleda in "
+"dokumenta)"
+
+#. Comment
+#: tdetexteditor/tdetexteditorplugin.desktop:6
+msgid "KTextEditor Plugin"
+msgstr "Vstavek KTextEditor"

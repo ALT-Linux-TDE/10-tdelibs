@@ -1,0 +1,11 @@
+[Desktop Entry]
+Comment=Markdown document
+Type=MimeType
+MimeType=text/markdown
+Icon=text-x-generic
+Patterns=*.md;
+DefaultApp=konqueror
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

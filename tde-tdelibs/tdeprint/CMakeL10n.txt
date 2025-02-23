@@ -1,0 +1,28 @@
+##### create translation templates ##############
+
+tde_l10n_create_template(
+  CATALOG "tdeprint"
+  EXCLUDES "^cups/cupsdconf2/"
+)
+
+tde_l10n_auto_add_subdirectories( )
+
+file(
+  GLOB_RECURSE tdeprint_desktops
+  RELATIVE ${CMAKE_CURRENT_SOURCE_DIR}
+  ${CMAKE_CURRENT_SOURCE_DIR}/*.desktop
+)
+list( SORT tdeprint_desktops )
+
+file(
+  GLOB_RECURSE tdeprint_prints
+  RELATIVE ${CMAKE_CURRENT_SOURCE_DIR}
+  ${CMAKE_CURRENT_SOURCE_DIR}/*.print
+)
+list( SORT tdeprint_prints )
+
+tde_l10n_create_template(
+    CATALOG "desktop_files/tdeprint-desktops/"
+    SOURCES_DESKTOP ${tdeprint_desktops} ${tdeprint_prints}
+    DESTINATION "${CMAKE_SOURCE_DIR}/translations"
+)

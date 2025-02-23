@@ -1,0 +1,194 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 20:06+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: eventsrc:3
+msgid "System Notifications"
+msgstr "Mensagens do sistema"
+
+#. Name
+#: eventsrc:6
+msgid "Trash: emptied"
+msgstr "Lixo: esvaziado"
+
+#. Comment
+#: eventsrc:7
+msgid "The trash has been emptied"
+msgstr "O lixo foi esvaziado"
+
+#. Name
+#: eventsrc:11
+msgid "Textcompletion: rotation"
+msgstr "Completação de texto: dei a volta"
+
+#. Comment
+#: eventsrc:12
+msgid "The end of the list of matches has been reached"
+msgstr "O fim da lista de escolhas foi atingido"
+
+#. Name
+#: eventsrc:16
+msgid "Textcompletion: no match"
+msgstr "Completação de texto: nenhuma encontrada"
+
+#. Comment
+#: eventsrc:17
+msgid "No matching completion was found"
+msgstr "Não foi encontrada qualquer completação"
+
+#. Name
+#: eventsrc:21
+msgid "Textcompletion: partial match"
+msgstr "Completação de texto: parcial"
+
+#. Comment
+#: eventsrc:22
+msgid "There is more than one possible match"
+msgstr "Há mais do que uma completação possível"
+
+#. Name
+#: eventsrc:26
+msgid "Cannot Open File"
+msgstr "Não Consigo Abrir o Ficheiro"
+
+#. Comment
+#: eventsrc:27
+msgid "The selected file cannot be opened for reading or writing"
+msgstr "O ficheiro seleccionado não pode ser aberto para leitura ou escrita."
+
+#. Name
+#: eventsrc:31
+msgid "Fatal Error"
+msgstr "Erro Fatal"
+
+#. Comment
+#: eventsrc:32
+msgid "There was a serious error causing the program to exit"
+msgstr "Ocorreu um erro grave que provocou o fim da execução do programa"
+
+#. Name
+#: eventsrc:37
+msgid "Notification"
+msgstr "Mensagem"
+
+#. Comment
+#: eventsrc:38
+msgid "Something special happened in the program"
+msgstr "Ocorreu algo de especial no programa"
+
+#. Name
+#: eventsrc:44
+msgid "Warning"
+msgstr "Aviso"
+
+#. Comment
+#: eventsrc:45
+msgid "There was an error in the program which may cause problems"
+msgstr "Ocorreu um erro grave no programa que pode causar problemas"
+
+#. Name
+#: eventsrc:50
+msgid "Catastrophe"
+msgstr "Catástrofe"
+
+#. Comment
+#: eventsrc:51
+msgid "A very serious error occurred, at least causing the program to exit"
+msgstr ""
+"Ocorreu um erro muito grave, que no mínimo provocou o fim da execução do "
+"programa"
+
+#. Name
+#: eventsrc:55
+msgid "Login"
+msgstr "Inicio de sessão"
+
+#. Comment
+#: eventsrc:56
+msgid "TDE is starting up"
+msgstr "O TDE está a arrancar"
+
+#. Name
+#: eventsrc:61
+msgid "Logout"
+msgstr "Fim de sessão"
+
+#. Comment
+#: eventsrc:62
+msgid "TDE is exiting"
+msgstr "O TDE está a terminar"
+
+#. Name
+#: eventsrc:67
+msgid "Logout canceled"
+msgstr "Encerramento cancelado"
+
+#. Comment
+#: eventsrc:68
+msgid "TDE logout was canceled"
+msgstr "O encerramento da sessão do TDE foi cancelado"
+
+#. Name
+#: eventsrc:73
+msgid "Print error"
+msgstr "Erro de impressão"
+
+#. Comment
+#: eventsrc:74
+msgid "A print error has occurred"
+msgstr "Ocorreu um erro de impressão"
+
+#. Name
+#: eventsrc:79
+msgid "Information message"
+msgstr "Mensagem de informação"
+
+#. Comment
+#: eventsrc:80
+msgid "An information message is being shown"
+msgstr "Está a ser mostrada uma mensagem informativa"
+
+#. Name
+#: eventsrc:86
+msgid "Warning message"
+msgstr "Mensagem de aviso"
+
+#. Comment
+#: eventsrc:87
+msgid "A warning message is being shown"
+msgstr "Está a ser mostrada uma mensagem de aviso"
+
+#. Name
+#: eventsrc:94
+msgid "Critical message"
+msgstr "Mensagem crítica"
+
+#. Comment
+#: eventsrc:95
+msgid "A critical message is being shown"
+msgstr "Está a ser mostrada uma mensagem crítica"
+
+#. Name
+#: eventsrc:102
+msgid "Question"
+msgstr "Pergunta"
+
+#. Comment
+#: eventsrc:103
+msgid "A question is being asked"
+msgstr "Está´a ser feita uma pergunta"

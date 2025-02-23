@@ -1,0 +1,16 @@
+[Desktop Entry]
+Comment=XML DTD Document
+Icon=text-html
+Type=MimeType
+# RFC 3023
+MimeType=application/xml-dtd
+### TODO: *.mod (and *.MOD) should be allowed too, but that are sound files too. :-(
+Patterns=*.dtd;*.DTD;
+
+[Property::X-TDE-text]
+Type=bool
+Value=true
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.dtd

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Comment=PostScript Font Metrics
+Icon=font-x-generic_type1
+Type=MimeType
+MimeType=application/x-afm
+Patterns=*.afm;*.AFM

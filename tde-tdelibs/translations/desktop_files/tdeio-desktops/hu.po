@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 21:00+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Name
+#: application.desktop:4
+msgid "Application"
+msgstr "alkalmazás"
+
+#. Name
+#: kcomprfilter.desktop:4
+msgid "TDE Compression Filter"
+msgstr "TDE tömörítésszűrő"
+
+#. Comment
+#: kdatatool.desktop:4
+msgid "TDE Data Tool"
+msgstr "TDE adatkezelő segédprogram"
+
+#. Name
+#: kpasswdserver.desktop:3
+msgid "KDED Password Module"
+msgstr "KDED jelszómodul"
+
+#. Comment
+#: kpasswdserver.desktop:4
+msgid "Password caching support"
+msgstr "Jelszóelmentési támogatás"
+
+#. Name
+#: kscan.desktop:4
+msgid "KScan"
+msgstr ""
+
+#. Name
+#: kurifilterplugin.desktop:4
+msgid "Enhanced Browsing Plugin"
+msgstr "Továbbfejlesztett böngészés bővítőmodul"
+
+#. Name
+#: misc/kpac/proxyscout.desktop:3
+msgid "Proxy Scout"
+msgstr ""
+
+#. Comment
+#: misc/kpac/proxyscout.desktop:4
+msgid "Automatic proxy configuration"
+msgstr "Automatikus proxybeállítás"
+
+#. Name
+#: misc/kssld/kssld.desktop:9
+msgid "KSSL Daemon Module"
+msgstr "KSSL szolgáltatásmodul"
+
+#. Comment
+#: misc/kssld/kssld.desktop:10
+msgid "KSSL daemon module for KDED"
+msgstr "KSSL szolgáltatásmodul a KDED-hez"
+
+#. Name
+#: misc/tdeio_uiserver.desktop:4
+msgid "tdeio_uiserver"
+msgstr ""
+
+#. Comment
+#: misc/tdeio_uiserver.desktop:5
+msgid "TDE's Progress Info UI server"
+msgstr "TDE folyamatinformációs kiszolgáló"
+
+#. Name
+#: misc/tdewalletd/tdewalletd.desktop:9
+msgid "TDEWallet Daemon Module"
+msgstr "TDEWallet szolgáltatás"
+
+#. Comment
+#: misc/tdewalletd/tdewalletd.desktop:10
+msgid "TDEWallet daemon module for KDED"
+msgstr "TDEWallet szolgáltatásmodul a KDED-hez"
+
+#. Comment
+#: renamedlgplugin.desktop:4
+msgid "Plugin for the Rename Dialog"
+msgstr "Bővítőmodul az átnevezési párbeszédablakhoz"
+
+#. Name
+#: tdecmodule.desktop:4
+msgid "TDE Control Module"
+msgstr "TDE beállítómodul"
+
+#. Comment
+#: tdefile/kpropsdlgplugin.desktop:4
+msgid "Plugin for the Properties Dialog"
+msgstr "Beépülő modul a tulajdonságok párbeszédablakhoz"
+
+#. Name
+#: tdefileplugin.desktop:4
+msgid "KFile Meta Data Plugin"
+msgstr "KFile metaadat-modul"
+
+#. Description
+#: data.protocol:8
+msgid "A tdeioslave for data URIs (rfc2397)"
+msgstr "TDE-protokoll adat-URI-k használataához (RFC 2397)"
+
+#. Description
+#: misc/mms.protocol:11
+msgid "Microsoft Media Server Protocol"
+msgstr "MMS protokoll"

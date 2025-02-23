@@ -1,0 +1,11 @@
+[Desktop Entry]
+MimeType=text/rdf
+Comment=Resource Description Framework File
+Icon=news
+Type=MimeType
+Patterns=*.rdf;*.RDF;
+X-TDE-IsAlso=text/plain
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

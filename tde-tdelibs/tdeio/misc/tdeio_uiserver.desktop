@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Service
+Exec=tdeio_uiserver
+Name=tdeio_uiserver
+Comment=TDE's Progress Info UI server
+X-TDE-ServiceTypes=
+# It is a server
+X-DCOP-ServiceType=Unique
+X-TDE-StartupNotify=false

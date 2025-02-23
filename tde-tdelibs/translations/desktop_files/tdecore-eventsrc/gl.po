@@ -1,0 +1,194 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 20:06+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: eventsrc:3
+msgid "System Notifications"
+msgstr "Notificacións do Sistema de"
+
+#. Name
+#: eventsrc:6
+msgid "Trash: emptied"
+msgstr "Lixo: valeirado"
+
+#. Comment
+#: eventsrc:7
+msgid "The trash has been emptied"
+msgstr "O lixo foi valeirado"
+
+#. Name
+#: eventsrc:11
+msgid "Textcompletion: rotation"
+msgstr "Textcompletion: rotación"
+
+#. Comment
+#: eventsrc:12
+msgid "The end of the list of matches has been reached"
+msgstr "Chegou-se á fin da lista de coincidéncias."
+
+#. Name
+#: eventsrc:16
+msgid "Textcompletion: no match"
+msgstr "Textcompletion: sen coincidéncia"
+
+#. Comment
+#: eventsrc:17
+msgid "No matching completion was found"
+msgstr "Non se atopou nengunha completado coincidente."
+
+#. Name
+#: eventsrc:21
+msgid "Textcompletion: partial match"
+msgstr "Textcompletion: coincidéncia parcial"
+
+#. Comment
+#: eventsrc:22
+msgid "There is more than one possible match"
+msgstr "Hai máis dunha coincidéncia posíbel"
+
+#. Name
+#: eventsrc:26
+msgid "Cannot Open File"
+msgstr "Non se pode abrir a ficheiro"
+
+#. Comment
+#: eventsrc:27
+msgid "The selected file cannot be opened for reading or writing"
+msgstr "O ficheiro escollido non se pode abrir para ler ou escreber"
+
+#. Name
+#: eventsrc:31
+msgid "Fatal Error"
+msgstr "Erro moi grave"
+
+#. Comment
+#: eventsrc:32
+msgid "There was a serious error causing the program to exit"
+msgstr "Houbo un erro sério que provocou o remate da execución do programa"
+
+#. Name
+#: eventsrc:37
+msgid "Notification"
+msgstr "Notificación"
+
+#. Comment
+#: eventsrc:38
+msgid "Something special happened in the program"
+msgstr "Ocorreu algo especial no programa"
+
+#. Name
+#: eventsrc:44
+msgid "Warning"
+msgstr "Aviso"
+
+#. Comment
+#: eventsrc:45
+msgid "There was an error in the program which may cause problems"
+msgstr "Houbo un erro no programa que pode causar problemas."
+
+#. Name
+#: eventsrc:50
+msgid "Catastrophe"
+msgstr "Catástrofe"
+
+#. Comment
+#: eventsrc:51
+msgid "A very serious error occurred, at least causing the program to exit"
+msgstr ""
+"Ocorreu un erro moi sério, causando polo menos o remate da execución do "
+"programa"
+
+#. Name
+#: eventsrc:55
+msgid "Login"
+msgstr ""
+
+#. Comment
+#: eventsrc:56
+msgid "TDE is starting up"
+msgstr "TDE está a Iniciar-se"
+
+#. Name
+#: eventsrc:61
+msgid "Logout"
+msgstr ""
+
+#. Comment
+#: eventsrc:62
+msgid "TDE is exiting"
+msgstr "TDE está Saindo"
+
+#. Name
+#: eventsrc:67
+msgid "Logout canceled"
+msgstr ""
+
+#. Comment
+#: eventsrc:68
+msgid "TDE logout was canceled"
+msgstr ""
+
+#. Name
+#: eventsrc:73
+msgid "Print error"
+msgstr "Error de impresión"
+
+#. Comment
+#: eventsrc:74
+msgid "A print error has occurred"
+msgstr "Ocorreu un erro de impresión"
+
+#. Name
+#: eventsrc:79
+msgid "Information message"
+msgstr "Mensaxe de información"
+
+#. Comment
+#: eventsrc:80
+msgid "An information message is being shown"
+msgstr "Está-se a mostrar unha mensaxe de información"
+
+#. Name
+#: eventsrc:86
+msgid "Warning message"
+msgstr "Mensaxe de aviso"
+
+#. Comment
+#: eventsrc:87
+msgid "A warning message is being shown"
+msgstr "Está-se a mostrar unha mensaxe de aviso"
+
+#. Name
+#: eventsrc:94
+msgid "Critical message"
+msgstr "Mensaxe crítica"
+
+#. Comment
+#: eventsrc:95
+msgid "A critical message is being shown"
+msgstr "Está-se a mostrar unha mensaxe crítica"
+
+#. Name
+#: eventsrc:102
+msgid "Question"
+msgstr "Pergunta"
+
+#. Comment
+#: eventsrc:103
+msgid "A question is being asked"
+msgstr "Está-se a facer unha pergunta"

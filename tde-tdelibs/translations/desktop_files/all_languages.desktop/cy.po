@@ -1,0 +1,915 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-25 17:36+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: cy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Name
+#: all_languages.desktop:2
+msgid "Afar"
+msgstr "Afareg"
+
+#. Name
+#: all_languages.desktop:4
+msgid "Abkhazian"
+msgstr "Abkhazeg"
+
+#. Name
+#: all_languages.desktop:6
+msgid "Avestan"
+msgstr "Afestaneg"
+
+#. Name
+#: all_languages.desktop:8
+msgid "Afrikaans"
+msgstr "Affricaneg"
+
+#. Name
+#: all_languages.desktop:10
+msgid "Amharic"
+msgstr "Amhareg"
+
+#. Name
+#: all_languages.desktop:12
+msgid "Arabic"
+msgstr "Arabeg"
+
+#. Name
+#: all_languages.desktop:14
+msgid "Assamese"
+msgstr "Assameg"
+
+#. Name
+#: all_languages.desktop:16
+msgid "Aymara"
+msgstr "Aimareg"
+
+#. Name
+#: all_languages.desktop:18
+msgid "Azerbaijani"
+msgstr "Azerbaijaneg"
+
+#. Name
+#: all_languages.desktop:20
+msgid "Bashkir"
+msgstr "Bashkireg"
+
+#. Name
+#: all_languages.desktop:22
+msgid "Belarusian"
+msgstr "Belarwsieg"
+
+#. Name
+#: all_languages.desktop:24
+msgid "Bulgarian"
+msgstr "Bwlgareg"
+
+#. Name
+#: all_languages.desktop:26
+msgid "Bihari"
+msgstr "Bihareg"
+
+#. Name
+#: all_languages.desktop:28
+msgid "Bislama"
+msgstr "Bislameg"
+
+#. Name
+#: all_languages.desktop:30
+msgid "Bengali"
+msgstr "Bengaleg"
+
+#. Name
+#: all_languages.desktop:32
+msgid "Tibetan"
+msgstr "Tibeteg"
+
+#. Name
+#: all_languages.desktop:34
+msgid "Breton"
+msgstr "Llydaweg"
+
+#. Name
+#: all_languages.desktop:36
+msgid "Bosnian"
+msgstr "Bosneg"
+
+#. Name
+#: all_languages.desktop:38
+msgid "Catalan"
+msgstr "Catalaneg"
+
+#. Name
+#: all_languages.desktop:40
+msgid "Chechen"
+msgstr "Checheneg"
+
+#. Name
+#: all_languages.desktop:42
+msgid "Chamorro"
+msgstr "Chamorreg"
+
+#. Name
+#: all_languages.desktop:44
+msgid "Corsican"
+msgstr "Corsiceg"
+
+#. Name
+#: all_languages.desktop:46
+msgid "Czech"
+msgstr "Tsiec"
+
+#. Name
+#: all_languages.desktop:48
+msgid "Kashubian"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:50
+msgid "Church Slavic"
+msgstr "Slaveg Eglwysol"
+
+#. Name
+#: all_languages.desktop:52
+msgid "Chuvash"
+msgstr "Chuvasheg"
+
+#. Name
+#: all_languages.desktop:54
+msgid "Welsh"
+msgstr "Cymraeg"
+
+#. Name
+#: all_languages.desktop:56
+msgid "Danish"
+msgstr "Daneg"
+
+#. Name
+#: all_languages.desktop:58
+msgid "German"
+msgstr "Almaeneg"
+
+#. Name
+#: all_languages.desktop:60
+msgid "Dzongkha"
+msgstr "Dzongkhaeg"
+
+#. Name
+#: all_languages.desktop:62
+msgid "Greek"
+msgstr "Groeg"
+
+#. Name
+#: all_languages.desktop:64
+msgid "English"
+msgstr "Saesneg"
+
+#. Name
+#: all_languages.desktop:66
+msgid "English (British)"
+msgstr "Saesneg Prydain"
+
+#. Name
+#: all_languages.desktop:68
+#, fuzzy
+msgid "English (American)"
+msgstr "Saesneg Prydain"
+
+#. Name
+#: all_languages.desktop:70
+msgid "Esperanto"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:72
+msgid "Spanish"
+msgstr "Sbaeneg"
+
+#. Name
+#: all_languages.desktop:74
+msgid "Spanish (Argentina)"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:76
+msgid "Estonian"
+msgstr "Estoneg"
+
+#. Name
+#: all_languages.desktop:78
+msgid "Basque"
+msgstr "Basgeg"
+
+#. Name
+#: all_languages.desktop:80
+msgid "Persian"
+msgstr "Farsi (Perseg)"
+
+#. Name
+#: all_languages.desktop:82
+msgid "Finnish"
+msgstr "Ffineg"
+
+#. Name
+#: all_languages.desktop:84
+msgid "Fijian"
+msgstr "Fijieg"
+
+#. Name
+#: all_languages.desktop:86
+msgid "Faroese"
+msgstr "Faroeg"
+
+#. Name
+#: all_languages.desktop:88
+msgid "French"
+msgstr "Frangeg"
+
+#. Name
+#: all_languages.desktop:90
+msgid "Frisian"
+msgstr "Frisieg"
+
+#. Name
+#: all_languages.desktop:92
+#, fuzzy
+msgid "Irish"
+msgstr "Gaeleg"
+
+#. Name
+#: all_languages.desktop:94
+msgid "Gaelic"
+msgstr "Gaeleg"
+
+#. Name
+#: all_languages.desktop:96
+msgid "Galician"
+msgstr "Galiseg"
+
+#. Name
+#: all_languages.desktop:98
+msgid "Guarani"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:100
+msgid "Gujarati"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:102
+msgid "Manx"
+msgstr "Manneg"
+
+#. Name
+#: all_languages.desktop:104
+msgid "Hausa"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:106
+msgid "Hebrew"
+msgstr "Iddeweg"
+
+#. Name
+#: all_languages.desktop:108
+msgid "Hindi"
+msgstr "Hindw^"
+
+#. Name
+#: all_languages.desktop:110
+msgid "Hiri Motu"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:112
+msgid "Croatian"
+msgstr "Croatieg"
+
+#. Name
+#: all_languages.desktop:114
+msgid "Upper Sorbian"
+msgstr "Sorbieg Uchaf"
+
+#. Name
+#: all_languages.desktop:116
+msgid "Hungarian"
+msgstr "Hwngareg"
+
+#. Name
+#: all_languages.desktop:118
+msgid "Armenian"
+msgstr "Armeineg"
+
+#. Name
+#: all_languages.desktop:120
+msgid "Herero"
+msgstr "Hausa"
+
+#. Name
+#: all_languages.desktop:122
+msgid "Interlingua"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:124
+msgid "Indonesian"
+msgstr "Indonesieg"
+
+#. Name
+#: all_languages.desktop:126
+msgid "Interlingue"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:128
+msgid "Inupiaq"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:130
+msgid "Ido"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:132
+msgid "Icelandic"
+msgstr "Islandeg"
+
+#. Name
+#: all_languages.desktop:134
+msgid "Italian"
+msgstr "Eidaleg"
+
+#. Name
+#: all_languages.desktop:136
+msgid "Inuktitut"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:138
+msgid "Japanese"
+msgstr "Japaneg"
+
+#. Name
+#: all_languages.desktop:140
+msgid "Javanese"
+msgstr "Javaneg"
+
+#. Name
+#: all_languages.desktop:142
+msgid "Georgian"
+msgstr "Georgeg"
+
+#. Name
+#: all_languages.desktop:144
+msgid "Kikuyu"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:146
+msgid "Kazakh"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:148
+msgid "Kalaallisut"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:150
+msgid "Khmer"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:152
+msgid "Kannada"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:154
+msgid "Korean"
+msgstr "KoreÃ«g"
+
+#. Name
+#: all_languages.desktop:156
+msgid "Kashmiri"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:158
+msgid "Kurdish"
+msgstr "Kwrdeg"
+
+#. Name
+#: all_languages.desktop:160
+msgid "Komi"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:162
+msgid "Cornish"
+msgstr "Cernyweg"
+
+#. Name
+#: all_languages.desktop:164
+msgid "Kirghiz"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:166
+msgid "Latin"
+msgstr "Lladin"
+
+#. Name
+#: all_languages.desktop:168
+msgid "Luxembourgish"
+msgstr "Luxembwrgeg"
+
+#. Name
+#: all_languages.desktop:170
+msgid "Limburgan"
+msgstr "Limbwrgeg"
+
+#. Name
+#: all_languages.desktop:172
+msgid "Lingala"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:174
+msgid "Lao"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:176
+msgid "Lithuanian"
+msgstr "Lithuaneg"
+
+#. Name
+#: all_languages.desktop:178
+msgid "Latvian"
+msgstr "Latfieg"
+
+#. Name
+#: all_languages.desktop:180
+msgid "Malagasy"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:182
+msgid "Marshallese"
+msgstr "Marshalleg"
+
+#. Name
+#: all_languages.desktop:184
+msgid "Maori"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:186
+msgid "Macedonian"
+msgstr "Macedoneg"
+
+#. Name
+#: all_languages.desktop:188
+msgid "Malayalam"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:190
+msgid "Mongolian"
+msgstr "Mongoleg"
+
+#. Name
+#: all_languages.desktop:192
+msgid "Moldavian"
+msgstr "Moldafeg"
+
+#. Name
+#: all_languages.desktop:194
+msgid "Marathi"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:196
+msgid "Malay"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:198
+msgid "Maltese"
+msgstr "Malteg"
+
+#. Name
+#: all_languages.desktop:200
+msgid "Burmese"
+msgstr "Burmeg"
+
+#. Name
+#: all_languages.desktop:202
+msgid "Nauru"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:204
+msgid "Norwegian Bokmål"
+msgstr "Bokmal Norwyeg"
+
+#. Name
+#: all_languages.desktop:206
+msgid "Ndebele, North"
+msgstr "Ndebele, Gogledd"
+
+#. Name
+#: all_languages.desktop:208
+msgid "Low Saxon"
+msgstr "Sacsoneg Isel"
+
+#. Name
+#: all_languages.desktop:210
+msgid "Nepali"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:212
+msgid "Ndonga"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:214
+msgid "Dutch"
+msgstr "Iseldireg"
+
+#. Name
+#: all_languages.desktop:216
+msgid "Norwegian Nynorsk"
+msgstr "Nynorsk Norwyeg"
+
+#. Name
+#: all_languages.desktop:218
+msgid "Ndebele, South"
+msgstr "Ndebele, De"
+
+#. Name
+#: all_languages.desktop:220
+msgid "Northern Sotho"
+msgstr "Sotho'r Gogledd"
+
+#. Name
+#: all_languages.desktop:222
+msgid "Navajo"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:224
+msgid "Chichewa"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:226
+msgid "Occitan"
+msgstr "Occitaneg"
+
+#. Name
+#: all_languages.desktop:228
+msgid "Oromo"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:230
+msgid "Oriya"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:232
+msgid "Ossetian"
+msgstr "Oseteg"
+
+#. Name
+#: all_languages.desktop:234
+msgid "Punjabi"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:236
+msgid "Pali"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:238
+msgid "Polish"
+msgstr "Pwyleg"
+
+#. Name
+#: all_languages.desktop:240
+msgid "Pushto"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:242
+msgid "Portuguese"
+msgstr "Portiwgaleg"
+
+#. Name
+#: all_languages.desktop:244
+msgid "Portuguese (Brazil)"
+msgstr "Portiwgaleg Brasil"
+
+#. Name
+#: all_languages.desktop:246
+msgid "Quechua"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:248
+msgid "Rundi"
+msgstr "Rwndi"
+
+#. Name
+#: all_languages.desktop:250
+msgid "Romanian"
+msgstr "Romaneg"
+
+#. Name
+#: all_languages.desktop:252
+#, fuzzy
+msgid "Romany"
+msgstr "Romaneg"
+
+#. Name
+#: all_languages.desktop:254
+msgid "Russian"
+msgstr "Rwsieg"
+
+#. Name
+#: all_languages.desktop:256
+msgid "Kinyarwanda"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:258
+msgid "Sanskrit"
+msgstr "Sansgrit"
+
+#. Name
+#: all_languages.desktop:260
+msgid "Sardinian"
+msgstr "Sardinieg"
+
+#. Name
+#: all_languages.desktop:262
+msgid "Sindhi"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:264
+msgid "Northern Sami"
+msgstr "Sami'r Gogledd"
+
+#. Name
+#: all_languages.desktop:266
+msgid "Sango"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:268
+msgid "Sinhalese"
+msgstr "Sinhaleg"
+
+#. Name
+#: all_languages.desktop:270
+msgid "Slovak"
+msgstr "Sloveg"
+
+#. Name
+#: all_languages.desktop:272
+msgid "Slovenian"
+msgstr "Sloveneg"
+
+#. Name
+#: all_languages.desktop:274
+msgid "Samoan"
+msgstr "Samoeg"
+
+#. Name
+#: all_languages.desktop:276
+msgid "Shona"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:278
+msgid "Somali"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:280
+msgid "Albanian"
+msgstr "Albaneg"
+
+#. Name
+#: all_languages.desktop:282
+msgid "Serbian"
+msgstr "Serbieg"
+
+#. Name
+#: all_languages.desktop:284
+msgid "Serbian Latin"
+msgstr "Serbieg Lladin"
+
+#. Name
+#: all_languages.desktop:286
+msgid "Swati"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:288
+msgid "Sotho, Southern"
+msgstr "Sotho, De"
+
+#. Name
+#: all_languages.desktop:290
+msgid "Sundanese"
+msgstr "Sundaneg"
+
+#. Name
+#: all_languages.desktop:292
+msgid "Swedish"
+msgstr "Swedeg"
+
+#. Name
+#: all_languages.desktop:294
+msgid "Swahili"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:296
+msgid "Tamil"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:298
+msgid "Telugu"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:300
+msgid "Tajik"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:302
+msgid "Thai"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:304
+msgid "Tigrinya"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:306
+msgid "Turkmen"
+msgstr "Twrcmeneg"
+
+#. Name
+#: all_languages.desktop:308
+msgid "Tswana"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:310
+msgid "Tonga"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:312
+msgid "Turkish"
+msgstr "Twrceg"
+
+#. Name
+#: all_languages.desktop:314
+msgid "Tsonga"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:316
+msgid "Tatar"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:318
+msgid "Twi"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:320
+msgid "Tahitian"
+msgstr "Tahitieg"
+
+#. Name
+#: all_languages.desktop:322
+msgid "Uighur"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:324
+msgid "Ukrainian"
+msgstr "Ukraineg"
+
+#. Name
+#: all_languages.desktop:326
+msgid "Urdu"
+msgstr "Wrdw"
+
+#. Name
+#: all_languages.desktop:328
+msgid "Uzbek"
+msgstr "Wzbec"
+
+#. Name
+#: all_languages.desktop:330
+msgid "Uzbek (Cyrillic)"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:332
+msgid "Venda"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:334
+msgid "Vietnamese"
+msgstr "Vietnameg"
+
+#. Name
+#: all_languages.desktop:336
+msgid "Volapük"
+msgstr "Volapuk"
+
+#. Name
+#: all_languages.desktop:338
+msgid "Walloon"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:340
+msgid "Wolof"
+msgstr "Woloff"
+
+#. Name
+#: all_languages.desktop:342
+msgid "Xhosa"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:344
+msgid "Yiddish"
+msgstr "Yideg"
+
+#. Name
+#: all_languages.desktop:346
+msgid "Yoruba"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:348
+msgid "Zhuang"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:350
+msgid "Chinese"
+msgstr "Tseineeg"
+
+#. Name
+#: all_languages.desktop:352
+msgid "Chinese (Simplified)"
+msgstr "Tseineeg Syml"
+
+#. Name
+#: all_languages.desktop:354
+msgid "Chinese (Hong Kong)"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:356
+msgid "Chinese (Traditional)"
+msgstr "Tsieineeg Traddodiadol"
+
+#. Name
+#: all_languages.desktop:358
+msgid "Zulu"
+msgstr ""

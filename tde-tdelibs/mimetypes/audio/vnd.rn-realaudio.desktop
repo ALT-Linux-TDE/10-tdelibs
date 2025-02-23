@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=audio/vnd.rn-realaudio
+Icon=audio-x-generic
+Patterns=*.ra;*.ram;*.RA;*.RAM;
+X-TDE-IsAlso=audio/x-pn-realaudio
+Comment=RealAudio File
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.ra

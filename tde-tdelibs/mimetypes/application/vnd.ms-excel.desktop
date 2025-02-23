@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/vnd.ms-excel
+Patterns=*.xls;*.XLS
+Icon=application-vnd.oasis.opendocument.spreadsheet
+Comment=Microsoft Excel Spreadsheet
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.xls

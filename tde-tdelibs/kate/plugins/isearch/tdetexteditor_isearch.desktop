@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=KTextEditor Incremental Search Plugin
+Comment=Also known as "As you type search"
+X-TDE-Library=tdetexteditor_isearch
+X-TDE-ServiceTypes=KTextEditor/Plugin
+Type=Service
+X-TDE-InitialPreference=8
+MimeType=text/plain

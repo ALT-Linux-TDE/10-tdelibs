@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-mimearchive
+Icon=message
+Patterns=*.mhtml;*.MHTML;*.mht;*.MHT
+Comment=Mime Encapsulated Web Archive
+
+[Property::X-TDE-LocalProtocol]
+Type=TQString
+Value=mhtml

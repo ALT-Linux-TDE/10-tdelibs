@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-02 14:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: kspeech/dcoptexttospeech.desktop:5
+msgid "Text-to-Speech Service with a DCOP interface"
+msgstr "DCOP இடைமுகத்துடன் உரையில் இருந்து பேச்சு சேவை"
+
+#. Comment
+#: tdeimproxy/interface/dcopinstantmessenger.desktop:5
+msgid "Instant Messenger with a DCOP interface"
+msgstr "உடனடி செய்தியாளர் DCOP இடைமுகத்தோடு"
+
+#. Name
+#: tdeimproxy/interface/kcm_instantmessenger.desktop:9
+msgid "Instant Messenger"
+msgstr "உடனடி செய்தியாளர்"
+
+#. Comment
+#: tdeimproxy/interface/kcm_instantmessenger.desktop:11
+msgid ""
+"The instant messenger allows two-way chat between individuals and groups."
+msgstr "உடனடி தகவல் உங்களை இரண்டு வழியில் தனிநபர் மற்றும் குழுக்கள் இடையே அனுமதிக்கும்."
+
+#. Name
+#: tdescript/sample/shellscript.desktop:7
+msgid "Bash Shell Script Runner"
+msgstr "பேஷ் ஓட்டு எழுத்தாக்க இயக்கி"
+
+#. Comment
+#: tdescript/sample/shellscript.desktop:8
+msgid "Runs bash shell scripts from inside the application."
+msgstr "பயன்பாட்டில் இருந்து பேஷ் ஓட்டு எழுத்தாக்க இயக்குகிறது"
+
+#. Comment
+#: tdescript/scriptinterface.desktop:5
+msgid "This is a generic test script engine for testing the script interface."
+msgstr "எழுத்தாக்க இடைமுகத்தைச் சோதிக்க உதவும் ஒரு பொதுவான சோதனை இயந்திரம்."
+
+#. Name
+#: tdetexteditor/kcm_tdetexteditor.desktop:9
+msgid "Embedded Text Editor"
+msgstr "உட்பொதிந்த உரை தொகுப்பி"
+
+#. Comment
+#: tdetexteditor/kcm_tdetexteditor.desktop:10
+msgid ""
+"The text editor service provides applications with a text viewer and editor. "
+"TDE applications that provide text editing facilities should use this "
+"service."
+msgstr ""
+"உரை மற்றும் தொகுப்பாளருடனான பயன்பாடுகளை உரை தொகுப்பாளர் சேவை வழங்குகிறது. உரை "
+"தொகுக்கும் வசதிகளை வழங்கும் கேடிஇ பயன்பாடுகள் இச்சேவையைப் பயன்படுத்த வேண்டும்."
+
+#. Comment
+#: tdetexteditor/tdetexteditor.desktop:6
+msgid "Embeddable Text Editor Component (with Doc/View Separation)"
+msgstr "உட்பொதிந்த உரை தொகுப்பாளர் பகுதி (ஆவண/காட்சி பிரிவுகளுடன்)"
+
+#. Comment
+#: tdetexteditor/tdetexteditoreditor.desktop:6
+msgid "Embeddable Text Editor Component (without Doc/View Separation)"
+msgstr "உட்பொதிந்த உரை தொகுப்பாளர் கூறு (ஆவண/காட்சி பிரிவுகளற்ற)"
+
+#. Comment
+#: tdetexteditor/tdetexteditorplugin.desktop:6
+msgid "KTextEditor Plugin"
+msgstr "கேஉரைதொகுப்பி சொருகுப்பொருள்"

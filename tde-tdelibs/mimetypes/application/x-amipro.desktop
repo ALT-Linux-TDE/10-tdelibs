@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=application-vnd.oasis.opendocument.text
+Type=MimeType
+MimeType=application/x-amipro
+Patterns=*.sam;*.SAM;
+Comment=Lotus AmiPro Document

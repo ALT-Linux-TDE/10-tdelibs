@@ -1,0 +1,5 @@
+[TDE Print Entry]
+PrintSystem=lpr
+Comment=LPR/LPRng Print System
+DetectUris=service:/printer
+DetectPrecedence=0

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Comment=LDAP Addressbook
+Icon=x-office-address-book
+Type=MimeType
+MimeType=text/x-ldif
+Patterns=*.ldif;*.LDIF
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

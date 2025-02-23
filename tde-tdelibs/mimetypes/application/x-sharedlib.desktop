@@ -1,0 +1,6 @@
+[Desktop Entry]
+Comment=Shared Library
+Icon=application-octet-stream
+Type=MimeType
+MimeType=application/x-sharedlib
+Patterns=

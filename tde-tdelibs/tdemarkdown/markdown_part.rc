@@ -1,0 +1,18 @@
+<!DOCTYPE kpartgui SYSTEM "kpartgui.dtd">
+<kpartgui name="MarkdownPart" version="1">
+<MenuBar>
+ <Menu name="edit"><text>&amp;Edit</text>
+  <Action name="selectAll" />
+  <Separator />
+  <Action name="find" />
+  <Action name="findNext" />
+  <Action name="findPrevious" />
+ </Menu>
+ <Menu name="view"><text>&amp;View</text>
+  <Action name="viewDocumentSource" />
+ </Menu>
+</MenuBar>
+<ToolBar name="mainToolBar"><text>Main Toolbar</text>
+ <Action name="find" />
+</ToolBar>
+</kpartgui>

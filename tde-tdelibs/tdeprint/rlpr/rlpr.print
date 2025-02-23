@@ -1,0 +1,5 @@
+[TDE Print Entry]
+PrintSystem=rlpr
+Comment=RLPR Environment (Remote LPD servers)
+DetectUris=exec:/rlpr
+DetectPrecedence=0

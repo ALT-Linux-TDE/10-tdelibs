@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+Comment=CD Audio
+MimeType=application/x-cda
+Icon=application-x-cda
+Patterns=*.cda;*.CDA

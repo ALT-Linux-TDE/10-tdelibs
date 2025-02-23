@@ -1,0 +1,88 @@
+/**
+	* @mainpage The Trinity API Reference
+	*
+	* This section contains the Trinity online class reference for the current
+	* development version of Trinity. You can also 
+	* download the complete API documentation from
+        * <a target="_top" href="http://www.trinitydesktop.org/">www.trinitydesktop.org</a>.  Additionally, you 
+        * can subscribe or read the mailing lists for any additions and/or 
+        * modifications to the API.
+	*
+	* - <a target="_top" href="tdecore/html/index.html"><b>tdecore</b></a>
+        *   (<a target="_top" href="tdecore/html/classes.html">classes</a>)\n
+	*   <i>Core Trinity classes that are not related to the user interface.</i>
+	* - <a target="_top" href="tdeui/html/index.html"><b>tdeui</b></a>
+        *   (<a target="_top" href="tdeui/html/classes.html">classes</a>)\n
+	*   <i>Trinity User interface classes such as widgets.</i>
+	* - <a target="_top" href="tdehtml/html/index.html"><b>tdehtml</b></a>
+        *   (<a target="_top" href="tdehtml/html/classes.html">classes</a>)\n
+	*   <i>The Trinity HTML component.</i>
+	* - <a target="_top" href="kjs/html/index.html"><b>kjs</b></a>
+        *   (<a target="_top" href="kjs/html/classes.html">classes</a>)\n
+	*   <i>Javascript (aka. ECMAScript and JScript) support.</i>
+	* - <a target="_top" href="tdeio/html/index.html"><b>tdeio</b></a>
+        *   (<a target="_top" href="tdeio/tdeio/html/classes.html">classes</a>)\n
+	*   <i>Low level access to network files. Also provides access to facilities
+	*   such as KDirWatcher which monitors directories for changes.</i>
+	* - <a target="_top" href="tdeparts/html/index.html"><b>tdeparts</b></a>
+        *   (<a target="_top" href="tdeparts/html/classes.html">classes</a>)\n
+	*   <i>Support for re-usable, embeddable, extendable applications.</i>
+	* - <a target="_top" href="dcop/html/index.html"><b>dcop</b></a>
+        *   (<a target="_top" href="dcop/html/classes.html">classes</a>)\n
+	*   <i>The DCOP communications library.</i>
+	* - <a target="_top" href="tdefx/html/index.html"><b>tdefx</b></a>
+        *   (<a target="_top" href="tdefx/html/classes.html">classes</a>)\n
+	*   <i>A library with pixmap effects.</i>
+	* - <a target="_top" href="tdemdi/html/index.html"><b>tdemdi</b></a>
+        *   (<a target="_top" href="tdemdi/html/classes.html">classes</a>)\n
+	*   <i>MultiDocument Interface library.</i>
+	* - <a target="_top" href="libtdemid/html/index.html"><b>libtdemid</b></a>
+        *   (<a target="_top" href="libtdemid/html/classes.html">classes</a>)\n
+	*   <i>Midi library.</i>
+	* - <a target="_top" href="tdeprint/html/index.html"><b>tdeprint</b></a>
+        *   (<a target="_top" href="tdeprint/html/classes.html">classes</a>)\n
+	*   <i>High level  printer control functionality.</i>
+	* - <a target="_top" href="tderandr/html/index.html"><b>tderandr</b></a>
+        *   (<a target="_top" href="tderandr/html/classes.html">classes</a>)\n
+	*   <i>High level Xorg configuration via XRandr.</i>
+	* - <a target="_top" href="interfaces/html/index.html"><b>interfaces</b></a>
+        *   (<a target="_top" href="interfaces/html/classes.html">classes</a>)\n
+	*   <i>Defines interfaces for common components so that new implementations
+	*   can be dropped in.</i>
+	* - <a target="_top" href="tdeabc/html/index.html"><b>tdeabc</b></a>
+        *   (<a target="_top" href="tdeabc/html/classes.html">classes</a>)\n
+	*   <i>Access to the Trinity address book.</i>
+	* - <a target="_top" href="tderesources/html/index.html"><b>tderesources</b></a>
+        *   (<a target="_top" href="tderesources/html/classes.html">classes</a>)\n
+	*   <i>The Trinity resources system.</i>
+	* - <a target="_top" href="tdeutils/html/index.html"><b>tdeutils</b></a>
+        *   (<a target="_top" href="tdeutils/html/classes.html">classes</a>)\n
+	*   <i>High-level utils, like search/replace support.</i>
+	* - <a target="_top" href="arts/html/index.html"><b>arts</b></a>
+        *   (<a target="_top" href="arts/html/classes.html">classes</a>)\n
+	*   <i>Trinity bindings for arts including knotify.</i>
+	* - <a target="_top" href="tdenewstuff/html/index.html"><b>tdenewstuff</b></a>
+        *   (<a target="_top" href="tdenewstuff/html/classes.html">classes</a>)\n
+	*   <i>Upload and download of application data.</i>
+	* - <a target="_top" href="dnssd/html/index.html"><b>dnssd</b></a>
+        *   (<a target="_top" href="dnssd/html/classes.html">classes</a>)\n
+	*   <i>Network sevices publishing and discovery.</i>
+	* - <a target="_top" href="tdeunittest/html/index.html"><b>tdeunittest</b></a>
+        *   (<a target="_top" href="tdeunittest/html/classes.html">classes</a>)\n
+	*   <i>Unit testing framework in Trinity.</i>
+
+	*
+	* More information about the Trinity architecture in form of tutorials, HOWTOs,
+	* and FAQs can be found at
+	* the <a target="_top" href="http://www.trinitydesktop.org">the Trinity project</a>.
+	*/
+
+/**
+	* @page search Search the API documentation
+	*
+	* \htmlonly
+	* <br><FORM action="/search/omega" method="get"><INPUT type="text" name="P"><INPUT type="hidden" name="DEFAULTOP" value="or"><INPUT type="hidden" name="DB" value="trinity_api"><INPUT type="hidden" name="FMT" value="trinity_api"><INPUT type="hidden" name="xDB" value="default"><INPUT type="submit" value="Search Trinity API Documentation"></FORM>
+	* \endhtmlonly
+	*
+	*/
+

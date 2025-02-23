@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-object
+Icon=application-octet-stream
+Patterns=*.o;
+Comment=Object Code

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Service
+Name=HTTP Cache Cleaner
+Comment=Cleans up old entries from the HTTP cache
+Exec=tdeio_http_cache_cleaner
+X-TDE-StartupNotify=false

@@ -1,0 +1,5 @@
+## Predefined macros, to remove all the _EXPORT things
+## from function definitions.
+PREDEFINED = TDECORE_EXPORT="" \
+	TDEUI_EXPORT="" \
+	Q_OS_UNIX=""

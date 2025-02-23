@@ -1,0 +1,10 @@
+[Desktop Entry]
+Comment=OpenOffice.org Presentation Template
+MimeType=application/vnd.sun.xml.impress.template
+Type=MimeType
+Icon=application-vnd.oasis.opendocument.presentation
+Patterns=*.sti;*.STI;
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.sti

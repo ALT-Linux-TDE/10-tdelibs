@@ -1,0 +1,10 @@
+[Desktop Entry]
+Comment=DocBook Document
+Icon=application-vnd.oasis.opendocument.text
+Type=MimeType
+MimeType=text/docbook
+Patterns=*.docbook;
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

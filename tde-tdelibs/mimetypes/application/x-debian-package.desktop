@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-debian-package
+Icon=application-x-deb
+# Just an alias for x-deb, remove in KDE4
+X-TDE-IsAlso=application/x-deb
+Comment=Debian Package

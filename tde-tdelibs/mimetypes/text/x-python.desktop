@@ -1,0 +1,7 @@
+[Desktop Entry]
+Comment=Python Program
+Type=MimeType
+MimeType=text/x-python
+Icon=text-x-python
+# alias of application/x-python
+X-TDE-IsAlso=application/x-python

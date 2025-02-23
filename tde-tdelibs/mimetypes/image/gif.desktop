@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=image/gif
+Icon=image-x-generic
+Patterns=*.gif;*.GIF;
+Comment=GIF Image

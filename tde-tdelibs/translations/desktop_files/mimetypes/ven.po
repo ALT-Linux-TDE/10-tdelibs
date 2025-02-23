@@ -1,0 +1,1790 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-26 20:48+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ven\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: all.desktop:4
+#, fuzzy
+msgid "All Files and Folders"
+msgstr "Faela dzothe"
+
+#. Comment
+#: allfiles.desktop:4
+msgid "All Files"
+msgstr "Faela dzothe"
+
+#. Comment
+#: application/chm.desktop:2
+#, fuzzy
+msgid "HTML Help Document"
+msgstr "Manwalwa a WML"
+
+#. Comment
+#: application/fits.desktop:4
+msgid "FITS Data"
+msgstr ""
+
+#. Comment
+#: application/illustrator.desktop:6
+msgid "Adobe Illustrator Document"
+msgstr "Manwalwa a u sumbedzisa a Adobe"
+
+#. Comment
+#: application/java.desktop:5 application/x-java.desktop:6
+msgid "Java Class"
+msgstr "Kilasi ya Java"
+
+#. Comment
+#: application/mathml+xml.desktop:8
+#, fuzzy
+msgid "MathML Document"
+msgstr "Manwalwa a WML"
+
+#. Comment
+#: application/mbox.desktop:5
+msgid "MBOX Mail Folder"
+msgstr ""
+
+#. Comment
+#: application/msexcel.desktop:7 application/vnd.ms-excel.desktop:6
+#: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.desktop:6
+msgid "Microsoft Excel Spreadsheet"
+msgstr "Bammbiri lo navhaho la microsoft Excel"
+
+#. Comment
+#: application/mspowerpoint.desktop:7 application/vnd.ms-powerpoint.desktop:6
+#: application/vnd.openxmlformats-officedocument.presentationml.presentation.desktop:6
+msgid "Microsoft PowerPoint Presentation"
+msgstr ""
+
+#. Comment
+#: application/msword.desktop:8 application/vnd.ms-word.desktop:6
+#: application/vnd.openxmlformats-officedocument.wordprocessingml.document.desktop:6
+msgid "Microsoft Word Document"
+msgstr "Manwalwa a Microsoft Word"
+
+#. Comment
+#: application/octet-stream.desktop:5
+msgid "Unknown"
+msgstr "Zwisadivhei"
+
+#. Comment
+#: application/ogg.desktop:9 application/x-ogg.desktop:8
+msgid "Ogg Multimedia"
+msgstr "Zwavhukwamani ha Ogg"
+
+#. Comment
+#: application/pdf.desktop:7
+msgid "PDF Document"
+msgstr "Manwalwa a pdf"
+
+#. Comment
+#: application/pgp-encrypted.desktop:6
+msgid "PGP/MIME Encrypted Message Header"
+msgstr "Thoho ya mulaedza ya PGP/MIME"
+
+#. Comment
+#: application/pgp-keys.desktop:6
+msgid "OpenPGP Key Bundle"
+msgstr ""
+
+#. Comment
+#: application/pgp-signature.desktop:5
+msgid "Detached OpenPGP Signature"
+msgstr "Tsaino ya tumanywaho na PGP yo vuleaho"
+
+#. Comment
+#: application/pgp.desktop:5
+#, fuzzy
+msgid "PGP Encrypted or Signed Message"
+msgstr "Thoho ya mulaedza ya PGP/MIME"
+
+#. Comment
+#: application/pkcs10.desktop:6
+msgid "S/MIME Certification Request"
+msgstr "Khumbelo ya sethifikheithi tsha PKCS#12"
+
+#. Comment
+#: application/pkcs7-mime.desktop:6
+msgid "PKCS#7 (S/MIME) Formatted Data"
+msgstr "PKCS#7 (S/MIME) Data yo vhumbeaho"
+
+#. Comment
+#: application/pkcs7-signature.desktop:6
+msgid "Detached S/MIME Signature"
+msgstr "Tsaino yo tumanywaho ya S/MIME"
+
+#. Comment
+#: application/postscript.desktop:7
+msgid "PostScript Document"
+msgstr "Manwalwa a tshikiriputi tsha poso"
+
+#. Comment
+#: application/relaxng.desktop:2
+msgid "RELAX NG"
+msgstr ""
+
+#. Comment
+#: application/sieve.desktop:5
+msgid "SIEVE Mail Filter Script"
+msgstr "Tshikiputi tsha filithara ya meili ya SIEVE"
+
+#. Comment
+#: application/smil.desktop:6
+msgid "Synchronized Multimedia Integration Language"
+msgstr "Luambo lwo tangananaho lwa zwishumiswa zwa vhudavhidzani"
+
+#. Comment
+#: application/vnd.gentoo.ebuild.desktop:3
+msgid "Gentoo ebuild file"
+msgstr ""
+
+#. Comment
+#: application/vnd.mozilla.xul+xml.desktop:7
+msgid "Mozilla XUL File"
+msgstr ""
+
+#. Comment
+#: application/vnd.ms-access.desktop:5 application/x-msaccess.desktop:6
+#, fuzzy
+msgid "Microsoft Access Database"
+msgstr "Bammbiri lo navhaho la microsoft Excel"
+
+#. Comment
+#: application/vnd.ms-asf.desktop:5 video/x-ms-asf.desktop:7
+msgid "ASF Media"
+msgstr ""
+
+#. Comment
+#: application/vnd.ms-excel.addin.macroEnabled.12.desktop:6
+msgid "Microsoft Excel Spreadsheet Add-In Macro Enabled"
+msgstr "Bammbiri lo navhaho la microsoft Excel"
+
+#. Comment
+#: application/vnd.ms-excel.sheet.binary.macroEnabled.12.desktop:6
+#: application/vnd.ms-excel.sheet.macroEnabled.12.desktop:6
+msgid "Microsoft Excel Spreadsheet Macro Enabled"
+msgstr "Bammbiri lo navhaho la microsoft Excel"
+
+#. Comment
+#: application/vnd.ms-excel.template.macroEnabled.12.desktop:6
+msgid "Microsoft Excel Spreadsheet Template Macro Enabled"
+msgstr "Bammbiri lo navhaho la microsoft Excel"
+
+#. Comment
+#: application/vnd.ms-powerpoint.addin.macroEnabled.12.desktop:6
+#, fuzzy
+msgid "Microsoft PowerPoint Presentation Add-In Macro Enabled"
+msgstr "Bammbiri lo navhaho la microsoft Excel"
+
+#. Comment
+#: application/vnd.ms-powerpoint.presentation.macroEnabled.12.desktop:6
+#, fuzzy
+msgid "Microsoft PowerPoint Presentation Macro Enabled"
+msgstr "Manwalwa a Microsoft Word"
+
+#. Comment
+#: application/vnd.ms-powerpoint.slideshow.macroEnabled.12.desktop:6
+#, fuzzy
+msgid "Microsoft PowerPoint Presentation SlideShow Macro Enabled"
+msgstr "Manwalwa a Microsoft Word"
+
+#. Comment
+#: application/vnd.ms-powerpoint.template.macroEnabled.12.desktop:6
+#, fuzzy
+msgid "Microsoft PowerPoint Presentation Template Macro Enabled"
+msgstr "Manwalwa a Microsoft Word"
+
+#. Comment
+#: application/vnd.ms-word.document.macroEnabled.12.desktop:6
+msgid "Microsoft Word Document Macro Enabled"
+msgstr "Manwalwa a Microsoft Word"
+
+#. Comment
+#: application/vnd.ms-word.template.macroEnabled.12.desktop:6
+msgid "Microsoft Word Document Template Macro Enabled"
+msgstr "Manwalwa a Microsoft Word"
+
+#. Comment
+#: application/vnd.oasis.opendocument.chart.desktop:6
+msgid "OASIS OpenDocument Chart"
+msgstr ""
+
+#. Comment
+#: application/vnd.oasis.opendocument.database.desktop:6
+msgid "OASIS OpenDocument Database"
+msgstr ""
+
+#. Comment
+#: application/vnd.oasis.opendocument.formula.desktop:6
+msgid "OASIS OpenDocument Formula"
+msgstr ""
+
+#. Comment
+#: application/vnd.oasis.opendocument.graphics-flat-xml.desktop:6
+msgid "OASIS OpenDocument Graphics (Flat XML)"
+msgstr ""
+
+#. Comment
+#: application/vnd.oasis.opendocument.graphics-template.desktop:6
+msgid "OASIS OpenDocument Graphics Template"
+msgstr ""
+
+#. Comment
+#: application/vnd.oasis.opendocument.graphics.desktop:6
+msgid "OASIS OpenDocument Graphics"
+msgstr ""
+
+#. Comment
+#: application/vnd.oasis.opendocument.image.desktop:6
+msgid "OASIS OpenDocument Image"
+msgstr ""
+
+#. Comment
+#: application/vnd.oasis.opendocument.presentation-flat-xml.desktop:6
+msgid "OASIS OpenDocument Presentation (Flat XML)"
+msgstr ""
+
+#. Comment
+#: application/vnd.oasis.opendocument.presentation-template.desktop:6
+msgid "OASIS OpenDocument Presentation Template"
+msgstr ""
+
+#. Comment
+#: application/vnd.oasis.opendocument.presentation.desktop:6
+msgid "OASIS OpenDocument Presentation"
+msgstr ""
+
+#. Comment
+#: application/vnd.oasis.opendocument.spreadsheet-flat-xml.desktop:6
+msgid "OASIS OpenDocument SpreadSheet (Flat XML)"
+msgstr ""
+
+#. Comment
+#: application/vnd.oasis.opendocument.spreadsheet-template.desktop:6
+#, fuzzy
+msgid "OASIS OpenDocument SpreadSheet Template"
+msgstr "Bammbiri lo navhaho la microsoft Excel"
+
+#. Comment
+#: application/vnd.oasis.opendocument.spreadsheet.desktop:6
+msgid "OASIS OpenDocument SpreadSheet"
+msgstr ""
+
+#. Comment
+#: application/vnd.oasis.opendocument.text-flat-xml.desktop:6
+msgid "OASIS OpenDocument Text (Flat XML)"
+msgstr ""
+
+#. Comment
+#: application/vnd.oasis.opendocument.text-template.desktop:6
+msgid "OASIS OpenDocument Text Template"
+msgstr ""
+
+#. Comment
+#: application/vnd.oasis.opendocument.text.desktop:6
+msgid "OASIS OpenDocument Text"
+msgstr ""
+
+#. Comment
+#: application/vnd.openxmlformats-officedocument.presentationml.slideshow.desktop:6
+msgid "Microsoft PowerPoint Presentation SlideShow"
+msgstr ""
+
+#. Comment
+#: application/vnd.openxmlformats-officedocument.presentationml.template.desktop:6
+#, fuzzy
+msgid "Microsoft PowerPoint Presentation Template"
+msgstr "Manwalwa a Microsoft Word"
+
+#. Comment
+#: application/vnd.openxmlformats-officedocument.spreadsheetml.template.desktop:6
+msgid "Microsoft Excel Spreadsheet Template"
+msgstr "Bammbiri lo navhaho la microsoft Excel"
+
+#. Comment
+#: application/vnd.openxmlformats-officedocument.wordprocessingml.template.desktop:6
+msgid "Microsoft Word Document Template"
+msgstr "Manwalwa a Microsoft Word"
+
+#. Comment
+#: application/vnd.palm.desktop:6
+#, fuzzy
+msgid "Palm Document"
+msgstr "Manwalwa a pdf"
+
+#. Comment
+#: application/vnd.rn-realmedia.desktop:6
+#, fuzzy
+msgid "RealMedia File"
+msgstr "Faela ya Khalenda"
+
+#. Comment
+#: application/vnd.stardivision.calc.desktop:6
+msgid "StarOffice Calc Spreadsheet"
+msgstr "U phadaladza ha bammbiri la Calc ya StarOffice"
+
+#. Comment
+#: application/vnd.stardivision.chart.desktop:6
+#, fuzzy
+msgid "StarOffice Chart"
+msgstr "U phadaladza ha bammbiri la Calc ya StarOffice"
+
+#. Comment
+#: application/vnd.stardivision.draw.desktop:6
+#, fuzzy
+msgid "StarOffice Drawing"
+msgstr "Miolo ya ofisi ya MS"
+
+#. Comment
+#: application/vnd.stardivision.impress.desktop:6
+#, fuzzy
+msgid "StarOffice Impress Presentation"
+msgstr "U phadaladza ha bammbiri la Calc ya StarOffice"
+
+#. Comment
+#: application/vnd.stardivision.math.desktop:6
+#, fuzzy
+msgid "StarOffice Math Document"
+msgstr "Manwalwa a munwali wa StarOffice"
+
+#. Comment
+#: application/vnd.stardivision.writer-global.desktop:6
+#, fuzzy
+msgid "StarOffice Writer Master Document"
+msgstr "Manwalwa a munwali wa StarOffice"
+
+#. Comment
+#: application/vnd.stardivision.writer.desktop:6
+msgid "StarOffice Writer Document"
+msgstr "Manwalwa a munwali wa StarOffice"
+
+#. Comment
+#: application/vnd.sun.xml.base.desktop:2
+msgid "OpenOffice.org Database"
+msgstr ""
+
+#. Comment
+#: application/vnd.sun.xml.calc.desktop:2
+#, fuzzy
+msgid "OpenOffice.org Spreadsheet"
+msgstr "U phadaladza ha bammbiri la Calc ya StarOffice"
+
+#. Comment
+#: application/vnd.sun.xml.calc.template.desktop:2
+#, fuzzy
+msgid "OpenOffice.org Spreadsheet Template"
+msgstr "Bammbiri lo navhaho la microsoft Excel"
+
+#. Comment
+#: application/vnd.sun.xml.draw.desktop:2
+#, fuzzy
+msgid "OpenOffice.org Drawing"
+msgstr "Miolo ya ofisi ya MS"
+
+#. Comment
+#: application/vnd.sun.xml.draw.template.desktop:2
+msgid "OpenOffice.org Drawing Template"
+msgstr ""
+
+#. Comment
+#: application/vnd.sun.xml.impress.desktop:2
+msgid "OpenOffice.org Presentation"
+msgstr ""
+
+#. Comment
+#: application/vnd.sun.xml.impress.template.desktop:2
+msgid "OpenOffice.org Presentation Template"
+msgstr ""
+
+#. Comment
+#: application/vnd.sun.xml.writer.desktop:2
+#, fuzzy
+msgid "OpenOffice.org Text Document"
+msgstr "Manwalwa a munwali wa StarOffice"
+
+#. Comment
+#: application/vnd.sun.xml.writer.master.desktop:2
+#, fuzzy
+msgid "OpenOffice.org Master Text Document"
+msgstr "Manwalwa a munwali wa StarOffice"
+
+#. Comment
+#: application/vnd.sun.xml.writer.template.desktop:2
+#, fuzzy
+msgid "OpenOffice.org Text Document Template"
+msgstr "Manwalwa a Microsoft Word"
+
+#. Comment
+#: application/wordperfect.desktop:6
+msgid "WordPerfect Document"
+msgstr "Manwalwa a fhungo vhukuma"
+
+#. Comment
+#: application/x-7z.desktop:6
+#, fuzzy
+msgid "7-Zip Archive"
+msgstr "Fhethu hau vhulungela zwithu zwa kale ha Zip"
+
+#. Comment
+#: application/x-abiword.desktop:4
+msgid "AbiWord Document"
+msgstr "Manwalwa a maipfi a Abi"
+
+#. Comment
+#: application/x-ace.desktop:6
+#, fuzzy
+msgid "ACE Archive"
+msgstr "Fhethu huno vhulungwa hone zwithu zwa kale ha Ar"
+
+#. Comment
+#: application/x-afm.desktop:2
+#, fuzzy
+msgid "PostScript Font Metrics"
+msgstr "Fontu ya lushaka lwau thoma ya tshikiriputi tsha poso"
+
+#. Comment
+#: application/x-amipro.desktop:6
+msgid "Lotus AmiPro Document"
+msgstr "Manwalwa a Lotus AmiPro"
+
+#. Comment
+#: application/x-applixgraphics.desktop:6
+msgid "Applix Graphics Document"
+msgstr "Manwalwa a Applix Graphics"
+
+#. Comment
+#: application/x-applixspread.desktop:6
+msgid "Applix Spreadsheets Document"
+msgstr "Manwalwa a Applix Spreadsheets"
+
+#. Comment
+#: application/x-applixword.desktop:6
+msgid "Applix Words Document"
+msgstr "Manwalwa a maipfi a Applix"
+
+#. Comment
+#: application/x-arc.desktop:6
+#, fuzzy
+msgid "ARC Archive"
+msgstr "Fhethu huno vhulungwa hone zwithu zwa kale ha ARJ"
+
+#. Comment
+#: application/x-archive.desktop:3
+msgid "Ar Archive"
+msgstr "Fhethu huno vhulungwa hone zwithu zwa kale ha Ar"
+
+#. Comment
+#: application/x-arj.desktop:6
+msgid "ARJ Archive"
+msgstr "Fhethu huno vhulungwa hone zwithu zwa kale ha ARJ"
+
+#. Comment
+#: application/x-awk.desktop:2
+msgid "AWK Script"
+msgstr "Bammbiri la AWK"
+
+#. Comment
+#: application/x-bittorrent.desktop:3
+msgid "BitTorrent Download"
+msgstr ""
+
+#. Comment
+#: application/x-bz2dvi.desktop:2
+#, fuzzy
+msgid "Bzip2 Compressed DVI File"
+msgstr "Faela yo tsikeledzwaho ya UNIX"
+
+#. Comment
+#: application/x-bzip.desktop:3
+msgid "Bzip File"
+msgstr "Faela ya Bzip"
+
+#. Comment
+#: application/x-bzip2.desktop:3
+msgid "Bzip2 File"
+msgstr "Faela ya Bzip2"
+
+#. Comment
+#: application/x-cda.desktop:3
+msgid "CD Audio"
+msgstr "Zwinopfiwa zwa CD"
+
+#. Comment
+#: application/x-compress.desktop:6
+msgid "UNIX Compressed File"
+msgstr "Faela yo tsikeledzwaho ya UNIX"
+
+#. Comment
+#: application/x-core.desktop:6
+msgid "Program Crash Data"
+msgstr "Data ya mbekanyamushumo yo kwashekanaho"
+
+#. Comment
+#: application/x-cpio.desktop:6
+msgid "CPIO Archive"
+msgstr "Fhethu hau vhulunga hone zwithu zwa kale ha CPIO"
+
+#. Comment
+#: application/x-cue.desktop:6
+msgid "CDRWIN Cue-Sheet"
+msgstr ""
+
+#. Comment
+#: application/x-dbase.desktop:6
+msgid "dBASE Document"
+msgstr "Manwalwa a dBASE"
+
+#. Comment
+#: application/x-deb.desktop:6 application/x-debian-package.desktop:7
+msgid "Debian Package"
+msgstr ""
+
+#. Comment
+#: application/x-designer.desktop:2
+msgid "TQt/Qt Designer File"
+msgstr "Faela yau khavhisedza ya TQt/Qt"
+
+#. Comment
+#: application/x-desktop.desktop:2
+msgid "Desktop Config File"
+msgstr "Faela yau lugisela desikithopo"
+
+#. Comment
+#: application/x-dvi.desktop:2
+msgid "TeX Device Independent File"
+msgstr "Faela ya di imisaho nga yothe ya maano a TeX"
+
+#. Comment
+#: application/x-egon.desktop:6
+msgid "Egon Animator"
+msgstr "Zwipuka zwa Egon"
+
+#. Comment
+#: application/x-executable-script.desktop:2
+msgid "Script (possibly executable)"
+msgstr ""
+
+#. Comment
+#: application/x-executable.desktop:2 application/x-pie-executable.desktop:2
+msgid "Executable File"
+msgstr "Faela ino tumulea"
+
+#. Comment
+#: application/x-font-bdf.desktop:6
+msgid "BDF Bitmap Font"
+msgstr "Fontu ya Bitmap BDF"
+
+#. Comment
+#: application/x-font-ghostscript.desktop:6
+msgid "Ghostscript Font"
+msgstr "Fontu ya tshikiriputi tsha poso"
+
+#. Comment
+#: application/x-font-otf.desktop:2
+#, fuzzy
+msgid "OpenType Font"
+msgstr "Fontu ya luvhilo"
+
+#. Comment
+#: application/x-font-pcf.desktop:6
+msgid "PCF Bitmap Font"
+msgstr "Vhuhulu ha mafhungo ha Bitmap ya PCF"
+
+#. Comment
+#: application/x-font-snf.desktop:6
+msgid "SNF Bitmap Font"
+msgstr "Fontu ya Bitmap ya SNF"
+
+#. Comment
+#: application/x-font-speedo.desktop:6
+msgid "Speedo Font"
+msgstr "Fontu ya luvhilo"
+
+#. Comment
+#: application/x-font-ttc.desktop:2
+msgid "TrueType Font Collection"
+msgstr ""
+
+#. Comment
+#: application/x-font-ttf.desktop:2
+msgid "TrueType Font"
+msgstr ""
+
+#. Comment
+#: application/x-font-type1.desktop:6
+msgid "PostScript Type1 Font"
+msgstr "Fontu ya lushaka lwau thoma ya tshikiriputi tsha poso"
+
+#. Comment
+#: application/x-gettext.desktop:2
+msgid "GNU Gettext Message Catalog"
+msgstr ""
+
+#. Comment
+#: application/x-gnumeric.desktop:6
+msgid "GNUmeric Spreadsheet"
+msgstr "U phadaladza ha siatari ha GNUmeric "
+
+#. Comment
+#: application/x-graphite.desktop:7
+msgid "Graphite Scientific Graph"
+msgstr "Girafaiti - Girafu ya zwa dzi santsi"
+
+#. Comment
+#: application/x-gzdvi.desktop:2
+#, fuzzy
+msgid "Gzip Compressed DVI File"
+msgstr "Faela yo tsikeledzwaho ya UNIX"
+
+#. Comment
+#: application/x-gzip.desktop:3
+msgid "Gzip File"
+msgstr "Faela ya Gzip"
+
+#. Comment
+#: application/x-gzpostscript.desktop:2
+msgid "Gzipped PostScript File"
+msgstr "Faela ya tshikiriputi tsha poso ya Gzipped"
+
+#. Comment
+#: application/x-hancomword.desktop:6
+msgid "HancomWord Document"
+msgstr "Manwalwa a fhungo la Hamcon"
+
+#. Comment
+#: application/x-ica.desktop:3
+msgid "Citrix ICA Client Configuration"
+msgstr ""
+
+#. Comment
+#: application/x-iso.desktop:6
+msgid "ISO9660 Image File"
+msgstr ""
+
+#. Comment
+#: application/x-jar.desktop:6
+msgid "Java Archive"
+msgstr "Fhethu hau vhulungele hone zwithu zwa kale ha Java"
+
+#. Comment
+#: application/x-java-applet.desktop:3
+#, fuzzy
+msgid "Java Applet"
+msgstr "Fhethu hau vhulungele hone zwithu zwa kale ha Java"
+
+#. Comment
+#: application/x-java-jnlp-file.desktop:4
+msgid "Java Web Start application"
+msgstr ""
+
+#. Comment
+#: application/x-javascript.desktop:6 text/javascript.desktop:5
+#, fuzzy
+msgid "JavaScript File"
+msgstr "Faela ya Vhubvo ha Java"
+
+#. Comment
+#: application/x-karbon.desktop:7
+msgid "Karbon14 Document"
+msgstr "Manwalwa a Karbon14"
+
+#. Comment
+#: application/x-kchart.desktop:6
+msgid "KChart Document"
+msgstr "Manwalwa a KChart"
+
+#. Comment
+#: application/x-kcsrc.desktop:6
+msgid "TDE Color Theme"
+msgstr ""
+
+#. Comment
+#: application/x-kformula.desktop:6
+msgid "KFormula Document"
+msgstr "Manwalwa a tshivhumbeo tsha K"
+
+#. Comment
+#: application/x-kivio.desktop:7
+msgid "Kivio Document"
+msgstr "Manwalwa a Kivio"
+
+#. Comment
+#: application/x-kontour.desktop:3
+msgid "Kontour Document"
+msgstr "Manwalwa a Kontour"
+
+#. Comment
+#: application/x-kpovmodeler.desktop:2
+msgid "KPovModeler File"
+msgstr "Faela ya KPovModeler"
+
+#. Comment
+#: application/x-kpresenter.desktop:7
+msgid "KPresenter Document"
+msgstr "Manwalwa a Muimeleli wa K"
+
+#. Comment
+#: application/x-krita.desktop:7
+msgid "Krita Document"
+msgstr "Manwalwa a Krita"
+
+#. Comment
+#: application/x-kspread.desktop:7
+msgid "KSpread Document"
+msgstr "Manwalwa a phathaladzo ya K"
+
+#. Comment
+#: application/x-kudesigner.desktop:3
+msgid "Kugar Report Template"
+msgstr ""
+
+#. Comment
+#: application/x-kugar.desktop:6
+msgid "Kugar Data File"
+msgstr "Data ya faela ya Kugar"
+
+#. Comment
+#: application/x-kword.desktop:7
+msgid "KWord Document"
+msgstr "Manwalwa fhungo la K"
+
+#. Comment
+#: application/x-lha.desktop:3
+msgid "Lha Archive"
+msgstr "Fhethu hau vhulungela hone zwithu zwa kale ha Lha"
+
+#. Comment
+#: application/x-linguist.desktop:6
+#, fuzzy
+msgid "Qt Translation Source File"
+msgstr "Faela ya Vhubvo ha Pascal"
+
+#. Comment
+#: application/x-lyx.desktop:2
+msgid "LyX Document"
+msgstr "Manwalwa a LyX"
+
+#. Comment
+#: application/x-lzip.desktop:7
+msgid "LZIP File"
+msgstr "Faela ya LZIP"
+
+#. Comment
+#: application/x-lzma.desktop:7
+msgid "LZMA File"
+msgstr "Faela ya LZMA"
+
+#. Comment
+#: application/x-lzop.desktop:6
+msgid "Lzopped File"
+msgstr "Faela ya Lzopped"
+
+#. Comment
+#: application/x-magicpoint.desktop:6
+msgid "MagicPoint Presentation"
+msgstr ""
+
+#. Comment
+#: application/x-mimearchive.desktop:6
+msgid "Mime Encapsulated Web Archive"
+msgstr ""
+
+#. Comment
+#: application/x-mplayer2.desktop:8
+#, fuzzy
+msgid "Microsoft Media Format"
+msgstr "Manwalwa a Microsoft Word"
+
+#. Comment
+#: application/x-msdos-program.desktop:2
+msgid "Windows Executable"
+msgstr "U tumulea ha dziwindo"
+
+#. Comment
+#: application/x-mswrite.desktop:6
+msgid "Microsoft Write Document"
+msgstr "Manwalwa a microsoft au nwala"
+
+#. Comment
+#: application/x-nzb.desktop:3
+msgid "NewzBin Usenet Index"
+msgstr ""
+
+#. Comment
+#: application/x-object.desktop:6
+msgid "Object Code"
+msgstr "Khoudu ya tshithu"
+
+#. Comment
+#: application/x-pak.desktop:6
+#, fuzzy
+msgid "PAK File Archive"
+msgstr "Fhethu huno vhulungwa hone zwithu zwa kale ha Ar"
+
+#. Comment
+#: application/x-perl-module.desktop:2
+msgid "Perl Module"
+msgstr ""
+
+#. Comment
+#: application/x-perl.desktop:2 text/x-perl.desktop:2
+#, fuzzy
+msgid "Perl Program"
+msgstr "Mbekanyamushumo ya Python"
+
+#. Comment
+#: application/x-php.desktop:2
+#, fuzzy
+msgid "PHP Script"
+msgstr "Bammbiri la AWK"
+
+#. Comment
+#: application/x-pkcs12.desktop:6
+msgid "PKCS#12 Certificate Bundle"
+msgstr "Nanda ya sethifikheithi tsha PKCS#12"
+
+#. Comment
+#: application/x-pw.desktop:3
+#, fuzzy
+msgid "Pathetic Writer Document"
+msgstr "Manwalwa a munwali wa StarOffice"
+
+#. Comment
+#: application/x-python-bytecode.desktop:6
+msgid "Python Bytecode"
+msgstr "Python bytecode"
+
+#. Comment
+#: application/x-python.desktop:2 text/x-python.desktop:2
+msgid "Python Program"
+msgstr "Mbekanyamushumo ya Python"
+
+#. Comment
+#: application/x-quattropro.desktop:6
+msgid "Quattro Pro Document"
+msgstr "Faela ya Quattro Pro "
+
+#. Comment
+#: application/x-rar.desktop:6
+msgid "Rar Archive"
+msgstr "Fhethu ha u vhulunga zwithu zwa kale ha Rar"
+
+#. Comment
+#: application/x-rpm.desktop:7
+msgid "RPM Package File"
+msgstr "Faela ya zwiputa zwa RPM"
+
+#. Comment
+#: application/x-ruby.desktop:2
+#, fuzzy
+msgid "Ruby Program"
+msgstr "Mbekanyamushumo ya Python"
+
+#. Comment
+#: application/x-sharedlib.desktop:2
+msgid "Shared Library"
+msgstr "Laiburari yo kovhiwaho"
+
+#. Comment
+#: application/x-shellscript.desktop:2 text/x-shellscript.desktop:2
+msgid "Shell Script"
+msgstr "Tshikiriputi tsha shell"
+
+#. Comment
+#: application/x-shockwave-flash.desktop:6
+msgid "Shockwave Flash Media"
+msgstr "Lupenyo lwa media lua khamadzaho"
+
+#. Comment
+#: application/x-siag.desktop:3
+msgid "Siag Spreadsheet"
+msgstr "U phadaladza ha bammbiri ha Siag"
+
+#. Comment
+#: application/x-sqlite2.desktop:6
+#, fuzzy
+msgid "SQLite2 Database File"
+msgstr "Meta faela ya tshithu ya Qt"
+
+#. Comment
+#: application/x-sqlite3.desktop:6
+#, fuzzy
+msgid "SQLite3 Database File"
+msgstr "Meta faela ya tshithu ya Qt"
+
+#. Comment
+#: application/x-tar.desktop:6
+msgid "Tar Archive"
+msgstr "Fhethu hau vhulungela zwithu zwa kale ha Tar"
+
+#. Comment
+#: application/x-tarz.desktop:3
+msgid "Compressed Tar Archive"
+msgstr "Fhethu hau vhulungela zwithu zwa kale ho tsikeledzwaho ha Tar"
+
+#. Comment
+#: application/x-tbz.desktop:2
+#, fuzzy
+msgid "Bzip2-ed Tar Archive"
+msgstr "Fhethu hau vhulungela hone zwithu zwa kale ha Tar ha Gzipped"
+
+#. Comment
+#: application/x-tde-wallet.desktop:4
+#, fuzzy
+msgid "TDE Wallet File"
+msgstr "Faela ya Tcl"
+
+#. Comment
+#: application/x-tex-gf.desktop:2
+msgid "Generic Font"
+msgstr "Fontu ya vhukuma"
+
+#. Comment
+#: application/x-tex-pk.desktop:2
+msgid "Packed Font"
+msgstr "Fontu yo dzudzanywaho"
+
+#. Comment
+#: application/x-tgif.desktop:2
+msgid "TGIF Document"
+msgstr "Manwalwa a TGIF"
+
+#. Comment
+#: application/x-tgz.desktop:6
+msgid "Gzipped Tar Archive"
+msgstr "Fhethu hau vhulungela hone zwithu zwa kale ha Tar ha Gzipped"
+
+#. Comment
+#: application/x-tlz.desktop:7
+msgid "LZIP Tar Archive"
+msgstr "Fhethu hau vhulungela hone zwithu zwa kale ha Tar ha LZIPped"
+
+#. Comment
+#: application/x-tlzma.desktop:7
+msgid "LZMA Tar Archive"
+msgstr "Fhethu hau vhulungela hone zwithu zwa kale ha Tar ha LZMAped"
+
+#. Comment
+#: application/x-trash.desktop:6
+msgid "Backup File"
+msgstr "Faela yau tikedza"
+
+#. Comment
+#: application/x-troff-man.desktop:2
+msgid "Troff Document with Manpage Macros"
+msgstr "Manwalwa a Troff a rena siatari la macros"
+
+#. Comment
+#: application/x-troff.desktop:2
+msgid "Troff Document"
+msgstr "Manwalwa a Troff"
+
+#. Comment
+#: application/x-txz.desktop:6
+msgid "Xzipped Tar Archive"
+msgstr "Fhethu hau vhulungela hone zwithu zwa kale ha Tar ha Xzipped"
+
+#. Comment
+#: application/x-tzo.desktop:3
+msgid "Lzopped Tar Archive"
+msgstr "Fhethu hau vhulungela zwithu zwa kale ha Tar Lzopped"
+
+#. Comment
+#: application/x-vnd.kde.kexi.desktop:7
+#, fuzzy
+msgid "Kexi Project File"
+msgstr "Meta faela ya tshithu ya Qt"
+
+#. Comment
+#: application/x-vnd.kde.kplato.desktop:3
+#, fuzzy
+msgid "KPlato Project Management Document"
+msgstr "Manwalwa a Muimeleli wa K"
+
+#. Comment
+#: application/x-vnd.kde.kugar.mixed.desktop:6
+#, fuzzy
+msgid "Kugar Archive File"
+msgstr "Fhethu ha u vhulunga zwithu zwa kale ha Rar"
+
+#. Comment
+#: application/x-webarchive.desktop:2
+msgid "Web Archive"
+msgstr "Webu yau vhulunga zwakale"
+
+#. Comment
+#: application/x-x509-ca-cert.desktop:6
+msgid "DER, PEM, or Netscape Encoded X.509 Certificate"
+msgstr "DER, PEM, kana Netscape encoded X.509 Sethifikheithi"
+
+#. Comment
+#: application/x-xliff.desktop:6
+msgid "XLIFF Translation File"
+msgstr ""
+
+#. Comment
+#: application/x-xz.desktop:3
+msgid "Xzip File"
+msgstr "Faela ya Xzip"
+
+#. Comment
+#: application/x-zerosize.desktop:2
+msgid "Empty Document"
+msgstr "Manwalwa asi na tshithu"
+
+#. Comment
+#: application/x-zip.desktop:6
+msgid "Zip Archive"
+msgstr "Fhethu hau vhulungela zwithu zwa kale ha Zip"
+
+#. Comment
+#: application/x-zoo.desktop:6
+msgid "Zoo Archive"
+msgstr "Fhethu hau vhulungela zwithu zwa kale ho vhewaho zwipuka"
+
+#. Comment
+#: application/xhtml+xml.desktop:2
+#, fuzzy
+msgid "XHTML Family Document"
+msgstr "Manwalwa a LyX"
+
+#. Comment
+#: application/xml-dtd.desktop:2
+#, fuzzy
+msgid "XML DTD Document"
+msgstr "Manwalwa a WML"
+
+#. Comment
+#: application/xml.desktop:2 text/xml.desktop:2
+#, fuzzy
+msgid "XML Document"
+msgstr "Manwalwa a WML"
+
+#. Comment
+#: application/xsd.desktop:2
+msgid "W3C XML Schema"
+msgstr ""
+
+#. Comment
+#: audio/aac.desktop:6
+msgid "AAC Sound"
+msgstr ""
+
+#. Comment
+#: audio/ac3.desktop:6
+msgid "Dolby AC3 Sound"
+msgstr ""
+
+#. Comment
+#: audio/basic.desktop:3
+msgid "ULAW (Sun) Audio"
+msgstr "ULAW (Duvha) Zwinopfiwa"
+
+#. Comment
+#: audio/mp4.desktop:6
+#, fuzzy
+msgid "MPEG-4 Audio"
+msgstr "Zwinopfiwa zwa mbemba tharu zwa MPEG"
+
+#. Comment
+#: audio/mpeg.desktop:8
+#, fuzzy
+msgid "MPEG Audio"
+msgstr "Zwinopfiwa zwa PCM"
+
+#. Comment
+#: audio/mpegurl.desktop:7 audio/x-mpegurl.desktop:5
+msgid "Streaming MPEG Layer 3 Audio"
+msgstr "Mbemba tharu dzi elelaho dza MPEG dzino pfiwa"
+
+#. Comment
+#: audio/prs.sid.desktop:6
+msgid "C64 SID Music"
+msgstr ""
+
+#. Comment
+#: audio/vnd.rn-realaudio.desktop:7 audio/x-pn-realaudio.desktop:5
+msgid "RealAudio File"
+msgstr ""
+
+#. Comment
+#: audio/vorbis.desktop:6 audio/x-vorbis.desktop:6
+msgid "Ogg Vorbis Audio"
+msgstr ""
+
+#. Comment
+#: audio/x-adpcm.desktop:3
+msgid "PCM Audio"
+msgstr "Zwinopfiwa zwa PCM"
+
+#. Comment
+#: audio/x-aiff.desktop:3
+msgid "AIFF/Amiga Audio"
+msgstr "Zwinopfiwa zwa AIFF/Amiga"
+
+#. Comment
+#: audio/x-flac.desktop:3
+#, fuzzy
+msgid "FLAC Audio"
+msgstr "Zwinopfiwa zwa CD"
+
+#. Comment
+#: audio/x-matroska.desktop:6
+#, fuzzy
+msgid "Matroska Audio"
+msgstr "Zwinopfiwa zwa PCM"
+
+#. Comment
+#: audio/x-midi.desktop:6
+msgid "MIDI Audio"
+msgstr "Zwinopfiwa zwa MIDI"
+
+#. Comment
+#: audio/x-mod.desktop:6
+msgid "Amiga Soundtracker Audio"
+msgstr "Zwinopfiwa zwa mubvumo ya luimbo zwa Amiga"
+
+#. Comment
+#: audio/x-mp2.desktop:7
+#, fuzzy
+msgid "MPEG Layer 2 Audio"
+msgstr "Zwinopfiwa zwa mbemba tharu zwa MPEG"
+
+#. Comment
+#: audio/x-mp3.desktop:7
+msgid "MPEG Layer 3 Audio"
+msgstr "Zwinopfiwa zwa mbemba tharu zwa MPEG"
+
+#. Comment
+#: audio/x-ms-wma.desktop:6
+#, fuzzy
+msgid "Windows Media Audio"
+msgstr "Matafaela ya dziwindo"
+
+#. Comment
+#: audio/x-musepack.desktop:6
+#, fuzzy
+msgid "Musepack Audio"
+msgstr "Zwinopfiwa zwa PCM"
+
+#. Comment
+#: audio/x-oggflac.desktop:6
+#, fuzzy
+msgid "Ogg FLAC Audio"
+msgstr "Zwinopfiwa zwa CD"
+
+#. Comment
+#: audio/x-pn-realaudio-plugin.desktop:5
+msgid "RealAudio Plugin File"
+msgstr ""
+
+#. Comment
+#: audio/x-scpls.desktop:4
+msgid "MP3 ShoutCast Playlist"
+msgstr "Mutevhe uno tambiwa wa MP3"
+
+#. Comment
+#: audio/x-speex.desktop:6
+#, fuzzy
+msgid "Speex Audio"
+msgstr "Zwinopfiwa zwa CD"
+
+#. Comment
+#: audio/x-wav.desktop:6
+msgid "WAV Audio"
+msgstr "Zwinopfiwa zwa WAV"
+
+#. Comment
+#: image/cgm.desktop:6
+msgid "Computer Graphics Metafile"
+msgstr "Faela ya khompwutha Graphics"
+
+#. Comment
+#. Name
+#: image/fax-g3.desktop:6 ../kimgio/g3.kimgio:4
+msgid "CCITT G3 Fax"
+msgstr "Fekisi ya CCITT G3"
+
+#. Comment
+#: image/fits.desktop:6
+#, fuzzy
+msgid "FITS Image"
+msgstr "Tshifanyiso tsha GIF"
+
+#. Comment
+#. Name
+#: image/gif.desktop:6 ../kimgio/gif.kimgio:4
+msgid "GIF Image"
+msgstr "Tshifanyiso tsha GIF"
+
+#. Comment
+#. Name
+#: image/jp2.desktop:6 ../kimgio/jp2.kimgio:4
+#, fuzzy
+msgid "JPEG 2000 Image"
+msgstr "Tshifanyiso tsha JPEG"
+
+#. Comment
+#. Name
+#: image/jpeg.desktop:6 image/pjpeg.desktop:7 ../kimgio/jpeg.kimgio:4
+msgid "JPEG Image"
+msgstr "Tshifanyiso tsha JPEG"
+
+#. Comment
+#. Name
+#: image/png.desktop:6 ../kimgio/png.kimgio:4
+msgid "PNG Image"
+msgstr "Tshifanyiso tsha PNG"
+
+#. Comment
+#: image/svg+xml.desktop:7
+msgid "Scalable Vector Graphics"
+msgstr "Zwadzigirafu zwi kaliwaho zwa Vekitha"
+
+#. Comment
+#. Name
+#: image/tiff.desktop:6 ../kimgio/tiff.kimgio:4
+msgid "TIFF Image"
+msgstr "Tshifanyiso tsha TIFF"
+
+#. Comment
+#. Name
+#: image/webp.desktop:6 ../kimgio/webp.kimgio:4
+#, fuzzy
+msgid "WebP Image"
+msgstr "Tshifanyiso tsha PNG"
+
+#. Comment
+#. Name
+#: image/x-bmp.desktop:6 ../kimgio/bmp.kimgio:4
+#, fuzzy
+msgid "BMP Image"
+msgstr "Tshifanyiso tsha PNG"
+
+#. Comment
+#: image/x-dds.desktop:6
+msgid "DirectDraw Surface"
+msgstr ""
+
+#. Comment
+#: image/x-djvu-2.desktop:6 image/x-djvu.desktop:6
+#, fuzzy
+msgid "DjVu Document"
+msgstr "Manwalwa a pdf"
+
+#. Comment
+#. Name
+#: image/x-eps.desktop:6 ../kimgio/eps.kimgio:4
+msgid "Encapsulated PostScript Image"
+msgstr "Tshifanyiso tsha tshikiriputi tsha poso"
+
+#. Comment
+#: image/x-exr.desktop:6
+#, fuzzy
+msgid "ILM EXR Image"
+msgstr "Tshifanyiso tsha GIF"
+
+#. Comment
+#. Name
+#: image/x-hdr.desktop:6 ../kimgio/hdr.kimgio:4
+msgid "High Dynamic Range Image"
+msgstr ""
+
+#. Comment
+#. Name
+#: image/x-ico.desktop:6 ../kimgio/ico.kimgio:4
+msgid "Windows Icon"
+msgstr "Dziaikhono dza Dziwindo"
+
+#. Comment
+#: image/x-jng.desktop:6
+msgid "JNG Image"
+msgstr "Tshifanyiso tsha JNG"
+
+#. Comment
+#: image/x-msod.desktop:6
+msgid "Microsoft Office Drawing"
+msgstr "Miolo ya ofisi ya MS"
+
+#. Comment
+#. Name
+#: image/x-pcx.desktop:6 ../kimgio/pcx.kimgio:4
+msgid "PCX Image"
+msgstr "Tshifanyiso tsha PNG"
+
+#. Comment
+#: image/x-photo-cd.desktop:6
+msgid "PhotoCD Image"
+msgstr "Tshifanyiso tsha tshinepe tsha CD"
+
+#. Comment
+#. Name
+#: image/x-portable-bitmap.desktop:6 ../kimgio/pbm.kimgio:4
+msgid "Portable Bitmap Image"
+msgstr "Tshifanyiso tsha Bitmap i fareaho"
+
+#. Comment
+#. Name
+#: image/x-portable-greymap.desktop:6 ../kimgio/pgm.kimgio:4
+msgid "Portable Graymap Image"
+msgstr "Tshifanyiso Graymap i farea"
+
+#. Comment
+#. Name
+#: image/x-portable-pixmap.desktop:6 ../kimgio/ppm.kimgio:4
+msgid "Portable Pixmap Image"
+msgstr "Tshifanyiso tsha Pixmap yau farea"
+
+#. Comment
+#: image/x-raw.desktop:6
+msgid "RAW Camera Image"
+msgstr ""
+
+#. Comment
+#. Name
+#: image/x-rgb.desktop:6 ../kimgio/rgb.kimgio:4
+#, fuzzy
+msgid "SGI Image (RGB)"
+msgstr "Tshifanyiso tsha GIF"
+
+#. Comment
+#. Name
+#: image/x-targa.desktop:6 ../kimgio/tga.kimgio:4
+msgid "Truevision Targa Image"
+msgstr "Tshifanyiso tsha Targa tsha mbonalelo ya vhukuma ya TIFF"
+
+#. Comment
+#. Name
+#: image/x-vnd.adobe.photoshop.desktop:6 ../kimgio/psd.kimgio:4
+#, fuzzy
+msgid "Adobe Photoshop Image"
+msgstr "Tshifanyiso tsha tshinepe tsha CD"
+
+#. Comment
+#: image/x-vnd.trolltech.qpicture.desktop:6
+msgid "QPicture Metafile"
+msgstr ""
+
+#. Comment
+#: image/x-wmf.desktop:6
+msgid "Windows MetaFile"
+msgstr "Matafaela ya dziwindo"
+
+#. Comment
+#. Name
+#: image/x-xbm.desktop:6 ../kimgio/xbm.kimgio:4
+msgid "X BitMap Image"
+msgstr "Tshifanyiso tsha Bitmap tsha X"
+
+#. Comment
+#: image/x-xcf-gimp.desktop:2
+msgid "GIMP Native Image Format"
+msgstr "Tshivhumbeo tsha tshifanyiso tsha henefho tsha GIMP"
+
+#. Comment
+#: image/x-xcursor.desktop:5
+msgid "X11 Mouse Cursor"
+msgstr ""
+
+#. Comment
+#: image/x-xfig.desktop:6
+msgid "XFig File"
+msgstr "Faela ya XFig"
+
+#. Comment
+#. Name
+#: image/x-xpm.desktop:6 ../kimgio/xpm.kimgio:4
+msgid "X PixMap Image"
+msgstr "Tshifanyiso tsha Pixmap tsha X"
+
+#. Comment
+#: inode/block.desktop:2
+msgid "Block Device"
+msgstr "Maano a Buloko"
+
+#. Comment
+#: inode/chardevice.desktop:2
+msgid "Character Device"
+msgstr "Maano a muanewa"
+
+#. Comment
+#: inode/directory-locked.desktop:2
+#, fuzzy
+msgid "Locked Folder"
+msgstr "Faela ya Lzopped"
+
+#. Comment
+#: inode/directory.desktop:2
+msgid "Folder"
+msgstr ""
+
+#. Comment
+#: inode/fifo.desktop:2
+msgid "Pipe"
+msgstr "Phaiphi"
+
+#. Comment
+#: inode/socket.desktop:2
+msgid "Socket"
+msgstr "Sokhethe"
+
+#. Comment
+#: message/news.desktop:6
+msgid "Usenet News Message"
+msgstr "Mulaedza wa mafhungo a vhukwamani hau shumisa"
+
+#. Comment
+#: message/rfc822.desktop:6
+msgid "Email Message"
+msgstr "Mulaedza wa Email"
+
+#. Comment
+#: model/vrml.desktop:5
+msgid "VRML Model"
+msgstr ""
+
+#. Comment
+#: multipart/mixed.desktop:5
+msgid "Compound Document"
+msgstr "Manwalwa a Tshigwada"
+
+#. Comment
+#: multipart/x-mixed-replace.desktop:5
+msgid "Stream of Data (Server Push)"
+msgstr "Milambo ya data (U phusha ha data)"
+
+#. Comment
+#: text/calendar.desktop:2
+msgid "iCalendar File"
+msgstr "Faela ya Khalenda"
+
+#. Comment
+#: text/css.desktop:3
+msgid "Cascading Style Sheet"
+msgstr "Tshitaela tshau peta kana u khavhisa bammbiri"
+
+#. Comment
+#: text/docbook.desktop:2
+#, fuzzy
+msgid "DocBook Document"
+msgstr "Manwalwa a pdf"
+
+#. Comment
+#: text/enriched.desktop:3
+msgid "Lightly Enriched Text Document"
+msgstr ""
+
+#. Comment
+#: text/html.desktop:2
+#, fuzzy
+msgid "HTML Document"
+msgstr "Manwalwa a WML"
+
+#. Comment
+#: text/markdown.desktop:2
+#, fuzzy
+msgid "Markdown document"
+msgstr "Manwalwa a Karbon14"
+
+#. Comment
+#: text/plain.desktop:3
+#, fuzzy
+msgid "Plain Text Document"
+msgstr "Manwalwa a Krita"
+
+#. Comment
+#: text/rdf.desktop:3
+msgid "Resource Description Framework File"
+msgstr ""
+
+#. Comment
+#: text/rss.desktop:3
+msgid "RDF Site Summary"
+msgstr "Fhethu ha samari ha RDF"
+
+#. Comment
+#: text/rtf.desktop:3
+#, fuzzy
+msgid "RTF Document"
+msgstr "Manwalwa a TGIF"
+
+#. Comment
+#: text/sgml.desktop:3
+msgid "SGML Document"
+msgstr "Manwalwa a SGML"
+
+#. Comment
+#: text/vnd.abc.desktop:2
+#, fuzzy
+msgid "ABC Music File"
+msgstr "C Faela ya Vhubvo"
+
+#. Comment
+#: text/vnd.wap.wml.desktop:6
+msgid "WML Document"
+msgstr "Manwalwa a WML"
+
+#. Comment
+#: text/x-adasrc.desktop:2
+msgid "Ada Source File"
+msgstr "Faela ya vhubvo ha Ada"
+
+#. Comment
+#: text/x-bibtex.desktop:2
+msgid "Bibliographic Data (Bibtex)"
+msgstr "Data yau talutshedza he wa wana hone zwishumiswa (bibtex)"
+
+#. Comment
+#: text/x-c++hdr.desktop:2
+msgid "C++ Header File"
+msgstr "C++ Faela ya thoho"
+
+#. Comment
+#: text/x-c++src.desktop:2
+msgid "C++ Source File"
+msgstr "C++ Faela ya vhubvo"
+
+#. Comment
+#: text/x-chdr.desktop:2
+msgid "C Header File"
+msgstr "C Faela ya Thoho"
+
+#. Comment
+#: text/x-csrc.desktop:2
+msgid "C Source File"
+msgstr "C Faela ya Vhubvo"
+
+#. Comment
+#: text/x-csv.desktop:7
+msgid "Text File with Comma Separated Values"
+msgstr "Manwalwa a faela arena khoma yo fhandekanywaho nga maitele"
+
+#. Comment
+#: text/x-diff.desktop:3
+msgid "Differences Between Files"
+msgstr "Phambano vhukati ha dzifaela"
+
+#. Comment
+#: text/x-hex.desktop:7
+msgid "Intel® Hexadecimal Object File Format"
+msgstr ""
+
+#. Comment
+#: text/x-java.desktop:2
+msgid "Java Source File"
+msgstr "Faela ya Vhubvo ha Java"
+
+#. Comment
+#: text/x-katefilelist.desktop:2
+msgid "File List (for the Kate File List Loader Plugin)"
+msgstr ""
+"Mutevhe wa Faela (Uitela pulagini ya tshihwesi tsha mutevhe wa faela wa Kate)"
+
+#. Comment
+#: text/x-latex.desktop:2
+#, fuzzy
+msgid "LaTeX Document"
+msgstr "Manwalwa a LyX"
+
+#. Comment
+#: text/x-ldif.desktop:2
+msgid "LDAP Addressbook"
+msgstr ""
+
+#. Comment
+#: text/x-log.desktop:3
+msgid "Application Log File"
+msgstr "Faela yau apulifikhesheni yau loga"
+
+#. Comment
+#: text/x-makefile.desktop:3
+msgid "Makefile"
+msgstr "Itanifaela"
+
+#. Comment
+#: text/x-moc.desktop:3
+msgid "Qt Meta Object File"
+msgstr "Meta faela ya tshithu ya Qt"
+
+#. Comment
+#: text/x-mswinurl.desktop:6
+msgid "Internet Shortcut"
+msgstr "Tshikhau tsha Inithanete"
+
+#. Comment
+#: text/x-objchdr.desktop:2
+#, fuzzy
+msgid "Objective-C Header File"
+msgstr "Faela ya Vhubvo ha C ha vhudi"
+
+#. Comment
+#: text/x-objcsrc.desktop:2
+msgid "Objective-C Source File"
+msgstr "Faela ya Vhubvo ha C ha vhudi"
+
+#. Comment
+#: text/x-pascal.desktop:2
+msgid "Pascal Source File"
+msgstr "Faela ya Vhubvo ha Pascal"
+
+#. Comment
+#: text/x-tcl.desktop:2
+msgid "Tcl File"
+msgstr "Faela ya Tcl"
+
+#. Comment
+#: text/x-tex.desktop:2
+msgid "TeX File"
+msgstr "Faela ya TeX"
+
+#. Comment
+#: text/x-vcalendar.desktop:2
+msgid "vCalendar Interchange File"
+msgstr "Faela ya shandukea ya khalenda ya v"
+
+#. Comment
+#: text/x-vcard.desktop:2
+msgid "Electronic Business Card"
+msgstr "Garata ya vhubindudzi ya Elekithironiki"
+
+#. Comment
+#: text/x-xslfo.desktop:2
+msgid "XSL Formating Object File"
+msgstr "XSL yau vhumba tshithu tshga faela"
+
+#. Comment
+#: text/x-xslt.desktop:2
+msgid "XSLT Stylesheet File"
+msgstr "Faela ya tshitaela tsha bammbiri ya XSLT"
+
+#. Comment
+#: uri/mms.desktop:5
+msgid "mms: URIs"
+msgstr ""
+
+#. Comment
+#: uri/mmst.desktop:5
+msgid "mmst: URIs"
+msgstr ""
+
+#. Comment
+#: uri/mmsu.desktop:5
+msgid "mmsu: URIs"
+msgstr ""
+
+#. Comment
+#: uri/pnm.desktop:5
+msgid "pnm: URIs"
+msgstr ""
+
+#. Comment
+#: uri/rtspt.desktop:5
+msgid "rtspt: URIs"
+msgstr ""
+
+#. Comment
+#: uri/rtspu.desktop:5
+msgid "rtspu: URIs"
+msgstr ""
+
+#. Comment
+#: video/avi.desktop:7 video/x-msvideo.desktop:6
+msgid "Microsoft AVI Video"
+msgstr "Vidio ya AVI ya microsoft"
+
+#. Comment
+#: video/mp4.desktop:6
+#, fuzzy
+msgid "MPEG-4 Video"
+msgstr "Vidio ya MPEG"
+
+#. Comment
+#: video/mpeg.desktop:6
+msgid "MPEG Video"
+msgstr "Vidio ya MPEG"
+
+#. Comment
+#: video/quicktime.desktop:6
+msgid "Quicktime Video"
+msgstr "Vidio ya Tshifhinga tshau tavhanya"
+
+#. Comment
+#: video/vnd.rn-realvideo.desktop:6
+#, fuzzy
+msgid "RealVideo File"
+msgstr "C Faela ya Thoho"
+
+#. Comment
+#: video/x-flic.desktop:6
+msgid "Autodesk's FLIC File"
+msgstr "Faela ya FLIC Autodesk"
+
+#. Comment
+#: video/x-flv.desktop:5
+msgid "Flash Video"
+msgstr ""
+
+#. Comment
+#: video/x-matroska.desktop:6
+#, fuzzy
+msgid "Matroska Video"
+msgstr "Vidio ya AVI ya microsoft"
+
+#. Comment
+#. Name
+#: video/x-mng.desktop:6 ../kimgio/mng.kimgio:4
+msgid "MNG Image"
+msgstr "Tshifanyiso tsha MNG"
+
+#. Comment
+#: video/x-ms-wmv.desktop:2
+#, fuzzy
+msgid "Windows Media Video"
+msgstr "Matafaela ya dziwindo"
+
+#. Comment
+#: video/x-ogm.desktop:7
+msgid "Ogg/Ogm Video"
+msgstr ""
+
+#. Comment
+#: video/x-theora.desktop:6
+msgid "Theora Video"
+msgstr ""
+
+#. Name
+#: ../kimgio/dds.kimgio:4
+msgid "Direct Draw Surface"
+msgstr ""
+
+#. Name
+#: ../kimgio/exr.kimgio:4
+msgid "ILM EXR Image Kimgio"
+msgstr ""
+
+#. Name
+#: ../kimgio/xcf.kimgio:4
+#, fuzzy
+msgid "GIMP Image"
+msgstr "Tshifanyiso tsha GIF"
+
+#. Name
+#: ../kimgio/xv.kimgio:5
+#, fuzzy
+msgid "XView Image"
+msgstr "Tshifanyiso tsha PNG"

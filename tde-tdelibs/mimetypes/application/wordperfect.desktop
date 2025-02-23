@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/wordperfect
+Icon=application-vnd.oasis.opendocument.text
+Patterns=*.wpd;*.WPD;
+Comment=WordPerfect Document

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/vnd.oasis.opendocument.formula
+Patterns=*.odf;*.ODF
+Icon=application-x-kformula
+Comment=OASIS OpenDocument Formula
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.odf

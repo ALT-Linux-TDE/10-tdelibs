@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=video/x-ms-asf
+Icon=video-x-generic
+Patterns=*.asf;*.ASF;*.asx;*.ASX
+X-TDE-IsAlso=application/vnd.ms-asf
+Comment=ASF Media

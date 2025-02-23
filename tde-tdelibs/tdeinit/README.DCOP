@@ -1,0 +1,83 @@
+"TDELauncher" supports the following DCOP functions:
+
+/**
+ * Starts a program.
+ * 'envs' are environment variables that will be added
+ *   to this program's environment before starting it
+ * 'startup_id' is for application startup notification,
+ * "" is the default, "0" for none
+ */
+void exec_blind(QCString name, QValueList<QCString> argList,
+    QValueList<QCString> envs, QCString startup_id );
+void exec_blind(QCString name, QValueList<QCString> argList);
+
+/**
+ * Start a service by name.
+ *
+ * 'serviceName' refers to the service name as given by 
+ * the Name field in the desktop file describing the service.
+ *
+ * 'url', if not empty, will be passed to the service as
+ * argument.
+ *
+ * 'envs' are environment variables that will be added
+ *   to this program's environment before starting it
+ *
+ * 'startup_id' is for application startup notification,
+ * "" is the default, "0" for none
+ */
+serviceResult start_service_by_name(TQString serviceName, QStringList url,
+    QValueList<QCString> envs, QCString startup_id );
+serviceResult start_service_by_name(TQString serviceName, QStringList url)
+
+/**
+ * Start a service by desktop path.
+ *
+ * 'serviceName' refers to a desktop file describing the service.
+ * This may be an absolute path or a path relative to $TDEDIRS/applnk
+ * and/or $TDEDIRS/services
+ * E.g. it should have the form "Applications/korganizer.desktop" or
+ * "/opt/kde/share/applnk/Applications/korganizer.desktop".
+ *
+ * 'url', if not empty, will be passed to the service as
+ * argument.
+ *
+ * 'envs' are environment variables that will be added
+ *   to this program's environment before starting it
+ *
+ * 'startup_id' is for application startup notification,
+ * "" is the default, "0" for none
+ */
+serviceResult start_service_by_desktop_path(TQString serviceName, QStringList url,
+    QValueList<QCString> envs, QCString startup_id );
+serviceResult start_service_by_desktop_path(TQString serviceName, QStringList url)
+
+
+/**
+ * Start a service by desktop name.
+ *
+ * 'serviceName' refers to a desktop file describing the service.
+ * The service is looked up anywhere in $TDEDIR/applnk and/or
+ * $TDEDIR/services.
+ * E.g. it should have the form "korganizer".
+ *
+ * 'url', if not empty, will be passed to the service as
+ * argument.
+ *
+ * 'envs' are environment variables that will be added
+ *   to this program's environment before starting it
+ *
+ * 'startup_id' is for application startup notification,
+ * "" is the default, "0" for none
+ */
+serviceResult start_service_by_desktop_name(TQString serviceName, QStringList url,
+    QValueList<QCString> envs, QCString startup_id );
+serviceResult start_service_by_desktop_name(TQString serviceName, QStringList url)
+
+struct serviceResult
+{
+  int result;         // 0 means success. > 0 means error
+  QCString dcopName; // Contains DCOP name on success
+  TQString error;     // Contains error description on failure.
+}
+

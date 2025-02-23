@@ -1,0 +1,915 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-25 17:36+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: rw\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Name
+#: all_languages.desktop:2
+msgid "Afar"
+msgstr "Ikinyafari"
+
+#. Name
+#: all_languages.desktop:4
+msgid "Abkhazian"
+msgstr "Abukaziyani"
+
+#. Name
+#: all_languages.desktop:6
+msgid "Avestan"
+msgstr "Ikinyavesitani"
+
+#. Name
+#: all_languages.desktop:8
+msgid "Afrikaans"
+msgstr "Ikinyafurikansi"
+
+#. Name
+#: all_languages.desktop:10
+msgid "Amharic"
+msgstr "Ikinyamarike"
+
+#. Name
+#: all_languages.desktop:12
+msgid "Arabic"
+msgstr "Icyarabu"
+
+#. Name
+#: all_languages.desktop:14
+msgid "Assamese"
+msgstr "Ikinyasamese"
+
+#. Name
+#: all_languages.desktop:16
+msgid "Aymara"
+msgstr "Ikinyayimara"
+
+#. Name
+#: all_languages.desktop:18
+msgid "Azerbaijani"
+msgstr "Ikinyazeribayijani"
+
+#. Name
+#: all_languages.desktop:20
+msgid "Bashkir"
+msgstr "Ikinyabashikiri"
+
+#. Name
+#: all_languages.desktop:22
+msgid "Belarusian"
+msgstr "Ikibelarusiya"
+
+#. Name
+#: all_languages.desktop:24
+msgid "Bulgarian"
+msgstr "Ikinyabulugariya"
+
+#. Name
+#: all_languages.desktop:26
+msgid "Bihari"
+msgstr "Ikibihari"
+
+#. Name
+#: all_languages.desktop:28
+msgid "Bislama"
+msgstr "Ikibisilamu"
+
+#. Name
+#: all_languages.desktop:30
+msgid "Bengali"
+msgstr "Ikibengali"
+
+#. Name
+#: all_languages.desktop:32
+msgid "Tibetan"
+msgstr "Ikinyatibeti"
+
+#. Name
+#: all_languages.desktop:34
+msgid "Breton"
+msgstr "Ikinyabureto"
+
+#. Name
+#: all_languages.desktop:36
+msgid "Bosnian"
+msgstr "Ikinyabosiniya"
+
+#. Name
+#: all_languages.desktop:38
+msgid "Catalan"
+msgstr "Igikatalani"
+
+#. Name
+#: all_languages.desktop:40
+msgid "Chechen"
+msgstr "Igiceceni"
+
+#. Name
+#: all_languages.desktop:42
+msgid "Chamorro"
+msgstr "Igishamoro"
+
+#. Name
+#: all_languages.desktop:44
+msgid "Corsican"
+msgstr "Igikoruse"
+
+#. Name
+#: all_languages.desktop:46
+msgid "Czech"
+msgstr "Ikinyaceke"
+
+#. Name
+#: all_languages.desktop:48
+msgid "Kashubian"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:50
+msgid "Church Slavic"
+msgstr "Igisilavika"
+
+#. Name
+#: all_languages.desktop:52
+msgid "Chuvash"
+msgstr "Igicuvashi"
+
+#. Name
+#: all_languages.desktop:54
+msgid "Welsh"
+msgstr "Ikiwelishi"
+
+#. Name
+#: all_languages.desktop:56
+msgid "Danish"
+msgstr "Ikidanwa"
+
+#. Name
+#: all_languages.desktop:58
+msgid "German"
+msgstr "Ikidage"
+
+#. Name
+#: all_languages.desktop:60
+msgid "Dzongkha"
+msgstr "Ikinyazongika"
+
+#. Name
+#: all_languages.desktop:62
+msgid "Greek"
+msgstr "Ikigereki"
+
+#. Name
+#: all_languages.desktop:64
+msgid "English"
+msgstr "Icyongereza"
+
+#. Name
+#: all_languages.desktop:66
+msgid "English (British)"
+msgstr "Icyongereza, Nyongereza"
+
+#. Name
+#: all_languages.desktop:68
+msgid "English (American)"
+msgstr "Icyongereza cy'Amerika"
+
+#. Name
+#: all_languages.desktop:70
+msgid "Esperanto"
+msgstr "Icyesiperanto"
+
+#. Name
+#: all_languages.desktop:72
+msgid "Spanish"
+msgstr "Igisipanyole"
+
+#. Name
+#: all_languages.desktop:74
+msgid "Spanish (Argentina)"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:76
+msgid "Estonian"
+msgstr "Icyesitoniya"
+
+#. Name
+#: all_languages.desktop:78
+msgid "Basque"
+msgstr "Ikibasike"
+
+#. Name
+#: all_languages.desktop:80
+msgid "Persian"
+msgstr "Igifarisi"
+
+#. Name
+#: all_languages.desktop:82
+msgid "Finnish"
+msgstr "Ikinyafinilande"
+
+#. Name
+#: all_languages.desktop:84
+msgid "Fijian"
+msgstr "Igifijiyani"
+
+#. Name
+#: all_languages.desktop:86
+msgid "Faroese"
+msgstr "Igifero"
+
+#. Name
+#: all_languages.desktop:88
+msgid "French"
+msgstr "Igifaransa"
+
+#. Name
+#: all_languages.desktop:90
+msgid "Frisian"
+msgstr "Igifuriziyani"
+
+#. Name
+#: all_languages.desktop:92
+msgid "Irish"
+msgstr "Ikinyirilande Gayerike"
+
+#. Name
+#: all_languages.desktop:94
+msgid "Gaelic"
+msgstr "Ikinyagayeli"
+
+#. Name
+#: all_languages.desktop:96
+msgid "Galician"
+msgstr "Ikinyagalisiya"
+
+#. Name
+#: all_languages.desktop:98
+msgid "Guarani"
+msgstr "Ikigwarani"
+
+#. Name
+#: all_languages.desktop:100
+msgid "Gujarati"
+msgstr "Ikigujarati"
+
+#. Name
+#: all_languages.desktop:102
+msgid "Manx"
+msgstr "Ikimangisi"
+
+#. Name
+#: all_languages.desktop:104
+msgid "Hausa"
+msgstr "Igihawusa"
+
+#. Name
+#: all_languages.desktop:106
+msgid "Hebrew"
+msgstr "Igiheburayo"
+
+#. Name
+#: all_languages.desktop:108
+msgid "Hindi"
+msgstr "Igihindi"
+
+#. Name
+#: all_languages.desktop:110
+msgid "Hiri Motu"
+msgstr "Igihiri-motu"
+
+#. Name
+#: all_languages.desktop:112
+msgid "Croatian"
+msgstr "Ikinyakorowasi"
+
+#. Name
+#: all_languages.desktop:114
+msgid "Upper Sorbian"
+msgstr "Ikinyasorubiya cyo hejuru"
+
+#. Name
+#: all_languages.desktop:116
+msgid "Hungarian"
+msgstr "Ikinyahangariya"
+
+#. Name
+#: all_languages.desktop:118
+msgid "Armenian"
+msgstr "Icyarumeniya"
+
+#. Name
+#: all_languages.desktop:120
+msgid "Herero"
+msgstr "Igiherero"
+
+#. Name
+#: all_languages.desktop:122
+msgid "Interlingua"
+msgstr "Ikinyenterilinga"
+
+#. Name
+#: all_languages.desktop:124
+msgid "Indonesian"
+msgstr "Ikinyendonisiya"
+
+#. Name
+#: all_languages.desktop:126
+msgid "Interlingue"
+msgstr "Ikinyenterilinge"
+
+#. Name
+#: all_languages.desktop:128
+msgid "Inupiaq"
+msgstr "Ikinupiyake"
+
+#. Name
+#: all_languages.desktop:130
+msgid "Ido"
+msgstr "Ikido"
+
+#. Name
+#: all_languages.desktop:132
+msgid "Icelandic"
+msgstr "Ikinyisilande"
+
+#. Name
+#: all_languages.desktop:134
+msgid "Italian"
+msgstr "Igitaliyani"
+
+#. Name
+#: all_languages.desktop:136
+msgid "Inuktitut"
+msgstr "Ikinukititutu"
+
+#. Name
+#: all_languages.desktop:138
+msgid "Japanese"
+msgstr "Ikiyapani"
+
+#. Name
+#: all_languages.desktop:140
+msgid "Javanese"
+msgstr "Ikijavani"
+
+#. Name
+#: all_languages.desktop:142
+msgid "Georgian"
+msgstr "Ikinyageworugiya"
+
+#. Name
+#: all_languages.desktop:144
+msgid "Kikuyu"
+msgstr "Ikikuyu"
+
+#. Name
+#: all_languages.desktop:146
+msgid "Kazakh"
+msgstr "Igikazaki"
+
+#. Name
+#: all_languages.desktop:148
+msgid "Kalaallisut"
+msgstr "Igikalalisuti"
+
+#. Name
+#: all_languages.desktop:150
+msgid "Khmer"
+msgstr "Ikinyakime"
+
+#. Name
+#: all_languages.desktop:152
+msgid "Kannada"
+msgstr "Iginyakanada"
+
+#. Name
+#: all_languages.desktop:154
+msgid "Korean"
+msgstr "Igikoreya"
+
+#. Name
+#: all_languages.desktop:156
+msgid "Kashmiri"
+msgstr "Igikashimiri"
+
+#. Name
+#: all_languages.desktop:158
+msgid "Kurdish"
+msgstr "Igikurudishi"
+
+#. Name
+#: all_languages.desktop:160
+msgid "Komi"
+msgstr "Igikomi"
+
+#. Name
+#: all_languages.desktop:162
+msgid "Cornish"
+msgstr "Igikorunishe"
+
+#. Name
+#: all_languages.desktop:164
+msgid "Kirghiz"
+msgstr "Ikirigizi"
+
+#. Name
+#: all_languages.desktop:166
+msgid "Latin"
+msgstr "Ikilatini"
+
+#. Name
+#: all_languages.desktop:168
+msgid "Luxembourgish"
+msgstr "Ikinyalugizamburu"
+
+#. Name
+#: all_languages.desktop:170
+msgid "Limburgan"
+msgstr "Ikilimburigani"
+
+#. Name
+#: all_languages.desktop:172
+msgid "Lingala"
+msgstr "Ilingala"
+
+#. Name
+#: all_languages.desktop:174
+msgid "Lao"
+msgstr "Ikilawo"
+
+#. Name
+#: all_languages.desktop:176
+msgid "Lithuanian"
+msgstr "Ikinyalitwani"
+
+#. Name
+#: all_languages.desktop:178
+msgid "Latvian"
+msgstr "Ikilativiya"
+
+#. Name
+#: all_languages.desktop:180
+msgid "Malagasy"
+msgstr "Ikimaragasi"
+
+#. Name
+#: all_languages.desktop:182
+msgid "Marshallese"
+msgstr "Ikimarishali"
+
+#. Name
+#: all_languages.desktop:184
+msgid "Maori"
+msgstr "Ikimawori"
+
+#. Name
+#: all_languages.desktop:186
+msgid "Macedonian"
+msgstr "Ikinyamacedoniya"
+
+#. Name
+#: all_languages.desktop:188
+msgid "Malayalam"
+msgstr "Ikimalayalamu"
+
+#. Name
+#: all_languages.desktop:190
+msgid "Mongolian"
+msgstr "Ikinyamongoliya"
+
+#. Name
+#: all_languages.desktop:192
+msgid "Moldavian"
+msgstr "Ikinyamoludavi"
+
+#. Name
+#: all_languages.desktop:194
+msgid "Marathi"
+msgstr "Ikimarati"
+
+#. Name
+#: all_languages.desktop:196
+msgid "Malay"
+msgstr "Ikimalayi"
+
+#. Name
+#: all_languages.desktop:198
+msgid "Maltese"
+msgstr "Ikinyamalite"
+
+#. Name
+#: all_languages.desktop:200
+msgid "Burmese"
+msgstr "Ikibarumi"
+
+#. Name
+#: all_languages.desktop:202
+msgid "Nauru"
+msgstr "Ikinawuru"
+
+#. Name
+#: all_languages.desktop:204
+msgid "Norwegian Bokmål"
+msgstr "Ikibokumali nyanoruveje"
+
+#. Name
+#: all_languages.desktop:206
+msgid "Ndebele, North"
+msgstr "Ikindebele, amajyaruguru"
+
+#. Name
+#: all_languages.desktop:208
+msgid "Low Saxon"
+msgstr "Igisagisoni cyo hasi"
+
+#. Name
+#: all_languages.desktop:210
+msgid "Nepali"
+msgstr "Ikinyanepale"
+
+#. Name
+#: all_languages.desktop:212
+msgid "Ndonga"
+msgstr "Ikindonga"
+
+#. Name
+#: all_languages.desktop:214
+msgid "Dutch"
+msgstr "Ikinyaholande"
+
+#. Name
+#: all_languages.desktop:216
+msgid "Norwegian Nynorsk"
+msgstr "Ikinyanoruveji nayinorusiki"
+
+#. Name
+#: all_languages.desktop:218
+msgid "Ndebele, South"
+msgstr "Ikindebele, Amajyepfo"
+
+#. Name
+#: all_languages.desktop:220
+msgid "Northern Sotho"
+msgstr "Igisoto cy'Amajyaruguru"
+
+#. Name
+#: all_languages.desktop:222
+msgid "Navajo"
+msgstr "Ikinavajo"
+
+#. Name
+#: all_languages.desktop:224
+msgid "Chichewa"
+msgstr "Igicicewa"
+
+#. Name
+#: all_languages.desktop:226
+msgid "Occitan"
+msgstr "Icyogisitani"
+
+#. Name
+#: all_languages.desktop:228
+msgid "Oromo"
+msgstr "Icyoromo"
+
+#. Name
+#: all_languages.desktop:230
+msgid "Oriya"
+msgstr "Icyoriya"
+
+#. Name
+#: all_languages.desktop:232
+msgid "Ossetian"
+msgstr "Icyosetiyani"
+
+#. Name
+#: all_languages.desktop:234
+msgid "Punjabi"
+msgstr "Igipanjabi"
+
+#. Name
+#: all_languages.desktop:236
+msgid "Pali"
+msgstr "Igipali"
+
+#. Name
+#: all_languages.desktop:238
+msgid "Polish"
+msgstr "Ikinyapolonye"
+
+#. Name
+#: all_languages.desktop:240
+msgid "Pushto"
+msgstr "Igipushito"
+
+#. Name
+#: all_languages.desktop:242
+msgid "Portuguese"
+msgstr "Igiporutigali"
+
+#. Name
+#: all_languages.desktop:244
+msgid "Portuguese (Brazil)"
+msgstr "Igiporutigali cya Burezile"
+
+#. Name
+#: all_languages.desktop:246
+msgid "Quechua"
+msgstr "Igikwecuwa"
+
+#. Name
+#: all_languages.desktop:248
+msgid "Rundi"
+msgstr "Ikirundi"
+
+#. Name
+#: all_languages.desktop:250
+msgid "Romanian"
+msgstr "Ikinyarumaniya"
+
+#. Name
+#: all_languages.desktop:252
+#, fuzzy
+msgid "Romany"
+msgstr "Ikinyarumaniya"
+
+#. Name
+#: all_languages.desktop:254
+msgid "Russian"
+msgstr "Ikirusiya"
+
+#. Name
+#: all_languages.desktop:256
+msgid "Kinyarwanda"
+msgstr "Ikinyarwanda"
+
+#. Name
+#: all_languages.desktop:258
+msgid "Sanskrit"
+msgstr "Igisansikiriti"
+
+#. Name
+#: all_languages.desktop:260
+msgid "Sardinian"
+msgstr "Ikinyasaridini"
+
+#. Name
+#: all_languages.desktop:262
+msgid "Sindhi"
+msgstr "Igisindi"
+
+#. Name
+#: all_languages.desktop:264
+msgid "Northern Sami"
+msgstr "Igisami amajyaruguru"
+
+#. Name
+#: all_languages.desktop:266
+msgid "Sango"
+msgstr "Igisango"
+
+#. Name
+#: all_languages.desktop:268
+msgid "Sinhalese"
+msgstr "Ikinyasinali"
+
+#. Name
+#: all_languages.desktop:270
+msgid "Slovak"
+msgstr "Igisilovake"
+
+#. Name
+#: all_languages.desktop:272
+msgid "Slovenian"
+msgstr "Ikinyasiloveniya"
+
+#. Name
+#: all_languages.desktop:274
+msgid "Samoan"
+msgstr "Igisamowani"
+
+#. Name
+#: all_languages.desktop:276
+msgid "Shona"
+msgstr "Igishona"
+
+#. Name
+#: all_languages.desktop:278
+msgid "Somali"
+msgstr "Igisomali"
+
+#. Name
+#: all_languages.desktop:280
+msgid "Albanian"
+msgstr "Ikinyalubaniya"
+
+#. Name
+#: all_languages.desktop:282
+msgid "Serbian"
+msgstr "Ikinyaseribiya"
+
+#. Name
+#: all_languages.desktop:284
+#, fuzzy
+msgid "Serbian Latin"
+msgstr "Ikinyaseribiya"
+
+#. Name
+#: all_languages.desktop:286
+msgid "Swati"
+msgstr "Igiswati"
+
+#. Name
+#: all_languages.desktop:288
+msgid "Sotho, Southern"
+msgstr "Igisotho, Amajyepfo"
+
+#. Name
+#: all_languages.desktop:290
+msgid "Sundanese"
+msgstr "Ikinyasundani"
+
+#. Name
+#: all_languages.desktop:292
+msgid "Swedish"
+msgstr "Ikinyasuwede"
+
+#. Name
+#: all_languages.desktop:294
+msgid "Swahili"
+msgstr "Igiswayili"
+
+#. Name
+#: all_languages.desktop:296
+msgid "Tamil"
+msgstr "Igitamili"
+
+#. Name
+#: all_languages.desktop:298
+msgid "Telugu"
+msgstr "Igitelugu"
+
+#. Name
+#: all_languages.desktop:300
+msgid "Tajik"
+msgstr "Igitajika"
+
+#. Name
+#: all_languages.desktop:302
+msgid "Thai"
+msgstr "Igitayi"
+
+#. Name
+#: all_languages.desktop:304
+msgid "Tigrinya"
+msgstr "Igitigirinya"
+
+#. Name
+#: all_languages.desktop:306
+msgid "Turkmen"
+msgstr "Igiturukimeni"
+
+#. Name
+#: all_languages.desktop:308
+msgid "Tswana"
+msgstr "Igitswana"
+
+#. Name
+#: all_languages.desktop:310
+#, fuzzy
+msgid "Tonga"
+msgstr "Igitsonga"
+
+#. Name
+#: all_languages.desktop:312
+msgid "Turkish"
+msgstr "Ikinyaturukiya"
+
+#. Name
+#: all_languages.desktop:314
+msgid "Tsonga"
+msgstr "Igitsonga"
+
+#. Name
+#: all_languages.desktop:316
+msgid "Tatar"
+msgstr "Igitatari"
+
+#. Name
+#: all_languages.desktop:318
+msgid "Twi"
+msgstr "Igitwi"
+
+#. Name
+#: all_languages.desktop:320
+msgid "Tahitian"
+msgstr "Ikinyatahiti"
+
+#. Name
+#: all_languages.desktop:322
+msgid "Uighur"
+msgstr "Icyuyiguru"
+
+#. Name
+#: all_languages.desktop:324
+msgid "Ukrainian"
+msgstr "Ikinya-ikarayini"
+
+#. Name
+#: all_languages.desktop:326
+msgid "Urdu"
+msgstr "Icyuridu"
+
+#. Name
+#: all_languages.desktop:328
+msgid "Uzbek"
+msgstr "Icyuzubeka"
+
+#. Name
+#: all_languages.desktop:330
+msgid "Uzbek (Cyrillic)"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:332
+msgid "Venda"
+msgstr "Ikivenda"
+
+#. Name
+#: all_languages.desktop:334
+msgid "Vietnamese"
+msgstr "Ikinyaviyetinamu"
+
+#. Name
+#: all_languages.desktop:336
+msgid "Volapük"
+msgstr "Ikivolapuke"
+
+#. Name
+#: all_languages.desktop:338
+msgid "Walloon"
+msgstr "Ikiwaluni"
+
+#. Name
+#: all_languages.desktop:340
+msgid "Wolof"
+msgstr "Ikiwolofu"
+
+#. Name
+#: all_languages.desktop:342
+msgid "Xhosa"
+msgstr "Ikigisosa"
+
+#. Name
+#: all_languages.desktop:344
+msgid "Yiddish"
+msgstr "Ikiyidishi"
+
+#. Name
+#: all_languages.desktop:346
+msgid "Yoruba"
+msgstr "Ikiyoruba"
+
+#. Name
+#: all_languages.desktop:348
+msgid "Zhuang"
+msgstr "Ikizwange"
+
+#. Name
+#: all_languages.desktop:350
+msgid "Chinese"
+msgstr "Igishinwa"
+
+#. Name
+#: all_languages.desktop:352
+msgid "Chinese (Simplified)"
+msgstr "Igishinwa Cyoroheje"
+
+#. Name
+#: all_languages.desktop:354
+msgid "Chinese (Hong Kong)"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:356
+msgid "Chinese (Traditional)"
+msgstr "Igishinwa Karande"
+
+#. Name
+#: all_languages.desktop:358
+msgid "Zulu"
+msgstr "Ikizulu"

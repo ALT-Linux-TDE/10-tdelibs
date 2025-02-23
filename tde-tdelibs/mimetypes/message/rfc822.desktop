@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=message/rfc822
+Icon=message
+Patterns=
+Comment=Email Message
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

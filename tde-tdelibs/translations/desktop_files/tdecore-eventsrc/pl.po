@@ -1,0 +1,194 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 20:06+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: eventsrc:3
+msgid "System Notifications"
+msgstr "Powiadamianie systemowe w"
+
+#. Name
+#: eventsrc:6
+msgid "Trash: emptied"
+msgstr "Kosz: opróżniony"
+
+#. Comment
+#: eventsrc:7
+msgid "The trash has been emptied"
+msgstr "Kosz został opróżniony"
+
+#. Name
+#: eventsrc:11
+msgid "Textcompletion: rotation"
+msgstr "Uzupełnianie tekstu: rotacja"
+
+#. Comment
+#: eventsrc:12
+msgid "The end of the list of matches has been reached"
+msgstr "Osiągnięto koniec listy dopasowań"
+
+#. Name
+#: eventsrc:16
+msgid "Textcompletion: no match"
+msgstr "Uzupełnianie tekstu: brak dopasowania"
+
+#. Comment
+#: eventsrc:17
+msgid "No matching completion was found"
+msgstr "Nie znaleziono dopasowania"
+
+#. Name
+#: eventsrc:21
+msgid "Textcompletion: partial match"
+msgstr "Uzupełnianie tekstu: częściowe dopasowanie"
+
+#. Comment
+#: eventsrc:22
+msgid "There is more than one possible match"
+msgstr "Jest więcej niż jedno dopasowanie"
+
+#. Name
+#: eventsrc:26
+msgid "Cannot Open File"
+msgstr "Nie można otworzyć pliku"
+
+#. Comment
+#: eventsrc:27
+msgid "The selected file cannot be opened for reading or writing"
+msgstr "Wybrany plik nie może być otwarty do odczytu lub zapisu"
+
+#. Name
+#: eventsrc:31
+msgid "Fatal Error"
+msgstr "Błąd krytyczny"
+
+#. Comment
+#: eventsrc:32
+msgid "There was a serious error causing the program to exit"
+msgstr "Wystąpił poważny błąd, który spowodował zamknięcie programu"
+
+#. Name
+#: eventsrc:37
+msgid "Notification"
+msgstr "Powiadomienie"
+
+#. Comment
+#: eventsrc:38
+msgid "Something special happened in the program"
+msgstr "Coś specjalnego stało sie w programie"
+
+#. Name
+#: eventsrc:44
+msgid "Warning"
+msgstr "Ostrzeżenie"
+
+#. Comment
+#: eventsrc:45
+msgid "There was an error in the program which may cause problems"
+msgstr "Wystąpił błąd, który może spowodować zakłócenia w pracy"
+
+#. Name
+#: eventsrc:50
+msgid "Catastrophe"
+msgstr "Katastrofa"
+
+#. Comment
+#: eventsrc:51
+msgid "A very serious error occurred, at least causing the program to exit"
+msgstr ""
+"Wystąpił bardzo poważny błąd, który spowodował przynajmniej zakończenie "
+"programu"
+
+#. Name
+#: eventsrc:55
+msgid "Login"
+msgstr "Zalogowanie"
+
+#. Comment
+#: eventsrc:56
+msgid "TDE is starting up"
+msgstr "Uruchomienie TDE"
+
+#. Name
+#: eventsrc:61
+msgid "Logout"
+msgstr "Wylogowanie"
+
+#. Comment
+#: eventsrc:62
+msgid "TDE is exiting"
+msgstr "Zakończenie TDE"
+
+#. Name
+#: eventsrc:67
+msgid "Logout canceled"
+msgstr "Wylogowanie anulowane"
+
+#. Comment
+#: eventsrc:68
+msgid "TDE logout was canceled"
+msgstr "Wylogowanie z TDE zostało anulowane"
+
+#. Name
+#: eventsrc:73
+msgid "Print error"
+msgstr "Błąd wydruku"
+
+#. Comment
+#: eventsrc:74
+msgid "A print error has occurred"
+msgstr "Wystąpił błąd drukowania"
+
+#. Name
+#: eventsrc:79
+msgid "Information message"
+msgstr "Komunikat informacyjny"
+
+#. Comment
+#: eventsrc:80
+msgid "An information message is being shown"
+msgstr "Pokazywany jest komunikat informacyjny"
+
+#. Name
+#: eventsrc:86
+msgid "Warning message"
+msgstr "Komunikat ostrzegawczy"
+
+#. Comment
+#: eventsrc:87
+msgid "A warning message is being shown"
+msgstr "Pokazywany jest komunikat ostrzegawczy"
+
+#. Name
+#: eventsrc:94
+msgid "Critical message"
+msgstr "Komunikat błędu krytycznego"
+
+#. Comment
+#: eventsrc:95
+msgid "A critical message is being shown"
+msgstr "Pokazywany jest komunikat o błędzie krytycznym"
+
+#. Name
+#: eventsrc:102
+msgid "Question"
+msgstr "Komunikat z pytaniem"
+
+#. Comment
+#: eventsrc:103
+msgid "A question is being asked"
+msgstr "Zadawane jest pytanie"

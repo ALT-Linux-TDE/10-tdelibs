@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 21:00+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Name
+#: application.desktop:4
+msgid "Application"
+msgstr "కార్యక్రమం"
+
+#. Name
+#: kcomprfilter.desktop:4
+msgid "TDE Compression Filter"
+msgstr "కెడిఈ సంక్షిప్తపరిచె గలని"
+
+#. Comment
+#: kdatatool.desktop:4
+msgid "TDE Data Tool"
+msgstr "కెడిఈ దత్తాంశం పనిముట్టు"
+
+#. Name
+#: kpasswdserver.desktop:3
+msgid "KDED Password Module"
+msgstr "కెడిఈ పాస్ వర్డ్ మాడ్యూల్"
+
+#. Comment
+#: kpasswdserver.desktop:4
+msgid "Password caching support"
+msgstr "పాస్ వర్డులను దాయుటకు సహకరించును"
+
+#. Name
+#: kscan.desktop:4
+msgid "KScan"
+msgstr "కేస్కేన్"
+
+#. Name
+#: kurifilterplugin.desktop:4
+msgid "Enhanced Browsing Plugin"
+msgstr "అభివ్రుద్దిపరచిన బ్రౌజింగ్ ప్లగిన్"
+
+#. Name
+#: misc/kpac/proxyscout.desktop:3
+msgid "Proxy Scout"
+msgstr "ప్రాక్సీ వేగు"
+
+#. Comment
+#: misc/kpac/proxyscout.desktop:4
+msgid "Automatic proxy configuration"
+msgstr "స్వయంచాలక ప్రాక్సీ రూపకరణం"
+
+#. Name
+#: misc/kssld/kssld.desktop:9
+msgid "KSSL Daemon Module"
+msgstr "కెఎస్ ఎస్ ఎల్ సూత్రధారి మాడ్యూల్"
+
+#. Comment
+#: misc/kssld/kssld.desktop:10
+msgid "KSSL daemon module for KDED"
+msgstr "కెడిఈడి కొరకు కెఎస్ ఎస్ ఎల్ సూత్రధారి మాడ్యూల్"
+
+#. Name
+#: misc/tdeio_uiserver.desktop:4
+msgid "tdeio_uiserver"
+msgstr "కేఐఓ_యుఐసెర్వర్"
+
+#. Comment
+#: misc/tdeio_uiserver.desktop:5
+msgid "TDE's Progress Info UI server"
+msgstr "కెడిఈ యొక్క ప్రగతి సమాచార యూఐ సెర్వర్"
+
+#. Name
+#: misc/tdewalletd/tdewalletd.desktop:9
+msgid "TDEWallet Daemon Module"
+msgstr "కెవాలెట్ సూత్రధారి మాడ్యూల్"
+
+#. Comment
+#: misc/tdewalletd/tdewalletd.desktop:10
+msgid "TDEWallet daemon module for KDED"
+msgstr "కెడిఈడి కొరకు కెవాలెట్ సూత్రధారి మాడ్యూల్"
+
+#. Comment
+#: renamedlgplugin.desktop:4
+msgid "Plugin for the Rename Dialog"
+msgstr "పేరు మార్చు సంభాషణ కొరకు ప్లగిన్"
+
+#. Name
+#: tdecmodule.desktop:4
+msgid "TDE Control Module"
+msgstr "కెడిఈ నియంత్రణ మాడ్యూల్"
+
+#. Comment
+#: tdefile/kpropsdlgplugin.desktop:4
+msgid "Plugin for the Properties Dialog"
+msgstr "లక్షణాల సంభాషణ కొరకు ప్లగిన్"
+
+#. Name
+#: tdefileplugin.desktop:4
+msgid "KFile Meta Data Plugin"
+msgstr "కెదస్త్రం మెటా దత్తాంసం ప్లగిన్"
+
+#. Description
+#: data.protocol:8
+msgid "A tdeioslave for data URIs (rfc2397)"
+msgstr "దత్తాంశం యుఆరైల కొరకు కెఐఓబానిస (rfc2397)"
+
+#. Description
+#: misc/mms.protocol:11
+msgid "Microsoft Media Server Protocol"
+msgstr "మైక్రొసాఫ్ట్ మీడియా సెర్వర్ ప్రొటొకాల్"

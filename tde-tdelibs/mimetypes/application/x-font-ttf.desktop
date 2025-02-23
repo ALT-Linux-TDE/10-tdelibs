@@ -1,0 +1,6 @@
+[Desktop Entry]
+Comment=TrueType Font
+Icon=application-x-font-ttf
+Type=MimeType
+MimeType=application/x-font-ttf
+Patterns=*.ttf;*.TTF

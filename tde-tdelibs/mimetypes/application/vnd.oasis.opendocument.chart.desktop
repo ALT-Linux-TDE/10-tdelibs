@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/vnd.oasis.opendocument.chart
+Patterns=*.odc;*.ODC
+Icon=application-x-kchart
+Comment=OASIS OpenDocument Chart
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.odc

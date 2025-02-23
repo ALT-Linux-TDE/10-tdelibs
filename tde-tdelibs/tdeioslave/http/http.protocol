@@ -1,0 +1,12 @@
+[Protocol]
+exec=tdeio_http
+protocol=http
+input=none
+output=filesystem
+reading=true
+defaultMimetype=application/octet-stream
+determineMimetypeFromExtension=false
+Icon=www
+maxInstances=3
+X-DocPath=tdeioslave/http/index.html
+Class=:internet

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-applixgraphics
+Icon=image-x-generic
+Patterns=*.ag
+Comment=Applix Graphics Document

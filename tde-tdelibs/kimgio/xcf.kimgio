@@ -1,0 +1,9 @@
+[Image Format]
+Type=XCF
+Header=^gimp xcf
+Name=GIMP Image
+Read=true
+Write=false
+Suffices=xcf,XCF
+Mimetype=image/x-xcf-gimp
+Library=kimg_xcf.la

@@ -1,0 +1,22 @@
+##### prepare rgb.txt as C source ###############
+
+file( READ "${CMAKE_CURRENT_SOURCE_DIR}/rgb.txt" _colorsRC )
+string( REGEX REPLACE
+  "([ \t]*([0-9]+[ \t]+)([0-9]+[ \t]+)([0-9]+[ \t]+))([^ \t\n]+)(\n|$)"
+  "\\1/* xgettext: no-c-format */i18n(\"color\", \"\\5\");\\6"
+  _colorsRC ${_colorsRC}
+)
+string( REGEX REPLACE
+  "[^\n]*gr[ae]y[^\n]*(\n|$)"
+  "\\1"
+  _colorsRC ${_colorsRC}
+)
+file( WRITE "${CMAKE_CURRENT_SOURCE_DIR}/rgb.txt.tde_l10n" "${_colorsRC}" )
+
+
+##### create translation templates ##############
+
+tde_l10n_create_template(
+  CATALOG "tdelibs_colors"
+  SOURCES rgb.txt.tde_l10n
+)

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-egon
+Icon=image-x-generic
+Patterns=*.egon;
+Comment=Egon Animator

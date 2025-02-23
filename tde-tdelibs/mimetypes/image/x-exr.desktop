@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=image/x-exr
+Icon=image-x-generic
+Patterns=*.exr;*.EXR;
+Comment=ILM EXR Image

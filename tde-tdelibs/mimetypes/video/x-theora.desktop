@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=video/x-theora
+Icon=video-x-generic
+X-TDE-IsAlso=application/ogg
+Comment=Theora Video

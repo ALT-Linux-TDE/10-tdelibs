@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-compress
+Icon=application-x-tarz
+Patterns=*.Z;
+Comment=UNIX Compressed File

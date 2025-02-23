@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-python-bytecode
+Icon=application-octet-stream
+Patterns=*.pyc;
+Comment=Python Bytecode
+X-TDE-IsAlso=application/x-executable

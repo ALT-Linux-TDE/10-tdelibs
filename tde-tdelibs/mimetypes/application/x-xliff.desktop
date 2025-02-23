@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-xliff
+Icon=application-x-gettext
+Patterns=*.xlf;*.XLF;
+Comment=XLIFF Translation File
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.xlf

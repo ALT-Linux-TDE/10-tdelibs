@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-04 17:50+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Name
+#: tderesources.desktop:14
+msgid "Resources"
+msgstr "संसाधन"
+
+#. Comment
+#: tderesources.desktop:15
+msgid "Configure TDE Resources"
+msgstr "TDE संसाधन कन्फिगर गर्नुहोस्"
+
+#. Keywords
+#: tderesources.desktop:16
+msgid ""
+"resources;konnector resource;contact resource;calendar resource;notes "
+"resource;imap;"
+msgstr "संसाधन; जडानकर्ता संसाधन; सम्पर्क संसाधन; पात्रो संसाधन; टिपोट संसाधन; आई म्याप;"
+
+#. Comment
+#: tderesources_manager.desktop:4
+msgid "KResource Manager"
+msgstr "KResource प्रबन्धक"
+
+#. Comment
+#: tderesources_plugin.desktop:4
+msgid "KResource Framework Plugin"
+msgstr "KResource फ्रेमवर्क प्लगइन"

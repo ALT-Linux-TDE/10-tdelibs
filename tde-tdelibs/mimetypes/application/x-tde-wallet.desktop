@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-tde-wallet
+Comment=TDE Wallet File
+Patterns=*.kwl
+X-TDE-AutoEmbed=false

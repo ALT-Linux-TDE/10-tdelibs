@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Service
+Name=Embeddable Component for multipart/mixed
+MimeType=multipart/mixed;multipart/x-mixed-replace
+X-TDE-ServiceTypes=KParts/ReadOnlyPart
+X-TDE-Library=libtdemultipart

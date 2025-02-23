@@ -1,0 +1,11 @@
+ClassName=Configuration
+File=kcm_tdednssd.kcfg
+GlobalEnums=false
+Inherits=TDEConfigSkeleton
+ItemAccessors=false
+MemberVariables=private
+Mutators=true
+NameSpace=DNSSD
+SetUserTexts=false
+Singleton=true
+Visibility=TDEDNSSD_EXPORT

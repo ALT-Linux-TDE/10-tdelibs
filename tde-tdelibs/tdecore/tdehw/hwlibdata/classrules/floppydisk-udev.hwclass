@@ -1,0 +1,10 @@
+[Conditions]
+ID_TYPE=floppy
+MatchType=All
+
+[DeviceType]
+GENTYPE=Disk
+SUBTYPE=Floppy
+
+[DeviceSettings]
+UPDATE_BLACKLISTED=false

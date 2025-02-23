@@ -1,0 +1,11 @@
+[Desktop Entry]
+MimeType=text/x-makefile
+Comment=Makefile
+Type=MimeType
+Patterns=GNUmakefile;Makefile;makefile;Makefile.*;makefile.*
+Icon=text-x-makefile
+X-TDE-IsAlso=text/plain
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

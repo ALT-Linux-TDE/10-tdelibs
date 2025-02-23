@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/vnd.mozilla.xul+xml
+X-TDE-IsAlso=text/xml
+Icon=
+Patterns=*.xul;*.XUL;
+Comment=Mozilla XUL File

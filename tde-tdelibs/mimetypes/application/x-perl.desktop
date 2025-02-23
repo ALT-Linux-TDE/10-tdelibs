@@ -1,0 +1,11 @@
+[Desktop Entry]
+Comment=Perl Program
+Icon=text-x-perl
+Type=MimeType
+MimeType=application/x-perl
+Patterns=*.pl;*.PL;*.perl;*.PERL;*.Perl
+X-TDE-IsAlso=application/x-executable-script
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

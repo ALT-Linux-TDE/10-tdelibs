@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Service
+Name=KNotify
+Comment=TDE Notification Daemon
+Exec=knotify
+Icon=knotify
+X-TDE-ServiceTypes=KNotify
+X-DCOP-ServiceType=Unique
+X-TDE-StartupNotify=false

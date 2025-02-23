@@ -1,0 +1,100 @@
+#    This file is part of the KDE libraries
+#    Copyright (C) 1996-1997 Matthias Kalle Dalheimer (kalle@kde.org)
+#              (C) 1997,1998 Stephan Kulow (coolo@kde.org)
+
+#    This library is free software; you can redistribute it and/or
+#    modify it under the terms of the GNU Library General Public
+#    License as published by the Free Software Foundation; either
+#    version 2 of the License, or (at your option) any later version.
+
+#    This library is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+#    Library General Public License for more details.
+
+#    You should have received a copy of the GNU Library General Public License
+#    along with this library; see the file COPYING.LIB.  If not, write to
+#    the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+#    Boston, MA 02110-1301, USA.
+
+
+COMPILE_FIRST = dcop libltdl tdefx tdecore tdeunittest tdeui tdesu kjs tdewallet tdeio kded kded_post
+COMPILE_BEFORE_doc = kdoctools
+COMPILE_AFTER_tdeparts = tdespell2 tdemdi tdeprint tdeinit kate interfaces tdecert tdehtml tderandr
+COMPILE_AFTER_tdeprint = kate tdehtml
+COMPILE_BEFORE_tdehtml = tdeutils
+COMPILE_BEFORE_tdeabc = kab tderesources
+COMPILE_BEFORE_kate = interfaces tdeutils
+COMPILE_BEFORE_tdemdi = tdeutils
+COMPILE_BEFORE_tdespell2 = tdeutils
+COMPILE_BEFORE_tdecmshell = tdeutils
+COMPILE_BEFORE_tdewidgets = tdeabc tdehtml
+COMPILE_BEFORE_interfaces = arts tdeabc
+
+$(top_srcdir)/acinclude.m4: $(top_srcdir)/libltdl/ltdl.m4
+
+AUTOMAKE_OPTIONS = foreign 1.6.1
+
+potdir = $(kde_includes)
+pot_DATA = tde.pot
+
+messages:
+	cd tdeabc/scripts && perl ./makeaddressee
+	find . -type d | grep -v '\.svn' | sed -e 's,$$,/,' > dirs
+	mfs=`find . -name Makefile.am | xargs egrep -l '^messages:'` ;\
+	for dir in $$mfs; do \
+	  if test "$$dir" != "./Makefile.am"; then \
+	    dir=`dirname $$dir` ;\
+	    egrep -v "^$$dir" dirs > dirs.new && mv dirs.new dirs ;\
+	  fi ;\
+	done
+	fgrep -v "/tests" dirs > dirs.new && mv dirs.new dirs ;\
+	dirs=`cat dirs` ;\
+	find $$dirs -maxdepth 1 -name "*.cpp" -print > files ;\
+	find $$dirs -maxdepth 1 -name "*.h" -print >> files ;\
+	echo ./tdecore/tde-config.cpp.in >> files ;\
+	$(EXTRACTRC) `find $$dirs -maxdepth 1 \( -name "*.rc" -o -name "*.ui" \) ` ./dnssd/kcm_tdednssd.kcfg > rc.cpp; \
+	: > tde.pot ;\
+	$(XGETTEXT) common_texts.cpp -o tde.pot
+	rm -f dirs
+
+EXTRA_DIST = admin tde.pot \
+	COMPILING COMPILING.html COPYING.BSD DEBUG \
+	KDE2PORTING.html NAMING common_texts.cpp tdelibs.lsm kdoc.rules \
+	configure.in.in configure.in.mid configure.in.bot
+
+MAINTAINERCLEANFILES = configure.files subdirs
+
+dist-hook:
+	cd $(top_distdir) && perl $(top_srcdir)/admin/am_edit -padmin
+
+# Rule for generating HTML documentation [you need kdoc installed]
+# Don't forget to run qt2kdoc first (qt2kdoc $TQTDIR/doc/html)
+# The tdelibs docu will end up in ./srcdoc/
+kdedoc:
+	cd $(top_srcdir) && \
+	makekdedoc -p'--skip-internal' --outputdir=$(top_builddir)/srcdoc
+
+include admin/Doxyfile.am
+include admin/deps.am
+
+apidox-am-toplevel-yes: apidox-am-toplevel-tdelibs
+
+apidox-am-toplevel-tdelibs: $(top_builddir)/apidocs/qt/qt.tag
+
+$(top_builddir)/apidocs/qt/qt.tag:
+	@echo "*** Creating a tag file for the Qt library:"; \
+	$(mkinstalldirs) $(top_builddir)/apidocs/qt; \
+	doxytag -t $(top_builddir)/apidocs/qt/qt.tag $(TQTDOCDIR)
+
+install-data-local: install-apidox-tdelibs
+
+## install the tag file for the Qt documentation
+install-apidox-tdelibs:
+	if test -f $(top_builddir)/apidocs/qt/qt.tag; then \
+		$(mkinstalldirs) $(DESTDIR)$(kde_htmldir)/en/$(PACKAGE)-apidocs/qt ;\
+		echo $(INSTALL_DATA) $(top_builddir)/apidocs/qt/qt.tag $(DESTDIR)$(kde_htmldir)/en/$(PACKAGE)-apidocs/qt; \
+		$(INSTALL_DATA) $(top_builddir)/apidocs/qt/qt.tag $(DESTDIR)$(kde_htmldir)/en/$(PACKAGE)-apidocs/qt; \
+	fi
+
+.PHONY: install-apidox-tdelibs apidox-am-toplevel-tdelibs apidox-am-toplevel-yes

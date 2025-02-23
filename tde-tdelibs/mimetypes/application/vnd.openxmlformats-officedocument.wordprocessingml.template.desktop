@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/vnd.openxmlformats-officedocument.wordprocessingml.template
+Patterns=*.dotx;*.DOTX
+Icon=application-vnd.oasis.opendocument.text
+Comment=Microsoft Word Document Template
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.doc

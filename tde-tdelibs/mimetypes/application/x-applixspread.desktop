@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-applixspread
+Icon=application-vnd.oasis.opendocument.spreadsheet
+Patterns=*.as
+Comment=Applix Spreadsheets Document

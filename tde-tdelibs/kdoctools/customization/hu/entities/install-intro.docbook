@@ -1,0 +1,6 @@
+<!-- requires that packagename is defined in the documentation prologue -->
+<para>A program a &tde; projekt (&tde-http;) része,</para>
+
+<para>a(z) &package; csomagban található, mely letölthető erről a címről: 
+&kde-ftp;, a &tde; projekt központi &FTP;-kiszolgálójáról.
+</para>

@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 21:19+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: km\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: misc/kpac/eventsrc:3
+msgid "Automatic Proxy Configuration"
+msgstr "ការ​កំណត់​រចនាសម្ព័ន្ធ​ប្រូកស៊ី​ដោយ​ស្វ័យ​ប្រវត្តិ"
+
+#. Name
+#: misc/kpac/eventsrc:6
+msgid "Invalid proxy script"
+msgstr "ស្គ្រីប​ប្រូកស៊ី​មិន​ត្រឹមត្រូវ"
+
+#. Comment
+#: misc/kpac/eventsrc:7
+msgid "The downloaded proxy configuration script is invalid"
+msgstr "ស្គ្រីប​កំណត់​រចនាសម្ព័ន្ធប្រូកស៊ី​ដែល​បាន​ទាញយក មិន​ត្រឹមត្រូវ​ឡើយ"
+
+#. Name
+#: misc/kpac/eventsrc:11
+msgid "Script download error"
+msgstr "កំហុស​ទាញយក​ស្គ្រីប"
+
+#. Comment
+#: misc/kpac/eventsrc:12
+msgid "The proxy configuration script could not be downloaded"
+msgstr "មិន​អាច​ទាញយក​ស្គ្រីប​កំណត់​រចនាសម្ព័ន្ធ​ប្រូកស៊ី"
+
+#. Name
+#: misc/kpac/eventsrc:16
+msgid "Script evaluation error"
+msgstr "កំហុស​វាយតម្លៃរបស់ស្គ្រីប"
+
+#. Comment
+#: misc/kpac/eventsrc:17
+msgid "There was an error executing the proxy configuration script"
+msgstr "មាន​កំហុស​មួយ​ក្នុងការប្រតិបត្តិ​ស្គ្រីបកំណត់​រចនាសម្ព័ន្ធ​ប្រូកស៊ី"

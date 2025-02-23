@@ -1,0 +1,268 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# Michele Calgaro <michele.calgaro@yahoo.it>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-04 16:37+0200\n"
+"PO-Revision-Date: 2021-07-28 06:14+0000\n"
+"Last-Translator: Michele Calgaro <michele.calgaro@yahoo.it>\n"
+"Language-Team: Italian <https://mirror.git.trinitydesktop.org/weblate/"
+"projects/tdelibs/tdeprint-desktop-files/it/>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.7.2\n"
+
+#. Name
+#: filters/enscript.desktop:2
+msgid "enscript"
+msgstr "enscript"
+
+#. Comment
+#: filters/enscript.desktop:4
+msgid "Enscript Text Filter"
+msgstr "Filtro di testi Enscript"
+
+#. Name
+#: filters/imagetops.desktop:2
+msgid "imagetops"
+msgstr "imagetops"
+
+#. Comment
+#: filters/imagetops.desktop:4
+msgid "Generic Image to PS Filter"
+msgstr "Filtro generico da immagine a PostScript"
+
+#. Name
+#: filters/pdf2ps.desktop:2
+msgid "pdf2ps"
+msgstr "pdf2ps"
+
+#. Comment
+#: filters/pdf2ps.desktop:4
+msgid "PDF to PostScript Converter"
+msgstr "Convertitore da PDF a PostScript"
+
+#. Name
+#: filters/pdfwrite.desktop:2
+msgid "pdfwrite"
+msgstr "pdfwrite"
+
+#. Comment
+#: filters/pdfwrite.desktop:4
+msgid "PDF Writer (needs Ghostscript)"
+msgstr "Scrittura di PDF (richiede GhostScript)"
+
+#. Comment
+#: filters/poster.desktop:3
+msgid "Poster Printing"
+msgstr "Stampa poster"
+
+#. Description
+#: filters/poster.desktop:4
+msgid ""
+"Utility to print large posters on multiple small paper sheets. To use this "
+"command, the <b>poster</b> executable must be accessible in your <tt>PATH</"
+"tt>.<p><b><u>WARNING:</u></b> The package found on the TDEPrint web site is "
+"a modified version of the original one that can be found on any CTAN archive "
+"mirror, but the original package will <b>not</b> work with TDE."
+msgstr ""
+"Utilità per stampare poster grandi su più fogli piccoli. Per usare questo "
+"comando, l'eseguibile <b>poster</b> deve essere accessibile nel tuo "
+"<tt>PATH</tt>.<p><b><u>ATTENZIONE:</u></b> il pacchetto presente sul sito "
+"Web di TDEPrint è una versione modificata dell'originale reperibile in un "
+"qualsiasi mirror CTAN, ma il pacchetto originale <b>non</b> funziona con TDE."
+
+#. Name
+#: filters/ps2pdf.desktop:2
+msgid "ps2pdf"
+msgstr "ps2pdf"
+
+#. Comment
+#: filters/ps2pdf.desktop:4
+msgid "PostScript to PDF Converter"
+msgstr "Convertitore da PostScript a PDF"
+
+#. Name
+#: filters/psbook.desktop:2
+msgid "psbook"
+msgstr "psbook"
+
+#. Comment
+#: filters/psbook.desktop:4
+msgid "Pamphlet Printing (use with small side duplex printing)"
+msgstr "Stampa libretto (da usare con la stampa fronte/retro dal lato corto)"
+
+#. Name
+#: filters/psbook1.desktop:2
+msgid "psbook1"
+msgstr "psbook1"
+
+#. Comment
+#: filters/psbook1.desktop:4
+msgid "Pamphlet Printing - Even Pages (step 1)"
+msgstr "Stampa libretto - pagine pari (passo 1)"
+
+#. Name
+#: filters/psbook2.desktop:2
+msgid "psbook2"
+msgstr "psbook2"
+
+#. Comment
+#: filters/psbook2.desktop:4
+msgid "Pamphlet Printing - Odd Pages (step 2)"
+msgstr "Stampa libretto - pagine dispari (passo 2)"
+
+#. Name
+#: filters/psnup.desktop:2
+msgid "psnup"
+msgstr "psnup"
+
+#. Comment
+#: filters/psnup.desktop:4
+msgid "Multiple Pages per Sheet Filter"
+msgstr "Più pagine sullo stesso foglio"
+
+#. Name
+#: filters/psresize.desktop:2
+msgid "psresize"
+msgstr "psresize"
+
+#. Comment
+#: filters/psresize.desktop:4
+msgid "Scale Print Content to Fit on Another Paper Size"
+msgstr "Adatta il contenuto della stampa ad una diversa dimensione della carta"
+
+#. Name
+#: filters/psselect.desktop:2
+msgid "psselect"
+msgstr "psselect"
+
+#. Comment
+#: filters/psselect.desktop:4
+msgid "Page Selection/Ordering Filter"
+msgstr "Filtro per la selezione e l'ordinamento delle pagine"
+
+#. Name
+#: specials.desktop:5
+msgid "Print to File (PostScript)"
+msgstr "Stampa su file (PostScript)"
+
+#. Description
+#: specials.desktop:6
+msgid "Write PostScript file"
+msgstr "Scrive file PostScript"
+
+#. Comment
+#: specials.desktop:7 specials.desktop:17
+msgid "Local file"
+msgstr "File locale"
+
+#. Name
+#: specials.desktop:15
+msgid "Print to File (PDF)"
+msgstr "Stampa su file (PDF)"
+
+#. Description
+#: specials.desktop:16
+msgid "Write PDF/Acrobat file"
+msgstr "Scrive file PDF/Acrobat"
+
+#. Name
+#: specials.desktop:26
+msgid "Send to Fax"
+msgstr "Invia al fax"
+
+#. Description
+#: specials.desktop:27
+msgid "Send to external fax system"
+msgstr "Invia ad un sistema di fax esterno"
+
+#. Comment
+#: specials.desktop:28
+msgid "External"
+msgstr "Esterno"
+
+#. Comment
+#: specials.desktop:37
+msgid "Attachment for KMail Composer"
+msgstr "Allegato per il compositore di KMail"
+
+#. Description
+#: specials.desktop:38
+msgid "Creates PDF/Acrobat file as attachment for KMail"
+msgstr "Crea un file di allegato PDF/Acrobat per KMail"
+
+#. Name
+#: specials.desktop:43
+msgid "Mail PDF File"
+msgstr "Spedisci file PDF"
+
+#. Comment
+#: specials.desktop:48
+msgid "KSendFax"
+msgstr "KSendFax"
+
+#. Description
+#: specials.desktop:49
+msgid "Use ksendfax to fax the current document"
+msgstr "Usa ksendfax per inviare come fax il documento corrente"
+
+#. Name
+#: specials.desktop:53
+msgid "Advanced Faxing Tool (ksendfax)"
+msgstr "Strumento avanzato per i fax (ksendfax)"
+
+#. Name
+#: tdeprintd.desktop:11
+msgid "TDE Print Daemon"
+msgstr "Demone di stampa TDE"
+
+#. Comment
+#: tdeprintd.desktop:12
+msgid "Print daemon for TDE"
+msgstr "Demone di stampa per TDE"
+
+#. Name
+#: tools/escputil/escputil.desktop:2
+msgid "EPSON InkJet"
+msgstr "EPSON InkJet"
+
+#. Comment
+#: cups/cups.print:3
+msgid "CUPS (Common UNIX Print System)"
+msgstr "CUPS (Sistema di stampa UNIX comune)"
+
+#. Comment
+#: ext/ext.print:3
+msgid "Print Through an External Program (generic)"
+msgstr "Stampa attraverso un programma esterno (generico)"
+
+#. Comment
+#: foomatic/foomatic.print:3
+msgid "Foomatic (CUPS, LPRng, PDQ)"
+msgstr "Foomatic (CUPS, LPRng, PDQ)"
+
+#. Comment
+#: lpd/lpd.print:3
+msgid "LPR (Standard BSD print system)"
+msgstr "LPR (sistema di stampa standard di BSD)"
+
+#. Comment
+#: lpdunix/lpdunix.print:3
+msgid "Generic UNIX LPD Print System (default)"
+msgstr "Sistema di stampa UNIX LPD generico (predefinito)"
+
+#. Comment
+#: lpr/lpr.print:3
+msgid "LPR/LPRng Print System"
+msgstr "Sistema di stampa LPR/LPRng"
+
+#. Comment
+#: rlpr/rlpr.print:3
+msgid "RLPR Environment (Remote LPD servers)"
+msgstr "Ambiente RLPR (server LPD remoti)"

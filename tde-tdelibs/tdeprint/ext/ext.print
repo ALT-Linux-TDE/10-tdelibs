@@ -1,0 +1,3 @@
+[TDE Print Entry]
+PrintSystem=ext
+Comment=Print Through an External Program (generic)

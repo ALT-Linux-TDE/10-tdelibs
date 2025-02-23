@@ -1,0 +1,8 @@
+# This file is provided soley in the interest of cross platform compatibility
+# It only contains information on certain generic core system devices that cannot be looked up via another method
+# All marks are the property of their owners
+
+ACR	Acer
+LPL	LG
+PHL	Philips
+SEC	Samsung

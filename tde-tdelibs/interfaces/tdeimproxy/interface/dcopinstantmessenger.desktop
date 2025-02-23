@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=ServiceType
+X-TDE-ServiceType=DCOP/InstantMessenger
+
+Comment=Instant Messenger with a DCOP interface

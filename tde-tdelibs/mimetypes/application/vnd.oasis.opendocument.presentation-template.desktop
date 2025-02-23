@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/vnd.oasis.opendocument.presentation-template
+Patterns=*.otp;*.OTP
+Icon=application-vnd.oasis.opendocument.presentation
+Comment=OASIS OpenDocument Presentation Template
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.otp

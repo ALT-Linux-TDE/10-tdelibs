@@ -1,0 +1,6 @@
+[Desktop Entry]
+Comment=Character Device
+Icon=chardevice
+Type=MimeType
+MimeType=inode/chardevice
+Patterns=

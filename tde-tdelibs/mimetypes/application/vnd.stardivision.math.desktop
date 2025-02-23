@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/vnd.stardivision.math
+Patterns=*.sdf;*.SDF;
+Icon=application-x-kformula
+Comment=StarOffice Math Document
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.sdf

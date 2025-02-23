@@ -1,0 +1,270 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-04 16:37+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: uz@cyrillic\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Name
+#: filters/enscript.desktop:2
+msgid "enscript"
+msgstr ""
+
+#. Comment
+#: filters/enscript.desktop:4
+msgid "Enscript Text Filter"
+msgstr "Enscript матн филтери"
+
+#. Name
+#: filters/imagetops.desktop:2
+msgid "imagetops"
+msgstr ""
+
+#. Comment
+#: filters/imagetops.desktop:4
+msgid "Generic Image to PS Filter"
+msgstr "Расмни PS'га айлантирадиган оддий филтр"
+
+#. Name
+#: filters/pdf2ps.desktop:2
+msgid "pdf2ps"
+msgstr ""
+
+#. Comment
+#: filters/pdf2ps.desktop:4
+msgid "PDF to PostScript Converter"
+msgstr "PDF'ни PostScrip'га айлантирадиган дастур"
+
+#. Name
+#: filters/pdfwrite.desktop:2
+msgid "pdfwrite"
+msgstr ""
+
+#. Comment
+#: filters/pdfwrite.desktop:4
+msgid "PDF Writer (needs Ghostscript)"
+msgstr "PDF ёзгич (Ghostscript ўрнатилган бўлиши шарт)"
+
+#. Comment
+#: filters/poster.desktop:3
+msgid "Poster Printing"
+msgstr "Плакат босиб чиқариш"
+
+#. Description
+#: filters/poster.desktop:4
+msgid ""
+"Utility to print large posters on multiple small paper sheets. To use this "
+"command, the <b>poster</b> executable must be accessible in your <tt>PATH</"
+"tt>.<p><b><u>WARNING:</u></b> The package found on the TDEPrint web site is "
+"a modified version of the original one that can be found on any CTAN archive "
+"mirror, but the original package will <b>not</b> work with TDE."
+msgstr ""
+"Катта плакатларни бир нечта кичик варақларга босиб чиқариш воситаси. Бу "
+"имкониятдан фойдаланиш учун <b>poster</b> дастури ўрнатилган директория "
+"сизнинг <tt>$PATH</tt> муҳит ўзгарувчингизда кўрсатилган бўлиши шарт."
+"<p><b><u>ДИҚҚАТ:</u></b> TDEPrint веб-сайтидаги пакет ҳамма CTAN "
+"архивларидан топиб бўладиган дастурнинг ўзгартирилган нусхаси. Дастурнинг "
+"асл нусхаси TDE билан <b>ишламайди</b>."
+
+#. Name
+#: filters/ps2pdf.desktop:2
+msgid "ps2pdf"
+msgstr ""
+
+#. Comment
+#: filters/ps2pdf.desktop:4
+msgid "PostScript to PDF Converter"
+msgstr "PostScrip'ни PDF'га айлантирадиган дастур"
+
+#. Name
+#: filters/psbook.desktop:2
+msgid "psbook"
+msgstr ""
+
+#. Comment
+#: filters/psbook.desktop:4
+msgid "Pamphlet Printing (use with small side duplex printing)"
+msgstr ""
+"Памфлет босиб чиқариш (кичик тарафлама варақнинг иккита томонига босиб "
+"чиқариш)"
+
+#. Name
+#: filters/psbook1.desktop:2
+msgid "psbook1"
+msgstr ""
+
+#. Comment
+#: filters/psbook1.desktop:4
+msgid "Pamphlet Printing - Even Pages (step 1)"
+msgstr "Памфлет босиб чиқариш - Жуфт бетлар (қадам 1)"
+
+#. Name
+#: filters/psbook2.desktop:2
+msgid "psbook2"
+msgstr ""
+
+#. Comment
+#: filters/psbook2.desktop:4
+msgid "Pamphlet Printing - Odd Pages (step 2)"
+msgstr "Памфлет босиб чиқариш - Тоқ бетлар (қадам 2)"
+
+#. Name
+#: filters/psnup.desktop:2
+msgid "psnup"
+msgstr ""
+
+#. Comment
+#: filters/psnup.desktop:4
+msgid "Multiple Pages per Sheet Filter"
+msgstr "Битта варақга бир нечта бет чиқариш филтери"
+
+#. Name
+#: filters/psresize.desktop:2
+msgid "psresize"
+msgstr ""
+
+#. Comment
+#: filters/psresize.desktop:4
+msgid "Scale Print Content to Fit on Another Paper Size"
+msgstr "Варақнинг бошқа ўлчамига мос келтириш"
+
+#. Name
+#: filters/psselect.desktop:2
+msgid "psselect"
+msgstr ""
+
+#. Comment
+#: filters/psselect.desktop:4
+msgid "Page Selection/Ordering Filter"
+msgstr "Бетларни танлаш/тартиблаш филтери"
+
+#. Name
+#: specials.desktop:5
+msgid "Print to File (PostScript)"
+msgstr "PostScript-файли сифатида сақлаш"
+
+#. Description
+#: specials.desktop:6
+msgid "Write PostScript file"
+msgstr "PostScript-файли сифатида сақлаш"
+
+#. Comment
+#: specials.desktop:7 specials.desktop:17
+msgid "Local file"
+msgstr "Локал файл"
+
+#. Name
+#: specials.desktop:15
+msgid "Print to File (PDF)"
+msgstr "PDF-файли сифатида сақлаш"
+
+#. Description
+#: specials.desktop:16
+msgid "Write PDF/Acrobat file"
+msgstr "PDF/Acrobat-файли сифатида сақлаш"
+
+#. Name
+#: specials.desktop:26
+msgid "Send to Fax"
+msgstr "Факсга жўнатиш"
+
+#. Description
+#: specials.desktop:27
+msgid "Send to external fax system"
+msgstr "Ташқи факсга жўнатиш"
+
+#. Comment
+#: specials.desktop:28
+msgid "External"
+msgstr "Ташқи"
+
+#. Comment
+#: specials.desktop:37
+msgid "Attachment for KMail Composer"
+msgstr "KMail учун илова"
+
+#. Description
+#: specials.desktop:38
+msgid "Creates PDF/Acrobat file as attachment for KMail"
+msgstr "KMail учун илова сифатида PDF/Acrobat-файлини яратади"
+
+#. Name
+#: specials.desktop:43
+msgid "Mail PDF File"
+msgstr "PDF-файли сифатида хат орқали жўнатиш"
+
+#. Comment
+#: specials.desktop:48
+msgid "KSendFax"
+msgstr "Факс жўнатиш"
+
+#. Description
+#: specials.desktop:49
+msgid "Use ksendfax to fax the current document"
+msgstr "Жорий ҳужжатни факс билан жўнатиш учун ksendfax'дан фойдаланинг"
+
+#. Name
+#: specials.desktop:53
+msgid "Advanced Faxing Tool (ksendfax)"
+msgstr "Факс жўнатиш учун кенгайтирилган восита (ksendfax)"
+
+#. Name
+#: tdeprintd.desktop:11
+msgid "TDE Print Daemon"
+msgstr "TDE босиб чиқариш хизмати"
+
+#. Comment
+#: tdeprintd.desktop:12
+msgid "Print daemon for TDE"
+msgstr "TDE учун босиб чиқариш хизмати"
+
+#. Name
+#: tools/escputil/escputil.desktop:2
+msgid "EPSON InkJet"
+msgstr ""
+
+#. Comment
+#: cups/cups.print:3
+msgid "CUPS (Common UNIX Print System)"
+msgstr "CUPS (UNIX учун умумий босиб чиқариш тизими)"
+
+#. Comment
+#: ext/ext.print:3
+msgid "Print Through an External Program (generic)"
+msgstr "Ташқи дастур ёрдамида босиб чиқариш (умумий)"
+
+#. Comment
+#: foomatic/foomatic.print:3
+msgid "Foomatic (CUPS, LPRng, PDQ)"
+msgstr ""
+
+#. Comment
+#: lpd/lpd.print:3
+msgid "LPR (Standard BSD print system)"
+msgstr "LPR (BSD'нинг андоза босиб чиқариш тизими)"
+
+#. Comment
+#: lpdunix/lpdunix.print:3
+msgid "Generic UNIX LPD Print System (default)"
+msgstr "Оддий UNIX LPD босиб чиқариш тизими (андоза)"
+
+#. Comment
+#: lpr/lpr.print:3
+msgid "LPR/LPRng Print System"
+msgstr "LPR/LPRng босиб чиқариш тизими"
+
+#. Comment
+#: rlpr/rlpr.print:3
+msgid "RLPR Environment (Remote LPD servers)"
+msgstr "RLPR муҳити (масофадаги LPD серверлар)"

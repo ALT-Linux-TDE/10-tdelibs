@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-font-speedo
+Icon=font-x-generic
+Patterns=*.spd;*.SPD
+Comment=Speedo Font

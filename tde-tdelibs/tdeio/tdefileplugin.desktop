@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=ServiceType
+X-TDE-ServiceType=KFilePlugin
+Name=KFile Meta Data Plugin
+
+[PropertyDef::PreferredItems]
+Type=TQStringList
+
+[PropertyDef::PreferredGroups]
+Type=TQStringList
+
+[PropertyDef::SupportsThumbnail]
+Type=bool

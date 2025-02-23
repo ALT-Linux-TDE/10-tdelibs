@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=image/x-djvu
+Icon=image-x-generic
+Patterns=*.djvu;*.DJVU;*.djv;*.DJV;
+Comment=DjVu Document

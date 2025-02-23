@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/vnd.oasis.opendocument.image
+Patterns=*.odi;*.ODI
+Icon=application-x-krita
+Comment=OASIS OpenDocument Image
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.odi

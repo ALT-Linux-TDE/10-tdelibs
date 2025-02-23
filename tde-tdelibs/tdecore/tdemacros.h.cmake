@@ -1,0 +1,186 @@
+/* This file is part of the TDE libraries
+    Copyright (c) 2002-2003 TDE Team
+
+    This library is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Library General Public
+    License as published by the Free Software Foundation; either
+    version 2 of the License, or (at your option) any later version.
+
+    This library is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Library General Public License for more details.
+
+    You should have received a copy of the GNU Library General Public License
+    along with this library; see the file COPYING.LIB.  If not, write to
+    the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+    Boston, MA 02110-1301, USA.
+*/
+
+#ifndef _TDE_MACROS_H_
+#define _TDE_MACROS_H_
+
+/* Set by configure */
+#cmakedefine __TDE_HAVE_TDEHWLIB 1
+#cmakedefine __TDE_HAVE_GCC_VISIBILITY 1
+
+/**
+ * The TDE_NO_EXPORT macro marks the symbol of the given variable 
+ * to be hidden. A hidden symbol is stripped during the linking step, 
+ * so it can't be used from outside the resulting library, which is similar
+ * to static. However, static limits the visibility to the current 
+ * compilation unit. hidden symbols can still be used in multiple compilation
+ * units.
+ *
+ * \code
+ * int TDE_NO_EXPORT foo;
+ * int TDE_EXPORT bar;
+ * \end
+ */
+
+#ifdef __TDE_HAVE_GCC_VISIBILITY
+#define TDE_NO_EXPORT __attribute__ ((visibility("hidden")))
+#define TDE_EXPORT __attribute__ ((visibility("default")))
+#elif defined(TQ_WS_WIN)
+#define TDE_NO_EXPORT
+#define TDE_EXPORT __declspec(dllexport)
+#else
+#define TDE_NO_EXPORT
+#define TDE_EXPORT
+#endif
+
+/**
+ * TDE_EXPORT_PLUGIN is a workaround for Qt not being able to
+ * cope with symbol visibility.
+ */
+#define TDE_EXPORT_PLUGIN(PLUGIN) \
+  TQ_EXTERN_C TDE_EXPORT const char* qt_ucm_query_verification_data(); \
+  TQ_EXTERN_C TDE_EXPORT TQUnknownInterface* ucm_instantiate(); \
+  TQ_EXPORT_PLUGIN(PLUGIN)
+
+/**
+ * The TDE_PACKED can be used to hint the compiler that a particular
+ * structure or class should not contain unnecessary paddings. 
+ */
+
+#ifdef __GNUC__
+#define TDE_PACKED __attribute__((__packed__))
+#else
+#define TDE_PACKED
+#endif
+
+/**
+ * The TDE_DEPRECATED macro can be used to trigger compile-time warnings
+ * with newer compilers when deprecated functions are used.
+ *
+ * For non-inline functions, the macro gets inserted at the very end of the
+ * function declaration, right before the semicolon:
+ *
+ * \code
+ * DeprecatedConstructor() TDE_DEPRECATED;
+ * void deprecatedFunctionA() TDE_DEPRECATED;
+ * int deprecatedFunctionB() const TDE_DEPRECATED;
+ * \endcode
+ *
+ * Functions which are implemented inline are handled differently: for them,
+ * the TDE_DEPRECATED macro is inserted at the front, right before the return
+ * type, but after "static" or "virtual":
+ *
+ * \code
+ * TDE_DEPRECATED void deprecatedInlineFunctionA() { .. }
+ * virtual TDE_DEPRECATED int deprecatedInlineFunctionB() { .. }
+ * static TDE_DEPRECATED bool deprecatedInlineFunctionC() { .. }
+ * \end
+ *
+ * You can also mark whole structs or classes as deprecated, by inserting the
+ * TDE_DEPRECATED macro after the struct/class keyword, but before the
+ * name of the struct/class:
+ *
+ * \code
+ * class TDE_DEPRECATED DeprecatedClass { };
+ * struct TDE_DEPRECATED DeprecatedStruct { };
+ * \endcode
+ *
+ * \note
+ * It does not make much sense to use the TDE_DEPRECATED keyword for a TQt signal;
+ * this is because usually get called by the class which they belong to,
+ * and one'd assume that a class author doesn't use deprecated methods of his
+ * own class. The only exception to this are signals which are connected to
+ * other signals; they get invoked from moc-generated code. In any case, 
+ * printing a warning message in either case is not useful.
+ * For slots, it can make sense (since slots can be invoked directly) but be
+ * aware that if the slots get triggered by a signal, it will get called from
+ * moc code as well and thus the warnings are useless.
+ *
+ * \par
+ * Also note that it is not possible to use TDE_DEPRECATED for classes which
+ * use the k_dcop keyword (to indicate a DCOP interface declaration); this is
+ * because the dcopidl program would choke on the unexpected declaration
+ * syntax.
+ */
+
+#ifndef TDE_DEPRECATED
+ #ifdef __GNUC__ 
+  #define TDE_DEPRECATED __attribute__ ((deprecated))
+ #elif defined(_MSC_VER)
+  #define TDE_DEPRECATED __declspec(deprecated)
+ #else
+  #define TDE_DEPRECATED
+ #endif
+#endif
+
+/**
+ * This macro, and it's friends going up to 10 reserve a fixed number of virtual
+ * functions in a class.  Because adding virtual functions to a class changes the
+ * size of the vtable, adding virtual functions to a class breaks binary
+ * compatibility.  However, by using this macro, and decrementing it as new
+ * virtual methods are added, binary compatibility can still be preserved.
+ *
+ * \note The added functions must be added to the header at the same location
+ * as the macro; changing the order of virtual functions in a header is also
+ * binary incompatible as it breaks the layout of the vtable.
+ */
+
+#define RESERVE_VIRTUAL_1 \
+    virtual void reservedVirtual1() {}
+#define RESERVE_VIRTUAL_2 \
+    virtual void reservedVirtual2() {} \
+    RESERVE_VIRTUAL_1
+#define RESERVE_VIRTUAL_3 \
+    virtual void reservedVirtual3() {} \
+    RESERVE_VIRTUAL_2
+#define RESERVE_VIRTUAL_4 \
+    virtual void reservedVirtual4() {} \
+    RESERVE_VIRTUAL_3
+#define RESERVE_VIRTUAL_5 \
+    virtual void reservedVirtual5() {} \
+    RESERVE_VIRTUAL_4
+#define RESERVE_VIRTUAL_6 \
+    virtual void reservedVirtual6() {} \
+    RESERVE_VIRTUAL_5
+#define RESERVE_VIRTUAL_7 \
+    virtual void reservedVirtual7() {} \
+    RESERVE_VIRTUAL_6
+#define RESERVE_VIRTUAL_8 \
+    virtual void reservedVirtual8() {} \
+    RESERVE_VIRTUAL_7
+#define RESERVE_VIRTUAL_9 \
+    virtual void reservedVirtual9() {} \
+    RESERVE_VIRTUAL_8
+#define RESERVE_VIRTUAL_10 \
+    virtual void reservedVirtual10() {} \
+    RESERVE_VIRTUAL_9
+
+/**
+ * The TDE_WEAK_SYMBOL macro can be used to tell the compiler that
+ * a particular function should be a weak symbol (that e.g. may be overriden
+ * in another library, -Bdirect will not bind this symbol directly)
+ */
+
+#ifdef __GNUC__
+#define TDE_WEAK_SYMBOL __attribute__((__weak__))
+#else
+#define TDE_WEAK_SYMBOL
+#endif
+
+#endif /* _TDE_MACROS_H_ */

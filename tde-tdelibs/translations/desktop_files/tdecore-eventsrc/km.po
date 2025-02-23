@@ -1,0 +1,192 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 20:06+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: km\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: eventsrc:3
+msgid "System Notifications"
+msgstr "ការ​ជូន​ដំណឹង​អំពី​ប្រព័ន្ធ​របស់"
+
+#. Name
+#: eventsrc:6
+msgid "Trash: emptied"
+msgstr "ធុង​សំរាម ៖ បាន​សម្អាត"
+
+#. Comment
+#: eventsrc:7
+msgid "The trash has been emptied"
+msgstr "ធុង​សំរាម​ត្រូវ​បាន​សម្អាត"
+
+#. Name
+#: eventsrc:11
+msgid "Textcompletion: rotation"
+msgstr "ការ​បំពេញ​អត្ថបទ ៖ ការ​បង្វិល"
+
+#. Comment
+#: eventsrc:12
+msgid "The end of the list of matches has been reached"
+msgstr "បាន​ទៅ​ដល់​ចុង​បញ្ចប់​នៃ​បញ្ជី​ដំណូច"
+
+#. Name
+#: eventsrc:16
+msgid "Textcompletion: no match"
+msgstr "ការ​បំពេញ​អត្ថបទ ៖ គ្មាន​ដំណូច"
+
+#. Comment
+#: eventsrc:17
+msgid "No matching completion was found"
+msgstr "រក​មិន​ឃើញ​ការ​បំពេញ​ដែល​ដូច"
+
+#. Name
+#: eventsrc:21
+msgid "Textcompletion: partial match"
+msgstr "ការ​បំពេញ​អត្ថបទ ៖ ដូច​ខ្លះៗ"
+
+#. Comment
+#: eventsrc:22
+msgid "There is more than one possible match"
+msgstr "អាច​មាន​ដំណូច​ច្រើន​ជាង​មួយ"
+
+#. Name
+#: eventsrc:26
+msgid "Cannot Open File"
+msgstr "មិន​អាច​បើក​ឯកសារ"
+
+#. Comment
+#: eventsrc:27
+msgid "The selected file cannot be opened for reading or writing"
+msgstr "មិន​អាច​បើក​អាន​ពី ឬ សរសេរ​ទៅ​ឯកសារ​ដែល​បាន​ជ្រើស"
+
+#. Name
+#: eventsrc:31
+msgid "Fatal Error"
+msgstr "កំហុស​ធ្ងន់ធ្ងរ"
+
+#. Comment
+#: eventsrc:32
+msgid "There was a serious error causing the program to exit"
+msgstr "មាន​កំហុស​ធ្ងន់ធ្ងរ​មួយ​ដែល​បាន​បណ្តាល​ឲ្យ​កម្មវិធី​បិទ"
+
+#. Name
+#: eventsrc:37
+msgid "Notification"
+msgstr "ការ​ជូន​ដំណឹង"
+
+#. Comment
+#: eventsrc:38
+msgid "Something special happened in the program"
+msgstr "មាន​អ្វី​ពិសេស​មួយ​បាន​កើត​ឡើង​ក្នុង​កម្មវិធី"
+
+#. Name
+#: eventsrc:44
+msgid "Warning"
+msgstr "ព្រមាន"
+
+#. Comment
+#: eventsrc:45
+msgid "There was an error in the program which may cause problems"
+msgstr "មាន​កំហុស​មួយ​ក្នុង​កម្មវិធី​ដែល​អាច​បណ្តាល​ឲ្យ​មាន​បញ្ហា"
+
+#. Name
+#: eventsrc:50
+msgid "Catastrophe"
+msgstr "មហន្តរាយ"
+
+#. Comment
+#: eventsrc:51
+msgid "A very serious error occurred, at least causing the program to exit"
+msgstr "កំហុស​ដ៏​ធ្ងន់ធ្ងរ​បំផុត​មួយ​បាន​កើតឡើង ដែល​យ៉ាង​ហោច​ណាស់ ​វា​បណ្តាល​ឲ្យកម្មវិធី​បិទ"
+
+#. Name
+#: eventsrc:55
+msgid "Login"
+msgstr "ចូល"
+
+#. Comment
+#: eventsrc:56
+msgid "TDE is starting up"
+msgstr "TDE កំពុង​ចាប់ផ្តើម"
+
+#. Name
+#: eventsrc:61
+msgid "Logout"
+msgstr "ចេញ"
+
+#. Comment
+#: eventsrc:62
+msgid "TDE is exiting"
+msgstr "TDE កំពុង​បិទ"
+
+#. Name
+#: eventsrc:67
+msgid "Logout canceled"
+msgstr "ការ​ចេញ​បាន​បោះបង់"
+
+#. Comment
+#: eventsrc:68
+msgid "TDE logout was canceled"
+msgstr "ការ​ចេញ​របស់ TDE ត្រូវ​បាន​បោះបង់"
+
+#. Name
+#: eventsrc:73
+msgid "Print error"
+msgstr "កំហុស​បោះពុម្ព"
+
+#. Comment
+#: eventsrc:74
+msgid "A print error has occurred"
+msgstr "កំហុស​បោះពុម្ព​មួយ​បាន​កើតឡើង"
+
+#. Name
+#: eventsrc:79
+msgid "Information message"
+msgstr "សារ​ដំណឹង"
+
+#. Comment
+#: eventsrc:80
+msgid "An information message is being shown"
+msgstr "កំពុង​បង្ហាញ​សារ​ដំណឹង​មួយ"
+
+#. Name
+#: eventsrc:86
+msgid "Warning message"
+msgstr "សារ​ព្រមាន"
+
+#. Comment
+#: eventsrc:87
+msgid "A warning message is being shown"
+msgstr "កំពុង​បង្ហាញ​សារ​ព្រមាន​មួយ"
+
+#. Name
+#: eventsrc:94
+msgid "Critical message"
+msgstr "សារ​សំខាន់"
+
+#. Comment
+#: eventsrc:95
+msgid "A critical message is being shown"
+msgstr "កំពុង​បង្ហាញ​សារ​សំខាន់​មួយ"
+
+#. Name
+#: eventsrc:102
+msgid "Question"
+msgstr "សំណួរ"
+
+#. Comment
+#: eventsrc:103
+msgid "A question is being asked"
+msgstr "កំពុង​សួរ​សំណួរ​មួយ"

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Comment=W3C XML Schema
+Icon=text-html
+Type=MimeType
+MimeType=application/xsd
+X-TDE-IsAlso=text/xml
+Patterns=*.xsd;
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

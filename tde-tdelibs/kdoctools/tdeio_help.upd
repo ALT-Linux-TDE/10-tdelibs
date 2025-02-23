@@ -1,0 +1,3 @@
+# Move tdeio_help cache from $TDEHOME/share/apps/tdeio_help/cache to $TDEHOME/cache-$HOST/tdeio_help
+Id=trinity_2
+Script=move_tdeio_help_cache.sh,sh

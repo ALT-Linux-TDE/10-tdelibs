@@ -1,0 +1,6 @@
+[Desktop Entry]
+Comment=Packed Font
+Icon=application-x-tex-pk
+Type=MimeType
+MimeType=application/x-tex-pk
+Patterns=*.pk;*.PK;

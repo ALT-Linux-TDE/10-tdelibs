@@ -1,0 +1,10 @@
+[Protocol]
+exec=tdeio_metainfo
+protocol=metainfo
+input=stream
+output=stream
+reading=true
+writing=true
+source=false
+Icon=help
+X-DocPath=tdeioslave/metainfo/index.html

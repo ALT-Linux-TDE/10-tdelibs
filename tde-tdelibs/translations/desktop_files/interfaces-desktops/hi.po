@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-02 14:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: kspeech/dcoptexttospeech.desktop:5
+#, fuzzy
+msgid "Text-to-Speech Service with a DCOP interface"
+msgstr "डीकॉप इंटरफेस सहित इंस्टैंट मैसेंजर"
+
+#. Comment
+#: tdeimproxy/interface/dcopinstantmessenger.desktop:5
+msgid "Instant Messenger with a DCOP interface"
+msgstr "डीकॉप इंटरफेस सहित इंस्टैंट मैसेंजर"
+
+#. Name
+#: tdeimproxy/interface/kcm_instantmessenger.desktop:9
+msgid "Instant Messenger"
+msgstr "इंस्टैंट मैसेंजर"
+
+#. Comment
+#: tdeimproxy/interface/kcm_instantmessenger.desktop:11
+msgid ""
+"The instant messenger allows two-way chat between individuals and groups."
+msgstr "इंस्टैंट मैसेंजर जो व्यक्तियों या समूहों के बीच दो-तरफा गपशप स्वीकारता है."
+
+#. Name
+#: tdescript/sample/shellscript.desktop:7
+msgid "Bash Shell Script Runner"
+msgstr "बैश शेल स्क्रिप्ट चालक"
+
+#. Comment
+#: tdescript/sample/shellscript.desktop:8
+msgid "Runs bash shell scripts from inside the application."
+msgstr "अनुप्रयोगों के भीतर से ही बैश शेल स्क्रिप्ट चलाता है."
+
+#. Comment
+#: tdescript/scriptinterface.desktop:5
+msgid "This is a generic test script engine for testing the script interface."
+msgstr "स्क्रिप्ट इंटरफेस जांचने के लिए यह एक जेनरिक टेस्ट स्क्रिप्ट इंजन है."
+
+#. Name
+#: tdetexteditor/kcm_tdetexteditor.desktop:9
+msgid "Embedded Text Editor"
+msgstr "अंतर्निहित पाठ संपादक"
+
+#. Comment
+#: tdetexteditor/kcm_tdetexteditor.desktop:10
+msgid ""
+"The text editor service provides applications with a text viewer and editor. "
+"TDE applications that provide text editing facilities should use this "
+"service."
+msgstr ""
+"पाठ संपादक सेवा जो अनुप्रयोगों को एक पाठ दर्शक व एक संपादक उपलब्घ कराती है। केडीई "
+"अनुप्रयोग जो पाठ संपादन सुविधा उपलब्ध कराती हैं, उन्हें इसका प्रयोग करना चाहिए।"
+
+#. Comment
+#: tdetexteditor/tdetexteditor.desktop:6
+msgid "Embeddable Text Editor Component (with Doc/View Separation)"
+msgstr "अंतर्निहित किया जा सकने वाला पाठ संपादक (डाक/व्यू सेपरेशन के साथ)"
+
+#. Comment
+#: tdetexteditor/tdetexteditoreditor.desktop:6
+msgid "Embeddable Text Editor Component (without Doc/View Separation)"
+msgstr "अंतर्निहित किया जा सकने वाला पाठ संपादक (डाक/व्यू सेपरेशन के बगैर)"
+
+#. Comment
+#: tdetexteditor/tdetexteditorplugin.desktop:6
+msgid "KTextEditor Plugin"
+msgstr "के-टेक्स्ट-एडिटर प्लगइन"

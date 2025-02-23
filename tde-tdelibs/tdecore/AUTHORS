@@ -1,0 +1,56 @@
+Matthias Kalle Dalheimer <kalle@kde.org>:
+classes TDEConfig, KTextStream, KColorSet, TDEApplication
+automake, autoconf, maintenance
+
+Richard Moore <moorer@cs.man.ac.uk>:
+KLedLamp class
+
+Martynas Kunigelis <algikun@santaka.ktu.lt>:
+KProgress class
+
+Steffen Hansen <stefh@dit.ou.dk>:
+KURL class
+
+Torben Weis <weis@stud.uni-frankfurt.de>
+DnD stuff, TDESocket and TDEServerSocket classes, KPixmap
+
+Alexander Sanda <alex@darkstar.ping.at>
+Read and write numerical config entries, KPanner, KTabControl,
+TDEPopupMenu, KMessageBox, KEdit widgets. 
+
+Martin Jones <mjones@powerup.com.au>
+Bugfixes in KPixmap and KURL, KColorDialog, TDESelector
+
+Keith Brown <kbrown@pdq.net>
+KTreeList class
+
+Bernd Johannes Wuebben <wuebben@math.cornell.edu>
+TDEFontDialog classes
+
+Tim D. Gilman <tdgilman@best.com>
+KDatePicker, KDateTable class
+
+Nicolas Hadacek <hadacek@kde.org>
+Key configuration classes, bug fixes
+
+Michael Will <Michael.Will@student.uni-tuebingen.de>
+loading routine in KPixmap
+
+Christian Czezatke <e9025461@student.tuwien.ac.at>
+TDEProcess class
+
+Matthias Ettrich <ettrich@kde.org>
+KWM, Changes to TDEApplication and TDEIconLoader
+
+Stephan Kulow <coolo@kde.org>
+heavy modifications to KURL, autoconf and automake stuff
+
+Jacek Konieczny <jajcus@zeus.polsl.gliwice.pl>
+KCharset* classes
+
+These files are part of GNU Libtool, originally by 
+Thomas Tanner <tanner@gmx.de>
+ltdl.c + ltdl.h
+
+Carsten Pfeiffer <pfeiffer@kde.org>
+TDECompletion classes

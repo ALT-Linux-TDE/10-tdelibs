@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-kformula
+Icon=application-x-kformula
+Patterns=*.kfo;
+Comment=KFormula Document
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.kfo

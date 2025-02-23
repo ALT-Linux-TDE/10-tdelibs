@@ -1,0 +1,16 @@
+[Protocol]
+defaultMimetype=uri/mmsu
+exec=
+protocol=mmsu
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
+Icon=www
+Class=:internet
+URIMode=url
+X-DocPath=tdeioslave/mms/index.html

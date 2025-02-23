@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-kword
+Icon=x-office-document
+Patterns=*.kwd;*.kwt;
+X-TDE-AutoEmbed=false
+Comment=KWord Document
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.kwd

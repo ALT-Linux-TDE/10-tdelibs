@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-font-bdf
+Icon=font-x-generic
+Patterns=*.bdf;*.bdf.Z;*.bdf.gz;*.BDF;*.BDF.Z;*.BDF.gz
+Comment=BDF Bitmap Font

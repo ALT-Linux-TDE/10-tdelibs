@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-font-type1
+Icon=application-x-font-type1
+Patterns=*.pfa;*.PFA;*.pfb;*.PFB
+Comment=PostScript Type1 Font

@@ -1,0 +1,81 @@
+##### update all_languages.desktop ##############
+
+message( STATUS "Update all_languages.desktop according to the entry.desktop files from tde-i18n" )
+
+# read the current list of language codes and names
+unset( _languages_code )
+unset( _languages_name )
+file( READ ${CMAKE_CURRENT_SOURCE_DIR}/all_languages.desktop _langs_current )
+string( REGEX REPLACE "[^\n]" "" _langs_current_len "${_langs_current}" )
+string( LENGTH "+${_langs_current_len}" _langs_current_len )
+set( _langs_current_pos 0 )
+while( _langs_current_pos LESS ${_langs_current_len} )
+  string( REGEX REPLACE "^([^\n]*)\n(.*)" "\\1" _lang_row "${_langs_current}" )
+  string( REGEX REPLACE "^([^\n]*)\n(.*)" "\\2" _langs_current "${_langs_current}" )
+  math( EXPR _langs_current_pos "${_langs_current_pos}+1" )
+  if( "${_lang_row}" MATCHES "^\\[.*\\]$" )
+    string( REGEX REPLACE "^\\[(.*)\\]$" "\\1" _lang_code ${_lang_row} )
+  endif()
+  if( (NOT "${_lang_code}" STREQUAL "") AND
+      ("${_lang_row}" MATCHES "^ *Name *=") )
+    string( REGEX REPLACE "^ *Name *= *" "" _lang_name "${_lang_row}" )
+    list( APPEND _languages_code ${_lang_code} )
+    list( APPEND _languages_name ${_lang_name} )
+    unset( _lang_code )
+  endif()
+endwhile()
+
+# merge with languages from tde-i18n entry.desktop files
+file( GLOB _languages_dirs
+      RELATIVE ${CMAKE_SOURCE_DIR}/../tde-i18n
+      ${CMAKE_SOURCE_DIR}/../tde-i18n/tde-i18n-*
+)
+foreach( _lang_dir IN LISTS _languages_dirs )
+  if( EXISTS ${CMAKE_SOURCE_DIR}/../tde-i18n/${_lang_dir}/messages/entry.desktop )
+    string( REPLACE "tde-i18n-" "" _lang_code ${_lang_dir} )
+    file( READ ${CMAKE_SOURCE_DIR}/../tde-i18n/${_lang_dir}/messages/entry.desktop _lang_name )
+    string( REGEX REPLACE "(^|.*\n) *Name *= *([^\n]*).*" "\\2" _lang_name "${_lang_name}" )
+    if( NOT "${_lang_name}" STREQUAL "" )
+      list( FIND _languages_code "${_lang_code}" _lang_index )
+      if( "${_lang_index}" GREATER -1 )
+        list( REMOVE_AT _languages_code ${_lang_index} )
+        list( REMOVE_AT _languages_name ${_lang_index} )
+      endif()
+      list( APPEND _languages_code ${_lang_code} )
+      list( APPEND _languages_name ${_lang_name} )
+    endif()
+  endif()
+endforeach()
+
+# create new all_languages.desktop
+unset( _languages )
+foreach( _lang_code IN LISTS _languages_code )
+  list( FIND _languages_code "${_lang_code}" _lang_index )
+  list( GET _languages_name ${_lang_index} _lang_name )
+  list( APPEND _languages "${_lang_code}: ${_lang_name}" )
+endforeach()
+if( _languages )
+  unset( _all_languages )
+  list( SORT _languages )
+  foreach( _lang IN LISTS _languages )
+    string( REGEX REPLACE "^([^:]*): (.*)" "\\1" _lang_code ${_lang} )
+    string( REGEX REPLACE "^([^:]*): (.*)" "\\2" _lang_name ${_lang} )
+    set( _all_languages "${_all_languages}[${_lang_code}]\nName=${_lang_name}\n" )
+  endforeach()
+  file( WRITE ${CMAKE_CURRENT_SOURCE_DIR}/all_languages.desktop "${_all_languages}" )
+endif()
+
+
+##### create translation templates ##############
+
+tde_l10n_create_template(
+    CATALOG "desktop_files/all_languages.desktop/"
+    SOURCES all_languages.desktop
+    DESTINATION "${CMAKE_SOURCE_DIR}/translations"
+)
+
+tde_l10n_create_template(
+    CATALOG "desktop_files/tdecore-eventsrc/"
+    SOURCES_DESKTOP eventsrc
+    DESTINATION "${CMAKE_SOURCE_DIR}/translations"
+)

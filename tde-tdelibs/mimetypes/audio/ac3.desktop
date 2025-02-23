@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=audio/ac3
+Icon=audio-x-generic
+Patterns=*.ac3;*.AC3;
+Comment=Dolby AC3 Sound

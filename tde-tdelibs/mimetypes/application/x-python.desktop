@@ -1,0 +1,11 @@
+[Desktop Entry]
+Comment=Python Program
+Type=MimeType
+MimeType=application/x-python
+Icon=text-x-python
+Patterns=*.py;
+X-TDE-IsAlso=application/x-executable-script
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

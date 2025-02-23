@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-kpresenter
+Icon=application-x-kpresenter
+Patterns=*.kpr;*.kpt;
+X-TDE-AutoEmbed=false
+Comment=KPresenter Document
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.kpr

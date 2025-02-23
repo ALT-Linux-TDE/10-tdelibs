@@ -1,0 +1,9 @@
+[Desktop Entry]
+Comment=Bzip2 Compressed DVI File
+Hidden=false
+Icon=application-x-tarz
+MimeType=application/x-bz2dvi
+Patterns=*.dvi.bz2
+Type=MimeType
+X-TDE-AutoEmbed=true
+X-TDE-IsAlso=application/x-bzip2

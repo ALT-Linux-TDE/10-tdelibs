@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=image/fax-g3
+Icon=image-x-generic
+Patterns=*.g3;*.G3;
+Comment=CCITT G3 Fax

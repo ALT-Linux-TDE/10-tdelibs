@@ -1,0 +1,11 @@
+[Desktop Entry]
+Comment=Pascal Source File
+Icon=text-x-src_p
+Type=MimeType
+MimeType=text/x-pascal
+Patterns=*.p;*.pas;*.pp;*.dpr;*.DPR;*.PP;*.PAS;*.P
+X-TDE-IsAlso=text/plain
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=ServiceType
+X-TDE-ServiceType=KPropsDlg/Plugin
+Comment=Plugin for the Properties Dialog
+
+[PropertyDef::X-TDE-Protocol]
+Type=TQString

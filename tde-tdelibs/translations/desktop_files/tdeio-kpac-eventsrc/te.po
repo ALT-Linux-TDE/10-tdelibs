@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 21:19+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: misc/kpac/eventsrc:3
+msgid "Automatic Proxy Configuration"
+msgstr "స్వయంచాలిత ప్రాక్సీ రూపకరణం"
+
+#. Name
+#: misc/kpac/eventsrc:6
+msgid "Invalid proxy script"
+msgstr "చెల్లని ప్రాక్సీ స్క్రిప్ట్"
+
+#. Comment
+#: misc/kpac/eventsrc:7
+msgid "The downloaded proxy configuration script is invalid"
+msgstr "డౌన్ లోడ్ చేయబడిన్ ప్రాక్సీ రూపకరణపు స్క్రిప్ట్ చెల్లదు"
+
+#. Name
+#: misc/kpac/eventsrc:11
+msgid "Script download error"
+msgstr "స్క్రిప్ట్ డౌన్ లోడ్ దోషం"
+
+#. Comment
+#: misc/kpac/eventsrc:12
+msgid "The proxy configuration script could not be downloaded"
+msgstr "ప్రాక్సీ రూపకరణపు స్క్రిప్ట్ ని డౌన్ లోడ్ చేయలేకపోయాం"
+
+#. Name
+#: misc/kpac/eventsrc:16
+msgid "Script evaluation error"
+msgstr "స్క్రిప్ట్ నిర్వహణ దోషం"
+
+#. Comment
+#: misc/kpac/eventsrc:17
+msgid "There was an error executing the proxy configuration script"
+msgstr "ప్రాక్సీ రూపకరణపు స్క్రిప్ట్ నిర్వహణలొ దోషం వున్నది"

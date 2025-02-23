@@ -1,0 +1,5 @@
+[TDE Print Entry]
+PrintSystem=foomatic
+Comment=Foomatic (CUPS, LPRng, PDQ)
+DetectUris=exec:/foomatic-configure,config:/foomatic/
+DetectPrecedence=0

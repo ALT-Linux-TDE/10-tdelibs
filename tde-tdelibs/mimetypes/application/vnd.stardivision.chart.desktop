@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/vnd.stardivision.chart
+Patterns=*.sds;*.SDS;
+Icon=application-x-kchart
+Comment=StarOffice Chart
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.sds

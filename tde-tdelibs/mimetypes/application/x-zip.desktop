@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-zip
+Icon=application-x-tarz
+Patterns=*.zip;*.ZIP;
+Comment=Zip Archive
+
+[Property::X-TDE-LocalProtocol]
+Type=TQString
+Value=zip

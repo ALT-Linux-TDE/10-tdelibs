@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=ServiceType
+X-TDE-ServiceType=KMediaPlayer/Player
+X-TDE-Derived=KParts/ReadOnlyPart

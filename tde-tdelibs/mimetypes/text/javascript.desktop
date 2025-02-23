@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=text/javascript
+Icon=javascript
+Comment=JavaScript File
+X-TDE-IsAlso=application/x-javascript

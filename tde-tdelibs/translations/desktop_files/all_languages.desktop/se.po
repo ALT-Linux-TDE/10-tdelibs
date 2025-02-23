@@ -1,0 +1,912 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-25 17:36+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: se\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Name
+#: all_languages.desktop:2
+msgid "Afar"
+msgstr "Afárgiella"
+
+#. Name
+#: all_languages.desktop:4
+msgid "Abkhazian"
+msgstr "Abhásiagiella"
+
+#. Name
+#: all_languages.desktop:6
+msgid "Avestan"
+msgstr "Avestánagiella"
+
+#. Name
+#: all_languages.desktop:8
+msgid "Afrikaans"
+msgstr "Afrikánsgiella"
+
+#. Name
+#: all_languages.desktop:10
+msgid "Amharic"
+msgstr "Ambháriagiella"
+
+#. Name
+#: all_languages.desktop:12
+msgid "Arabic"
+msgstr "Arábiagiella"
+
+#. Name
+#: all_languages.desktop:14
+msgid "Assamese"
+msgstr "Assamesegiella"
+
+#. Name
+#: all_languages.desktop:16
+msgid "Aymara"
+msgstr "Aimáragiella"
+
+#. Name
+#: all_languages.desktop:18
+msgid "Azerbaijani"
+msgstr "Azerbaižánagiella"
+
+#. Name
+#: all_languages.desktop:20
+msgid "Bashkir"
+msgstr "Baškiriagiella"
+
+#. Name
+#: all_languages.desktop:22
+msgid "Belarusian"
+msgstr "Vilgesruoššagiella"
+
+#. Name
+#: all_languages.desktop:24
+msgid "Bulgarian"
+msgstr "Bulgáriagiella"
+
+#. Name
+#: all_languages.desktop:26
+msgid "Bihari"
+msgstr "Biháragiella"
+
+#. Name
+#: all_languages.desktop:28
+msgid "Bislama"
+msgstr "Bislamagiella"
+
+#. Name
+#: all_languages.desktop:30
+msgid "Bengali"
+msgstr "Bengalagiella"
+
+#. Name
+#: all_languages.desktop:32
+msgid "Tibetan"
+msgstr "Tibehtagiella"
+
+#. Name
+#: all_languages.desktop:34
+msgid "Breton"
+msgstr "Bretonagiella"
+
+#. Name
+#: all_languages.desktop:36
+msgid "Bosnian"
+msgstr "Bosniagiella"
+
+#. Name
+#: all_languages.desktop:38
+msgid "Catalan"
+msgstr "Katalánagiella"
+
+#. Name
+#: all_languages.desktop:40
+msgid "Chechen"
+msgstr "Čečeniagiella"
+
+#. Name
+#: all_languages.desktop:42
+msgid "Chamorro"
+msgstr "Chamorrogiella"
+
+#. Name
+#: all_languages.desktop:44
+msgid "Corsican"
+msgstr "Korsikagiella"
+
+#. Name
+#: all_languages.desktop:46
+msgid "Czech"
+msgstr "Čehkagiella"
+
+#. Name
+#: all_languages.desktop:48
+msgid "Kashubian"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:50
+msgid "Church Slavic"
+msgstr "Slávagiella"
+
+#. Name
+#: all_languages.desktop:52
+msgid "Chuvash"
+msgstr "Chuvashgiella"
+
+#. Name
+#: all_languages.desktop:54
+msgid "Welsh"
+msgstr "Walesagiella"
+
+#. Name
+#: all_languages.desktop:56
+msgid "Danish"
+msgstr "Dánskkagiella"
+
+#. Name
+#: all_languages.desktop:58
+msgid "German"
+msgstr "Duiskkagiella"
+
+#. Name
+#: all_languages.desktop:60
+msgid "Dzongkha"
+msgstr "Dzongkhagiella"
+
+#. Name
+#: all_languages.desktop:62
+msgid "Greek"
+msgstr "Greikkagiella"
+
+#. Name
+#: all_languages.desktop:64
+msgid "English"
+msgstr "Eŋgelasgiella"
+
+#. Name
+#: all_languages.desktop:66
+msgid "English (British)"
+msgstr "Eŋgelasgiella (Stuorra Brittania)"
+
+#. Name
+#: all_languages.desktop:68
+msgid "English (American)"
+msgstr "Eŋgelasgiella (Amerihkáhlaš)"
+
+#. Name
+#: all_languages.desktop:70
+msgid "Esperanto"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:72
+msgid "Spanish"
+msgstr "Spánskkagiella"
+
+#. Name
+#: all_languages.desktop:74
+msgid "Spanish (Argentina)"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:76
+msgid "Estonian"
+msgstr "Esttegiella"
+
+#. Name
+#: all_languages.desktop:78
+msgid "Basque"
+msgstr "Baskalašgiella"
+
+#. Name
+#: all_languages.desktop:80
+msgid "Persian"
+msgstr "Farsigiella (Persialaš)"
+
+#. Name
+#: all_languages.desktop:82
+msgid "Finnish"
+msgstr "Suomagiella"
+
+#. Name
+#: all_languages.desktop:84
+msgid "Fijian"
+msgstr "Fižigiella"
+
+#. Name
+#: all_languages.desktop:86
+msgid "Faroese"
+msgstr "Fearagiella"
+
+#. Name
+#: all_languages.desktop:88
+msgid "French"
+msgstr "Fránskkagiella"
+
+#. Name
+#: all_languages.desktop:90
+msgid "Frisian"
+msgstr "Frisagiella"
+
+#. Name
+#: all_languages.desktop:92
+msgid "Irish"
+msgstr "Irlánddalaš gaelagiella"
+
+#. Name
+#: all_languages.desktop:94
+msgid "Gaelic"
+msgstr "Gaelagiella"
+
+#. Name
+#: all_languages.desktop:96
+msgid "Galician"
+msgstr "Galisiagiella"
+
+#. Name
+#: all_languages.desktop:98
+msgid "Guarani"
+msgstr "Guaránagiella"
+
+#. Name
+#: all_languages.desktop:100
+msgid "Gujarati"
+msgstr "Gujaratigiella"
+
+#. Name
+#: all_languages.desktop:102
+msgid "Manx"
+msgstr "Mánksagiella"
+
+#. Name
+#: all_languages.desktop:104
+msgid "Hausa"
+msgstr "Hausagiella"
+
+#. Name
+#: all_languages.desktop:106
+msgid "Hebrew"
+msgstr "Hebreagiella"
+
+#. Name
+#: all_languages.desktop:108
+msgid "Hindi"
+msgstr "Hindigiella"
+
+#. Name
+#: all_languages.desktop:110
+msgid "Hiri Motu"
+msgstr "Hiri Motu-giella"
+
+#. Name
+#: all_languages.desktop:112
+msgid "Croatian"
+msgstr "Kroatiagiella"
+
+#. Name
+#: all_languages.desktop:114
+msgid "Upper Sorbian"
+msgstr "Bajil Sorbiagiella"
+
+#. Name
+#: all_languages.desktop:116
+msgid "Hungarian"
+msgstr "Ungárgiella"
+
+#. Name
+#: all_languages.desktop:118
+msgid "Armenian"
+msgstr "Armeniagiella"
+
+#. Name
+#: all_languages.desktop:120
+msgid "Herero"
+msgstr "Hererogiella"
+
+#. Name
+#: all_languages.desktop:122
+msgid "Interlingua"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:124
+msgid "Indonesian"
+msgstr "Indonesiagiella"
+
+#. Name
+#: all_languages.desktop:126
+msgid "Interlingue"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:128
+msgid "Inupiaq"
+msgstr "Inupiaqgiella"
+
+#. Name
+#: all_languages.desktop:130
+msgid "Ido"
+msgstr "Idogiella"
+
+#. Name
+#: all_languages.desktop:132
+msgid "Icelandic"
+msgstr "Islánddagiella"
+
+#. Name
+#: all_languages.desktop:134
+msgid "Italian"
+msgstr "Itáliagiella"
+
+#. Name
+#: all_languages.desktop:136
+msgid "Inuktitut"
+msgstr "Inuhkagiella"
+
+#. Name
+#: all_languages.desktop:138
+msgid "Japanese"
+msgstr "Jáhpangiella"
+
+#. Name
+#: all_languages.desktop:140
+msgid "Javanese"
+msgstr "Jávagiella"
+
+#. Name
+#: all_languages.desktop:142
+msgid "Georgian"
+msgstr "Grusiagiella"
+
+#. Name
+#: all_languages.desktop:144
+msgid "Kikuyu"
+msgstr "Kikujugiella"
+
+#. Name
+#: all_languages.desktop:146
+msgid "Kazakh"
+msgstr "Kazakhagiella"
+
+#. Name
+#: all_languages.desktop:148
+msgid "Kalaallisut"
+msgstr "Kalállisutgiella"
+
+#. Name
+#: all_languages.desktop:150
+msgid "Khmer"
+msgstr "Khmeragiella"
+
+#. Name
+#: all_languages.desktop:152
+msgid "Kannada"
+msgstr "Kannadagiella"
+
+#. Name
+#: all_languages.desktop:154
+msgid "Korean"
+msgstr "Koreagiella"
+
+#. Name
+#: all_languages.desktop:156
+msgid "Kashmiri"
+msgstr "Kašmirgiella"
+
+#. Name
+#: all_languages.desktop:158
+msgid "Kurdish"
+msgstr "Kurdigiella"
+
+#. Name
+#: all_languages.desktop:160
+msgid "Komi"
+msgstr "Komigiella"
+
+#. Name
+#: all_languages.desktop:162
+msgid "Cornish"
+msgstr "Kornagiella"
+
+#. Name
+#: all_languages.desktop:164
+msgid "Kirghiz"
+msgstr "Kirgisiagiella"
+
+#. Name
+#: all_languages.desktop:166
+msgid "Latin"
+msgstr "Láhtengiella"
+
+#. Name
+#: all_languages.desktop:168
+msgid "Luxembourgish"
+msgstr "Luksenburggagiella"
+
+#. Name
+#: all_languages.desktop:170
+msgid "Limburgan"
+msgstr "Limburggagiella"
+
+#. Name
+#: all_languages.desktop:172
+msgid "Lingala"
+msgstr "Lingalagiella"
+
+#. Name
+#: all_languages.desktop:174
+msgid "Lao"
+msgstr "Laogiella"
+
+#. Name
+#: all_languages.desktop:176
+msgid "Lithuanian"
+msgstr "Lietuvagiella"
+
+#. Name
+#: all_languages.desktop:178
+msgid "Latvian"
+msgstr "Látviagiella"
+
+#. Name
+#: all_languages.desktop:180
+msgid "Malagasy"
+msgstr "Malagasigiella"
+
+#. Name
+#: all_languages.desktop:182
+msgid "Marshallese"
+msgstr "Marshallagiella"
+
+#. Name
+#: all_languages.desktop:184
+msgid "Maori"
+msgstr "Maoragiella"
+
+#. Name
+#: all_languages.desktop:186
+msgid "Macedonian"
+msgstr "Makedoniagiella"
+
+#. Name
+#: all_languages.desktop:188
+msgid "Malayalam"
+msgstr "Malajalamagiella"
+
+#. Name
+#: all_languages.desktop:190
+msgid "Mongolian"
+msgstr "Mongoliagiella"
+
+#. Name
+#: all_languages.desktop:192
+msgid "Moldavian"
+msgstr "Moldáviagiella"
+
+#. Name
+#: all_languages.desktop:194
+msgid "Marathi"
+msgstr "Marathagiella"
+
+#. Name
+#: all_languages.desktop:196
+msgid "Malay"
+msgstr "Malaigiella"
+
+#. Name
+#: all_languages.desktop:198
+msgid "Maltese"
+msgstr "Maltagiella"
+
+#. Name
+#: all_languages.desktop:200
+msgid "Burmese"
+msgstr "Burmagiella"
+
+#. Name
+#: all_languages.desktop:202
+msgid "Nauru"
+msgstr "Naurugiella"
+
+#. Name
+#: all_languages.desktop:204
+msgid "Norwegian Bokmål"
+msgstr "Girjedárogiella"
+
+#. Name
+#: all_languages.desktop:206
+msgid "Ndebele, North"
+msgstr "Ndebelegiella, davvi"
+
+#. Name
+#: all_languages.desktop:208
+msgid "Low Saxon"
+msgstr "Vuolil Sáksonagiella"
+
+#. Name
+#: all_languages.desktop:210
+msgid "Nepali"
+msgstr "Nepálagiella"
+
+#. Name
+#: all_languages.desktop:212
+msgid "Ndonga"
+msgstr "Ndongagiella"
+
+#. Name
+#: all_languages.desktop:214
+msgid "Dutch"
+msgstr "Hollánddagiella"
+
+#. Name
+#: all_languages.desktop:216
+msgid "Norwegian Nynorsk"
+msgstr "Ođđadárogiella"
+
+#. Name
+#: all_languages.desktop:218
+msgid "Ndebele, South"
+msgstr "Ndebelegiella, lulli"
+
+#. Name
+#: all_languages.desktop:220
+msgid "Northern Sotho"
+msgstr "Davvi-sothogiella"
+
+#. Name
+#: all_languages.desktop:222
+msgid "Navajo"
+msgstr "Naváhogiella"
+
+#. Name
+#: all_languages.desktop:224
+msgid "Chichewa"
+msgstr "Chichevagiella"
+
+#. Name
+#: all_languages.desktop:226
+msgid "Occitan"
+msgstr "Oksitánagiella"
+
+#. Name
+#: all_languages.desktop:228
+msgid "Oromo"
+msgstr "Oromogiella"
+
+#. Name
+#: all_languages.desktop:230
+msgid "Oriya"
+msgstr "Orijagiella"
+
+#. Name
+#: all_languages.desktop:232
+msgid "Ossetian"
+msgstr "Ossetiagiella"
+
+#. Name
+#: all_languages.desktop:234
+msgid "Punjabi"
+msgstr "Punjabigiella"
+
+#. Name
+#: all_languages.desktop:236
+msgid "Pali"
+msgstr "Páligiella"
+
+#. Name
+#: all_languages.desktop:238
+msgid "Polish"
+msgstr "Polskkagiella"
+
+#. Name
+#: all_languages.desktop:240
+msgid "Pushto"
+msgstr "Puštugiella"
+
+#. Name
+#: all_languages.desktop:242
+msgid "Portuguese"
+msgstr "Portugálagiella"
+
+#. Name
+#: all_languages.desktop:244
+msgid "Portuguese (Brazil)"
+msgstr "Brasilialaš portugálagiella"
+
+#. Name
+#: all_languages.desktop:246
+msgid "Quechua"
+msgstr "Keččuagiella"
+
+#. Name
+#: all_languages.desktop:248
+msgid "Rundi"
+msgstr "Rundigiella"
+
+#. Name
+#: all_languages.desktop:250
+msgid "Romanian"
+msgstr "Romániagiella"
+
+#. Name
+#: all_languages.desktop:252
+msgid "Romany"
+msgstr "Románigiella"
+
+#. Name
+#: all_languages.desktop:254
+msgid "Russian"
+msgstr "Ruoššagiella"
+
+#. Name
+#: all_languages.desktop:256
+msgid "Kinyarwanda"
+msgstr "Kinyarwandagiella"
+
+#. Name
+#: all_languages.desktop:258
+msgid "Sanskrit"
+msgstr "Sanskrihtagiella"
+
+#. Name
+#: all_languages.desktop:260
+msgid "Sardinian"
+msgstr "Sardiniagiella"
+
+#. Name
+#: all_languages.desktop:262
+msgid "Sindhi"
+msgstr "Sindhigiella"
+
+#. Name
+#: all_languages.desktop:264
+msgid "Northern Sami"
+msgstr "Davvisámegiella"
+
+#. Name
+#: all_languages.desktop:266
+msgid "Sango"
+msgstr "Sangogiella"
+
+#. Name
+#: all_languages.desktop:268
+msgid "Sinhalese"
+msgstr "Singalesagiella"
+
+#. Name
+#: all_languages.desktop:270
+msgid "Slovak"
+msgstr "Slovákagiella"
+
+#. Name
+#: all_languages.desktop:272
+msgid "Slovenian"
+msgstr "Slovenagiella"
+
+#. Name
+#: all_languages.desktop:274
+msgid "Samoan"
+msgstr "Samoagiella"
+
+#. Name
+#: all_languages.desktop:276
+msgid "Shona"
+msgstr "Šonagiella"
+
+#. Name
+#: all_languages.desktop:278
+msgid "Somali"
+msgstr "Somálagiella"
+
+#. Name
+#: all_languages.desktop:280
+msgid "Albanian"
+msgstr "Albániagiella"
+
+#. Name
+#: all_languages.desktop:282
+msgid "Serbian"
+msgstr "Serbiagiella"
+
+#. Name
+#: all_languages.desktop:284
+msgid "Serbian Latin"
+msgstr "Serbialaš latiidnagiella"
+
+#. Name
+#: all_languages.desktop:286
+msgid "Swati"
+msgstr "Svatigiella"
+
+#. Name
+#: all_languages.desktop:288
+msgid "Sotho, Southern"
+msgstr "Sothogiella, lulli"
+
+#. Name
+#: all_languages.desktop:290
+msgid "Sundanese"
+msgstr "Sundanesagiella"
+
+#. Name
+#: all_languages.desktop:292
+msgid "Swedish"
+msgstr "Ruoŧagiella"
+
+#. Name
+#: all_languages.desktop:294
+msgid "Swahili"
+msgstr "Svahilagiella"
+
+#. Name
+#: all_languages.desktop:296
+msgid "Tamil"
+msgstr "Tamilgiella"
+
+#. Name
+#: all_languages.desktop:298
+msgid "Telugu"
+msgstr "Telugugiella"
+
+#. Name
+#: all_languages.desktop:300
+msgid "Tajik"
+msgstr "Tažihkagiella"
+
+#. Name
+#: all_languages.desktop:302
+msgid "Thai"
+msgstr "Thaigiella"
+
+#. Name
+#: all_languages.desktop:304
+msgid "Tigrinya"
+msgstr "Tigrinjágiella"
+
+#. Name
+#: all_languages.desktop:306
+msgid "Turkmen"
+msgstr "Turkmenagiella"
+
+#. Name
+#: all_languages.desktop:308
+msgid "Tswana"
+msgstr "Tswanagiella"
+
+#. Name
+#: all_languages.desktop:310
+msgid "Tonga"
+msgstr "Tongagiella"
+
+#. Name
+#: all_languages.desktop:312
+msgid "Turkish"
+msgstr "Turkiijagiella"
+
+#. Name
+#: all_languages.desktop:314
+msgid "Tsonga"
+msgstr "Tsongagiella"
+
+#. Name
+#: all_languages.desktop:316
+msgid "Tatar"
+msgstr "Tatáragiella"
+
+#. Name
+#: all_languages.desktop:318
+msgid "Twi"
+msgstr "Twigiella"
+
+#. Name
+#: all_languages.desktop:320
+msgid "Tahitian"
+msgstr "Tahitigiella"
+
+#. Name
+#: all_languages.desktop:322
+msgid "Uighur"
+msgstr "Uiguragiella"
+
+#. Name
+#: all_languages.desktop:324
+msgid "Ukrainian"
+msgstr "Ukrainagiella"
+
+#. Name
+#: all_languages.desktop:326
+msgid "Urdu"
+msgstr "Urdugiella"
+
+#. Name
+#: all_languages.desktop:328
+msgid "Uzbek"
+msgstr "Uzbehkagiella"
+
+#. Name
+#: all_languages.desktop:330
+msgid "Uzbek (Cyrillic)"
+msgstr ""
+
+#. Name
+#: all_languages.desktop:332
+msgid "Venda"
+msgstr "Vendagiella"
+
+#. Name
+#: all_languages.desktop:334
+msgid "Vietnamese"
+msgstr "Vietnamagiella"
+
+#. Name
+#: all_languages.desktop:336
+msgid "Volapük"
+msgstr "Volapükgiella"
+
+#. Name
+#: all_languages.desktop:338
+msgid "Walloon"
+msgstr "Vallonagiella"
+
+#. Name
+#: all_languages.desktop:340
+msgid "Wolof"
+msgstr "Volofagiella"
+
+#. Name
+#: all_languages.desktop:342
+msgid "Xhosa"
+msgstr "Xhosagiella"
+
+#. Name
+#: all_languages.desktop:344
+msgid "Yiddish"
+msgstr "Jiddišgiella"
+
+#. Name
+#: all_languages.desktop:346
+msgid "Yoruba"
+msgstr "Jorubagiella"
+
+#. Name
+#: all_languages.desktop:348
+msgid "Zhuang"
+msgstr "Zhuangagiella"
+
+#. Name
+#: all_languages.desktop:350
+msgid "Chinese"
+msgstr "Kiinnágiella"
+
+#. Name
+#: all_languages.desktop:352
+msgid "Chinese (Simplified)"
+msgstr "Álkiduvvon kiinnágiella"
+
+#. Name
+#: all_languages.desktop:354
+msgid "Chinese (Hong Kong)"
+msgstr "Kiinnágiella (Hong Kong)"
+
+#. Name
+#: all_languages.desktop:356
+msgid "Chinese (Traditional)"
+msgstr "Árbevirolaš kiinnágiella"
+
+#. Name
+#: all_languages.desktop:358
+msgid "Zulu"
+msgstr "Zulugiella"

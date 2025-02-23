@@ -1,0 +1,11 @@
+[Desktop Entry]
+Comment=TeX File
+Icon=text-x-tex
+Type=MimeType
+MimeType=text/x-tex
+Patterns=*.tex;*.ltx;*.sty;*.cls;*.TEX;*.LTX;*.STY;*.CLS;
+X-TDE-IsAlso=text/plain
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

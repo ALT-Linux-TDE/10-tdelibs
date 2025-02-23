@@ -1,0 +1,195 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 20:06+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: af\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: eventsrc:3
+msgid "System Notifications"
+msgstr "Stelsel Inkennistelling"
+
+#. Name
+#: eventsrc:6
+msgid "Trash: emptied"
+msgstr "Gemors: leeggemaak"
+
+#. Comment
+#: eventsrc:7
+msgid "The trash has been emptied"
+msgstr "Die gemors is leeggemaak"
+
+#. Name
+#: eventsrc:11
+msgid "Textcompletion: rotation"
+msgstr "Teksvoltooiïng: rotering"
+
+#. Comment
+#: eventsrc:12
+msgid "The end of the list of matches has been reached"
+msgstr "Die einde van die lys van ooreenkomste is bereik"
+
+#. Name
+#: eventsrc:16
+msgid "Textcompletion: no match"
+msgstr "Teksvoltooiïng: nee ooreenstem"
+
+#. Comment
+#: eventsrc:17
+msgid "No matching completion was found"
+msgstr "Geen ooreenstemming was gevind"
+
+#. Name
+#: eventsrc:21
+msgid "Textcompletion: partial match"
+msgstr "Teksvoltooiïng: gedeeltelike ooreenstem"
+
+#. Comment
+#: eventsrc:22
+msgid "There is more than one possible match"
+msgstr "Daar is meer as een moontlik ooreenkoms"
+
+#. Name
+#: eventsrc:26
+msgid "Cannot Open File"
+msgstr "Kan nie Open Lêer"
+
+#. Comment
+#: eventsrc:27
+msgid "The selected file cannot be opened for reading or writing"
+msgstr "Die gekose lêer kan nie oop wees vir lees of om te skryf"
+
+#. Name
+#: eventsrc:31
+msgid "Fatal Error"
+msgstr "Fatale Fout"
+
+#. Comment
+#: eventsrc:32
+msgid "There was a serious error causing the program to exit"
+msgstr ""
+"Daar was 'n ernstige fout wat veroorsaak het dat die program beïendig is."
+
+#. Name
+#: eventsrc:37
+msgid "Notification"
+msgstr "Inkennisstelling"
+
+#. Comment
+#: eventsrc:38
+msgid "Something special happened in the program"
+msgstr "Iets spesiaal het met die program gebeur"
+
+#. Name
+#: eventsrc:44
+msgid "Warning"
+msgstr "Waarskuwing"
+
+#. Comment
+#: eventsrc:45
+msgid "There was an error in the program which may cause problems"
+msgstr "Daar was 'n fout in die program wat dalk probleme kan veroorsaak"
+
+#. Name
+#: eventsrc:50
+msgid "Catastrophe"
+msgstr "Katastrofe"
+
+#. Comment
+#: eventsrc:51
+msgid "A very serious error occurred, at least causing the program to exit"
+msgstr ""
+"'n baie ernstige fout het voorgekom. Dit het veroorsaak dat ten minste die "
+"program beëindig is"
+
+#. Name
+#: eventsrc:55
+msgid "Login"
+msgstr "Aanteken"
+
+#. Comment
+#: eventsrc:56
+msgid "TDE is starting up"
+msgstr "Begin TDE Laai"
+
+#. Name
+#: eventsrc:61
+msgid "Logout"
+msgstr "Teken af"
+
+#. Comment
+#: eventsrc:62
+msgid "TDE is exiting"
+msgstr "TDE is besig om toe te maak"
+
+#. Name
+#: eventsrc:67
+msgid "Logout canceled"
+msgstr ""
+
+#. Comment
+#: eventsrc:68
+msgid "TDE logout was canceled"
+msgstr ""
+
+#. Name
+#: eventsrc:73
+msgid "Print error"
+msgstr "Druk fout"
+
+#. Comment
+#: eventsrc:74
+msgid "A print error has occurred"
+msgstr "'n Druk fout het voorgekom"
+
+#. Name
+#: eventsrc:79
+msgid "Information message"
+msgstr "Inligting boodskap"
+
+#. Comment
+#: eventsrc:80
+msgid "An information message is being shown"
+msgstr "'n Informasie boodskap word vertoon"
+
+#. Name
+#: eventsrc:86
+msgid "Warning message"
+msgstr "Waarskuwing boodskap"
+
+#. Comment
+#: eventsrc:87
+msgid "A warning message is being shown"
+msgstr "'n Waarskuwing boodskap word vertoon"
+
+#. Name
+#: eventsrc:94
+msgid "Critical message"
+msgstr "Kritiese boodskap"
+
+#. Comment
+#: eventsrc:95
+msgid "A critical message is being shown"
+msgstr "'n Kritiese boodskap word vertoon"
+
+#. Name
+#: eventsrc:102
+msgid "Question"
+msgstr "Vraag"
+
+#. Comment
+#: eventsrc:103
+msgid "A question is being asked"
+msgstr "'n Vraag word gevra"

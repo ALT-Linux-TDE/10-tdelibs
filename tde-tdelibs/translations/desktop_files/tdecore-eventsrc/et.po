@@ -1,0 +1,192 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 20:06+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: eventsrc:3
+msgid "System Notifications"
+msgstr "süsteemi märguanded"
+
+#. Name
+#: eventsrc:6
+msgid "Trash: emptied"
+msgstr "Prügikast: tühjendatud"
+
+#. Comment
+#: eventsrc:7
+msgid "The trash has been emptied"
+msgstr "Prügikast on tühjendatud"
+
+#. Name
+#: eventsrc:11
+msgid "Textcompletion: rotation"
+msgstr "Teksti lõpetamine: pööramine"
+
+#. Comment
+#: eventsrc:12
+msgid "The end of the list of matches has been reached"
+msgstr "Jõuti kokkulangevuste nimekirja lõppu"
+
+#. Name
+#: eventsrc:16
+msgid "Textcompletion: no match"
+msgstr "Teksti lõpetamine: kokkulangevus puudub"
+
+#. Comment
+#: eventsrc:17
+msgid "No matching completion was found"
+msgstr "Kokkulangevat lõppu ei leitud"
+
+#. Name
+#: eventsrc:21
+msgid "Textcompletion: partial match"
+msgstr "Teksti lõpetamine: osaline kokkulangevus"
+
+#. Comment
+#: eventsrc:22
+msgid "There is more than one possible match"
+msgstr "Võimalike variante on rohkem kui üks"
+
+#. Name
+#: eventsrc:26
+msgid "Cannot Open File"
+msgstr "Faili avamine ebaõnnestus"
+
+#. Comment
+#: eventsrc:27
+msgid "The selected file cannot be opened for reading or writing"
+msgstr "Valitud faili pole võimalik avada lugemiseks või kirjutamiseks."
+
+#. Name
+#: eventsrc:31
+msgid "Fatal Error"
+msgstr "Fataalne viga"
+
+#. Comment
+#: eventsrc:32
+msgid "There was a serious error causing the program to exit"
+msgstr "Ilmnes tõsine viga, mis sundis programmi tööd lõpetama"
+
+#. Name
+#: eventsrc:37
+msgid "Notification"
+msgstr "Märguanne"
+
+#. Comment
+#: eventsrc:38
+msgid "Something special happened in the program"
+msgstr "Programmis juhtus midagi erilist"
+
+#. Name
+#: eventsrc:44
+msgid "Warning"
+msgstr "Hoiatus"
+
+#. Comment
+#: eventsrc:45
+msgid "There was an error in the program which may cause problems"
+msgstr "Programmis ilmnes viga, mis võib tekitada probleeme"
+
+#. Name
+#: eventsrc:50
+msgid "Catastrophe"
+msgstr "Katastroof"
+
+#. Comment
+#: eventsrc:51
+msgid "A very serious error occurred, at least causing the program to exit"
+msgstr "Ilmnes väga tõsine viga, mis sundis programmi tööd lõpetama."
+
+#. Name
+#: eventsrc:55
+msgid "Login"
+msgstr "Sisselogimine"
+
+#. Comment
+#: eventsrc:56
+msgid "TDE is starting up"
+msgstr "TDE käivitub"
+
+#. Name
+#: eventsrc:61
+msgid "Logout"
+msgstr "Väljalogimine"
+
+#. Comment
+#: eventsrc:62
+msgid "TDE is exiting"
+msgstr "TDE lõpetab töö"
+
+#. Name
+#: eventsrc:67
+msgid "Logout canceled"
+msgstr "Väljalogimine katkestatud"
+
+#. Comment
+#: eventsrc:68
+msgid "TDE logout was canceled"
+msgstr "TDE väljalogimine katkestati"
+
+#. Name
+#: eventsrc:73
+msgid "Print error"
+msgstr "Viga trükkimisel"
+
+#. Comment
+#: eventsrc:74
+msgid "A print error has occurred"
+msgstr "Viga trükkimisel"
+
+#. Name
+#: eventsrc:79
+msgid "Information message"
+msgstr "Informatiivne teade"
+
+#. Comment
+#: eventsrc:80
+msgid "An information message is being shown"
+msgstr "Näidatakse informatiivset teadet"
+
+#. Name
+#: eventsrc:86
+msgid "Warning message"
+msgstr "Hoiatav teade"
+
+#. Comment
+#: eventsrc:87
+msgid "A warning message is being shown"
+msgstr "Näidatakse hoiatavat teadet"
+
+#. Name
+#: eventsrc:94
+msgid "Critical message"
+msgstr "Kriitiline teade"
+
+#. Comment
+#: eventsrc:95
+msgid "A critical message is being shown"
+msgstr "Näidatakse kriitilist teadet"
+
+#. Name
+#: eventsrc:102
+msgid "Question"
+msgstr "Küsimus"
+
+#. Comment
+#: eventsrc:103
+msgid "A question is being asked"
+msgstr "Esitatakse küsimus"

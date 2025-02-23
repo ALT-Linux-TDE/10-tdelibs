@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-dbase
+Icon=application-vnd.oasis.opendocument.database
+Patterns=*.dbf;*.DBF;
+Comment=dBASE Document

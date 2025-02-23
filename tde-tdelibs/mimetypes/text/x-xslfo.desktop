@@ -1,0 +1,10 @@
+[Desktop Entry]
+Comment=XSL Formating Object File
+Icon=text-html
+MimeType=text/x-xslfo
+Patterns=*.fo;*.xslfo
+Type=MimeType
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

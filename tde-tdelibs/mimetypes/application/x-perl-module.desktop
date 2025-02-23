@@ -1,0 +1,10 @@
+[Desktop Entry]
+Comment=Perl Module
+Icon=text-x-perl
+Type=MimeType
+MimeType=application/x-perl-module
+Patterns=*.pm;*.PM;
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

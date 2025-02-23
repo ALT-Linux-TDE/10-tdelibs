@@ -1,0 +1,7 @@
+[Desktop Entry]
+# This is just a silly MS alias for progressive JPEGs
+Type=MimeType
+MimeType=image/pjpeg
+Icon=image-x-generic
+X-TDE-IsAlso=image/jpeg
+Comment=JPEG Image

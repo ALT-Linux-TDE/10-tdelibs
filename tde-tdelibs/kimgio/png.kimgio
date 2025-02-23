@@ -1,0 +1,9 @@
+[Image Format]
+Type=PNG
+Header=
+Name=PNG Image
+Read=true
+Write=true
+Suffices=png,PNG
+Mimetype=image/png
+Library=

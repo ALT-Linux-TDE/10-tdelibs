@@ -1,0 +1,192 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 20:06+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: eventsrc:3
+msgid "System Notifications"
+msgstr "Sistematentigoj"
+
+#. Name
+#: eventsrc:6
+msgid "Trash: emptied"
+msgstr "Rubujo: Malplena"
+
+#. Comment
+#: eventsrc:7
+msgid "The trash has been emptied"
+msgstr "la rubujo malpleniĝis"
+
+#. Name
+#: eventsrc:11
+msgid "Textcompletion: rotation"
+msgstr "Kkompletigo: rotacio"
+
+#. Comment
+#: eventsrc:12
+msgid "The end of the list of matches has been reached"
+msgstr "Fino de la listo de kongruaĵoj"
+
+#. Name
+#: eventsrc:16
+msgid "Textcompletion: no match"
+msgstr "Kkompletigo: neniu trovaĵo"
+
+#. Comment
+#: eventsrc:17
+msgid "No matching completion was found"
+msgstr "Ne troviĝis konvena kompletigo."
+
+#. Name
+#: eventsrc:21
+msgid "Textcompletion: partial match"
+msgstr "Kkompletigo: parta trovaĵo"
+
+#. Comment
+#: eventsrc:22
+msgid "There is more than one possible match"
+msgstr "Ekzistas pli ol unu konvena trovaĵo."
+
+#. Name
+#: eventsrc:26
+msgid "Cannot Open File"
+msgstr "Ne eblas malfermi dosieron"
+
+#. Comment
+#: eventsrc:27
+msgid "The selected file cannot be opened for reading or writing"
+msgstr "La elektita dosiero ne estas malfermebla por legado aŭ skribado"
+
+#. Name
+#: eventsrc:31
+msgid "Fatal Error"
+msgstr "Grava Eraro"
+
+#. Comment
+#: eventsrc:32
+msgid "There was a serious error causing the program to exit"
+msgstr "Okazis grava eraro, kiu ĉesigis la programon."
+
+#. Name
+#: eventsrc:37
+msgid "Notification"
+msgstr "Atentigo"
+
+#. Comment
+#: eventsrc:38
+msgid "Something special happened in the program"
+msgstr "Io nekutima okazis en la programo"
+
+#. Name
+#: eventsrc:44
+msgid "Warning"
+msgstr "Averto"
+
+#. Comment
+#: eventsrc:45
+msgid "There was an error in the program which may cause problems"
+msgstr "Okazis eraro en la programo, kiu povus kaŭzi problemojn."
+
+#. Name
+#: eventsrc:50
+msgid "Catastrophe"
+msgstr "Katastrofo"
+
+#. Comment
+#: eventsrc:51
+msgid "A very serious error occurred, at least causing the program to exit"
+msgstr "Okazis tre grava eraro, kiu ĉesigis la programon"
+
+#. Name
+#: eventsrc:55
+msgid "Login"
+msgstr "Ensaluto"
+
+#. Comment
+#: eventsrc:56
+msgid "TDE is starting up"
+msgstr "TDE estas lanĉata"
+
+#. Name
+#: eventsrc:61
+msgid "Logout"
+msgstr "Elsaluto"
+
+#. Comment
+#: eventsrc:62
+msgid "TDE is exiting"
+msgstr "TDE estas finata"
+
+#. Name
+#: eventsrc:67
+msgid "Logout canceled"
+msgstr "Elsaluto estis rezignita"
+
+#. Comment
+#: eventsrc:68
+msgid "TDE logout was canceled"
+msgstr "TDE-elsaluto estas rezignita"
+
+#. Name
+#: eventsrc:73
+msgid "Print error"
+msgstr "Preseraro"
+
+#. Comment
+#: eventsrc:74
+msgid "A print error has occurred"
+msgstr "Okazis preseraro"
+
+#. Name
+#: eventsrc:79
+msgid "Information message"
+msgstr "Informa mesaĝo"
+
+#. Comment
+#: eventsrc:80
+msgid "An information message is being shown"
+msgstr "Informa mesaĝo estas montrata"
+
+#. Name
+#: eventsrc:86
+msgid "Warning message"
+msgstr "Averta mesaĝo"
+
+#. Comment
+#: eventsrc:87
+msgid "A warning message is being shown"
+msgstr "Averta mesaĝo estas montrata"
+
+#. Name
+#: eventsrc:94
+msgid "Critical message"
+msgstr "Averta mesaĝo"
+
+#. Comment
+#: eventsrc:95
+msgid "A critical message is being shown"
+msgstr "Gravega mesaĝo estas montrata"
+
+#. Name
+#: eventsrc:102
+msgid "Question"
+msgstr "Demando"
+
+#. Comment
+#: eventsrc:103
+msgid "A question is being asked"
+msgstr "Demando estas demandata"

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Comment=Script (possibly executable)
+Icon=application-x-executable
+Type=MimeType
+MimeType=application/x-executable-script
+X-TDE-IsAlso=text/plain

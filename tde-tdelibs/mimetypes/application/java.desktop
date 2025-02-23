@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/java
+Icon=text-x-java
+Comment=Java Class
+X-TDE-IsAlso=application/x-java

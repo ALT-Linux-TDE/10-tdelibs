@@ -1,0 +1,268 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-04 16:37+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: bn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Name
+#: filters/enscript.desktop:2
+msgid "enscript"
+msgstr ""
+
+#. Comment
+#: filters/enscript.desktop:4
+msgid "Enscript Text Filter"
+msgstr "enscript টেক্সট ফিল্টার"
+
+#. Name
+#: filters/imagetops.desktop:2
+msgid "imagetops"
+msgstr ""
+
+#. Comment
+#: filters/imagetops.desktop:4
+msgid "Generic Image to PS Filter"
+msgstr "জেনেরিক চিত্র থেকে পোস্টস্ক্রিপ্ট ফিল্টার"
+
+#. Name
+#: filters/pdf2ps.desktop:2
+msgid "pdf2ps"
+msgstr ""
+
+#. Comment
+#: filters/pdf2ps.desktop:4
+msgid "PDF to PostScript Converter"
+msgstr ""
+
+#. Name
+#: filters/pdfwrite.desktop:2
+msgid "pdfwrite"
+msgstr ""
+
+#. Comment
+#: filters/pdfwrite.desktop:4
+msgid "PDF Writer (needs Ghostscript)"
+msgstr "পি-ডি-এফ (PDF) Writer (ঘোস্টস্ক্রিপ্ট লাগে)"
+
+#. Comment
+#: filters/poster.desktop:3
+msgid "Poster Printing"
+msgstr "পোস্টার মুদ্রণ"
+
+#. Description
+#: filters/poster.desktop:4
+msgid ""
+"Utility to print large posters on multiple small paper sheets. To use this "
+"command, the <b>poster</b> executable must be accessible in your <tt>PATH</"
+"tt>.<p><b><u>WARNING:</u></b> The package found on the TDEPrint web site is "
+"a modified version of the original one that can be found on any CTAN archive "
+"mirror, but the original package will <b>not</b> work with TDE."
+msgstr ""
+"অনেকগুলি ছোটো কাগজে একটি বড় পোস্টার ছাপানোর প্রোগ্রাম। ব্যবহার করতে হলে "
+"<b>poster</b> প্রোগ্রামটি আপনার <tt>PATH</tt>-এ থাকতে হবে।<p><b><u>মনে রাখবেন:"
+"</u></b> কে.ডি.ই.প্রিন্ট ওয়েব সাইটের প্যাকেজটি মূল প্যাকেজটির (যেটি যে কোনো CTAN "
+"আর্কাইভ মিরর-এ পাওয়া যাবে) রূপান্তরিত সংস্করণ, কিন্তু মূল প্যাকেজটি কে.ডি.ই.র সঙ্গে "
+"কাজ <b>করবে না</b>"
+
+#. Name
+#: filters/ps2pdf.desktop:2
+msgid "ps2pdf"
+msgstr ""
+
+#. Comment
+#: filters/ps2pdf.desktop:4
+msgid "PostScript to PDF Converter"
+msgstr ""
+
+#. Name
+#: filters/psbook.desktop:2
+msgid "psbook"
+msgstr ""
+
+#. Comment
+#: filters/psbook.desktop:4
+msgid "Pamphlet Printing (use with small side duplex printing)"
+msgstr "প্যামফ্লেট মুদ্রণ (ছোট মাপের ডুপ্লেক্স প্রিন্টিং সহযোগে ব্যবহার করুন)"
+
+#. Name
+#: filters/psbook1.desktop:2
+msgid "psbook1"
+msgstr ""
+
+#. Comment
+#: filters/psbook1.desktop:4
+msgid "Pamphlet Printing - Even Pages (step 1)"
+msgstr "প্যামফ্লেট মুদ্রণ - জোড় সংখ্যক পাতা (প্রথম ধাপ)"
+
+#. Name
+#: filters/psbook2.desktop:2
+msgid "psbook2"
+msgstr ""
+
+#. Comment
+#: filters/psbook2.desktop:4
+msgid "Pamphlet Printing - Odd Pages (step 2)"
+msgstr "প্যামফ্লেট মুদ্রণ - বিজোড় সংখ্যক পাতা (দ্বিতীয় ধাপ)"
+
+#. Name
+#: filters/psnup.desktop:2
+msgid "psnup"
+msgstr ""
+
+#. Comment
+#: filters/psnup.desktop:4
+msgid "Multiple Pages per Sheet Filter"
+msgstr "একেকটি কাগজে একাধিক পৃষ্ঠা ছাপানোর জন্য ফিল্টার"
+
+#. Name
+#: filters/psresize.desktop:2
+msgid "psresize"
+msgstr ""
+
+#. Comment
+#: filters/psresize.desktop:4
+msgid "Scale Print Content to Fit on Another Paper Size"
+msgstr "অন্য মাপের কাগজে ছাপানোর জন্য প্রয়োজনমত ছোটবড় করতে পারে"
+
+#. Name
+#: filters/psselect.desktop:2
+msgid "psselect"
+msgstr ""
+
+#. Comment
+#: filters/psselect.desktop:4
+msgid "Page Selection/Ordering Filter"
+msgstr "পৃষ্ঠা নির্বাচন/ক্রম ফিল্টার"
+
+#. Name
+#: specials.desktop:5
+msgid "Print to File (PostScript)"
+msgstr "ফাইল হিসেবে ছাপাও (পোস্টস্ক্রিপ্ট)"
+
+#. Description
+#: specials.desktop:6
+msgid "Write PostScript file"
+msgstr "পোস্টস্ক্রিপ্ট ফাইল লেখা হবে"
+
+#. Comment
+#: specials.desktop:7 specials.desktop:17
+msgid "Local file"
+msgstr "স্থানীয় ফাইল"
+
+#. Name
+#: specials.desktop:15
+msgid "Print to File (PDF)"
+msgstr "ফাইল হিসেবে ছাপাও (পি-ডি-এফ)"
+
+#. Description
+#: specials.desktop:16
+msgid "Write PDF/Acrobat file"
+msgstr "পি-ডি-এফ/অ্যাক্রোব্যাট ফাইল লেখা হবে"
+
+#. Name
+#: specials.desktop:26
+msgid "Send to Fax"
+msgstr "ফ্যাক্সে পাঠাও"
+
+#. Description
+#: specials.desktop:27
+msgid "Send to external fax system"
+msgstr "বহিঃস্থ ফ্যাক্স ব্যবস্থায় পাঠাও"
+
+#. Comment
+#: specials.desktop:28
+msgid "External"
+msgstr "বহিঃস্থ"
+
+#. Comment
+#: specials.desktop:37
+msgid "Attachment for KMail Composer"
+msgstr "কে-মেইল কম্পোসার-এর জন্য অ্যাটাচমেন্ট"
+
+#. Description
+#: specials.desktop:38
+msgid "Creates PDF/Acrobat file as attachment for KMail"
+msgstr "ফাইল"
+
+#. Name
+#: specials.desktop:43
+msgid "Mail PDF File"
+msgstr "পি-ডি-এফ ফাইল মেইল করো"
+
+#. Comment
+#: specials.desktop:48
+#, fuzzy
+msgid "KSendFax"
+msgstr "ফ্যাক্সে পাঠাও"
+
+#. Description
+#: specials.desktop:49
+msgid "Use ksendfax to fax the current document"
+msgstr "বর্তমানে নথীটি ksendfax ব্যবহার করে ফ্যাক্স করো"
+
+#. Name
+#: specials.desktop:53
+msgid "Advanced Faxing Tool (ksendfax)"
+msgstr "উন্নত ফ্যাক্স ব্যবস্থা (ksendfax)"
+
+#. Name
+#: tdeprintd.desktop:11
+msgid "TDE Print Daemon"
+msgstr "কে.ডি.ই মুদ্রণ ডিমন"
+
+#. Comment
+#: tdeprintd.desktop:12
+msgid "Print daemon for TDE"
+msgstr "কে.ডি.ই-র মুদ্রণ ডিমন"
+
+#. Name
+#: tools/escputil/escputil.desktop:2
+msgid "EPSON InkJet"
+msgstr "এপসন ইঙ্কজেট"
+
+#. Comment
+#: cups/cups.print:3
+msgid "CUPS (Common UNIX Print System)"
+msgstr "কাপ্স (Common UNIX Print System)"
+
+#. Comment
+#: ext/ext.print:3
+msgid "Print Through an External Program (generic)"
+msgstr "বহিঃস্থ প্রোগ্রামের (generic) সাহায্যে ছাপানো হোক"
+
+#. Comment
+#: foomatic/foomatic.print:3
+msgid "Foomatic (CUPS, LPRng, PDQ)"
+msgstr "ফুম্যাটিক (CUPS, LPRng, PDQ)"
+
+#. Comment
+#: lpd/lpd.print:3
+msgid "LPR (Standard BSD print system)"
+msgstr "এল-পি-আর (স্ট্যাণ্ডার্ড বি-এস-ডি মুদ্রণ ব্যবস্থা)"
+
+#. Comment
+#: lpdunix/lpdunix.print:3
+msgid "Generic UNIX LPD Print System (default)"
+msgstr "সাধারণ ইউনিক্স এল-পি-ডি মুদ্রণ ব্যবস্থা (ডিফল্ট)"
+
+#. Comment
+#: lpr/lpr.print:3
+msgid "LPR/LPRng Print System"
+msgstr "এল-পি-আর/এল-পি-আর-এন-জি মুদ্রণ ব্যবস্থা"
+
+#. Comment
+#: rlpr/rlpr.print:3
+msgid "RLPR Environment (Remote LPD servers)"
+msgstr ""

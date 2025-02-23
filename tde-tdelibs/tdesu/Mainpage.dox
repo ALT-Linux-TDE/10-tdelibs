@@ -1,0 +1,20 @@
+/** @mainpage Console-mode authentication
+
+libtdesu provides functionality for building GUI front ends for
+(password asking) console mode programs. For example, tdesu and
+tdessh use it to interface with su and ssh respectively.
+
+@authors
+Geert Jansen \<jansen@kde.org\>
+
+@maintainers
+Adriaan de Groot \<groot@kde.org\>
+
+@licenses
+@lgpl
+
+
+*/
+
+// DOXYGEN_REFERENCES = tdecore
+// DOXYGEN_SET_PROJECT_NAME = Trinitysu

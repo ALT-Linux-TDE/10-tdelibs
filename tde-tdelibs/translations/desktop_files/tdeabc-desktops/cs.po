@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# Slávek Banko <slavek.banko@axis.cz>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 19:54+0200\n"
+"PO-Revision-Date: 2020-08-16 19:10+0000\n"
+"Last-Translator: Slávek Banko <slavek.banko@axis.cz>\n"
+"Language-Team: Czech <https://mirror.git.trinitydesktop.org/weblate/projects/"
+"tdelibs/tdeabc-desktop-files/cs/>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.1.1\n"
+
+#. Name
+#: formats/binary.desktop:2
+msgid "Binary"
+msgstr "Binární"
+
+#. Name
+#: plugins/dir/dir.desktop:2
+msgid "Directory"
+msgstr "Adresář"
+
+#. Name
+#: plugins/evolution/evolution.desktop:2
+msgid "Evolution"
+msgstr "Evolution"
+
+#. Name
+#: plugins/file/file.desktop:2
+msgid "File"
+msgstr "Soubor"
+
+#. Name
+#: plugins/ldaptdeio/ldaptdeio.desktop:2
+msgid "LDAP"
+msgstr "LDAP"
+
+#. Name
+#: plugins/net/net.desktop:2
+msgid "Network"
+msgstr "Síť"
+
+#. Name
+#: plugins/sql/sql.desktop:2
+msgid "SQL"
+msgstr "SQL"
+
+#. Name
+#: tdeab2tdeabc.desktop:2
+msgid "tdeab2tdeabc"
+msgstr "tdeab2tdeabc"
+
+#. Comment
+#: tdeab2tdeabc.desktop:3
+msgid "libkab to libtdeabc conversion tool."
+msgstr "Nástroj pro převod dat z libkab do libtdeabc."
+
+#. Name
+#: tdeabc_manager.desktop:2
+msgid "Contacts"
+msgstr "Kontakty"

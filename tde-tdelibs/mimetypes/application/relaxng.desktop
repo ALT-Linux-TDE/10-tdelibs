@@ -1,0 +1,11 @@
+[Desktop Entry]
+Comment=RELAX NG
+Icon=text-html
+Type=MimeType
+MimeType=application/xml
+X-TDE-IsAlso=text/xml
+Patterns=*.rng;
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

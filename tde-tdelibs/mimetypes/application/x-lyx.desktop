@@ -1,0 +1,10 @@
+[Desktop Entry]
+Comment=LyX Document
+MimeType=application/x-lyx
+Patterns=*.lyx
+Type=MimeType
+Icon=application-x-lyx
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

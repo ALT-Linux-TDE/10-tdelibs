@@ -1,0 +1,10 @@
+[Desktop Entry]
+MimeType=text/plain
+Comment=Plain Text Document
+Icon=text-plain
+Type=MimeType
+Patterns=*.txt;*.TXT;
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

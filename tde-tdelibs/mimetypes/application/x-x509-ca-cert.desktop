@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-x509-ca-cert
+Icon=certificate
+Patterns=*.der;*.cer;*.crt;*.cert;*.pem;
+Comment=DER, PEM, or Netscape Encoded X.509 Certificate
+X-TDE-AutoEmbed=true

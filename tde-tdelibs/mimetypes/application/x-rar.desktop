@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-rar
+Icon=application-x-tarz
+Patterns=*.rar;*.RAR;
+Comment=Rar Archive

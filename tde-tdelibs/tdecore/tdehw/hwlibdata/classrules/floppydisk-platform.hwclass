@@ -1,0 +1,11 @@
+[Conditions]
+SUBSYSTEM=block
+DRIVER=floppy
+MatchType=All
+
+[DeviceType]
+GENTYPE=Disk
+SUBTYPE=Floppy
+
+[DeviceSettings]
+UPDATE_BLACKLISTED=false

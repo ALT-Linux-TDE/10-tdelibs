@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/vnd.oasis.opendocument.graphics-template
+Patterns=*.otg;*.OTG
+Icon=application-vnd.oasis.opendocument.graphics
+Comment=OASIS OpenDocument Graphics Template
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.otg

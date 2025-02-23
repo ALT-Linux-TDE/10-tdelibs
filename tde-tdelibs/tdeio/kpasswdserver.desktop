@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Service
+Name=KDED Password Module
+Comment=Password caching support
+X-TDE-ServiceTypes=KDEDModule
+X-TDE-ModuleType=Library
+X-TDE-Library=kpasswdserver
+X-TDE-FactoryName=kpasswdserver
+X-TDE-Kded-autoload=false
+X-TDE-Kded-load-on-demand=true

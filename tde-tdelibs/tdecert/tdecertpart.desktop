@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Service
+Name=KCertPart
+Comment=Embeddable Personal Certificate Manager
+MimeType=application/x-pkcs12;application/x-x509-ca-cert;application/binary-certificate;
+Icon=encrypted
+X-TDE-ServiceTypes=KParts/ReadWritePart
+X-TDE-Library=libtdecertpart
+X-TDE-InitialPreference=15

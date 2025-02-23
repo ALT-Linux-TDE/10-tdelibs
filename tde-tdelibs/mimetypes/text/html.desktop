@@ -1,0 +1,11 @@
+[Desktop Entry]
+Comment=HTML Document
+Icon=text-html
+Type=MimeType
+MimeType=text/html
+Patterns=*.html;*.HTML;*.htm;*.HTM;*.shtml;
+X-TDE-AutoEmbed=true
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

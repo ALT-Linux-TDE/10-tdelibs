@@ -1,0 +1,7 @@
+[Desktop Entry]
+MimeType=application/x-lzip
+Icon=application-x-tarz
+Type=MimeType
+Patterns=*.lzip;*.lz
+
+Comment=LZIP File

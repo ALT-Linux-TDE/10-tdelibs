@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/pkcs10
+Icon=encrypted
+Patterns=*.p10;*.P10
+Comment=S/MIME Certification Request
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.p10

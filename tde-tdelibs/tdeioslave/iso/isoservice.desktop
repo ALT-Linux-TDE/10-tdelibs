@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Actions=OpenISO
+X-TDE-ServiceTypes=inode/blockdevice,application/x-iso
+
+[Desktop Action OpenISO]
+Name=ISO9660 View
+Comment=ISO9660 View
+Icon=cd
+Exec=kfmclient exec iso:%f

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=image/cgm
+Icon=image-x-generic
+Patterns=*.cgm;*.CGM;
+Comment=Computer Graphics Metafile

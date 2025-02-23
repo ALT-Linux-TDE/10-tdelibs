@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/vnd.ms-powerpoint.presentation.macroEnabled.12
+Patterns=*.pptm;*.PPTM
+Icon=application-vnd.oasis.opendocument.presentation
+Comment=Microsoft PowerPoint Presentation Macro Enabled
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.ppt

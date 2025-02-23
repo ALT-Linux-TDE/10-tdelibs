@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=video/mpeg
+Icon=video-x-generic
+Patterns=*.mpeg;*.mpg;*.MPEG;*.MPG;
+Comment=MPEG Video

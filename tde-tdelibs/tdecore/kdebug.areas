@@ -1,0 +1,607 @@
+#Debug areas for kdebug()
+# If you plan to add some areas, look at http://lists.kde.org/?l=kde-devel&m=106607933724723&w=2 first.
+# Applications of the kdenonbeta module (or similar) should not define any own area but use area 0.
+# When you add KDebug areas, email kde-devel@kde.org with the appropriate descriptions.
+#
+#Format : number<separator>description
+
+125          tdecore (TDEAccel)
+126          tdecore (KURL)
+127          tdeio   (KProtocolInfo)
+128          tdecore (KRegExp)
+129          tdecore (TDEAction)
+130          tdeio   (KPasswdServer)
+131          tdecore (TDEAcceleratorManager)
+150          tdecore (KLibLoader)
+160          tdecore (KNotifyClient)
+170          tdecore (KNetwork socket)
+171          tdecore (KSocks)
+172          tdecore (TDEStartupInfo)
+173          tdecore (TDELocale)
+174          tdecore (KProcIO)
+175          tdecore (TDEProcess)
+176          tdecore (KWin)
+177          tdecore (TDEConfigSkeleton)
+178          tdecore (TDEConfigDialogManager)
+179          tdecore (KNetwork resolver)
+180          tdecore (tdelibs)
+200          tdeui   (TDEMainWindow)
+220          tdeui   (TDEToolBar)
+230          tdeui   (KCommand)
+240          tdeui   (tdelibs)
+250          tdefile (tdelibs)
+264          tdecore (TDEIconLoader)
+265          tdecore (TDEIconEffect)
+270          tdeui   (KRootPixmap)
+280          tdeui   (TDESharedPixmap)
+281          tdeui   (TDECModule)
+282          tdeui   (KDockWidget)
+290          tdeui   (KPixmapIO)
+291          tdeui   (TDEAboutDialog)
+292          tdeui   (KComboBox)
+293          tdeui   (KLineEdit)
+294          tdeui   (KEdit)
+295          tdeui   (KMenuBar)
+296          tdeui   (TDEPopupMenu)
+298          tdeui   (KDatePicker)
+399          kimgio
+400          artskde
+500          tdeprint
+700          tdeutils (KSettings::Dialog)
+701          tdeutils (KSettings::Dispatcher)
+702          tdeutils (KPluginSelector)
+703          tdeutils (KPluginInfo)
+704          tdeutils (KSettings::ComponentsDialog)
+710          tdeutils (KCMultiDialog)
+711          tdeutils (TDECModuleProxy)
+712          tdeutils (TDECModuleInfo)
+713          tdeutils (TDECModuleContainer)
+750          tdespell (tdelibs)
+760          tdemdi
+780          tdecmshell (tdelibs)
+790          tdeimproxy (tdelibs)
+800          kabapi     (tdelibs)
+900          tdesu      (tdelibs)
+912          ksmartcard (tdelibs)
+
+
+1000         tdeparts
+1001         tdeparts (mainwindow)
+1002         tdeparts (factory)
+
+# tdebase
+1201         konqtree
+1202         konqueror
+1203         libkonq
+1204         kdesktop
+1205         tdesud
+1206         tdesu
+1207         kdesktop (Minicli)
+1208         kcontrol
+1210         kicker
+1211         konsole
+1212         twin
+1213         kappfinder
+1214         kdesktop (icons)
+1215         ksysguard
+1216         twin (client errors)
+1217         khotkeys
+1218         ksmserver
+1219         media tdeioslave
+1220         remote tdeioslave
+
+1400         khelpcenter (tdebase)
+1401         kcmhelpcenter
+1402         khc_indexbuilder
+
+1420         kikbd
+1421         ki18b_keys (tdecmodule)
+
+1430         nspluginviewer (Qt/Xt)
+1431         nspluginviewer (plugin)
+1432         nspluginviewer (part)
+1433         nspluginscan
+
+# tdeutils
+1501         khexedit  (tdeutils)
+1511         tdessh    (tdeutils)
+1512         tdepasswd (tdebase)
+1601         ark       (tdeutils)
+1901         kfind
+1902         kfind (KfindWindow::updateResults)
+1903         kfind (KfindTabDialog::createQuery)
+2000         kfind
+2001         kregexpeditor
+2002         kfloppy
+2003         ksim
+2100         kgpg
+2200         kdf
+2300         tdewallet
+
+# 2500-2999  Reserved for private use
+
+# tdeadmin
+3000         ksysv
+3100         ksysv (model)
+
+# tdegraphics
+4300         kdvi       (tdegraphics)
+4400         kpaint     (tdegraphics)
+4500         kghostview (tdegraphics)
+4600         kview
+4610         kviewviewer
+4620         kviewcanvas
+4630         kview_plugin
+4640         tdeiconedit
+
+# tdenetwork
+5001         kget
+5002         kppp
+5003         knode
+5004         kdict
+5005         knewsticker
+5006         kmail
+5007         kpf
+5008         ksirc
+5009         filesharing
+5050         libkmime
+5051         libkmime (Codecs)
+5052         libkmime (Plugin Loader)
+5100         libtdenetwork
+5150         libkleopatra
+
+
+# tdepim
+5200         kitchensync
+5201         kitchensync (Konnector)
+5202         kitchensync (OpieKonnector)
+5203         kitchensync (PhoneKonnector)
+5204         kitchensync (AgendaKonnector)
+5205         kitchensync (CasioKonnector)
+5210         kitchensync (KitchenSyncApp)
+5220         kitchensync (ManipulatorParts)
+5221         kitchensync (overviewpart)
+5222         kitchensync (organizerpart)
+5223         kitchensync (fileviewpart)
+5224         kitchensync Desktop
+5225         kitchensync (QtopiaKonnector)
+5226         kitchensync Categories
+5227         kitchensync Todo
+5228         kitchensync AddressBook
+5229         kitchensync Datebook
+5230         kitchensync SyncEntry
+5231         kitchensync SyncUI
+5250         kitchensync (Syncing Algorithm)
+5300         libtdepim
+5310         kprefs
+5400         calendarsystem
+5500         knotes
+5510         kpilot
+5511         kpilotdaemon
+5512         kpilotconduit
+5600         kontact (core)
+5601         kontact (interfaces)
+5602         kontact (plugins)
+5650         tderesources
+5700         tdeabc
+5710         tdeabc/vcard
+5720         kaddressbook
+5800         libkcal
+5850         korganizer
+5855         korganizer (verbose)
+5890         korgac
+5891         korgac (check)
+5900         kalarmd
+5901         kalarmd (check)
+5950         kalarm
+5960         kandy
+5970         karm
+
+# libtdehtml
+6000         tdehtml
+6005         tdehtml (encoding)
+6010         tdehtml (dom)
+6020         tdehtml (xml)
+6030         tdehtml (html)
+6031         tdehtml (frames & objects)
+6035         tdehtml (parser)
+6036         tdehtml (tokenizer)
+6040         tdehtml (render)
+6041         tdehtml (bidi)
+6045         tdehtml (rendering tree)
+6050         tdehtml (part)
+6060         tdehtml (cache)
+6061         tdehtml (cache-expiredates)
+6070         tdehtml (jscript)
+6080         tdehtml (css)
+6090         tdehtml (memory)
+6100         kjas
+6200         tdehtml (caret)
+6201         tdehtml (caret table)
+6210         tdehtml (editor)
+
+# libtdeio
+7000         tdeio
+7001         tdeio (KDirWatch)
+7002         tdeio (Slave)
+7003         tdeio (KDirLister)
+7004         tdeio (KDirListerCache)
+7005         tdeio (Filter)
+7006         tdeio (Scheduler)
+7007         tdeio (TDEIOJob)
+7009         tdeio (KMimeType)
+7010         tdeio (KRun)
+7011         tdeio (KSycoca)
+7012         tdeio (KService*)
+7013         tdeio (KPing)
+7014         tdeio (TDETrader)
+7015         tdeio (KAutoMount)
+7016         tdeio (TDELauncher)
+7017         tdeio (TDEIOConnection)
+7018         tdeio (KMimeMagic)
+7019         tdeio (tdeioslave)
+7020         kded
+7021         tdebuildsycoca
+7022         kurifilter
+7023         kurifilter (plugins)
+7024         tdeio (UIServer)
+7025         kpac
+7026         tdeio (KShred)
+7027         tdeio (TCPSlaveBase)
+7028         tdeio (Observer)
+7029         kssl
+7030         tdeio (KEMailSettings)
+7031         KImageIO
+7032         tdeio (KURLCompletion)
+7033         KFileMetaInfo
+7034         KFileMetainfo (plugins)
+7040         KZip
+7041         KTar
+7042         KAr
+7043         tdeio (bookmarks)
+
+# 71xx       are for tdeioslaves
+7101         tdeio_file
+7102         tdeio_ftp
+7103         tdeio_http
+7104         kcookiejar
+7105         tdeio_pop3
+7106         tdeio_smb
+7107         tdeio_man
+7108         tdeio_info
+7109         tdeio_tar
+7110         tdeio_gzip
+7111         tdeio_sql
+7112         tdeio_smtp
+7113         tdeio_http_debug
+7114         tdeio_nntp
+7115         tdeio_thumbnail
+7116         tdeio_imap
+7117         tdeio_audiocd
+7118         tdeio_bzip2
+7119         tdeio_help
+7120         tdeio_sftp
+7121         tdeio_nfs
+7122         tdeio_sieve
+7123         tdeio_kamera
+7124         tdeio_cgi
+7125         tdeio_ldap
+7126         tdeio_devices
+7127         tdeio_fish
+7128         tdeio_svn
+7129         tdeio_appinfo
+7130         tdeio_apt
+7131         tdeio_xz
+7132         tdeio_ftps
+7133         tdeio_gopher
+7134         tdeio_locate
+7135         tdeio_sword
+7136         tdeio_umountwrapper
+
+# tdesdk
+8100         kompare
+8101         kompare (libs)
+8102         kompare (shell)
+8103         kompare (part)
+8104         kompare (list view)
+8105         kompare (nav view)
+8106         kompare (connect widget)
+8107         kbabel
+8108         kbabel  (search)
+8109         catalogmanager
+8050         cervisia
+8051         cervisia (cvsservice)
+
+# tdevelop
+9000         tdevelop (core)
+9001         tdevelop (grep view)
+9002         tdevelop (doc tree view)
+9003         tdevelop (class view)
+9004         tdevelop (output views)
+9005         tdevelop (class store)
+9006         tdevelop (cvs interface)
+9007         tdevelop (cpp support)
+9008         tdevelop (gcc options)
+9009         tdevelop (astyle)
+9010         tdevelop (appwizard)
+9011         tdevelop (python scripting)
+9012         tdevelop (debugger)
+9013         tdevelop (java support)
+9014         tdevelop (python support)
+9015         tdevelop (script project)
+9016         tdevelop (perl support)
+9017         tdevelop (file view)
+9018         tdevelop (php support)
+9019         tdevelop (fortran support)
+9020         tdevelop (auto project)
+9021         tdevelop (pgi options)
+9022         tdevelop (ctags)
+9023         tdevelop (regexptest)
+9024         tdevelop (trollproject)
+9025         tdevelop (customproject)
+9026         tdevelop (doxygen)
+9027         tdevelop (cvs)
+9028         tdevelop (abbrev)
+9029         tdevelop (filter)
+9030         tdevelop (texttools)
+9031         tdevelop (history)
+9032         qeditor
+9033         tdevelop (diff frontend)
+9034         tdevelop (filecreate part)
+9035         tdevelop (konsole part)
+9036         tdevelop (subversion part)
+
+# toys and games
+10000        amor
+10500        KBackgammon
+11000        libtdegames
+11001        libtdegames (KGame)
+11002        libtdegames (Highscores)
+11111        kpat
+12000        KPoker
+12001        KPoker (Server)
+12002        kvoctrain (application)
+12003        kvoctrain (core library)
+12004        kweather
+12005        kallers
+12006        kweatherservice
+12007        kolf
+12008        kbounce
+12009        kblackbox
+12010        twin4
+12011        kenolaba
+12012        kasteroids
+
+
+# Kate/Kant/KWrite
+13000        Kate
+13001        Kate (App)
+13002        Kate (View Manager)
+13010        Kate (XML/Syntax)
+13020        Kate (Document)
+13025        Kate (Commands)
+13030        Kate (View)
+13033        Kate (Renderer)
+13035        Kate (Code Completion)
+13040        Kate (Plugins)
+13050        Kate (Scripting)
+13051        Kate (KJS Scripts)
+
+# Kopete
+14000        kopete
+14010        libkopete
+14100        kopete (gadu)
+14101        kopete (gadu - raw protocol)
+14110        kopete (icq)
+14111        kopete (icq - raw protocol)
+14120        kopete (irc)
+14121        kopete (irc - raw protocol)
+14130        kopete (jabber)
+14131        kopete (jabber - raw protocol)
+14140        kopete (msn)
+14141        kopete (msn - raw protocol)
+14150        kopete (oscar)
+14151        kopete (oscar - raw protocol)
+14152        kopete (oscar/aim)
+14153        kopete (oscar/icq)
+14160        kopete (sms)
+14161        kopete (sms - raw protocol)
+14170        kopete (winpopup)
+14171        kopete (winpopup - raw protocol)
+14180        kopete (yahoo)
+14181        kopete (yahoo - raw protocol)
+14190        kopete (groupwise)
+14191        kopete (libgroupwise)
+14192        kopete (libgroupwise - raw)
+14200        kopete (meanwhile)
+14300        kopete (autoaway)
+14301        kopete (connectionstatus)
+14302        kopete (contactnotes)
+14303        kopete (cryptography)
+14304        kopete (importer)
+14305        kopete (motionautoaway)
+14306        kopete (msginfo)
+14307        kopete (nowlistening)
+14308        kopete (translator)
+14309        kopete (webpresence)
+14310        kopete (history)
+14311        kopete (skype)
+14312        kopete (smpppdcs)
+
+# KDB
+20000        KDB (core)
+20001        KDB (ui)
+20010        KDB (DBEngine)
+20011        KDB (Connection)
+20012        KDB (plugin)
+
+#tdefilereplace
+23000        TDEFileReplace (tdefilereplacepart)
+
+#klinkstatus
+23100        KLinkStatus
+
+# Quanta
+24000        Quanta
+24001        Quanta (parser)
+24002        Quanta (debugger)
+
+# kafka
+25000        Kafka (kafkapp)
+25001        Kafka (kafkaeditpart)
+25002        Kafka (kafkapluginloader)
+25003        Kafka (kafkaplugins)
+25004        Kafka (kafkaobjectmgr)
+25005        Kafka (kafkadom)
+
+# KSVG
+26000        KSVG
+26001        KSVG - Parser
+26002        KSVG - Rendering
+26003        KSVG - KPart
+26004        KSVG - Ecma
+26005        KSVG - Canvas
+
+26500        KDOM XInclude
+26550        KDOM XPointer
+26560        KDOM XPath
+26600        KDOM Catalog
+26650        KDOM kxmllint
+
+# XSLT on top of KDOM
+27000        KXSLT
+
+# libkscan / kooka
+28000        Kooka
+29000        libkscan
+
+# 30001-40000 are for KOffice
+30001        koffice (lib koml)
+30002        koffice (lib store)
+30003        koffice (lib kofficecore)
+30004        koffice (lib kofficeui)
+30005        koffice (lib kopainter)
+30006        koffice (lib kospell)
+30007        koffice (lib koproperty)
+30500        koffice (filter manager)
+30501        csvfilter
+30502        asciifilter
+30503        htmlfilter
+30504        wmffilter
+30505        msodfilter
+30506        abiwordfilter
+30507        docbookfilter
+30508        export-filter-lib
+30509        mswritefilter
+30510        ole-lib
+30511        ole-excel
+30512        ole-powerpoint
+30513        winword-filter
+30514        svgfilter
+30515        rtffilter
+30516        pdffilter
+30517        applix-filter
+30518        openoffice-filter
+30519        import-export-openoffice-filter-lib
+30520        kword-1.3-filter
+30521        gnumeric-filter
+30522        latex-filter
+30523        quattro-pro-filter
+# 30524
+30525        palmdoc-filter
+31000        koffice
+32001        kword
+32002        kword (formatting)
+32003        kword (UI)
+32004        kword (tables)
+32500        kotext
+33001        kpresenter
+34000        kpresenter
+34001        klyx
+35000        klyx
+35001        kchart
+36000        kchart
+36001        kspread
+36002        kspread (cell)
+37000        kspread
+37001        graphite
+38000        karbon
+39001        kformula
+40000        kformula
+41000        chalk (tiles)
+41001        chalk (core)
+41002        chalk (registry)
+41003        chalk (tools)
+41004        chalk (color management system)
+41005        chalk (filters)
+41006        chalk (plugins)
+41007        chalk (user interface)
+41008        chalk (file handling)
+41009        chalk (math)
+41010        chalk (render)
+41011        chalk (scripting)
+42000        kplato
+43000        kivio
+44000        KexiDB
+44001        KexiDB (driver impl)
+44010        Kexi (general)
+44020        Kexi (core)
+44021        Kexi (plugins)
+
+# kdeextragear
+50001        kfortune
+
+# KIPI - KDE Imaging Plugin Interface
+51000        KIPI (general)
+51001        KIPI (loading)
+
+# tdemultimedia
+60001        kreatecd
+60002        kaudiocreator
+60005        krec
+60010        libkcddb
+65432        juk
+66666        noatun
+67000        kscd
+67100        kmix
+67200        tdemid
+
+# tdebindings
+70001        dcoppython
+80001        kjsembed
+
+# tdeaddons
+90000        vimpart
+90010        noatun-plugins (dub)
+90020        noatun-plugins (lyrics)
+90100        konq-plugins (fsview)
+90110        konq-plugins (webarchiver)
+90120        konq-plugins (validators)
+90130        konq-plugins (uachanger)
+90140        konq-plugins (sidebar - newsticker)
+90150        konq-plugins (minitools)
+90160        konq-plugins (kuick)
+90170        konq-plugins (kimgalleryplugin)
+90180        konq-plugins (domtreeviewer)
+90190        konq-plugins (dirfilter)
+90200        kicker-applets (mediacontrol)
+90210        konq-plugins (rellinks)
+
+
+# kdenonbeta
+100000       reaktivate (KPart)
+100001       reaktivate (proxy)
+100100       geheimnis
+100101       geheimnis (backends)
+
+100200       kfs
+
+# rosegarden
+
+200000       rosegarden
+200001       rosegarden (notation)
+200002       rosegarden (matrix)
+200003       rosegarden (sequencer)
+200004       rosegarden (sequence manager)
+
+

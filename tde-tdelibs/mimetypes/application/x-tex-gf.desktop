@@ -1,0 +1,6 @@
+[Desktop Entry]
+Comment=Generic Font
+Icon=application-x-tex-gf
+Type=MimeType
+MimeType=application/x-tex-gf
+Patterns=*.gf;*.GF;

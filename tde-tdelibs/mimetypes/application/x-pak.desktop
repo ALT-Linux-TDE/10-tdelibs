@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-pak
+Icon=application-x-tarz
+Patterns=*.pak;*.PAK;
+Comment=PAK File Archive

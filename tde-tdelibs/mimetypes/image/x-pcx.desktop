@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=image/x-pcx
+Icon=image-x-generic
+Patterns=*.pcx;*.PCX;
+Comment=PCX Image

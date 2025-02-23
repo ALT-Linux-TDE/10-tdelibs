@@ -1,0 +1,141 @@
+#################################################
+#
+#  (C) 2018 Slávek Banko
+#  slavek.banko (AT) axis.cz
+#
+#  Improvements and feedback are welcome
+#
+#  This file is released under GPL >= 2
+#
+#################################################
+
+
+##### set project version ########################
+
+include( TDEVersion )
+cmake_minimum_required( VERSION ${TDE_CMAKE_MINIMUM_VERSION} )
+
+
+##### include our cmake modules #################
+
+include( TDEL10n )
+
+
+##### set directory for POT files ###############
+
+set( POT_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../tde-i18n/template/messages/tdelibs" )
+
+
+##### verify tqt3 sources #######################
+
+if( NOT EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/../../dependencies/tqt3/src )
+  tde_message_fatal( "TQt3 source code is required but not found" )
+endif( )
+
+
+##### prepare tqt3/src/xml/qxml.cpp #############
+
+if( EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/../../dependencies/tqt3/src/xml/qxml.cpp )
+  # hide "#define" to allow strings to be extracted using xgettext
+  file( READ ${CMAKE_CURRENT_SOURCE_DIR}/../../dependencies/tqt3/src/xml/qxml.cpp _tqt_qxml )
+  string( REGEX REPLACE "\n(#define[^\n]*)(TQT_TRANSLATE_NOOP)" "\n/*\\1*/\\2" _tqt_qxml ${_tqt_qxml} )
+  file( WRITE ${CMAKE_CURRENT_SOURCE_DIR}/../../dependencies/tqt3/src/xml/qxml.cpp.tde_l10n "${_tqt_qxml}" )
+endif( )
+
+
+##### prepare tdeabc/addressee strings ##########
+
+# read file
+file( READ "${CMAKE_CURRENT_SOURCE_DIR}/tdeabc/scripts/entrylist" _addressee_data )
+string( REGEX REPLACE "[^\n]" "" _addressee_len ${_addressee_data} )
+string( LENGTH "+${_addressee_len}" _addressee_len )
+
+# process lines
+set( _addressee_pos 0 )
+unset( _addressee_l10n )
+while( _addressee_pos LESS ${_addressee_len} )
+  # pick line
+  string( REGEX REPLACE "^([^\n]*)\n(.*)" "\\1" _addressee_line "${_addressee_data}" )
+  string( REGEX REPLACE "^([^\n]*)\n(.*)" "\\2" _addressee_data "${_addressee_data}" )
+  math( EXPR _addressee_pos "${_addressee_pos}+1" )
+
+  if( "${_addressee_line}" MATCHES "^ *$" OR "${_addressee_line}" MATCHES "^ *#" )
+    set( _addressee_line "" )
+  else( )
+    string( REGEX REPLACE "^[^,]*,([^,]*),([^,]*),.*" "\\1" _addressee_field "${_addressee_line}" )
+    string( REGEX REPLACE "^[^,]*,([^,]*),([^,]*),.*" "\\2" _addressee_comment "${_addressee_line}" )
+    if( NOT "${_addressee_field}" STREQUAL "" )
+      string( REGEX REPLACE "[_ ]+" ";" _addressee_field ${_addressee_field} )
+      unset( _addressee_field_name )
+      foreach( _addressee_field_part ${_addressee_field} )
+        string( SUBSTRING ${_addressee_field_part} 0 1 _addressee_field_first )
+        string( SUBSTRING ${_addressee_field_part} 1 -1 _addressee_field_rest )
+        string( TOUPPER ${_addressee_field_first} _addressee_field_first )
+        set( _addressee_field_name "${_addressee_field_name}${_addressee_field_first}${_addressee_field_rest} " )
+      endforeach( )
+      string( STRIP ${_addressee_field_name} _addressee_field_name )
+
+      if( NOT "${_addressee_comment}" STREQUAL "" )
+        set( _addressee_line "i18n(\"${_addressee_comment}\", \"${_addressee_field_name}\");" )
+      else( )
+        set( _addressee_line "i18n(\"${_addressee_field_name}\");" )
+      endif( )
+    else( )
+      set( _addressee_line "" )
+    endif( )
+  endif( )
+  set( _addressee_l10n "${_addressee_l10n}${_addressee_line}\n" )
+endwhile( )
+
+# write file
+file( WRITE "${CMAKE_CURRENT_SOURCE_DIR}/tdeabc/scripts/entrylist.tde_l10n" "${_addressee_l10n}" )
+
+
+##### create translation templates ##############
+
+tde_l10n_create_template(
+    CATALOG "tde"
+    SOURCES "common_texts.cpp"
+    EXCLUDES "_translatorinfo"
+    X-POT -
+    DESTINATION "."
+)
+
+tde_l10n_create_template(
+  CATALOG "tdelibs"
+  SOURCES
+    "."
+    "tdeabc/scripts/entrylist.tde_l10n"
+    "tdecore/tde-config.cpp.cmake"
+    "../../dependencies/tqt3/src"
+    "../../dependencies/tqt3/src/xml/qxml.cpp.tde_l10n"
+  EXCLUDES
+    "/test/" "/tests/"
+    "^arts/kde/mcop-dcop/"
+    "^arts/knotify/"
+    "^interfaces/tdemediaplayer/tdefileaudiopreview/"
+    "^kate/"
+    "^kdoctools/"
+    "^libtdescreensaver/"
+    "^tdeabc/formats/"
+    "^tdeabc/plugins/"
+    "^tdecmshell/"
+    "^tdecore/tdeconfig_compiler/example/"
+    "^tdeio/"
+    "^tdeioslave/"
+    "^tdemarkdown/md4c/"
+    "^tdeprint/"
+    "^tdeui/colors/"
+    "^tdestyles/.*/config/"
+    "/dependencies/tqt3/src/xml/qxml.cpp$"
+  KEYWORDS
+    tr tr:1,2
+    translate translate:1,2
+    TQT_TRANSLATE_NOOP TQT_TRANSLATE_NOOP:1,2
+  X-POT "-"
+)
+
+
+##### create translation templates ##############
+
+tde_l10n_auto_add_subdirectories( )

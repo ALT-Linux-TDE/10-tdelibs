@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/vnd.oasis.opendocument.text-flat-xml
+Patterns=*.fodt;*.FODT
+Icon=application-vnd.oasis.opendocument.text
+Comment=OASIS OpenDocument Text (Flat XML)
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.fodt

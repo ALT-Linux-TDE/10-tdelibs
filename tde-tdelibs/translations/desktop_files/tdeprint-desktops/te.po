@@ -1,0 +1,267 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-04 16:37+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Name
+#: filters/enscript.desktop:2
+msgid "enscript"
+msgstr "ఎన్స్క్రిప్ట్"
+
+#. Comment
+#: filters/enscript.desktop:4
+msgid "Enscript Text Filter"
+msgstr "ఎన్స్క్రిప్ట్ వాచక గలని"
+
+#. Name
+#: filters/imagetops.desktop:2
+msgid "imagetops"
+msgstr "ఇమెజ్ టాప్స్"
+
+#. Comment
+#: filters/imagetops.desktop:4
+msgid "Generic Image to PS Filter"
+msgstr "సాధారణ ప్రతిబింబాలను పిఎస్ కు మార్చు గలని"
+
+#. Name
+#: filters/pdf2ps.desktop:2
+msgid "pdf2ps"
+msgstr ""
+
+#. Comment
+#: filters/pdf2ps.desktop:4
+#, fuzzy
+msgid "PDF to PostScript Converter"
+msgstr "పొస్ట్ స్క్రిప్ట్ నుంచి పిడిఎఫ్ మార్చెది"
+
+#. Name
+#: filters/pdfwrite.desktop:2
+msgid "pdfwrite"
+msgstr "పిడిఎఫ్ వ్రైట్"
+
+#. Comment
+#: filters/pdfwrite.desktop:4
+msgid "PDF Writer (needs Ghostscript)"
+msgstr "పిడిఎఫ్ లను వ్రాసెది (ఘొస్ట్ స్క్రిప్ట్ కావలెను) "
+
+#. Comment
+#: filters/poster.desktop:3
+msgid "Poster Printing"
+msgstr "పోస్టర్లను ప్రచురించేది"
+
+#. Description
+#: filters/poster.desktop:4
+msgid ""
+"Utility to print large posters on multiple small paper sheets. To use this "
+"command, the <b>poster</b> executable must be accessible in your <tt>PATH</"
+"tt>.<p><b><u>WARNING:</u></b> The package found on the TDEPrint web site is "
+"a modified version of the original one that can be found on any CTAN archive "
+"mirror, but the original package will <b>not</b> work with TDE."
+msgstr ""
+"పెద్ద పొస్టర్లను చాలా చిన్న కాగితాలపై ప్రచురించెందుకు వాడె యుటిలిటి. ఈ కార్యాన్ని వాడెందుకు, <b>poster</"
+"b> కార్యం మి <tt>PATH<tt> <p><b><u>హెచ్చరిక:</u></b> కెడిఈప్రచురణ  వెబ్ సైట్ లొ వున్న కట్ట "
+"అసలును కొద్దిగా మార్చబడిన వివరణం, అసలు అదైనా సిటిఏఏన్ ఆర్కైవ్ మిర్రర్ లొ దొరుకుతుంది, కాని అసలు కట్ట "
+"కెడిఈ తొ పని"
+
+#. Name
+#: filters/ps2pdf.desktop:2
+msgid "ps2pdf"
+msgstr "పిఎస్2పిడిఎఫ్"
+
+#. Comment
+#: filters/ps2pdf.desktop:4
+msgid "PostScript to PDF Converter"
+msgstr "పొస్ట్ స్క్రిప్ట్ నుంచి పిడిఎఫ్ మార్చెది"
+
+#. Name
+#: filters/psbook.desktop:2
+msgid "psbook"
+msgstr "పిఎస్ బుక్"
+
+#. Comment
+#: filters/psbook.desktop:4
+msgid "Pamphlet Printing (use with small side duplex printing)"
+msgstr "కరపత్ర ప్రచురణ (చిన్న సైజు తొ ద్వంద్వ ప్రచురణ వాడండి)"
+
+#. Name
+#: filters/psbook1.desktop:2
+msgid "psbook1"
+msgstr "పిఎస్ బుక్1"
+
+#. Comment
+#: filters/psbook1.desktop:4
+msgid "Pamphlet Printing - Even Pages (step 1)"
+msgstr "కరపత్ర ప్రచురణ - సరి పుటలు (మెట్టు 1)"
+
+#. Name
+#: filters/psbook2.desktop:2
+msgid "psbook2"
+msgstr "పిఎస్ బుక్2"
+
+#. Comment
+#: filters/psbook2.desktop:4
+msgid "Pamphlet Printing - Odd Pages (step 2)"
+msgstr "కరపత్ర ప్రచురణ - బేసి పుటలు (మెట్టు ౨)"
+
+#. Name
+#: filters/psnup.desktop:2
+msgid "psnup"
+msgstr "పిఏస్ నుప్"
+
+#. Comment
+#: filters/psnup.desktop:4
+msgid "Multiple Pages per Sheet Filter"
+msgstr "పత్ర గలని కి పలు పుటలు చొప్పున"
+
+#. Name
+#: filters/psresize.desktop:2
+msgid "psresize"
+msgstr "పిఎస్ రిసైజ్"
+
+#. Comment
+#: filters/psresize.desktop:4
+msgid "Scale Print Content to Fit on Another Paper Size"
+msgstr "ప్రచురణ సారాన్ని ఇంకొక పుట కొలత లొ పట్టించును"
+
+#. Name
+#: filters/psselect.desktop:2
+msgid "psselect"
+msgstr "పిఎస్ సెలెక్ట్"
+
+#. Comment
+#: filters/psselect.desktop:4
+msgid "Page Selection/Ordering Filter"
+msgstr "పుట ఎంపిక/వరుసలొ పెట్టు గలని"
+
+#. Name
+#: specials.desktop:5
+msgid "Print to File (PostScript)"
+msgstr "దస్త్రం లొ ప్రచురించు (పొస్ట్ స్క్రిప్ట్)"
+
+#. Description
+#: specials.desktop:6
+msgid "Write PostScript file"
+msgstr "పొస్ట్ స్క్రిప్ట్ దస్త్రం ను వ్రాయుట"
+
+#. Comment
+#: specials.desktop:7 specials.desktop:17
+msgid "Local file"
+msgstr "స్థానిక దస్త్రం"
+
+#. Name
+#: specials.desktop:15
+msgid "Print to File (PDF)"
+msgstr "దస్త్రం లొ ప్రచురించు (పిడిఎఫ్)"
+
+#. Description
+#: specials.desktop:16
+msgid "Write PDF/Acrobat file"
+msgstr "పిడిఎఫ్/ఏక్రొబేట్ దస్త్రం ను వ్రాయుట"
+
+#. Name
+#: specials.desktop:26
+msgid "Send to Fax"
+msgstr "ఫేక్సుకు పంపుట"
+
+#. Description
+#: specials.desktop:27
+msgid "Send to external fax system"
+msgstr "బయటి ఫేక్సు వవస్థకు పంపుట"
+
+#. Comment
+#: specials.desktop:28
+msgid "External"
+msgstr "బయటి"
+
+#. Comment
+#: specials.desktop:37
+msgid "Attachment for KMail Composer"
+msgstr "కెతపాలా కంపొజర్ కు అనుబంధం"
+
+#. Description
+#: specials.desktop:38
+msgid "Creates PDF/Acrobat file as attachment for KMail"
+msgstr "పిడిఎఫ్ దస్త్రంను కెతపాలా కు అనుబంధంగా స్రుష్టిస్తుంది"
+
+#. Name
+#: specials.desktop:43
+msgid "Mail PDF File"
+msgstr "పిFఇఎఫ్ దస్త్ర తపాలా"
+
+#. Comment
+#: specials.desktop:48
+msgid "KSendFax"
+msgstr "కెసెండ్ ఫేక్స్"
+
+#. Description
+#: specials.desktop:49
+msgid "Use ksendfax to fax the current document"
+msgstr "ప్రస్తుత పత్రాన్ని కెసెండ్ ఫేక్స్ ద్వారా ఫేక్స్ పంపించుటకు వాడండి"
+
+#. Name
+#: specials.desktop:53
+msgid "Advanced Faxing Tool (ksendfax)"
+msgstr "ఆధునిక ఫేక్స్ పనిముట్టు (కెసెండ్ ఫేక్స్)"
+
+#. Name
+#: tdeprintd.desktop:11
+msgid "TDE Print Daemon"
+msgstr "కెడిఈ ప్రచురణ సూత్రధారి"
+
+#. Comment
+#: tdeprintd.desktop:12
+msgid "Print daemon for TDE"
+msgstr "కెడిఈ కొరకు సూత్రధారి"
+
+#. Name
+#: tools/escputil/escputil.desktop:2
+msgid "EPSON InkJet"
+msgstr "ఎప్సన్ ఇంక్ జెట్"
+
+#. Comment
+#: cups/cups.print:3
+msgid "CUPS (Common UNIX Print System)"
+msgstr "కెయుపిఎస్ (సామాన్య యునిక్స్ ప్రచురణ వ్యవస్థ)"
+
+#. Comment
+#: ext/ext.print:3
+msgid "Print Through an External Program (generic)"
+msgstr "బయటి కార్యము (సాధరణ) ద్వారా ప్రచురించు"
+
+#. Comment
+#: foomatic/foomatic.print:3
+msgid "Foomatic (CUPS, LPRng, PDQ)"
+msgstr "ఫూమెటిక్ (సియుపిఎస్, ఎల్ పి ఆర్ అన్ జి,పిడిక్యు) "
+
+#. Comment
+#: lpd/lpd.print:3
+msgid "LPR (Standard BSD print system)"
+msgstr "ఎల్ పి ఆర్  (సాధరణ బి ఎస్ డి ప్రచురణ వ్యవస్థ)"
+
+#. Comment
+#: lpdunix/lpdunix.print:3
+msgid "Generic UNIX LPD Print System (default)"
+msgstr "సాధారణ యునిక్స్ ఎల్ పి డి ప్రచురణ వ్యవస్థ (అప్రమేయం)"
+
+#. Comment
+#: lpr/lpr.print:3
+msgid "LPR/LPRng Print System"
+msgstr "ఎల్ పి ఆర్/ఎల్ పి ఆర్ ఎన్ జి ప్రచురణ వ్యవస్థ"
+
+#. Comment
+#: rlpr/rlpr.print:3
+msgid "RLPR Environment (Remote LPD servers)"
+msgstr "ఆర్ ఎల్ పి ఆర్ పర్యావరణం (సుదూర అల్ పి డి సెర్వర్లు)"

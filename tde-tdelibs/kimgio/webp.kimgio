@@ -1,0 +1,9 @@
+[Image Format]
+Type=webp
+Header=^RIFF[\x00-\xFF]{4}WEBP
+Name=WebP Image
+Read=true
+Write=false
+Suffices=webp,WEBP
+Mimetype=image/webp
+Library=kimg_webp.la

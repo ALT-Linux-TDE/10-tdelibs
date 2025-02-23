@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-font-pcf
+Icon=font-x-generic
+Patterns=*.pcf;*.pcf.Z;*.pcf.gz;*.PCF;*.PCF.Z;*.PCF.gz
+Comment=PCF Bitmap Font

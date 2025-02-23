@@ -1,0 +1,116 @@
+Here are the code maintainers for each part of this library.  Any problems or
+suggested patches for a class should be directed to the responsible person for
+that class.
+
+When adding yourself as a maintainer, don't be afraid to reorder the files to a
+more logical grouping.
+
+dmalloc.cpp
+tdeaboutdata.cpp		David Faure <faure@kde.org>
+tdeaccel.cpp		Ellis Whitehead <ellis@kde.org>
+tdeaccelaction.cpp	Ellis Whitehead <ellis@kde.org>
+tdeaccelbase.cpp		Ellis Whitehead <ellis@kde.org>
+kallocator.cpp		Waldo Bastian <bastian@kde.org>
+kappdcopiface.cpp
+tdeapplication.cpp	Waldo Bastian <bastian@kde.org>
+kaudioplayer.cpp
+kcatalogue.cpp		Hans Petter Bieker <bieker@kde.org>
+kcharsets.cpp		Lars Knoll <knoll@kde.org>
+kckey.cpp
+tdecmdlineargs.cpp	Waldo Bastian <bastian@kde.org>
+kcompletion.cpp		Carsten Pfeiffer <pfeiffer@kde.org>
+kcompletionbase.cpp
+tdeconfig.cpp		Waldo Bastian <bastian@kde.org>
+tdeconfigbackend.cpp	Waldo Bastian <bastian@kde.org>
+tdeconfigbase.cpp		Waldo Bastian <bastian@kde.org>
+kcrash.cpp		Waldo Bastian <bastian@kde.org>
+kdcoppropertyproxy.cpp
+kdebug.cpp		Stephan Kulow <coolo@kde.org>
+kdesktopfile.cpp
+tdeglobal.cpp		Stephan Kulow <coolo@kde.org>
+kglobalaccel.cpp	Ellis Whitehead <ellis@kde.org>
+kglobalaccel_x11.cpp	Ellis Whitehead <ellis@kde.org>
+tdeglobalsettings.cpp	David Faure <faure@kde.org>
+kiconeffect.cpp
+kiconloader.cpp
+kicontheme.cpp
+kinstance.cpp 		Stephan Kulow <coolo@kde.org>
+kipc.cpp        	Lubos Lunak <l.lunak@kde.org>
+kkey_x11.cpp		Ellis Whitehead <ellis@kde.org>
+kkeynative_x11.cpp	Ellis Whitehead <ellis@kde.org>
+kkeysequence.cpp	Ellis Whitehead <ellis@kde.org>
+kkeysequence_emb.cpp	Ellis Whitehead <ellis@kde.org>
+klibloader.cpp
+tdelocale.cpp		Hans Petter Bieker <bieker@kde.org>
+kmdcodec.cpp
+kmimesourcefactory.cpp
+tdemultipledrag.cpp	David Faure <faure@kde.org>
+knotifyclient.cpp
+kpalette.cpp		Waldo Bastian <bastian@kde.org>
+kpixmapprovider.cpp	Carsten Pfeiffer <pfeiffer@kde.org>
+kprocctrl.cpp		Waldo Bastian <bastian@kde.org>
+kprocess.cpp		Waldo Bastian <bastian@kde.org>
+kprocio.cpp		Waldo Bastian <bastian@kde.org>
+krandomsequence.cpp	Waldo Bastian <bastian@kde.org>
+kregexp.cpp
+krfcdate.cpp		Waldo Bastian <bastian@kde.org>
+krootprop.cpp   	Lubos Lunak <l.lunak@kde.org>
+ksavefile.cpp		Waldo Bastian <bastian@kde.org>
+tdeshortcut.cpp		Ellis Whitehead <ellis@kde.org>
+ksimpleconfig.cpp	Waldo Bastian <bastian@kde.org>
+ksocks.cpp
+kstandarddirs.cpp	Waldo Bastian <bastian@kde.org>
+tdestartupinfo.cpp	Lubos Lunak <l.lunak@kde.org>
+kstaticdeleter.cpp	Stephan Kulow <coolo@kde.org>
+tdestdaccel.cpp		Ellis Whitehead <ellis@kde.org>
+kstringhandler.cpp
+tdesycoca.cpp		Waldo Bastian <bastian@kde.org>
+tdesycocadict.cpp		Waldo Bastian <bastian@kde.org>
+tdesycocafactory.cpp	Waldo Bastian <bastian@kde.org>
+tdetempfile.cpp		Waldo Bastian <bastian@kde.org>
+kuniqueapplication.cpp	Waldo Bastian <bastian@kde.org>
+kurl.cpp		Waldo Bastian <bastian@kde.org>
+kurldrag.cpp		David Faure <faure@kde.org>
+twin.cpp        	Lubos Lunak <l.lunak@kde.org>
+twinmodule.cpp  	Lubos Lunak <l.lunak@kde.org>
+kxmessages.cpp		Lubos Lunak <l.lunak@kde.org>
+kxerrorhandler.cpp	Lubos Lunak <l.lunak@kde.org>
+libintl.cpp		Hans Petter Bieker <bieker@kde.org>
+akasyncio.cpp		Thiago Macieira <thiago@kde.org>
+kbufferedio.cpp		Thiago Macieira <thiago@kde.org>
+kextsock.cpp		Thiago Macieira <thiago@kde.org>
+kidna.cpp		Thiago Macieira <thiago@kde.org>
+ksock.cpp		Thiago Macieira <thiago@kde.org>
+ksockaddr.cpp		Thiago Macieira <thiago@kde.org>
+netsupp.cpp		Thiago Macieira <thiago@kde.org>
+network/		Thiago Macieira <thiago@kde.org>
+netwm.cpp       	Lubos Lunak <l.lunak@kde.org>
+kapplication_win.cpp	Jaroslaw Staniek <js@iidea.pl> (copyright)
+kcalendarsystem.cpp
+kcalendarsystemfactory.cpp
+kcalendarsystemgregorian.cpp
+kcalendarsystemhebrew.cpp	Hans Petter Bieker <bieker@kde.org> (copyright)
+kcalendarsystemhijri.cpp
+kcalendarsystemjalali.cpp	Arash Bijanzadeh  and FarsiKDE Project <www.farsikde.org> (copyright)
+kcheckaccelerators.cpp	Matthias Kalle Dalheimer (kalle@kde.org) (copyright)
+kclipboard.cpp		Carsten Pfeiffer <pfeiffer@kde.org> (copyright)
+tdeconfigdialogmanager.cpp
+tdeconfigskeleton.cpp
+kdebugdcopiface.cpp	Andreas Beckermann (b_mann@gmx.de) (copyright)
+tdeversion.cpp
+kglobalaccel_win.cpp	Ellis Whitehead <ellis@kde.org> (copyright)
+kkeyserver_x11.cpp
+klockfile.cpp		Waldo Bastian <bastian@kde.org> (copyright)
+kmacroexpander.cpp
+kmanagerselection.cpp	Lubos Lunak        <l.lunak@kde.org> (copyright)
+kmountpoint.cpp		Waldo Bastian <bastian@kde.org> (copyright)
+kprotocolinfo_tdecore.cpp	Torben Weis <weis@kde.org> (copyright)
+kprotocolinfofactory.cpp	Torben Weis <weis@kde.org> (copyright)
+kprotocolinfofactory.cpp	Waldo Bastian <bastian@kde.org> (copyright)
+kpty.cpp
+kshell.cpp		Oswald Buddenhagen <ossi@kde.org> (copyright)
+tdeshortcutmenu.cpp	Ellis Whitehead <ellis@kde.org> (copyright)
+ktempdir.cpp		Joseph Wenninger <jowenn@kde.org> (copyright)
+kuser.cpp		Tim Jansen <tim@tjansen.de> (copyright)
+kvmallocator.cpp	Waldo Bastian (bastian@kde.org) (copyright)
+netsupp_win32.cpp

@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 19:54+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Name
+#: formats/binary.desktop:2
+msgid "Binary"
+msgstr "இருமம்"
+
+#. Name
+#: plugins/dir/dir.desktop:2
+msgid "Directory"
+msgstr "அடைவு"
+
+#. Name
+#: plugins/evolution/evolution.desktop:2
+msgid "Evolution"
+msgstr "படிப்படியான வளர்ச்சி"
+
+#. Name
+#: plugins/file/file.desktop:2
+msgid "File"
+msgstr "கோப்பு"
+
+#. Name
+#: plugins/ldaptdeio/ldaptdeio.desktop:2
+msgid "LDAP"
+msgstr ""
+
+#. Name
+#: plugins/net/net.desktop:2
+msgid "Network"
+msgstr "பிணையம்"
+
+#. Name
+#: plugins/sql/sql.desktop:2
+msgid "SQL"
+msgstr ""
+
+#. Name
+#: tdeab2tdeabc.desktop:2
+msgid "tdeab2tdeabc"
+msgstr ""
+
+#. Comment
+#: tdeab2tdeabc.desktop:3
+msgid "libkab to libtdeabc conversion tool."
+msgstr "libkab இலிருந்து libtdeabc க்கு மாற்றும் கருவி."
+
+#. Name
+#: tdeabc_manager.desktop:2
+msgid "Contacts"
+msgstr "தொடர்புகள்"

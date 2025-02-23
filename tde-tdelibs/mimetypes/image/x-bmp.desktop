@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=image/x-bmp
+Icon=image-x-generic
+Patterns=*.bmp;*.BMP;
+Comment=BMP Image

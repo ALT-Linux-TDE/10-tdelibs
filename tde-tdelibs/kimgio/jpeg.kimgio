@@ -1,0 +1,9 @@
+[Image Format]
+Type=JPEG
+Header=
+Name=JPEG Image
+Read=true
+Write=true
+Suffices=jpg,JPG,jpeg,JPEG
+Mimetype=image/jpeg
+Library=

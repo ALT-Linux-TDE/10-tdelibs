@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 21:43+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Name
+#: bzip2/kbzip2filter.desktop:3
+msgid "BZip2 Filter"
+msgstr "BZip2 거르개"
+
+#. Name
+#: gzip/kgzipfilter.desktop:3
+msgid "GZip Filter"
+msgstr "GZip 거르개"
+
+#. Name
+#: http/http_cache_cleaner.desktop:3
+msgid "HTTP Cache Cleaner"
+msgstr "HTTP 캐시 정리"
+
+#. Comment
+#: http/http_cache_cleaner.desktop:4
+msgid "Cleans up old entries from the HTTP cache"
+msgstr "HTTP 캐시에서 오래된 것들을 정리합니다"
+
+#. Name
+#: http/kcookiejar/kcookiejar.desktop:3
+msgid "KDED Cookie Jar Module"
+msgstr "KDED 쿠키 JAR 모듈"
+
+#. Comment
+#: http/kcookiejar/kcookiejar.desktop:4
+msgid "Keeps track of all cookies in the system"
+msgstr ""
+
+#. Name
+#. Comment
+#: iso/isoservice.desktop:7 iso/isoservice.desktop:8
+msgid "ISO9660 View"
+msgstr ""
+
+#. Name
+#: iso/tdeio_iso.desktop:3
+msgid "ISO9660 Image Viewer"
+msgstr ""
+
+#. Name
+#: xz/kxzfilter.desktop:3
+msgid "XZ Filter"
+msgstr "XZ 거르개"
+
+#. Description
+#: iso/iso.protocol:10
+msgid "A tdeioslave for ISO9660 filesystems"
+msgstr ""

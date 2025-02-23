@@ -1,0 +1,11 @@
+[Desktop Entry]
+Comment=C++ Header File
+Icon=text-x-hsrc
+Type=MimeType
+MimeType=text/x-c++hdr
+Patterns=*.hh;*.hpp;*.H;
+X-TDE-IsAlso=text/plain
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

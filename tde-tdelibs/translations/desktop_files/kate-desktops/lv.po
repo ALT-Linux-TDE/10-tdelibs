@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-02 14:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Name
+#: data/katepart.desktop:2
+msgid "Embedded Advanced Text Editor"
+msgstr "Iegultais paplašinātais tekstu redaktors"
+
+#. Name
+#: plugins/autobookmarker/tdetexteditor_autobookmarker.desktop:2
+msgid "KTextEditor Autobookmarker"
+msgstr "KTextEditor automātiskais grāmatzīmju licējs"
+
+#. Comment
+#: plugins/autobookmarker/tdetexteditor_autobookmarker.desktop:3
+msgid "Set bookmarks on lines matching a pattern when documents are loaded"
+msgstr ""
+"Ielādējot dokumentu, liek grāmatzīmes rindām, kuras atbilst norādītajam "
+"paraugam"
+
+#. Name
+#: plugins/insertfile/tdetexteditor_insertfile.desktop:2
+msgid "KTextEditor Insert File Plugin"
+msgstr "KTextEditor faila ievietošanas spraudnis"
+
+#. Comment
+#: plugins/insertfile/tdetexteditor_insertfile.desktop:3
+msgid "Insert any readable file at cursor position"
+msgstr "Ievieto jebkuru lasāmu failu kursora atrašanās vietā"
+
+#. Name
+#: plugins/isearch/tdetexteditor_isearch.desktop:2
+msgid "KTextEditor Incremental Search Plugin"
+msgstr "KTextEditor \"meklē kamēr raksti\" spraudnis"
+
+#. Comment
+#: plugins/isearch/tdetexteditor_isearch.desktop:3
+msgid "Also known as \"As you type search\""
+msgstr "Meklē tekstu kamēr Jūs to rakstat"
+
+#. Name
+#: plugins/kdatatool/tdetexteditor_kdatatool.desktop:2
+msgid "KTextEditor KDataTool Plugin"
+msgstr "KTextEditor KDataTool spraudnis"
+
+#. Comment
+#: plugins/kdatatool/tdetexteditor_kdatatool.desktop:3
+msgid "Enable data tools like thesaurus and spell check (if installed)"
+msgstr ""
+"Ieslēdz instalētos datu rīkus kā tēzaurs un pareizrakstības pārbaudītājs"
+
+#. Name
+#: plugins/wordcompletion/tdetexteditor_docwordcompletion.desktop:2
+msgid "KTextEditor Word Completion Plugin"
+msgstr "KTextEditor vārdu pabeigšanas spraudnis"
+
+#. Comment
+#: plugins/wordcompletion/tdetexteditor_docwordcompletion.desktop:3
+msgid "Directional or popup-based completion from words in the document"
+msgstr "Vārdu automātiska pabeigšana izmantojot dokumentā jau esošos vārdus"
+
+#. Name
+#: scripts/jstest.desktop:2
+msgid "Kate Part JavaScript Test"
+msgstr ""
+
+#. Comment
+#: scripts/jstest.desktop:3
+msgid "Script for testing kate part's scripting"
+msgstr ""

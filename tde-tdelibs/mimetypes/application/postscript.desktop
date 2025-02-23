@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/postscript
+Icon=application-postscript
+Patterns=*.ps;*.PS;
+X-TDE-PatternsAccuracy=95
+Comment=PostScript Document
+X-TDE-AutoEmbed=true
+
+[Property::X-TDE-text]
+Type=bool
+Value=true
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.ps

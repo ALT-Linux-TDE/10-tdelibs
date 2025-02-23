@@ -1,0 +1,192 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 20:06+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: eventsrc:3
+msgid "System Notifications"
+msgstr "הודעות מערכת של"
+
+#. Name
+#: eventsrc:6
+msgid "Trash: emptied"
+msgstr "אשפה: רוקן"
+
+#. Comment
+#: eventsrc:7
+msgid "The trash has been emptied"
+msgstr "פה האשפה רוקן"
+
+#. Name
+#: eventsrc:11
+msgid "Textcompletion: rotation"
+msgstr "השלמת טקסט: רוטציה"
+
+#. Comment
+#: eventsrc:12
+msgid "The end of the list of matches has been reached"
+msgstr "הגיעו לסוף רשימת ההתאמות"
+
+#. Name
+#: eventsrc:16
+msgid "Textcompletion: no match"
+msgstr "השלמת טקסט: אין התאמה"
+
+#. Comment
+#: eventsrc:17
+msgid "No matching completion was found"
+msgstr "לא נמצאה אף השלמה תואמת"
+
+#. Name
+#: eventsrc:21
+msgid "Textcompletion: partial match"
+msgstr "השלמת טקסט: התאמה חלקית"
+
+#. Comment
+#: eventsrc:22
+msgid "There is more than one possible match"
+msgstr "יש יותר מהתאמה אפשרית אחת"
+
+#. Name
+#: eventsrc:26
+msgid "Cannot Open File"
+msgstr "אין אפשרות לפתוח קובץ"
+
+#. Comment
+#: eventsrc:27
+msgid "The selected file cannot be opened for reading or writing"
+msgstr "אין אפשרות לפתוח את הקובץ הנבחר לקריאה או כתיבה"
+
+#. Name
+#: eventsrc:31
+msgid "Fatal Error"
+msgstr "שגיאה חמורה"
+
+#. Comment
+#: eventsrc:32
+msgid "There was a serious error causing the program to exit"
+msgstr "אירעה שגיאה חמורה שגרמה לתוכנית לצאת"
+
+#. Name
+#: eventsrc:37
+msgid "Notification"
+msgstr "הודעה"
+
+#. Comment
+#: eventsrc:38
+msgid "Something special happened in the program"
+msgstr "משהו מיוחד קרה עם התוכנית"
+
+#. Name
+#: eventsrc:44
+msgid "Warning"
+msgstr "אזהרה"
+
+#. Comment
+#: eventsrc:45
+msgid "There was an error in the program which may cause problems"
+msgstr "אירעה שגיאה חמורה שעלולה לגרום לבעיות"
+
+#. Name
+#: eventsrc:50
+msgid "Catastrophe"
+msgstr "קטסטרופה"
+
+#. Comment
+#: eventsrc:51
+msgid "A very serious error occurred, at least causing the program to exit"
+msgstr "אירעה שגיאה חמורה מאוד, שלפחות גרמה לתוכנית לצאת"
+
+#. Name
+#: eventsrc:55
+msgid "Login"
+msgstr "כניסה למערכת"
+
+#. Comment
+#: eventsrc:56
+msgid "TDE is starting up"
+msgstr "איתחול TDE בעיצומו"
+
+#. Name
+#: eventsrc:61
+msgid "Logout"
+msgstr "יציאה מהמערכת"
+
+#. Comment
+#: eventsrc:62
+msgid "TDE is exiting"
+msgstr "היציאה מ־TDE בעיצומה"
+
+#. Name
+#: eventsrc:67
+msgid "Logout canceled"
+msgstr ""
+
+#. Comment
+#: eventsrc:68
+msgid "TDE logout was canceled"
+msgstr ""
+
+#. Name
+#: eventsrc:73
+msgid "Print error"
+msgstr "שגיאת הדפסה"
+
+#. Comment
+#: eventsrc:74
+msgid "A print error has occurred"
+msgstr "אירעה שגיאת הדפסה"
+
+#. Name
+#: eventsrc:79
+msgid "Information message"
+msgstr "הודעת מידע"
+
+#. Comment
+#: eventsrc:80
+msgid "An information message is being shown"
+msgstr "מוצגת הדעת מידע"
+
+#. Name
+#: eventsrc:86
+msgid "Warning message"
+msgstr "הודעת הזהרה"
+
+#. Comment
+#: eventsrc:87
+msgid "A warning message is being shown"
+msgstr "מוצגת הדעת הזהרה"
+
+#. Name
+#: eventsrc:94
+msgid "Critical message"
+msgstr "הודעה קריטית"
+
+#. Comment
+#: eventsrc:95
+msgid "A critical message is being shown"
+msgstr "מוצגת הודעה קריטית"
+
+#. Name
+#: eventsrc:102
+msgid "Question"
+msgstr "שאלה"
+
+#. Comment
+#: eventsrc:103
+msgid "A question is being asked"
+msgstr "נשאלת שאלה"

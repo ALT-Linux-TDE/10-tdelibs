@@ -1,0 +1,10 @@
+[Desktop Entry]
+Comment=Web Archive
+Icon=www
+Type=MimeType
+MimeType=application/x-webarchive
+Patterns=*.war;*.WAR
+
+[Property::X-TDE-LocalProtocol]
+Type=TQString
+Value=tar

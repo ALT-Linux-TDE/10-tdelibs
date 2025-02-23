@@ -1,0 +1,7 @@
+[Desktop Entry]
+Comment=Windows Media Video
+Hidden=false
+Icon=video-x-generic
+MimeType=video/x-ms-wmv
+Patterns=*.wmv
+Type=MimeType

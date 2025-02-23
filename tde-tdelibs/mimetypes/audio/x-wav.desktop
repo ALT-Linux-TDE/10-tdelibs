@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=audio/x-wav
+Icon=audio-x-generic
+Patterns=*.wav;*.WAV;
+Comment=WAV Audio

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Service
+Name=KDED Cookie Jar Module
+Comment=Keeps track of all cookies in the system
+X-TDE-ServiceTypes=KDEDModule
+Exec=kcookiejar
+X-DCOP-ServiceType=Unique
+X-TDE-StartupNotify=false
+X-TDE-ModuleType=Library
+X-TDE-Library=kcookiejar
+X-TDE-FactoryName=kcookiejar
+X-TDE-Kded-autoload=false
+X-TDE-Kded-load-on-demand=true

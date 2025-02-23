@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=ServiceType
+X-TDE-ServiceType=RenameDlg/Plugin
+Comment=Plugin for the Rename Dialog

@@ -1,0 +1,6 @@
+[Desktop Entry]
+MimeType=application/x-siag
+Comment=Siag Spreadsheet
+Icon=application-vnd.oasis.opendocument.spreadsheet
+Type=MimeType
+Patterns=*.siag;*.csv;*.wk1;

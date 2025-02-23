@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-magicpoint
+Icon=application-vnd.oasis.opendocument.presentation
+Patterns=*.mgp;*.MGP;
+Comment=MagicPoint Presentation

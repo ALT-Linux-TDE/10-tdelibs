@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Service
+Name=TDEHTML
+Comment=Embeddable HTML viewing component
+MimeType=text/html;text/xml;application/xhtml+xml;
+Icon=konqueror
+X-TDE-ServiceTypes=KParts/ReadOnlyPart,Browser/View
+X-TDE-Library=libtdehtmlpart
+X-TDE-InitialPreference=10

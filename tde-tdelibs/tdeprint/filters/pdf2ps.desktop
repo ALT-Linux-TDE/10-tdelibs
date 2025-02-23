@@ -1,0 +1,6 @@
+[TDE Print Filter Entry]
+Name=pdf2ps
+Require=exec:/gs
+Comment=PDF to PostScript Converter
+MimeTypeIn=application/pdf
+MimeTypeOut=application/postscript

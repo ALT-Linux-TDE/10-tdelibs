@@ -1,0 +1,11 @@
+[Desktop Entry]
+Comment=XHTML Family Document
+Type=MimeType
+Icon=text-html
+MimeType=application/xhtml+xml
+X-TDE-IsAlso=text/xml
+Patterns=*.xhtml
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

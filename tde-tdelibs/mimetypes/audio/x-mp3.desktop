@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=audio/x-mp3
+Icon=audio-x-generic
+Patterns=*.mp3;*.MP3;*.Mp3;
+X-TDE-IsAlso=audio/mpeg
+Comment=MPEG Layer 3 Audio

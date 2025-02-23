@@ -1,0 +1,11 @@
+[Desktop Entry]
+MimeType=application/x-kudesigner
+Comment=Kugar Report Template
+Icon=kugardata
+Type=MimeType
+Patterns=*.kut;*.ktf;
+X-TDE-AutoEmbed=false
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.ktf

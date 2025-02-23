@@ -1,0 +1,6 @@
+[Desktop Entry]
+Comment=OpenType Font
+Icon=application-x-font-ttf
+Type=MimeType
+MimeType=application/x-font-otf
+Patterns=*.otf;*.OTF

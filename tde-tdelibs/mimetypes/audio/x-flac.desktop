@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+Comment=FLAC Audio
+MimeType=audio/x-flac
+Icon=audio-x-generic
+Patterns=*.flac;*.FLAC;

@@ -1,0 +1,268 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-04 16:37+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Name
+#: filters/enscript.desktop:2
+msgid "enscript"
+msgstr "इनस्क्रिप्ट"
+
+#. Comment
+#: filters/enscript.desktop:4
+msgid "Enscript Text Filter"
+msgstr "इनस्क्रिप्ट पाठ फिल्टर"
+
+#. Name
+#: filters/imagetops.desktop:2
+msgid "imagetops"
+msgstr "इमेजटप"
+
+#. Comment
+#: filters/imagetops.desktop:4
+msgid "Generic Image to PS Filter"
+msgstr "जेनेरिक छवि देखि PS फिल्टर सम्म"
+
+#. Name
+#: filters/pdf2ps.desktop:2
+msgid "pdf2ps"
+msgstr ""
+
+#. Comment
+#: filters/pdf2ps.desktop:4
+#, fuzzy
+msgid "PDF to PostScript Converter"
+msgstr "PDF रूपान्तरकमा पोष्टस्क्रिप्ट"
+
+#. Name
+#: filters/pdfwrite.desktop:2
+msgid "pdfwrite"
+msgstr ""
+
+#. Comment
+#: filters/pdfwrite.desktop:4
+msgid "PDF Writer (needs Ghostscript)"
+msgstr "PDF राइटर (घोस्टस्क्रिप्ट आवश्यक हुन्छ)"
+
+#. Comment
+#: filters/poster.desktop:3
+msgid "Poster Printing"
+msgstr "पोष्टर मुद्रण"
+
+#. Description
+#: filters/poster.desktop:4
+msgid ""
+"Utility to print large posters on multiple small paper sheets. To use this "
+"command, the <b>poster</b> executable must be accessible in your <tt>PATH</"
+"tt>.<p><b><u>WARNING:</u></b> The package found on the TDEPrint web site is "
+"a modified version of the original one that can be found on any CTAN archive "
+"mirror, but the original package will <b>not</b> work with TDE."
+msgstr ""
+"बहुविध साना कागज पानाहरूमा ठूला पोष्टरहरू मुद्रण गर्न उपयोगी हुन्छ । यो आदेश प्रयोग गर्न, "
+"<b>पोष्टर</b> कार्यान्वयन योग्य तपाईँको <tt>बाटो</tt> मा पहुँच पुग्ने हुनुपर्छ ।"
+"<p><b><u>चेतावनी:</u></b> TDE मुद्रण वेब साइडमा फेला परेको प्याकेज मौलिक एकको "
+"परिमार्जित सस्करण हो जुन कुनैपनि CTAN सङ्ग्रह ऐनामा फेला पर्न सक्छ, तर मौलिक प्याकेज TDE."
+
+#. Name
+#: filters/ps2pdf.desktop:2
+msgid "ps2pdf"
+msgstr ""
+
+#. Comment
+#: filters/ps2pdf.desktop:4
+msgid "PostScript to PDF Converter"
+msgstr "PDF रूपान्तरकमा पोष्टस्क्रिप्ट"
+
+#. Name
+#: filters/psbook.desktop:2
+msgid "psbook"
+msgstr ""
+
+#. Comment
+#: filters/psbook.desktop:4
+msgid "Pamphlet Printing (use with small side duplex printing)"
+msgstr "पत्रिका मुद्रण (सानो भाग डुप्लेक्स मुद्रण प्रयोग गर्नुहोस्)"
+
+#. Name
+#: filters/psbook1.desktop:2
+msgid "psbook1"
+msgstr ""
+
+#. Comment
+#: filters/psbook1.desktop:4
+msgid "Pamphlet Printing - Even Pages (step 1)"
+msgstr "पत्रिका मुद्रण गर्दै - जोर पृष्ठहरू (चरण १)"
+
+#. Name
+#: filters/psbook2.desktop:2
+msgid "psbook2"
+msgstr ""
+
+#. Comment
+#: filters/psbook2.desktop:4
+msgid "Pamphlet Printing - Odd Pages (step 2)"
+msgstr "पत्रिका मुद्रण गर्दै - बिजोर पृष्ठहरू (चरण २)"
+
+#. Name
+#: filters/psnup.desktop:2
+msgid "psnup"
+msgstr ""
+
+#. Comment
+#: filters/psnup.desktop:4
+msgid "Multiple Pages per Sheet Filter"
+msgstr "प्रति पाना फिल्टर बहुविध पृष्ठ"
+
+#. Name
+#: filters/psresize.desktop:2
+msgid "psresize"
+msgstr ""
+
+#. Comment
+#: filters/psresize.desktop:4
+msgid "Scale Print Content to Fit on Another Paper Size"
+msgstr "अन्य कागज साइजमा ठीक गर्न मापन मुद्रण सामग्री"
+
+#. Name
+#: filters/psselect.desktop:2
+msgid "psselect"
+msgstr ""
+
+#. Comment
+#: filters/psselect.desktop:4
+msgid "Page Selection/Ordering Filter"
+msgstr "पृष्ठ चयन/फिल्टर क्रमबद्ध"
+
+#. Name
+#: specials.desktop:5
+msgid "Print to File (PostScript)"
+msgstr "फाइलमा मुद्रण गर्नुहोस् (पोस्टस्क्रिप्ट)"
+
+#. Description
+#: specials.desktop:6
+msgid "Write PostScript file"
+msgstr "पोष्टसक्रिप्ट फाइल लेख्नुहोस्"
+
+#. Comment
+#: specials.desktop:7 specials.desktop:17
+msgid "Local file"
+msgstr "स्थानीय फाइल"
+
+#. Name
+#: specials.desktop:15
+msgid "Print to File (PDF)"
+msgstr "फाइलमा मुद्रण गर्नुहोस् (PDF)"
+
+#. Description
+#: specials.desktop:16
+msgid "Write PDF/Acrobat file"
+msgstr "PDF/याक्रोब्याट फाइलमा लेख्नुहोस्"
+
+#. Name
+#: specials.desktop:26
+msgid "Send to Fax"
+msgstr "फ्याक्समा पठाउनुहोस्"
+
+#. Description
+#: specials.desktop:27
+msgid "Send to external fax system"
+msgstr "बाह्य फ्याक्स प्रणालीमा पठाउनुहोस्"
+
+#. Comment
+#: specials.desktop:28
+msgid "External"
+msgstr "बाह्य"
+
+#. Comment
+#: specials.desktop:37
+msgid "Attachment for KMail Composer"
+msgstr "KMail रचनाकारका लागि सङ्लग्नता"
+
+#. Description
+#: specials.desktop:38
+msgid "Creates PDF/Acrobat file as attachment for KMail"
+msgstr "KMail का लागि संलग्र फाइलको रूपमा PDF/याक्रोब्याट फाइल सिर्जना गर्छ"
+
+#. Name
+#: specials.desktop:43
+msgid "Mail PDF File"
+msgstr "पत्र PDF फाइल"
+
+#. Comment
+#: specials.desktop:48
+#, fuzzy
+msgid "KSendFax"
+msgstr "फ्याक्समा पठाउनुहोस्"
+
+#. Description
+#: specials.desktop:49
+msgid "Use ksendfax to fax the current document"
+msgstr "हालको कागजात फ्याक्स गर्न ksendfax प्रयोग गर्नुहोस्"
+
+#. Name
+#: specials.desktop:53
+msgid "Advanced Faxing Tool (ksendfax)"
+msgstr "उन्नत फ्याक्स उपकरण (ksendfax)"
+
+#. Name
+#: tdeprintd.desktop:11
+msgid "TDE Print Daemon"
+msgstr "TDE मुद्रण डेइमन"
+
+#. Comment
+#: tdeprintd.desktop:12
+msgid "Print daemon for TDE"
+msgstr "TDE का लागि डेइमन मुद्रण गर्नुहोस्"
+
+#. Name
+#: tools/escputil/escputil.desktop:2
+msgid "EPSON InkJet"
+msgstr "EPSON इन्कजेट"
+
+#. Comment
+#: cups/cups.print:3
+msgid "CUPS (Common UNIX Print System)"
+msgstr "CUPS (साझा UNIX मुद्रण प्रणाली)"
+
+#. Comment
+#: ext/ext.print:3
+msgid "Print Through an External Program (generic)"
+msgstr "बाह्य कार्यक्रम (जेनेरिक) बाट मुद्रण गर्नुहोस्"
+
+#. Comment
+#: foomatic/foomatic.print:3
+msgid "Foomatic (CUPS, LPRng, PDQ)"
+msgstr "फुम्याटिक (CUPS, LPRng, PDQ)"
+
+#. Comment
+#: lpd/lpd.print:3
+msgid "LPR (Standard BSD print system)"
+msgstr "LPR (मानक BSD मुद्रण प्रणाली)"
+
+#. Comment
+#: lpdunix/lpdunix.print:3
+msgid "Generic UNIX LPD Print System (default)"
+msgstr "जेनेरिक UNIX LPD मुद्रण प्रणाली (पूर्वनिर्धारित)"
+
+#. Comment
+#: lpr/lpr.print:3
+msgid "LPR/LPRng Print System"
+msgstr "LPR/LPRng मुद्रण प्रणाली"
+
+#. Comment
+#: rlpr/rlpr.print:3
+msgid "RLPR Environment (Remote LPD servers)"
+msgstr "RLPR परिवेश (टाढाको LPD सर्भर)"

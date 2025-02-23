@@ -1,0 +1,9 @@
+[Image Format]
+Type=XPM
+Header=
+Name=X PixMap Image
+Read=true
+Write=true
+Suffices=xpm,XPM
+Mimetype=image/x-xpm
+Library=

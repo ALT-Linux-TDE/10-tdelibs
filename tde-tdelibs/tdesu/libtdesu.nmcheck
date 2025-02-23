@@ -1,0 +1,10 @@
+# KDE namespace check file
+
+# tdesu classes
+SshProcess:*
+PTY::*
+SuProcess::*
+StubProcess::*
+PtyProcess::*
+KCookie::*
+TDEsuClient::*

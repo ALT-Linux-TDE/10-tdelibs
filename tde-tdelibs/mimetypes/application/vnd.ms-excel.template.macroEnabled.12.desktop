@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/vnd.ms-excel.template.macroEnabled.12
+Patterns=*.xltm;*.XLTM
+Icon=application-vnd.oasis.opendocument.spreadsheet
+Comment=Microsoft Excel Spreadsheet Template Macro Enabled
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.xls

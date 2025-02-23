@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=KTextEditor KDataTool Plugin
+Comment=Enable data tools like thesaurus and spell check (if installed)
+X-TDE-Library=tdetexteditor_kdatatool
+X-TDE-ServiceTypes=KTextEditor/Plugin
+Type=Service
+X-TDE-InitialPreference=8
+MimeType=text/plain

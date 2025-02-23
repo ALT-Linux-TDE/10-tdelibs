@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/vnd.ms-access
+Icon=application-vnd.oasis.opendocument.database
+Comment=Microsoft Access Database
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.mdb

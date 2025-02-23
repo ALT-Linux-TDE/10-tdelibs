@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=image/x-dds
+Icon=image-x-generic
+Patterns=*.dds;*.DDS;
+Comment=DirectDraw Surface

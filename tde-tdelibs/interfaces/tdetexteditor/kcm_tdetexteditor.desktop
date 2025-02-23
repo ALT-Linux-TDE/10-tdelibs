@@ -1,0 +1,10 @@
+ServiceTypeToConfigure=KTextEditor/Document
+MimeTypeOfInterest=text/plain
+defaultImplementation=katepart
+storeInFile=default_components
+valueSection=KTextEditor
+valueName=embeddedEditor
+configurationType=component
+
+Name=Embedded Text Editor
+Comment=The text editor service provides applications with a text viewer and editor. TDE applications that provide text editing facilities should use this service.

@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 20:06+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: eventsrc:3
+msgid "System Notifications"
+msgstr "Sistem Bildirimleri"
+
+#. Name
+#: eventsrc:6
+msgid "Trash: emptied"
+msgstr "Çöp: boşaltıldı"
+
+#. Comment
+#: eventsrc:7
+msgid "The trash has been emptied"
+msgstr "Çöp boşaltıldı"
+
+#. Name
+#: eventsrc:11
+msgid "Textcompletion: rotation"
+msgstr "Textcompletion: çevirme"
+
+#. Comment
+#: eventsrc:12
+msgid "The end of the list of matches has been reached"
+msgstr "Eşleşme listesinin sonuna gelindi"
+
+#. Name
+#: eventsrc:16
+msgid "Textcompletion: no match"
+msgstr "Textcompletion: eşleşme Yok"
+
+#. Comment
+#: eventsrc:17
+msgid "No matching completion was found"
+msgstr "Eşleşme bulunamadı"
+
+#. Name
+#: eventsrc:21
+msgid "Textcompletion: partial match"
+msgstr "Textcompletion: kısmi eşleşme"
+
+#. Comment
+#: eventsrc:22
+msgid "There is more than one possible match"
+msgstr "Birden fazla muhtemel eşleşme var"
+
+#. Name
+#: eventsrc:26
+msgid "Cannot Open File"
+msgstr "Dosya Açılamıyor"
+
+#. Comment
+#: eventsrc:27
+msgid "The selected file cannot be opened for reading or writing"
+msgstr "Seçili dosya okumnmak ya da yazılmak için açılamıyor"
+
+#. Name
+#: eventsrc:31
+msgid "Fatal Error"
+msgstr "Ölümcül Hata"
+
+#. Comment
+#: eventsrc:32
+msgid "There was a serious error causing the program to exit"
+msgstr "Programın kapanmasına neden olan ciddi bir hata oluştu"
+
+#. Name
+#: eventsrc:37
+msgid "Notification"
+msgstr "Uyarı"
+
+#. Comment
+#: eventsrc:38
+msgid "Something special happened in the program"
+msgstr "Programda özel bir durum meydana geldi"
+
+#. Name
+#: eventsrc:44
+msgid "Warning"
+msgstr "Dikkat"
+
+#. Comment
+#: eventsrc:45
+msgid "There was an error in the program which may cause problems"
+msgstr "Programda ciddi bir hata oluştu"
+
+#. Name
+#: eventsrc:50
+msgid "Catastrophe"
+msgstr "Facia"
+
+#. Comment
+#: eventsrc:51
+msgid "A very serious error occurred, at least causing the program to exit"
+msgstr ""
+"Programın kapanmasına neden olan ciddi bir hata oluştu ve programdan çıkıldı."
+
+#. Name
+#: eventsrc:55
+msgid "Login"
+msgstr "Giriş"
+
+#. Comment
+#: eventsrc:56
+msgid "TDE is starting up"
+msgstr "TDE masaüstü başlıyor"
+
+#. Name
+#: eventsrc:61
+msgid "Logout"
+msgstr "Çıkış"
+
+#. Comment
+#: eventsrc:62
+msgid "TDE is exiting"
+msgstr "TDE Masaüstünden çıkılıyor"
+
+#. Name
+#: eventsrc:67
+msgid "Logout canceled"
+msgstr "Oturumu kapatma işlemi iptal edildi"
+
+#. Comment
+#: eventsrc:68
+msgid "TDE logout was canceled"
+msgstr "TDE oturumunu kapatma işlemi iptal edildi"
+
+#. Name
+#: eventsrc:73
+msgid "Print error"
+msgstr "Yazdırma hatası"
+
+#. Comment
+#: eventsrc:74
+msgid "A print error has occurred"
+msgstr "Bir yazdırma hatası oluştu"
+
+#. Name
+#: eventsrc:79
+msgid "Information message"
+msgstr "Bilgi mesajı"
+
+#. Comment
+#: eventsrc:80
+msgid "An information message is being shown"
+msgstr "Bir bilgi mesajı gösterildi"
+
+#. Name
+#: eventsrc:86
+msgid "Warning message"
+msgstr "Uyarı mesajı"
+
+#. Comment
+#: eventsrc:87
+msgid "A warning message is being shown"
+msgstr "Bir uyarı mesajı gösterildi"
+
+#. Name
+#: eventsrc:94
+msgid "Critical message"
+msgstr "Kritik hata mesajı"
+
+#. Comment
+#: eventsrc:95
+msgid "A critical message is being shown"
+msgstr "Bir kritik mesaj gösterildi"
+
+#. Name
+#: eventsrc:102
+msgid "Question"
+msgstr "Soru"
+
+#. Comment
+#: eventsrc:103
+msgid "A question is being asked"
+msgstr "Bir soru soruldu"

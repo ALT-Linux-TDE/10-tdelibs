@@ -1,0 +1,10 @@
+[Desktop Entry]
+Comment=ABC Music File
+Icon=audio-x-generic
+Type=MimeType
+MimeType=text/vnd.abc
+Patterns=*.abc;*.ABC;
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

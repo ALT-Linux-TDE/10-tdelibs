@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=audio/prs.sid
+Icon=audio-x-generic
+Patterns=*.sid;*.SID;*.psid;*.PSID
+Comment=C64 SID Music

@@ -1,0 +1,10 @@
+[Protocol]
+exec=tdeio_ghelp
+protocol=ghelp
+input=none
+output=filesystem
+reading=true
+defaultMimetype=text/html
+Icon=help
+Class=:local
+X-DocPath=tdeioslave/ghelp/index.html

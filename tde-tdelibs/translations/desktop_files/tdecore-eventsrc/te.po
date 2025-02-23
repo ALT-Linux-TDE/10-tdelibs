@@ -1,0 +1,192 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 20:06+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: eventsrc:3
+msgid "System Notifications"
+msgstr "కెడిఈ వ్యవస్థ ప్రకటనలు"
+
+#. Name
+#: eventsrc:6
+msgid "Trash: emptied"
+msgstr "చెత్త : ఖాళి"
+
+#. Comment
+#: eventsrc:7
+msgid "The trash has been emptied"
+msgstr "చెత్త ను పారబొయటమైనది"
+
+#. Name
+#: eventsrc:11
+msgid "Textcompletion: rotation"
+msgstr "వాచకపూరణ:భ్రమణం"
+
+#. Comment
+#: eventsrc:12
+msgid "The end of the list of matches has been reached"
+msgstr "జతల జాబితా చివరకు చేరుకున్నము"
+
+#. Name
+#: eventsrc:16
+msgid "Textcompletion: no match"
+msgstr "వాచకపూరణ:జత లేదు"
+
+#. Comment
+#: eventsrc:17
+msgid "No matching completion was found"
+msgstr "సరిపోయె జత దొరకలేదు"
+
+#. Name
+#: eventsrc:21
+msgid "Textcompletion: partial match"
+msgstr "వాచకపూరణ: పాక్షిక జత"
+
+#. Comment
+#: eventsrc:22
+msgid "There is more than one possible match"
+msgstr "ఒకటి కంటె ఎక్కువ సరిపోయె జతలు కలవు"
+
+#. Name
+#: eventsrc:26
+msgid "Cannot Open File"
+msgstr "దస్త్రాన్ని తెరువలేను"
+
+#. Comment
+#: eventsrc:27
+msgid "The selected file cannot be opened for reading or writing"
+msgstr "ఎఓపిక చేసిన దస్త్రాన్ని చదువుటకు లేక వ్రాయుటకు తెరువలేను"
+
+#. Name
+#: eventsrc:31
+msgid "Fatal Error"
+msgstr "హానికరమైన దోషం"
+
+#. Comment
+#: eventsrc:32
+msgid "There was a serious error causing the program to exit"
+msgstr "ముఖ్యమైన దోషం ఒకటి కార్యక్రమం నిష్క్రమణకు కారణమైనది"
+
+#. Name
+#: eventsrc:37
+msgid "Notification"
+msgstr "ప్రకటన"
+
+#. Comment
+#: eventsrc:38
+msgid "Something special happened in the program"
+msgstr "కార్యక్రమం లొ ఒక విశేషం చొటుచెసుకుంది"
+
+#. Name
+#: eventsrc:44
+msgid "Warning"
+msgstr "హెచ్చరిక"
+
+#. Comment
+#: eventsrc:45
+msgid "There was an error in the program which may cause problems"
+msgstr "కార్యక్రమం లొ దోషం కలదు, ఇది సమస్యలను కలుగచేయవచ్చును"
+
+#. Name
+#: eventsrc:50
+msgid "Catastrophe"
+msgstr "విపత్తు"
+
+#. Comment
+#: eventsrc:51
+msgid "A very serious error occurred, at least causing the program to exit"
+msgstr "చాలా ముఖ్యమైన దోషం ఒకటి కార్యక్రమంలో వచ్చింది,ఇది కనీసం కార్యక్రమం నిష్క్రమణకు కారణమౌతుంది"
+
+#. Name
+#: eventsrc:55
+msgid "Login"
+msgstr "లాగిన్"
+
+#. Comment
+#: eventsrc:56
+msgid "TDE is starting up"
+msgstr "కెడిఈ మొదవుతుంది"
+
+#. Name
+#: eventsrc:61
+msgid "Logout"
+msgstr "లాగౌట్"
+
+#. Comment
+#: eventsrc:62
+msgid "TDE is exiting"
+msgstr "కెడిఈ నిష్క్రమిస్తుంది"
+
+#. Name
+#: eventsrc:67
+msgid "Logout canceled"
+msgstr "లాగౌట్ రద్దుచేయబడినది"
+
+#. Comment
+#: eventsrc:68
+msgid "TDE logout was canceled"
+msgstr "కెడిఈ లాగౌట్ రద్దుచేయబడినది"
+
+#. Name
+#: eventsrc:73
+msgid "Print error"
+msgstr "ప్రచురణ దొషం"
+
+#. Comment
+#: eventsrc:74
+msgid "A print error has occurred"
+msgstr "ఒక ప్రచురణ దొషం వచ్చింది"
+
+#. Name
+#: eventsrc:79
+msgid "Information message"
+msgstr "సమాచార సందేశం"
+
+#. Comment
+#: eventsrc:80
+msgid "An information message is being shown"
+msgstr "ఒక సమాచార సందేశం చూపించబడుతుంది"
+
+#. Name
+#: eventsrc:86
+msgid "Warning message"
+msgstr "హెచ్చరిక సందేశం"
+
+#. Comment
+#: eventsrc:87
+msgid "A warning message is being shown"
+msgstr "ఒక హెచ్చరిక సందేశం చూపించబడుతుంది"
+
+#. Name
+#: eventsrc:94
+msgid "Critical message"
+msgstr "కీలక సందేశం"
+
+#. Comment
+#: eventsrc:95
+msgid "A critical message is being shown"
+msgstr "ఒక కీలక సందేశం చూపించబడుతుంది"
+
+#. Name
+#: eventsrc:102
+msgid "Question"
+msgstr "ప్రశ్న"
+
+#. Comment
+#: eventsrc:103
+msgid "A question is being asked"
+msgstr "ప్రశ్న అడగబడుతున్నది"

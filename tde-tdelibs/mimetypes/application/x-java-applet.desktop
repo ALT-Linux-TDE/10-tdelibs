@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+Comment=Java Applet
+MimeType=application/x-java-applet
+Icon=text-x-java
+X-TDE-AutoEmbed=true

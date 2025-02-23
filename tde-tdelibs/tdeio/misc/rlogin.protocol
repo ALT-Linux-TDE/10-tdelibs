@@ -1,0 +1,13 @@
+[Protocol]
+exec=tdetelnetservice %u
+protocol=rlogin
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
+X-DocPath=tdeioslave/rlogin/index.html
+Icon=konsole

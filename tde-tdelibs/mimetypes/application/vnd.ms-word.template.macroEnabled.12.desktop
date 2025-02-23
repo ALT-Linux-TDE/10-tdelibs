@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/vnd.ms-word.template.macroEnabled.12
+Patterns=*.dotm;*.DOTM
+Icon=application-vnd.oasis.opendocument.text
+Comment=Microsoft Word Document Template Macro Enabled
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.doc

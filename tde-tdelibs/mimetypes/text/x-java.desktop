@@ -1,0 +1,11 @@
+[Desktop Entry]
+Comment=Java Source File
+Icon=text-x-java
+Type=MimeType
+MimeType=text/x-java
+Patterns=*.java;
+X-TDE-IsAlso=text/plain
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

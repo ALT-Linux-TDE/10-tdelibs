@@ -1,0 +1,10 @@
+[Desktop Entry]
+Comment=LaTeX Document
+Icon=text-x-tex
+MimeType=text/x-latex
+Patterns=*.latex;*.tex;
+Type=MimeType
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

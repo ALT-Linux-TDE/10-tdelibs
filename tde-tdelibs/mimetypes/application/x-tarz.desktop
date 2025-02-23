@@ -1,0 +1,10 @@
+[Desktop Entry]
+MimeType=application/x-tarz
+Comment=Compressed Tar Archive
+Icon=application-x-tarz
+Type=MimeType
+Patterns=*.tar.Z;
+
+[Property::X-TDE-LocalProtocol]
+Type=TQString
+Value=tar

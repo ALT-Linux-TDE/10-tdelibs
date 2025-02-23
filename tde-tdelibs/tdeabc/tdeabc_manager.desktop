@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Contacts
+Type=Service
+X-TDE-ServiceTypes=TDEResources/Manager
+
+X-TDE-ResourceFamily=contact

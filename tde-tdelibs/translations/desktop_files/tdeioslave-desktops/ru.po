@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# Alexander Golubev <fatzer2@gmail.com>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 21:43+0200\n"
+"PO-Revision-Date: 2021-01-12 18:00+0000\n"
+"Last-Translator: Alexander Golubev <fatzer2@gmail.com>\n"
+"Language-Team: Russian <https://mirror.git.trinitydesktop.org/weblate/"
+"projects/tdelibs/tdeioslave-desktop-files/ru/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.4\n"
+
+#. Name
+#: bzip2/kbzip2filter.desktop:3
+msgid "BZip2 Filter"
+msgstr "Фильтр bzip2"
+
+#. Name
+#: gzip/kgzipfilter.desktop:3
+msgid "GZip Filter"
+msgstr "Фильтр gzip"
+
+#. Name
+#: http/http_cache_cleaner.desktop:3
+msgid "HTTP Cache Cleaner"
+msgstr "Очистка кэша HTTP"
+
+#. Comment
+#: http/http_cache_cleaner.desktop:4
+msgid "Cleans up old entries from the HTTP cache"
+msgstr "Удаление устаревших элементов из кэша HTTP"
+
+#. Name
+#: http/kcookiejar/kcookiejar.desktop:3
+msgid "KDED Cookie Jar Module"
+msgstr "Служба cookie"
+
+#. Comment
+#: http/kcookiejar/kcookiejar.desktop:4
+msgid "Keeps track of all cookies in the system"
+msgstr "Управление закладками-cookie в KDED"
+
+#. Name
+#. Comment
+#: iso/isoservice.desktop:7 iso/isoservice.desktop:8
+msgid "ISO9660 View"
+msgstr "Просмотр ISO9660"
+
+#. Name
+#: iso/tdeio_iso.desktop:3
+msgid "ISO9660 Image Viewer"
+msgstr "Просмотр образов ISO9660"
+
+#. Name
+#: xz/kxzfilter.desktop:3
+msgid "XZ Filter"
+msgstr "Фильтр XZ"
+
+#. Description
+#: iso/iso.protocol:10
+msgid "A tdeioslave for ISO9660 filesystems"
+msgstr "tdeioslave для файловой системы ISO9660"

@@ -1,0 +1,18 @@
+[Desktop Entry]
+MimeType=text/rtf
+Comment=RTF Document
+Icon=text-rtf
+Type=MimeType
+Patterns=*.rtf;*.RTF;
+
+[Property::X-TDE-text]
+Type=bool
+Value=true
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.rtf
+
+[Property::X-TDE-CompatibleApplication]
+Type=TQString
+Value=Microsoft Word

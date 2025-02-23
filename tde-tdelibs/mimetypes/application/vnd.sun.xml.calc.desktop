@@ -1,0 +1,10 @@
+[Desktop Entry]
+Comment=OpenOffice.org Spreadsheet
+Icon=application-vnd.oasis.opendocument.spreadsheet
+Type=MimeType
+Patterns=*.sxc;*.SXC;
+MimeType=application/vnd.sun.xml.calc
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.sxc

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Icon=torrent
+Comment=BitTorrent Download
+Hidden=false
+MimeType=application/x-bittorrent
+Icon=application-x-bittorrent
+Type=MimeType
+Patterns=*.torrent;*.tor
+X-TDE-AutoEmbed=false

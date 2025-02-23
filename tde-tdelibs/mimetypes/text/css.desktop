@@ -1,0 +1,10 @@
+[Desktop Entry]
+MimeType=text/css
+Comment=Cascading Style Sheet
+Icon=text-plain
+Type=MimeType
+Patterns=*.css;*.CSSL;
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

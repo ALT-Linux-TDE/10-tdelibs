@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 21:19+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: sq\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: misc/kpac/eventsrc:3
+msgid "Automatic Proxy Configuration"
+msgstr "Kofigurimi Automatik i Proxy-t"
+
+#. Name
+#: misc/kpac/eventsrc:6
+msgid "Invalid proxy script"
+msgstr "Proxy Skripta është e gabuar"
+
+#. Comment
+#: misc/kpac/eventsrc:7
+msgid "The downloaded proxy configuration script is invalid"
+msgstr "Skripta për Konfigurimin e Proxy-t ishte e gabuar"
+
+#. Name
+#: misc/kpac/eventsrc:11
+msgid "Script download error"
+msgstr "Skripta nuk pat sukses të Ngarkohet"
+
+#. Comment
+#: misc/kpac/eventsrc:12
+msgid "The proxy configuration script could not be downloaded"
+msgstr "Skripta për Konfigurimin e Proxy-t nuk pat sukses të ngarkohet"
+
+#. Name
+#: misc/kpac/eventsrc:16
+msgid "Script evaluation error"
+msgstr "Gabim i vlerësimit të skriptës"
+
+#. Comment
+#: misc/kpac/eventsrc:17
+msgid "There was an error executing the proxy configuration script"
+msgstr ""
+"Është paraqitur një gabim gjatë ekzekutimit të skriptës për konfigurimin e "
+"proxy-t"

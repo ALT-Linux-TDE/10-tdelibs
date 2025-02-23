@@ -1,0 +1,194 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 20:06+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: eventsrc:3
+msgid "System Notifications"
+msgstr "시스템 알림"
+
+#. Name
+#: eventsrc:6
+msgid "Trash: emptied"
+msgstr ""
+
+#. Comment
+#: eventsrc:7
+msgid "The trash has been emptied"
+msgstr ""
+
+#. Name
+#: eventsrc:11
+msgid "Textcompletion: rotation"
+msgstr "글월 완성: 맴돌이"
+
+#. Comment
+#: eventsrc:12
+msgid "The end of the list of matches has been reached"
+msgstr ""
+
+#. Name
+#: eventsrc:16
+msgid "Textcompletion: no match"
+msgstr "글월 완성: 맞는 짝이 없음"
+
+#. Comment
+#: eventsrc:17
+msgid "No matching completion was found"
+msgstr ""
+
+#. Name
+#: eventsrc:21
+msgid "Textcompletion: partial match"
+msgstr "글월 완성: 부분은 짝이 맞음"
+
+#. Comment
+#: eventsrc:22
+msgid "There is more than one possible match"
+msgstr ""
+
+#. Name
+#: eventsrc:26
+msgid "Cannot Open File"
+msgstr "파일을 열지 못함"
+
+#. Comment
+#: eventsrc:27
+msgid "The selected file cannot be opened for reading or writing"
+msgstr "고른 파일을 읽거나 쓰기위해 열 수가 없습니다"
+
+#. Name
+#: eventsrc:31
+msgid "Fatal Error"
+msgstr "치명적인 오류"
+
+#. Comment
+#: eventsrc:32
+#, fuzzy
+msgid "There was a serious error causing the program to exit"
+msgstr "프로그램이 끝날 때 아주 심각한 오류가 생겼습니다"
+
+#. Name
+#: eventsrc:37
+msgid "Notification"
+msgstr "알림"
+
+#. Comment
+#: eventsrc:38
+msgid "Something special happened in the program"
+msgstr ""
+
+#. Name
+#: eventsrc:44
+#, fuzzy
+msgid "Warning"
+msgstr "경고 메세지"
+
+#. Comment
+#: eventsrc:45
+msgid "There was an error in the program which may cause problems"
+msgstr ""
+
+#. Name
+#: eventsrc:50
+msgid "Catastrophe"
+msgstr "큰일났습니다"
+
+#. Comment
+#: eventsrc:51
+msgid "A very serious error occurred, at least causing the program to exit"
+msgstr "프로그램이 끝날 때 아주 심각한 오류가 생겼습니다"
+
+#. Name
+#: eventsrc:55
+msgid "Login"
+msgstr "로그인"
+
+#. Comment
+#: eventsrc:56
+msgid "TDE is starting up"
+msgstr ""
+
+#. Name
+#: eventsrc:61
+msgid "Logout"
+msgstr "로그아웃"
+
+#. Comment
+#: eventsrc:62
+msgid "TDE is exiting"
+msgstr ""
+
+#. Name
+#: eventsrc:67
+msgid "Logout canceled"
+msgstr ""
+
+#. Comment
+#: eventsrc:68
+msgid "TDE logout was canceled"
+msgstr ""
+
+#. Name
+#: eventsrc:73
+msgid "Print error"
+msgstr "인쇄 오류"
+
+#. Comment
+#: eventsrc:74
+msgid "A print error has occurred"
+msgstr "인쇄 오류가 생겼습니다"
+
+#. Name
+#: eventsrc:79
+msgid "Information message"
+msgstr "정보 메세지"
+
+#. Comment
+#: eventsrc:80
+msgid "An information message is being shown"
+msgstr "정보 메세지가 보입니다"
+
+#. Name
+#: eventsrc:86
+msgid "Warning message"
+msgstr "경고 메세지"
+
+#. Comment
+#: eventsrc:87
+msgid "A warning message is being shown"
+msgstr "경고 메세지가 보입니다"
+
+#. Name
+#: eventsrc:94
+msgid "Critical message"
+msgstr "중요 메세지"
+
+#. Comment
+#: eventsrc:95
+msgid "A critical message is being shown"
+msgstr "중요 메세지가 보입니다"
+
+#. Name
+#: eventsrc:102
+msgid "Question"
+msgstr "물음"
+
+#. Comment
+#: eventsrc:103
+msgid "A question is being asked"
+msgstr "물어보겠습니다"

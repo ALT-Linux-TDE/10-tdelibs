@@ -1,0 +1,194 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 20:06+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: eventsrc:3
+msgid "System Notifications"
+msgstr "sistemske obavijesti"
+
+#. Name
+#: eventsrc:6
+msgid "Trash: emptied"
+msgstr "Otpad: ispražnjeno"
+
+#. Comment
+#: eventsrc:7
+msgid "The trash has been emptied"
+msgstr "Otpad je ispražnjen"
+
+#. Name
+#: eventsrc:11
+msgid "Textcompletion: rotation"
+msgstr "Textcompletion: rotacija"
+
+#. Comment
+#: eventsrc:12
+msgid "The end of the list of matches has been reached"
+msgstr "Stiglo se do završetka popisa podudarnosti"
+
+#. Name
+#: eventsrc:16
+msgid "Textcompletion: no match"
+msgstr "Textcompletion: bez poklapanja"
+
+#. Comment
+#: eventsrc:17
+msgid "No matching completion was found"
+msgstr "Nije pronađena nijedna podudarnost"
+
+#. Name
+#: eventsrc:21
+msgid "Textcompletion: partial match"
+msgstr "Textcompletion: djelomično poklapanje"
+
+#. Comment
+#: eventsrc:22
+msgid "There is more than one possible match"
+msgstr "Postoji više od jedne moguće podudarnosti"
+
+#. Name
+#: eventsrc:26
+msgid "Cannot Open File"
+msgstr "Datoteku nije moguće otvoriti"
+
+#. Comment
+#: eventsrc:27
+msgid "The selected file cannot be opened for reading or writing"
+msgstr "Odabranu datoteku nije moguće otvoriti za čitanje ili zapisivanje"
+
+#. Name
+#: eventsrc:31
+msgid "Fatal Error"
+msgstr "Ozbiljna pogreška"
+
+#. Comment
+#: eventsrc:32
+msgid "There was a serious error causing the program to exit"
+msgstr "Program je morao završiti s radom zbog ozbiljne pogreške"
+
+#. Name
+#: eventsrc:37
+msgid "Notification"
+msgstr "Obavijest"
+
+#. Comment
+#: eventsrc:38
+msgid "Something special happened in the program"
+msgstr "Nešto se posebno dogodilo u programu"
+
+#. Name
+#: eventsrc:44
+msgid "Warning"
+msgstr "Upozorenje"
+
+#. Comment
+#: eventsrc:45
+msgid "There was an error in the program which may cause problems"
+msgstr "Uočena je pogreška u programu zbog koje bi moglo biti problema"
+
+#. Name
+#: eventsrc:50
+msgid "Catastrophe"
+msgstr "Katastrofa"
+
+#. Comment
+#: eventsrc:51
+msgid "A very serious error occurred, at least causing the program to exit"
+msgstr ""
+"Došlo je do jako ozbiljne pogreške, koja će u najmanju ruku prouzrokovati "
+"zatvaranje programa."
+
+#. Name
+#: eventsrc:55
+msgid "Login"
+msgstr "Prijava"
+
+#. Comment
+#: eventsrc:56
+msgid "TDE is starting up"
+msgstr "Podizanje TDE"
+
+#. Name
+#: eventsrc:61
+msgid "Logout"
+msgstr "Odjava"
+
+#. Comment
+#: eventsrc:62
+msgid "TDE is exiting"
+msgstr "Izlazak TDE"
+
+#. Name
+#: eventsrc:67
+msgid "Logout canceled"
+msgstr "Odjavljivanje prekinuto"
+
+#. Comment
+#: eventsrc:68
+msgid "TDE logout was canceled"
+msgstr "TDE odjavljivanje je prekinuto"
+
+#. Name
+#: eventsrc:73
+msgid "Print error"
+msgstr "Pogreška ispisa"
+
+#. Comment
+#: eventsrc:74
+msgid "A print error has occurred"
+msgstr "Tijekom ispisivanje došlo je do pogreške"
+
+#. Name
+#: eventsrc:79
+msgid "Information message"
+msgstr "Poruka s podacima"
+
+#. Comment
+#: eventsrc:80
+msgid "An information message is being shown"
+msgstr "Prikazana je poruka s podacima"
+
+#. Name
+#: eventsrc:86
+msgid "Warning message"
+msgstr "Poruka upozorenja"
+
+#. Comment
+#: eventsrc:87
+msgid "A warning message is being shown"
+msgstr "Prikazana je upozoravajuća poruka"
+
+#. Name
+#: eventsrc:94
+msgid "Critical message"
+msgstr "Kritična poruka"
+
+#. Comment
+#: eventsrc:95
+msgid "A critical message is being shown"
+msgstr "Prikazana je kritična poruka"
+
+#. Name
+#: eventsrc:102
+msgid "Question"
+msgstr "Pitanje"
+
+#. Comment
+#: eventsrc:103
+msgid "A question is being asked"
+msgstr "Postavljeno je pitanje"

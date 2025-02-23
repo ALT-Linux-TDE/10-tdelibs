@@ -1,0 +1,14 @@
+[Protocol]
+exec=tdetelnetservice %u
+protocol=ssh
+input=none
+output=none
+helper=true
+listing=false
+reading=false
+writing=false
+makedir=false
+deleting=false
+Icon=konsole
+
+X-DocPath=tdeioslave/ssh/index.html

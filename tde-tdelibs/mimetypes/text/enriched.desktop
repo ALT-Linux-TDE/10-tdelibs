@@ -1,0 +1,10 @@
+[Desktop Entry]
+MimeType=text/enriched
+Comment=Lightly Enriched Text Document
+Icon=text-plain
+Type=MimeType
+Patterns=
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

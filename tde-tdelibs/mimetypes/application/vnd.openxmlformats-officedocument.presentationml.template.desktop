@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/vnd.openxmlformats-officedocument.presentationml.template
+Patterns=*.potx;*.POTX
+Icon=application-vnd.oasis.opendocument.presentation
+Comment=Microsoft PowerPoint Presentation Template
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.ppt

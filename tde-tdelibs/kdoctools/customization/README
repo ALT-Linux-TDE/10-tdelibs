@@ -1,0 +1,58 @@
+2002-11-12
+Some short documentation on the different stylesheets, and how to use them.
+
+tde-chunk.xsl
+
+The standard TDE stylesheet, as used to generate the content for
+KHelpCenter.  If you do not specify a stylesheet, this is the default.
+
+This stylesheet includes tde-navig.xsl, which controls the
+presentation of the top and bottom of the page graphics, and is reused
+in other places.  You should probably not call tde-navig.xsl on it's own.
+
+tde-nochunk.xsl
+
+This is very similar to the standard TDE stylesheet, but it creates
+one single html file for the entire document.  This is one way to get
+print output, using html2pdf or html2ps.  It's also useable to create
+a "printable version" of a document to link to on a website.
+
+tde-style.xsl
+
+All TDE "look and feel" customizations (other than the navigation
+graphics in tde-navig.xsl) are here. This is where changes to how
+things render are placed.  In most cases, the actual rendering is
+controlled by the CSS files, and this file simply has the instructions
+to ensure class attributes are written into the HTML as necessary, for
+the CSS to display.
+
+tde-ttlpg.xsl
+
+The Title Page layout for the TDE documentation.  This one covers
+customizing the TOC, presentation of legal notices, and a slightly
+different navigation graphic.
+
+tde-web.xsl
+(This stylesheet includes kde-web-navig.xsl, which should not be used
+directly on it's own)
+
+Simplified version of the TDE stylesheet, aimed at websites.  Content
+is constrained to a 680px wide table.  You could use this for example,
+to generate web pages that will print nicely and display on older
+browsers nicely.
+
+tde-chunk-online.xsl
+(This stylesheet includes kde-web-navig-online.xsl, which should not
+be used directly on it's own)
+
+Slightly altered version of the TDE stylesheet, used to generate the
+website versions, among others.
+
+tde-man.xsl
+
+A stylesheet for generating *roff output (for manpages) from DocBook
+files. It's virtually the same as the original manpages/docbook.xsl file
+from the DocBook XSL package, except that the output file's name is
+hardcoded to 'manpage.troff', and the 'Writing manpage.troff' message
+is suppressed.
+

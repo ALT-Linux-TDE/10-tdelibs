@@ -1,0 +1,7 @@
+[TDE Print Entry]
+PrintSystem=cups
+Comment=CUPS (Common UNIX Print System)
+DetectUris=service:/ipp,config:/cups/cupsd.conf
+DetectPrecedence=10
+MimeTypes=application/postscript,application/pdf,image/gif,image/jpeg,image/png,image/x-bmp,image/x-xpm
+PrimaryMimeType=application/postscript

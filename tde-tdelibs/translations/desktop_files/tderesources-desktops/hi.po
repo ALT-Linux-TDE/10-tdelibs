@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-04 17:50+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Name
+#: tderesources.desktop:14
+#, fuzzy
+msgid "Resources"
+msgstr "के-रीसोर्स प्रबंधक"
+
+#. Comment
+#: tderesources.desktop:15
+msgid "Configure TDE Resources"
+msgstr "केडीई रीसोर्सेज़ कॉन्फ़िगर करें"
+
+#. Keywords
+#: tderesources.desktop:16
+msgid ""
+"resources;konnector resource;contact resource;calendar resource;notes "
+"resource;imap;"
+msgstr "रीसोर्सेज़;कनेक्टर रीसोर्स;कॉन्टेक्ट रीसोर्स;कैलेंडर रीसोर्स;नोट्स रीसोर्स;आईमैप;"
+
+#. Comment
+#: tderesources_manager.desktop:4
+msgid "KResource Manager"
+msgstr "के-रीसोर्स प्रबंधक"
+
+#. Comment
+#: tderesources_plugin.desktop:4
+msgid "KResource Framework Plugin"
+msgstr "केरिसोर्स फ्रेमवर्क प्लगइन"

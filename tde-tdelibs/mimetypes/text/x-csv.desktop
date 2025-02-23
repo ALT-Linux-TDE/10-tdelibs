@@ -1,0 +1,11 @@
+[Desktop Entry]
+Icon=text-plain
+Type=MimeType
+MimeType=text/x-csv
+Patterns=*.csv;*.CSV;
+X-TDE-IsAlso=text/plain
+Comment=Text File with Comma Separated Values
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

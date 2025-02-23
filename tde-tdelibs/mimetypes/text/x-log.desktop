@@ -1,0 +1,11 @@
+[Desktop Entry]
+MimeType=text/x-log
+Comment=Application Log File
+Type=MimeType
+Patterns=*.log;
+Icon=text-x-log
+X-TDE-IsAlso=text/plain
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

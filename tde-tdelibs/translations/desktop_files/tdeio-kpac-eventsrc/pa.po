@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 21:19+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: misc/kpac/eventsrc:3
+msgid "Automatic Proxy Configuration"
+msgstr "ਸਵੈ-ਚਾਲਤ ਪਰਾਕਸੀ ਸੰਰਚਨਾ"
+
+#. Name
+#: misc/kpac/eventsrc:6
+msgid "Invalid proxy script"
+msgstr "ਗਲਤ ਪਰਾਕਸੀ ਸਕ੍ਰਿਪਟ"
+
+#. Comment
+#: misc/kpac/eventsrc:7
+msgid "The downloaded proxy configuration script is invalid"
+msgstr "ਡਾਊਨਲੋਡ ਪਰਾਕਸੀ ਸੰਰਚਨਾ ਸਕ੍ਰਿਪਟ ਜਾਇਜ਼ ਨਹੀਂ ਹੈ"
+
+#. Name
+#: misc/kpac/eventsrc:11
+msgid "Script download error"
+msgstr "ਸਕ੍ਰਿਪਟ ਡਾਊਨਲੋਡ ਗਲਤੀ"
+
+#. Comment
+#: misc/kpac/eventsrc:12
+msgid "The proxy configuration script could not be downloaded"
+msgstr "ਪਰਾਕਸੀ ਸੰਰਚਨਾ ਸਕ੍ਰਿਪਟ ਨੂੰ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ"
+
+#. Name
+#: misc/kpac/eventsrc:16
+msgid "Script evaluation error"
+msgstr "ਸਕ੍ਰਿਪਟ ਏਵੂਲੇਸ਼ਨ ਗਲਤੀ"
+
+#. Comment
+#: misc/kpac/eventsrc:17
+msgid "There was an error executing the proxy configuration script"
+msgstr "ਪਰਾਕਸੀ ਸੰਰਚਨਾ ਸਕ੍ਰਿਪਟ ਚਲਾਉਣ ਵਿੱਚ ਗਲਤੀ ਆਈ ਹੈ"

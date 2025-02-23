@@ -1,0 +1,59 @@
+TDEINIT_USE_XFT=1
+dnl check if Qt is linked against Xft
+KDE_CHECK_LIB(qt-mt,XftInit,[],[TDEINIT_USE_XFT=])
+
+dnl Xft requires freetype to compile
+KDE_FIND_PATH(fontconfig-config, FONTCONFIG_CONFIG, [${prefix}/bin ${exec_prefix}/bin /usr/bin /usr/local/bin /opt/local/bin], [ KDE_FIND_PATH(pkg-config, PKGCONFIG, [${prefix}/bin ${exec_prefix}/bin /usr/bin /usr/local/bin /opt/local/bin], [AC_MSG_WARN([Could not find neither pkg-config nor fontconfig-config, check http://www.fontconfig.org/ ])
+])
+])
+
+if test -n "$PKGCONFIG"; then
+  vers=`$PKGCONFIG fontconfig --modversion 2>/dev/null | sed -e 's/libfontconfig //' | awk 'BEGIN { FS = "."; } { printf "%d", ($1 * 1000 + $2) * 1000 + $3;}'`
+  if test -n "$vers" && test "$vers" -ge 1000000
+  then
+     FONTCONFIG_CFLAGS="`$PKGCONFIG fontconfig --cflags`"
+     TDEINIT_FONTCONFIG=1
+  fi
+fi
+
+if test -n "$FONTCONFIG_CONFIG"; then
+  vers=`$FONTCONFIG_CONFIG --version 2>/dev/null | sed -e 's/libfontconfig //' | awk 'BEGIN { FS = "."; } { printf "%d", ($1 * 1000 + $2) * 1000 + $3;}'`
+  if test -n "$vers" && test "$vers" -ge 1000000
+  then
+     FONTCONFIG_CFLAGS="`$FONTCONFIG_CONFIG --cflags`"
+     TDEINIT_FONTCONFIG=1
+  fi
+fi
+
+KDE_FIND_PATH(freetype-config, TDEINIT_FREETYPE_CONFIG, [${prefix}/bin ${exec_prefix}/bin /usr/bin /usr/local/bin /opt/local/bin])
+if test -n "$TDEINIT_FREETYPE_CONFIG"; then
+    TDEINIT_XFT_INCLUDES="`$TDEINIT_FREETYPE_CONFIG --cflags` $FONTCONFIG_CFLAGS"
+    tdeinit_cppflags=$CPPFLAGS
+    CPPFLAGS="$CPPFLAGS $TDEINIT_XFT_INCLUDES $FONTCONFIG_CFLAGS"
+    KDE_CHECK_HEADER(X11/Xft/Xft.h,[],[TDEINIT_USE_XFT=])
+    CPPFLAGS=$tdeinit_cppflags
+else
+    TDEINIT_USE_XFT=
+fi
+
+if test -n "$TDEINIT_USE_XFT"; then
+    AC_DEFINE(TDEINIT_USE_XFT,1,[Use Xft preinitialization in tdeinit])
+fi
+if test -n "$TDEINIT_FONTCONFIG"; then
+    AC_DEFINE(TDEINIT_USE_FONTCONFIG,1,[Use FontConfig in tdeinit])
+fi
+AC_SUBST(TDEINIT_XFT_INCLUDES)
+
+AC_MSG_CHECKING(whether to make tdeinit setuid root in order to protect it from bad Linux OOM-killer)
+tdeinit_setuid=
+case $target_os in
+    linux*)
+        AC_MSG_RESULT(yes)
+        TDEINIT_SETUID=1
+        AC_DEFINE(TDEINIT_OOM_PROTECT,1,[Enable prevention against poor Linux OOM-killer])
+        ;;
+    *)  AC_MSG_RESULT(no)
+        TDEINIT_SETUID=0
+        ;;
+esac
+AC_SUBST(TDEINIT_SETUID)

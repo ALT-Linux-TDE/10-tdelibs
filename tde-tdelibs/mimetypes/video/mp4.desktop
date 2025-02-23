@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=video/mp4
+Icon=video-x-generic
+Patterns=*.mp4;*.MP4;*.m4v;*.M4V;
+Comment=MPEG-4 Video
+X-TDE-IsAlso=video/quicktime

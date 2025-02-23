@@ -1,0 +1,6 @@
+[TDE Print Filter Entry]
+Name=imagetops
+Require=exec:/imagetops
+Comment=Generic Image to PS Filter
+MimeTypeIn=image/jpeg,image/png,image/x-png,image/bmp,image/x-bmp,image/gif,image/tiff
+MimeTypeOut=application/postscript

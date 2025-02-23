@@ -1,0 +1,10 @@
+[Desktop Entry]
+Comment=Electronic Business Card
+Icon=x-office-address-book
+Type=MimeType
+MimeType=text/x-vcard
+Patterns=*.vct;*.vcf;*.VCT;*.VCF
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

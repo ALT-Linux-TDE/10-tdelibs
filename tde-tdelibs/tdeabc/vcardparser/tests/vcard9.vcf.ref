@@ -1,0 +1,15 @@
+BEGIN:VCARD
+ADR;TYPE=home:;;Цар Борис III;София;София град;1000;България
+EMAIL:иван.иванов@българия.com
+FN:Иван Иванов
+N:Иванов;;;;
+NAME:Иван
+ORG:България ООД
+REV:2016-04-03T23:54:06Z
+TEL;TYPE=MSG;TYPE=VOICE;TYPE=WORK:+359 888 111 222
+TITLE:Др
+UID:nzIRLdymsP
+VERSION:3.0
+X-GENDER-GENDER:Male
+END:VCARD
+

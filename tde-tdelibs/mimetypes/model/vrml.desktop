@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+Icon=multimedia
+MimeType=model/vrml
+Comment=VRML Model
+Patterns=*.wrl;*.wrl.gz
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

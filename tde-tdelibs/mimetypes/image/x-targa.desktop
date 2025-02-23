@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=image/x-targa
+Icon=image-x-generic
+Patterns=*.tga;*.TGA;
+Comment=Truevision Targa Image

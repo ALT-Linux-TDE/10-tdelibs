@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=ServiceType
+X-TDE-ServiceType=TDEResources/Manager
+Comment=KResource Manager
+
+[PropertyDef::X-TDE-ResourceFamily]
+Type=TQString

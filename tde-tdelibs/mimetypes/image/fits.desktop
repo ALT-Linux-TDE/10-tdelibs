@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=MimeType
+# RFC 4047
+MimeType=image/fits
+Icon=image-x-generic
+Comment=FITS Image
+### TODO: what file patterns, especially that application/fits has the same
+# RFC 4047 tells that image/fits are also application/fits
+X-TDE-IsAlso=application/fits

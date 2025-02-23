@@ -1,0 +1,7 @@
+[Desktop Entry]
+Comment=TeX Device Independent File
+Icon=application-x-lyx
+Type=MimeType
+MimeType=application/x-dvi
+Patterns=*.dvi;*.DVI;
+X-TDE-AutoEmbed=true

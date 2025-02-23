@@ -1,0 +1,197 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 20:06+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: eventsrc:3
+msgid "System Notifications"
+msgstr "Systeemnotificaties"
+
+#. Name
+#: eventsrc:6
+msgid "Trash: emptied"
+msgstr "Prullenbak: geleegd"
+
+#. Comment
+#: eventsrc:7
+msgid "The trash has been emptied"
+msgstr "De prullenbak is geleegd"
+
+#. Name
+#: eventsrc:11
+msgid "Textcompletion: rotation"
+msgstr "Tekstaanvulling: rotatie"
+
+#. Comment
+#: eventsrc:12
+msgid "The end of the list of matches has been reached"
+msgstr "Het einde van de lijst met overeenkomsten is bereikt"
+
+#. Name
+#: eventsrc:16
+msgid "Textcompletion: no match"
+msgstr "Tekstaanvulling - geen overeenkomsten"
+
+#. Comment
+#: eventsrc:17
+msgid "No matching completion was found"
+msgstr "Er werd geen overeenkomstige aanvulling gevonden"
+
+#. Name
+#: eventsrc:21
+msgid "Textcompletion: partial match"
+msgstr "Tekstaanvulling - gedeeltelijke overeenkomsten"
+
+#. Comment
+#: eventsrc:22
+msgid "There is more than one possible match"
+msgstr "Er is meer dan één mogelijke overeenkomst"
+
+#. Name
+#: eventsrc:26
+msgid "Cannot Open File"
+msgstr "Kan het bestand niet openen"
+
+#. Comment
+#: eventsrc:27
+msgid "The selected file cannot be opened for reading or writing"
+msgstr ""
+"Het geselecteerde bestand kan niet worden geopend om te lezen of naar te "
+"schrijven."
+
+#. Name
+#: eventsrc:31
+msgid "Fatal Error"
+msgstr "Fatale fout"
+
+#. Comment
+#: eventsrc:32
+msgid "There was a serious error causing the program to exit"
+msgstr ""
+"Er was een ernstige fout die ervoor zorgde dat dit programma beëindigd werd"
+
+#. Name
+#: eventsrc:37
+msgid "Notification"
+msgstr "Notificatie"
+
+#. Comment
+#: eventsrc:38
+msgid "Something special happened in the program"
+msgstr "Er gebeurde iets bijzonders in het programma"
+
+#. Name
+#: eventsrc:44
+msgid "Warning"
+msgstr "Waarschuwing"
+
+#. Comment
+#: eventsrc:45
+msgid "There was an error in the program which may cause problems"
+msgstr "Er zat een fout in het programma die voor problemen kon zorgen"
+
+#. Name
+#: eventsrc:50
+msgid "Catastrophe"
+msgstr "Catastrofe"
+
+#. Comment
+#: eventsrc:51
+msgid "A very serious error occurred, at least causing the program to exit"
+msgstr ""
+"Er deed zich een zeer ernstige fout voor, waardoor tenminste de toepassing "
+"werd afgesloten"
+
+#. Name
+#: eventsrc:55
+msgid "Login"
+msgstr "Aanmelden"
+
+#. Comment
+#: eventsrc:56
+msgid "TDE is starting up"
+msgstr "TDE is aan het opstarten"
+
+#. Name
+#: eventsrc:61
+msgid "Logout"
+msgstr "Afmelden"
+
+#. Comment
+#: eventsrc:62
+msgid "TDE is exiting"
+msgstr "TDE is aan het afsluiten"
+
+#. Name
+#: eventsrc:67
+msgid "Logout canceled"
+msgstr "Afmelden geannuleerd"
+
+#. Comment
+#: eventsrc:68
+msgid "TDE logout was canceled"
+msgstr "Uitloggen TDE was geannuleerd"
+
+#. Name
+#: eventsrc:73
+msgid "Print error"
+msgstr "Print fout"
+
+#. Comment
+#: eventsrc:74
+msgid "A print error has occurred"
+msgstr "Er deed zich een afdrukfout voor"
+
+#. Name
+#: eventsrc:79
+msgid "Information message"
+msgstr "Informatiebericht"
+
+#. Comment
+#: eventsrc:80
+msgid "An information message is being shown"
+msgstr "Er wordt een informatiebericht getoond"
+
+#. Name
+#: eventsrc:86
+msgid "Warning message"
+msgstr "Waarschuwingsbericht"
+
+#. Comment
+#: eventsrc:87
+msgid "A warning message is being shown"
+msgstr "Er wordt een waarschuwingsbericht getoond"
+
+#. Name
+#: eventsrc:94
+msgid "Critical message"
+msgstr "Kritiek bericht"
+
+#. Comment
+#: eventsrc:95
+msgid "A critical message is being shown"
+msgstr "Er wordt een kritiek bericht getoond"
+
+#. Name
+#: eventsrc:102
+msgid "Question"
+msgstr "Vraag"
+
+#. Comment
+#: eventsrc:103
+msgid "A question is being asked"
+msgstr "Er wordt een vraag gesteld"

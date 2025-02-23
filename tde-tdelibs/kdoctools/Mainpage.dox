@@ -1,0 +1,25 @@
+/** @mainpage Trinity Documentation Tools
+
+Provides a TDEIO slave for accessing application documentation for
+Trinity and GNOME applications.
+
+@authors
+Eric Bischoff
+Claudiu Costin
+Frederik Fouvry
+David Rugge
+
+@maintainers
+[Unknown/None]
+
+@licenses
+Note: most of the files do not have licenses.
+This should be corrected.  The intention appears
+to be for the files to have a @bsd license, but
+this needs to be confirmed with the copyright
+holders.
+
+*/
+
+// DOXYGEN_REFERENCES = tdecore tdeui tdeio
+// DOXYGEN_SET_PROJECT_NAME = KDocTools

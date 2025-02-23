@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/pgp-keys
+Icon=encrypted
+Patterns=*.pgp;*.gpg;*.asc
+Comment=OpenPGP Key Bundle
+X-TDE-AutoEmbed=true

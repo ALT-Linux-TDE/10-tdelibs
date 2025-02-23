@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/vnd.rn-realmedia
+Icon=video-x-generic
+Patterns=*.rm;*.RM;
+Comment=RealMedia File

@@ -1,0 +1,6 @@
+[TDE Print Filter Entry]
+Name=psbook2
+Require=exec:/psbook,exec:/psnup,exec:/psselect
+Comment=Pamphlet Printing - Odd Pages (step 2)
+MimeTypeIn=application/postscript
+MimeTypeOut=application/postscript

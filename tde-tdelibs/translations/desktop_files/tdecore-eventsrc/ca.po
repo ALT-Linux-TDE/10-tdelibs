@@ -1,0 +1,194 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 20:06+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: eventsrc:3
+msgid "System Notifications"
+msgstr "Notificacions del sistema"
+
+#. Name
+#: eventsrc:6
+msgid "Trash: emptied"
+msgstr "Paperera: buida"
+
+#. Comment
+#: eventsrc:7
+msgid "The trash has been emptied"
+msgstr "S'ha buidat la paperera"
+
+#. Name
+#: eventsrc:11
+msgid "Textcompletion: rotation"
+msgstr "Compleció de text: rotació"
+
+#. Comment
+#: eventsrc:12
+msgid "The end of the list of matches has been reached"
+msgstr "S'ha arribat al final de la llista de coincidències"
+
+#. Name
+#: eventsrc:16
+msgid "Textcompletion: no match"
+msgstr "Compleció de text: cap coincidència"
+
+#. Comment
+#: eventsrc:17
+msgid "No matching completion was found"
+msgstr "No s'ha trobat cap coincidència completable"
+
+#. Name
+#: eventsrc:21
+msgid "Textcompletion: partial match"
+msgstr "Compleció de text: coincidència parcial"
+
+#. Comment
+#: eventsrc:22
+msgid "There is more than one possible match"
+msgstr "Hi ha més d'una possible coincidència"
+
+#. Name
+#: eventsrc:26
+msgid "Cannot Open File"
+msgstr "No es pot obrir el fitxer"
+
+#. Comment
+#: eventsrc:27
+msgid "The selected file cannot be opened for reading or writing"
+msgstr "El fitxer seleccionat no es pot obrir per a lectura o escriptura"
+
+#. Name
+#: eventsrc:31
+msgid "Fatal Error"
+msgstr "Error fatal"
+
+#. Comment
+#: eventsrc:32
+msgid "There was a serious error causing the program to exit"
+msgstr "Hi ha hagut un error seriós que ha fet que el programa acabi"
+
+#. Name
+#: eventsrc:37
+msgid "Notification"
+msgstr "Notificació"
+
+#. Comment
+#: eventsrc:38
+msgid "Something special happened in the program"
+msgstr "Ha passat quelcom d'especial al programa"
+
+#. Name
+#: eventsrc:44
+msgid "Warning"
+msgstr "Avís"
+
+#. Comment
+#: eventsrc:45
+msgid "There was an error in the program which may cause problems"
+msgstr "Hi ha hagut un error en el programa que podria causar problemes"
+
+#. Name
+#: eventsrc:50
+msgid "Catastrophe"
+msgstr "Catàstrofe"
+
+#. Comment
+#: eventsrc:51
+msgid "A very serious error occurred, at least causing the program to exit"
+msgstr ""
+"Hi ha hagut un error molt seriós, com a mínim ha causat la finalització del "
+"programa"
+
+#. Name
+#: eventsrc:55
+msgid "Login"
+msgstr "Accés"
+
+#. Comment
+#: eventsrc:56
+msgid "TDE is starting up"
+msgstr "S'està engegant el TDE"
+
+#. Name
+#: eventsrc:61
+msgid "Logout"
+msgstr "Sortida"
+
+#. Comment
+#: eventsrc:62
+msgid "TDE is exiting"
+msgstr "S'està aturant el TDE"
+
+#. Name
+#: eventsrc:67
+msgid "Logout canceled"
+msgstr "S'ha anul·lat la desconnexió"
+
+#. Comment
+#: eventsrc:68
+msgid "TDE logout was canceled"
+msgstr "S'ha anul·lat la desconnexió del TDE"
+
+#. Name
+#: eventsrc:73
+msgid "Print error"
+msgstr "Error d'impressió"
+
+#. Comment
+#: eventsrc:74
+msgid "A print error has occurred"
+msgstr "Hi ha hagut un error d'impressió"
+
+#. Name
+#: eventsrc:79
+msgid "Information message"
+msgstr "Missatge informatiu"
+
+#. Comment
+#: eventsrc:80
+msgid "An information message is being shown"
+msgstr "Mostrarà un missatge informatiu"
+
+#. Name
+#: eventsrc:86
+msgid "Warning message"
+msgstr "Missatge d'avís"
+
+#. Comment
+#: eventsrc:87
+msgid "A warning message is being shown"
+msgstr "Mostrarà un missatge d'avís"
+
+#. Name
+#: eventsrc:94
+msgid "Critical message"
+msgstr "Missatge crític"
+
+#. Comment
+#: eventsrc:95
+msgid "A critical message is being shown"
+msgstr "Mostrarà un missatge crític"
+
+#. Name
+#: eventsrc:102
+msgid "Question"
+msgstr "Pregunta"
+
+#. Comment
+#: eventsrc:103
+msgid "A question is being asked"
+msgstr "Farà una pregunta"

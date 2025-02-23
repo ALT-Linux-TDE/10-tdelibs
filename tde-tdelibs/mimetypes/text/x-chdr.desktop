@@ -1,0 +1,12 @@
+[Desktop Entry]
+Comment=C Header File
+Icon=text-x-hsrc
+Type=MimeType
+MimeType=text/x-chdr
+Patterns=*.h;
+X-TDE-IsAlso=text/plain
+X-TDE-PatternsAccuracy=40
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

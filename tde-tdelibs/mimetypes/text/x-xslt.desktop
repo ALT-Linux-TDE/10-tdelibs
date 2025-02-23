@@ -1,0 +1,11 @@
+[Desktop Entry]
+Comment=XSLT Stylesheet File
+Icon=text-html
+MimeType=text/x-xslt
+X-TDE-IsAlso=text/xml
+Patterns=*.xslt;*.xsl;
+Type=MimeType
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

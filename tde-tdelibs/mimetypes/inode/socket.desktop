@@ -1,0 +1,6 @@
+[Desktop Entry]
+Comment=Socket
+Icon=socket
+Type=MimeType
+MimeType=inode/socket
+Patterns=

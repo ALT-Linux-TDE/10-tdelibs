@@ -1,0 +1,11 @@
+[Desktop Entry]
+Comment=XML Document
+Icon=text-html
+Type=MimeType
+MimeType=application/xml
+# This mimetype is an alias for text/xml. Both are referenced by the W3C.
+X-TDE-IsAlso=text/xml
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

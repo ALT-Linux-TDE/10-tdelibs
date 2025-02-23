@@ -1,0 +1,11 @@
+[Desktop Entry]
+Comment=Shell Script
+Icon=text-x-script
+Type=MimeType
+MimeType=application/x-shellscript
+Patterns=*.sh;*.csh
+X-TDE-IsAlso=application/x-executable-script
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

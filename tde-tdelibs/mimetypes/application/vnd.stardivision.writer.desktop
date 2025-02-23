@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/vnd.stardivision.writer
+Patterns=*.sdw;*.SDW;
+Icon=application-vnd.oasis.opendocument.text
+Comment=StarOffice Writer Document
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.sdw

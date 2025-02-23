@@ -1,0 +1,270 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-04 16:37+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Name
+#: filters/enscript.desktop:2
+msgid "enscript"
+msgstr ""
+
+#. Comment
+#: filters/enscript.desktop:4
+msgid "Enscript Text Filter"
+msgstr "مرشح نصوص Enscript"
+
+#. Name
+#: filters/imagetops.desktop:2
+msgid "imagetops"
+msgstr ""
+
+#. Comment
+#: filters/imagetops.desktop:4
+msgid "Generic Image to PS Filter"
+msgstr "مرشح الصور الى بوست سكريبت"
+
+#. Name
+#: filters/pdf2ps.desktop:2
+msgid "pdf2ps"
+msgstr ""
+
+#. Comment
+#: filters/pdf2ps.desktop:4
+#, fuzzy
+msgid "PDF to PostScript Converter"
+msgstr "محول مستندات بوست سكريبت إلى PDF"
+
+#. Name
+#: filters/pdfwrite.desktop:2
+msgid "pdfwrite"
+msgstr ""
+
+#. Comment
+#: filters/pdfwrite.desktop:4
+msgid "PDF Writer (needs Ghostscript)"
+msgstr "كاتب ملفات PDF (يحتاج الى غوست سكريبت)"
+
+#. Comment
+#: filters/poster.desktop:3
+msgid "Poster Printing"
+msgstr "طباعة اللافتة"
+
+#. Description
+#: filters/poster.desktop:4
+msgid ""
+"Utility to print large posters on multiple small paper sheets. To use this "
+"command, the <b>poster</b> executable must be accessible in your <tt>PATH</"
+"tt>.<p><b><u>WARNING:</u></b> The package found on the TDEPrint web site is "
+"a modified version of the original one that can be found on any CTAN archive "
+"mirror, but the original package will <b>not</b> work with TDE."
+msgstr ""
+"أداة لطباعة ملصقات عريضة على أوراق صغيرة عديدة. لإستعمال هذا الأمر، يجب أن "
+"يكون البرنامج <b>poster</b> في ال<tt>PATH</tt>.<p><b><u>تحذير:</u></b> "
+"الحزمة الموجودة على موقع ويب TDEPrint هي نسخة مغيرة من النسخة الأصلية و التي "
+"يمكن أن تجدها في أي مرآة ارشيف CTAN، لكن الحزمة الأصلية <b>لن </b> تعمل مع "
+"كيدي. يجب استعمال الحزمة الموجودة على <"
+
+#. Name
+#: filters/ps2pdf.desktop:2
+msgid "ps2pdf"
+msgstr ""
+
+#. Comment
+#: filters/ps2pdf.desktop:4
+msgid "PostScript to PDF Converter"
+msgstr "محول مستندات بوست سكريبت إلى PDF"
+
+#. Name
+#: filters/psbook.desktop:2
+msgid "psbook"
+msgstr ""
+
+#. Comment
+#: filters/psbook.desktop:4
+msgid "Pamphlet Printing (use with small side duplex printing)"
+msgstr "طباعة الكتيبات (استخدمه مع الطباعة المزدوجة الصغيرة)"
+
+#. Name
+#: filters/psbook1.desktop:2
+msgid "psbook1"
+msgstr ""
+
+#. Comment
+#: filters/psbook1.desktop:4
+msgid "Pamphlet Printing - Even Pages (step 1)"
+msgstr "طباعة الكتيبات - الصفحات الزوجية (الخطوة 1)"
+
+#. Name
+#: filters/psbook2.desktop:2
+msgid "psbook2"
+msgstr ""
+
+#. Comment
+#: filters/psbook2.desktop:4
+msgid "Pamphlet Printing - Odd Pages (step 2)"
+msgstr "طباعة الكتيبات - الصفحات الفردية (الخطوة 2)"
+
+#. Name
+#: filters/psnup.desktop:2
+msgid "psnup"
+msgstr ""
+
+#. Comment
+#: filters/psnup.desktop:4
+msgid "Multiple Pages per Sheet Filter"
+msgstr "مرشّح صفحات متعددة في ورقة واحدة"
+
+#. Name
+#: filters/psresize.desktop:2
+msgid "psresize"
+msgstr ""
+
+#. Comment
+#: filters/psresize.desktop:4
+msgid "Scale Print Content to Fit on Another Paper Size"
+msgstr "قم بتحجيم محتويات الطباعة حتى تتناسب مع حجم صفحة أخرى"
+
+#. Name
+#: filters/psselect.desktop:2
+msgid "psselect"
+msgstr "psseleect"
+
+#. Comment
+#: filters/psselect.desktop:4
+msgid "Page Selection/Ordering Filter"
+msgstr "مرشح اختيار/ترتيب الصفحات"
+
+#. Name
+#: specials.desktop:5
+msgid "Print to File (PostScript)"
+msgstr "اطبع في ملف (بوست سكريبت)"
+
+#. Description
+#: specials.desktop:6
+msgid "Write PostScript file"
+msgstr "كتابة ملف بوست سكريبت"
+
+#. Comment
+#: specials.desktop:7 specials.desktop:17
+msgid "Local file"
+msgstr "ملف محلي"
+
+#. Name
+#: specials.desktop:15
+msgid "Print to File (PDF)"
+msgstr "اطبع في ملف (PDF)"
+
+#. Description
+#: specials.desktop:16
+msgid "Write PDF/Acrobat file"
+msgstr "كتابة ملف PDF/أكروبات"
+
+#. Name
+#: specials.desktop:26
+msgid "Send to Fax"
+msgstr "أرسل الى الفاكس"
+
+#. Description
+#: specials.desktop:27
+msgid "Send to external fax system"
+msgstr "ارسال الى جهاز الفاكس الخارجي"
+
+#. Comment
+#: specials.desktop:28
+msgid "External"
+msgstr "خارجي"
+
+#. Comment
+#: specials.desktop:37
+msgid "Attachment for KMail Composer"
+msgstr "مرفقات كاتب KMail"
+
+#. Description
+#: specials.desktop:38
+msgid "Creates PDF/Acrobat file as attachment for KMail"
+msgstr "توليد ملف PDF/أكروبات كملحق لرسالة عن طريق KMail"
+
+#. Name
+#: specials.desktop:43
+msgid "Mail PDF File"
+msgstr "ملف PDF للإرسال"
+
+#. Comment
+#: specials.desktop:48
+#, fuzzy
+msgid "KSendFax"
+msgstr "أرسل الى الفاكس"
+
+#. Description
+#: specials.desktop:49
+msgid "Use ksendfax to fax the current document"
+msgstr "استخدم ksendfax ﻹرسال المستند الحالي بالفاكس"
+
+#. Name
+#: specials.desktop:53
+msgid "Advanced Faxing Tool (ksendfax)"
+msgstr "أداة إرسال فاكس متقدمة (ksendfax)"
+
+#. Name
+#: tdeprintd.desktop:11
+msgid "TDE Print Daemon"
+msgstr "مراقب طباعة كيدي"
+
+#. Comment
+#: tdeprintd.desktop:12
+#, fuzzy
+msgid "Print daemon for TDE"
+msgstr "مراقب طباعة كيدي"
+
+#. Name
+#: tools/escputil/escputil.desktop:2
+msgid "EPSON InkJet"
+msgstr ""
+
+#. Comment
+#: cups/cups.print:3
+msgid "CUPS (Common UNIX Print System)"
+msgstr "CUPS (نظام طباعة يونيكس الشائع)"
+
+#. Comment
+#: ext/ext.print:3
+msgid "Print Through an External Program (generic)"
+msgstr "اطبع من خلال برنامج خارجي (شائع)"
+
+#. Comment
+#: foomatic/foomatic.print:3
+msgid "Foomatic (CUPS, LPRng, PDQ)"
+msgstr "Foomatic (CUPS, LPRng, PDQ)"
+
+#. Comment
+#: lpd/lpd.print:3
+msgid "LPR (Standard BSD print system)"
+msgstr "LPR (نظام طباعة BSD المعياري)"
+
+#. Comment
+#: lpdunix/lpdunix.print:3
+msgid "Generic UNIX LPD Print System (default)"
+msgstr "نظام طباعة LPD العام ليونيكس (افتراضي)"
+
+#. Comment
+#: lpr/lpr.print:3
+msgid "LPR/LPRng Print System"
+msgstr "نظام طباعة LPR/LPRng"
+
+#. Comment
+#: rlpr/rlpr.print:3
+msgid "RLPR Environment (Remote LPD servers)"
+msgstr "بيئة RLPR (خادمات LPR عن بعد)"

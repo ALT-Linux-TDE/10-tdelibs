@@ -1,0 +1,5 @@
+[TDE Print Entry]
+PrintSystem=lpd
+Comment=LPR (Standard BSD print system)
+DetectUris=service:/printer,config:/printcap
+DetectPrecedence=5

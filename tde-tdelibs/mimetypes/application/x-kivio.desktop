@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-kivio
+Icon=application-x-kivio
+Patterns=*.flw;
+X-TDE-AutoEmbed=false
+Comment=Kivio Document
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.flw

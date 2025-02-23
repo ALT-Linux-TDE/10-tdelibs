@@ -1,0 +1,10 @@
+[Desktop Entry]
+Icon=text-x-generic
+Type=MimeType
+MimeType=application/x-mswrite
+Patterns=
+Comment=Microsoft Write Document
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.wri

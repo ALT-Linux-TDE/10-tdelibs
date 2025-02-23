@@ -1,0 +1,14 @@
+[Desktop Entry]
+Comment=XML Document
+Icon=text-html
+Type=MimeType
+MimeType=text/xml
+Patterns=*.xml;*.XML;
+
+[Property::X-TDE-text]
+Type=bool
+Value=true
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.xml

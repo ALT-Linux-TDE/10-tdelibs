@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 20:06+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: eventsrc:3
+msgid "System Notifications"
+msgstr "systembekendtgørelser"
+
+#. Name
+#: eventsrc:6
+msgid "Trash: emptied"
+msgstr "Affald: tømt"
+
+#. Comment
+#: eventsrc:7
+msgid "The trash has been emptied"
+msgstr "Affaldet er blevet tømt ud"
+
+#. Name
+#: eventsrc:11
+msgid "Textcompletion: rotation"
+msgstr "Tekstkomplettering: rotation"
+
+#. Comment
+#: eventsrc:12
+msgid "The end of the list of matches has been reached"
+msgstr "Slutningen på listen over det fundne er nået"
+
+#. Name
+#: eventsrc:16
+msgid "Textcompletion: no match"
+msgstr "Tekstkomplettering: intet fundet"
+
+#. Comment
+#: eventsrc:17
+msgid "No matching completion was found"
+msgstr "Ingen passende komplettering blev fundet"
+
+#. Name
+#: eventsrc:21
+msgid "Textcompletion: partial match"
+msgstr "Tekstkomplettering: delvist fundet"
+
+#. Comment
+#: eventsrc:22
+msgid "There is more than one possible match"
+msgstr "Der er mere end en mulighed"
+
+#. Name
+#: eventsrc:26
+msgid "Cannot Open File"
+msgstr "Kan ikke åbne fil"
+
+#. Comment
+#: eventsrc:27
+msgid "The selected file cannot be opened for reading or writing"
+msgstr "Den valgte fil kan ikke åbnes til læsning eller skrivning"
+
+#. Name
+#: eventsrc:31
+msgid "Fatal Error"
+msgstr "Fatal fejl"
+
+#. Comment
+#: eventsrc:32
+msgid "There was a serious error causing the program to exit"
+msgstr "Der var et alvorligt problem som fik programmet til at afslutte"
+
+#. Name
+#: eventsrc:37
+msgid "Notification"
+msgstr "Bekendtgørelse"
+
+#. Comment
+#: eventsrc:38
+msgid "Something special happened in the program"
+msgstr "Der skete noget specielt i programmet"
+
+#. Name
+#: eventsrc:44
+msgid "Warning"
+msgstr "Advarsel"
+
+#. Comment
+#: eventsrc:45
+msgid "There was an error in the program which may cause problems"
+msgstr "Der opstod en alvorlig fejl som kan forårsage problemer"
+
+#. Name
+#: eventsrc:50
+msgid "Catastrophe"
+msgstr "Katastrofe"
+
+#. Comment
+#: eventsrc:51
+msgid "A very serious error occurred, at least causing the program to exit"
+msgstr ""
+"Der opstod et meget alvorligt problem som fik programmet til at afslutte."
+
+#. Name
+#: eventsrc:55
+msgid "Login"
+msgstr "Log på"
+
+#. Comment
+#: eventsrc:56
+msgid "TDE is starting up"
+msgstr "TDE er ved at starte"
+
+#. Name
+#: eventsrc:61
+msgid "Logout"
+msgstr "Log af"
+
+#. Comment
+#: eventsrc:62
+msgid "TDE is exiting"
+msgstr "TDE er ved at afslutte"
+
+#. Name
+#: eventsrc:67
+msgid "Logout canceled"
+msgstr "Log af annulleret"
+
+#. Comment
+#: eventsrc:68
+msgid "TDE logout was canceled"
+msgstr "log af fra TDE blev annulleret"
+
+#. Name
+#: eventsrc:73
+msgid "Print error"
+msgstr "Udskriftsfejl"
+
+#. Comment
+#: eventsrc:74
+msgid "A print error has occurred"
+msgstr "Der opstod en udskriftsfejl"
+
+#. Name
+#: eventsrc:79
+msgid "Information message"
+msgstr "Informationsbesked"
+
+#. Comment
+#: eventsrc:80
+msgid "An information message is being shown"
+msgstr "En informationsbesked er ved at blive vist"
+
+#. Name
+#: eventsrc:86
+msgid "Warning message"
+msgstr "Advarselsbesked"
+
+#. Comment
+#: eventsrc:87
+msgid "A warning message is being shown"
+msgstr "En advarselsbesked er ved at blive vist"
+
+#. Name
+#: eventsrc:94
+msgid "Critical message"
+msgstr "Kritisk besked"
+
+#. Comment
+#: eventsrc:95
+msgid "A critical message is being shown"
+msgstr "En kritisk besked er ved at blive vist"
+
+#. Name
+#: eventsrc:102
+msgid "Question"
+msgstr "Spørgsmål"
+
+#. Comment
+#: eventsrc:103
+msgid "A question is being asked"
+msgstr "Et spørgsmål er ved at blive stillet"

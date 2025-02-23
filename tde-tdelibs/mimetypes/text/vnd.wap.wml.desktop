@@ -1,0 +1,10 @@
+[Desktop Entry]
+Icon=text-html
+Type=MimeType
+MimeType=text/vnd.wap.wml
+Patterns=*.wml;*.WML;
+Comment=WML Document
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

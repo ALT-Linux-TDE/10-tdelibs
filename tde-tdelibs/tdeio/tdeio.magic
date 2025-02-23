@@ -1,0 +1,16 @@
+# Type: TDEIO File Types
+# From: Timothy Pearson <kb9vqf@pearsoncomputing.net>
+#
+# TDE desktop file
+0		string  [Desktop\ Entry]        application/x-desktop
+!:mime  application/x-desktop
+0		string  [Desktop\ Action        application/x-desktop
+!:mime  application/x-desktop
+0		string	[KDE\ Desktop\ Entry]	application/x-desktop
+!:mime  application/x-desktop
+0		string  \#\ Config\ File        application/x-desktop
+!:mime  application/x-desktop
+0		string	\#\ KDE\ Config\ File	application/x-desktop
+!:mime  application/x-desktop
+0		string	\#\ TDE\ Config\ File	application/x-desktop
+!:mime  application/x-desktop

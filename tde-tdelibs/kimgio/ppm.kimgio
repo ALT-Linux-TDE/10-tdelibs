@@ -1,0 +1,9 @@
+[Image Format]
+Type=PPM
+Header=
+Name=Portable Pixmap Image
+Read=true
+Write=true
+Suffices=ppm,PPM,pnm,PNM,ppmraw,PPMRAW
+Mimetype=image/x-portable-pixmap
+Library=

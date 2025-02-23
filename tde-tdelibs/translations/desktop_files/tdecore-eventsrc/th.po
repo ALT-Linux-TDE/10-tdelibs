@@ -1,0 +1,192 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 20:06+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: eventsrc:3
+msgid "System Notifications"
+msgstr "การแจ้งเตือนของระบบ"
+
+#. Name
+#: eventsrc:6
+msgid "Trash: emptied"
+msgstr "ถังขยะ: เททิ้ง"
+
+#. Comment
+#: eventsrc:7
+msgid "The trash has been emptied"
+msgstr "เทถังขยะทิ้งแล้ว"
+
+#. Name
+#: eventsrc:11
+msgid "Textcompletion: rotation"
+msgstr "การเติมข้อความให้สมบูรณ์: การหมุน"
+
+#. Comment
+#: eventsrc:12
+msgid "The end of the list of matches has been reached"
+msgstr "ถึงส่วนท้ายของรายการที่เข้าคู่ได้แล้ว"
+
+#. Name
+#: eventsrc:16
+msgid "Textcompletion: no match"
+msgstr "การเติมข้อความให้สมบูรณ์: ไม่เข้าคู่"
+
+#. Comment
+#: eventsrc:17
+msgid "No matching completion was found"
+msgstr "ไม่พบส่วนเติมข้อความที่เข้าคู่"
+
+#. Name
+#: eventsrc:21
+msgid "Textcompletion: partial match"
+msgstr "การเติมข้อความให้สมบูรณ์: เข้าคู่บางส่วน"
+
+#. Comment
+#: eventsrc:22
+msgid "There is more than one possible match"
+msgstr "มีส่วนที่เข้าคู่ได้อยู่มากกว่าหนึ่ง"
+
+#. Name
+#: eventsrc:26
+msgid "Cannot Open File"
+msgstr "ไม่สามารถเปิดแฟ้มได้"
+
+#. Comment
+#: eventsrc:27
+msgid "The selected file cannot be opened for reading or writing"
+msgstr "ไม่สามารถเปิดแฟ้มที่เลือกไว้ เพื่อทำการอ่านหรือเขียนได้"
+
+#. Name
+#: eventsrc:31
+msgid "Fatal Error"
+msgstr "เกิดข้อผิดพลาดร้ายแรง"
+
+#. Comment
+#: eventsrc:32
+msgid "There was a serious error causing the program to exit"
+msgstr "เกิดข้อผิดพลาดร้ายแรง ทำให้ต้องออกจากโปรแกรม"
+
+#. Name
+#: eventsrc:37
+msgid "Notification"
+msgstr "การแจ้งเตือน"
+
+#. Comment
+#: eventsrc:38
+msgid "Something special happened in the program"
+msgstr "เกิดบางอย่างที่พิเศษขึ้นในโปรแกรม"
+
+#. Name
+#: eventsrc:44
+msgid "Warning"
+msgstr "คำเตือน"
+
+#. Comment
+#: eventsrc:45
+msgid "There was an error in the program which may cause problems"
+msgstr "มีข้อผิดพลาดในโปรแกรม ซึ่งอาจจะส่งผลให้เกิดปัญหาได้"
+
+#. Name
+#: eventsrc:50
+msgid "Catastrophe"
+msgstr "เหตุหายนะ"
+
+#. Comment
+#: eventsrc:51
+msgid "A very serious error occurred, at least causing the program to exit"
+msgstr "เกิดข้อผิดพลาดที่ร้ายแรงมาก ซึ่งอย่างน้อยจะทำให้โปรแกรมจบการทำงาน"
+
+#. Name
+#: eventsrc:55
+msgid "Login"
+msgstr "ล็อกอิน"
+
+#. Comment
+#: eventsrc:56
+msgid "TDE is starting up"
+msgstr "TDE กำลังเริ่มการทำงาน"
+
+#. Name
+#: eventsrc:61
+msgid "Logout"
+msgstr "ล็อกเอาต์"
+
+#. Comment
+#: eventsrc:62
+msgid "TDE is exiting"
+msgstr "กำลังออกจาก TDE"
+
+#. Name
+#: eventsrc:67
+msgid "Logout canceled"
+msgstr "ยกเลิกการล็อกเอาต์"
+
+#. Comment
+#: eventsrc:68
+msgid "TDE logout was canceled"
+msgstr "การล็อกเอาท์ออกจาก TDE ถูกยกเลิก"
+
+#. Name
+#: eventsrc:73
+msgid "Print error"
+msgstr "การพิมพ์ผิดพลาด"
+
+#. Comment
+#: eventsrc:74
+msgid "A print error has occurred"
+msgstr "เกิดข้อผิดพลาดในการพิมพ์"
+
+#. Name
+#: eventsrc:79
+msgid "Information message"
+msgstr "ข้อความแจ้งข้อมูล"
+
+#. Comment
+#: eventsrc:80
+msgid "An information message is being shown"
+msgstr "กำลังแสดงข้อความแจ้งข้อมูล"
+
+#. Name
+#: eventsrc:86
+msgid "Warning message"
+msgstr "ข้อความแจ้งเตือน"
+
+#. Comment
+#: eventsrc:87
+msgid "A warning message is being shown"
+msgstr "กำลังแสดงข้อความแจ้งเตือน"
+
+#. Name
+#: eventsrc:94
+msgid "Critical message"
+msgstr "ข้อความวิกฤติ"
+
+#. Comment
+#: eventsrc:95
+msgid "A critical message is being shown"
+msgstr "กำลังแสดงข้อความวิกฤติ"
+
+#. Name
+#: eventsrc:102
+msgid "Question"
+msgstr "คำถาม"
+
+#. Comment
+#: eventsrc:103
+msgid "A question is being asked"
+msgstr "กำลังถามคำถาม"

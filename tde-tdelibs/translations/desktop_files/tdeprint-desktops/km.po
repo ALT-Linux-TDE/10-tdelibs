@@ -1,0 +1,267 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-04 16:37+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: km\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Name
+#: filters/enscript.desktop:2
+msgid "enscript"
+msgstr ""
+
+#. Comment
+#: filters/enscript.desktop:4
+msgid "Enscript Text Filter"
+msgstr "តម្រង​អត្ថបទ Enscript"
+
+#. Name
+#: filters/imagetops.desktop:2
+msgid "imagetops"
+msgstr ""
+
+#. Comment
+#: filters/imagetops.desktop:4
+msgid "Generic Image to PS Filter"
+msgstr "រូបភាព Generic ទៅ​តម្រង PS"
+
+#. Name
+#: filters/pdf2ps.desktop:2
+msgid "pdf2ps"
+msgstr ""
+
+#. Comment
+#: filters/pdf2ps.desktop:4
+msgid "PDF to PostScript Converter"
+msgstr "កម្មវិធីបម្លែង PDF ទៅ​ជា PostScript"
+
+#. Name
+#: filters/pdfwrite.desktop:2
+msgid "pdfwrite"
+msgstr ""
+
+#. Comment
+#: filters/pdfwrite.desktop:4
+msgid "PDF Writer (needs Ghostscript)"
+msgstr "PDF Writer (ត្រូវការ Ghostscript)"
+
+#. Comment
+#: filters/poster.desktop:3
+msgid "Poster Printing"
+msgstr "ការ​បោះពុម្ព​ប័ណ្ណ​ប្រកាស"
+
+#. Description
+#: filters/poster.desktop:4
+msgid ""
+"Utility to print large posters on multiple small paper sheets. To use this "
+"command, the <b>poster</b> executable must be accessible in your <tt>PATH</"
+"tt>.<p><b><u>WARNING:</u></b> The package found on the TDEPrint web site is "
+"a modified version of the original one that can be found on any CTAN archive "
+"mirror, but the original package will <b>not</b> work with TDE."
+msgstr ""
+"ឧបករណ៍​បោះពុម្ព​ប័ណ្ណប្រកាស​ធំ​លើ​សន្លឹក​ក្រដាស​តូច​ៗជា​ច្រើន ។ ដើម្បី​ប្រើ​ពាក្យ​បញ្ជា​នេះ <b>poster</b> "
+"ដែល​អាច​ប្រតិបត្តិបាន ត្រូវ​តែ​មាន​នៅ​ក្នុង <tt>PATH</tt><p><b><u>ព្រមាន ៖</u></b> កញ្ចប់​ដែល​"
+"មាន​នៅ​លើ​គេហទំព័រ TDEPrint គឺ​ជា​កំណែ​កែប្រែ​មួយ​របស់​កំណែ​ដើមដែល​មាន​នៅ​លើ​កញ្ចក់​ប័ណ្ណសារ​របស់ CTAN "
+"ណាមួយ ប៉ុន្តែ​កញ្ចប់​ដើម <b>មិន</b>ដំណើរការ​ជាមួយ TDE នោះទេ ។ អ្នក <b>"
+
+#. Name
+#: filters/ps2pdf.desktop:2
+msgid "ps2pdf"
+msgstr ""
+
+#. Comment
+#: filters/ps2pdf.desktop:4
+msgid "PostScript to PDF Converter"
+msgstr "កម្មវិធី​បម្លែង PostScript ទៅ PDF"
+
+#. Name
+#: filters/psbook.desktop:2
+msgid "psbook"
+msgstr ""
+
+#. Comment
+#: filters/psbook.desktop:4
+msgid "Pamphlet Printing (use with small side duplex printing)"
+msgstr "ការបោះពុម្ព​ខិតប័ណ្ណ (ប្រើ​ជាមួយ​នឹង​ការបោះពុម្ព​សងខាង​តូចៗ)"
+
+#. Name
+#: filters/psbook1.desktop:2
+msgid "psbook1"
+msgstr ""
+
+#. Comment
+#: filters/psbook1.desktop:4
+msgid "Pamphlet Printing - Even Pages (step 1)"
+msgstr "ការ​បោះពុម្ព​ខិតប័ណ្ណ - ទំព័រ​គូ (ជំហាន​ទី ១)"
+
+#. Name
+#: filters/psbook2.desktop:2
+msgid "psbook2"
+msgstr ""
+
+#. Comment
+#: filters/psbook2.desktop:4
+msgid "Pamphlet Printing - Odd Pages (step 2)"
+msgstr "ការ​បោះពុម្ព​ខិតប័ណ្ណ - ទំព័រ​សេស (ជំហាន​ទី ២)"
+
+#. Name
+#: filters/psnup.desktop:2
+msgid "psnup"
+msgstr ""
+
+#. Comment
+#: filters/psnup.desktop:4
+msgid "Multiple Pages per Sheet Filter"
+msgstr "ទំព័រ​ច្រើន​ក្នុង​មួយ​តម្រង​សន្លឹក"
+
+#. Name
+#: filters/psresize.desktop:2
+msgid "psresize"
+msgstr ""
+
+#. Comment
+#: filters/psresize.desktop:4
+msgid "Scale Print Content to Fit on Another Paper Size"
+msgstr "ធ្វើ​មាត្រដ្ឋាន​មាតិកា​បោះពុម្ព​ឲ្យ​សម​នឹង​ទំហំ​ក្រដាស​ផ្សេង​ទៀត"
+
+#. Name
+#: filters/psselect.desktop:2
+msgid "psselect"
+msgstr ""
+
+#. Comment
+#: filters/psselect.desktop:4
+msgid "Page Selection/Ordering Filter"
+msgstr "តម្រង ជ្រើស/រៀប​លំដាប់​ទំព័រ"
+
+#. Name
+#: specials.desktop:5
+msgid "Print to File (PostScript)"
+msgstr "បោះពុម្ព​ទៅ​ឯកសារ (PostScript)"
+
+#. Description
+#: specials.desktop:6
+msgid "Write PostScript file"
+msgstr "ឯកសារ Write PostScript"
+
+#. Comment
+#: specials.desktop:7 specials.desktop:17
+msgid "Local file"
+msgstr "ឯកសារ​មូលដ្ឋាន"
+
+#. Name
+#: specials.desktop:15
+msgid "Print to File (PDF)"
+msgstr "បោះពុម្ព​ទៅ​ឯកសារ (PDF)"
+
+#. Description
+#: specials.desktop:16
+msgid "Write PDF/Acrobat file"
+msgstr "ឯកសារ Write PDF/Acrobat"
+
+#. Name
+#: specials.desktop:26
+msgid "Send to Fax"
+msgstr "បញ្ជូន​ទៅ​ទូរសារ"
+
+#. Description
+#: specials.desktop:27
+msgid "Send to external fax system"
+msgstr "បញ្ជូនទៅ​ប្រព័ន្ធ​ទូរសារ​ខាង​ក្រៅ"
+
+#. Comment
+#: specials.desktop:28
+msgid "External"
+msgstr "ខាង​ក្រៅ"
+
+#. Comment
+#: specials.desktop:37
+msgid "Attachment for KMail Composer"
+msgstr "ឯកសារ​ភ្ជាប់​របស់​កម្មវិធី​តែង KMail"
+
+#. Description
+#: specials.desktop:38
+msgid "Creates PDF/Acrobat file as attachment for KMail"
+msgstr "បង្កើត​ឯកសារ PDF/Acrobat ជា​ឯកសារ​ភ្ជាប់​សម្រាប់ KMail"
+
+#. Name
+#: specials.desktop:43
+msgid "Mail PDF File"
+msgstr "ផ្ញើ Mail PDF"
+
+#. Comment
+#: specials.desktop:48
+#, fuzzy
+msgid "KSendFax"
+msgstr "បញ្ជូន​ទៅ​ទូរសារ"
+
+#. Description
+#: specials.desktop:49
+msgid "Use ksendfax to fax the current document"
+msgstr "ប្រើ ksendfax ដើម្បី​ផ្ញើ​ឯកសារ​បច្ចុប្បន្ន​តាម​រយៈ​ទូរសារ"
+
+#. Name
+#: specials.desktop:53
+msgid "Advanced Faxing Tool (ksendfax)"
+msgstr "ឧបករណ៍​ផ្ញើ​ទូរសារ​កម្រិត​ខ្ពស់ (ksendfax)"
+
+#. Name
+#: tdeprintd.desktop:11
+msgid "TDE Print Daemon"
+msgstr "Daemon បោះពុម្ព TDE"
+
+#. Comment
+#: tdeprintd.desktop:12
+msgid "Print daemon for TDE"
+msgstr "Daemon បោះពុម្ព​របស់ TDE"
+
+#. Name
+#: tools/escputil/escputil.desktop:2
+msgid "EPSON InkJet"
+msgstr ""
+
+#. Comment
+#: cups/cups.print:3
+msgid "CUPS (Common UNIX Print System)"
+msgstr ""
+
+#. Comment
+#: ext/ext.print:3
+msgid "Print Through an External Program (generic)"
+msgstr "បោះពុម្ព​តាម​រយៈ​កម្មវិធី​ខាង​ក្រៅ​មួយ (ទូទៅ)"
+
+#. Comment
+#: foomatic/foomatic.print:3
+msgid "Foomatic (CUPS, LPRng, PDQ)"
+msgstr ""
+
+#. Comment
+#: lpd/lpd.print:3
+msgid "LPR (Standard BSD print system)"
+msgstr "LPR (ប្រព័ន្ធ​បោះពុម្ព BSD ខ្នាត​គំរូ)"
+
+#. Comment
+#: lpdunix/lpdunix.print:3
+msgid "Generic UNIX LPD Print System (default)"
+msgstr "ប្រព័ន្ធ​បោះពុម្ព Generic UNIX LPD (លំនាំដើម)"
+
+#. Comment
+#: lpr/lpr.print:3
+msgid "LPR/LPRng Print System"
+msgstr "ប្រព័ន្ធ​បោះពុម្ព LPR/LPRng"
+
+#. Comment
+#: rlpr/rlpr.print:3
+msgid "RLPR Environment (Remote LPD servers)"
+msgstr "បរិស្ថាន RLPR (ម៉ាស៊ីន​បម្រើ LPD ពី​ចម្ងាយ)"

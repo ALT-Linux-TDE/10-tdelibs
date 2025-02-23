@@ -1,0 +1,192 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 20:06+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: eventsrc:3
+msgid "System Notifications"
+msgstr "系统通知"
+
+#. Name
+#: eventsrc:6
+msgid "Trash: emptied"
+msgstr "回收站：已清空"
+
+#. Comment
+#: eventsrc:7
+msgid "The trash has been emptied"
+msgstr "回收站已被清空"
+
+#. Name
+#: eventsrc:11
+msgid "Textcompletion: rotation"
+msgstr "文字补齐：轮转"
+
+#. Comment
+#: eventsrc:12
+msgid "The end of the list of matches has been reached"
+msgstr "已到达匹配项列表的最后"
+
+#. Name
+#: eventsrc:16
+msgid "Textcompletion: no match"
+msgstr "文字补齐：没有匹配"
+
+#. Comment
+#: eventsrc:17
+msgid "No matching completion was found"
+msgstr "没有找到匹配的补全项"
+
+#. Name
+#: eventsrc:21
+msgid "Textcompletion: partial match"
+msgstr "文字补齐：部分匹配"
+
+#. Comment
+#: eventsrc:22
+msgid "There is more than one possible match"
+msgstr "有多于一个的可能匹配项"
+
+#. Name
+#: eventsrc:26
+msgid "Cannot Open File"
+msgstr "无法打开文件"
+
+#. Comment
+#: eventsrc:27
+msgid "The selected file cannot be opened for reading or writing"
+msgstr "选中的文件不能打开来读或写"
+
+#. Name
+#: eventsrc:31
+msgid "Fatal Error"
+msgstr "致命错误"
+
+#. Comment
+#: eventsrc:32
+msgid "There was a serious error causing the program to exit"
+msgstr "有一个严重的错误导致程序退出"
+
+#. Name
+#: eventsrc:37
+msgid "Notification"
+msgstr "通知"
+
+#. Comment
+#: eventsrc:38
+msgid "Something special happened in the program"
+msgstr "程序中发生了特殊情况"
+
+#. Name
+#: eventsrc:44
+msgid "Warning"
+msgstr "警告"
+
+#. Comment
+#: eventsrc:45
+msgid "There was an error in the program which may cause problems"
+msgstr "程序中发生了可能导致问题的错误"
+
+#. Name
+#: eventsrc:50
+msgid "Catastrophe"
+msgstr "严重问题"
+
+#. Comment
+#: eventsrc:51
+msgid "A very serious error occurred, at least causing the program to exit"
+msgstr "出现了一个非常严重的错误，至少使程序退出"
+
+#. Name
+#: eventsrc:55
+msgid "Login"
+msgstr "登录"
+
+#. Comment
+#: eventsrc:56
+msgid "TDE is starting up"
+msgstr "TDE 正在启动"
+
+#. Name
+#: eventsrc:61
+msgid "Logout"
+msgstr "注消"
+
+#. Comment
+#: eventsrc:62
+msgid "TDE is exiting"
+msgstr "TDE 正在退出"
+
+#. Name
+#: eventsrc:67
+msgid "Logout canceled"
+msgstr "注消已取消"
+
+#. Comment
+#: eventsrc:68
+msgid "TDE logout was canceled"
+msgstr "TDE 注销已取消"
+
+#. Name
+#: eventsrc:73
+msgid "Print error"
+msgstr "打印错误"
+
+#. Comment
+#: eventsrc:74
+msgid "A print error has occurred"
+msgstr "发生了打印错误"
+
+#. Name
+#: eventsrc:79
+msgid "Information message"
+msgstr "信息性消息"
+
+#. Comment
+#: eventsrc:80
+msgid "An information message is being shown"
+msgstr "正在显示信息性消息"
+
+#. Name
+#: eventsrc:86
+msgid "Warning message"
+msgstr "警告消息"
+
+#. Comment
+#: eventsrc:87
+msgid "A warning message is being shown"
+msgstr "正在显示警告消息"
+
+#. Name
+#: eventsrc:94
+msgid "Critical message"
+msgstr "关键消息"
+
+#. Comment
+#: eventsrc:95
+msgid "A critical message is being shown"
+msgstr "正在显示关键消息"
+
+#. Name
+#: eventsrc:102
+msgid "Question"
+msgstr "问题"
+
+#. Comment
+#: eventsrc:103
+msgid "A question is being asked"
+msgstr "正在提问"

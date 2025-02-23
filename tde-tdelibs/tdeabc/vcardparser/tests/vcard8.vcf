@@ -1,0 +1,12 @@
+BEGIN:VCARD
+ADR;TYPE=home:;;Müllerstrasse 21;Wörthersee;Kärnten;8400;Österreich;
+ORG:HansWürstel AG
+EMAIL:boehmermann@wuerstel.com
+FN:Jahn Böhmermann
+N:Böhmermann;Jahn;;;
+TITLE:Komödiant
+REV:2016-04-02T23:54:06Z
+TEL;TYPE=VOICE,MSG,WORK:+43 699373419
+VERSION:3.0
+X-GENDER-GENDER:Male
+END:VCARD

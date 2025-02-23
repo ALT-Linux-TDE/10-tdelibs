@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Markdown Viewer
+
+Comment=Embeddable lightweight markdown viewing component
+
+Type=Service
+Icon=text-x-generic
+MimeType=text/markdown
+X-TDE-Library=libtdemarkdown
+X-TDE-ServiceTypes=KParts/ReadOnlyPart

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-applixword
+Icon=application-vnd.oasis.opendocument.text
+Patterns=*.aw
+Comment=Applix Words Document

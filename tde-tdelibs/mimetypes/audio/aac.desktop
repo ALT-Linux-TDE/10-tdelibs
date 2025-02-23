@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=audio/aac
+Icon=audio-x-generic
+Patterns=*.aac;*.AAC;
+Comment=AAC Sound

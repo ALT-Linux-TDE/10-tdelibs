@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=ISO9660 Image Viewer
+Exec=konqueror iso:%f
+Icon=cd
+Terminal=false
+MimeType=application/x-iso;
+X-TDE-InitialPreference=10
+NoDisplay=true
+X-DCOP-ServiceType=None
+Categories=Qt;TDE;System;

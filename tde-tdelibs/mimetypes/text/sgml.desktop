@@ -1,0 +1,10 @@
+[Desktop Entry]
+MimeType=text/sgml
+Comment=SGML Document
+Icon=text-plain
+Type=MimeType
+Patterns=*.sgml;*.SGML;
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

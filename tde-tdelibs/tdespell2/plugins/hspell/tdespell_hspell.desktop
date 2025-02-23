@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Service
+X-TDE-ServiceTypes=KSpell/Client
+X-TDE-Library=tdespell_hspell
+X-TDE-PluginInfo-Author=Mashrab Kuvatov
+X-TDE-PluginInfo-Email=kmashrab@uni-bremen.de
+X-TDE-PluginInfo-Name=tdespell_hspell
+X-TDE-PluginInfo-Version=0.0.1
+X-TDE-PluginInfo-Website=http://www.kde.org
+X-TDE-PluginInfo-Category=Clients
+X-TDE-PluginInfo-Depends=
+X-TDE-PluginInfo-License=LGPL
+X-TDE-PluginInfo-EnabledByDefault=true
+Name=HSpell

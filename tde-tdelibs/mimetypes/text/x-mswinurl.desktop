@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=text/x-mswinurl
+Patterns=*.url;*.URL;
+Icon=text-html
+Comment=Internet Shortcut

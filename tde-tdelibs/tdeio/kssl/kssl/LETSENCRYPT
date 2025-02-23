@@ -1,0 +1,3 @@
+Lets Encrypt certificates support is provided via ISRG's X1+X2 root certificates.
+
+Read more here: https://letsencrypt.org/certificates/

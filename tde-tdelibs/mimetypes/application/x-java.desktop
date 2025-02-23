@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-java
+Icon=text-x-java
+Patterns=*.class;
+Comment=Java Class

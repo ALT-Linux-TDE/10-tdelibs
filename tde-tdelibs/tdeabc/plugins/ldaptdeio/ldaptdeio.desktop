@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=LDAP
+X-TDE-Library=tdeabc_ldaptdeio
+Type=Service
+X-TDE-ServiceTypes=TDEResources/Plugin
+X-TDE-ResourceFamily=contact
+X-TDE-ResourceType=ldaptdeio

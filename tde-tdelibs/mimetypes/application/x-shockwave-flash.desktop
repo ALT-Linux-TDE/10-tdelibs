@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-shockwave-flash
+Icon=multimedia
+Patterns=*.swf
+Comment=Shockwave Flash Media
+X-TDE-AutoEmbed=true

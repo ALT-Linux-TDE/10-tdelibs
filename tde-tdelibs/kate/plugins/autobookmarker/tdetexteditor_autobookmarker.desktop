@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=KTextEditor Autobookmarker
+Comment=Set bookmarks on lines matching a pattern when documents are loaded
+X-TDE-Library=tdetexteditor_autobookmarker
+X-TDE-ServiceTypes=KTextEditor/Plugin
+Type=Service
+X-TDE-InitialPreference=8
+MimeType=text/plain

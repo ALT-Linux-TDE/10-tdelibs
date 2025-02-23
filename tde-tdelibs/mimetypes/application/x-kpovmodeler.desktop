@@ -1,0 +1,6 @@
+[Desktop Entry]
+Comment=KPovModeler File
+Icon=kpovmodeler_doc
+MimeType=application/x-kpovmodeler
+Patterns=*.kpm;
+Type=MimeType

@@ -1,0 +1,6 @@
+[TDE Print Filter Entry]
+Name=psresize
+Require=exec:/psresize
+Comment=Scale Print Content to Fit on Another Paper Size
+MimeTypeIn=application/postscript
+MimeTypeOut=application/postscript

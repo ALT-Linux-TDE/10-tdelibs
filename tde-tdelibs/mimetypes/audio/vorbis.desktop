@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=audio/vorbis
+Icon=audio-x-generic
+X-TDE-IsAlso=audio/x-vorbis
+Comment=Ogg Vorbis Audio

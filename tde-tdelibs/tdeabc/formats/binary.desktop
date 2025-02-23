@@ -1,0 +1,6 @@
+[Misc]
+Name=Binary
+
+[Plugin]
+Type=binary
+X-TDE-Library=tdeabcformat_binary

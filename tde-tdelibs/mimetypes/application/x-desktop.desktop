@@ -1,0 +1,10 @@
+[Desktop Entry]
+Comment=Desktop Config File
+Icon=application-x-executable
+Type=MimeType
+MimeType=application/x-desktop
+Patterns=*.desktop;*.kdelnk;
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

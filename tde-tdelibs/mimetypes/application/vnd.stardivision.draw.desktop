@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/vnd.stardivision.draw
+Patterns=*.sda;*.SDA;
+Icon=image-x-generic
+Comment=StarOffice Drawing
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.sda

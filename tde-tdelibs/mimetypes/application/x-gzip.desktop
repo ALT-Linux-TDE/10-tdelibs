@@ -1,0 +1,6 @@
+[Desktop Entry]
+MimeType=application/x-gzip
+Comment=Gzip File
+Icon=application-x-tarz
+Type=MimeType
+Patterns=*.gz;*.tgz;

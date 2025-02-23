@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/msword
+Icon=application-vnd.oasis.opendocument.text
+Patterns=*.doc;*.DOC;
+X-TDE-IsAlso=application/vnd.ms-word
+X-TDE-PatternsAccuracy=50
+Comment=Microsoft Word Document
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.doc

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Comment=OpenOffice.org Drawing Template
+MimeType=application/vnd.sun.xml.draw.template
+Type=MimeType
+Icon=image-x-generic
+Patterns=*.std;*.STD;
+
+[Property::X-TDE-NativeExtension]
+Type=TQString
+Value=.std

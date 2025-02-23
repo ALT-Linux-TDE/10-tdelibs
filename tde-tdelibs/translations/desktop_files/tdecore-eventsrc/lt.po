@@ -1,0 +1,192 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 20:06+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Comment
+#: eventsrc:3
+msgid "System Notifications"
+msgstr "Sistemos Pranešimai"
+
+#. Name
+#: eventsrc:6
+msgid "Trash: emptied"
+msgstr "Šiukšliadėžė: ištuštinta"
+
+#. Comment
+#: eventsrc:7
+msgid "The trash has been emptied"
+msgstr "Šiukšliadėžė buvo ištuštinta"
+
+#. Name
+#: eventsrc:11
+msgid "Textcompletion: rotation"
+msgstr "Textcompletion: sukimas"
+
+#. Comment
+#: eventsrc:12
+msgid "The end of the list of matches has been reached"
+msgstr "Pasiektas atitikmenų sąrašo galas"
+
+#. Name
+#: eventsrc:16
+msgid "Textcompletion: no match"
+msgstr "Textcompletion: netinka"
+
+#. Comment
+#: eventsrc:17
+msgid "No matching completion was found"
+msgstr "Nerasta atitinkanti pabaiga"
+
+#. Name
+#: eventsrc:21
+msgid "Textcompletion: partial match"
+msgstr "Textcompletion: tinka dalinai"
+
+#. Comment
+#: eventsrc:22
+msgid "There is more than one possible match"
+msgstr "Yra daugiau negu vienas galimas atitikmuo"
+
+#. Name
+#: eventsrc:26
+msgid "Cannot Open File"
+msgstr "Nepavyksta atverti bylos"
+
+#. Comment
+#: eventsrc:27
+msgid "The selected file cannot be opened for reading or writing"
+msgstr "Nurodytos bylos negalima atverti skaitymui arba rašymui"
+
+#. Name
+#: eventsrc:31
+msgid "Fatal Error"
+msgstr "Lemtinga klaida"
+
+#. Comment
+#: eventsrc:32
+msgid "There was a serious error causing the program to exit"
+msgstr "Įvyko rimta klaida, privertusi programą užbaigti darbą"
+
+#. Name
+#: eventsrc:37
+msgid "Notification"
+msgstr "Pranešimai"
+
+#. Comment
+#: eventsrc:38
+msgid "Something special happened in the program"
+msgstr "Kažkoks specialus įvykis programoje"
+
+#. Name
+#: eventsrc:44
+msgid "Warning"
+msgstr "Dėmesio"
+
+#. Comment
+#: eventsrc:45
+msgid "There was an error in the program which may cause problems"
+msgstr "Įvyko programos klaida, galinti sukelti problemų"
+
+#. Name
+#: eventsrc:50
+msgid "Catastrophe"
+msgstr "Katastrofa"
+
+#. Comment
+#: eventsrc:51
+msgid "A very serious error occurred, at least causing the program to exit"
+msgstr "Įvyko labai rimta klaida, privertusi programą bent jau baigti darbą."
+
+#. Name
+#: eventsrc:55
+msgid "Login"
+msgstr "Registracija"
+
+#. Comment
+#: eventsrc:56
+msgid "TDE is starting up"
+msgstr "TDE pradeda darbą"
+
+#. Name
+#: eventsrc:61
+msgid "Logout"
+msgstr "Išsiregistravimas"
+
+#. Comment
+#: eventsrc:62
+msgid "TDE is exiting"
+msgstr "TDE baigia darbą"
+
+#. Name
+#: eventsrc:67
+msgid "Logout canceled"
+msgstr "Išsiregistravimas nutrauktas"
+
+#. Comment
+#: eventsrc:68
+msgid "TDE logout was canceled"
+msgstr "Išsiregistravimas iš TDE buvo nutrauktas"
+
+#. Name
+#: eventsrc:73
+msgid "Print error"
+msgstr "Spausdinimo klaida"
+
+#. Comment
+#: eventsrc:74
+msgid "A print error has occurred"
+msgstr "Įvyko spausdinimo klaida"
+
+#. Name
+#: eventsrc:79
+msgid "Information message"
+msgstr "Informacinis pranešimas"
+
+#. Comment
+#: eventsrc:80
+msgid "An information message is being shown"
+msgstr "Rodomas informacinis pranešimas"
+
+#. Name
+#: eventsrc:86
+msgid "Warning message"
+msgstr "Perspėjantis pranešimas"
+
+#. Comment
+#: eventsrc:87
+msgid "A warning message is being shown"
+msgstr "Rodomas perspėjantis pranešimas"
+
+#. Name
+#: eventsrc:94
+msgid "Critical message"
+msgstr "Kritinis pranešimas"
+
+#. Comment
+#: eventsrc:95
+msgid "A critical message is being shown"
+msgstr "Rodomas kritinis pranešimas"
+
+#. Name
+#: eventsrc:102
+msgid "Question"
+msgstr "Klausimas"
+
+#. Comment
+#: eventsrc:103
+msgid "A question is being asked"
+msgstr "Užduodamas klausimas"

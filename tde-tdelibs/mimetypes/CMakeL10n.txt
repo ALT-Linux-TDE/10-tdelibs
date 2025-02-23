@@ -1,0 +1,21 @@
+##### create translation templates ##############
+
+file(
+  GLOB_RECURSE mimetype_desktops
+  RELATIVE ${CMAKE_CURRENT_SOURCE_DIR}
+  ${CMAKE_CURRENT_SOURCE_DIR}/*.desktop
+)
+list( SORT mimetype_desktops )
+
+file(
+  GLOB kimgio_desktops
+  RELATIVE ${CMAKE_CURRENT_SOURCE_DIR}
+  ${CMAKE_CURRENT_SOURCE_DIR}/../kimgio/*.kimgio
+)
+list( SORT kimgio_desktops )
+
+tde_l10n_create_template(
+    CATALOG "desktop_files/mimetypes/"
+    SOURCES_DESKTOP ${mimetype_desktops} ${kimgio_desktops}
+    DESTINATION "${CMAKE_SOURCE_DIR}/translations"
+)

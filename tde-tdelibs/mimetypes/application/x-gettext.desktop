@@ -1,0 +1,10 @@
+[Desktop Entry]
+Comment=GNU Gettext Message Catalog
+Icon=application-x-gettext
+Type=MimeType
+MimeType=application/x-gettext
+Patterns=*.po;*.pot;*.PO;*.POT;
+
+[Property::X-TDE-text]
+Type=bool
+Value=true

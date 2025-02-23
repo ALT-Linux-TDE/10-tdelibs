@@ -1,0 +1,7 @@
+[Desktop Entry]
+X-TDE-AutoEmbed=true
+Type=MimeType
+MimeType=application/x-rpm
+Icon=application-x-rpm
+Patterns=*.rpm;
+Comment=RPM Package File

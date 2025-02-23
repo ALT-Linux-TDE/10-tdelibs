@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/fits
+Comment=FITS Data
+Icon=application-octet-stream
+
+# Note: application/fits is for any kind of FITS, so also for non-images
+### TODO: what file pattern, especially that image/fits has the same

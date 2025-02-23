@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "language.dtd">
+<!--
+        This is a template for the XML format used for syntax highlight descriptions
+        for the Kate text editor, which is part of the Trinity Desktop Environment.
+
+        Use it as the base for your own syntax files.
+
+        Look at language.dtd for some documentation of the allowed elements and their attributes.
+        There is also a description of how to validate your syntax file.
+-->
+<language name="" section="" version="1.00" kateversion="2.5" extensions="" mimetype="" author="" license="">
+  <highlighting>
+    <contexts>
+      <context name="Normal" attribute="Normal Text" lineEndContext="#stay"/>
+    </contexts>
+    <itemDatas>
+      <itemData name="Normal Text" defStyleNum="dsNormal"/>
+    </itemDatas>
+  </highlighting>
+</language>

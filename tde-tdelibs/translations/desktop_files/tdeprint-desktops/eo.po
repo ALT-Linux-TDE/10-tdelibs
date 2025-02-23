@@ -1,0 +1,266 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-04 16:37+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Name
+#: filters/enscript.desktop:2
+msgid "enscript"
+msgstr "Enskripto"
+
+#. Comment
+#: filters/enscript.desktop:4
+msgid "Enscript Text Filter"
+msgstr "Tekstfiltrilo por Enskripto"
+
+#. Name
+#: filters/imagetops.desktop:2
+msgid "imagetops"
+msgstr "Bildsuproj"
+
+#. Comment
+#: filters/imagetops.desktop:4
+msgid "Generic Image to PS Filter"
+msgstr "Ĝenerala filtrilo de bildo al PS"
+
+#. Name
+#: filters/pdf2ps.desktop:2
+msgid "pdf2ps"
+msgstr ""
+
+#. Comment
+#: filters/pdf2ps.desktop:4
+msgid "PDF to PostScript Converter"
+msgstr "Konvertilo de la dokumenttipo PDF al PS"
+
+#. Name
+#: filters/pdfwrite.desktop:2
+msgid "pdfwrite"
+msgstr "PDF-skribilo"
+
+#. Comment
+#: filters/pdfwrite.desktop:4
+msgid "PDF Writer (needs Ghostscript)"
+msgstr "PDF-skribilo (bezonas la programon GhostScript)"
+
+#. Comment
+#: filters/poster.desktop:3
+msgid "Poster Printing"
+msgstr "Plakato presado"
+
+#. Description
+#: filters/poster.desktop:4
+msgid ""
+"Utility to print large posters on multiple small paper sheets. To use this "
+"command, the <b>poster</b> executable must be accessible in your <tt>PATH</"
+"tt>.<p><b><u>WARNING:</u></b> The package found on the TDEPrint web site is "
+"a modified version of the original one that can be found on any CTAN archive "
+"mirror, but the original package will <b>not</b> work with TDE."
+msgstr ""
+"Ilo por presi grandajn plakatojn al multaj malgrandaj paperfolioj. Vi "
+"bezonas la programon <b>poster</b>. <p><b><u>AVERTO:</u></b> la programo "
+"trovebla sur la TDEPresado ttt-paĝo estas ŝanĝita versio de tiu sur la CTAN-"
+"ttt-paĝo. La origina pakaĵo de CTAN ne laborus sub la TDE sistemo."
+
+#. Name
+#: filters/ps2pdf.desktop:2
+msgid "ps2pdf"
+msgstr ""
+
+#. Comment
+#: filters/ps2pdf.desktop:4
+msgid "PostScript to PDF Converter"
+msgstr "Konvertilo de la dokumenttipo PS al PDF"
+
+#. Name
+#: filters/psbook.desktop:2
+msgid "psbook"
+msgstr "PS-libro"
+
+#. Comment
+#: filters/psbook.desktop:4
+msgid "Pamphlet Printing (use with small side duplex printing)"
+msgstr "Pamflet-presado (uzu kun duflanka laŭlarĝa presado)"
+
+#. Name
+#: filters/psbook1.desktop:2
+msgid "psbook1"
+msgstr "PS-libro 1"
+
+#. Comment
+#: filters/psbook1.desktop:4
+msgid "Pamphlet Printing - Even Pages (step 1)"
+msgstr "Pamflet-presado - paraj paĝoj (paŝo 1)"
+
+#. Name
+#: filters/psbook2.desktop:2
+msgid "psbook2"
+msgstr "PS-libro 2"
+
+#. Comment
+#: filters/psbook2.desktop:4
+msgid "Pamphlet Printing - Odd Pages (step 2)"
+msgstr "Pamflet-presado - malparaj paĝoj (paŝo 2)"
+
+#. Name
+#: filters/psnup.desktop:2
+msgid "psnup"
+msgstr ""
+
+#. Comment
+#: filters/psnup.desktop:4
+msgid "Multiple Pages per Sheet Filter"
+msgstr "Filtrilo por aranĝi plurajn paĝojn sur folio"
+
+#. Name
+#: filters/psresize.desktop:2
+msgid "psresize"
+msgstr "PS-grandecŝanĝilo"
+
+#. Comment
+#: filters/psresize.desktop:4
+msgid "Scale Print Content to Fit on Another Paper Size"
+msgstr "Etendas presaĵon konvene al alia paperformato"
+
+#. Name
+#: filters/psselect.desktop:2
+msgid "psselect"
+msgstr "PS-elektilo"
+
+#. Comment
+#: filters/psselect.desktop:4
+msgid "Page Selection/Ordering Filter"
+msgstr "Paĝelektilo/paĝordigilo"
+
+#. Name
+#: specials.desktop:5
+msgid "Print to File (PostScript)"
+msgstr "Presu al dosiero (Postskripto)"
+
+#. Description
+#: specials.desktop:6
+msgid "Write PostScript file"
+msgstr "Skribas Postskripto-dosieron"
+
+#. Comment
+#: specials.desktop:7 specials.desktop:17
+msgid "Local file"
+msgstr "Loka dosiero"
+
+#. Name
+#: specials.desktop:15
+msgid "Print to File (PDF)"
+msgstr "Presu al dosiero (PDF)"
+
+#. Description
+#: specials.desktop:16
+msgid "Write PDF/Acrobat file"
+msgstr "Skribas PDF/Akrobato-dosieron"
+
+#. Name
+#: specials.desktop:26
+msgid "Send to Fax"
+msgstr "Sendu al fakso"
+
+#. Description
+#: specials.desktop:27
+msgid "Send to external fax system"
+msgstr "Sendas al ekstera faksosistemo"
+
+#. Comment
+#: specials.desktop:28
+msgid "External"
+msgstr "Ekstera"
+
+#. Comment
+#: specials.desktop:37
+msgid "Attachment for KMail Composer"
+msgstr "Kunsendaĵo por retpoŝta mesaĝredaktilo"
+
+#. Description
+#: specials.desktop:38
+msgid "Creates PDF/Acrobat file as attachment for KMail"
+msgstr "Kreas PDF/Akrobato-dosieron kiel kunsendaĵo de Poŝtilo"
+
+#. Name
+#: specials.desktop:43
+msgid "Mail PDF File"
+msgstr "Sendu PDF-dosieron"
+
+#. Comment
+#: specials.desktop:48
+msgid "KSendFax"
+msgstr "SendFaksilo"
+
+#. Description
+#: specials.desktop:49
+msgid "Use ksendfax to fax the current document"
+msgstr "Uzu ksendfax por faksi la nunan dokumenton"
+
+#. Name
+#: specials.desktop:53
+msgid "Advanced Faxing Tool (ksendfax)"
+msgstr "Pliluksa Faksilo (ksendfax)"
+
+#. Name
+#: tdeprintd.desktop:11
+msgid "TDE Print Daemon"
+msgstr "Preso-demono"
+
+#. Comment
+#: tdeprintd.desktop:12
+msgid "Print daemon for TDE"
+msgstr "Presodemono por TDE"
+
+#. Name
+#: tools/escputil/escputil.desktop:2
+msgid "EPSON InkJet"
+msgstr "Epson-Inkĵet-ilo"
+
+#. Comment
+#: cups/cups.print:3
+msgid "CUPS (Common UNIX Print System)"
+msgstr "CUPS (Kapabla Uniks-pressistemo)"
+
+#. Comment
+#: ext/ext.print:3
+msgid "Print Through an External Program (generic)"
+msgstr "Presi per ekstera programo (ĝenerala)"
+
+#. Comment
+#: foomatic/foomatic.print:3
+msgid "Foomatic (CUPS, LPRng, PDQ)"
+msgstr "Presprogramo \"Foomatic\" (CUPS, LPRng, PDQ)"
+
+#. Comment
+#: lpd/lpd.print:3
+msgid "LPR (Standard BSD print system)"
+msgstr "LPR (Normala BSD-pressistemo)"
+
+#. Comment
+#: lpdunix/lpdunix.print:3
+msgid "Generic UNIX LPD Print System (default)"
+msgstr "Ĝenerala Uniksa LPD-pressistemo (apriora)"
+
+#. Comment
+#: lpr/lpr.print:3
+msgid "LPR/LPRng Print System"
+msgstr "LPR/LPRng-presosistemo"
+
+#. Comment
+#: rlpr/rlpr.print:3
+msgid "RLPR Environment (Remote LPD servers)"
+msgstr "RLPR-medio (Foraj LPD-servoj)"

@@ -1,0 +1,6 @@
+[TDE Print Filter Entry]
+Name=psbook
+Require=exec:/psbook,exec:/psnup
+Comment=Pamphlet Printing (use with small side duplex printing)
+MimeTypeIn=application/postscript
+MimeTypeOut=application/postscript

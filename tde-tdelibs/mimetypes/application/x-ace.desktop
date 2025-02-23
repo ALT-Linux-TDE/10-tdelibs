@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-ace
+Icon=application-x-tarz
+Patterns=*.ace;*.ACE;
+Comment=ACE Archive

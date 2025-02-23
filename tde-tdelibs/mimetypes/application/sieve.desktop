@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/sieve
+Patterns=*.sieve;*.siv
+Comment=SIEVE Mail Filter Script
+
+[Property::X-TDE-text]
+Type=bool
+Value=true
