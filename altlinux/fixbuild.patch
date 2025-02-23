@@ -46,3 +46,15 @@ diff --git a/tde-tdelibs/CMakeLists.txt b/tde-tdelibs/CMakeLists.txt
  add_subdirectory( kglib )
  add_subdirectory( tdefx )
  add_subdirectory( tdecore )
+diff --git a/tde-tdelibs/tdecore/CMakeLists.txt b/tde-tdelibs/tdecore/CMakeLists.txt
+--- a/tde-tdelibs/tdecore/CMakeLists.txt
++++ b/tde-tdelibs/tdecore/CMakeLists.txt
+@@ -142,7 +142,7 @@
+   VERSION 14.1.0
+   EMBED tdecorenetwork-static
+   LINK DCOP-shared tdefx-shared ICE SM ${ZLIB_LIBRARIES} ${RESOLV_LIBRARIES}
+-  LINK_PRIVATE ltdlc-static ${KDESVGICONS} ${XCOMPOSITE_LIBRARIES}
++  LINK_PRIVATE ltdlc ${KDESVGICONS} ${XCOMPOSITE_LIBRARIES}
+     ${LIBIDN_LIBRARIES} ${LIBBFD_LIBRARIES} ${LIB_UTIL} ${GAMIN_LIBRARIES}
+     ${Backtrace_LIBRARY}
+   DESTINATION ${LIB_INSTALL_DIR}
