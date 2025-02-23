@@ -486,7 +486,7 @@ cd %name
   -DUTEMPTER_HELPER=/usr/lib/utempter/utempter \
   -DLIBLTDL_LIBRARY="/usr/lib64/libltdl.so" \
  ..
-#добавляем поддержку libltdl
+#add support of libltdl
 #  -DLIBLTDL_INCLUDE_DIR="/usr/include/libltdl" \ 
 
 %make_build || make
