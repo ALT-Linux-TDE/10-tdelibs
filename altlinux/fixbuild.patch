@@ -1,7 +1,16 @@
 diff --git a/tde-tdelibs/CMakeLists.txt b/tde-tdelibs/CMakeLists.txt
 --- a/tde-tdelibs/CMakeLists.txt
 +++ b/tde-tdelibs/CMakeLists.txt
-@@ -1054,16 +1054,16 @@
+@@ -21,6 +21,8 @@
+ 
+ project( tdelibs )
+ 
++include_directories(${LIBLTDL_INCLUDE_DIR})
++
+ set( PACKAGE tdelibs )
+ 
+ 
+@@ -1054,16 +1056,16 @@
  
  ##### check for aRts ############################
  
@@ -28,7 +37,7 @@ diff --git a/tde-tdelibs/CMakeLists.txt b/tde-tdelibs/CMakeLists.txt
  
  
  ##### check for Xft #############################
-@@ -1460,7 +1460,7 @@
+@@ -1460,7 +1462,7 @@
    add_subdirectory( tdelfeditor )
  endif( WITH_ELFICON )
  add_subdirectory( dcop )
