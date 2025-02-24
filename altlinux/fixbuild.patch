@@ -45,6 +45,15 @@ diff --git a/tde-tdelibs/CMakeLists.txt b/tde-tdelibs/CMakeLists.txt
  
  
  ##### check for Xft #############################
+@@ -1236,7 +1239,7 @@
+ 
+ ##### check for dbus and set files location #####
+ 
+-tde_setup_dbus( dbus-1-tqt )
++tde_setup_dbus( dbus-1.0 )
+ 
+ list( APPEND TDECORE_LIBRARY_DIRS ${DBUS_TQT_LIBRARY_DIRS} )
+ 
 @@ -1460,7 +1463,7 @@
    add_subdirectory( tdelfeditor )
  endif( WITH_ELFICON )
