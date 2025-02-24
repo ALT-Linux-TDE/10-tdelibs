@@ -1,7 +1,24 @@
 diff --git a/tde-tdelibs/CMakeLists.txt b/tde-tdelibs/CMakeLists.txt
 --- a/tde-tdelibs/CMakeLists.txt
 +++ b/tde-tdelibs/CMakeLists.txt
-@@ -1054,16 +1056,16 @@
+@@ -13,6 +13,7 @@
+ ##### set project version ########################
+ 
+ include( TDEVersion )
++include_directories(/usr/include/libltdl)
+ cmake_minimum_required( VERSION ${TDE_CMAKE_MINIMUM_VERSION} )
+ tde_set_project_version( )
+ 
+@@ -21,6 +22,8 @@
+ 
+ project( tdelibs )
+ 
++include_directories(${LIBLTDL_INCLUDE_DIR})
++
+ set( PACKAGE tdelibs )
+ 
+ 
+@@ -1054,16 +1057,16 @@
  
  ##### check for aRts ############################
  
@@ -28,6 +45,15 @@ diff --git a/tde-tdelibs/CMakeLists.txt b/tde-tdelibs/CMakeLists.txt
  
  
  ##### check for Xft #############################
+@@ -1460,7 +1463,7 @@
+   add_subdirectory( tdelfeditor )
+ endif( WITH_ELFICON )
+ add_subdirectory( dcop )
+-add_subdirectory( libltdl )
++#add_subdirectory( libltdl )
+ add_subdirectory( kglib )
+ add_subdirectory( tdefx )
+ add_subdirectory( tdecore )
 diff --git a/tde-tdelibs/tdecore/CMakeLists.txt b/tde-tdelibs/tdecore/CMakeLists.txt
 --- a/tde-tdelibs/tdecore/CMakeLists.txt
 +++ b/tde-tdelibs/tdecore/CMakeLists.txt
