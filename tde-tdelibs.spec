@@ -230,6 +230,9 @@ BuildRequires: intltool
 # WEBP support
 BuildRequires: libwebp-devel
 
+# libltdl support
+BuildRequires: tde-libltdl-devel
+
 #Патчи
 Patch0: fixbuild.patch
 
