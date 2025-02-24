@@ -58,35 +58,3 @@ diff --git a/tde-tdelibs/tdecore/CMakeLists.txt b/tde-tdelibs/tdecore/CMakeLists
      ${LIBIDN_LIBRARIES} ${LIBBFD_LIBRARIES} ${LIB_UTIL} ${GAMIN_LIBRARIES}
      ${Backtrace_LIBRARY}
    DESTINATION ${LIB_INSTALL_DIR}
-diff --git a/tde-tdelibs/tdeinit/CMakeLists.txt b/tde-tdelibs/tdeinit/CMakeLists.txt
---- a/tde-tdelibs/tdeinit/CMakeLists.txt
-+++ b/tde-tdelibs/tdeinit/CMakeLists.txt
-@@ -40,7 +40,7 @@
- 
- tde_add_executable( ${target}
-   SOURCES ${${target}_SRCS}
--  LINK kICE-static ltdlc-static tdeparts-shared ${FONTCONFIG_LIBRARIES} ${XFT_LIBRARIES}
-+  LINK kICE-static ltdlc tdeparts-shared ${FONTCONFIG_LIBRARIES} ${XFT_LIBRARIES}
-   DESTINATION ${BIN_INSTALL_DIR}
- )
- 
-@@ -101,7 +101,7 @@
- 
- tde_add_executable( ${target} AUTOMOC
-   SOURCES tdeioslave.cpp
--  LINK ltdlc-static tdeio-shared
-+  LINK ltdlc tdeio-shared
-   DESTINATION ${BIN_INSTALL_DIR}
- )
- 
-diff --git a/tde-tdelibs/tdeio/CMakeLists.txt b/tde-tdelibs/tdeio/CMakeLists.txt
---- a/tde-tdelibs/tdeio/CMakeLists.txt
-+++ b/tde-tdelibs/tdeio/CMakeLists.txt
-@@ -92,6 +92,6 @@
-   VERSION 14.0.0
-   EMBED kssl-static tdeiocore-static tdesycoca-static kbookmarks-static tdefile-static ${ELFICON_STATIC_LIB}
-   LINK tdeui-shared tdewalletclient-shared
--  LINK_PRIVATE ltdlc-static tdesu-shared ${LIBR_LIBRARIES} ${ACL_LIBRARIES}
-+  LINK_PRIVATE ltdlc tdesu-shared ${LIBR_LIBRARIES} ${ACL_LIBRARIES}
-   DESTINATION ${LIB_INSTALL_DIR}
- )
