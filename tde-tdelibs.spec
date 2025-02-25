@@ -71,14 +71,11 @@ BuildRequires: libtqt4-devel = %tde_version
 #BuildRequires: tde-arts-devel >= %tde_version
 BuildRequires: libdbus-tqt-1-devel >= %tde_version
 BuildRequires: libdbus-1-tqt-devel >= %tde_version
+BuildRequires: libdbus-1-tqt0
 BuildRequires: trinity-filesystem >= %tde_version
 
 #Requires: tde-arts >= %tde_version
 Requires: trinity-filesystem >= %tde_version
-%if 0%{?mgaversion} >= 6
-%else
-Requires: fileshareset >= 2.0
-%endif
 
 BuildRequires: tde-cmake >= %tde_version
 BuildRequires: gcc-c++
@@ -498,7 +495,7 @@ cd %name
   -DWITH_TDEICONLOADER_DEBUG=OFF \
   -DUTEMPTER_HELPER=/usr/lib/utempter/utempter \
   -DLIBLTDL_LIBRARY="/usr/lib64/libltdl.so" \
-  -CMAKE_INCLUDE_PATH=/usr/include \
+  -DCMAKE_INCLUDE_PATH=/usr/include/dbus-1.0/dbus/ \
  ..
 #add support of libltdl
 
