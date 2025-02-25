@@ -490,8 +490,7 @@ cd %name
   -DUTEMPTER_HELPER=/usr/lib/utempter/utempter \
   -DCMAKE_INCLUDE_PATH="/usr/include/dbus-1.0/dbus/:/usr/include/libltdl/" \
  ..
-#add support of libltdl
-#  -DLIBLTDL_LIBRARY="/usr/lib64/libltdl.so" \
+
 %make_build || make
 
 %install
