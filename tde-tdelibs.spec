@@ -233,6 +233,9 @@ BuildRequires: libwebp-devel
 # libltdl support
 BuildRequires: tde-libltdl-devel
 
+# libdbus support
+BuildRequires: libdbus-devel
+
 #Патчи
 Patch0: fixbuild.patch
 
