@@ -156,7 +156,7 @@ BuildRequires: openexr-devel
 BuildRequires: libpthread-stubs
 
 # LIBTOOL
-BuildRequires: libltdl7-devel libltdl7-devel-static
+#BuildRequires: libltdl7-devel libltdl7-devel-static
 
 # X11 support
 BuildRequires: xorg-proto-devel
@@ -488,11 +488,10 @@ cd %name
 %{?!with_hspell:-DWITH_HSPELL=OFF} \
   -DWITH_TDEICONLOADER_DEBUG=OFF \
   -DUTEMPTER_HELPER=/usr/lib/utempter/utempter \
-  -DLIBLTDL_LIBRARY="/usr/lib64/libltdl.so" \
   -DCMAKE_INCLUDE_PATH=/usr/include/dbus-1.0/dbus/ \
  ..
 #add support of libltdl
-
+#  -DLIBLTDL_LIBRARY="/usr/lib64/libltdl.so" \
 %make_build || make
 
 %install
