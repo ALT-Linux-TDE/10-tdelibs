@@ -79,9 +79,9 @@ Requires: trinity-filesystem >= %tde_version
 
 BuildRequires: tde-cmake >= %tde_version
 BuildRequires: gcc-c++
+BuildRequires: pkgconfig
 BuildRequires: fdupes
 
-# SUSE desktop files utility
 %if 0%{?suse_version}
 BuildRequires: rpm-build-suse-compat
 %endif
@@ -395,12 +395,6 @@ applications for TDE.
 
 ##########
 
-%if 0%{?pclinuxos} || 0%{?suse_version} && 0%{?opensuse_bs} == 0
-
-%endif
-
-##########
-
 %prep
 %setup -n %name
 
@@ -513,11 +507,6 @@ ln -s "%cacert" "%{?buildroot}%tde_datadir/apps/kssl/ca-bundle.crt"
 
 # Symlinks duplicate files (mostly under 'ksgmltools2')
 fdupes -s "%{?buildroot}"
-
-# Fix 'tderesources.desktop' (openSUSE only)
-%if 0%{?suse_version}
-%suse_update_desktop_file -r tderesources Qt X-TDE-settings-desktop
-%endif
 
 # Remove setuid bit on some binaries.
 chmod 0755 "%{?buildroot}%tde_bindir/kgrantpty"
