@@ -239,6 +239,9 @@ BuildRequires: libdbus-devel
 # libsystemd support
 BuildRequires:libsystemd-devel
 
+#NotFoundRequires
+BuildRequires:libbrotli-devel libfreetype-devel libXdmcp-devel libXrender-devel libXext-devel libffi-devel libXft-devel
+
 #Патчи
 Patch0: fixbuild.patch
 
