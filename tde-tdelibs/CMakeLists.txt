@@ -1240,6 +1240,8 @@ tde_setup_dbus( dbus-1-tqt )
 
 list( APPEND TDECORE_LIBRARY_DIRS ${DBUS_TQT_LIBRARY_DIRS} )
 
+message(STATUS "DBUS_TQT_LIBRARY_DIRS = ${DBUS_TQT_LIBRARY_DIRS}")
+
 
 ##### Add '[KDE4]' to KDE4 menu items #########
 
