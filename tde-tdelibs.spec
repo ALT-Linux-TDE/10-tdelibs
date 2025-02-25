@@ -236,6 +236,9 @@ BuildRequires: tde-libltdl-devel
 # libdbus support
 BuildRequires: libdbus-devel
 
+# libsystemd support
+BuildRequires:libsystemd-devel
+
 #Патчи
 Patch0: fixbuild.patch
 
