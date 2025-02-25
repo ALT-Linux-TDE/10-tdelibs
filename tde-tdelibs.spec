@@ -240,7 +240,7 @@ BuildRequires: libdbus-devel
 BuildRequires:libsystemd-devel
 
 #NotFoundRequires
-BuildRequires:libbrotli-devel libfreetype-devel libXdmcp-devel libXrender-devel libXext-devel libffi-devel libXft-devel expat
+#BuildRequires:libbrotli-devel libfreetype-devel libXdmcp-devel libXrender-devel libXext-devel libffi-devel libXft-devel
 
 #Патчи
 Patch0: fixbuild.patch
