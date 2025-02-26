@@ -489,7 +489,7 @@ cd %name
 %{?!with_hspell:-DWITH_HSPELL=OFF} \
   -DWITH_TDEICONLOADER_DEBUG=OFF \
   -DUTEMPTER_HELPER=/usr/lib/utempter/utempter \
-  -DCMAKE_INCLUDE_PATH="/usr/include/dbus-1.0/dbus/" \
+  -DCMAKE_INCLUDE_PATH="/usr/include/dbus-1.0/dbus/:/usr/share/libtool-2.4/libltdl/" \
  ..
 
 %make_build || make
