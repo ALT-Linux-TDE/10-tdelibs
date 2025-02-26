@@ -157,6 +157,7 @@ BuildRequires: libpthread-stubs
 
 # LIBTOOL
 #BuildRequires: libltdl7-devel libltdl7-devel-static
+BuildRequires: libtool_2.4
 
 # X11 support
 BuildRequires: xorg-proto-devel
@@ -228,7 +229,7 @@ BuildRequires: intltool
 BuildRequires: libwebp-devel
 
 # libltdl support
-BuildRequires: tde-libltdl-devel
+#BuildRequires: tde-libltdl-devel
 
 # libdbus support
 BuildRequires: libdbus-devel
@@ -488,7 +489,7 @@ cd %name
 %{?!with_hspell:-DWITH_HSPELL=OFF} \
   -DWITH_TDEICONLOADER_DEBUG=OFF \
   -DUTEMPTER_HELPER=/usr/lib/utempter/utempter \
-  -DCMAKE_INCLUDE_PATH="/usr/include/dbus-1.0/dbus/:/usr/include/libltdl/" \
+  -DCMAKE_INCLUDE_PATH="/usr/include/dbus-1.0/dbus/" \
  ..
 
 %make_build || make
