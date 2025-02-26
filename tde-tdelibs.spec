@@ -156,7 +156,7 @@ BuildRequires: openexr-devel
 BuildRequires: libpthread-stubs
 
 # LIBTOOL
-#BuildRequires: libltdl7-devel libltdl7-devel-static
+BuildRequires: libltdl7-devel libltdl7-devel-static
 #BuildRequires: libtool_2.4
 
 # libltdl support
