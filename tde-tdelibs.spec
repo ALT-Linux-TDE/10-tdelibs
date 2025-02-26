@@ -156,8 +156,11 @@ BuildRequires: openexr-devel
 BuildRequires: libpthread-stubs
 
 # LIBTOOL
-#BuildRequires: libltdl7-devel libltdl7-devel-static
-BuildRequires: libtool_2.4
+BuildRequires: libltdl7-devel libltdl7-devel-static
+#BuildRequires: libtool_2.4
+
+# libltdl support
+#BuildRequires: tde-libltdl-devel
 
 # X11 support
 BuildRequires: xorg-proto-devel
@@ -227,9 +230,6 @@ BuildRequires: intltool
 
 # WEBP support
 BuildRequires: libwebp-devel
-
-# libltdl support
-#BuildRequires: tde-libltdl-devel
 
 # libdbus support
 BuildRequires: libdbus-devel
