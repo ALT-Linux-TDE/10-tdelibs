@@ -62,7 +62,7 @@ diff --git a/tde-tdelibs/tdecore/CMakeLists.txt b/tde-tdelibs/tdecore/CMakeLists
    EMBED tdecorenetwork-static
    LINK DCOP-shared tdefx-shared ICE SM ${ZLIB_LIBRARIES} ${RESOLV_LIBRARIES}
 -  LINK_PRIVATE ltdlc-static ${KDESVGICONS} ${XCOMPOSITE_LIBRARIES}
-+  LINK_PRIVATE ltdlc ${KDESVGICONS} ${XCOMPOSITE_LIBRARIES}
++  LINK_PRIVATE ltdl ${KDESVGICONS} ${XCOMPOSITE_LIBRARIES}
      ${LIBIDN_LIBRARIES} ${LIBBFD_LIBRARIES} ${LIB_UTIL} ${GAMIN_LIBRARIES}
      ${Backtrace_LIBRARY}
    DESTINATION ${LIB_INSTALL_DIR}
@@ -74,7 +74,7 @@ diff --git a/tde-tdelibs/tdeinit/CMakeLists.txt b/tde-tdelibs/tdeinit/CMakeLists
  tde_add_executable( ${target}
    SOURCES ${${target}_SRCS}
 -  LINK kICE-static ltdlc-static tdeparts-shared ${FONTCONFIG_LIBRARIES} ${XFT_LIBRARIES}
-+  LINK kICE-static ltdlc tdeparts-shared ${FONTCONFIG_LIBRARIES} ${XFT_LIBRARIES}
++  LINK kICE-static ltdl tdeparts-shared ${FONTCONFIG_LIBRARIES} ${XFT_LIBRARIES}
    DESTINATION ${BIN_INSTALL_DIR}
  )
  
@@ -83,7 +83,7 @@ diff --git a/tde-tdelibs/tdeinit/CMakeLists.txt b/tde-tdelibs/tdeinit/CMakeLists
  tde_add_executable( ${target} AUTOMOC
    SOURCES tdeioslave.cpp
 -  LINK ltdlc-static tdeio-shared
-+  LINK ltdlc tdeio-shared
++  LINK ltdl tdeio-shared
    DESTINATION ${BIN_INSTALL_DIR}
  )
  
