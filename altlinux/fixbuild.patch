@@ -51,7 +51,7 @@ diff --git a/tde-tdelibs/CMakeLists.txt b/tde-tdelibs/CMakeLists.txt
  ##### check for dbus and set files location #####
  
 -tde_setup_dbus( dbus-1-tqt )
-+tde_setup_dbus( dbus-1.0 )
++tde_setup_dbus( dbus-1 )
  
  list( APPEND TDECORE_LIBRARY_DIRS ${DBUS_TQT_LIBRARY_DIRS} )
  
