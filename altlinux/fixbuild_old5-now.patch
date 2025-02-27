@@ -1,0 +1,100 @@
+diff --git a/tde-tdelibs/CMakeLists.txt b/tde-tdelibs/CMakeLists.txt
+--- a/tde-tdelibs/CMakeLists.txt
++++ b/tde-tdelibs/CMakeLists.txt
+@@ -13,6 +13,7 @@
+ ##### set project version ########################
+ 
+ include( TDEVersion )
++include_directories(/usr/include/libltdl)
+ cmake_minimum_required( VERSION ${TDE_CMAKE_MINIMUM_VERSION} )
+ tde_set_project_version( )
+ 
+@@ -21,6 +22,8 @@
+ 
+ project( tdelibs )
+ 
++include_directories(${LIBLTDL_INCLUDE_DIR})
++
+ set( PACKAGE tdelibs )
+ 
+ 
+@@ -1054,16 +1057,16 @@
+ 
+ ##### check for aRts ############################
+ 
+-if( WITH_ARTS )
+-  pkg_search_module( ARTS arts )
+-  if( ARTS_FOUND )
+-    set( ARTS_MCOPIDL_EXECUTABLE ${ARTS_PREFIX}/bin/mcopidl )
+-  else( ARTS_FOUND )
+-    message(FATAL_ERROR "\naRts are requested, but not found on your system" )
+-  endif( ARTS_FOUND )
+-else( WITH_ARTS )
+-  set( WITHOUT_ARTS 1 )
+-endif( WITH_ARTS )
++#if( WITH_ARTS )
++#  pkg_search_module( ARTS arts )
++#  if( ARTS_FOUND )
++#    set( ARTS_MCOPIDL_EXECUTABLE ${ARTS_PREFIX}/bin/mcopidl )
++#  else( ARTS_FOUND )
++#    message(FATAL_ERROR "\naRts are requested, but not found on your system" )
++#  endif( ARTS_FOUND )
++#else( WITH_ARTS )
++#  set( WITHOUT_ARTS 1 )
++#endif( WITH_ARTS )
+ 
+ 
+ ##### check for Xft #############################
+@@ -1460,7 +1463,7 @@
+   add_subdirectory( tdelfeditor )
+ endif( WITH_ELFICON )
+ add_subdirectory( dcop )
+-add_subdirectory( libltdl )
++#add_subdirectory( libltdl )
+ add_subdirectory( kglib )
+ add_subdirectory( tdefx )
+ add_subdirectory( tdecore )
+diff --git a/tde-tdelibs/tdecore/CMakeLists.txt b/tde-tdelibs/tdecore/CMakeLists.txt
+--- a/tde-tdelibs/tdecore/CMakeLists.txt
++++ b/tde-tdelibs/tdecore/CMakeLists.txt
+@@ -142,7 +142,7 @@
+   VERSION 14.1.0
+   EMBED tdecorenetwork-static
+   LINK DCOP-shared tdefx-shared ICE SM ${ZLIB_LIBRARIES} ${RESOLV_LIBRARIES}
+-  LINK_PRIVATE ltdlc-static ${KDESVGICONS} ${XCOMPOSITE_LIBRARIES}
++  LINK_PRIVATE ltdlc ${KDESVGICONS} ${XCOMPOSITE_LIBRARIES}
+     ${LIBIDN_LIBRARIES} ${LIBBFD_LIBRARIES} ${LIB_UTIL} ${GAMIN_LIBRARIES}
+     ${Backtrace_LIBRARY}
+   DESTINATION ${LIB_INSTALL_DIR}
+diff --git a/tde-tdelibs/tdeinit/CMakeLists.txt b/tde-tdelibs/tdeinit/CMakeLists.txt
+--- a/tde-tdelibs/tdeinit/CMakeLists.txt
++++ b/tde-tdelibs/tdeinit/CMakeLists.txt
+@@ -40,7 +40,7 @@
+ 
+ tde_add_executable( ${target}
+   SOURCES ${${target}_SRCS}
+-  LINK kICE-static ltdlc-static tdeparts-shared ${FONTCONFIG_LIBRARIES} ${XFT_LIBRARIES}
++  LINK kICE-static ltdlc tdeparts-shared ${FONTCONFIG_LIBRARIES} ${XFT_LIBRARIES}
+   DESTINATION ${BIN_INSTALL_DIR}
+ )
+ 
+@@ -101,7 +101,7 @@
+ 
+ tde_add_executable( ${target} AUTOMOC
+   SOURCES tdeioslave.cpp
+-  LINK ltdlc-static tdeio-shared
++  LINK ltdlc tdeio-shared
+   DESTINATION ${BIN_INSTALL_DIR}
+ )
+ 
+diff --git a/tde-tdelibs/tdeio/CMakeLists.txt b/tde-tdelibs/tdeio/CMakeLists.txt
+--- a/tde-tdelibs/tdeio/CMakeLists.txt
++++ b/tde-tdelibs/tdeio/CMakeLists.txt
+@@ -92,6 +92,6 @@
+   VERSION 14.0.0
+   EMBED kssl-static tdeiocore-static tdesycoca-static kbookmarks-static tdefile-static ${ELFICON_STATIC_LIB}
+   LINK tdeui-shared tdewalletclient-shared
+-  LINK_PRIVATE ltdlc-static tdesu-shared ${LIBR_LIBRARIES} ${ACL_LIBRARIES}
++  LINK_PRIVATE ltdlc tdesu-shared ${LIBR_LIBRARIES} ${ACL_LIBRARIES}
+   DESTINATION ${LIB_INSTALL_DIR}
+ )
