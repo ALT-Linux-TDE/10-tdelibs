@@ -9,12 +9,11 @@ diff --git a/tde-tdelibs/CMakeLists.txt b/tde-tdelibs/CMakeLists.txt
  cmake_minimum_required( VERSION ${TDE_CMAKE_MINIMUM_VERSION} )
  tde_set_project_version( )
  
-@@ -21,6 +22,9 @@
+@@ -21,6 +22,8 @@
  
  project( tdelibs )
  
 +include_directories(${LIBLTDL_INCLUDE_DIR})
-+include_directories(/usr/include/libltdl)
 +
  set( PACKAGE tdelibs )
  
