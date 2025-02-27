@@ -14,6 +14,7 @@ diff --git a/tde-tdelibs/CMakeLists.txt b/tde-tdelibs/CMakeLists.txt
  project( tdelibs )
  
 +include_directories(${LIBLTDL_INCLUDE_DIR})
++include_directories(/usr/include/libltdl)
 +
  set( PACKAGE tdelibs )
  
@@ -50,7 +51,7 @@ diff --git a/tde-tdelibs/CMakeLists.txt b/tde-tdelibs/CMakeLists.txt
  ##### check for dbus and set files location #####
  
 -tde_setup_dbus( dbus-1-tqt )
-+tde_setup_dbus( dbus-1 )
++tde_setup_dbus( dbus-1.0 )
  
  list( APPEND TDECORE_LIBRARY_DIRS ${DBUS_TQT_LIBRARY_DIRS} )
  
@@ -71,7 +72,7 @@ diff --git a/tde-tdelibs/CMakeLists.txt b/tde-tdelibs/CMakeLists.txt
 diff --git a/tde-tdelibs/tdecore/CMakeLists.txt b/tde-tdelibs/tdecore/CMakeLists.txt
 --- a/tde-tdelibs/tdecore/CMakeLists.txt
 +++ b/tde-tdelibs/tdecore/CMakeLists.txt
-@@ -142,7 +142,7 @@
+@@ -142,12 +142,13 @@
    VERSION 14.1.0
    EMBED tdecorenetwork-static
    LINK DCOP-shared tdefx-shared ICE SM ${ZLIB_LIBRARIES} ${RESOLV_LIBRARIES}
@@ -80,6 +81,24 @@ diff --git a/tde-tdelibs/tdecore/CMakeLists.txt b/tde-tdelibs/tdecore/CMakeLists
      ${LIBIDN_LIBRARIES} ${LIBBFD_LIBRARIES} ${LIB_UTIL} ${GAMIN_LIBRARIES}
      ${Backtrace_LIBRARY}
    DESTINATION ${LIB_INSTALL_DIR}
+ )
+ 
++target_link_libraries(tdecore PRIVATE ltdl)
+ 
+ ##### tdefakes_nonpic ###########################
+ 
+diff -urN '--exclude=.git' /home/user/_MYPROJECTS/TDE-github/10-tdelibs/10-tdelibs/tde-tdelibs/tdecore/Makefile.am "/home/user/_MYPROJECTS/TDE-github/10-tdelibs/10-tdelibs (patch)/tde-tdelibs/tdecore/Makefile.am"
+--- /home/user/_MYPROJECTS/TDE-github/10-tdelibs/10-tdelibs/tde-tdelibs/tdecore/Makefile.am	2025-01-27 17:49:13.114909121 +0300
++++ "/home/user/_MYPROJECTS/TDE-github/10-tdelibs/10-tdelibs (patch)/tde-tdelibs/tdecore/Makefile.am"	2025-02-27 18:00:08.172382558 +0300
+@@ -122,7 +122,7 @@
+ 	kqiodevicegzip_p.cpp ktimezones.cpp
+ 
+ libtdecore_la_LDFLAGS = $(QT_LDFLAGS) $(KDE_RPATH) $(KDE_MT_LDFLAGS) $(X_LDFLAGS) $(USER_LDFLAGS) -version-info 6:0:2 -no-undefined
+-libtdecore_la_LIBADD = malloc/libklmalloc.la network/libtdecorenetwork.la $(SVGICON_LIB) ../dcop/libDCOP.la ../libltdl/libltdlc.la \
++libtdecore_la_LIBADD = malloc/libklmalloc.la network/libtdecorenetwork.la $(SVGICON_LIB) ../dcop/libDCOP.la -ldltl \
+ 	$(LIBART_LIBS) $(LIB_IDN) $(top_builddir)/tdefx/libtdefx.la $(LIB_TQT) $(LIBSM) $(LIB_X11) $(LIBZ) $(LIBDL)
+ libtdecore_la_NMCHECK = $(srcdir)/libtdecore.nmcheck
+ libtdecore_la_NMCHECKWEAK = $(srcdir)/libtdecore_weak.nmcheck $(srcdir)/libtqt-mt_weak.nmcheck \
 diff --git a/tde-tdelibs/tdeinit/CMakeLists.txt b/tde-tdelibs/tdeinit/CMakeLists.txt
 --- a/tde-tdelibs/tdeinit/CMakeLists.txt
 +++ b/tde-tdelibs/tdeinit/CMakeLists.txt
