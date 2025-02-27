@@ -5,7 +5,7 @@ diff --git a/tde-tdelibs/CMakeLists.txt b/tde-tdelibs/CMakeLists.txt
  ##### set project version ########################
  
  include( TDEVersion )
-+include_directories(/usr/share/libtool-2.4/libltdl)
++include_directories(/usr/include/libltdl)
  cmake_minimum_required( VERSION ${TDE_CMAKE_MINIMUM_VERSION} )
  tde_set_project_version( )
  
@@ -45,21 +45,7 @@ diff --git a/tde-tdelibs/CMakeLists.txt b/tde-tdelibs/CMakeLists.txt
  
  
  ##### check for Xft #############################
-@@ -1236,12 +1239,10 @@
- 
- ##### check for dbus and set files location #####
- 
--tde_setup_dbus( dbus-1-tqt )
-+tde_setup_dbus( dbus-1 )
- 
- list( APPEND TDECORE_LIBRARY_DIRS ${DBUS_TQT_LIBRARY_DIRS} )
- 
--message(STATUS "DBUS_TQT_LIBRARY_DIRS = ${DBUS_TQT_LIBRARY_DIRS}")
--
- 
- ##### Add '[KDE4]' to KDE4 menu items #########
- 
-@@ -1462,7 +1463,7 @@
+@@ -1460,7 +1463,7 @@
    add_subdirectory( tdelfeditor )
  endif( WITH_ELFICON )
  add_subdirectory( dcop )
@@ -76,7 +62,7 @@ diff --git a/tde-tdelibs/tdecore/CMakeLists.txt b/tde-tdelibs/tdecore/CMakeLists
    EMBED tdecorenetwork-static
    LINK DCOP-shared tdefx-shared ICE SM ${ZLIB_LIBRARIES} ${RESOLV_LIBRARIES}
 -  LINK_PRIVATE ltdlc-static ${KDESVGICONS} ${XCOMPOSITE_LIBRARIES}
-+  LINK_PRIVATE ltdlc ${KDESVGICONS} ${XCOMPOSITE_LIBRARIES}
++  LINK_PRIVATE ltdl ${KDESVGICONS} ${XCOMPOSITE_LIBRARIES}
      ${LIBIDN_LIBRARIES} ${LIBBFD_LIBRARIES} ${LIB_UTIL} ${GAMIN_LIBRARIES}
      ${Backtrace_LIBRARY}
    DESTINATION ${LIB_INSTALL_DIR}
@@ -88,7 +74,7 @@ diff --git a/tde-tdelibs/tdeinit/CMakeLists.txt b/tde-tdelibs/tdeinit/CMakeLists
  tde_add_executable( ${target}
    SOURCES ${${target}_SRCS}
 -  LINK kICE-static ltdlc-static tdeparts-shared ${FONTCONFIG_LIBRARIES} ${XFT_LIBRARIES}
-+  LINK kICE-static ltdlc tdeparts-shared ${FONTCONFIG_LIBRARIES} ${XFT_LIBRARIES}
++  LINK kICE-static ltdl tdeparts-shared ${FONTCONFIG_LIBRARIES} ${XFT_LIBRARIES}
    DESTINATION ${BIN_INSTALL_DIR}
  )
  
@@ -97,7 +83,7 @@ diff --git a/tde-tdelibs/tdeinit/CMakeLists.txt b/tde-tdelibs/tdeinit/CMakeLists
  tde_add_executable( ${target} AUTOMOC
    SOURCES tdeioslave.cpp
 -  LINK ltdlc-static tdeio-shared
-+  LINK ltdlc tdeio-shared
++  LINK ltdl tdeio-shared
    DESTINATION ${BIN_INSTALL_DIR}
  )
  
@@ -109,6 +95,6 @@ diff --git a/tde-tdelibs/tdeio/CMakeLists.txt b/tde-tdelibs/tdeio/CMakeLists.txt
    EMBED kssl-static tdeiocore-static tdesycoca-static kbookmarks-static tdefile-static ${ELFICON_STATIC_LIB}
    LINK tdeui-shared tdewalletclient-shared
 -  LINK_PRIVATE ltdlc-static tdesu-shared ${LIBR_LIBRARIES} ${ACL_LIBRARIES}
-+  LINK_PRIVATE ltdlc tdesu-shared ${LIBR_LIBRARIES} ${ACL_LIBRARIES}
++  LINK_PRIVATE ltdl tdesu-shared ${LIBR_LIBRARIES} ${ACL_LIBRARIES}
    DESTINATION ${LIB_INSTALL_DIR}
  )
