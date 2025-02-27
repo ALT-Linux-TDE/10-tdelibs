@@ -87,9 +87,9 @@ diff --git a/tde-tdelibs/tdecore/CMakeLists.txt b/tde-tdelibs/tdecore/CMakeLists
  
  ##### tdefakes_nonpic ###########################
  
-diff -urN '--exclude=.git' /home/user/_MYPROJECTS/TDE-github/10-tdelibs/10-tdelibs/tde-tdelibs/tdecore/Makefile.am "/home/user/_MYPROJECTS/TDE-github/10-tdelibs/10-tdelibs (patch)/tde-tdelibs/tdecore/Makefile.am"
---- /home/user/_MYPROJECTS/TDE-github/10-tdelibs/10-tdelibs/tde-tdelibs/tdecore/Makefile.am	2025-01-27 17:49:13.114909121 +0300
-+++ "/home/user/_MYPROJECTS/TDE-github/10-tdelibs/10-tdelibs (patch)/tde-tdelibs/tdecore/Makefile.am"	2025-02-27 18:00:08.172382558 +0300
+diff --git a/tde-tdelibs/tdecore/Makefile.am b/tde-tdelibs/tdecore/Makefile.am
+--- a/tde-tdelibs/tdecore/Makefile.am
++++ b/tde-tdelibs/tdecore/Makefile.am
 @@ -122,7 +122,7 @@
  	kqiodevicegzip_p.cpp ktimezones.cpp
  
