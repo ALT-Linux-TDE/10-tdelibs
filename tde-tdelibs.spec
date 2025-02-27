@@ -160,7 +160,7 @@ BuildRequires: libltdl7-devel libltdl7-devel-static
 #BuildRequires: libtool_2.4
 
 # libltdl support
-BuildRequires: tde-libltdl-devel
+#BuildRequires: tde-libltdl-devel
 
 # X11 support
 BuildRequires: xorg-proto-devel
