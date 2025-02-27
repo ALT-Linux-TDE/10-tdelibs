@@ -14,6 +14,7 @@ diff --git a/tde-tdelibs/CMakeLists.txt b/tde-tdelibs/CMakeLists.txt
  project( tdelibs )
  
 +include_directories(${LIBLTDL_INCLUDE_DIR})
++include_directories(/usr/include/libltdl)
 +
  set( PACKAGE tdelibs )
  
@@ -45,7 +46,21 @@ diff --git a/tde-tdelibs/CMakeLists.txt b/tde-tdelibs/CMakeLists.txt
  
  
  ##### check for Xft #############################
-@@ -1460,7 +1463,7 @@
+@@ -1236,12 +1239,10 @@
+ 
+ ##### check for dbus and set files location #####
+ 
+-tde_setup_dbus( dbus-1-tqt )
++tde_setup_dbus( dbus-1.0 )
+ 
+ list( APPEND TDECORE_LIBRARY_DIRS ${DBUS_TQT_LIBRARY_DIRS} )
+ 
+-message(STATUS "DBUS_TQT_LIBRARY_DIRS = ${DBUS_TQT_LIBRARY_DIRS}")
+-
+ 
+ ##### Add '[KDE4]' to KDE4 menu items #########
+ 
+@@ -1462,7 +1463,7 @@
    add_subdirectory( tdelfeditor )
  endif( WITH_ELFICON )
  add_subdirectory( dcop )
@@ -66,6 +81,12 @@ diff --git a/tde-tdelibs/tdecore/CMakeLists.txt b/tde-tdelibs/tdecore/CMakeLists
      ${LIBIDN_LIBRARIES} ${LIBBFD_LIBRARIES} ${LIB_UTIL} ${GAMIN_LIBRARIES}
      ${Backtrace_LIBRARY}
    DESTINATION ${LIB_INSTALL_DIR}
+ )
+ 
++target_link_libraries(tdecore PRIVATE ltdl)
+ 
+ ##### tdefakes_nonpic ###########################
+ 
 diff --git a/tde-tdelibs/tdeinit/CMakeLists.txt b/tde-tdelibs/tdeinit/CMakeLists.txt
 --- a/tde-tdelibs/tdeinit/CMakeLists.txt
 +++ b/tde-tdelibs/tdeinit/CMakeLists.txt
@@ -98,3 +119,4 @@ diff --git a/tde-tdelibs/tdeio/CMakeLists.txt b/tde-tdelibs/tdeio/CMakeLists.txt
 +  LINK_PRIVATE ltdl tdesu-shared ${LIBR_LIBRARIES} ${ACL_LIBRARIES}
    DESTINATION ${LIB_INSTALL_DIR}
  )
+
