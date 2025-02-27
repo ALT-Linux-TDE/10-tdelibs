@@ -9,7 +9,7 @@ diff --git a/tde-tdelibs/CMakeLists.txt b/tde-tdelibs/CMakeLists.txt
  cmake_minimum_required( VERSION ${TDE_CMAKE_MINIMUM_VERSION} )
  tde_set_project_version( )
  
-@@ -21,6 +22,8 @@
+@@ -21,6 +21,9 @@
  
  project( tdelibs )
  
@@ -72,7 +72,7 @@ diff --git a/tde-tdelibs/CMakeLists.txt b/tde-tdelibs/CMakeLists.txt
 diff --git a/tde-tdelibs/tdecore/CMakeLists.txt b/tde-tdelibs/tdecore/CMakeLists.txt
 --- a/tde-tdelibs/tdecore/CMakeLists.txt
 +++ b/tde-tdelibs/tdecore/CMakeLists.txt
-@@ -142,7 +142,7 @@
+@@ -142,12 +142,13 @@
    VERSION 14.1.0
    EMBED tdecorenetwork-static
    LINK DCOP-shared tdefx-shared ICE SM ${ZLIB_LIBRARIES} ${RESOLV_LIBRARIES}
@@ -119,4 +119,3 @@ diff --git a/tde-tdelibs/tdeio/CMakeLists.txt b/tde-tdelibs/tdeio/CMakeLists.txt
 +  LINK_PRIVATE ltdl tdesu-shared ${LIBR_LIBRARIES} ${ACL_LIBRARIES}
    DESTINATION ${LIB_INSTALL_DIR}
  )
-
