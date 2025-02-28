@@ -426,7 +426,7 @@ export TDEDIR="%tde_prefix"
 #fi
 cd %name
 
-export LDFLAGS="-lltdl"
+#export LDFLAGS="-lltdl"
 %suse_cmake \
   -DCMAKE_C_FLAGS="${RPM_OPT_FLAGS}" \
   -DCMAKE_CXX_FLAGS="${RPM_OPT_FLAGS}" \
