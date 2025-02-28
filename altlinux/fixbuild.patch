@@ -71,7 +71,7 @@ diff --git a/tde-tdelibs/CMakeLists.txt b/tde-tdelibs/CMakeLists.txt
 diff --git a/tde-tdelibs/tdecore/CMakeLists.txt b/tde-tdelibs/tdecore/CMakeLists.txt
 --- a/tde-tdelibs/tdecore/CMakeLists.txt
 +++ b/tde-tdelibs/tdecore/CMakeLists.txt
-@@ -142,12 +142,13 @@
+@@ -142,12 +142,12 @@
    VERSION 14.1.0
    EMBED tdecorenetwork-static
    LINK DCOP-shared tdefx-shared ICE SM ${ZLIB_LIBRARIES} ${RESOLV_LIBRARIES}
@@ -82,7 +82,6 @@ diff --git a/tde-tdelibs/tdecore/CMakeLists.txt b/tde-tdelibs/tdecore/CMakeLists
    DESTINATION ${LIB_INSTALL_DIR}
  )
  
-+target_link_libraries(tdecore PRIVATE ltdl)
  
  ##### tdefakes_nonpic ###########################
  
