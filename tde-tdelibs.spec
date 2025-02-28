@@ -426,6 +426,7 @@ export TDEDIR="%tde_prefix"
 #fi
 cd %name
 
+export LDFLAGS="-lltdl"
 %suse_cmake \
   -DCMAKE_C_FLAGS="${RPM_OPT_FLAGS}" \
   -DCMAKE_CXX_FLAGS="${RPM_OPT_FLAGS}" \
@@ -489,8 +490,7 @@ cd %name
 %{?!with_hspell:-DWITH_HSPELL=OFF} \
   -DWITH_TDEICONLOADER_DEBUG=OFF \
   -DUTEMPTER_HELPER=/usr/lib/utempter/utempter \
-  -DCMAKE_INCLUDE_PATH="/usr/share/libtool-2.4/libltdl:/usr/include/dbus-1.0/dbus:/usr/include" \
-  -DCMAKE_LIBRARY_PATH=/usr/lib64 \
+  -DCMAKE_INCLUDE_PATH="/usr/share/libtool-2.4/libltdl:/usr/include/dbus-1.0/dbus" \
  ..
 
 %make_build || make
