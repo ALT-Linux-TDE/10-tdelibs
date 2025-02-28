@@ -94,7 +94,7 @@ diff --git a/tde-tdelibs/tdecore/Makefile.am b/tde-tdelibs/tdecore/Makefile.am
  
  libtdecore_la_LDFLAGS = $(QT_LDFLAGS) $(KDE_RPATH) $(KDE_MT_LDFLAGS) $(X_LDFLAGS) $(USER_LDFLAGS) -version-info 6:0:2 -no-undefined
 -libtdecore_la_LIBADD = malloc/libklmalloc.la network/libtdecorenetwork.la $(SVGICON_LIB) ../dcop/libDCOP.la ../libltdl/libltdlc.la \
-+libtdecore_la_LIBADD = malloc/libklmalloc.la network/libtdecorenetwork.la $(SVGICON_LIB) ../dcop/libDCOP.la $(shell pkg-config --libs libltdl) \
++libtdecore_la_LIBADD = malloc/libklmalloc.la network/libtdecorenetwork.la $(SVGICON_LIB) ../dcop/libDCOP.la -ldltl \
  	$(LIBART_LIBS) $(LIB_IDN) $(top_builddir)/tdefx/libtdefx.la $(LIB_TQT) $(LIBSM) $(LIB_X11) $(LIBZ) $(LIBDL)
  libtdecore_la_NMCHECK = $(srcdir)/libtdecore.nmcheck
  libtdecore_la_NMCHECKWEAK = $(srcdir)/libtdecore_weak.nmcheck $(srcdir)/libtqt-mt_weak.nmcheck \
@@ -130,26 +130,3 @@ diff --git a/tde-tdelibs/tdeio/CMakeLists.txt b/tde-tdelibs/tdeio/CMakeLists.txt
 +  LINK_PRIVATE ltdlc tdesu-shared ${LIBR_LIBRARIES} ${ACL_LIBRARIES}
    DESTINATION ${LIB_INSTALL_DIR}
  )
-diff --git a/tde-tdelibs/tdecore/configure.in.in b/tde-tdelibs/tdecore/configure.in.in
---- a/tde-tdelibs/tdecore/configure.in.in
-+++ b/tde-tdelibs/tdecore/configure.in.in
-@@ -232,3 +232,7 @@
-       ],
-       AC_MSG_RESULT(no)
- )
-+
-+PKG_CHECK_MODULES([LTDL], [libltdl])
-+AC_SUBST([LTDL_CFLAGS])
-+AC_SUBST([LTDL_LIBS])
-diff --git a/tde-tdelibs/tdecore/Makefile.am b/tde-tdelibs/tdecore/Makefile.am
---- a/tde-tdelibs/tdecore/Makefile.am
-+++ b/tde-tdelibs/tdecore/Makefile.am
-@@ -122,7 +122,7 @@
- 	kqiodevicegzip_p.cpp ktimezones.cpp
- 
- libtdecore_la_LDFLAGS = $(QT_LDFLAGS) $(KDE_RPATH) $(KDE_MT_LDFLAGS) $(X_LDFLAGS) $(USER_LDFLAGS) -version-info 6:0:2 -no-undefined
--libtdecore_la_LIBADD = malloc/libklmalloc.la network/libtdecorenetwork.la $(SVGICON_LIB) ../dcop/libDCOP.la ../libltdl/libltdlc.la \
-+libtdecore_la_LIBADD = malloc/libklmalloc.la network/libtdecorenetwork.la $(SVGICON_LIB) ../dcop/libDCOP.la $(LTDL_LIBS) \
- 	$(LIBART_LIBS) $(LIB_IDN) $(top_builddir)/tdefx/libtdefx.la $(LIB_TQT) $(LIBSM) $(LIB_X11) $(LIBZ) $(LIBDL)
- libtdecore_la_NMCHECK = $(srcdir)/libtdecore.nmcheck
- libtdecore_la_NMCHECKWEAK = $(srcdir)/libtdecore_weak.nmcheck $(srcdir)/libtqt-mt_weak.nmcheck \
