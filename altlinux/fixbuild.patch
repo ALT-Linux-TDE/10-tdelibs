@@ -105,7 +105,7 @@ diff --git a/tde-tdelibs/tdeinit/CMakeLists.txt b/tde-tdelibs/tdeinit/CMakeLists
  tde_add_executable( ${target}
    SOURCES ${${target}_SRCS}
 -  LINK kICE-static ltdlc-static tdeparts-shared ${FONTCONFIG_LIBRARIES} ${XFT_LIBRARIES}
-+  LINK kICE-static ltdl tdeparts-shared ${FONTCONFIG_LIBRARIES} ${XFT_LIBRARIES}
++  LINK kICE-static ldltl tdeparts-shared ${FONTCONFIG_LIBRARIES} ${XFT_LIBRARIES}
    DESTINATION ${BIN_INSTALL_DIR}
  )
  
@@ -114,7 +114,7 @@ diff --git a/tde-tdelibs/tdeinit/CMakeLists.txt b/tde-tdelibs/tdeinit/CMakeLists
  tde_add_executable( ${target} AUTOMOC
    SOURCES tdeioslave.cpp
 -  LINK ltdlc-static tdeio-shared
-+  LINK ltdl tdeio-shared
++  LINK ldltl tdeio-shared
    DESTINATION ${BIN_INSTALL_DIR}
  )
  
@@ -126,7 +126,7 @@ diff --git a/tde-tdelibs/tdeio/CMakeLists.txt b/tde-tdelibs/tdeio/CMakeLists.txt
    EMBED kssl-static tdeiocore-static tdesycoca-static kbookmarks-static tdefile-static ${ELFICON_STATIC_LIB}
    LINK tdeui-shared tdewalletclient-shared
 -  LINK_PRIVATE ltdlc-static tdesu-shared ${LIBR_LIBRARIES} ${ACL_LIBRARIES}
-+  LINK_PRIVATE ltdl tdesu-shared ${LIBR_LIBRARIES} ${ACL_LIBRARIES}
++  LINK_PRIVATE ldltl tdesu-shared ${LIBR_LIBRARIES} ${ACL_LIBRARIES}
    DESTINATION ${LIB_INSTALL_DIR}
  )
 diff --git a/tde-tdelibs/tdecore/configure.in.in b/tde-tdelibs/tdecore/configure.in.in
