@@ -140,3 +140,12 @@ diff --git a/tde-tdelibs/tdecore/configure.in.in b/tde-tdelibs/tdecore/configure
 +PKG_CHECK_MODULES([LTDL], [libltdl])
 +AC_SUBST([LTDL_CFLAGS])
 +AC_SUBST([LTDL_LIBS])
+diff --git a/tde-tdelibs/config.h.cmake b/tde-tdelibs/config.h.cmake
+--- a/tde-tdelibs/config.h.cmake	2025-01-27 17:49:12.703944457 +0300
++++ b/tde-tdelibs/config.h.cmake	2025-03-20 14:52:42.312325344 +0300
+@@ -1233,3 +1233,5 @@
+ }
+ #endif
+ #endif
++
++#define lt_dlopen_flag(file, flags) lt_dlopen(file)
