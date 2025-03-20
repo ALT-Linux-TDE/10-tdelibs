@@ -242,6 +242,7 @@ BuildRequires:libsystemd-devel
 
 #Патчи
 Patch0: fixbuild.patch
+Patch1: ltdlopen.patch
 
 %description
 Libraries for the Trinity Desktop Environment:
@@ -407,6 +408,7 @@ applications for TDE.
 %endif
 
 %patch0 -p1
+%patch1 -p0
 
 %build
 unset QTDIR QTINC QTLIB

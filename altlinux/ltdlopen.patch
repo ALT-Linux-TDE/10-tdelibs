@@ -1,0 +1,38 @@
+diff --git a/libltdl/ltdl.c b/libltdl/ltdl.c
+index abcdef0..1234567 100644
+--- a/libltdl/ltdl.c
++++ b/libltdl/ltdl.c
+@@ -554,7 +554,6 @@
+- int lt_dlopen_flag = LT_LAZY_OR_NOW;
++ /* int lt_dlopen_flag = LT_LAZY_OR_NOW; */
+@@ -584,7 +583,7 @@
+- lt_dlopen_flag |= LT_DLMEMBER_FLAG;
+- module = dlopen (filename, lt_dlopen_flag);
++ /* module = dlopen (filename, lt_dlopen_flag); */
++ module = dlopen (filename, RTLD_LAZY);
+@@ -642,7 +641,6 @@
+- int lt_dlopen_flag = 0;
++ /* int lt_dlopen_flag = 0; */
+@@ -3325,7 +3324,7 @@
+- handle->module = dlopen( libname, lt_dlopen_flag );
++ handle->module = dlopen( libname, RTLD_LAZY );
+
+diff --git a/tdecore/klibloader.cpp b/tdecore/klibloader.cpp
+index fedcba9..7654321 100644
+--- a/tdecore/klibloader.cpp
++++ b/tdecore/klibloader.cpp
+@@ -20,7 +20,9 @@
+- #define lt_dlopen_flag(file, flags) lt_dlopen(file)
++ /* Macro lt_dlopen_flag removed, use lt_dlopen directly */
+@@ -36,7 +36,6 @@
+- LT_SCOPE int lt_dlopen_flag;
++ /* LT_SCOPE int lt_dlopen_flag; */
+@@ -379,7 +379,7 @@
+- int olt_dlopen_flag = lt_dlopen_flag;
++ /* int olt_dlopen_flag = lt_dlopen_flag; */
+@@ -381,7 +381,6 @@
+- lt_dlopen_flag |= LT_GLOBAL;
++ /* lt_dlopen_flag |= LT_GLOBAL; */
+@@ -386,7 +386,6 @@
+- lt_dlopen_flag = olt_dlopen_flag;
++ /* lt_dlopen_flag = olt_dlopen_flag; */
