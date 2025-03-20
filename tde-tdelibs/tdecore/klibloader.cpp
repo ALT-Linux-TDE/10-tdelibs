@@ -17,7 +17,7 @@
    Boston, MA 02110-1301, USA.
 */
 #include "config.h"
-
+#define lt_dlopen_flag(file, flags) lt_dlopen(file)
 #include <config.h>
 #include <tqclipboard.h>
 #include <tqfile.h>
