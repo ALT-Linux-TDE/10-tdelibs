@@ -212,21 +212,12 @@ diff -urN a/tde-tdelibs/tdecore/klibloader.cpp  b/tde-tdelibs/tdecore/klibloader
  
  template class TQAsciiDict<KLibrary>;
  
-@@ -373,15 +373,18 @@
+@@ -375,17 +375,31 @@
  
  KLibrary* KLibLoader::globalLibrary( const char *name )
  {
--    KLibrary *tmp;
--/* int olt_dlopen_flag = lt_dlopen_flag; */
--
--   /* lt_dlopen_flag |= LT_GLOBAL; */
--   kdDebug(150) << "Loading the next library global with flag "
--                << lt_dlopen_flag
--                << "." << endl;
--   tmp = library(name);
--   /* lt_dlopen_flag = olt_dlopen_flag; */
--
--return tmp;
+-KLibrary *tmp;
+-int olt_dlopen_flag = lt_dlopen_flag;
 +    if (!name)
 +        return 0;
 +
@@ -247,8 +238,18 @@ diff -urN a/tde-tdelibs/tdecore/klibloader.cpp  b/tde-tdelibs/tdecore/klibloader
 +    KLibWrapPrivate *wrap = new KLibWrapPrivate(lib, handle);
 +    d->loaded_stack.prepend(wrap);
 +    m_libs.insert(name, wrap);
-+
+ 
+-   lt_dlopen_flag |= LT_GLOBAL;
+-   kdDebug(150) << "Loading the next library global with flag "
+-                << lt_dlopen_flag
+-                << "." << endl;
+-   tmp = library(name);
+-   lt_dlopen_flag = olt_dlopen_flag;
 +    connect(lib, TQ_SIGNAL(destroyed()), this, TQ_SLOT(slotLibraryDestroyed()));
-+
+ 
+-return tmp;
 +    return lib;
++ }
  }
+ 
+ 
