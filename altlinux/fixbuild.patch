@@ -212,21 +212,46 @@ diff -urN a/tde-tdelibs/tdecore/klibloader.cpp  b/tde-tdelibs/tdecore/klibloader
  
  template class TQAsciiDict<KLibrary>;
  
-@@ -376,14 +376,14 @@
+diff -urN a/tde-tdelibs/tdecore/klibloader.cpp  b/tde-tdelibs/tdecore/klibloader.cpp
+--- a/tdecore/klibloader.cpp
++++ b/tdecore/klibloader.cpp
+@@ -373,15 +373,18 @@
+ 
  KLibrary* KLibLoader::globalLibrary( const char *name )
  {
- KLibrary *tmp;
--int olt_dlopen_flag = lt_dlopen_flag;
-+/* int olt_dlopen_flag = lt_dlopen_flag; */
- 
--   lt_dlopen_flag |= LT_GLOBAL;
-+   /* lt_dlopen_flag |= LT_GLOBAL; */
-    kdDebug(150) << "Loading the next library global with flag "
-                 << lt_dlopen_flag
-                 << "." << endl;
-    tmp = library(name);
--   lt_dlopen_flag = olt_dlopen_flag;
-+   /* lt_dlopen_flag = olt_dlopen_flag; */
- 
- return tmp;
+-    KLibrary *tmp;
+-/* int olt_dlopen_flag = lt_dlopen_flag; */
+-
+-   /* lt_dlopen_flag |= LT_GLOBAL; */
+-   kdDebug(150) << "Loading the next library global with flag "
+-                << lt_dlopen_flag
+-                << "." << endl;
+-   tmp = library(name);
+-   /* lt_dlopen_flag = olt_dlopen_flag; */
+-
+-return tmp;
++    if (!name)
++        return 0;
++
++    TQString libfile = findLibrary(name);
++    if (libfile.isEmpty()) {
++        kdDebug(150) << "globalLibrary: no library file found for " << name << endl;
++        d->errorMessage = i18n("Library files for \"%1\" not found in paths.").arg(name);
++        return 0;
++    }
++
++    lt_dlhandle handle = lt_dlopenext(libfile.latin1());
++    if (!handle) {
++        d->errorMessage = TQString::fromLocal8Bit(lt_dlerror());
++        return 0;
++    }
++
++    KLibrary *lib = new KLibrary(name, libfile, handle);
++    KLibWrapPrivate *wrap = new KLibWrapPrivate(lib, handle);
++    d->loaded_stack.prepend(wrap);
++    m_libs.insert(name, wrap);
++
++    connect(lib, TQ_SIGNAL(destroyed()), this, TQ_SLOT(slotLibraryDestroyed()));
++
++    return lib;
  }
