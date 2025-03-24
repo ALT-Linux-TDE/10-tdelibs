@@ -428,6 +428,8 @@ cd %name
 
 %suse_cmake \
   -DCMAKE_C_FLAGS="${RPM_OPT_FLAGS}" \
+# V Убрано -Werror
+#  -DCMAKE_CXX_FLAGS="${RPM_OPT_FLAGS}" \
   "-DCMAKE_CXX_FLAGS=${RPM_OPT_FLAGS} -Wno-error" \
   -DCMAKE_SKIP_RPATH=OFF \
   -DCMAKE_SKIP_INSTALL_RPATH=OFF \
@@ -435,6 +437,7 @@ cd %name
   -DCMAKE_NO_BUILTIN_CHRPATH=ON \
   -DCMAKE_VERBOSE_MAKEFILE=ON \
   -DWITH_GCC_VISIBILITY=ON \
+  \
   -DCMAKE_INSTALL_PREFIX="%tde_prefix" \
   -DBIN_INSTALL_DIR="%tde_bindir" \
   -DCONFIG_INSTALL_DIR="%tde_confdir" \
@@ -443,6 +446,7 @@ cd %name
   -DLIB_INSTALL_DIR="%tde_libdir" \
   -DPKGCONFIG_INSTALL_DIR="%tde_libdir/pkgconfig" \
   -DSHARE_INSTALL_PREFIX="%tde_datadir" \
+  \
   -DWITH_ALL_OPTIONS=ON \
   -DWITH_ARTS=OFF \
   -DWITH_ALSA=ON \
@@ -452,18 +456,39 @@ cd %name
   -DWITH_CUPS=ON \
   -DWITH_LUA=OFF \
   -DWITH_TIFF=ON \
+%{?!with_jasper:-DWITH_JASPER=OFF} \
+%{?!with_openexr:-DWITH_OPENEXR=OFF} \
   -DWITH_UTEMPTER=ON \
+%{?!with_avahi:-DWITH_AVAHI=OFF} \
+%{?!with_elficon:-DWITH_ELFICON=OFF} \
+%{?!with_pcre:-DWITH_PCRE=OFF} \
+%{?!with_pcre2:-DWITH_PCRE2=OFF} \
+%{?!with_inotify:-DWITH_INOTIFY=OFF} \
+%{?!with_gamin:-DWITH_GAMIN=OFF} \
+%{?!with_tdehwlib:-DWITH_TDEHWLIB=OFF} \
+%{?!with_tdehwlib:-DWITH_TDEHWLIB_DAEMONS=OFF} \
+%{?with_hal:-DWITH_HAL=ON} \
+%{?with_devkitpower:-DWITH_DEVKITPOWER=ON} \
+%{?with_systemd:-DWITH_LOGINDPOWER=ON} \
+%{?!with_upower:-DWITH_UPOWER=OFF} \
+%{?!with_udisks:-DWITH_UDISKS=OFF} \
+%{?!with_udisks2:-DWITH_UDISKS2=OFF} \
   -DWITH_UDEVIL=OFF \
   -DWITH_CONSOLEKIT=ON \
+%{?with_nm:-DWITH_NETWORK_MANAGER_BACKEND=ON} \
   -DWITH_SUDO_TDESU_BACKEND=OFF \
   -DWITH_OLD_XDG_STD=OFF \
   -DWITH_PCSC=ON \
   -DWITH_PKCS=ON \
   -DWITH_CRYPTSETUP=ON \
+%{?!with_lzma:-DWITH_LZMA=OFF} \
   -DWITH_LIBBFD=OFF \
+%{?!with_xrandr:-DWITH_XRANDR=OFF} \
   -DWITH_XCOMPOSITE=ON \
   -DWITH_KDE4_MENU_SUFFIX=OFF \
+  \
   -DWITH_ASPELL=ON \
+%{?!with_hspell:-DWITH_HSPELL=OFF} \
   -DWITH_TDEICONLOADER_DEBUG=OFF \
   -DUTEMPTER_HELPER=/usr/lib/utempter/utempter \
   -DWITH_IN_TREE_LIBLTDL=ON \
