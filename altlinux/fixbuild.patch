@@ -250,6 +250,8 @@ diff -urN a/tde-tdelibs/tdecore/klibloader.cpp  b/tde-tdelibs/tdecore/klibloader
 -return tmp;
 +    return lib;
  }
+
+
 diff -urN a/tde-tdelibs/kjs/regexp.cpp b/tde-tdelibs/kjs/regexp.cpp
 --- a/tde-tdelibs/kjs/regexp.cpp
 +++ b/tde-tdelibs/kjs/regexp.cpp
@@ -273,4 +275,4 @@ diff -urN a/tde-tdelibs/kjs/regexp.h b/tde-tdelibs/kjs/regexp.h
 +
  #ifndef _KJS_REGEXP_H_
  #define _KJS_REGEXP_H_
- 
+
