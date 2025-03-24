@@ -430,7 +430,7 @@ cd %name
   -DCMAKE_C_FLAGS="${RPM_OPT_FLAGS}" \
 # V Убрано -Werror
 #  -DCMAKE_CXX_FLAGS="${RPM_OPT_FLAGS}" \
-  -DCMAKE_CXX_FLAGS="${RPM_OPT_FLAGS}" -Wno-error" \
+  -DCMAKE_CXX_FLAGS="${RPM_OPT_FLAGS} -Wno-error" \
   -DCMAKE_SKIP_RPATH=OFF \
   -DCMAKE_SKIP_INSTALL_RPATH=OFF \
   -DCMAKE_INSTALL_RPATH="%tde_libdir" \
@@ -492,7 +492,7 @@ cd %name
   -DWITH_TDEICONLOADER_DEBUG=OFF \
   -DUTEMPTER_HELPER=/usr/lib/utempter/utempter \
   -DWITH_IN_TREE_LIBLTDL=ON \
-  -DCMAKE_INCLUDE_PATH="/usr/share/libtool-2.4/libltdl:/usr/include/dbus-1.0/dbus" \
+  -DCMAKE_INCLUDE_PATH="/usr/share/libtool-2.4/libltdl;/usr/include/dbus-1.0/dbus" \
  ..
 
 %make_build || make

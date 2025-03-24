@@ -1,0 +1,232 @@
+diff --git a/tde-tdelibs/CMakeLists.txt b/tde-tdelibs/CMakeLists.txt
+--- a/tde-tdelibs/CMakeLists.txt
++++ b/tde-tdelibs/CMakeLists.txt
+@@ -13,6 +13,7 @@
+ ##### set project version ########################
+ 
+ include( TDEVersion )
++include_directories(/usr/share/libtool-2.4/libltdl)
+ cmake_minimum_required( VERSION ${TDE_CMAKE_MINIMUM_VERSION} )
+ tde_set_project_version( )
+ 
+@@ -21,6 +22,8 @@
+ 
+ project( tdelibs )
+ 
++include_directories(${LIBLTDL_INCLUDE_DIR})
++
+ set( PACKAGE tdelibs )
+ 
+ 
+@@ -1054,16 +1057,16 @@
+ 
+ ##### check for aRts ############################
+ 
+-if( WITH_ARTS )
+-  pkg_search_module( ARTS arts )
+-  if( ARTS_FOUND )
+-    set( ARTS_MCOPIDL_EXECUTABLE ${ARTS_PREFIX}/bin/mcopidl )
+-  else( ARTS_FOUND )
+-    message(FATAL_ERROR "\naRts are requested, but not found on your system" )
+-  endif( ARTS_FOUND )
+-else( WITH_ARTS )
+-  set( WITHOUT_ARTS 1 )
+-endif( WITH_ARTS )
++#if( WITH_ARTS )
++#  pkg_search_module( ARTS arts )
++#  if( ARTS_FOUND )
++#    set( ARTS_MCOPIDL_EXECUTABLE ${ARTS_PREFIX}/bin/mcopidl )
++#  else( ARTS_FOUND )
++#    message(FATAL_ERROR "\naRts are requested, but not found on your system" )
++#  endif( ARTS_FOUND )
++#else( WITH_ARTS )
++#  set( WITHOUT_ARTS 1 )
++#endif( WITH_ARTS )
+ 
+ 
+ ##### check for Xft #############################
+@@ -1236,12 +1239,10 @@
+ 
+ ##### check for dbus and set files location #####
+ 
+-tde_setup_dbus( dbus-1-tqt )
++tde_setup_dbus( dbus-1 )
+ 
+ list( APPEND TDECORE_LIBRARY_DIRS ${DBUS_TQT_LIBRARY_DIRS} )
+ 
+-message(STATUS "DBUS_TQT_LIBRARY_DIRS = ${DBUS_TQT_LIBRARY_DIRS}")
+-
+ 
+ ##### Add '[KDE4]' to KDE4 menu items #########
+ 
+@@ -1462,7 +1463,7 @@
+   add_subdirectory( tdelfeditor )
+ endif( WITH_ELFICON )
+ add_subdirectory( dcop )
+-add_subdirectory( libltdl )
++#add_subdirectory( libltdl )
+ add_subdirectory( kglib )
+ add_subdirectory( tdefx )
+ add_subdirectory( tdecore )
+diff --git a/tde-tdelibs/tdecore/CMakeLists.txt b/tde-tdelibs/tdecore/CMakeLists.txt
+--- a/tde-tdelibs/tdecore/CMakeLists.txt
++++ b/tde-tdelibs/tdecore/CMakeLists.txt
+@@ -142,12 +142,12 @@
+   VERSION 14.1.0
+   EMBED tdecorenetwork-static
+   LINK DCOP-shared tdefx-shared ICE SM ${ZLIB_LIBRARIES} ${RESOLV_LIBRARIES}
+-  LINK_PRIVATE ltdlc-static ${KDESVGICONS} ${XCOMPOSITE_LIBRARIES}
++  LINK_PRIVATE ltdl ${KDESVGICONS} ${XCOMPOSITE_LIBRARIES}
+     ${LIBIDN_LIBRARIES} ${LIBBFD_LIBRARIES} ${LIB_UTIL} ${GAMIN_LIBRARIES}
+     ${Backtrace_LIBRARY}
+   DESTINATION ${LIB_INSTALL_DIR}
+ )
+ 
+ 
+ ##### tdefakes_nonpic ###########################
+ 
+diff --git a/tde-tdelibs/tdecore/Makefile.am b/tde-tdelibs/tdecore/Makefile.am
+--- a/tde-tdelibs/tdecore/Makefile.am
++++ b/tde-tdelibs/tdecore/Makefile.am
+@@ -122,7 +122,7 @@
+ 	kqiodevicegzip_p.cpp ktimezones.cpp
+ 
+ libtdecore_la_LDFLAGS = $(QT_LDFLAGS) $(KDE_RPATH) $(KDE_MT_LDFLAGS) $(X_LDFLAGS) $(USER_LDFLAGS) -version-info 6:0:2 -no-undefined
+-libtdecore_la_LIBADD = malloc/libklmalloc.la network/libtdecorenetwork.la $(SVGICON_LIB) ../dcop/libDCOP.la ../libltdl/libltdlc.la \
++libtdecore_la_LIBADD = malloc/libklmalloc.la network/libtdecorenetwork.la $(SVGICON_LIB) ../dcop/libDCOP.la $(LTDL_LIBS) \
+ 	$(LIBART_LIBS) $(LIB_IDN) $(top_builddir)/tdefx/libtdefx.la $(LIB_TQT) $(LIBSM) $(LIB_X11) $(LIBZ) $(LIBDL)
+ libtdecore_la_NMCHECK = $(srcdir)/libtdecore.nmcheck
+ libtdecore_la_NMCHECKWEAK = $(srcdir)/libtdecore_weak.nmcheck $(srcdir)/libtqt-mt_weak.nmcheck \
+diff --git a/tde-tdelibs/tdeinit/CMakeLists.txt b/tde-tdelibs/tdeinit/CMakeLists.txt
+--- a/tde-tdelibs/tdeinit/CMakeLists.txt
++++ b/tde-tdelibs/tdeinit/CMakeLists.txt
+@@ -40,7 +40,7 @@
+ 
+ tde_add_executable( ${target}
+   SOURCES ${${target}_SRCS}
+-  LINK kICE-static ltdlc-static tdeparts-shared ${FONTCONFIG_LIBRARIES} ${XFT_LIBRARIES}
++  LINK kICE-static ltdl tdeparts-shared ${FONTCONFIG_LIBRARIES} ${XFT_LIBRARIES}
+   DESTINATION ${BIN_INSTALL_DIR}
+ )
+ 
+@@ -101,7 +101,7 @@
+ 
+ tde_add_executable( ${target} AUTOMOC
+   SOURCES tdeioslave.cpp
+-  LINK ltdlc-static tdeio-shared
++  LINK ltdl tdeio-shared
+   DESTINATION ${BIN_INSTALL_DIR}
+ )
+ 
+diff --git a/tde-tdelibs/tdeio/CMakeLists.txt b/tde-tdelibs/tdeio/CMakeLists.txt
+--- a/tde-tdelibs/tdeio/CMakeLists.txt
++++ b/tde-tdelibs/tdeio/CMakeLists.txt
+@@ -92,6 +92,6 @@
+   VERSION 14.0.0
+   EMBED kssl-static tdeiocore-static tdesycoca-static kbookmarks-static tdefile-static ${ELFICON_STATIC_LIB}
+   LINK tdeui-shared tdewalletclient-shared
+-  LINK_PRIVATE ltdlc-static tdesu-shared ${LIBR_LIBRARIES} ${ACL_LIBRARIES}
++  LINK_PRIVATE ltdl tdesu-shared ${LIBR_LIBRARIES} ${ACL_LIBRARIES}
+   DESTINATION ${LIB_INSTALL_DIR}
+ )
+diff --git a/tde-tdelibs/tdecore/configure.in.in b/tde-tdelibs/tdecore/configure.in.in
+--- a/tde-tdelibs/tdecore/configure.in.in
++++ b/tde-tdelibs/tdecore/configure.in.in
+@@ -232,3 +232,7 @@
+       ],
+       AC_MSG_RESULT(no)
+ )
++
++PKG_CHECK_MODULES([LTDL], [libltdl])
++AC_SUBST([LTDL_CFLAGS])
++AC_SUBST([LTDL_LIBS])
+diff --git a/tde-tdelibs/config.h.cmake b/tde-tdelibs/config.h.cmake
+--- a/tde-tdelibs/config.h.cmake	2025-01-27 17:49:12.703944457 +0300
++++ b/tde-tdelibs/config.h.cmake	2025-03-20 14:52:42.312325344 +0300
+@@ -1233,3 +1233,5 @@
+ }
+ #endif
+ #endif
++
++#define lt_dlopen_flag(file, flags) lt_dlopen(file)
+diff --git a/tde-tdelibs/libltdl/ltdl.c b/tde-tdelibs/libltdl/ltdl.c
+--- a/tde-tdelibs/libltdl/ltdl.c
++++ b/tde-tdelibs/libltdl/ltdl.c
+@@ -554,7 +554,7 @@
+ #  define DLERROR(arg)	LT_DLSTRERROR (arg)
+ #endif
+ 
+-int lt_dlopen_flag = LT_LAZY_OR_NOW;
++ /* int lt_dlopen_flag = LT_LAZY_OR_NOW; */
+ 
+ #ifdef _AIX
+ /*------------------------------------------------------------------*/
+@@ -581,9 +581,9 @@
+   /* If the basename is of the form "libname.a(member)",
+      set the appropriate flag. */
+   if (strrchr(filename, '('))
+-    lt_dlopen_flag |= LT_DLMEMBER_FLAG;
++    /* module = dlopen (filename, lt_dlopen_flag); */
+ #endif
+-  module = dlopen (filename, lt_dlopen_flag);
++  module = dlopen (filename, RTLD_LAZY);
+ 
+   if (!module)
+     {
+@@ -639,7 +639,7 @@
+     sys_dl_open, sys_dl_close, sys_dl_sym, 0, 0 };
+ 
+ #else
+-int lt_dlopen_flag = 0;
++/* int lt_dlopen_flag = 0; */
+ #endif /* HAVE_LIBDL */
+ 
+ 
+@@ -3322,7 +3322,7 @@
+               handle->info.ref_count = 1;
+               handle->depcount       = 0;
+               handle->deplibs        = 0;
+-              handle->module         = dlopen( libname, lt_dlopen_flag );
++              handle->module         = dlopen( libname, RTLD_LAZY );
+               handle->system         = 0;
+               handle->caller_data    = 0;
+ 	      LT_DLSET_FLAG (handle, LT_DLRESIDENT_FLAG);
+diff -urN a/tde-tdelibs/tdecore/klibloader.cpp  b/tde-tdelibs/tdecore/klibloader.cpp
+--- a/tde-tdelibs/tdecore/klibloader.cpp
++++ b/tde-tdelibs/tdecore/klibloader.cpp
+@@ -17,7 +17,7 @@
+    Boston, MA 02110-1301, USA.
+ */
+ #include "config.h"
+-#define lt_dlopen_flag(file, flags) lt_dlopen(file)
++
+ #include <config.h>
+ #include <tqclipboard.h>
+ #include <tqfile.h>
+@@ -33,7 +33,7 @@
+ 
+ #include "ltdl.h"
+ 
+-LT_SCOPE int lt_dlopen_flag;
++/* LT_SCOPE int lt_dlopen_flag; */
+ 
+ template class TQAsciiDict<KLibrary>;
+ 
+@@ -376,14 +376,14 @@
+ KLibrary* KLibLoader::globalLibrary( const char *name )
+ {
+ KLibrary *tmp;
+-int olt_dlopen_flag = lt_dlopen_flag;
++/* int olt_dlopen_flag = lt_dlopen_flag; */
+ 
+-   lt_dlopen_flag |= LT_GLOBAL;
++   /* lt_dlopen_flag |= LT_GLOBAL; */
+    kdDebug(150) << "Loading the next library global with flag "
+                 << lt_dlopen_flag
+                 << "." << endl;
+    tmp = library(name);
+-   lt_dlopen_flag = olt_dlopen_flag;
++   /* lt_dlopen_flag = olt_dlopen_flag; */
+ 
+ return tmp;
+ }
