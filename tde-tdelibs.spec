@@ -426,11 +426,11 @@ export TDEDIR="%tde_prefix"
 #fi
 cd %name
 
+%define optflags %{optflags} -Wno-error
+
 %suse_cmake \
   -DCMAKE_C_FLAGS="${RPM_OPT_FLAGS}" \
-# V Убрано -Werror
   -DCMAKE_CXX_FLAGS="${RPM_OPT_FLAGS}" \
-#  -DCMAKE_CXX_FLAGS="${RPM_OPT_FLAGS} -Wno-error" \
   -DCMAKE_SKIP_RPATH=OFF \
   -DCMAKE_SKIP_INSTALL_RPATH=OFF \
   -DCMAKE_INSTALL_RPATH="%tde_libdir" \
