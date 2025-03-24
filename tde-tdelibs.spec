@@ -493,7 +493,7 @@ cd %name
   -DUTEMPTER_HELPER=/usr/lib/utempter/utempter \
   -DWITH_IN_TREE_LIBLTDL=ON \
   -DCMAKE_INCLUDE_PATH="/usr/share/libtool-2.4/libltdl;/usr/include/dbus-1.0/dbus" \
- ..
+..
 
 %make_build || make
 
