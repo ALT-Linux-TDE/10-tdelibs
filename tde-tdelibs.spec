@@ -426,11 +426,12 @@ export TDEDIR="%tde_prefix"
 #fi
 cd %name
 
-%define optflags %{optflags} -Wno-error
+export CFLAGS="${RPM_OPT_FLAGS}"
+export CXXFLAGS="${RPM_OPT_FLAGS} -Wno-error"
 
 %suse_cmake \
-  -DCMAKE_C_FLAGS="${RPM_OPT_FLAGS}" \
-  -DCMAKE_CXX_FLAGS="${RPM_OPT_FLAGS}" \
+  -DCMAKE_C_FLAGS="${CFLAGS}" \
+  -DCMAKE_CXX_FLAGS="${CXXFLAGS}" \
   -DCMAKE_SKIP_RPATH=OFF \
   -DCMAKE_SKIP_INSTALL_RPATH=OFF \
   -DCMAKE_INSTALL_RPATH="%tde_libdir" \
@@ -493,7 +494,7 @@ cd %name
   -DUTEMPTER_HELPER=/usr/lib/utempter/utempter \
   -DWITH_IN_TREE_LIBLTDL=ON \
   "-DCMAKE_INCLUDE_PATH=/usr/share/libtool-2.4/libltdl;/usr/include/dbus-1.0/dbus" \
-  ..
+..
 
 %make_build || make
 
