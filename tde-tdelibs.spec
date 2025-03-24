@@ -496,7 +496,7 @@ export CXXFLAGS="${RPM_OPT_FLAGS} -Wno-error"
   "-DCMAKE_INCLUDE_PATH=/usr/share/libtool-2.4/libltdl;/usr/include/dbus-1.0/dbus" \
 ..
 
-%make_build || make
+%make_build VERBOSE=1 || make VERBOSE=1
 
 %install
 rm -rf "%{?buildroot}"

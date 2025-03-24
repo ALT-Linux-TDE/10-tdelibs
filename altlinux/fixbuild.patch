@@ -212,7 +212,7 @@ diff -urN a/tde-tdelibs/tdecore/klibloader.cpp  b/tde-tdelibs/tdecore/klibloader
  
  template class TQAsciiDict<KLibrary>;
  
-@@ -375,17 +375,31 @@
+@@ -375,17 +375,30 @@
  
  KLibrary* KLibLoader::globalLibrary( const char *name )
  {
@@ -249,5 +249,4 @@ diff -urN a/tde-tdelibs/tdecore/klibloader.cpp  b/tde-tdelibs/tdecore/klibloader
  
 -return tmp;
 +    return lib;
-+ }
  }
