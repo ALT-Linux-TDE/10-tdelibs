@@ -131,7 +131,7 @@ BuildRequires: libgamin-devel
 BuildRequires: libpcre-devel libpcrecpp-devel
 
 # PCRE2 support
-BuildRequires: libpcre2-devel
+BuildRequires: libpcre2 libpcre2-devel
 
 # INOTIFY support
 BuildRequires: inotify-tools-devel
@@ -493,7 +493,9 @@ export CXXFLAGS="${RPM_OPT_FLAGS} -Wno-error"
   -DWITH_TDEICONLOADER_DEBUG=OFF \
   -DUTEMPTER_HELPER=/usr/lib/utempter/utempter \
   -DWITH_IN_TREE_LIBLTDL=ON \
-  "-DCMAKE_INCLUDE_PATH=/usr/share/libtool-2.4/libltdl;/usr/include/dbus-1.0/dbus" \
+#  "-DCMAKE_INCLUDE_PATH=/usr/share/libtool-2.4/libltdl;/usr/include/dbus-1.0/dbus" \
+  "-DCMAKE_INCLUDE_PATH=/usr/include/libltdl/;/usr/include/dbus-1.0/dbus" \
+#  "-DCMAKE_INCLUDE_PATH=/usr/include/libltdl/;/usr/share/libtool-2.4/libltdl;/usr/include/dbus-1.0/dbus" \
 ..
 
 %make_build VERBOSE=1 || make VERBOSE=1
