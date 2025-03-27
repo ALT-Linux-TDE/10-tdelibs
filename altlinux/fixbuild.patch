@@ -253,9 +253,9 @@ diff -urN a/tde-tdelibs/tdecore/klibloader.cpp  b/tde-tdelibs/tdecore/klibloader
 
 
 diff -urN a/tde-tdelibs/kjs/regexp.cpp b/tde-tdelibs/kjs/regexp.cpp
---- a/tde-tdelibs/kjs/regexp.cpp
-+++ b/tde-tdelibs/kjs/regexp.cpp
-@@ -27,6 +27,8 @@
+--- a/tde-tdelibs/kjs/regexp.cpp	2025-01-27 17:49:12.943923823 +0300
++++ b/tde-tdelibs/kjs/regexp.cpp	2025-03-27 15:48:55.736246833 +0300
+@@ -27,19 +27,21 @@
  #include <stdio.h>
  #include <stdlib.h>
  #include <string.h>
@@ -264,9 +264,71 @@ diff -urN a/tde-tdelibs/kjs/regexp.cpp b/tde-tdelibs/kjs/regexp.cpp
  
  using namespace KJS;
  
+-RegExp::UTF8SupportState RegExp::utf8Support = RegExp::Unknown;
++UTF8SupportState RegExp::utf8Support = Unknown;
+ 
+ RegExp::RegExp(const UString &p, int f)
+   : pat(p), flgs(f), m_notEmpty(false), valid(true), buffer(0), originalPos(0)
+ {
+   // Determine whether libpcre has unicode support if need be..
+-  if (utf8Support == Unknown) {
++  if (RegExp::utf8Support == Unknown) {
+     uint32_t supported;
+-    pcre2_config(PCRE2_CONFIG_COMPILED_WIDTHS, (void*)&supported);
+-    utf8Support = (supported & 0x0001) ? Supported : Unsupported;
++    pcre2_config(PCRE2_CONFIG_UTF, &supported);
++    RegExp::utf8Support = (supported & 0x0001) ? Supported : Unsupported;
+   }
+ 
+   nrSubPatterns = 0; // determined in match() with POSIX regex.
+@@ -133,7 +135,7 @@
+   if (flgs & Multiline)
+     pcre2flags |= PCRE2_MULTILINE;
+ 
+-  if (utf8Support == Supported)
++  if (RegExp::utf8Support == Supported)
+     pcre2flags |= (PCRE2_UTF | PCRE2_NO_UTF_CHECK);
+ 
+   // Fill our buffer with an encoded version, whether utf-8, or, 
+@@ -276,7 +278,7 @@
+ {
+   delete[] originalPos; // Just to be sure..
+   delete[] buffer;
+-  if (utf8Support == Supported)
++  if (RegExp::utf8Support == Supported)
+     prepareUtf8(s);
+   else
+     prepareASCII(s);
+@@ -318,7 +320,7 @@
+ 
+   int startPos;
+   int nextPos;
+-  if (utf8Support == Supported)
++  if (RegExp::utf8Support == Supported)
+   {
+     startPos = i;
+     while (originalPos[startPos] < i)
+@@ -336,7 +338,7 @@
+     nextPos  = i + (i < s.size() ? 1 : 0);
+   }
+ 
+-  uint32_t baseFlags = (utf8Support == Supported ? PCRE2_NO_UTF_CHECK : 0);
++  uint32_t baseFlags = (RegExp::utf8Support == Supported ? PCRE2_NO_UTF_CHECK : 0);
+   if (m_notEmpty)
+   {
+     baseFlags |= PCRE2_NOTEMPTY | PCRE2_ANCHORED;
+@@ -353,7 +355,7 @@
+       fprintf(stderr, "No match after m_notEmpty. +1 and keep going.\n");
+ #endif
+       m_notEmpty = 0;
+-      baseFlags = (utf8Support == Supported ? PCRE2_NO_UTF_CHECK : 0);
++      baseFlags = (RegExp::utf8Support == Supported ? PCRE2_NO_UTF_CHECK : 0);
+       numMatches = pcre2_match(pcregex, buffer, PCRE2_ZERO_TERMINATED, nextPos, baseFlags, match_data, NULL);
+       if (numMatches <= 0)
+         return UString::null;
 diff -urN a/tde-tdelibs/kjs/regexp.h b/tde-tdelibs/kjs/regexp.h
---- a/tde-tdelibs/kjs/regexp.h
-+++ b/tde-tdelibs/kjs/regexp.h
+--- a/tde-tdelibs/kjs/regexp.h	2025-01-27 17:49:12.943923823 +0300
++++ +++ b/tde-tdelibs/kjs/regexp.h	2025-03-27 15:48:58.215035047 +0300
 @@ -18,6 +18,8 @@
   *
   */
@@ -275,4 +337,17 @@ diff -urN a/tde-tdelibs/kjs/regexp.h b/tde-tdelibs/kjs/regexp.h
 +
  #ifndef _KJS_REGEXP_H_
  #define _KJS_REGEXP_H_
-
+ 
+@@ -85,7 +87,11 @@
+       Supported,
+       Unsupported
+     };
+-    static UTF8SupportState utf8Support;
++
++    class RegExp {
++    public:
++        static UTF8SupportState utf8Support;
++    };
+ #endif
+     uint32_t nrSubPatterns;
+ 
