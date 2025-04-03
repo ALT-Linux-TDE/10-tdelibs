@@ -498,7 +498,8 @@ export CXXFLAGS="${RPM_OPT_FLAGS} -Wno-error"
   -DPCRE2_CODE_UNIT_WIDTH=8 \
 ..
 
-%make_build VERBOSE=1 || make VERBOSE=1
+#more %make_build VERBOSE=1 || make VERBOSE=1
+%make_build || make
 
 %install
 rm -rf "%{?buildroot}"
