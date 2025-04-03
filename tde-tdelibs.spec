@@ -131,7 +131,8 @@ BuildRequires: libgamin-devel
 BuildRequires: libpcre-devel libpcrecpp-devel
 
 # PCRE2 support
-BuildRequires: libpcre2 libpcre2-devel
+#wasBuildRequires: libpcre2 libpcre2-devel
+BuildRequires: libpcre2-devel
 
 # INOTIFY support
 BuildRequires: inotify-tools-devel
@@ -141,7 +142,7 @@ BuildRequires: inotify-tools-devel
 BuildRequires: bzlib-devel
 
 # UTEMPTER support
-BuildRequires: libutempter
+#wasok BuildRequires: libutempter
 BuildRequires: libutempter-devel
 
 # HSPELL support
