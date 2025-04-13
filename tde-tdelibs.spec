@@ -414,6 +414,7 @@ unset QTDIR QTINC QTLIB
 export PATH="%tde_bindir:${PATH}"
 export PKG_CONFIG_PATH="%tde_libdir/pkgconfig:$PKG_CONFIG_PATH"
 export PKG_CONFIG_PATH="/usr/lib/pkgconfig:/usr/lib64/pkgconfig:$PKG_CONFIG_PATH"
+export LDFLAGS="-ltqt-mt"
 
 if [ -d "/usr/X11R6" ]; then
   export RPM_OPT_FLAGS="${RPM_OPT_FLAGS} -L/usr/X11R6/%_lib -I/usr/X11R6/include"
