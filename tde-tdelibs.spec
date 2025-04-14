@@ -428,13 +428,14 @@ export TDEDIR="%tde_prefix"
 #fi
 cd %name
 
+export RPM_OPT_FLAGS="${RPM_OPT_FLAGS//-flto=auto/}"
 export CFLAGS="${RPM_OPT_FLAGS}"
 #export CXXFLAGS="${RPM_OPT_FLAGS} -Wno-error"
 export CXXFLAGS="${RPM_OPT_FLAGS}"
 
 %suse_cmake \
-  -DCMAKE_C_FLAGS="${CFLAGS} \
-  -DCMAKE_CXX_FLAGS="${CXXFLAGS} \
+  -DCMAKE_C_FLAGS="${CFLAGS}" \
+  -DCMAKE_CXX_FLAGS="${CXXFLAGS}" \
   -DCMAKE_SKIP_RPATH=OFF \
   -DCMAKE_SKIP_INSTALL_RPATH=OFF \
   -DCMAKE_INSTALL_RPATH="%tde_libdir" \
