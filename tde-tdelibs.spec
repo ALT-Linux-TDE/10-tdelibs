@@ -398,8 +398,8 @@ applications for TDE.
 ##########
 
 %prep
-%setup -n tdelibs
-cd tdelibs
+%setup -n tde-tdelibs
+cd tde-tdelibs
 
 # RHEL 5: remove tdehwlib stuff from include files, to avoid FTBFS in tdebindings
 %if 0%{?rhel} == 5
