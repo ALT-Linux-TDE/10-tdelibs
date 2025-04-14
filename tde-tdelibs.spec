@@ -132,7 +132,7 @@ BuildRequires: libpcre-devel libpcrecpp-devel
 
 # PCRE2 support
 #wasBuildRequires: libpcre2 libpcre2-devel
-BuildRequires: libpcre2-devel
+#BuildRequires: libpcre2-devel
 
 # INOTIFY support
 BuildRequires: inotify-tools-devel
@@ -433,8 +433,8 @@ export CFLAGS="${RPM_OPT_FLAGS}"
 export CXXFLAGS="${RPM_OPT_FLAGS}"
 
 %suse_cmake \
-  -DCMAKE_C_FLAGS="${CFLAGS} -DPCRE2_CODE_UNIT_WIDTH=8" \
-  -DCMAKE_CXX_FLAGS="${CXXFLAGS} -DPCRE2_CODE_UNIT_WIDTH=8" \
+  -DCMAKE_C_FLAGS="${CFLAGS} \
+  -DCMAKE_CXX_FLAGS="${CXXFLAGS} \
   -DCMAKE_SKIP_RPATH=OFF \
   -DCMAKE_SKIP_INSTALL_RPATH=OFF \
   -DCMAKE_INSTALL_RPATH="%tde_libdir" \
@@ -497,7 +497,6 @@ export CXXFLAGS="${RPM_OPT_FLAGS}"
   -DUTEMPTER_HELPER=/usr/lib/utempter/utempter \
   -DWITH_IN_TREE_LIBLTDL=ON \
   -DCMAKE_INCLUDE_PATH="/usr/share/libtool-2.4/libltdl;/usr/include/dbus-1.0/dbus;/usr/include/dbus-1" \
-  -DPCRE2_CODE_UNIT_WIDTH=8 \
 ..
 
 #more %make_build VERBOSE=1 || make VERBOSE=1

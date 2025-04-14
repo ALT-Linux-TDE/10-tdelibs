@@ -260,7 +260,7 @@ diff -urN a/tde-tdelibs/kjs/regexp.cpp b/tde-tdelibs/kjs/regexp.cpp
  #include <stdlib.h>
  #include <string.h>
 +#include <cstdint>
-+#include <pcre2.h>
++#include <pcre.h>
  
  using namespace KJS;
  
@@ -338,6 +338,15 @@ diff -urN a/tde-tdelibs/kjs/regexp.h b/tde-tdelibs/kjs/regexp.h
  #ifndef _KJS_REGEXP_H_
  #define _KJS_REGEXP_H_
  
+@@ -27,7 +29,7 @@
+ 
+ #ifdef HAVE_PCRE2POSIX
+ #define PCRE2_CODE_UNIT_WIDTH 8
+-#include <pcre2.h>
++#include <pcre.h>
+ typedef PCRE2_UCHAR8 buftype_t; 
+ #else  // POSIX regex - not so good...
+ extern "C" { // bug with some libc5 distributions
 @@ -85,7 +87,11 @@
        Supported,
        Unsupported
