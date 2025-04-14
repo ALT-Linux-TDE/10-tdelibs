@@ -1,6 +1,6 @@
 # BEGIN SourceDeps(oneline):
 BuildRequires(pre): rpm-build-suse-compat
-BuildRequires: %_bindir/hspell %_bindir/ispell %_bindir/xmllint binutils-devel libXext-devel libXft-devel libdb4-devel libjpeg-devel libpcsclite libpng-devel perl(DB_File.pm) perl(Shell.pm) perl(Term/ReadLine.pm) pkgconfig(fontconfig) pkgconfig(freetype2) pkgconfig(libr) pkgconfig(libxml-2.0) pkgconfig(lua) pkgconfig(xcomposite) pkgconfig(xrandr) pkgconfig(xrender) valgrind-devel zlib-devel
+BuildRequires: %_bindir/hspell %_bindir/ispell %_bindir/xmllint binutils-devel libXext-devel libXft-devel libdb4-devel libjpeg-devel libpcsclite libpng-devel perl(DB_File.pm) perl(Shell.pm) perl(Term/ReadLine.pm) pkgconfig(fontconfig) pkgconfig(freetype2) pkgconfig(libr) pkgconfig(libxml-2.0) pkgconfig(lua) pkgconfig(xcomposite) pkgconfig(xrandr) pkg-config(xrender) valgrind-devel zlib-devel
 # END SourceDeps(oneline)
 %define suse_version 1550
 # see https://bugzilla.altlinux.org/show_bug.cgi?id=10382
@@ -79,7 +79,7 @@ Requires: trinity-filesystem >= %tde_version
 
 BuildRequires: tde-cmake >= %tde_version
 BuildRequires: gcc-c++
-BuildRequires: pkgconfig
+BuildRequires: pkg-config
 BuildRequires: fdupes
 
 %if 0%{?suse_version}
@@ -242,7 +242,7 @@ BuildRequires:libsystemd-devel
 #BuildRequires:libbrotli-devel libfreetype-devel libXdmcp-devel libXrender-devel libXext-devel libffi-devel libXft-devel
 
 #Патчи
-Patch0: fixbuild.patch
+Patch: fixbuild.patch
 
 %description
 Libraries for the Trinity Desktop Environment:
@@ -413,7 +413,7 @@ cd tde-tdelibs
 %build
 unset QTDIR QTINC QTLIB
 export PATH="%tde_bindir:${PATH}"
-export PKG_CONFIG_PATH="%tde_libdir/pkgconfig:/usr/lib/pkgconfig:/usr/lib64/pkgconfig:$PKG_CONFIG_PATH"
+export PKG_CONFIG_PATH="%tde_libdir/pkgconfig:%_libexecdir/pkgconfig:/usr/lib64/pkgconfig:$PKG_CONFIG_PATH"
 export LDFLAGS="-ltqt-mt"
 
 if [ -d "/usr/X11R6" ]; then
@@ -492,9 +492,9 @@ export CXXFLAGS="${RPM_OPT_FLAGS}"
   -DWITH_ASPELL=ON \
 %{?!with_hspell:-DWITH_HSPELL=OFF} \
   -DWITH_TDEICONLOADER_DEBUG=OFF \
-  -DUTEMPTER_HELPER=/usr/lib/utempter/utempter \
+  -DUTEMPTER_HELPER=%_libexecdir/utempter/utempter \
   -DWITH_IN_TREE_LIBLTDL=ON \
-  -DCMAKE_INCLUDE_PATH="/usr/share/libtool-2.4/libltdl;/usr/include/dbus-1.0/dbus;/usr/include/dbus-1" \
+  -DCMAKE_INCLUDE_PATH="%_datadir/libtool-2.4/libltdl;%_includedir/dbus-1.0/dbus;%_includedir/dbus-1" \
   -DCMAKE_BUILD_TYPE=RelWithDebInfo \
 ..
 
@@ -525,6 +525,9 @@ rm -f "%{?buildroot}%tde_bindir/filesharelist"
 rm -f "%{?buildroot}%tde_bindir/fileshareset"
 
 %changelog
+* Mon Apr 14 2025 Petr Akhlamov <ahlamovpm@basealt.ru> 14.1.3-alt1
+- initial build for ALT Sisyphus
+
 * Mon Jan 27 2025 Petr Akhlamov <ahlamovpm@basealt.ru> 14.1.2-alt1_1
 - converted for ALT Linux by srpmconvert tools
 
