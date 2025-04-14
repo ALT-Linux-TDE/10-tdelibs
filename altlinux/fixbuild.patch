@@ -328,7 +328,7 @@ diff -urN a/tde-tdelibs/kjs/regexp.cpp b/tde-tdelibs/kjs/regexp.cpp
          return UString::null;
 diff -urN a/tde-tdelibs/kjs/regexp.h b/tde-tdelibs/kjs/regexp.h
 --- a/tde-tdelibs/kjs/regexp.h	2025-01-27 17:49:12.943923823 +0300
-+++ +++ b/tde-tdelibs/kjs/regexp.h	2025-03-27 15:48:58.215035047 +0300
++++ b/tde-tdelibs/kjs/regexp.h	2025-03-27 15:48:58.215035047 +0300
 @@ -18,6 +18,8 @@
   *
   */
