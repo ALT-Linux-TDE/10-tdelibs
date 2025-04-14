@@ -398,7 +398,8 @@ applications for TDE.
 ##########
 
 %prep
-%setup -n %name
+%setup -n tdelibs
+cd tdelibs
 
 # RHEL 5: remove tdehwlib stuff from include files, to avoid FTBFS in tdebindings
 %if 0%{?rhel} == 5
@@ -412,8 +413,7 @@ applications for TDE.
 %build
 unset QTDIR QTINC QTLIB
 export PATH="%tde_bindir:${PATH}"
-export PKG_CONFIG_PATH="%tde_libdir/pkgconfig:$PKG_CONFIG_PATH"
-export PKG_CONFIG_PATH="/usr/lib/pkgconfig:/usr/lib64/pkgconfig:$PKG_CONFIG_PATH"
+export PKG_CONFIG_PATH="%tde_libdir/pkgconfig:/usr/lib/pkgconfig:/usr/lib64/pkgconfig:$PKG_CONFIG_PATH"
 export LDFLAGS="-ltqt-mt"
 
 if [ -d "/usr/X11R6" ]; then
@@ -422,11 +422,8 @@ fi
 
 export TDEDIR="%tde_prefix"
 
-#if ! rpm -E %%cmake|grep -e 'cd build\|cd ${CMAKE_BUILD_DIR:-build}'; then
-#  mkdir -p build
-#  cd build
-#fi
-cd %name
+mkdir -p build
+cd build
 
 export RPM_OPT_FLAGS="${RPM_OPT_FLAGS//-flto=auto/}"
 export CFLAGS="${RPM_OPT_FLAGS}"
@@ -498,6 +495,7 @@ export CXXFLAGS="${RPM_OPT_FLAGS}"
   -DUTEMPTER_HELPER=/usr/lib/utempter/utempter \
   -DWITH_IN_TREE_LIBLTDL=ON \
   -DCMAKE_INCLUDE_PATH="/usr/share/libtool-2.4/libltdl;/usr/include/dbus-1.0/dbus;/usr/include/dbus-1" \
+  -DCMAKE_BUILD_TYPE=RelWithDebInfo \
 ..
 
 #more %make_build VERBOSE=1 || make VERBOSE=1
