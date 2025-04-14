@@ -1,6 +1,6 @@
-diff --git a/tde-tdelibs/CMakeLists.txt b/tde-tdelibs/CMakeLists.txt
---- a/tde-tdelibs/CMakeLists.txt
-+++ b/tde-tdelibs/CMakeLists.txt
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
 @@ -13,6 +13,7 @@
  ##### set project version ########################
  
@@ -68,9 +68,9 @@ diff --git a/tde-tdelibs/CMakeLists.txt b/tde-tdelibs/CMakeLists.txt
  add_subdirectory( kglib )
  add_subdirectory( tdefx )
  add_subdirectory( tdecore )
-diff --git a/tde-tdelibs/tdecore/CMakeLists.txt b/tde-tdelibs/tdecore/CMakeLists.txt
---- a/tde-tdelibs/tdecore/CMakeLists.txt
-+++ b/tde-tdelibs/tdecore/CMakeLists.txt
+diff --git a/tdecore/CMakeLists.txt b/tdecore/CMakeLists.txt
+--- a/tdecore/CMakeLists.txt
++++ b/tdecore/CMakeLists.txt
 @@ -142,12 +142,12 @@
    VERSION 14.1.0
    EMBED tdecorenetwork-static
@@ -85,9 +85,9 @@ diff --git a/tde-tdelibs/tdecore/CMakeLists.txt b/tde-tdelibs/tdecore/CMakeLists
  
  ##### tdefakes_nonpic ###########################
  
-diff --git a/tde-tdelibs/tdecore/Makefile.am b/tde-tdelibs/tdecore/Makefile.am
---- a/tde-tdelibs/tdecore/Makefile.am
-+++ b/tde-tdelibs/tdecore/Makefile.am
+diff --git a/tdecore/Makefile.am b/tdecore/Makefile.am
+--- a/tdecore/Makefile.am
++++ b/tdecore/Makefile.am
 @@ -122,7 +122,7 @@
  	kqiodevicegzip_p.cpp ktimezones.cpp
  
@@ -97,9 +97,9 @@ diff --git a/tde-tdelibs/tdecore/Makefile.am b/tde-tdelibs/tdecore/Makefile.am
  	$(LIBART_LIBS) $(LIB_IDN) $(top_builddir)/tdefx/libtdefx.la $(LIB_TQT) $(LIBSM) $(LIB_X11) $(LIBZ) $(LIBDL)
  libtdecore_la_NMCHECK = $(srcdir)/libtdecore.nmcheck
  libtdecore_la_NMCHECKWEAK = $(srcdir)/libtdecore_weak.nmcheck $(srcdir)/libtqt-mt_weak.nmcheck \
-diff --git a/tde-tdelibs/tdeinit/CMakeLists.txt b/tde-tdelibs/tdeinit/CMakeLists.txt
---- a/tde-tdelibs/tdeinit/CMakeLists.txt
-+++ b/tde-tdelibs/tdeinit/CMakeLists.txt
+diff --git a/tdeinit/CMakeLists.txt b/tdeinit/CMakeLists.txt
+--- a/tdeinit/CMakeLists.txt
++++ b/tdeinit/CMakeLists.txt
 @@ -40,7 +40,7 @@
  
  tde_add_executable( ${target}
@@ -118,9 +118,9 @@ diff --git a/tde-tdelibs/tdeinit/CMakeLists.txt b/tde-tdelibs/tdeinit/CMakeLists
    DESTINATION ${BIN_INSTALL_DIR}
  )
  
-diff --git a/tde-tdelibs/tdeio/CMakeLists.txt b/tde-tdelibs/tdeio/CMakeLists.txt
---- a/tde-tdelibs/tdeio/CMakeLists.txt
-+++ b/tde-tdelibs/tdeio/CMakeLists.txt
+diff --git a/tdeio/CMakeLists.txt b/tdeio/CMakeLists.txt
+--- a/tdeio/CMakeLists.txt
++++ b/tdeio/CMakeLists.txt
 @@ -92,6 +92,6 @@
    VERSION 14.0.0
    EMBED kssl-static tdeiocore-static tdesycoca-static kbookmarks-static tdefile-static ${ELFICON_STATIC_LIB}
@@ -129,9 +129,9 @@ diff --git a/tde-tdelibs/tdeio/CMakeLists.txt b/tde-tdelibs/tdeio/CMakeLists.txt
 +  LINK_PRIVATE ltdl tdesu-shared ${LIBR_LIBRARIES} ${ACL_LIBRARIES}
    DESTINATION ${LIB_INSTALL_DIR}
  )
-diff --git a/tde-tdelibs/tdecore/configure.in.in b/tde-tdelibs/tdecore/configure.in.in
---- a/tde-tdelibs/tdecore/configure.in.in
-+++ b/tde-tdelibs/tdecore/configure.in.in
+diff --git a/tdecore/configure.in.in b/tdecore/configure.in.in
+--- a/tdecore/configure.in.in
++++ b/tdecore/configure.in.in
 @@ -232,3 +232,7 @@
        ],
        AC_MSG_RESULT(no)
@@ -140,18 +140,18 @@ diff --git a/tde-tdelibs/tdecore/configure.in.in b/tde-tdelibs/tdecore/configure
 +PKG_CHECK_MODULES([LTDL], [libltdl])
 +AC_SUBST([LTDL_CFLAGS])
 +AC_SUBST([LTDL_LIBS])
-diff --git a/tde-tdelibs/config.h.cmake b/tde-tdelibs/config.h.cmake
---- a/tde-tdelibs/config.h.cmake	2025-01-27 17:49:12.703944457 +0300
-+++ b/tde-tdelibs/config.h.cmake	2025-03-20 14:52:42.312325344 +0300
+diff --git a/config.h.cmake b/config.h.cmake
+--- a/config.h.cmake	2025-01-27 17:49:12.703944457 +0300
++++ b/config.h.cmake	2025-03-20 14:52:42.312325344 +0300
 @@ -1233,3 +1233,5 @@
  }
  #endif
  #endif
 +
 +#define lt_dlopen_flag(file, flags) lt_dlopen(file)
-diff --git a/tde-tdelibs/libltdl/ltdl.c b/tde-tdelibs/libltdl/ltdl.c
---- a/tde-tdelibs/libltdl/ltdl.c
-+++ b/tde-tdelibs/libltdl/ltdl.c
+diff --git a/libltdl/ltdl.c b/libltdl/ltdl.c
+--- a/libltdl/ltdl.c
++++ b/libltdl/ltdl.c
 @@ -554,7 +554,7 @@
  #  define DLERROR(arg)	LT_DLSTRERROR (arg)
  #endif
@@ -191,9 +191,9 @@ diff --git a/tde-tdelibs/libltdl/ltdl.c b/tde-tdelibs/libltdl/ltdl.c
                handle->system         = 0;
                handle->caller_data    = 0;
  	      LT_DLSET_FLAG (handle, LT_DLRESIDENT_FLAG);
-diff -urN a/tde-tdelibs/tdecore/klibloader.cpp  b/tde-tdelibs/tdecore/klibloader.cpp
---- a/tde-tdelibs/tdecore/klibloader.cpp
-+++ b/tde-tdelibs/tdecore/klibloader.cpp
+diff -urN a/tdecore/klibloader.cpp  b/tdecore/klibloader.cpp
+--- a/tdecore/klibloader.cpp
++++ b/tdecore/klibloader.cpp
 @@ -17,7 +17,7 @@
     Boston, MA 02110-1301, USA.
  */
@@ -252,9 +252,9 @@ diff -urN a/tde-tdelibs/tdecore/klibloader.cpp  b/tde-tdelibs/tdecore/klibloader
  }
 
 
-diff -urN a/tde-tdelibs/kjs/regexp.cpp b/tde-tdelibs/kjs/regexp.cpp
---- a/tde-tdelibs/kjs/regexp.cpp	2025-01-27 17:49:12.943923823 +0300
-+++ b/tde-tdelibs/kjs/regexp.cpp	2025-03-27 15:48:55.736246833 +0300
+diff -urN a/kjs/regexp.cpp b/kjs/regexp.cpp
+--- a/kjs/regexp.cpp	2025-01-27 17:49:12.943923823 +0300
++++ b/kjs/regexp.cpp	2025-03-27 15:48:55.736246833 +0300
 @@ -27,19 +27,21 @@
  #include <stdio.h>
  #include <stdlib.h>
@@ -326,9 +326,9 @@ diff -urN a/tde-tdelibs/kjs/regexp.cpp b/tde-tdelibs/kjs/regexp.cpp
        numMatches = pcre2_match(pcregex, buffer, PCRE2_ZERO_TERMINATED, nextPos, baseFlags, match_data, NULL);
        if (numMatches <= 0)
          return UString::null;
-diff -urN a/tde-tdelibs/kjs/regexp.h b/tde-tdelibs/kjs/regexp.h
---- a/tde-tdelibs/kjs/regexp.h	2025-01-27 17:49:12.943923823 +0300
-+++ b/tde-tdelibs/kjs/regexp.h	2025-03-27 15:48:58.215035047 +0300
+diff -urN a/kjs/regexp.h b/kjs/regexp.h
+--- a/kjs/regexp.h	2025-01-27 17:49:12.943923823 +0300
++++ b/kjs/regexp.h	2025-03-27 15:48:58.215035047 +0300
 @@ -18,6 +18,8 @@
   *
   */
@@ -360,9 +360,9 @@ diff -urN a/tde-tdelibs/kjs/regexp.h b/tde-tdelibs/kjs/regexp.h
  #endif
      uint32_t nrSubPatterns;
  
-diff --git a/tde-tdelibs/libltdl/ltdl.c "b/tde-tdelibs/libltdl/ltdl.c"
---- a/tde-tdelibs/libltdl/ltdl.c	2025-03-13 12:20:44.516111601 +0300
-+++ "b/tde-tdelibs/libltdl/ltdl.c"	2025-03-20 15:55:01.661523147 +0300
+diff --git a/libltdl/ltdl.c "b/libltdl/ltdl.c"
+--- a/libltdl/ltdl.c	2025-03-13 12:20:44.516111601 +0300
++++ "b/libltdl/ltdl.c"	2025-03-20 15:55:01.661523147 +0300
 @@ -554,7 +554,7 @@
  #  define DLERROR(arg)	LT_DLSTRERROR (arg)
  #endif
@@ -402,9 +402,9 @@ diff --git a/tde-tdelibs/libltdl/ltdl.c "b/tde-tdelibs/libltdl/ltdl.c"
                handle->system         = 0;
                handle->caller_data    = 0;
  	      LT_DLSET_FLAG (handle, LT_DLRESIDENT_FLAG);
-diff --git a/tde-tdelibs/tdecore/CMakeLists.txt "b/tde-tdelibs/tdecore/CMakeLists.txt"
---- a/tde-tdelibs/tdecore/CMakeLists.txt	2025-01-27 17:49:13.113909207 +0300
-+++ "b/tde-tdelibs/tdecore/CMakeLists.txt"	2025-02-27 12:18:44.744751366 +0300
+diff --git a/tdecore/CMakeLists.txt "b/tdecore/CMakeLists.txt"
+--- a/tdecore/CMakeLists.txt	2025-01-27 17:49:13.113909207 +0300
++++ "b/tdecore/CMakeLists.txt"	2025-02-27 12:18:44.744751366 +0300
 @@ -142,12 +142,13 @@
    VERSION 14.1.0
    EMBED tdecorenetwork-static
@@ -420,9 +420,9 @@ diff --git a/tde-tdelibs/tdecore/CMakeLists.txt "b/tde-tdelibs/tdecore/CMakeList
  
  ##### tdefakes_nonpic ###########################
  
-diff --git a/tde-tdelibs/tdecore/configure.in.in "b/tde-tdelibs/tdecore/configure.in.in"
---- a/tde-tdelibs/tdecore/configure.in.in	2025-01-27 17:49:13.115909035 +0300
-+++ "b/tde-tdelibs/tdecore/configure.in.in"	2025-02-28 11:29:42.071817767 +0300
+diff --git a/tdecore/configure.in.in "b/tdecore/configure.in.in"
+--- a/tdecore/configure.in.in	2025-01-27 17:49:13.115909035 +0300
++++ "b/tdecore/configure.in.in"	2025-02-28 11:29:42.071817767 +0300
 @@ -232,3 +232,7 @@
        ],
        AC_MSG_RESULT(no)
@@ -431,9 +431,9 @@ diff --git a/tde-tdelibs/tdecore/configure.in.in "b/tde-tdelibs/tdecore/configur
 +PKG_CHECK_MODULES([LTDL], [libltdl])
 +AC_SUBST([LTDL_CFLAGS])
 +AC_SUBST([LTDL_LIBS])
-diff --git a/tde-tdelibs/tdecore/klibloader.cpp "b/tde-tdelibs/tdecore/klibloader.cpp"
---- a/tde-tdelibs/tdecore/klibloader.cpp	2025-03-20 15:21:07.136939023 +0300
-+++ "b/tde-tdelibs/tdecore/klibloader.cpp"	2025-03-22 14:55:02.293638119 +0300
+diff --git a/tdecore/klibloader.cpp "b/tdecore/klibloader.cpp"
+--- a/tdecore/klibloader.cpp	2025-03-20 15:21:07.136939023 +0300
++++ "b/tdecore/klibloader.cpp"	2025-03-22 14:55:02.293638119 +0300
 @@ -17,7 +17,7 @@
     Boston, MA 02110-1301, USA.
  */
@@ -493,9 +493,9 @@ diff --git a/tde-tdelibs/tdecore/klibloader.cpp "b/tde-tdelibs/tdecore/klibloade
  }
  
  
-diff --git a/tde-tdelibs/tdecore/Makefile.am "b/tde-tdelibs/tdecore/Makefile.am"
---- a/tde-tdelibs/tdecore/Makefile.am	2025-01-27 17:49:13.114909121 +0300
-+++ "b/tde-tdelibs/tdecore/Makefile.am"	2025-02-28 11:32:49.134656725 +0300
+diff --git a/tdecore/Makefile.am "b/tdecore/Makefile.am"
+--- a/tdecore/Makefile.am	2025-01-27 17:49:13.114909121 +0300
++++ "b/tdecore/Makefile.am"	2025-02-28 11:32:49.134656725 +0300
 @@ -122,7 +122,7 @@
  	kqiodevicegzip_p.cpp ktimezones.cpp
  
@@ -505,9 +505,9 @@ diff --git a/tde-tdelibs/tdecore/Makefile.am "b/tde-tdelibs/tdecore/Makefile.am"
  	$(LIBART_LIBS) $(LIB_IDN) $(top_builddir)/tdefx/libtdefx.la $(LIB_TQT) $(LIBSM) $(LIB_X11) $(LIBZ) $(LIBDL)
  libtdecore_la_NMCHECK = $(srcdir)/libtdecore.nmcheck
  libtdecore_la_NMCHECKWEAK = $(srcdir)/libtdecore_weak.nmcheck $(srcdir)/libtqt-mt_weak.nmcheck \
-diff --git a/tde-tdelibs/tdeinit/CMakeLists.txt "b/tde-tdelibs/tdeinit/CMakeLists.txt"
---- a/tde-tdelibs/tdeinit/CMakeLists.txt	2025-01-27 17:49:13.261896483 +0300
-+++ "b/tde-tdelibs/tdeinit/CMakeLists.txt"	2025-02-24 11:53:05.640766417 +0300
+diff --git a/tdeinit/CMakeLists.txt "b/tdeinit/CMakeLists.txt"
+--- a/tdeinit/CMakeLists.txt	2025-01-27 17:49:13.261896483 +0300
++++ "b/tdeinit/CMakeLists.txt"	2025-02-24 11:53:05.640766417 +0300
 @@ -40,7 +40,7 @@
  
  tde_add_executable( ${target}
@@ -526,9 +526,9 @@ diff --git a/tde-tdelibs/tdeinit/CMakeLists.txt "b/tde-tdelibs/tdeinit/CMakeList
    DESTINATION ${BIN_INSTALL_DIR}
  )
  
-diff --git a/tde-tdelibs/tdeio/CMakeLists.txt "b/tde-tdelibs/tdeio/CMakeLists.txt"
---- a/tde-tdelibs/tdeio/CMakeLists.txt	2025-01-27 17:49:13.264896225 +0300
-+++ "b/tde-tdelibs/tdeio/CMakeLists.txt"	2025-02-24 11:51:42.512967153 +0300
+diff --git a/tdeio/CMakeLists.txt "b/tdeio/CMakeLists.txt"
+--- a/tdeio/CMakeLists.txt	2025-01-27 17:49:13.264896225 +0300
++++ "b/tdeio/CMakeLists.txt"	2025-02-24 11:51:42.512967153 +0300
 @@ -92,6 +92,6 @@
    VERSION 14.0.0
    EMBED kssl-static tdeiocore-static tdesycoca-static kbookmarks-static tdefile-static ${ELFICON_STATIC_LIB}
