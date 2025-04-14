@@ -1,6 +1,6 @@
 # BEGIN SourceDeps(oneline):
 BuildRequires(pre): rpm-build-suse-compat
-BuildRequires: %_bindir/hspell %_bindir/ispell %_bindir/xmllint binutils-devel libXext-devel libXft-devel libdb4-devel libjpeg-devel libpcsclite libpng-devel perl(DB_File.pm) perl(Shell.pm) perl(Term/ReadLine.pm) pkgconfig(fontconfig) pkgconfig(freetype2) pkgconfig(libr) pkgconfig(libxml-2.0) pkgconfig(lua) pkgconfig(xcomposite) pkgconfig(xrandr) pkg-config(xrender) valgrind-devel zlib-devel
+BuildRequires: %_bindir/hspell %_bindir/ispell %_bindir/xmllint binutils-devel libXext-devel libXft-devel libdb4-devel libjpeg-devel libpcsclite libpng-devel perl(DB_File.pm) perl(Shell.pm) perl(Term/ReadLine.pm) pkgconfig(fontconfig) pkgconfig(freetype2) pkgconfig(libr) pkgconfig(libxml-2.0) pkgconfig(lua) pkgconfig(xcomposite) pkgconfig(xrandr) valgrind-devel zlib-devel
 # END SourceDeps(oneline)
 %define suse_version 1550
 # see https://bugzilla.altlinux.org/show_bug.cgi?id=10382
