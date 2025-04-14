@@ -408,7 +408,7 @@ cd tde-tdelibs
        -e "/#ifdef __TDE_HAVE_TDEHWLIB/,/#endif/d"
 %endif
 
-%patch0 -p1
+%patch0 -p2
 
 %build
 unset QTDIR QTINC QTLIB
