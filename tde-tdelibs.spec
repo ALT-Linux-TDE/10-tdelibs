@@ -429,7 +429,8 @@ export TDEDIR="%tde_prefix"
 cd %name
 
 export CFLAGS="${RPM_OPT_FLAGS}"
-export CXXFLAGS="${RPM_OPT_FLAGS} -Wno-error"
+#export CXXFLAGS="${RPM_OPT_FLAGS} -Wno-error"
+export CXXFLAGS="${RPM_OPT_FLAGS}
 
 %suse_cmake \
   -DCMAKE_C_FLAGS="${CFLAGS}" \
