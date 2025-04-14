@@ -496,7 +496,7 @@ export CXXFLAGS="${RPM_OPT_FLAGS}
   -DWITH_TDEICONLOADER_DEBUG=OFF \
   -DUTEMPTER_HELPER=/usr/lib/utempter/utempter \
   -DWITH_IN_TREE_LIBLTDL=ON \
-  -DCMAKE_CXX_FLAGS="-I/usr/share/libtool-2.4/libltdl -I/usr/include/dbus-1.0/dbus -I/usr/include/dbus-1" \
+  -DCMAKE_INCLUDE_PATH="/usr/share/libtool-2.4/libltdl;/usr/include/dbus-1.0/dbus;/usr/include/dbus-1" \
   -DPCRE2_CODE_UNIT_WIDTH=8 \
 ..
 
